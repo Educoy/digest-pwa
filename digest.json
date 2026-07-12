@@ -1,0 +1,92 @@
+{
+  "fecha": "2026-07-12",
+  "generado_utc": "2026-07-12T05:17:51Z",
+  "indicadores": {
+    "dolar": {
+      "valor": 928.99,
+      "variacion": -6.72,
+      "variacion_pct": -0.72
+    },
+    "uf": {
+      "valor": 40844.79,
+      "variacion": 0.0,
+      "variacion_pct": 0.0
+    }
+  },
+  "noticia_del_dia": "2aff509662",
+  "pildora_ia": "Función de pérdida (loss): el número que mide qué tan equivocado está el modelo. Todo el entrenamiento consiste en minimizarlo; elegir bien la loss define qué aprende realmente el modelo.",
+  "noticias": [
+    {
+      "id": "2aff509662",
+      "tema": "ciencia",
+      "titular_es": "Un truco con campos eléctricos aumenta el flujo de calor casi un 300%",
+      "resumen": "Investigadores descubrieron que la electricidad puede reconfigurar drásticamente cómo fluye el calor a través de ciertos materiales cerámicos. Este hallazgo triplica la conducción térmica en una dirección preferente, lo que promete revolucionar las tecnologías de enfriamiento y el diseño de futuros dispositivos de ahorro energético.",
+      "relevancia": 9,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260709160651.htm",
+      "fuente": "sciencedaily.com"
+    },
+    {
+      "id": "b99ff00c71",
+      "tema": "ciencia",
+      "titular_es": "Físicos logran crear un material cuántico predicho hace más de una década",
+      "resumen": "Científicos han alcanzado un hito al fabricar un material cuántico bidimensional y confirmar sus inusuales estados de conducción en los bordes. La capacidad de controlar estos estados mediante tensión mecánica abre la puerta a una nueva plataforma para la electrónica cuántica a temperatura ambiente.",
+      "relevancia": 9,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260711010123.htm",
+      "fuente": "sciencedaily.com"
+    },
+    {
+      "id": "0876fa567e",
+      "tema": "ia",
+      "titular_es": "Nvidia, CoreWeave y Nebius: el esquema de financiamiento circular del auge de las GPU",
+      "resumen": "Una investigación revela cómo Nvidia y sus socios de nube especializados han creado un ecosistema de financiamiento circular para inflar la demanda de chips de IA. Este flujo de capital cruzado plantea serias interrogantes sobre la sostenibilidad financiera real detrás del actual auge del hardware de inteligencia artificial.",
+      "relevancia": 8,
+      "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
+      "fuente": "io-fund.com (vía HN)"
+    },
+    {
+      "id": "e8265069f1",
+      "tema": "ia",
+      "titular_es": "Mesh LLM: computación distribuida de IA sobre el protocolo Iroh",
+      "resumen": "Se ha presentado un nuevo sistema para ejecutar modelos de lenguaje de gran tamaño (LLM) de forma distribuida utilizando Iroh, una red de comunicación descentralizada. Este avance permite aprovechar recursos de computación distribuidos sin depender de un servidor centralizado, facilitando el desarrollo de IA descentralizada.",
+      "relevancia": 7,
+      "url": "https://www.iroh.computer/blog/mesh-llm",
+      "fuente": "iroh.computer (vía HN)"
+    },
+    {
+      "id": "9b313e7582",
+      "tema": "emprendimiento",
+      "titular_es": "Reed Jobs prefiere hablar sobre curar el cáncer antes que de su apellido",
+      "resumen": "Yosemite, la firma de capital de riesgo fundada por el hijo de Steve Jobs, cuenta ya con un equipo de 17 personas enfocado en la biotecnología. La startup busca capitalizar el vencimiento de patentes de medicamentos clave para financiar y acelerar tratamientos innovadores contra el cáncer.",
+      "relevancia": 7,
+      "url": "https://techcrunch.com/2026/07/11/reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name/",
+      "fuente": "techcrunch.com"
+    },
+    {
+      "id": "e67a365843",
+      "tema": "ia",
+      "titular_es": "'Slopsquatting': la nueva amenaza en la cadena de suministro de software creada por la IA",
+      "resumen": "A diferencia del clásico 'typosquatting', esta nueva vulnerabilidad surge cuando los asistentes de programación basados en IA alucinan con paquetes inexistentes que luego son registrados por ciberdelincuentes. Los desarrolladores terminan instalando código malicioso de forma involuntaria al confiar ciegamente en las sugerencias de la IA.",
+      "relevancia": 6,
+      "url": "https://venturebeat.com/security/forget-typosquatting-slopsquatting-is-the-software-supply-chain-threat-created-by-ai-coding-tools",
+      "fuente": "venturebeat.com"
+    },
+    {
+      "id": "674313bcd8",
+      "tema": "finanzas",
+      "titular_es": "El Fiscal General de Oregón retira el intento de retrasar la fusión de Paramount y Warner Bros.",
+      "resumen": "El fiscal estatal desistió de su solicitud para postergar por 60 días el cierre de la adquisición de Warner Bros. Discovery por parte de Paramount. La decisión se tomó tras solicitar documentos clave sobre la transacción, despejando el camino legal para una de las mayores fusiones de medios del año.",
+      "relevancia": 6,
+      "url": "https://www.theverge.com/policy/964493/oregons-ag-delay-paramount-warner-bros-merger",
+      "fuente": "theverge.com"
+    },
+    {
+      "id": "5c4e9ee4d0",
+      "tema": "finanzas",
+      "titular_es": "Un importante franquiciado de hamburgueserías de comida rápida se declara en quiebra",
+      "resumen": "Uno de los mayores operadores de franquicias de comida rápida en EE. UU. se ha acogido al Capítulo 11 de la ley de quiebras tras años de declive financiero. Este movimiento refleja la creciente presión económica y el aumento de costos operativos que asfixian al sector de la restauración rápida.",
+      "relevancia": 6,
+      "url": "https://finance.yahoo.com/small-business/articles/big-fast-food-burger-chain-164700124.html",
+      "fuente": "finance.yahoo.com"
+    }
+  ]
+}
