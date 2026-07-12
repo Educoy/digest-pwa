@@ -169,6 +169,39 @@
     border-color: rgba(251,191,36,.4);
   }
 
+  .bandera {
+    position: absolute;
+    top: 18px; right: 18px;
+    font-size: 22px;
+    background: rgba(255,255,255,.05);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 12px;
+    padding: 4px 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.2);
+    z-index: 2;
+  }
+
+  .carta--pildora {
+    background: linear-gradient(145deg, #1e1b4b, #312e81);
+    border-color: rgba(99,102,241,.3);
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+  }
+  .carta--pildora .pildora-icono {
+    font-size: 64px;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,.4));
+  }
+  .carta--pildora .titular {
+    font-size: 24px; color: #a5b4fc; margin-bottom: 16px;
+  }
+  .carta--pildora .resumen {
+    font-size: 16.5px; line-height: 1.6; color: #e0e7ff;
+    flex: 0 1 auto;
+  }
+
   .titular {
     font-size: clamp(20px, 5.6vw, 26px);
     line-height: 1.24;
@@ -405,6 +438,7 @@ function escribirGuardados(arr) {
   try { localStorage.setItem(LS_KEY, JSON.stringify(arr)); } catch (e) { /* almacenamiento lleno o bloqueado */ }
 }
 function guardarNoticia(n) {
+  if (n.esPildora) return;
   const arr = leerGuardados();
   if (arr.some((g) => g.id === n.id && g.fecha === fechaActual)) return;  // ya estaba
   arr.push({
@@ -449,17 +483,36 @@ function renderHeader() {
 // ---------------------------------------------------------------------------
 // Construcción del mazo de cards
 // ---------------------------------------------------------------------------
-function crearCarta(noticia) {
-  const t = infoTema(noticia.tema);
-  const esEstrella = noticia.id === datos.noticia_del_dia;
-
+function crearCarta(item, tipo = "noticia", esEstrella = false) {
   const el = document.createElement("article");
+
+  if (tipo === "pildora") {
+    el.className = "carta carta--pildora";
+    el.innerHTML = `
+      <div class="overlay overlay--like">❤️ GENIAL</div>
+      <div class="overlay overlay--nope">✕ PASAR</div>
+      <div class="pildora-icono">🧠</div>
+      <h2 class="titular">Píldora de IA</h2>
+      <p class="resumen">${item}</p>
+    `;
+    const carta = { el, noticia: { url: null, esPildora: true, texto: item }, ovLike: el.querySelector(".overlay--like"), ovNope: el.querySelector(".overlay--nope") };
+    el.addEventListener("touchstart", (e) => alIniciar(e.touches[0].clientX, e.touches[0].clientY, carta), { passive: true });
+    el.addEventListener("mousedown", (e) => alIniciar(e.clientX, e.clientY, carta));
+    return carta;
+  }
+
+  // Es una noticia normal
+  const noticia = item;
+  const t = infoTema(noticia.tema);
   el.className = "carta" + (esEstrella ? " carta--estrella" : "");
 
   const badgeEstrella = esEstrella ? `<span class="badge badge--estrella">⭐ Noticia del día</span>` : "";
+  const bandera = noticia.bandera ? `<div class="bandera">${noticia.bandera}</div>` : `<div class="bandera">🌍</div>`;
+
   el.innerHTML = `
     <div class="overlay overlay--like">❤️ GUARDAR</div>
     <div class="overlay overlay--nope">✕ PASAR</div>
+    ${bandera}
     <div class="badges">
       <span class="badge" style="--c:${t.color}">${t.emoji} ${escapar(t.nombre)}</span>
       ${badgeEstrella}
@@ -486,11 +539,28 @@ function crearCarta(noticia) {
 function construirMazo() {
   const mazo = $("#mazo");
   mazo.innerHTML = "";
-  cartas = (datos.noticias || []).map((n) => {
-    const c = crearCarta(n);
+  cartas = [];
+  
+  const noticias = datos.noticias || [];
+  const pildoras = datos.pildoras_ia || [];
+  let pildoraIndex = 0;
+
+  for (let i = 0; i < noticias.length; i++) {
+    const n = noticias[i];
+    const esEstrella = n.id === datos.noticia_del_dia;
+    const c = crearCarta(n, "noticia", esEstrella);
+    cartas.push(c);
     mazo.appendChild(c.el);
-    return c;
-  });
+    
+    // Intercalar píldora cada 10 noticias
+    if ((i + 1) % 10 === 0 && pildoraIndex < pildoras.length) {
+      const cPildora = crearCarta(pildoras[pildoraIndex], "pildora");
+      cartas.push(cPildora);
+      mazo.appendChild(cPildora.el);
+      pildoraIndex++;
+    }
+  }
+
   if (!cartas.length) {          // estado vacío honesto
     mostrarVacio("No hay noticias en el digest de hoy. Vuelve mañana ☀️");
     return;
@@ -515,7 +585,7 @@ function actualizarPila() {
 }
 
 function actualizarProgreso() {
-  const total = (datos.noticias || []).length;
+  const total = cartas.length > 0 ? Array.from($("#mazo").children).length : 0;
   const actual = total - cartas.length + 1;
   $("#progreso").textContent = cartas.length ? `${actual} / ${total}` : "";
 }
@@ -582,7 +652,7 @@ function volverCentro() {
 // Anima la card fuera de pantalla y avanza a la siguiente.
 function salir(dir) {
   const c = cartas[0];
-  if (dir > 0) guardarNoticia(c.noticia);   // swipe derecha = me gusta
+  if (dir > 0 && !c.noticia.esPildora) guardarNoticia(c.noticia);   // swipe derecha = me gusta
   const off = (window.innerWidth || 400) * 1.4;
   c.el.style.transition = "transform .35s ease-out, opacity .35s ease-out";
   c.el.style.transform = `translate(${dir * off}px, ${dy}px) rotate(${dir * 18}deg)`;

@@ -1,6 +1,6 @@
 {
   "fecha": "2026-07-12",
-  "generado_utc": "2026-07-12T05:17:51Z",
+  "generado_utc": "2026-07-12T06:12:28Z",
   "indicadores": {
     "dolar": {
       "valor": 928.99,
@@ -13,80 +13,185 @@
       "variacion_pct": 0.0
     }
   },
-  "noticia_del_dia": "2aff509662",
+  "noticia_del_dia": "0876fa567e",
   "pildora_ia": "Función de pérdida (loss): el número que mide qué tan equivocado está el modelo. Todo el entrenamiento consiste en minimizarlo; elegir bien la loss define qué aprende realmente el modelo.",
+  "pildoras_ia": [
+    "Función de pérdida (loss): el número que mide qué tan equivocado está el modelo. Todo el entrenamiento consiste en minimizarlo; elegir bien la loss define qué aprende realmente el modelo.",
+    "Épocas y batches: una 'época' es una pasada completa por todos los datos; un 'batch' es el grupo de ejemplos que se procesan juntos antes de actualizar el modelo. Ajustar ambos afecta velocidad y calidad.",
+    "Destilación: entrenar un modelo pequeño para imitar a uno grande. El resultado es más rápido y barato de correr conservando buena parte de la calidad. Así nacen muchos modelos 'flash' o 'mini'.",
+    "Ventana de contexto: la cantidad máxima de tokens que un LLM puede 'ver' a la vez (prompt + respuesta). Si te pasas, olvida el inicio. Los modelos modernos van de miles a millones de tokens.",
+    "Cross-validation: técnica para evaluar un modelo dividiendo los datos en varias partes y rotando cuál se usa para probar. Da una estimación más honesta del rendimiento que una sola división."
+  ],
   "noticias": [
     {
-      "id": "2aff509662",
-      "tema": "ciencia",
-      "titular_es": "Un truco con campos eléctricos aumenta el flujo de calor casi un 300%",
-      "resumen": "Investigadores descubrieron que la electricidad puede reconfigurar drásticamente cómo fluye el calor a través de ciertos materiales cerámicos. Este hallazgo triplica la conducción térmica en una dirección preferente, lo que promete revolucionar las tecnologías de enfriamiento y el diseño de futuros dispositivos de ahorro energético.",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260709160651.htm",
-      "fuente": "sciencedaily.com"
-    },
-    {
-      "id": "b99ff00c71",
-      "tema": "ciencia",
-      "titular_es": "Físicos logran crear un material cuántico predicho hace más de una década",
-      "resumen": "Científicos han alcanzado un hito al fabricar un material cuántico bidimensional y confirmar sus inusuales estados de conducción en los bordes. La capacidad de controlar estos estados mediante tensión mecánica abre la puerta a una nueva plataforma para la electrónica cuántica a temperatura ambiente.",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260711010123.htm",
-      "fuente": "sciencedaily.com"
-    },
-    {
       "id": "0876fa567e",
-      "tema": "ia",
-      "titular_es": "Nvidia, CoreWeave y Nebius: el esquema de financiamiento circular del auge de las GPU",
-      "resumen": "Una investigación revela cómo Nvidia y sus socios de nube especializados han creado un ecosistema de financiamiento circular para inflar la demanda de chips de IA. Este flujo de capital cruzado plantea serias interrogantes sobre la sostenibilidad financiera real detrás del actual auge del hardware de inteligencia artificial.",
-      "relevancia": 8,
+      "tema": "finanzas",
+      "titular_es": "Nvidia, CoreWeave y Nebius: Dentro de la financiación circular del auge de las GPU",
+      "resumen": "Una investigación revela cómo Nvidia y sus socios de nube especializada participan en un esquema de financiamiento circular para inflar la demanda de chips. CoreWeave y Nebius compran GPUs con préstamos respaldados por la propia Nvidia, lo que plantea dudas sobre la sostenibilidad real del mercado de hardware de IA. Un análisis clave para entender la economía detrás de la infraestructura tecnológica actual.",
+      "relevancia": 5,
       "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
-      "fuente": "io-fund.com (vía HN)"
+      "fuente": "io-fund.com (vía HN)",
+      "bandera": "🇺🇸"
+    },
+    {
+      "id": "49e3cbc2ef",
+      "tema": "ia",
+      "titular_es": "Qué envía realmente a xAI la interfaz de línea de comandos Grok Build",
+      "resumen": "Un análisis técnico revela los datos exactos que la herramienta CLI de xAI transmite a sus servidores durante el desarrollo. Aunque facilita la creación de agentes de IA, expone metadatos del sistema y fragmentos de código que podrían preocupar a desarrolladores enfocados en la privacidad. Esencial para ingenieros que evalúan la integración de Grok en sus flujos de trabajo.",
+      "relevancia": 5,
+      "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+      "fuente": "gist.github.com (vía HN)",
+      "bandera": "🇺🇸"
     },
     {
       "id": "e8265069f1",
       "tema": "ia",
-      "titular_es": "Mesh LLM: computación distribuida de IA sobre el protocolo Iroh",
-      "resumen": "Se ha presentado un nuevo sistema para ejecutar modelos de lenguaje de gran tamaño (LLM) de forma distribuida utilizando Iroh, una red de comunicación descentralizada. Este avance permite aprovechar recursos de computación distribuidos sin depender de un servidor centralizado, facilitando el desarrollo de IA descentralizada.",
-      "relevancia": 7,
+      "titular_es": "Mesh LLM: Computación distribuida de IA sobre iroh",
+      "resumen": "Presentan un nuevo framework que permite ejecutar modelos de lenguaje grandes (LLM) de forma distribuida utilizando el protocolo de red iroh. Esta arquitectura descentralizada facilita que múltiples dispositivos hogareños colaboren en la inferencia de IA sin depender de servidores centralizados. Un proyecto de código abierto de gran interés para ingenieros de sistemas y redes.",
+      "relevancia": 5,
       "url": "https://www.iroh.computer/blog/mesh-llm",
-      "fuente": "iroh.computer (vía HN)"
+      "fuente": "iroh.computer (vía HN)",
+      "bandera": "🌍"
     },
     {
-      "id": "9b313e7582",
-      "tema": "emprendimiento",
-      "titular_es": "Reed Jobs prefiere hablar sobre curar el cáncer antes que de su apellido",
-      "resumen": "Yosemite, la firma de capital de riesgo fundada por el hijo de Steve Jobs, cuenta ya con un equipo de 17 personas enfocado en la biotecnología. La startup busca capitalizar el vencimiento de patentes de medicamentos clave para financiar y acelerar tratamientos innovadores contra el cáncer.",
-      "relevancia": 7,
-      "url": "https://techcrunch.com/2026/07/11/reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name/",
-      "fuente": "techcrunch.com"
+      "id": "e0ec47435b",
+      "tema": "ia",
+      "titular_es": "Show HN: Ant – Un nuevo entorno de ejecución y ecosistema para JavaScript",
+      "resumen": "Se ha lanzado Ant, un ecosistema de JavaScript alternativo que incluye su propio motor de ejecución, gestor de paquetes y plataforma de despliegue. Promete un rendimiento optimizado y herramientas nativas para crear aplicaciones de escritorio y web sin la sobrecarga de Node.js o Deno. Una propuesta interesante para desarrolladores de software que buscan explorar nuevas arquitecturas de runtime.",
+      "relevancia": 5,
+      "url": "https://antjs.org",
+      "fuente": "antjs.org (vía HN)",
+      "bandera": "🌍"
+    },
+    {
+      "id": "7e4ee71dec",
+      "tema": "ia",
+      "titular_es": "Cómo logramos multiplicar por 4 el rendimiento de PgBouncer",
+      "resumen": "Un equipo de ingeniería detalla las optimizaciones técnicas aplicadas a PgBouncer, el popular pool de conexiones para PostgreSQL, logrando cuadruplicar su capacidad de procesamiento. El artículo profundiza en la gestión de hilos, reducción de bloqueos y mejoras en el manejo de memoria a nivel de sistema operativo. Una lectura obligatoria para administradores de bases de datos y desarrolladores de backend.",
+      "relevancia": 5,
+      "url": "https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres",
+      "fuente": "clickhouse.com (vía HN)",
+      "bandera": "🌍"
+    },
+    {
+      "id": "b53dd2baa1",
+      "tema": "ia",
+      "titular_es": "Tras años de espera, el sintetizador viral Nopia está 'prácticamente terminado'",
+      "resumen": "Los creadores del innovador sintetizador Nopia han anunciado que el hardware está listo para su lanzamiento comercial tras superar la fase de prototipo. Este dispositivo destaca por su enfoque intuitivo en la teoría musical y su diseño modular, atrayendo la atención de la comunidad de tecnología musical. Un caso de éxito de diseño industrial y desarrollo de hardware independiente.",
+      "relevancia": 5,
+      "url": "https://www.theverge.com/gadgets/964499/nopia-viral-synth-finished-price-release-demo",
+      "fuente": "theverge.com",
+      "bandera": "🌍"
     },
     {
       "id": "e67a365843",
       "tema": "ia",
-      "titular_es": "'Slopsquatting': la nueva amenaza en la cadena de suministro de software creada por la IA",
-      "resumen": "A diferencia del clásico 'typosquatting', esta nueva vulnerabilidad surge cuando los asistentes de programación basados en IA alucinan con paquetes inexistentes que luego son registrados por ciberdelincuentes. Los desarrolladores terminan instalando código malicioso de forma involuntaria al confiar ciegamente en las sugerencias de la IA.",
-      "relevancia": 6,
+      "titular_es": "Olvídate del typosquatting: el 'slopsquatting' es la nueva amenaza en la cadena de suministro de software creada por la IA",
+      "resumen": "Expertos advierten sobre el surgimiento del 'slopsquatting', un vector de ataque donde los ciberdelincuentes registran paquetes maliciosos con nombres inventados por las alucinaciones de los asistentes de codificación de IA. Cuando un desarrollador confía ciegamente en el código sugerido por la IA, puede acabar instalando malware sin saberlo. Una alerta crítica de seguridad para la ingeniería de software moderna.",
+      "relevancia": 5,
       "url": "https://venturebeat.com/security/forget-typosquatting-slopsquatting-is-the-software-supply-chain-threat-created-by-ai-coding-tools",
-      "fuente": "venturebeat.com"
+      "fuente": "venturebeat.com",
+      "bandera": "🌍"
     },
     {
       "id": "674313bcd8",
       "tema": "finanzas",
-      "titular_es": "El Fiscal General de Oregón retira el intento de retrasar la fusión de Paramount y Warner Bros.",
-      "resumen": "El fiscal estatal desistió de su solicitud para postergar por 60 días el cierre de la adquisición de Warner Bros. Discovery por parte de Paramount. La decisión se tomó tras solicitar documentos clave sobre la transacción, despejando el camino legal para una de las mayores fusiones de medios del año.",
-      "relevancia": 6,
+      "titular_es": "El Fiscal General de Oregón retira su intento de retrasar la fusión entre Paramount y Warner Bros.",
+      "resumen": "El gobierno estatal de Oregón decidió desistir de su solicitud judicial para postergar por 60 días la fusión multimillonaria entre Paramount y Warner Bros. Discovery. Esto despeja uno de los últimos obstáculos regulatorios locales para la consolidación de estos gigantes del entretenimiento. Un movimiento clave que reconfigurará el mercado de medios y streaming en EE. UU.",
+      "relevancia": 5,
       "url": "https://www.theverge.com/policy/964493/oregons-ag-delay-paramount-warner-bros-merger",
-      "fuente": "theverge.com"
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸"
+    },
+    {
+      "id": "c6e4bc7237",
+      "tema": "finanzas",
+      "titular_es": "La 'Funflation' golpea los hogares: por qué quedarse en casa ya no ahorra dinero como antes",
+      "resumen": "El aumento generalizado de precios ha alcanzado a los pasatiempos domésticos, encareciendo drásticamente las suscripciones de streaming, los videojuegos y los servicios de entrega a domicilio. Esta tendencia económica demuestra que la inflación ha erosionado incluso las alternativas de ocio más económicas. Un análisis financiero sobre el cambio en los hábitos de consumo digital.",
+      "relevancia": 5,
+      "url": "https://www.cnbc.com/2026/07/11/funflation-streaming-video-games-xbox-apple-disney-netflix.html",
+      "fuente": "cnbc.com",
+      "bandera": "🇺🇸"
+    },
+    {
+      "id": "78a003c7ba",
+      "tema": "finanzas",
+      "titular_es": "Cadena de pizzerías cerrará hasta 50 sucursales tras años de pérdidas",
+      "resumen": "Una importante franquicia de pizzas en EE. UU. ha anunciado el cierre masivo de decenas de locales comerciales debido a la caída sostenida en sus ventas y el aumento de costos operativos. Este ajuste refleja las dificultades que enfrenta el sector de comida rápida de gama media ante la inflación y la competencia. Un indicador de la salud del comercio minorista y de consumo.",
+      "relevancia": 5,
+      "url": "https://finance.yahoo.com/small-business/articles/pizza-chain-closing-50-locations-023300151.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸"
     },
     {
       "id": "5c4e9ee4d0",
       "tema": "finanzas",
-      "titular_es": "Un importante franquiciado de hamburgueserías de comida rápida se declara en quiebra",
-      "resumen": "Uno de los mayores operadores de franquicias de comida rápida en EE. UU. se ha acogido al Capítulo 11 de la ley de quiebras tras años de declive financiero. Este movimiento refleja la creciente presión económica y el aumento de costos operativos que asfixian al sector de la restauración rápida.",
-      "relevancia": 6,
+      "titular_es": "Un gran franquiciado de hamburgueserías de comida rápida se declara en bancarrota",
+      "resumen": "Uno de los mayores operadores de franquicias de hamburguesas en EE. UU. ha solicitado la protección del Capítulo 11 de la ley de quiebras. La empresa atribuye su crisis al encarecimiento de la mano de obra, los ingredientes y los altos tipos de interés que dificultan refinanciar sus deudas. Un reflejo de las presiones macroeconómicas sobre los modelos de franquicia tradicionales.",
+      "relevancia": 5,
       "url": "https://finance.yahoo.com/small-business/articles/big-fast-food-burger-chain-164700124.html",
-      "fuente": "finance.yahoo.com"
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸"
+    },
+    {
+      "id": "9b313e7582",
+      "tema": "emprendimiento",
+      "titular_es": "Reed Jobs prefiere hablar sobre curar el cáncer antes que sobre su famoso apellido",
+      "resumen": "El hijo de Steve Jobs detalla el progreso de Yosemite, su firma de capital de riesgo de 17 personas enfocada en la biotecnología y la oncología. La firma busca capitalizar la pérdida de patentes de varios medicamentos clave para financiar terapias innovadoras contra el cáncer. Una mirada al ecosistema de inversión de impacto y startups biotecnológicas de alto riesgo.",
+      "relevancia": 5,
+      "url": "https://techcrunch.com/2026/07/11/reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸"
+    },
+    {
+      "id": "7d2733b329",
+      "tema": "ciencia",
+      "titular_es": "Científicos de Columbia descubren un vínculo sorprendente entre la serotonina y las enfermedades de las válvulas cardíacas",
+      "resumen": "Una nueva investigación revela que la serotonina, conocida por regular el estado de ánimo, acelera la progresión de la insuficiencia mitral degenerativa en ciertos pacientes. El estudio advierte que las personas que toman antidepresivos ISRS y tienen una variante genética específica podrían enfrentar un mayor riesgo cardíaco. Un hallazgo crucial para la medicina personalizada y la farmacología.",
+      "relevancia": 5,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260711010131.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇺🇸"
+    },
+    {
+      "id": "c24a9ca9be",
+      "tema": "ciencia",
+      "titular_es": "El segundo embarazo altera el cerebro de formas sorprendentes y diferentes al primero",
+      "resumen": "Investigadores descubrieron que cada embarazo remodela la estructura cerebral materna de manera única, mostrando patrones de plasticidad neuronal distintos en el segundo embarazo en comparación con el primero. Estos hallazgos abren nuevas vías para diagnosticar y tratar trastornos de salud mental materna, como la depresión posparto. Un avance significativo en la neurobiología de la maternidad.",
+      "relevancia": 5,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260711010125.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍"
+    },
+    {
+      "id": "b99ff00c71",
+      "tema": "ciencia",
+      "titular_es": "Físicos logran construir un material cuántico predicho hace más de una década",
+      "resumen": "Científicos han creado por primera vez un material cuántico bidimensional largamente buscado, confirmando la existencia de estados de conducción inusuales en sus bordes. La capacidad de controlar estos estados mediante tensión mecánica abre la puerta al desarrollo de electrónica cuántica que funcione a temperatura ambiente. Un hito histórico para la física de la materia condensada y la computación del futuro.",
+      "relevancia": 5,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260711010123.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍"
+    },
+    {
+      "id": "44a8c35dc1",
+      "tema": "ciencia",
+      "titular_es": "Fármaco experimental revierte la enfermedad grave del hígado graso reparando el intestino",
+      "resumen": "El compuesto experimental DT-109 logró revertir con éxito la esteatohepatitis asociada a disfunción metabólica (MASH) en modelos animales al restaurar la barrera intestinal. Al evitar que las toxinas del intestino dañen el hígado, este enfoque propone una vía terapéutica completamente nueva para enfermedades hepáticas crónicas. Un avance prometedor para la medicina traslacional.",
+      "relevancia": 5,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260711010116.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍"
+    },
+    {
+      "id": "b5f0efa4c3",
+      "tema": "ciencia",
+      "titular_es": "Científicos de Yale podrían haber descubierto cómo se propaga el Parkinson por el cerebro",
+      "resumen": "Investigadores identificaron dos proteínas en la superficie de las neuronas que facilitan la propagación de la proteína tóxica asociada al Parkinson. Al bloquear estas proteínas en ensayos con ratones, lograron frenar drásticamente el avance de la enfermedad, ofreciendo un blanco terapéutico inédito para futuros tratamientos neuroprotectores. Un descubrimiento de alto impacto para la neurología.",
+      "relevancia": 5,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260710003529.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇺🇸"
     }
   ]
 }
