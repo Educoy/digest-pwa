@@ -1,11 +1,11 @@
 {
-  "fecha": "2026-07-12",
-  "generado_utc": "2026-07-12T13:20:42Z",
+  "fecha": "2026-07-13",
+  "generado_utc": "2026-07-13T07:16:57Z",
   "indicadores": {
     "dolar": {
-      "valor": 928.99,
-      "variacion": -6.72,
-      "variacion_pct": -0.72
+      "valor": 924.94,
+      "variacion": -4.05,
+      "variacion_pct": -0.44
     },
     "uf": {
       "valor": 40844.79,
@@ -13,185 +13,180 @@
       "variacion_pct": 0.0
     }
   },
-  "noticia_del_dia": "0876fa567e",
-  "pildora_ia": "Función de pérdida (loss): el número que mide qué tan equivocado está el modelo. Todo el entrenamiento consiste en minimizarlo; elegir bien la loss define qué aprende realmente el modelo.",
+  "noticia_del_dia": "389409443c",
+  "pildora_ia": "Épocas y batches: una 'época' es una pasada completa por todos los datos; un 'batch' es el grupo de ejemplos que se procesan juntos antes de actualizar el modelo. Ajustar ambos afecta velocidad y calidad.",
   "pildoras_ia": [
-    "Función de pérdida (loss): el número que mide qué tan equivocado está el modelo. Todo el entrenamiento consiste en minimizarlo; elegir bien la loss define qué aprende realmente el modelo.",
     "Épocas y batches: una 'época' es una pasada completa por todos los datos; un 'batch' es el grupo de ejemplos que se procesan juntos antes de actualizar el modelo. Ajustar ambos afecta velocidad y calidad.",
     "Destilación: entrenar un modelo pequeño para imitar a uno grande. El resultado es más rápido y barato de correr conservando buena parte de la calidad. Así nacen muchos modelos 'flash' o 'mini'.",
     "Ventana de contexto: la cantidad máxima de tokens que un LLM puede 'ver' a la vez (prompt + respuesta). Si te pasas, olvida el inicio. Los modelos modernos van de miles a millones de tokens.",
-    "Cross-validation: técnica para evaluar un modelo dividiendo los datos en varias partes y rotando cuál se usa para probar. Da una estimación más honesta del rendimiento que una sola división."
+    "Cross-validation: técnica para evaluar un modelo dividiendo los datos en varias partes y rotando cuál se usa para probar. Da una estimación más honesta del rendimiento que una sola división.",
+    "Overfitting (sobreajuste): cuando un modelo memoriza el ruido de los datos de entrenamiento en vez del patrón general. Rinde perfecto en entrenamiento pero mal con datos nuevos. Se combate con más datos, regularización o dropout."
   ],
   "noticias": [
     {
-      "id": "0876fa567e",
-      "tema": "finanzas",
-      "titular_es": "Nvidia, CoreWeave y Nebius: dentro del financiamiento circular del auge de las GPU",
-      "resumen": "Una investigación revela cómo Nvidia invierte en startups de nube como CoreWeave y Nebius, que a su vez usan ese dinero para comprar chips de Nvidia, inflando artificialmente la demanda. Este esquema de financiamiento circular plantea dudas sobre la sostenibilidad del actual auge de la inteligencia artificial. Es un análisis financiero clave para entender la burbuja de infraestructura tecnológica actual.",
+      "id": "389409443c",
+      "tema": "ia",
+      "titular_es": "Migración de un agente de IA en producción a GPT-5.6: 2,2 veces más rápido y 27% más barato",
+      "resumen": "Un análisis técnico revela los resultados de migrar un agente de inteligencia artificial en producción al nuevo modelo GPT-5.6. La actualización demostró una mejora de velocidad de 2,2 veces y una reducción de costos del 27%. Este caso de estudio evidencia el avance en eficiencia de los modelos de lenguaje de última generación.",
       "relevancia": 9,
-      "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
-      "fuente": "io-fund.com (vía HN)",
-      "bandera": "🇺🇸"
+      "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+      "fuente": "ploy.ai (vía HN)",
+      "bandera": "🌍",
+      "tags": [
+        "GPT-5.6",
+        "eficiencia",
+        "LLM"
+      ]
     },
     {
       "id": "09d8af2814",
       "tema": "ciencia",
       "titular_es": "Físicos recrean la extracción de energía de un agujero negro en el laboratorio",
-      "resumen": "Investigadores han logrado simular la física de la extracción de energía de un agujero negro en rotación utilizando un dispositivo estacionario de rotación sintética ultrarrápida. El experimento valida de forma práctica teorías astrofísicas complejas que antes eran puramente hipotéticas. Este avance promete inspirar nuevos desarrollos en óptica, comunicaciones inalámbricas y transferencia de energía.",
+      "resumen": "Investigadores lograron simular la física de la extracción de energía de un agujero negro en rotación utilizando un dispositivo de rotación sintética ultraveloz. Este hito experimental valida teorías astrofísicas de larga data en un entorno controlado de laboratorio. El avance podría abrir nuevas vías en el desarrollo de tecnologías ópticas y comunicaciones inalámbricas avanzadas.",
       "relevancia": 9,
       "url": "https://www.sciencedaily.com/releases/2026/07/260711010120.htm",
       "fuente": "sciencedaily.com",
-      "bandera": "🌍"
+      "bandera": "🌍",
+      "tags": [
+        "física",
+        "agujeros negros",
+        "óptica"
+      ]
     },
     {
-      "id": "674313bcd8",
-      "tema": "finanzas",
-      "titular_es": "El Fiscal General de Oregón retira el intento de retrasar la fusión entre Paramount y Warner Bros.",
-      "resumen": "El fiscal general de Oregón retiró su solicitud judicial para retrasar por 60 días la fusión multimillonaria entre Paramount y Warner Bros. Discovery. La decisión despeja el camino regulatorio para uno de los movimientos de consolidación de medios más grandes de los últimos años. Este acuerdo reconfigurará el panorama de la distribución de contenidos y la infraestructura de streaming global.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/policy/964493/oregons-ag-delay-paramount-warner-bros-merger",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸"
-    },
-    {
-      "id": "c4338822fb",
-      "tema": "finanzas",
-      "titular_es": "Una importante empresa de energía se declara en bancarrota",
-      "resumen": "Una de las principales compañías del sector energético ha solicitado la protección por bancarrota bajo el Capítulo 11 debido a presiones financieras acumuladas. Este colapso resalta la volatilidad actual en los mercados de energía y la transición hacia nuevos modelos de negocio. El suceso impactará los precios de suministro y los proyectos de infraestructura energética en desarrollo.",
-      "relevancia": 8,
-      "url": "https://finance.yahoo.com/energy/articles/leading-energy-company-files-bankruptcy-003700014.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸"
-    },
-    {
-      "id": "5478e49d29",
+      "id": "af30ea7b31",
       "tema": "ia",
-      "titular_es": "La batalla contra los centros de datos de IA apenas comienza",
-      "resumen": "El vertiginoso crecimiento de la inteligencia artificial está chocando con la realidad de la infraestructura energética y el descontento de las comunidades locales. El aumento exponencial en el consumo de electricidad y agua por parte de los centros de datos de IA está generando protestas y desafíos regulatorios sin precedentes. Para los ingenieros, esto redefine los límites del diseño de sistemas y la sostenibilidad energética.",
+      "titular_es": "Claude Code consume 33k tokens antes de leer el prompt; OpenCode consume 7k",
+      "resumen": "Desarrolladores descubrieron que la herramienta Claude Code envía una cantidad masiva de 33,000 tokens de contexto antes de procesar la instrucción del usuario, en comparación con los 7,000 de OpenCode. Este hallazgo explica el rápido aumento en los costos de uso de la API de Anthropic. El análisis resalta la importancia de auditar el consumo de tokens en herramientas de desarrollo automatizadas.",
       "relevancia": 8,
-      "url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸"
+      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "fuente": "systima.ai (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Claude Code",
+        "tokens",
+        "desarrollo"
+      ]
     },
     {
-      "id": "e67a365843",
-      "tema": "ia",
-      "titular_es": "Olvida el typosquatting: el slopsquatting es la nueva amenaza en la cadena de suministro de software creada por la IA",
-      "resumen": "El uso masivo de asistentes de codificación con IA ha dado origen al 'slopsquatting', una técnica donde los atacantes registran paquetes maliciosos basados en las alucinaciones de la IA. Cuando un desarrollador confía ciegamente en el código sugerido por la IA que incluye dependencias inexistentes, puede acabar instalando malware de forma automática. Una advertencia crítica de ciberseguridad para el desarrollo de software moderno.",
+      "id": "62850fba22",
+      "tema": "emprendimiento",
+      "titular_es": "DeepSeek recorta sus precios un 75%, pero el problema del margen persiste",
+      "resumen": "La startup de IA DeepSeek redujo drásticamente las tarifas de su modelo V4-Pro en un 75%, intensificando la guerra de precios en el sector. Sin embargo, analistas advierten que la reducción de costos de inferencia no se traduce automáticamente en mejores márgenes para las empresas derivadas. El verdadero desafío sigue siendo el alto costo de desarrollo y la monetización sostenible de los servicios de IA.",
       "relevancia": 8,
-      "url": "https://venturebeat.com/security/forget-typosquatting-slopsquatting-is-the-software-supply-chain-threat-created-by-ai-coding-tools",
+      "url": "https://venturebeat.com/orchestration/deepseek-cut-prices-75-the-100x-problem-remains",
       "fuente": "venturebeat.com",
-      "bandera": "🌍"
+      "bandera": "🇨🇳",
+      "tags": [
+        "DeepSeek",
+        "guerra de precios",
+        "modelos de lenguaje"
+      ]
     },
     {
       "id": "ec425bec0b",
       "tema": "ciencia",
       "titular_es": "Científicos descubren cómo el cerebro se reconfigura para la multitarea real",
-      "resumen": "Un nuevo estudio revela que el entrenamiento intensivo reorganiza físicamente el cerebro, permitiendo que las tareas aprendidas eviten la corteza prefrontal y utilicen circuitos especializados. Al liberar el centro de pensamiento del cerebro, las personas pueden realizar múltiples actividades complejas de forma simultánea y eficiente. Este hallazgo tiene profundas implicaciones para el diseño de interfaces cerebro-computador.",
+      "resumen": "Un nuevo estudio revela que el entrenamiento intensivo reorganiza físicamente las conexiones cerebrales, permitiendo que las tareas aprendidas eviten la corteza prefrontal. Al liberar este centro de pensamiento consciente, el cerebro puede ejecutar procesos complejos en circuitos especializados de forma simultánea. El descubrimiento redefine los límites de la plasticidad neuronal y el aprendizaje humano.",
       "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/07/260712011912.htm",
       "fuente": "sciencedaily.com",
-      "bandera": "🌍"
+      "bandera": "🌍",
+      "tags": [
+        "neurociencia",
+        "cerebro",
+        "multitarea"
+      ]
+    },
+    {
+      "id": "8f4dc6d90b",
+      "tema": "ia",
+      "titular_es": "El fallido programa de autos autónomos de Apple dejó un legado de potentes chips de IA",
+      "resumen": "Aunque el proyecto del automóvil de Apple fue cancelado, la necesidad de procesar datos de conducción autónoma en tiempo real impulsó el desarrollo de chips de silicio altamente eficientes. Esta herencia tecnológica es la base del rendimiento actual de los procesadores de Apple en tareas de inteligencia artificial local. El fracaso de un producto terminó cimentando la estrategia de hardware de la compañía.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Apple",
+        "chips",
+        "conducción autónoma"
+      ]
+    },
+    {
+      "id": "5478e49d29",
+      "tema": "ia",
+      "titular_es": "La batalla contra los centros de datos de IA apenas comienza",
+      "resumen": "El auge de la inteligencia artificial está generando una demanda energética sin precedentes, lo que desata tensiones en las comunidades locales donde se construyen nuevos centros de datos. Residentes y ambientalistas empiezan a organizarse contra el consumo masivo de agua y electricidad de estas instalaciones. El conflicto plantea un desafío crítico para la infraestructura tecnológica global en los próximos años.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
+      "fuente": "theverge.com",
+      "bandera": "🌍",
+      "tags": [
+        "centros de datos",
+        "energía",
+        "medio ambiente"
+      ]
     },
     {
       "id": "e67d4ca426",
       "tema": "ciencia",
-      "titular_es": "La vida en el océano profundo tiene una fuente de alimento secreta que los científicos no esperaban",
-      "resumen": "Investigadores descubrieron que la presión extrema de las profundidades marinas exprime nutrientes valiosos de las partículas orgánicas que caen al fondo, alimentando a los microbios oceánicos. Este fenómeno inesperado podría reescribir los modelos actuales sobre los ecosistemas del fondo marino y el almacenamiento de carbono en la Tierra. Un descubrimiento clave para la ingeniería ambiental.",
-      "relevancia": 8,
+      "titular_es": "La vida en el océano profundo tiene una fuente de alimento secreta e inesperada",
+      "resumen": "Científicos descubrieron que la presión extrema de las profundidades marinas exprime nutrientes valiosos de las partículas orgánicas que caen al fondo. Este proceso físico proporciona un sustento vital insospechado para los microbios del lecho oceánico profundo. El hallazgo obliga a replantear los modelos actuales de almacenamiento de carbono y los ecosistemas abisales.",
+      "relevancia": 7,
       "url": "https://www.sciencedaily.com/releases/2026/07/260711010127.htm",
       "fuente": "sciencedaily.com",
-      "bandera": "🌍"
+      "bandera": "🌍",
+      "tags": [
+        "oceanografía",
+        "microbiología",
+        "carbono"
+      ]
     },
     {
-      "id": "b5f0efa4c3",
+      "id": "b85df51a08",
       "tema": "ciencia",
-      "titular_es": "Científicos de Yale podrían haber descubierto cómo se propaga el Parkinson en el cerebro",
-      "resumen": "Un equipo de Yale identificó dos proteínas en la superficie de las neuronas que facilitan la propagación de la proteína tóxica asociada con el Parkinson. Al bloquear estas proteínas en modelos animales, lograron reducir drásticamente el avance de la enfermedad. Este descubrimiento abre la puerta al desarrollo de terapias dirigidas de alta precisión para frenar trastornos neurodegenerativos.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260710003529.htm",
+      "titular_es": "Futuros alunizajes podrían borrar pistas sobre el origen de la vida en la Tierra",
+      "resumen": "Un estudio advierte que los gases de escape de las naves espaciales podrían contaminar rápidamente las regiones lunares de mayor valor científico. Esta polución corre el riesgo de enmascarar compuestos orgánicos antiguos que contienen pistas sobre cómo comenzó la vida en nuestro planeta. Los investigadores instan a diseñar métodos de mitigación antes de que se intensifiquen las misiones lunares.",
+      "relevancia": 7,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260710003537.htm",
       "fuente": "sciencedaily.com",
-      "bandera": "🇺🇸"
+      "bandera": "🌍",
+      "tags": [
+        "luna",
+        "astrobiología",
+        "exploración espacial"
+      ]
     },
     {
-      "id": "0b3847ddd3",
-      "tema": "ciencia",
-      "titular_es": "Finalmente se explica por qué el oro nunca se empaña",
-      "resumen": "Científicos descubrieron que los átomos en la superficie del oro se reorganizan de forma autónoma en patrones que bloquean la reacción del oxígeno con el metal, reduciendo la oxidación hasta un billón de veces. Este mecanismo de autodefensa atómica no solo explica la durabilidad del oro, sino que ofrece principios clave para diseñar nuevos materiales resistentes a la corrosión en microelectrónica.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260710003511.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍"
-    },
-    {
-      "id": "5c4e9ee4d0",
-      "tema": "finanzas",
-      "titular_es": "Un gran franquiciado de hamburgueserías de comida rápida se declara en bancarrota",
-      "resumen": "Uno de los mayores operadores de franquicias de comida rápida en EE. UU. ha solicitado la bancarrota del Capítulo 11 tras enfrentar altos costos operativos y de deuda. La caída refleja la presión inflacionaria y el cambio en los hábitos de consumo que afectan al sector de servicios de alimentos. Este movimiento forzará una reestructuración masiva de sus operaciones y locales comerciales.",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/small-business/articles/big-fast-food-burger-chain-164700124.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸"
-    },
-    {
-      "id": "e8265069f1",
-      "tema": "ia",
-      "titular_es": "Mesh LLM: computación distribuida de IA sobre iroh",
-      "resumen": "Se ha presentado Mesh LLM, un proyecto que permite ejecutar computación distribuida de modelos de lenguaje grandes utilizando el protocolo de red iroh. Esta tecnología facilita la orquestación de inferencia de IA descentralizada entre múltiples dispositivos sin depender de servidores centrales. Una herramienta de gran interés para ingenieros interesados en redes P2P y sistemas distribuidos.",
-      "relevancia": 7,
-      "url": "https://www.iroh.computer/blog/mesh-llm",
-      "fuente": "iroh.computer (vía HN)",
-      "bandera": "🌍"
-    },
-    {
-      "id": "b53dd2baa1",
-      "tema": "ia",
-      "titular_es": "Tras años de espera, el sintetizador viral Nopia está 'básicamente terminado'",
-      "resumen": "Los creadores del innovador sintetizador de hardware Nopia han anunciado que el dispositivo está listo para salir al mercado tras su éxito viral en 2023. El instrumento destaca por su enfoque intuitivo de la teoría musical y su diseño de hardware único. Representa un gran ejemplo de ingeniería de producto y diseño de interacción física para creadores de hardware musical.",
-      "relevancia": 7,
-      "url": "https://www.theverge.com/gadgets/964499/nopia-viral-synth-finished-price-release-demo",
-      "fuente": "theverge.com",
-      "bandera": "🌍"
-    },
-    {
-      "id": "9b313e7582",
+      "id": "1c7848ecb1",
       "tema": "emprendimiento",
-      "titular_es": "Reed Jobs prefiere hablar sobre curar el cáncer antes que sobre su apellido",
-      "resumen": "Reed Jobs, hijo del cofundador de Apple, impulsa Yosemite, una firma de capital de riesgo enfocada en la biotecnología y la cura del cáncer. La startup busca financiar tratamientos innovadores justo cuando varias patentes de medicamentos clave están por expirar a nivel global. Un ejemplo de cómo el capital de riesgo se cruza con la ingeniería biomédica para acelerar la ciencia médica.",
-      "relevancia": 7,
-      "url": "https://techcrunch.com/2026/07/11/reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇺🇸"
+      "titular_es": "LARP: Infraestructura de ingresos para fundadores serios",
+      "resumen": "Se presenta LARP, una nueva plataforma diseñada para simplificar la gestión de ingresos y facturación en startups tecnológicas. La herramienta busca competir con gigantes establecidos ofreciendo una integración más ágil y menores comisiones para fundadores en etapas tempranas. Promete resolver la complejidad técnica de los pagos recurrentes globales.",
+      "relevancia": 6,
+      "url": "https://www.larp.website/",
+      "fuente": "larp.website (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "fintech",
+        "SaaS",
+        "facturación"
+      ]
     },
     {
-      "id": "78a003c7ba",
+      "id": "c6e4bc7237",
       "tema": "finanzas",
-      "titular_es": "Cadena de pizzerías cerrará hasta 50 locales tras años de pérdidas",
-      "resumen": "Una conocida cadena de pizzerías ha anunciado el cierre de decenas de sucursales tras registrar un declive sostenido en sus ventas durante los últimos años. La reestructuración busca recortar pérdidas y estabilizar las finanzas de la compañía frente a la intensa competencia del sector de entrega a domicilio. El caso ilustra los desafíos de rentabilidad en el comercio minorista físico actual.",
+      "titular_es": "La 'diversión inflacionaria' golpea el hogar: quedarse en casa ya no ahorra como antes",
+      "resumen": "El fenómeno de la inflación ha alcanzado a los pasatiempos domésticos tras sucesivos aumentos de precios en servicios de streaming y videojuegos. Actividades que antes se consideraban alternativas económicas para recortar gastos ahora representan una presión significativa en el presupuesto mensual. El análisis muestra un cambio estructural en el costo del entretenimiento digital.",
       "relevancia": 6,
-      "url": "https://finance.yahoo.com/small-business/articles/pizza-chain-closing-50-locations-023300151.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸"
-    },
-    {
-      "id": "ca7a302167",
-      "tema": "ia",
-      "titular_es": "RISCBoy: una consola de videojuegos portátil de código abierto diseñada desde cero",
-      "resumen": "Un ingeniero ha diseñado RISCBoy, una consola portátil completamente abierta que utiliza un procesador RISC-V personalizado implementado en una FPGA. El proyecto abarca desde el diseño del circuito impreso (PCB) hasta el desarrollo del silicio virtual y el software de bajo nivel. Un caso de estudio excepcional para estudiantes de ingeniería electrónica y sistemas embebidos.",
-      "relevancia": 6,
-      "url": "https://github.com/Wren6991/RISCBoy",
-      "fuente": "github.com (vía HN)",
-      "bandera": "🌍"
-    },
-    {
-      "id": "e0ec47435b",
-      "tema": "ia",
-      "titular_es": "Ant: un nuevo entorno de ejecución y ecosistema para JavaScript",
-      "resumen": "Se ha lanzado Ant, un ecosistema de JavaScript construido alrededor de su propio motor de ejecución independiente de Node o Deno. El proyecto incluye su propio gestor de paquetes, registro de despliegue y una plataforma para crear aplicaciones de escritorio nativas con tecnologías web. Una alternativa interesante para explorar la arquitectura interna de los runtimes modernos.",
-      "relevancia": 5,
-      "url": "https://antjs.org",
-      "fuente": "antjs.org (vía HN)",
-      "bandera": "🌍"
+      "url": "https://www.cnbc.com/2026/07/11/funflation-streaming-video-games-xbox-apple-disney-netflix.html",
+      "fuente": "cnbc.com",
+      "bandera": "🌍",
+      "tags": [
+        "inflación",
+        "streaming",
+        "economía doméstica"
+      ]
     }
   ]
 }

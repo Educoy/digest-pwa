@@ -124,11 +124,17 @@
   #mazo { flex: 1 1 auto; position: relative; min-height: 0; }
   .carta {
     position: absolute; inset: 0;
-    background: linear-gradient(165deg, var(--card-2), var(--card));
+    /* Tinte según el tema de la noticia (--c lo fija cada card en JS). */
+    background: linear-gradient(165deg,
+      color-mix(in srgb, var(--c, #3a4150) 22%, var(--card-2)),
+      color-mix(in srgb, var(--c, #3a4150) 10%, var(--card)));
     backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px);
-    border: 1px solid rgba(255,255,255,.08);
+    border: 1px solid color-mix(in srgb, var(--c, #ffffff) 32%, var(--linea));
     border-radius: 24px;
-    box-shadow: 0 20px 50px rgba(0,0,0,.5), inset 0 1px 0 rgba(255,255,255,.05);
+    box-shadow:
+      0 20px 50px rgba(0,0,0,.5),
+      inset 0 1px 0 rgba(255,255,255,.05),
+      0 0 34px color-mix(in srgb, var(--c, transparent) 16%, transparent);
     padding: 22px;
     display: flex; flex-direction: column;
     overflow: hidden;
@@ -234,6 +240,18 @@
     background: var(--muted); opacity: .25;
   }
   .rel-dot--on { opacity: .9; background: var(--like); }
+
+  /* Tags de contenido (2-3), tintados con el color del tema (--c). */
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; flex: 0 0 auto; }
+  .tag {
+    font-size: 11.5px; font-weight: 600;
+    padding: 3px 9px; border-radius: 8px;
+    background: color-mix(in srgb, var(--c, #64748b) 16%, transparent);
+    color: color-mix(in srgb, var(--c, #94a3b8) 72%, white);
+    border: 1px solid color-mix(in srgb, var(--c, #64748b) 30%, transparent);
+    letter-spacing: .2px;
+  }
+  .tag::before { content: "#"; opacity: .55; }
 
   /* Overlays de feedback durante el arrastre */
   .overlay {
@@ -412,6 +430,7 @@ const fmt = (n) => Number(n).toLocaleString("es-CL", { minimumFractionDigits: 2,
 let datos = null;        // contenido de digest.json
 let fechaActual = "";    // datos.fecha, usada como clave de guardado
 let cartas = [];         // [{ el, noticia, ovLike, ovNope }] en orden; cartas[0] = frente
+let totalCartas = 0;     // total de cards del mazo (fijo; para el contador de progreso)
 
 // ---------------------------------------------------------------------------
 // Vistas (mostrar una a la vez)
@@ -505,6 +524,7 @@ function crearCarta(item, tipo = "noticia", esEstrella = false) {
   const noticia = item;
   const t = infoTema(noticia.tema);
   el.className = "carta" + (esEstrella ? " carta--estrella" : "");
+  el.style.setProperty("--c", t.color);   // tinte de la card según el tema
 
   const badgeEstrella = esEstrella ? `<span class="badge badge--estrella">⭐ Noticia del día</span>` : "";
   const bandera = noticia.bandera ? `<div class="bandera">${noticia.bandera}</div>` : `<div class="bandera">🌍</div>`;
@@ -519,6 +539,7 @@ function crearCarta(item, tipo = "noticia", esEstrella = false) {
     </div>
     <h2 class="titular">${escapar(noticia.titular_es)}</h2>
     <p class="resumen">${escapar(noticia.resumen)}</p>
+    ${renderTags(noticia.tags)}
     <div class="pie">
       <span class="fuente">${escapar(noticia.fuente || "")}</span>
       <span class="relevancia">${renderDots(Number(noticia.relevancia) || 5)}</span>
@@ -565,6 +586,7 @@ function construirMazo() {
     mostrarVacio("No hay noticias en el digest de hoy. Vuelve mañana ☀️");
     return;
   }
+  totalCartas = cartas.length;   // fijamos el total una vez (incluye píldoras intercaladas)
   actualizarPila();
   actualizarProgreso();
   mostrarVista("vista-mazo");
@@ -585,9 +607,8 @@ function actualizarPila() {
 }
 
 function actualizarProgreso() {
-  const total = cartas.length > 0 ? Array.from($("#mazo").children).length : 0;
-  const actual = total - cartas.length + 1;
-  $("#progreso").textContent = cartas.length ? `${actual} / ${total}` : "";
+  const actual = totalCartas - cartas.length + 1;   // posición actual dentro del total fijo
+  $("#progreso").textContent = cartas.length ? `${actual} / ${totalCartas}` : "";
 }
 
 // ---------------------------------------------------------------------------
@@ -728,6 +749,13 @@ function renderDots(n) {
   let html = '<div class="rel-dots">';
   for (let i = 1; i <= 10; i++) html += `<span class="rel-dot${i <= n ? ' rel-dot--on' : ''}"></span>`;
   return html + '</div>' + `<span>${n}/10</span>`;
+}
+
+// Renderiza 2-3 tags de contenido (vienen de Gemini en digest.json). Si no hay, no muestra nada.
+function renderTags(tags) {
+  if (!Array.isArray(tags) || !tags.length) return "";
+  const chips = tags.slice(0, 3).map((t) => `<span class="tag">${escapar(t)}</span>`).join("");
+  return `<div class="tags">${chips}</div>`;
 }
 
 function iniciar(json) {
