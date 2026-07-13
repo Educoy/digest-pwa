@@ -1,6 +1,6 @@
 {
   "fecha": "2026-07-13",
-  "generado_utc": "2026-07-13T07:16:57Z",
+  "generado_utc": "2026-07-13T07:41:34Z",
   "indicadores": {
     "dolar": {
       "valor": 924.94,
@@ -26,23 +26,38 @@
     {
       "id": "389409443c",
       "tema": "ia",
-      "titular_es": "Migración de un agente de IA en producción a GPT-5.6: 2,2 veces más rápido y 27% más barato",
-      "resumen": "Un análisis técnico revela los resultados de migrar un agente de inteligencia artificial en producción al nuevo modelo GPT-5.6. La actualización demostró una mejora de velocidad de 2,2 veces y una reducción de costos del 27%. Este caso de estudio evidencia el avance en eficiencia de los modelos de lenguaje de última generación.",
+      "titular_es": "Migración de un agente de IA en producción a GPT-5.6: 2.2 veces más rápido y 27% más barato",
+      "resumen": "Un análisis detallado revela los impactos de migrar un agente de IA activo a la nueva versión GPT-5.6. Los resultados muestran una mejora de velocidad de 2.2x y una reducción de costos del 27%. Este caso de estudio práctico demuestra la viabilidad y eficiencia de los modelos de última generación en entornos reales de producción.",
       "relevancia": 9,
       "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
       "fuente": "ploy.ai (vía HN)",
       "bandera": "🌍",
       "tags": [
         "GPT-5.6",
-        "eficiencia",
-        "LLM"
+        "agentes de IA",
+        "optimización"
+      ]
+    },
+    {
+      "id": "62850fba22",
+      "tema": "emprendimiento",
+      "titular_es": "DeepSeek recorta sus precios un 75%, pero el problema del margen persiste",
+      "resumen": "A pesar de que DeepSeek redujo drásticamente las tarifas de su modelo V4-Pro, las startups de IA siguen enfrentando problemas de rentabilidad. La reducción de costos de inferencia no se traduce automáticamente en mejores márgenes comerciales debido a los altos costos operativos fijos. Este fenómeno plantea un desafío crítico para el modelo de negocio de los nuevos emprendimientos tecnológicos.",
+      "relevancia": 9,
+      "url": "https://venturebeat.com/orchestration/deepseek-cut-prices-75-the-100x-problem-remains",
+      "fuente": "venturebeat.com",
+      "bandera": "🇨🇳",
+      "tags": [
+        "DeepSeek",
+        "startups de IA",
+        "rentabilidad"
       ]
     },
     {
       "id": "09d8af2814",
       "tema": "ciencia",
       "titular_es": "Físicos recrean la extracción de energía de un agujero negro en el laboratorio",
-      "resumen": "Investigadores lograron simular la física de la extracción de energía de un agujero negro en rotación utilizando un dispositivo de rotación sintética ultraveloz. Este hito experimental valida teorías astrofísicas de larga data en un entorno controlado de laboratorio. El avance podría abrir nuevas vías en el desarrollo de tecnologías ópticas y comunicaciones inalámbricas avanzadas.",
+      "resumen": "Investigadores lograron simular la física de extracción de energía de un agujero negro giratorio utilizando un dispositivo estacionario de rotación sintética ultraveloz. Este experimento valida teorías de larga data en un entorno controlado de laboratorio. El avance abre nuevas fronteras en el desarrollo de tecnologías ópticas y comunicaciones inalámbricas avanzadas.",
       "relevancia": 9,
       "url": "https://www.sciencedaily.com/releases/2026/07/260711010120.htm",
       "fuente": "sciencedaily.com",
@@ -56,8 +71,8 @@
     {
       "id": "af30ea7b31",
       "tema": "ia",
-      "titular_es": "Claude Code consume 33k tokens antes de leer el prompt; OpenCode consume 7k",
-      "resumen": "Desarrolladores descubrieron que la herramienta Claude Code envía una cantidad masiva de 33,000 tokens de contexto antes de procesar la instrucción del usuario, en comparación con los 7,000 de OpenCode. Este hallazgo explica el rápido aumento en los costos de uso de la API de Anthropic. El análisis resalta la importancia de auditar el consumo de tokens en herramientas de desarrollo automatizadas.",
+      "titular_es": "Claude Code envía 33k tokens antes de leer el prompt; OpenCode envía 7k",
+      "resumen": "Desarrolladores descubrieron una enorme diferencia en el consumo de tokens entre herramientas de desarrollo de IA. Claude Code consume hasta 33,000 tokens de contexto antes de procesar una instrucción, en comparación con los 7,000 de OpenCode. Este hallazgo explica el rápido aumento en los costos de uso para equipos de ingeniería.",
       "relevancia": 8,
       "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
       "fuente": "systima.ai (vía HN)",
@@ -65,29 +80,74 @@
       "tags": [
         "Claude Code",
         "tokens",
-        "desarrollo"
+        "costos de IA"
       ]
     },
     {
-      "id": "62850fba22",
-      "tema": "emprendimiento",
-      "titular_es": "DeepSeek recorta sus precios un 75%, pero el problema del margen persiste",
-      "resumen": "La startup de IA DeepSeek redujo drásticamente las tarifas de su modelo V4-Pro en un 75%, intensificando la guerra de precios en el sector. Sin embargo, analistas advierten que la reducción de costos de inferencia no se traduce automáticamente en mejores márgenes para las empresas derivadas. El verdadero desafío sigue siendo el alto costo de desarrollo y la monetización sostenible de los servicios de IA.",
+      "id": "8f4dc6d90b",
+      "tema": "ia",
+      "titular_es": "El fallido programa de autos autónomos de Apple dejó un legado de potentes chips de IA",
+      "resumen": "Aunque el proyecto del automóvil de Apple fue cancelado, su desarrollo impulsó la creación de procesadores de IA altamente eficientes. La necesidad de procesar datos neuronales en tiempo real dentro del vehículo obligó a Apple a diseñar silicio avanzado. Esta tecnología ahora beneficia directamente a los chips que potencian sus dispositivos actuales.",
       "relevancia": 8,
-      "url": "https://venturebeat.com/orchestration/deepseek-cut-prices-75-the-100x-problem-remains",
-      "fuente": "venturebeat.com",
-      "bandera": "🇨🇳",
+      "url": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
       "tags": [
-        "DeepSeek",
-        "guerra de precios",
-        "modelos de lenguaje"
+        "Apple",
+        "chips de IA",
+        "conducción autónoma"
+      ]
+    },
+    {
+      "id": "5478e49d29",
+      "tema": "ia",
+      "titular_es": "La batalla contra los centros de datos de IA apenas comienza",
+      "resumen": "El auge de la inteligencia artificial está generando una demanda energética sin precedentes, desatando conflictos por la construcción de nuevos centros de datos. Comunidades locales y ambientalistas empiezan a organizarse contra el impacto ecológico y el consumo de recursos. Este dilema de infraestructura definirá el futuro del despliegue tecnológico global.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
+      "fuente": "theverge.com",
+      "bandera": "🌍",
+      "tags": [
+        "centros de datos",
+        "energía",
+        "sostenibilidad"
+      ]
+    },
+    {
+      "id": "eeb2c3179b",
+      "tema": "finanzas",
+      "titular_es": "IREN y BE Networks se asocian para simular la infraestructura de GPUs NVIDIA Blackwell",
+      "resumen": "Las compañías tecnológicas IREN y BE Networks han anunciado una alianza estratégica para realizar simulaciones avanzadas de la arquitectura Blackwell de NVIDIA. Este proyecto busca optimizar el rendimiento de las supercomputadoras antes de su despliegue físico masivo. La colaboración representa un paso clave para garantizar la eficiencia energética en la computación de alto rendimiento.",
+      "relevancia": 8,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/iren-iren-networks-partner-simulate-075912782.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "NVIDIA Blackwell",
+        "infraestructura",
+        "simulación"
+      ]
+    },
+    {
+      "id": "4a4f506743",
+      "tema": "emprendimiento",
+      "titular_es": "BETA Technologies completa los primeros vuelos piloto de integración eVTOL",
+      "resumen": "La startup de aviación eléctrica BETA Technologies completó con éxito vuelos de prueba de su aeronave de despegue y aterrizaje vertical (eVTOL). El programa piloto, realizado en colaboración con varios estados, demuestra la viabilidad de integrar la aviación eléctrica en el espacio aéreo comercial. Este hito acerca a la compañía a la certificación regulatoria final.",
+      "relevancia": 8,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/beta-technologies-beta-multistate-collaborative-075921112.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "eVTOL",
+        "aviación eléctrica",
+        "BETA Technologies"
       ]
     },
     {
       "id": "ec425bec0b",
       "tema": "ciencia",
       "titular_es": "Científicos descubren cómo el cerebro se reconfigura para la multitarea real",
-      "resumen": "Un nuevo estudio revela que el entrenamiento intensivo reorganiza físicamente las conexiones cerebrales, permitiendo que las tareas aprendidas eviten la corteza prefrontal. Al liberar este centro de pensamiento consciente, el cerebro puede ejecutar procesos complejos en circuitos especializados de forma simultánea. El descubrimiento redefine los límites de la plasticidad neuronal y el aprendizaje humano.",
+      "resumen": "Un nuevo estudio revela que el entrenamiento intensivo reorganiza físicamente las conexiones neuronales, permitiendo que las tareas aprendidas eviten la corteza prefrontal. Al liberar este centro de pensamiento, el cerebro puede ejecutar múltiples actividades complejas de manera simultánea. Este hallazgo de neurociencia redefine los límites del aprendizaje humano.",
       "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/07/260712011912.htm",
       "fuente": "sciencedaily.com",
@@ -99,47 +159,17 @@
       ]
     },
     {
-      "id": "8f4dc6d90b",
-      "tema": "ia",
-      "titular_es": "El fallido programa de autos autónomos de Apple dejó un legado de potentes chips de IA",
-      "resumen": "Aunque el proyecto del automóvil de Apple fue cancelado, la necesidad de procesar datos de conducción autónoma en tiempo real impulsó el desarrollo de chips de silicio altamente eficientes. Esta herencia tecnológica es la base del rendimiento actual de los procesadores de Apple en tareas de inteligencia artificial local. El fracaso de un producto terminó cimentando la estrategia de hardware de la compañía.",
-      "relevancia": 7,
-      "url": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Apple",
-        "chips",
-        "conducción autónoma"
-      ]
-    },
-    {
-      "id": "5478e49d29",
-      "tema": "ia",
-      "titular_es": "La batalla contra los centros de datos de IA apenas comienza",
-      "resumen": "El auge de la inteligencia artificial está generando una demanda energética sin precedentes, lo que desata tensiones en las comunidades locales donde se construyen nuevos centros de datos. Residentes y ambientalistas empiezan a organizarse contra el consumo masivo de agua y electricidad de estas instalaciones. El conflicto plantea un desafío crítico para la infraestructura tecnológica global en los próximos años.",
-      "relevancia": 7,
-      "url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
-      "fuente": "theverge.com",
-      "bandera": "🌍",
-      "tags": [
-        "centros de datos",
-        "energía",
-        "medio ambiente"
-      ]
-    },
-    {
       "id": "e67d4ca426",
       "tema": "ciencia",
       "titular_es": "La vida en el océano profundo tiene una fuente de alimento secreta e inesperada",
-      "resumen": "Científicos descubrieron que la presión extrema de las profundidades marinas exprime nutrientes valiosos de las partículas orgánicas que caen al fondo. Este proceso físico proporciona un sustento vital insospechado para los microbios del lecho oceánico profundo. El hallazgo obliga a replantear los modelos actuales de almacenamiento de carbono y los ecosistemas abisales.",
-      "relevancia": 7,
+      "resumen": "Científicos descubrieron que la presión extrema de las profundidades marinas exprime nutrientes valiosos de las partículas orgánicas que caen al fondo. Este proceso proporciona un sustento inesperado para los microbios oceánicos profundos. El hallazgo podría transformar nuestra comprensión de los ecosistemas marinos y del almacenamiento de carbono en la Tierra.",
+      "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/07/260711010127.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
       "tags": [
         "oceanografía",
-        "microbiología",
+        "ecosistemas",
         "carbono"
       ]
     },
@@ -147,45 +177,135 @@
       "id": "b85df51a08",
       "tema": "ciencia",
       "titular_es": "Futuros alunizajes podrían borrar pistas sobre el origen de la vida en la Tierra",
-      "resumen": "Un estudio advierte que los gases de escape de las naves espaciales podrían contaminar rápidamente las regiones lunares de mayor valor científico. Esta polución corre el riesgo de enmascarar compuestos orgánicos antiguos que contienen pistas sobre cómo comenzó la vida en nuestro planeta. Los investigadores instan a diseñar métodos de mitigación antes de que se intensifiquen las misiones lunares.",
-      "relevancia": 7,
+      "resumen": "Un estudio advierte que los gases de escape de las naves espaciales podrían contaminar rápidamente las regiones más valiosas de la Luna. Esta contaminación amenaza con enmascarar pistas orgánicas antiguas sobre cómo comenzó la vida en nuestro planeta. Los investigadores instan a diseñar nuevos métodos de mitigación antes de que se intensifiquen las misiones lunares.",
+      "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/07/260710003537.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
       "tags": [
-        "luna",
+        "Luna",
         "astrobiología",
-        "exploración espacial"
+        "contaminación espacial"
+      ]
+    },
+    {
+      "id": "d26d0e70d6",
+      "tema": "ciencia",
+      "titular_es": "La proteína tau del Alzhéimer tiene un papel secreto y sorprendente en la memoria",
+      "resumen": "Investigadores descubrieron que la proteína tau es esencial para consolidar nuevas experiencias en recuerdos a largo plazo al organizar las células cerebrales. Sin embargo, cuando la proteína se vuelve anormal, interrumpe tanto la formación como la recuperación de recuerdos. Este hallazgo en ratones ofrece una nueva perspectiva para combatir el Alzhéimer.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260710003535.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "Alzhéimer",
+        "proteína tau",
+        "memoria"
+      ]
+    },
+    {
+      "id": "e62bae0350",
+      "tema": "ia",
+      "titular_es": "Mark Cuban advierte sobre las empresas de IA y la pérdida de empleos",
+      "resumen": "El conocido inversionista Mark Cuban compartió duras advertencias sobre el impacto de la automatización en el mercado laboral. Cuban señala que las empresas que adoptan IA de forma masiva acelerarán el desplazamiento de trabajadores sin crear suficientes roles alternativos. Su perspectiva abre un debate ético y económico crucial para los futuros ingenieros.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-strong-words-ai-140700495.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Mark Cuban",
+        "empleo",
+        "automatización"
+      ]
+    },
+    {
+      "id": "c6e4bc7237",
+      "tema": "finanzas",
+      "titular_es": "El impacto de la 'Funflation': Por qué quedarse en casa ya no ahorra dinero como antes",
+      "resumen": "La inflación en el sector del entretenimiento digital ha encarecido drásticamente los pasatiempos hogareños. El aumento de precios en servicios de streaming, suscripciones de videojuegos y entregas a domicilio está afectando el bolsillo de los consumidores. Esta tendencia redefine los hábitos de consumo y las estrategias financieras de los jóvenes profesionales.",
+      "relevancia": 7,
+      "url": "https://www.cnbc.com/2026/07/11/funflation-streaming-video-games-xbox-apple-disney-netflix.html",
+      "fuente": "cnbc.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "inflación",
+        "streaming",
+        "finanzas personales"
+      ]
+    },
+    {
+      "id": "36c27389e0",
+      "tema": "finanzas",
+      "titular_es": "Kratos Defense expande su planta de fabricación en Oklahoma City",
+      "resumen": "La firma de defensa y seguridad Kratos ha anunciado la expansión de sus instalaciones de manufactura en Oklahoma. Este movimiento responde al incremento de contratos gubernamentales para la producción de sistemas aéreos no tripulados y tecnología de defensa. La inversión generará nuevos empleos técnicos y consolida el crecimiento financiero de la empresa.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kratos-defense-security-solutions-ktos-075906365.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "defensa",
+        "manufactura",
+        "Kratos"
       ]
     },
     {
       "id": "1c7848ecb1",
       "tema": "emprendimiento",
       "titular_es": "LARP: Infraestructura de ingresos para fundadores serios",
-      "resumen": "Se presenta LARP, una nueva plataforma diseñada para simplificar la gestión de ingresos y facturación en startups tecnológicas. La herramienta busca competir con gigantes establecidos ofreciendo una integración más ágil y menores comisiones para fundadores en etapas tempranas. Promete resolver la complejidad técnica de los pagos recurrentes globales.",
-      "relevancia": 6,
+      "resumen": "Se presenta LARP, una nueva plataforma diseñada para simplificar la gestión de ingresos y facturación en startups en etapa temprana. La herramienta promete automatizar procesos financieros complejos, permitiendo a los fundadores enfocarse en el desarrollo de producto. Su lanzamiento busca competir en el saturado mercado de soluciones SaaS para emprendedores.",
+      "relevancia": 7,
       "url": "https://www.larp.website/",
       "fuente": "larp.website (vía HN)",
       "bandera": "🇺🇸",
       "tags": [
-        "fintech",
         "SaaS",
+        "finanzas",
         "facturación"
       ]
     },
     {
-      "id": "c6e4bc7237",
-      "tema": "finanzas",
-      "titular_es": "La 'diversión inflacionaria' golpea el hogar: quedarse en casa ya no ahorra como antes",
-      "resumen": "El fenómeno de la inflación ha alcanzado a los pasatiempos domésticos tras sucesivos aumentos de precios en servicios de streaming y videojuegos. Actividades que antes se consideraban alternativas económicas para recortar gastos ahora representan una presión significativa en el presupuesto mensual. El análisis muestra un cambio estructural en el costo del entretenimiento digital.",
-      "relevancia": 6,
-      "url": "https://www.cnbc.com/2026/07/11/funflation-streaming-video-games-xbox-apple-disney-netflix.html",
-      "fuente": "cnbc.com",
+      "id": "ca88b3b341",
+      "tema": "ciencia",
+      "titular_es": "El misterio de Moana: ¿Por qué los polinesios navegaron repentinamente hacia el este tras 1,700 años?",
+      "resumen": "Nuevas evidencias climáticas aportan un contexto crucial sobre los viajes de larga distancia de los antiguos polinesios. El estudio sugiere que cambios en los patrones de viento y corrientes facilitaron la exploración de nuevas islas tras siglos de pausa. Este descubrimiento combina la antropología con la ciencia del clima para resolver un enigma histórico.",
+      "relevancia": 7,
+      "url": "https://arstechnica.com/culture/2026/07/the-real-mystery-behind-moana-after-1700-years-why-did-polynesians-suddenly-sail-east/",
+      "fuente": "arstechnica.com",
       "bandera": "🌍",
       "tags": [
-        "inflación",
-        "streaming",
-        "economía doméstica"
+        "antropología",
+        "clima",
+        "Polinesia"
+      ]
+    },
+    {
+      "id": "2c1850474c",
+      "tema": "finanzas",
+      "titular_es": "Spectrum toma una decisión importante ante la pérdida acumulada de clientes",
+      "resumen": "Ante la continua pérdida de suscriptores debido al auge del streaming, el proveedor de cable Spectrum implementará cambios drásticos en su oferta comercial. La compañía busca reestructurar sus paquetes de servicios para retener a los usuarios y estabilizar sus ingresos. Esta decisión refleja la profunda transformación financiera que atraviesa la industria de las telecomunicaciones.",
+      "relevancia": 6,
+      "url": "https://finance.yahoo.com/technology/articles/spectrum-makes-significant-decision-customer-141700401.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "telecomunicaciones",
+        "Spectrum",
+        "negocios"
+      ]
+    },
+    {
+      "id": "ead63d6646",
+      "tema": "finanzas",
+      "titular_es": "Una guía para invertir en el semestre: Cinco apuestas para navegar la segunda mitad del año",
+      "resumen": "Los principales bancos de inversión coinciden en que el segundo semestre del año presentará oportunidades financieras distintas a las anteriores. Esta guía analiza cinco estrategias clave para diversificar portafolios en un entorno de tasas de interés cambiantes. Es una lectura recomendada para estudiantes que buscan entender la dinámica macroeconómica actual.",
+      "relevancia": 6,
+      "url": "https://www.bloomberglinea.com/mercados/una-guia-para-invertir-en-el-semestre-cinco-apuestas-para-navegar-la-segunda-mitad-del-ano/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🌍",
+      "tags": [
+        "inversiones",
+        "macroeconomía",
+        "estrategia"
       ]
     }
   ]

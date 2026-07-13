@@ -367,6 +367,7 @@
       <div id="fecha">—</div>
       <div id="indicadores"></div>
     </div>
+    <button class="icono" id="btn-undo" title="Deshacer" aria-label="Deshacer último swipe" hidden>↩️</button>
     <button class="icono" id="btn-guardados" title="Guardados" aria-label="Ver guardados">🔖</button>
   </header>
 
@@ -419,6 +420,7 @@ const TEMA_DEFECTO = { emoji: "📰", nombre: "General", color: "#64748b" };
 const infoTema = (clave) => TEMAS[clave] || TEMA_DEFECTO;
 
 const LS_KEY = "digest_guardados";
+const LS_VISTOS = "digest_vistos";   // ids ya swipeados hoy (para retomar donde ibas)
 const DIAS_MAX = 30;                 // no conservar guardados de más de 30 días
 
 const $ = (sel) => document.querySelector(sel);
@@ -431,6 +433,7 @@ let datos = null;        // contenido de digest.json
 let fechaActual = "";    // datos.fecha, usada como clave de guardado
 let cartas = [];         // [{ el, noticia, ovLike, ovNope }] en orden; cartas[0] = frente
 let totalCartas = 0;     // total de cards del mazo (fijo; para el contador de progreso)
+let ultimaSalida = null; // última card que salió del mazo, para poder deshacer (undo)
 
 // ---------------------------------------------------------------------------
 // Vistas (mostrar una a la vez)
@@ -470,6 +473,27 @@ function eliminarGuardado(id, fecha) {
   escribirGuardados(leerGuardados().filter((g) => !(g.id === id && g.fecha === fecha)));
   renderGuardados();
 }
+// Quita un guardado sin re-renderizar la lista (para deshacer un "me gusta").
+function quitarGuardado(n) {
+  escribirGuardados(leerGuardados().filter((g) => !(g.id === n.id && g.fecha === fechaActual)));
+}
+
+// ---------------------------------------------------------------------------
+// Vistos de hoy: ids ya swipeados, para retomar donde ibas al reabrir la app.
+// Se guarda un solo día; al cambiar la fecha, arranca vacío (día nuevo).
+// ---------------------------------------------------------------------------
+function leerVistos() {
+  try {
+    const v = JSON.parse(localStorage.getItem(LS_VISTOS));
+    if (v && v.fecha === fechaActual && Array.isArray(v.ids)) return new Set(v.ids);
+  } catch (e) { /* nada */ }
+  return new Set();
+}
+function guardarVistos(set) {
+  try { localStorage.setItem(LS_VISTOS, JSON.stringify({ fecha: fechaActual, ids: [...set] })); } catch (e) { /* nada */ }
+}
+function marcarVisto(id) { const s = leerVistos(); s.add(id); guardarVistos(s); }
+function marcarNoVisto(id) { const s = leerVistos(); s.delete(id); guardarVistos(s); }
 
 // ---------------------------------------------------------------------------
 // Header: fecha + indicadores
@@ -561,18 +585,21 @@ function construirMazo() {
   const mazo = $("#mazo");
   mazo.innerHTML = "";
   cartas = [];
-  
+  ultimaSalida = null; ocultarUndo();
+
   const noticias = datos.noticias || [];
+  const vistos = leerVistos();
+  const pendientes = noticias.filter((n) => !vistos.has(n.id));   // retoma: salta lo ya swipeado hoy
   const pildoras = datos.pildoras_ia || [];
   let pildoraIndex = 0;
 
-  for (let i = 0; i < noticias.length; i++) {
-    const n = noticias[i];
+  for (let i = 0; i < pendientes.length; i++) {
+    const n = pendientes[i];
     const esEstrella = n.id === datos.noticia_del_dia;
     const c = crearCarta(n, "noticia", esEstrella);
     cartas.push(c);
     mazo.appendChild(c.el);
-    
+
     // Intercalar píldora cada 10 noticias
     if ((i + 1) % 10 === 0 && pildoraIndex < pildoras.length) {
       const cPildora = crearCarta(pildoras[pildoraIndex], "pildora");
@@ -582,8 +609,9 @@ function construirMazo() {
     }
   }
 
-  if (!cartas.length) {          // estado vacío honesto
-    mostrarVacio("No hay noticias en el digest de hoy. Vuelve mañana ☀️");
+  if (!cartas.length) {
+    if (noticias.length) mostrarFinal();   // ya viste todo hoy: directo a la pantalla final
+    else mostrarVacio("No hay noticias en el digest de hoy. Vuelve mañana ☀️");
     return;
   }
   totalCartas = cartas.length;   // fijamos el total una vez (incluye píldoras intercaladas)
@@ -673,17 +701,53 @@ function volverCentro() {
 // Anima la card fuera de pantalla y avanza a la siguiente.
 function salir(dir) {
   const c = cartas[0];
-  if (dir > 0 && !c.noticia.esPildora) guardarNoticia(c.noticia);   // swipe derecha = me gusta
+  if (!c.noticia.esPildora) {
+    if (dir > 0) guardarNoticia(c.noticia);   // swipe derecha = me gusta
+    marcarVisto(c.noticia.id);                // recordar que ya la swipeaste hoy
+  }
   const off = (window.innerWidth || 400) * 1.4;
   c.el.style.transition = "transform .35s ease-out, opacity .35s ease-out";
   c.el.style.transform = `translate(${dir * off}px, ${dy}px) rotate(${dir * 18}deg)`;
   c.el.style.opacity = "0";
   cartas.shift();
-  setTimeout(() => {
+  const timer = setTimeout(() => {
     c.el.remove();
     if (cartas.length) { actualizarPila(); actualizarProgreso(); }
     else mostrarFinal();
   }, 350);
+  ultimaSalida = { carta: c, dir, timer };   // para deshacer
+  mostrarUndo();
+}
+
+// ---------------------------------------------------------------------------
+// Deshacer (undo) del último swipe
+// ---------------------------------------------------------------------------
+function mostrarUndo() { $("#btn-undo").hidden = false; }
+function ocultarUndo() { $("#btn-undo").hidden = true; }
+
+function deshacer() {
+  if (!ultimaSalida) return;
+  const { carta, dir, timer } = ultimaSalida;
+  ultimaSalida = null;
+  ocultarUndo();
+  clearTimeout(timer);   // por si la animación de salida aún no terminó
+
+  // Revertir efectos: ya no está vista y, si se había guardado, se quita.
+  if (!carta.noticia.esPildora) {
+    marcarNoVisto(carta.noticia.id);
+    if (dir > 0) quitarGuardado(carta.noticia);
+  }
+
+  // Re-insertar al frente con una pequeña animación de entrada.
+  if (!carta.el.isConnected) $("#mazo").appendChild(carta.el);
+  carta.el.style.transition = "none";
+  carta.el.style.transform = `translateX(${dir >= 0 ? 40 : -40}px)`;
+  carta.el.style.opacity = "0";
+  cartas.unshift(carta);
+  void carta.el.offsetWidth;   // fuerza reflow para que la transición dispare
+  mostrarVista("vista-mazo");
+  actualizarPila();            // lleva la card al centro (opacity 1) con transición
+  actualizarProgreso();
 }
 
 // ---------------------------------------------------------------------------
@@ -765,21 +829,44 @@ function iniciar(json) {
   construirMazo();
 }
 
+// "Repasar de nuevo": limpia lo visto de hoy y reconstruye el mazo completo.
+function repasar() {
+  guardarVistos(new Set());
+  ultimaSalida = null; ocultarUndo();
+  construirMazo();
+}
+
 // Botones
 $("#btn-guardados").addEventListener("click", mostrarGuardados);
 $("#btn-ver-guardados").addEventListener("click", mostrarGuardados);
 $("#btn-volver").addEventListener("click", volverDeGuardados);
-$("#btn-repasar").addEventListener("click", construirMazo);
+$("#btn-repasar").addEventListener("click", repasar);
+$("#btn-undo").addEventListener("click", deshacer);
 
 // Carga del JSON (sin caché: no hay service worker, siempre lo más fresco).
-fetch("./digest.json", { cache: "no-store" })
-  .then((r) => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
-  .then(iniciar)
-  .catch(() => {
-    fechaActual = "";
-    $("#fecha").textContent = "—";
-    mostrarVacio("No pude cargar el digest de hoy (revisa que digest.json esté disponible).");
-  });
+function cargar() {
+  return fetch("./digest.json", { cache: "no-store" })
+    .then((r) => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); });
+}
+
+cargar().then(iniciar).catch(() => {
+  fechaActual = "";
+  $("#fecha").textContent = "—";
+  mostrarVacio("No pude cargar el digest de hoy (revisa que digest.json esté disponible).");
+});
+
+// Al volver a la app (p.ej. en la mañana) revisa si hay un digest nuevo del día;
+// si cambió la fecha, reconstruye el mazo. Si es el mismo día, no interrumpe la sesión.
+let refrescando = false;
+function refrescarSiCambio() {
+  if (document.visibilityState !== "visible" || refrescando) return;
+  refrescando = true;
+  cargar()
+    .then((json) => { if (json && json.fecha && json.fecha !== fechaActual) iniciar(json); })
+    .catch(() => { /* si falla, mantenemos lo que ya hay */ })
+    .finally(() => { refrescando = false; });
+}
+document.addEventListener("visibilitychange", refrescarSiCambio);
 </script>
 </body>
 </html>
