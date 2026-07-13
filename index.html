@@ -431,6 +431,7 @@ const fmt = (n) => Number(n).toLocaleString("es-CL", { minimumFractionDigits: 2,
 
 let datos = null;        // contenido de digest.json
 let fechaActual = "";    // datos.fecha, usada como clave de guardado
+let generadoActual = ""; // datos.generado_utc; para detectar un digest nuevo (mañana o tarde)
 let cartas = [];         // [{ el, noticia, ovLike, ovNope }] en orden; cartas[0] = frente
 let totalCartas = 0;     // total de cards del mazo (fijo; para el contador de progreso)
 let ultimaSalida = null; // última card que salió del mazo, para poder deshacer (undo)
@@ -825,6 +826,7 @@ function renderTags(tags) {
 function iniciar(json) {
   datos = json;
   fechaActual = json.fecha || "";
+  generadoActual = json.generado_utc || "";
   renderHeader();
   construirMazo();
 }
@@ -855,14 +857,15 @@ cargar().then(iniciar).catch(() => {
   mostrarVacio("No pude cargar el digest de hoy (revisa que digest.json esté disponible).");
 });
 
-// Al volver a la app (p.ej. en la mañana) revisa si hay un digest nuevo del día;
-// si cambió la fecha, reconstruye el mazo. Si es el mismo día, no interrumpe la sesión.
+// Al volver a la app revisa si hay un digest nuevo (la corrida de las 8:00 o la de las 16:00).
+// Compara generado_utc: si cambió, reconstruye el mazo (y como guardamos lo ya visto, en la
+// tarde solo aparecen las noticias nuevas). Si es el mismo digest, no interrumpe la sesión.
 let refrescando = false;
 function refrescarSiCambio() {
   if (document.visibilityState !== "visible" || refrescando) return;
   refrescando = true;
   cargar()
-    .then((json) => { if (json && json.fecha && json.fecha !== fechaActual) iniciar(json); })
+    .then((json) => { if (json && json.generado_utc && json.generado_utc !== generadoActual) iniciar(json); })
     .catch(() => { /* si falla, mantenemos lo que ya hay */ })
     .finally(() => { refrescando = false; });
 }
