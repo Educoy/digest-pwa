@@ -1,6 +1,6 @@
 {
   "fecha": "2026-07-14",
-  "generado_utc": "2026-07-14T13:46:08Z",
+  "generado_utc": "2026-07-14T20:52:34Z",
   "indicadores": {
     "dolar": {
       "valor": 928.84,
@@ -13,7 +13,7 @@
       "variacion_pct": 0.0
     }
   },
-  "noticia_del_dia": "5102764a83",
+  "noticia_del_dia": "c49253e9d5",
   "pildora_ia": "Destilación: entrenar un modelo pequeño para imitar a uno grande. El resultado es más rápido y barato de correr conservando buena parte de la calidad. Así nacen muchos modelos 'flash' o 'mini'.",
   "pildoras_ia": [
     "Destilación: entrenar un modelo pequeño para imitar a uno grande. El resultado es más rápido y barato de correr conservando buena parte de la calidad. Así nacen muchos modelos 'flash' o 'mini'.",
@@ -24,378 +24,424 @@
   ],
   "noticias": [
     {
-      "id": "5102764a83",
-      "tema": "ia",
-      "titular_es": "Codex starts encrypting sub-agent prompts",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 10,
-      "url": "https://github.com/openai/codex/issues/28058",
-      "fuente": "github.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "bbccdc588f",
-      "tema": "finanzas",
-      "titular_es": "Consumer prices rose 3.5% annually in June, less than expected as energy prices eased",
-      "resumen": "The consumer price index in June was expected to increase 3.8% from a year ago.",
-      "relevancia": 10,
-      "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html",
-      "fuente": "cnbc.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "7d7a63e393",
+      "id": "c49253e9d5",
       "tema": "emprendimiento",
-      "titular_es": "Pinwheel launches a retro-inspired landline phone for kids",
-      "resumen": "Kid-friendly tech company Pinwheel announced the launch of a new landline phone designed to let children stay connected without the distractions of a smartphone.",
+      "titular_es": "DeepSeek busca recaudar 1.500 millones de dólares antes de salir a bolsa",
+      "resumen": "El desarrollador chino de modelos de lenguaje masivo, DeepSeek, está en conversaciones para levantar una ronda de financiación de 1.500 millones de dólares con una valoración de 71.000 millones. La startup planea realizar su debut en bolsa (IPO) en 2027, consolidándose como uno de los gigantes de la IA.",
       "relevancia": 10,
-      "url": "https://techcrunch.com/2026/07/14/pinwheel-launches-a-retro-inspired-landline-phone-for-kids/",
+      "url": "https://techcrunch.com/2026/07/14/deepseek-reportedly-in-talks-to-raise-1-5b-then-ipo/",
       "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "64ea707006",
-      "tema": "ciencia",
-      "titular_es": "The Download: Claude’s inner workings, and the future of world models",
-      "resumen": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What Anthropic’s latest AI discovery does—and doesn’t—show —James O’Donnell When Anthropic announced last week that it had found a new window into its models’ “in",
-      "relevancia": 10,
-      "url": "https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "9452f72c89",
-      "tema": "ia",
-      "titular_es": "Indian scientists produce most detailed 3D atlas of the human brainstem",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 9,
-      "url": "https://www.bbc.com/news/articles/cg53l737v1qo",
-      "fuente": "bbc.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "c6e4bc7237",
-      "tema": "finanzas",
-      "titular_es": "'Funflation' hits home: Why staying in isn't the cost-saver it used to be",
-      "resumen": "Following a wave of price hikes, at-home pastimes like streaming movies or playing video games are pinching pocketbooks.",
-      "relevancia": 9,
-      "url": "https://www.cnbc.com/2026/07/11/funflation-streaming-video-games-xbox-apple-disney-netflix.html",
-      "fuente": "cnbc.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇨🇳",
+      "tags": [
+        "DeepSeek",
+        "financiamiento",
+        "inteligencia artificial"
+      ]
     },
     {
       "id": "102e5c9718",
       "tema": "emprendimiento",
-      "titular_es": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
-      "resumen": "The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors.",
+      "titular_es": "Nous Research negocia una ronda de financiación con una valoración de 1.500 millones de dólares",
+      "resumen": "La startup Nous Research, creadora de los modelos de agentes de IA Hermes, busca recaudar al menos 75 millones de dólares en una ronda liderada por Robot Ventures. La inyección de capital acelerará el desarrollo de sus tecnologías de código abierto para agentes autónomos.",
       "relevancia": 9,
       "url": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
       "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "Nous Research",
+        "financiamiento",
+        "agentes de IA"
+      ]
     },
     {
-      "id": "b5aa16b300",
-      "tema": "ciencia",
-      "titular_es": "PsiQuantum has a plan to make a massive quantum computer out of light",
-      "resumen": "The machine that could change the world will be housed in a room that looks like a data center crossed with an ice cream factory. Inside will be some 100 stainless-steel cabinets, each about six feet tall and connected to a supply of liquid helium that keeps them only a few degrees above absolute ze",
+      "id": "9dc0222d45",
+      "tema": "ia",
+      "titular_es": "La herramienta de programación Grok de SpaceXAI subía repositorios enteros a la nube",
+      "resumen": "Se descubrió que la herramienta de desarrollo Grok Build CLI empaquetaba y subía el código fuente completo de los usuarios a Google Cloud sin previo aviso. Tras las denuncias de investigadores de seguridad, la compañía desactivó temporalmente esta funcionalidad para evitar filtraciones de propiedad intelectual.",
       "relevancia": 9,
-      "url": "https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": []
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "seguridad",
+        "privacidad",
+        "Grok"
+      ]
     },
     {
-      "id": "f9edf4a649",
+      "id": "c0711504ce",
       "tema": "ia",
-      "titular_es": "Australian energy retailers must provide three hours of free daytime electricity",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 8,
-      "url": "https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works/",
-      "fuente": "lenergy.com.au (vía HN)",
-      "bandera": "🌍",
-      "tags": []
+      "titular_es": "Nueva York promulga la primera moratoria estatal para centros de datos",
+      "resumen": "La gobernadora de Nueva York firmó una ley que prohíbe el establecimiento de nuevos centros de datos a gran escala por un año debido a su impacto ambiental. Esta medida sin precedentes en EE. UU. busca evaluar el consumo energético de la infraestructura necesaria para la IA.",
+      "relevancia": 9,
+      "url": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "centros de datos",
+        "medio ambiente",
+        "infraestructura"
+      ]
     },
     {
-      "id": "47ab30f13a",
+      "id": "68a5c857d6",
       "tema": "finanzas",
-      "titular_es": "Target's problems aren't what you think they are",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 8,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/targets-problems-arent-think-201058966.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "ba2a16992c",
-      "tema": "emprendimiento",
-      "titular_es": "1Password moves into AI cost management, betting that token spend is the next enterprise budget crisis",
-      "resumen": "1Password on Tuesday launched AI Spend and Consumption Management , a new capability embedded in its SaaS Manager platform that gives IT and finance teams a unified, real-time view of how their organizations consume and spend on AI services from vendors including Anthropic , Cursor , and OpenAI . Th",
-      "relevancia": 8,
-      "url": "https://venturebeat.com/security/1password-moves-into-ai-cost-management-betting-that-token-spend-is-the-next-enterprise-budget-crisis",
-      "fuente": "venturebeat.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "50ee0b4631",
-      "tema": "ciencia",
-      "titular_es": "What Anthropic’s latest AI discovery does—and doesn’t—show",
-      "resumen": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Anthropic—currently the world’s most valuable AI company, with a nearly $1 trillion valuation—has a reputation for publishing strange and heady research. It’s loo",
-      "relevancia": 8,
-      "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "288922f719",
-      "tema": "ia",
-      "titular_es": "YouTrackDB is a general-use object-oriented graph database",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 7,
-      "url": "https://github.com/JetBrains/youtrackdb",
-      "fuente": "github.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "17dbdc66d4",
-      "tema": "finanzas",
-      "titular_es": "Dow Jones' Two Biggest Banks Report Earnings. This One Rises.",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 7,
-      "url": "https://www.investors.com/news/jpmorgan-chase-goldman-sachs-bank-earnings-q2-2026-dow-jones-jpm-stock-gs-stock/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "e7ef027c57",
-      "tema": "emprendimiento",
-      "titular_es": "Canva launches Code 2.0, offering AI website building to every user — including free accounts",
-      "resumen": "Canva on Tuesday launched Canva Code 2.0 , a major upgrade to its AI-powered coding tool that lets users build interactive websites, apps, and experiences using plain-language prompts — and then edit the results as easily as tweaking a Canva presentation. The feature is now available to all of the c",
-      "relevancia": 7,
-      "url": "https://venturebeat.com/technology/canva-launches-code-2-0-offering-ai-website-building-to-every-user-including-free-accounts",
-      "fuente": "venturebeat.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "d9f36c7e74",
-      "tema": "ciencia",
-      "titular_es": "Eating chili peppers may raise the risk of one deadly cancer",
-      "resumen": "A major review found that people who consumed the most chili peppers had a substantially higher risk of esophageal cancer, though the evidence was less clear for stomach and colorectal cancers. Researchers emphasize that the findings show an association, not proof of cause and effect, and that more ",
-      "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260713084921.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "f7d1acd648",
-      "tema": "ia",
-      "titular_es": "Japan develops a method to recover up to 90% of lithium from used EV batteries",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 6,
-      "url": "https://tech.supercarblondie.com/japan-recovers-up-to-90-of-lithium-from-used-ev-batteries/",
-      "fuente": "tech.supercarblondie.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "974b117b1c",
-      "tema": "finanzas",
-      "titular_es": "Inflation cooled off in June as energy prices slid",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 6,
-      "url": "https://finance.yahoo.com/economy/article/inflation-cooled-off-in-june-as-energy-prices-slid-180813780.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "38871dad9f",
-      "tema": "emprendimiento",
-      "titular_es": "ACRouter picks the smartest AI model per task, beating Opus-only setups by 2.6x on cost",
-      "resumen": "Model routing is becoming a key component of the enterprise AI stack, dynamically sending prompts to the right AI model to optimize speed and costs. However, current frameworks mostly treat routing as a static classification problem, which severely limits their potential. A new open-source framework",
-      "relevancia": 6,
-      "url": "https://venturebeat.com/orchestration/acrouter-picks-the-smartest-ai-model-per-task-beating-opus-only-setups-by-2-6x-on-cost",
-      "fuente": "venturebeat.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "11699ea146",
-      "tema": "ciencia",
-      "titular_es": "Popular weight-loss drugs Ozempic and Wegovy may slow biological aging",
-      "resumen": "Researchers found that semaglutide, the active ingredient in Ozempic and Wegovy, slowed biological aging markers in adults with HIV, marking the first clinical evidence that the drug may influence human aging. Although the findings are encouraging, scientists say larger studies are needed before con",
-      "relevancia": 6,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260713084907.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "ac2e12b214",
-      "tema": "ia",
-      "titular_es": "Fundamentals of Wireless Communication (2005)",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 5,
-      "url": "https://web.stanford.edu/~dntse/wireless_book.html",
-      "fuente": "web.stanford.edu (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "cf896ff340",
-      "tema": "finanzas",
-      "titular_es": "Stock market today: Dow, S&P 500, Nasdaq futures mixed after cooler-than-expected CPI report",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 5,
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-july-14-dow-sp-500-nasdaq-070833816.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
+      "titular_es": "Warren Buffett revela su plan para donar toda su participación en Berkshire Hathaway antes de 2034",
+      "resumen": "El legendario inversor Warren Buffett anunció la transferencia de 12 millones de acciones Clase B este año y detalló que el resto de su fortuna en Berkshire Hathaway será distribuido por cuatro fundaciones familiares en un plazo de ocho años, completando su legado filantrópico.",
+      "relevancia": 9,
+      "url": "https://www.bloomberglinea.com/mercados/buffett-revela-el-plan-para-donar-toda-su-participacion-en-berkshire-hathaway-antes-de-2034/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Warren Buffett",
+        "Berkshire Hathaway",
+        "filantropía"
+      ]
     },
     {
       "id": "85aec55ec2",
       "tema": "ciencia",
-      "titular_es": "NASA's Perseverance just completed a marathon on Mars",
-      "resumen": "NASA's Perseverance rover has reached an impressive new milestone on Mars, completing the equivalent of a full marathon by driving 26.2 miles (42.195 kilometers) across the Red Planet. It accomplished the feat in just five years and four months, reaching the distance on its 1,890th Martian day, less",
-      "relevancia": 5,
+      "titular_es": "El rover Perseverance de la NASA completa un maratón de distancia en Marte",
+      "resumen": "El rover Perseverance alcanzó un hito histórico al recorrer 42,195 kilómetros (la distancia equivalente a un maratón) sobre la superficie de Marte. El vehículo logró esta hazaña en poco más de cinco años terrestres, recopilando valiosos datos geológicos en el cráter Jezero.",
+      "relevancia": 9,
       "url": "https://www.sciencedaily.com/releases/2026/07/260713084858.htm",
       "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "7172058918",
-      "tema": "ia",
-      "titular_es": "Satellite Tracker – Live Map of Starlink and 30k Satellites",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 4,
-      "url": "https://satellitemap.space/",
-      "fuente": "satellitemap.space (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "c407c67de8",
-      "tema": "finanzas",
-      "titular_es": "Stock Market Today: S&P Climbs On Surprise CPI Inflation Report; IBM Plunges 23% On Earnings (Live Coverage)",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 4,
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-june-cpi-inflation-ibm-stock/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "NASA",
+        "Perseverance",
+        "Marte"
+      ]
     },
     {
       "id": "ca56ce6b4e",
       "tema": "ciencia",
-      "titular_es": "NASA selects four new Moon missions to build a permanent lunar base",
-      "resumen": "NASA is ramping up its lunar ambitions by awarding nearly $600 million for four commercial Moon landings planned for late 2028. Each mission will carry the same trio of science instruments to improve lunar navigation, study dangerous dust kicked up during landings, and map the Moon's radiation envir",
-      "relevancia": 4,
+      "titular_es": "La NASA selecciona cuatro nuevas misiones comerciales para construir una base lunar permanente",
+      "resumen": "La NASA destinará casi 600 millones de dólares para financiar cuatro alunizajes comerciales programados para finales de 2028. Cada misión transportará instrumentos científicos clave para mejorar la navegación lunar, estudiar el polvo de la superficie y mapear la radiación espacial.",
+      "relevancia": 9,
       "url": "https://www.sciencedaily.com/releases/2026/07/260713084853.htm",
       "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "NASA",
+        "misiones lunares",
+        "espacio"
+      ]
     },
     {
-      "id": "dd01246087",
-      "tema": "ia",
-      "titular_es": "The Economics of Recursive Self-Improvement [pdf]",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 3,
-      "url": "https://elasticity.institute/rsi-paper.pdf",
-      "fuente": "elasticity.institute (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "9feb406372",
-      "tema": "finanzas",
-      "titular_es": "BMW's U.S. business is delivering when it matters most",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 3,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bmws-u-business-delivering-matters-033300819.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "5dd0915e4a",
+      "id": "265188d84f",
       "tema": "ciencia",
-      "titular_es": "Alan Turing's biggest AI assumption may have been wrong",
-      "resumen": "A new book claims AI has been built on a flawed assumption dating back to Alan Turing's famous 1950 paper. Peter J. Denning argues that the most important parts of human intelligence, including common sense, intuition, culture, and practical know-how, cannot be encoded into computers. He believes th",
-      "relevancia": 3,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260713084850.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
+      "titular_es": "SpaceX se prepara para el decimotercer vuelo de prueba de Starship",
+      "resumen": "SpaceX está ultimando los detalles para el lanzamiento de prueba número 13 de su megacohete Starship. Esta misión someterá a la nave a mayores presiones atmosféricas y probará el despliegue de nuevos satélites Starlink de segunda generación en órbita baja.",
+      "relevancia": 9,
+      "url": "https://arstechnica.com/space/2026/07/spacex-is-gearing-up-for-starships-13th-test-flight-later-this-week/",
+      "fuente": "arstechnica.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "SpaceX",
+        "Starship",
+        "aeroespacial"
+      ]
     },
     {
-      "id": "05099155f7",
+      "id": "4526b355a0",
+      "tema": "emprendimiento",
+      "titular_es": "La startup de salud de David Beckham, IM8, recibe 1.000 millones de dólares de General Catalyst",
+      "resumen": "IM8, la startup de bebidas para la longevidad respaldada por David Beckham, ha asegurado 1.000 millones de dólares a través del fondo Customer Value Fund de General Catalyst. Este vehículo financiero no realiza inversiones de capital tradicionales, sino que financia el crecimiento operativo.",
+      "relevancia": 8,
+      "url": "https://techcrunch.com/2026/07/14/david-beckhams-health-drink-startup-im8-takes-1b-from-general-catalysts-unusual-cvf-fund/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇬🇧",
+      "tags": [
+        "IM8",
+        "General Catalyst",
+        "longevidad"
+      ]
+    },
+    {
+      "id": "ba2a16992c",
+      "tema": "emprendimiento",
+      "titular_es": "1Password lanza una herramienta para gestionar los costos de consumo de IA en empresas",
+      "resumen": "1Password ha presentado 'AI Spend and Consumption Management', una función dentro de su plataforma SaaS Manager que permite a los equipos de TI y finanzas monitorear en tiempo real el gasto en tokens de IA de proveedores como OpenAI, Anthropic y Cursor, previniendo crisis presupuestarias.",
+      "relevancia": 8,
+      "url": "https://venturebeat.com/security/1password-moves-into-ai-cost-management-betting-that-token-spend-is-the-next-enterprise-budget-crisis",
+      "fuente": "venturebeat.com",
+      "bandera": "🇨🇦",
+      "tags": [
+        "1Password",
+        "gestión de costos",
+        "SaaS"
+      ]
+    },
+    {
+      "id": "e7ef027c57",
+      "tema": "emprendimiento",
+      "titular_es": "Canva lanza Code 2.0 para permitir la creación de sitios web con IA a todos sus usuarios",
+      "resumen": "Canva presentó Canva Code 2.0, una actualización mayor de su herramienta de desarrollo web que permite a usuarios (incluyendo cuentas gratuitas) diseñar sitios interactivos y aplicaciones mediante prompts en lenguaje natural. Los resultados se pueden editar de forma visual y sencilla.",
+      "relevancia": 8,
+      "url": "https://venturebeat.com/technology/canva-launches-code-2-0-offering-ai-website-building-to-every-user-including-free-accounts",
+      "fuente": "venturebeat.com",
+      "bandera": "🇦🇺",
+      "tags": [
+        "Canva",
+        "desarrollo web",
+        "no-code"
+      ]
+    },
+    {
+      "id": "b692f34523",
       "tema": "ia",
-      "titular_es": "The git history command",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 2,
-      "url": "https://lalitm.com/post/git-history/",
-      "fuente": "lalitm.com (vía HN)",
+      "titular_es": "Bonsai 27B: Un modelo de IA de 27 mil millones de parámetros que corre en un teléfono",
+      "resumen": "Se ha presentado Bonsai 27B, un modelo de lenguaje de gran tamaño optimizado para ejecutarse localmente en dispositivos móviles. Este avance demuestra la viabilidad de ejecutar arquitecturas complejas de IA sin depender de la nube, abriendo nuevas posibilidades para la privacidad y la latencia.",
+      "relevancia": 8,
+      "url": "https://prismml.com/news/bonsai-27b",
+      "fuente": "prismml.com (vía HN)",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "modelos locales",
+        "hardware móvil",
+        "eficiencia"
+      ]
     },
     {
-      "id": "260f98e4c3",
+      "id": "729bc486f4",
+      "tema": "ia",
+      "titular_es": "Meta es acusada de usar IA sesgada para seleccionar empleados en despidos masivos",
+      "resumen": "Un grupo de 26 exempleados ha demandado a Meta, alegando que la empresa utilizó herramientas de IA sesgadas para seleccionar a los trabajadores despedidos. La demanda afirma que el algoritmo penalizó injustamente a empleados que se encontraban bajo licencias médicas o familiares.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Meta",
+        "sesgo algorítmico",
+        "recursos humanos"
+      ]
+    },
+    {
+      "id": "19e34e43ea",
+      "tema": "ia",
+      "titular_es": "Boston Dynamics prueba sus perros robot 'Spot' para entregas a domicilio",
+      "resumen": "Boston Dynamics está probando un nuevo accesorio de cinta transportadora para su cuadrúpedo Spot, permitiéndole transportar paquetes desde vehículos de reparto hasta las puertas de los clientes. El robot realiza la descarga de forma autónoma, explorando un nuevo caso de uso comercial.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/tech/965378/boston-dynamics-spot-robot-dog-delivery-assistant",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "robótica",
+        "Boston Dynamics",
+        "automatización"
+      ]
+    },
+    {
+      "id": "87a2527676",
+      "tema": "ia",
+      "titular_es": "Apple demanda a OpenAI por su costosa apuesta de hardware",
+      "resumen": "Apple ha presentado una demanda de alto perfil contra OpenAI que pone en riesgo los costosos desarrollos de hardware de la firma liderada por Sam Altman. Esta batalla legal añade más presión a OpenAI en un año marcado por múltiples disputas sobre propiedad intelectual.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965294/openai-apple-trade-secrets-lawsuit-sam-altman-ipo",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Apple",
+        "OpenAI",
+        "propiedad intelectual"
+      ]
+    },
+    {
+      "id": "f3a882a7ed",
+      "tema": "ia",
+      "titular_es": "Demis Hassabis propone un organismo de control global para la IA liderado por EE. UU.",
+      "resumen": "El CEO de Google DeepMind, Demis Hassabis, argumentó que el mundo necesita un regulador global con la capacidad de frenar el desarrollo de modelos de IA si se vuelven peligrosos. Hassabis propone que Estados Unidos lidere la iniciativa para establecer estándares globales unificados.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "regulación",
+        "DeepMind",
+        "seguridad de IA"
+      ]
+    },
+    {
+      "id": "bbccdc588f",
       "tema": "finanzas",
-      "titular_es": "Bank of America profit jumps 27% as CEO Brian Moynihan signals 'healthy economic backdrop'",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 2,
-      "url": "https://finance.yahoo.com/markets/stocks/article/bank-of-america-profit-jumps-27-as-ceo-brian-moynihan-signals-healthy-economic-backdrop-114802659.html",
-      "fuente": "finance.yahoo.com",
+      "titular_es": "La inflación en EE. UU. sube un 3,5% interanual en junio, menos de lo esperado",
+      "resumen": "El índice de precios al consumidor en EE. UU. registró un incremento del 3,5% interanual en junio, una cifra menor al 3,8% proyectado por los analistas. La moderación en los precios de la energía dio un respiro a los mercados y reavivó las esperanzas de un recorte de tasas.",
+      "relevancia": 8,
+      "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html",
+      "fuente": "cnbc.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "inflación",
+        "macroeconomía",
+        "tasas de interés"
+      ]
+    },
+    {
+      "id": "28c6692e04",
+      "tema": "finanzas",
+      "titular_es": "El S&P 500 cierra al alza tras datos de inflación moderada en EE. UU.",
+      "resumen": "El principal índice de Wall Street cerró con ganancias luego de que los datos de inflación de junio resultaran más bajos de lo previsto. Aunque IBM registró caídas, el sector bancario superó las expectativas de ganancias, impulsando el optimismo general del mercado.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/mercados/el-sp-500-avanza-y-el-dolar-cae-tras-el-sorpresivo-descenso-de-la-inflacion-en-eeuu/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Wall Street",
+        "S&P 500",
+        "banca"
+      ]
+    },
+    {
+      "id": "40b447c872",
+      "tema": "finanzas",
+      "titular_es": "El Niño eleva el riesgo para las tasas de interés en América Latina",
+      "resumen": "El banco de inversión UBS advirtió que el fenómeno climático de El Niño podría provocar un nuevo choque inflacionario en América Latina debido al impacto en los precios de alimentos y energía. Esto obligaría a los bancos centrales de la región a mantener tasas de interés elevadas por más tiempo.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/mercados/el-nino-eleva-el-riesgo-para-las-tasas-de-interes-en-america-latina-los-paises-mas-expuestos/",
+      "fuente": "bloomberglinea.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "El Niño",
+        "inflación",
+        "América Latina"
+      ]
+    },
+    {
+      "id": "19f143237e",
+      "tema": "finanzas",
+      "titular_es": "La salida a bolsa de YPF Luz marcará el retorno de Argentina a Wall Street",
+      "resumen": "Analistas estiman que la generadora eléctrica YPF Luz podría alcanzar una valoración de mercado de hasta 2.650 millones de dólares en su próxima IPO. La operación es vista como un caso de prueba clave para evaluar el apetito de los inversores extranjeros por activos argentinos.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/ipo-de-ypf-luz-como-caso-testigo-del-retorno-argentino-a-wall-street-cuanto-podria-valer/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇦🇷",
+      "tags": [
+        "YPF Luz",
+        "IPO",
+        "Wall Street"
+      ]
+    },
+    {
+      "id": "9767b0a31a",
+      "tema": "finanzas",
+      "titular_es": "CEO de Circle afirma que Argentina se ha vuelto muy atractiva para la inversión extranjera",
+      "resumen": "Jeremy Allaire, cofundador de la emisora de la stablecoin USDC, destacó el renovado atractivo de Argentina para el capital extranjero y anticipó nuevas regulaciones para bancos y criptoactivos. La empresa busca establecer a Buenos Aires como su centro de expansión regional.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/argentina-se-ha-vuelto-mucho-mas-atractiva-para-la-inversion-extranjera-dice-ceo-de-circle/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇦🇷",
+      "tags": [
+        "Circle",
+        "USDC",
+        "criptomonedas"
+      ]
+    },
+    {
+      "id": "264fd8b4b9",
+      "tema": "finanzas",
+      "titular_es": "Bolivia prevé estabilizar el dólar tras adoptar un tipo de cambio flexible",
+      "resumen": "El ministro de Economía de Bolivia, Gabriel Espinoza, anticipó que la divisa estadounidense tenderá a la baja en las próximas semanas gracias al nuevo esquema cambiario flexible. El gobierno también busca acelerar planes para aumentar la producción local de combustibles.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/mercados/bolivia-preve-que-el-dolar-se-estabilice-en-las-proximas-semanas-tras-adoptar-un-tipo-de-cambio-flexible/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇧🇴",
+      "tags": [
+        "tipo de cambio",
+        "Bolivia",
+        "política monetaria"
+      ]
+    },
+    {
+      "id": "b5aa16b300",
+      "tema": "ciencia",
+      "titular_es": "PsiQuantum planea construir una computadora cuántica masiva basada en luz",
+      "resumen": "La startup PsiQuantum detalló su plan para albergar una computadora cuántica fotónica en una instalación refrigerada por helio líquido. El sistema utilizará unos 100 gabinetes de acero inoxidable para mantener los componentes cerca del cero absoluto, buscando liderar la computación cuántica comercial.",
+      "relevancia": 8,
+      "url": "https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/",
+      "fuente": "technologyreview.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "computación cuántica",
+        "fotónica",
+        "hardware"
+      ]
+    },
+    {
+      "id": "11699ea146",
+      "tema": "ciencia",
+      "titular_es": "Ozempic y Wegovy podrían retrasar el envejecimiento biológico, según un estudio clínico",
+      "resumen": "Investigadores descubrieron que la semaglutida, el principio activo de Ozempic, redujo los marcadores de envejecimiento biológico en adultos con VIH. Este hallazgo representa la primera evidencia clínica de que estos populares fármacos para perder peso podrían influir directamente en la longevidad humana.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260713084907.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "semaglutida",
+        "envejecimiento",
+        "medicina"
+      ]
     },
     {
       "id": "09d4c3abb1",
       "tema": "ciencia",
-      "titular_es": "This dinosaur fossil captures the final moments of a T. rex attack",
-      "resumen": "A fossilized Edmontosaurus skull with a Tyrannosaurus tooth still embedded in its face has given scientists rare evidence of a dramatic predator-prey encounter. The discovery suggests the giant carnivore delivered an incredibly powerful face-to-face bite, offering new clues about how Tyrannosaurus h",
-      "relevancia": 2,
+      "titular_es": "Un fósil de dinosaurio revela las secuelas de un ataque de Tiranosaurio Rex",
+      "resumen": "El descubrimiento de un cráneo fosilizado de Edmontosaurus con un diente de T. rex incrustado en su rostro ofrece evidencia directa de un enfrentamiento depredador-presa. El hallazgo demuestra la inmensa fuerza de mordida del carnívoro y aporta pistas sobre sus tácticas de caza.",
+      "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/07/260713000811.htm",
       "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "paleontología",
+        "dinosaurios",
+        "fósiles"
+      ]
     },
     {
-      "id": "3bdb64e793",
+      "id": "6a0a99b176",
+      "tema": "ciencia",
+      "titular_es": "Un experimento de suelo de 37 años revela una amenaza climática oculta",
+      "resumen": "El experimento de calentamiento de suelo más largo del mundo demostró que el aumento de temperatura activa microbios que descomponen el carbono estable del suelo. Este proceso libera grandes cantidades de dióxido de carbono a la atmósfera, acelerando potencialmente el calentamiento global.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260713000809.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "cambio climático",
+        "suelo",
+        "microbiología"
+      ]
+    },
+    {
+      "id": "6f3728c6e9",
+      "tema": "ciencia",
+      "titular_es": "Científicos escanean el exoplaneta K2-18b en busca de señales de vida extraterrestre",
+      "resumen": "Astrónomos utilizaron los radiotelescopios VLA y MeerKAT para realizar un barrido masivo de señales en K2-18b, uno de los exoplanetas más prometedores para albergar vida. El software avanzado analizó millones de frecuencias, filtrando la interferencia terrestre para buscar anomalías.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260712011748.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "exoplanetas",
+        "SETI",
+        "astronomía"
+      ]
+    },
+    {
+      "id": "27e0eeff47",
       "tema": "ia",
-      "titular_es": "An Englishwoman who sketched India before photography took hold",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 1,
-      "url": "https://www.bbc.com/news/articles/cm2drrv6q54o",
-      "fuente": "bbc.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "6954f9eaff",
-      "tema": "finanzas",
-      "titular_es": "CPI Shockingly Cool, Curbing Fed Rate-Hike Odds; Warsh Ahead (Live Coverage)",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 1,
-      "url": "https://www.investors.com/news/cpi-inflation-june-federal-reserve-warsh-testimony-oil-prices-sp-500/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
-      "bandera": "🌍",
-      "tags": []
+      "titular_es": "La app de verificación de edad europea obliga al uso de Android o iOS",
+      "resumen": "La nueva regulación europea de verificación de edad digital está forzando a los usuarios a depender exclusivamente de los ecosistemas de Google y Apple. Críticos señalan que esto perjudica la soberanía tecnológica y excluye a sistemas operativos alternativos de código abierto.",
+      "relevancia": 7,
+      "url": "https://github.com/eu-digital-identity-wallet/av-doc-technical-specification/discussions/19",
+      "fuente": "github.com (vía HN)",
+      "bandera": "🇪🇺",
+      "tags": [
+        "regulación",
+        "privacidad",
+        "sistemas operativos"
+      ]
     }
   ]
 }
