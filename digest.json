@@ -1,6 +1,6 @@
 {
   "fecha": "2026-07-18",
-  "generado_utc": "2026-07-18T13:15:57Z",
+  "generado_utc": "2026-07-18T20:39:14Z",
   "indicadores": {
     "dolar": {
       "valor": 924.5,
@@ -13,7 +13,7 @@
       "variacion_pct": 0.0
     }
   },
-  "noticia_del_dia": "7a744d6876",
+  "noticia_del_dia": "da56b4ec12",
   "pildora_ia": "Embeddings: representan palabras, imágenes o cualquier dato como vectores de números donde la cercanía significa similitud de significado. Son la base de la búsqueda semántica y de cómo los LLM 'entienden' texto.",
   "pildoras_ia": [
     "Embeddings: representan palabras, imágenes o cualquier dato como vectores de números donde la cercanía significa similitud de significado. Son la base de la búsqueda semántica y de cómo los LLM 'entienden' texto.",
@@ -24,55 +24,55 @@
   ],
   "noticias": [
     {
-      "id": "7a744d6876",
-      "tema": "ciencia",
-      "titular_es": "Hallan la primera atmósfera en un planeta similar a la Tierra en zona habitable",
-      "resumen": "Astrónomos han detectado por primera vez una atmósfera en un exoplaneta rocoso ubicado en la zona habitable de una estrella lejana. Este hito científico, logrado gracias a telescopios de última generación, representa un paso crucial en la búsqueda de vida extraterrestre y redefine nuestra comprensión de los sistemas planetarios templados.",
-      "relevancia": 10,
-      "url": "https://www.bbc.com/news/articles/cy4kdd1e0ejo",
-      "fuente": "bbc.com (vía HN)",
-      "bandera": "🌍",
-      "tags": [
-        "astronomía",
-        "exoplanetas",
-        "ciencia"
-      ]
-    },
-    {
-      "id": "9f0a72b022",
+      "id": "da56b4ec12",
       "tema": "ia",
-      "titular_es": "Apple demanda a OpenAI en una intensa batalla legal por el control de la IA",
-      "resumen": "Apple ha presentado una demanda formal contra OpenAI, desatando un enfrentamiento público sin precedentes en el sector tecnológico. La querella legal acusa a la startup de prácticas anticompetitivas y uso indebido de propiedad intelectual, lo que podría redefinir las alianzas estratégicas y el desarrollo de modelos de lenguaje en la industria.",
+      "titular_es": "GPT-5.6 cierra una brecha de 30 años en optimización convexa mediante un prompt",
+      "resumen": "El nuevo modelo GPT-5.6 ha logrado resolver un problema matemático de optimización convexa que llevaba tres décadas estancado, utilizando únicamente un prompt estructurado. Este hito demuestra el potencial de los modelos de frontera para acelerar descubrimientos científicos y resolver problemas complejos de ingeniería de forma autónoma.",
       "relevancia": 9,
-      "url": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
-      "fuente": "theverge.com",
+      "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+      "fuente": "old.reddit.com (vía HN)",
       "bandera": "🇺🇸",
       "tags": [
-        "Apple",
-        "OpenAI",
-        "demanda"
+        "GPT-5.6",
+        "matemáticas",
+        "optimización"
       ]
     },
     {
-      "id": "6e19740e41",
-      "tema": "ia",
-      "titular_es": "Moonshot sacude a Wall Street con Kimi K3 y revive el temor a un 'momento DeepSeek'",
-      "resumen": "El lanzamiento del nuevo modelo de inteligencia artificial chino Kimi K3, desarrollado por Moonshot, ha provocado caídas en las acciones de las grandes tecnológicas estadounidenses. Los inversores temen que este avance de bajo costo demuestre que el multimillonario gasto de las firmas de EE. UU. en infraestructura de IA no está justificado, reviviendo el pánico del mercado global.",
+      "id": "c772a968fa",
+      "tema": "finanzas",
+      "titular_es": "Futuros del Dow Jones: Ataque en Irán deja dos soldados estadounidenses muertos; Google, Tesla y AMD avanzan",
+      "resumen": "Los mercados financieros reaccionan con volatilidad tras un ataque militar en Irán que resultó en la muerte de dos soldados de EE. UU. A pesar de la tensión geopolítica, las acciones de gigantes tecnológicos como Google, Tesla y AMD muestran movimientos alcistas en las operaciones previas a la apertura del mercado.",
       "relevancia": 9,
-      "url": "https://www.bloomberglinea.com/mercados/moonshot-sacude-a-wall-street-que-es-kimi-k3-y-por-que-revive-el-temor-a-un-momento-deepseek/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇨🇳",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-iran-attack-kills-us-troops-google-tesla-amd/?src=A00220&yptr=yahoo",
+      "fuente": "investors.com",
+      "bandera": "🇺🇸",
       "tags": [
-        "Kimi K3",
-        "Moonshot",
-        "Wall Street"
+        "Dow Jones",
+        "geopolítica",
+        "mercados"
+      ]
+    },
+    {
+      "id": "8d1ab98c0d",
+      "tema": "finanzas",
+      "titular_es": "SpaceX pierde un billón de dólares en valoración de mercado tras cancelarse el lanzamiento de Starship",
+      "resumen": "La valoración estimada de SpaceX ha sufrido una caída masiva de un billón de dólares desde mediados de junio tras la suspensión de su último lanzamiento de prueba de Starship. Este revés técnico subraya los enormes riesgos financieros y de ingeniería asociados a la carrera espacial comercial.",
+      "relevancia": 9,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musks-spacex-lost-1t-150000833.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "SpaceX",
+        "Starship",
+        "valoración"
       ]
     },
     {
       "id": "2a6c589fb1",
       "tema": "emprendimiento",
       "titular_es": "Databricks alcanza una valoración de 188.000 millones de dólares impulsada por la IA",
-      "resumen": "La compañía de datos Databricks ha disparado su valoración hasta los 188.000 millones de dólares tras consolidar su transición hacia servicios de inteligencia artificial. Su estrategia de publicar investigaciones sobre el ahorro de costos en modelos de código abierto para programación ha atraído un enorme interés de inversores y clientes corporativos.",
+      "resumen": "Databricks consolida su posición de liderazgo tecnológico al alcanzar una valoración récord de 188.000 millones de dólares tras reorientar su negocio hacia la inteligencia artificial. Sus investigaciones sobre la reducción de costos en modelos de código abierto han atraído un enorme flujo de capital privado.",
       "relevancia": 9,
       "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
       "fuente": "techcrunch.com",
@@ -84,25 +84,25 @@
       ]
     },
     {
-      "id": "86c8c7ca5a",
+      "id": "a7a58eeb6e",
       "tema": "ia",
-      "titular_es": "Cámaras Kasa de TP-Link filtraron coordenadas GPS domésticas por UDP durante 6 años",
-      "resumen": "Una grave vulnerabilidad de seguridad en las cámaras inteligentes Kasa de TP-Link expuso la ubicación GPS precisa de los hogares de los usuarios a través de paquetes UDP no autenticados. El fallo persistió de forma silenciosa durante seis años, evidenciando los persistentes riesgos de privacidad en los dispositivos de internet de las cosas (IoT).",
+      "titular_es": "El momento Kimi K3",
+      "resumen": "El modelo de lenguaje Kimi K3 de Moonshot AI marca un hito en el ecosistema tecnológico chino. Este avance destaca por su capacidad de razonamiento complejo y procesamiento de contexto ultra largo, posicionándose como un fuerte competidor frente a las alternativas occidentales en tareas de ingeniería y desarrollo.",
       "relevancia": 8,
-      "url": "https://github.com/BadChemical/IoT-Vulnerability-Research-Public/blob/main/TP-Link_Kasa_EC71/Kasa_EC71.md",
-      "fuente": "github.com (vía HN)",
-      "bandera": "🌍",
+      "url": "https://stephen.bochinski.dev/blog/2026/07/18/the-kimi-k3-moment/",
+      "fuente": "stephen.bochinski.dev (vía HN)",
+      "bandera": "🇨🇳",
       "tags": [
-        "ciberseguridad",
-        "IoT",
-        "privacidad"
+        "Kimi K3",
+        "LLM",
+        "inteligencia artificial"
       ]
     },
     {
       "id": "f9dce90b0c",
       "tema": "ia",
       "titular_es": "Capital One lanza VulnHunter, una herramienta de IA de código abierto para detectar fallos de software",
-      "resumen": "El gigante financiero Capital One ha liberado VulnHunter, una herramienta de seguridad basada en agentes de IA que escanea código fuente en busca de vulnerabilidades explotables. El sistema simula el comportamiento de un atacante para trazar rutas de explotación y proponer parches correctivos antes de que el software se despliegue en producción.",
+      "resumen": "El gigante financiero Capital One ha liberado VulnHunter, un agente de IA de seguridad que escanea el código fuente en busca de vulnerabilidades explotables antes de su despliegue en producción. La herramienta simula ataques reales y propone parches específicos, facilitando el desarrollo seguro de software.",
       "relevancia": 8,
       "url": "https://venturebeat.com/technology/capital-one-releases-vulnhunter-an-open-source-ai-tool-that-finds-software-flaws-before-hackers-do",
       "fuente": "venturebeat.com",
@@ -110,44 +110,44 @@
       "tags": [
         "ciberseguridad",
         "código abierto",
-        "inteligencia artificial"
+        "Capital One"
       ]
     },
     {
-      "id": "0f52f75a7e",
-      "tema": "emprendimiento",
-      "titular_es": "La startup de energía nuclear Valar Atomics busca financiación con una valoración de 6.000 millones de dólares",
-      "resumen": "Valar Atomics está negociando una nueva ronda de inversión que elevaría su valoración a 6.000 millones de dólares, reflejando el creciente interés del sector tecnológico en la energía nuclear para abastecer centros de datos de IA. La operación destaca por su compleja estructura de múltiples etapas, diseñada para mitigar riesgos de entrada de capital.",
-      "relevancia": 8,
-      "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Valar Atomics",
-        "energía nuclear",
-        "capital de riesgo"
-      ]
-    },
-    {
-      "id": "cb35b9ec25",
+      "id": "6f6ee041b9",
       "tema": "finanzas",
-      "titular_es": "Los precios de importación en EE. UU. suben por sorpresa impulsados por los costos desde China",
-      "resumen": "Los precios de las importaciones estadounidenses registraron un incremento inesperado del 0,3% mensual, impulsados por el encarecimiento de los bienes procedentes de China, que alcanzaron su nivel más alto desde 2008. Este repunte contrarrestó la caída en los costos de la energía, añadiendo presión a las decisiones de política monetaria de la Reserva Federal.",
+      "titular_es": "Popular empresa de cosméticos se declara en bancarrota bajo el Capítulo 11",
+      "resumen": "Una reconocida firma de cosméticos ha solicitado la protección por bancarrota del Capítulo 11 en EE. UU. para reestructurar sus deudas financieras. Este movimiento refleja las crecientes presiones de costos, los cambios en los hábitos de consumo y la intensa competencia en el sector minorista de belleza.",
       "relevancia": 8,
-      "url": "https://www.cnbc.com/2026/07/17/import-prices-post-surprise-gain-as-costs-of-goods-from-china-hit-highest-since-2008.html",
-      "fuente": "cnbc.com",
+      "url": "https://finance.yahoo.com/small-business/articles/popular-cosmetics-company-files-chapter-201459549.html",
+      "fuente": "finance.yahoo.com",
       "bandera": "🇺🇸",
       "tags": [
-        "macroeconomía",
-        "importaciones",
-        "China"
+        "bancarrota",
+        "negocios",
+        "comercio"
+      ]
+    },
+    {
+      "id": "60a0581fbb",
+      "tema": "finanzas",
+      "titular_es": "El empleo en el sector de petróleo y gas cae a mínimos de 2026 a pesar de registrar producción récord",
+      "resumen": "La industria energética experimenta una paradoja laboral al alcanzar niveles mínimos de empleo mientras la extracción de crudo y gas rompe récords históricos. La automatización avanzada y la optimización de procesos de ingeniería explican esta drástica reducción de mano de obra en los yacimientos.",
+      "relevancia": 8,
+      "url": "https://finance.yahoo.com/energy/articles/oil-gas-employment-hits-2026-150000486.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "energía",
+        "empleo",
+        "automatización"
       ]
     },
     {
       "id": "6b03d1af44",
       "tema": "finanzas",
-      "titular_es": "Argentina vs. España: Adidas se asegura la victoria en el Mundial 2026 antes de la final",
-      "resumen": "La marca deportiva alemana Adidas vestirá a ambas selecciones finalistas del Mundial de Fútbol 2026, garantizando su triunfo comercial sin importar el resultado del partido. Analistas financieros destacan que el torneo ya ha impulsado significativamente las ventas globales de la compañía y mejorado sus previsiones de ingresos frente a su rival Nike.",
+      "titular_es": "Argentina vs. España: la victoria para Adidas en el Mundial 2026 llegó antes de la final",
+      "resumen": "La marca deportiva alemana Adidas se asegura el éxito comercial en el Mundial de Fútbol 2026 al vestir a ambas selecciones finalistas. Analistas confirman que el torneo ha disparado las ventas globales de la compañía, elevando sus previsiones financieras y consolidando su liderazgo frente a Nike.",
       "relevancia": 8,
       "url": "https://www.bloomberglinea.com/mercados/argentina-vs-espana-la-victoria-para-adidas-en-el-mundial-2026-llego-antes-de-la-final/",
       "fuente": "bloomberglinea.com",
@@ -155,209 +155,269 @@
       "tags": [
         "Adidas",
         "Mundial 2026",
-        "patrocinios"
+        "marketing deportivo"
       ]
     },
     {
-      "id": "4f28974537",
-      "tema": "finanzas",
-      "titular_es": "Netflix se desploma en bolsa ante las dudas de Wall Street sobre la normalización de su crecimiento",
-      "resumen": "A pesar de presentar resultados financieros alineados con las expectativas, las acciones de Netflix sufrieron un fuerte castigo en Wall Street. Las firmas de análisis advierten que varios indicadores clave apuntan a una desaceleración y normalización del crecimiento de suscriptores tras el auge de los últimos trimestres.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/mercados/netflix-se-desploma-en-bolsa-estas-son-las-cinco-dudas-que-explican-el-castigo-de-wall-street/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Netflix",
-        "Wall Street",
-        "acciones"
-      ]
-    },
-    {
-      "id": "602f7dbf10",
-      "tema": "finanzas",
-      "titular_es": "Wall Street cierra a la baja por dudas sobre la IA y tensiones geopolíticas entre EE. UU. e Irán",
-      "resumen": "El mercado bursátil neoyorquino finalizó la semana con pérdidas generalizadas debido al escepticismo sobre las altas valoraciones de las empresas de inteligencia artificial. A esto se sumó el recrudecimiento del conflicto geopolítico entre Estados Unidos e Irán, lo que provocó un repunte inmediato en los precios internacionales del petróleo.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/mercados/wall-street-retrocede-con-la-venta-de-acciones-de-fabricantes-de-chips-y-el-desplome-de-netflix/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Wall Street",
-        "inteligencia artificial",
-        "petróleo"
-      ]
-    },
-    {
-      "id": "1eb4d16555",
+      "id": "10be5da707",
       "tema": "ciencia",
-      "titular_es": "Surgen detalles preocupantes sobre la polémica destitución en la Asociación Americana de la Diabetes",
-      "resumen": "Autores de artículos de opinión científicos revelaron que la Asociación Americana de la Diabetes (ADA) bloqueó la publicación de sus textos críticos, obligándolos a difundirlos de forma independiente como preprints. El caso ha desatado un intenso debate sobre la censura editorial, la transparencia institucional y la libertad de expresión en la investigación médica de Estados Unidos.",
-      "relevancia": 7,
-      "url": "https://arstechnica.com/science/2026/07/troubling-new-details-emerge-on-diabetes-ouster-controversy/",
-      "fuente": "arstechnica.com",
+      "titular_es": "Taylor Farms retira la lechuga iceberg del mercado estadounidense tras un brote de ciclosporiasis",
+      "resumen": "La productora de alimentos Taylor Farms ha retirado voluntariamente del mercado de EE. UU. toda la lechuga iceberg proveniente del centro de México debido a un brote de infección parasitaria. La medida afecta directamente a grandes cadenas de comida rápida como Taco Bell y resalta la vulnerabilidad de las cadenas de suministro agrícola.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/science/967563/cyclospora-taylor-farms-taco-bell-iceberg-lettuce",
+      "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "diabetes",
-        "publicación científica",
-        "medicina"
+        "salud pública",
+        "seguridad alimentaria",
+        "Taylor Farms"
+      ]
+    },
+    {
+      "id": "3ce0a96c63",
+      "tema": "ciencia",
+      "titular_es": "El ayuno intermitente ayudó a mantener la pérdida de peso durante un año",
+      "resumen": "Un estudio clínico revela que un programa de ayuno intermitente de 12 semanas mantuvo sus beneficios de pérdida de peso un año después de finalizar. Los participantes que limitaron su ingesta a una ventana de ocho horas lograron mejores resultados que el grupo de control, sin importar si la ventana era temprana o tardía.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260718010154.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "ayuno intermitente",
+        "nutrición",
+        "salud"
+      ]
+    },
+    {
+      "id": "781dac050a",
+      "tema": "ciencia",
+      "titular_es": "Sustitutos populares del azúcar son vinculados a un envejecimiento cerebral más rápido",
+      "resumen": "Una investigación científica asocia el consumo elevado de edulcorantes artificiales con un deterioro cognitivo acelerado, equivalente a un envejecimiento cerebral de 1.6 años. El efecto fue especialmente pronunciado en adultos menores de 60 años o con diagnóstico previo de diabetes.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260717033213.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "edulcorantes",
+        "neurociencia",
+        "salud"
+      ]
+    },
+    {
+      "id": "7299a8a2af",
+      "tema": "ciencia",
+      "titular_es": "El telescopio James Webb de la NASA capta a un agujero negro supermasivo alimentándose",
+      "resumen": "El telescopio espacial James Webb ha obtenido imágenes de alta resolución que muestran filamentos de gas alimentando al agujero negro supermasivo en el centro de la galaxia NGC 4696. El material gira a velocidades de hasta 600 kilómetros por segundo dentro de un disco de 800 años luz de diámetro.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260716023601.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "James Webb",
+        "astronomía",
+        "agujeros negros"
+      ]
+    },
+    {
+      "id": "40a043ccda",
+      "tema": "ia",
+      "titular_es": "Fable 5 frente a GPT-5.6 Sol en un problema NP-difícil: ¿Ayuda la instrucción de objetivo?",
+      "resumen": "Una comparativa técnica evalúa el rendimiento de los modelos Fable 5 y GPT-5.6 al enfrentarse a problemas de computación NP-difíciles. El estudio analiza si la inclusión de directrices de objetivo claras mejora la eficiencia del razonamiento algorítmico en tareas de alta complejidad computacional.",
+      "relevancia": 7,
+      "url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/",
+      "fuente": "charlesazam.com (vía HN)",
+      "bandera": "🌍",
+      "tags": [
+        "benchmarks",
+        "algoritmos",
+        "computación"
       ]
     },
     {
       "id": "ba106eabc8",
       "tema": "ia",
       "titular_es": "Monitores LG instalan software silenciosamente a través de Windows Update sin consentimiento",
-      "resumen": "Usuarios han reportado que ciertos monitores LG están instalando software de control de pantalla de manera automática y silenciosa mediante el servicio de Windows Update. Esta práctica, realizada sin el consentimiento explícito de los usuarios, ha levantado serias preocupaciones sobre la privacidad y el control de los controladores en sistemas operativos modernos.",
+      "resumen": "Se ha descubierto que ciertos monitores LG aprovechan el servicio de Windows Update para instalar software de control de pantalla de forma automática y sin avisar al usuario. Este comportamiento plantea serias dudas sobre la privacidad, la seguridad del sistema operativo y el control del hardware por parte de terceros.",
       "relevancia": 7,
       "url": "https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent",
       "fuente": "videocardz.com (vía HN)",
       "bandera": "🇰🇷",
       "tags": [
         "LG",
-        "Windows",
-        "privacidad"
-      ]
-    },
-    {
-      "id": "c35b417007",
-      "tema": "ia",
-      "titular_es": "Kimi K3 y las lecciones que aún podemos aprender del benchmark Pelican",
-      "resumen": "Un análisis técnico del nuevo modelo Kimi K3 de Moonshot destaca su rendimiento frente al benchmark Pelican, especializado en evaluar capacidades de razonamiento complejo. El estudio revela cómo los modelos de tamaño intermedio están logrando optimizaciones de eficiencia que desafían a los gigantes de la industria de la inteligencia artificial.",
-      "relevancia": 7,
-      "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/",
-      "fuente": "simonwillison.net (vía HN)",
-      "bandera": "🇨🇳",
-      "tags": [
-        "inteligencia artificial",
-        "Kimi K3",
-        "benchmarks"
-      ]
-    },
-    {
-      "id": "3ca766d4c6",
-      "tema": "ia",
-      "titular_es": "TikTok prueba una herramienta de detección de clonación de voz e imagen por IA",
-      "resumen": "TikTok ha comenzado a probar una función opcional en Estados Unidos que escanea la plataforma en busca de duplicados sintéticos de la apariencia o voz de los creadores. Esta herramienta busca combatir el uso no autorizado de la identidad digital mediante inteligencia artificial generativa, permitiendo a los usuarios reportar infracciones directamente.",
-      "relevancia": 7,
-      "url": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "TikTok",
-        "inteligencia artificial",
-        "derechos de autor"
+        "seguridad",
+        "Windows Update"
       ]
     },
     {
       "id": "d49e0e4e62",
       "tema": "ia",
-      "titular_es": "Intuit rediseñó su arquitectura de agentes de IA dos veces en cuatro meses para acelerar su éxito",
-      "resumen": "Durante el evento VB Transform 2026, la vicepresidenta de IA de Intuit reveló que la empresa descartó y reconstruyó por completo su infraestructura de agentes inteligentes en dos ocasiones en menos de medio año. La compañía pasó de una flota de agentes especialistas a un sistema centralizado, demostrando la volatilidad y el rápido aprendizaje en la ingeniería de IA actual.",
+      "titular_es": "Intuit desechó su arquitectura de agentes de IA dos veces en cuatro meses para acelerar su desarrollo",
+      "resumen": "Durante el evento VB Transform 2026, la vicepresidenta de IA de Intuit reveló cómo la empresa reconstruyó por completo su arquitectura de agentes inteligentes en dos ocasiones en menos de medio año. Esta estrategia ágil de 'fallar rápido' les permitió migrar de agentes especializados a sistemas más robustos.",
       "relevancia": 7,
       "url": "https://venturebeat.com/orchestration/intuit-scrapped-its-own-ai-agent-architecture-twice-in-four-months-at-vb-transform-2026-its-ai-vp-called-that-the-fast-path",
       "fuente": "venturebeat.com",
       "bandera": "🇺🇸",
       "tags": [
         "Intuit",
-        "agentes de IA",
-        "arquitectura de software"
+        "arquitectura de software",
+        "agentes de IA"
       ]
     },
     {
-      "id": "9b93c7da46",
-      "tema": "ia",
-      "titular_es": "LinkedIn, Walmart y Zendesk abordan el cuello de botella de la infraestructura heredada en agentes de IA",
-      "resumen": "Líderes de infraestructura de LinkedIn, Walmart y Zendesk señalaron en VB Transform 2026 que los sistemas heredados, y no los modelos de lenguaje, son los que ralentizan a los agentes de IA. Mientras los agentes procesan en milisegundos, las bases de datos y APIs tradicionales tardan segundos, planteando un reto crítico de ingeniería de datos para la industria.",
-      "relevancia": 7,
-      "url": "https://venturebeat.com/data/agents-think-in-milliseconds-legacy-infrastructure-doesnt-linkedin-walmart-and-zendesk-shared-how-they-closed-the-gap-at-vb-transform-2026",
-      "fuente": "venturebeat.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "infraestructura",
-        "agentes de IA",
-        "latencia"
-      ]
-    },
-    {
-      "id": "07c1ad9b06",
-      "tema": "ia",
-      "titular_es": "Brex define sus políticas de agentes de IA observando su comportamiento real en producción",
-      "resumen": "La fintech Brex ha adoptado un enfoque empírico para la seguridad de sus agentes de IA basados en el framework OpenClaw, analizando sus acciones en lugar de imponer reglas teóricas previas. Al requerir credenciales reales de API y tokens OAuth, la empresa descubrió que los límites de seguridad tradicionales no bastaban para contener la autonomía de los agentes.",
-      "relevancia": 7,
-      "url": "https://venturebeat.com/orchestration/brex-built-its-ai-agent-policy-by-watching-what-agents-actually-do-not-by-writing-rules-first",
-      "fuente": "venturebeat.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Brex",
-        "agentes de IA",
-        "seguridad"
-      ]
-    },
-    {
-      "id": "f8e95b4445",
+      "id": "04301db61d",
       "tema": "finanzas",
-      "titular_es": "Apple Music sube sus precios de suscripción en Estados Unidos",
-      "resumen": "Apple ha anunciado un incremento en las tarifas de su servicio de música en streaming Apple Music para el mercado estadounidense. El plan individual sube a 11,99 dólares mensuales, mientras que los planes familiar y de estudiante también experimentan alzas, reflejando la presión inflacionaria y el aumento de costos de licencias en la industria musical.",
+      "titular_es": "Cadena de tiendas de descuento cierra 75 sucursales tras calificarlas de deficientes",
+      "resumen": "Una importante cadena minorista de descuento ha anunciado el cierre inmediato de 75 establecimientos debido a su bajo rendimiento y condiciones subestándar. La empresa busca optimizar su red de distribución y concentrar recursos en sus tiendas más rentables para sobrevivir a la inflación.",
       "relevancia": 7,
-      "url": "https://www.theverge.com/tech/967379/apple-music-price-increase",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Apple",
-        "streaming",
-        "precios"
-      ]
-    },
-    {
-      "id": "239e010062",
-      "tema": "finanzas",
-      "titular_es": "Futuros del Dow Jones: Google, Tesla y AMD en la mira tras la venta masiva de acciones de IA",
-      "resumen": "Los mercados financieros se preparan para una semana de alta volatilidad con la atención puesta en los gigantes tecnológicos Google, Tesla y AMD. Tras una fuerte corrección en el sector de la inteligencia artificial, los inversores buscan señales de estabilización en los futuros del Dow Jones y el Nasdaq.",
-      "relevancia": 7,
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-google-tesla-amd-ai-stock-sell-off/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Wall Street",
-        "acciones",
-        "tecnología"
-      ]
-    },
-    {
-      "id": "3ba1d4489a",
-      "tema": "finanzas",
-      "titular_es": "Brecha de datos en Fidelity: Se acerca el plazo para reclamar compensaciones de hasta 5.000 dólares",
-      "resumen": "Los clientes afectados por la filtración de datos de la firma financiera Fidelity se enfrentan al cierre del plazo para solicitar indemnizaciones de hasta 5.000 dólares por persona. El acuerdo judicial busca compensar los gastos y el tiempo perdidos por los usuarios tras el incidente de ciberseguridad que expuso información personal sensible.",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/fidelity-data-breach-deadline-looms-for-up-to-5000-per-customer-settlement-payouts-174013618.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/discount-chain-closing-75-stores-150700942.html",
       "fuente": "finance.yahoo.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Fidelity",
-        "ciberseguridad",
-        "demanda"
+        "comercio minorista",
+        "reestructuración",
+        "negocios"
       ]
     },
     {
-      "id": "f9d6c74a21",
-      "tema": "emprendimiento",
-      "titular_es": "El fundador de Pebble, Eric Migicovsky, defiende que su garantía de 30 días se basa en la confianza",
-      "resumen": "Eric Migicovsky, creador de los relojes inteligentes Pebble, ha salido al paso de las críticas por la corta garantía de 30 días de sus nuevos dispositivos de papel electrónico. El emprendedor argumenta que el modelo de negocio busca establecer una relación de confianza directa y transparente con los usuarios pioneros, prometiendo resolver cualquier fallo técnico de forma personalizada.",
+      "id": "d4db72662b",
+      "tema": "finanzas",
+      "titular_es": "Meta Platforms sube un 21% este mes: ¿Qué está impulsando este repunte?",
+      "resumen": "Las acciones de Meta han registrado un impresionante aumento del 21% en las últimas semanas, impulsadas por la sólida monetización de sus herramientas de IA y la eficiencia operativa. Los inversores reaccionan positivamente a la integración de modelos de lenguaje en sus plataformas publicitarias.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-21-month-whats-195000181.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Meta",
+        "acciones",
+        "publicidad digital"
+      ]
+    },
+    {
+      "id": "d563d127d6",
+      "tema": "finanzas",
+      "titular_es": "La memoria es el mayor cuello de botella de la IA: Micron y SanDisk superan a Nvidia en bolsa",
+      "resumen": "Siguiendo las declaraciones de Jensen Huang en el CES 2026 sobre las limitaciones de hardware, las empresas de almacenamiento de datos Micron y SanDisk han superado el rendimiento bursátil de Nvidia. La demanda de chips de memoria de banda ancha ultra rápida se consolida como el nuevo motor del sector de semiconductores.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/technology/ai/articles/jensen-huang-told-ces-2026-194200302.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "semiconductores",
+        "Nvidia",
+        "hardware"
+      ]
+    },
+    {
+      "id": "94d1f7bc70",
+      "tema": "ciencia",
+      "titular_es": "El mayor evento volcánico de la Tierra transformó por completo una placa oceánica",
+      "resumen": "El análisis de ondas sísmicas ha revelado que la placa oceánica bajo la meseta de Ontong Java sufrió alteraciones estructurales masivas debido a la colosal actividad volcánica de hace 100 millones de años. Los científicos identificaron una compleja red de capas horizontales atravesadas por antiguos conductos de magma.",
+      "relevancia": 7,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260716023618.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "geología",
+        "volcanes",
+        "sismología"
+      ]
+    },
+    {
+      "id": "0009130ce2",
+      "tema": "ciencia",
+      "titular_es": "La dieta mediterránea podría activar proteínas celulares que protegen el corazón y el cerebro",
+      "resumen": "Un nuevo estudio sugiere que la dieta mediterránea estimula la producción mitocondrial de las proteínas humanina y SHMOOSE, asociadas con la protección cardiovascular y neuronal en adultos mayores. El consumo de aceite de oliva, pescado y legumbres se consolida como un pilar de la longevidad saludable.",
+      "relevancia": 7,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260716023605.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "dieta mediterránea",
+        "mitocondrias",
+        "longevidad"
+      ]
+    },
+    {
+      "id": "3dcaabf869",
+      "tema": "ciencia",
+      "titular_es": "Un asteroide fragmentado podría haber bombardeado la Tierra hace 800 millones de años",
+      "resumen": "Investigadores sugieren que la desintegración catastrófica de un gran asteroide cerca de la órbita de Júpiter desató una oleada de impactos masivos en la Tierra, la Luna y Marte hace 800 millones de años. Este bombardeo cósmico coincide con profundos cambios geológicos y climáticos en nuestro planeta.",
+      "relevancia": 7,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260716023559.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "asteroides",
+        "astronomía",
+        "geología"
+      ]
+    },
+    {
+      "id": "4121744c0c",
+      "tema": "ia",
+      "titular_es": "El impacto de la inteligencia artificial en Stack Overflow reflejado en un gráfico",
+      "resumen": "Un análisis visual revela la drástica caída en el tráfico y la participación de usuarios en Stack Overflow desde el auge de los asistentes de código basados en IA. Este cambio de paradigma muestra cómo los desarrolladores prefieren consultar directamente a modelos de lenguaje en lugar de buscar en foros tradicionales.",
       "relevancia": 6,
-      "url": "https://www.theverge.com/gadgets/967471/pebble-smartwatch-warranty-repairs-migicovsky-interview",
+      "url": "https://data.stackexchange.com/stackoverflow/query/1953768#graph",
+      "fuente": "data.stackexchange.com (vía HN)",
+      "bandera": "🌍",
+      "tags": [
+        "Stack Overflow",
+        "desarrolladores",
+        "productividad"
+      ]
+    },
+    {
+      "id": "18d828c057",
+      "tema": "ia",
+      "titular_es": "Google podría no recortar la potencia del Pixel 11a con un procesador antiguo",
+      "resumen": "Filtraciones recientes sugieren que el próximo Pixel 11a de Google mantendrá el procesador insignia Tensor G6 en lugar de recurrir a un chip de generación anterior. Esta decisión estratégica evitaría la decepción de los usuarios y garantizaría un rendimiento óptimo para ejecutar tareas locales de inteligencia artificial.",
+      "relevancia": 6,
+      "url": "https://www.theverge.com/tech/967612/google-pixel-11a-tensor-g6-leak",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Pebble",
-        "hardware",
-        "garantías"
+        "Google",
+        "Pixel 11a",
+        "hardware"
+      ]
+    },
+    {
+      "id": "e4e5dade9f",
+      "tema": "ia",
+      "titular_es": "Google libera el código fuente de sus emojis en 3D",
+      "resumen": "Con motivo del Día Mundial del Emoji, Google ha decidido abrir el código y los diseños de sus populares emojis tridimensionales para su uso libre. La compañía detalló los complejos desafíos de diseño que implica transformar ilustraciones planas en modelos 3D interactivos y adaptables.",
+      "relevancia": 6,
+      "url": "https://www.theverge.com/design/967606/google-open-source-3d-emoji",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Google",
+        "código abierto",
+        "diseño 3D"
+      ]
+    },
+    {
+      "id": "d6c347a374",
+      "tema": "finanzas",
+      "titular_es": "Semana clave en la bolsa: Navegando la incertidumbre del mercado",
+      "resumen": "Los inversores se preparan para una semana de alta volatilidad marcada por decisiones de política monetaria y reportes de ganancias corporativas. Analistas recomiendan cautela y diversificación para mitigar los riesgos asociados a las fluctuaciones macroeconómicas globales.",
+      "relevancia": 6,
+      "url": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-navigating-uncertainty/?src=A00220&yptr=yahoo",
+      "fuente": "investors.com",
+      "bandera": "🌍",
+      "tags": [
+        "bolsa de valores",
+        "inversiones",
+        "macroeconomía"
       ]
     },
     {
       "id": "ab8715cdc9",
       "tema": "emprendimiento",
-      "titular_es": "Stripe x Startup Battlefield abre su convocatoria para fundadores australianos",
-      "resumen": "Quedan solo 48 horas para postular a la competencia Stripe x Startup Battlefield en Sídney, donde ocho startups australianas presentarán sus proyectos ante inversores globales. La empresa ganadora obtendrá un pase directo sin filtros adicionales para participar en el prestigioso evento TechCrunch Disrupt en San Francisco, una oportunidad única de visibilidad internacional.",
+      "titular_es": "Últimas 48 horas para postular a Stripe x Startup Battlefield en Australia",
+      "resumen": "Se cierra la convocatoria para que fundadores australianos compitan en el Stripe Tour de Sídney. La startup ganadora obtendrá un pase directo sin filtros adicionales para presentarse ante inversores globales y prensa especializada en el prestigioso TechCrunch Disrupt de San Francisco.",
       "relevancia": 6,
       "url": "https://techcrunch.com/2026/07/17/applications-close-in-48-hours-heres-everything-australian-founders-need-to-know-about-stripe-x-startup-battlefield/",
       "fuente": "techcrunch.com",
@@ -365,37 +425,22 @@
       "tags": [
         "Stripe",
         "startups",
-        "Australia"
+        "TechCrunch"
       ]
     },
     {
       "id": "5d2b0c79af",
       "tema": "emprendimiento",
-      "titular_es": "El inversor Neil Rimer predice una redistribución de la riqueza generada por la IA en Silicon Valley",
-      "resumen": "Neil Rimer, cofundador de la firma de capital de riesgo Index Ventures, sostiene que la inmensa riqueza acumulada por el auge de la inteligencia artificial tendrá que ser redistribuida a mediano plazo. Según el inversor, este proceso ocurrirá de forma voluntaria por parte de las corporaciones o mediante regulaciones e impuestos estatales para evitar una crisis de desigualdad extrema.",
+      "titular_es": "Neil Rimer predice que la riqueza generada por la IA tendrá que redistribuirse",
+      "resumen": "El cofundador de Index Ventures, Neil Rimer, sostiene que la inmensa riqueza acumulada en Silicon Valley gracias a la revolución de la IA deberá ser redistribuida de forma voluntaria o mediante regulaciones impositivas. El inversor advierte sobre las tensiones sociales que podría generar la disparidad económica tecnológica.",
       "relevancia": 6,
       "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
       "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": [
-        "Index Ventures",
-        "capital de riesgo",
-        "inteligencia artificial"
-      ]
-    },
-    {
-      "id": "51860ee553",
-      "tema": "finanzas",
-      "titular_es": "Las tres razones de Bank of America para prever un fortalecimiento del dólar este año",
-      "resumen": "Bank of America proyecta que la reciente racha alcista del dólar estadounidense se extenderá durante la segunda mitad del año. La entidad financiera fundamenta su análisis en un cambio estructural de los factores macroeconómicos globales, la divergencia de políticas de los bancos centrales y la búsqueda de activos de refugio seguro.",
-      "relevancia": 6,
-      "url": "https://www.bloomberglinea.com/mercados/las-tres-razones-por-las-que-bank-of-america-cree-que-el-dolar-se-puede-fortalecer-este-ano/",
-      "fuente": "bloomberglinea.com",
       "bandera": "🇺🇸",
       "tags": [
-        "dólar",
-        "divisas",
-        "Bank of America"
+        "capital de riesgo",
+        "IA",
+        "economía"
       ]
     }
   ]
