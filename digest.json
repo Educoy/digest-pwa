@@ -1,6 +1,6 @@
 {
-  "fecha": "2026-07-17",
-  "generado_utc": "2026-07-17T20:44:47Z",
+  "fecha": "2026-07-18",
+  "generado_utc": "2026-07-18T13:15:57Z",
   "indicadores": {
     "dolar": {
       "valor": 924.5,
@@ -14,21 +14,21 @@
     }
   },
   "noticia_del_dia": "7a744d6876",
-  "pildora_ia": "Overfitting (sobreajuste): cuando un modelo memoriza el ruido de los datos de entrenamiento en vez del patrón general. Rinde perfecto en entrenamiento pero mal con datos nuevos. Se combate con más datos, regularización o dropout.",
+  "pildora_ia": "Embeddings: representan palabras, imágenes o cualquier dato como vectores de números donde la cercanía significa similitud de significado. Son la base de la búsqueda semántica y de cómo los LLM 'entienden' texto.",
   "pildoras_ia": [
-    "Overfitting (sobreajuste): cuando un modelo memoriza el ruido de los datos de entrenamiento en vez del patrón general. Rinde perfecto en entrenamiento pero mal con datos nuevos. Se combate con más datos, regularización o dropout.",
     "Embeddings: representan palabras, imágenes o cualquier dato como vectores de números donde la cercanía significa similitud de significado. Son la base de la búsqueda semántica y de cómo los LLM 'entienden' texto.",
     "Atención (Transformers): el mecanismo que deja a un modelo pesar qué partes de la entrada importan más para cada palabra que genera. Es el corazón de la arquitectura Transformer detrás de GPT, Gemini y Claude.",
     "Gradiente descendente: el algoritmo que entrena casi todas las redes neuronales. Ajusta los parámetros poco a poco en la dirección que más reduce el error, como bajar una montaña a ciegas siguiendo la pendiente.",
-    "Tokens: los LLM no leen palabras sino 'tokens', fragmentos de texto (a veces una palabra, a veces parte de una). El costo y los límites de las APIs se miden en tokens, no en caracteres."
+    "Tokens: los LLM no leen palabras sino 'tokens', fragmentos de texto (a veces una palabra, a veces parte de una). El costo y los límites de las APIs se miden en tokens, no en caracteres.",
+    "Temperatura: parámetro que controla cuán 'creativa' es la respuesta de un LLM. Baja (0) da respuestas predecibles y consistentes; alta (1+) las hace más variadas y arriesgadas."
   ],
   "noticias": [
     {
       "id": "7a744d6876",
       "tema": "ciencia",
-      "titular_es": "Detectan la primera atmósfera en un planeta similar a la Tierra en zona habitable",
-      "resumen": "Astrónomos han confirmado por primera vez la presencia de una atmósfera en un exoplaneta rocoso situado en la zona habitable de su estrella. Este hito científico acerca a la humanidad a la posibilidad de encontrar condiciones aptas para la vida fuera de nuestro sistema solar.",
-      "relevancia": 9,
+      "titular_es": "Hallan la primera atmósfera en un planeta similar a la Tierra en zona habitable",
+      "resumen": "Astrónomos han detectado por primera vez una atmósfera en un exoplaneta rocoso ubicado en la zona habitable de una estrella lejana. Este hito científico, logrado gracias a telescopios de última generación, representa un paso crucial en la búsqueda de vida extraterrestre y redefine nuestra comprensión de los sistemas planetarios templados.",
+      "relevancia": 10,
       "url": "https://www.bbc.com/news/articles/cy4kdd1e0ejo",
       "fuente": "bbc.com (vía HN)",
       "bandera": "🌍",
@@ -39,115 +39,130 @@
       ]
     },
     {
-      "id": "602f7dbf10",
-      "tema": "finanzas",
-      "titular_es": "Wall Street cierra la semana con pérdidas ante dudas sobre la IA y tensiones geopolíticas",
-      "resumen": "Las preocupaciones sobre las altas valoraciones de las empresas tecnológicas de IA y el conflicto entre EE. UU. e Irán provocaron ventas masivas. El petróleo subió mientras los inversores buscan refugio frente a la incertidumbre global.",
-      "relevancia": 9,
-      "url": "https://www.bloomberglinea.com/mercados/wall-street-retrocede-con-la-venta-de-acciones-de-fabricantes-de-chips-y-el-desplome-de-netflix/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Wall Street",
-        "IA",
-        "geopolítica"
-      ]
-    },
-    {
-      "id": "6e19740e41",
-      "tema": "finanzas",
-      "titular_es": "Moonshot sacude a Wall Street: qué es Kimi K3 y por qué revive el temor a un \"momento DeepSeek\"",
-      "resumen": "La irrupción del modelo de IA chino Kimi K3 provocó caídas en las tecnológicas estadounidenses al reavivar el temor a alternativas de bajo costo. Los inversores cuestionan si el gigantesco gasto en infraestructura de IA de las Big Tech seguirá justificado.",
-      "relevancia": 9,
-      "url": "https://www.bloomberglinea.com/mercados/moonshot-sacude-a-wall-street-que-es-kimi-k3-y-por-que-revive-el-temor-a-un-momento-deepseek/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Kimi K3",
-        "Wall Street",
-        "IA"
-      ]
-    },
-    {
-      "id": "aa833b0a6c",
+      "id": "9f0a72b022",
       "tema": "ia",
-      "titular_es": "Apple envía cartas legales a decenas de empleados de OpenAI",
-      "resumen": "Apple ha iniciado acciones legales dirigidas a ex-empleados que migraron a OpenAI, intensificando la guerra de talento en Silicon Valley. La disputa legal gira en torno a la propiedad intelectual y los secretos comerciales en el desarrollo de modelos de lenguaje.",
+      "titular_es": "Apple demanda a OpenAI en una intensa batalla legal por el control de la IA",
+      "resumen": "Apple ha presentado una demanda formal contra OpenAI, desatando un enfrentamiento público sin precedentes en el sector tecnológico. La querella legal acusa a la startup de prácticas anticompetitivas y uso indebido de propiedad intelectual, lo que podría redefinir las alianzas estratégicas y el desarrollo de modelos de lenguaje en la industria.",
       "relevancia": 9,
-      "url": "https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166",
-      "fuente": "ft.com (vía HN)",
+      "url": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
+      "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
         "Apple",
         "OpenAI",
-        "propiedad intelectual"
+        "demanda"
       ]
     },
     {
-      "id": "442b5e66ae",
-      "tema": "ciencia",
-      "titular_es": "Crean un nuevo \"plástico vivo\" que se autodestruye en seis días sin dejar microplásticos",
-      "resumen": "Investigadores diseñaron un material plástico que incorpora bacterias modificadas genéticamente para activarse y degradar el material por completo en menos de una semana. Este avance biotecnológico ofrece una solución real para eliminar los residuos plásticos de un solo uso.",
+      "id": "6e19740e41",
+      "tema": "ia",
+      "titular_es": "Moonshot sacude a Wall Street con Kimi K3 y revive el temor a un 'momento DeepSeek'",
+      "resumen": "El lanzamiento del nuevo modelo de inteligencia artificial chino Kimi K3, desarrollado por Moonshot, ha provocado caídas en las acciones de las grandes tecnológicas estadounidenses. Los inversores temen que este avance de bajo costo demuestre que el multimillonario gasto de las firmas de EE. UU. en infraestructura de IA no está justificado, reviviendo el pánico del mercado global.",
       "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260715083552.htm",
-      "fuente": "sciencedaily.com",
+      "url": "https://www.bloomberglinea.com/mercados/moonshot-sacude-a-wall-street-que-es-kimi-k3-y-por-que-revive-el-temor-a-un-momento-deepseek/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇨🇳",
+      "tags": [
+        "Kimi K3",
+        "Moonshot",
+        "Wall Street"
+      ]
+    },
+    {
+      "id": "2a6c589fb1",
+      "tema": "emprendimiento",
+      "titular_es": "Databricks alcanza una valoración de 188.000 millones de dólares impulsada por la IA",
+      "resumen": "La compañía de datos Databricks ha disparado su valoración hasta los 188.000 millones de dólares tras consolidar su transición hacia servicios de inteligencia artificial. Su estrategia de publicar investigaciones sobre el ahorro de costos en modelos de código abierto para programación ha atraído un enorme interés de inversores y clientes corporativos.",
+      "relevancia": 9,
+      "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Databricks",
+        "valoración",
+        "inteligencia artificial"
+      ]
+    },
+    {
+      "id": "86c8c7ca5a",
+      "tema": "ia",
+      "titular_es": "Cámaras Kasa de TP-Link filtraron coordenadas GPS domésticas por UDP durante 6 años",
+      "resumen": "Una grave vulnerabilidad de seguridad en las cámaras inteligentes Kasa de TP-Link expuso la ubicación GPS precisa de los hogares de los usuarios a través de paquetes UDP no autenticados. El fallo persistió de forma silenciosa durante seis años, evidenciando los persistentes riesgos de privacidad en los dispositivos de internet de las cosas (IoT).",
+      "relevancia": 8,
+      "url": "https://github.com/BadChemical/IoT-Vulnerability-Research-Public/blob/main/TP-Link_Kasa_EC71/Kasa_EC71.md",
+      "fuente": "github.com (vía HN)",
       "bandera": "🌍",
       "tags": [
-        "biotecnología",
-        "plástico ecológico",
-        "materiales"
+        "ciberseguridad",
+        "IoT",
+        "privacidad"
+      ]
+    },
+    {
+      "id": "f9dce90b0c",
+      "tema": "ia",
+      "titular_es": "Capital One lanza VulnHunter, una herramienta de IA de código abierto para detectar fallos de software",
+      "resumen": "El gigante financiero Capital One ha liberado VulnHunter, una herramienta de seguridad basada en agentes de IA que escanea código fuente en busca de vulnerabilidades explotables. El sistema simula el comportamiento de un atacante para trazar rutas de explotación y proponer parches correctivos antes de que el software se despliegue en producción.",
+      "relevancia": 8,
+      "url": "https://venturebeat.com/technology/capital-one-releases-vulnhunter-an-open-source-ai-tool-that-finds-software-flaws-before-hackers-do",
+      "fuente": "venturebeat.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "ciberseguridad",
+        "código abierto",
+        "inteligencia artificial"
       ]
     },
     {
       "id": "0f52f75a7e",
       "tema": "emprendimiento",
-      "titular_es": "La startup nuclear Valar Atomics negocia una ronda de financiación con una valoración de 6.000 millones de dólares",
-      "resumen": "Valar Atomics busca capital masivo en una muestra del renovado interés por la energía nuclear para abastecer centros de datos de IA. La operación destaca la tendencia de rondas de financiamiento complejas y de alta valoración en el sector de tecnología profunda.",
-      "relevancia": 9,
+      "titular_es": "La startup de energía nuclear Valar Atomics busca financiación con una valoración de 6.000 millones de dólares",
+      "resumen": "Valar Atomics está negociando una nueva ronda de inversión que elevaría su valoración a 6.000 millones de dólares, reflejando el creciente interés del sector tecnológico en la energía nuclear para abastecer centros de datos de IA. La operación destaca por su compleja estructura de múltiples etapas, diseñada para mitigar riesgos de entrada de capital.",
+      "relevancia": 8,
       "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/",
       "fuente": "techcrunch.com",
       "bandera": "🇺🇸",
       "tags": [
         "Valar Atomics",
         "energía nuclear",
-        "startups"
-      ]
-    },
-    {
-      "id": "54ade63519",
-      "tema": "finanzas",
-      "titular_es": "Los vendedores en corto logran 8.700 millones de dólares en ganancias tras la caída de las acciones de SpaceX",
-      "resumen": "Los inversores que apostaron contra SpaceX obtuvieron ganancias masivas debido a una caída temporal en la valoración de sus acciones en el mercado secundario. El movimiento resalta la volatilidad incluso en las empresas privadas más valiosas del sector aeroespacial.",
-      "relevancia": 8,
-      "url": "https://www.reuters.com/business/media-telecom/short-sellers-rack-up-87-bln-profit-spacex-slips-below-ipo-price-ortex-2026-07-16/",
-      "fuente": "reuters.com (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "SpaceX",
-        "finanzas",
-        "acciones"
+        "capital de riesgo"
       ]
     },
     {
       "id": "cb35b9ec25",
       "tema": "finanzas",
-      "titular_es": "Los precios de importación registran un aumento sorpresivo impulsados por productos de China",
-      "resumen": "Los costos de los bienes importados desde China alcanzaron su nivel más alto desde 2008, superando la caída de los precios de la energía. Este repunte inesperado añade presión a las métricas de inflación en los mercados occidentales.",
+      "titular_es": "Los precios de importación en EE. UU. suben por sorpresa impulsados por los costos desde China",
+      "resumen": "Los precios de las importaciones estadounidenses registraron un incremento inesperado del 0,3% mensual, impulsados por el encarecimiento de los bienes procedentes de China, que alcanzaron su nivel más alto desde 2008. Este repunte contrarrestó la caída en los costos de la energía, añadiendo presión a las decisiones de política monetaria de la Reserva Federal.",
       "relevancia": 8,
       "url": "https://www.cnbc.com/2026/07/17/import-prices-post-surprise-gain-as-costs-of-goods-from-china-hit-highest-since-2008.html",
       "fuente": "cnbc.com",
       "bandera": "🇺🇸",
       "tags": [
+        "macroeconomía",
         "importaciones",
-        "China",
-        "macroeconomía"
+        "China"
+      ]
+    },
+    {
+      "id": "6b03d1af44",
+      "tema": "finanzas",
+      "titular_es": "Argentina vs. España: Adidas se asegura la victoria en el Mundial 2026 antes de la final",
+      "resumen": "La marca deportiva alemana Adidas vestirá a ambas selecciones finalistas del Mundial de Fútbol 2026, garantizando su triunfo comercial sin importar el resultado del partido. Analistas financieros destacan que el torneo ya ha impulsado significativamente las ventas globales de la compañía y mejorado sus previsiones de ingresos frente a su rival Nike.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/mercados/argentina-vs-espana-la-victoria-para-adidas-en-el-mundial-2026-llego-antes-de-la-final/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🌍",
+      "tags": [
+        "Adidas",
+        "Mundial 2026",
+        "patrocinios"
       ]
     },
     {
       "id": "4f28974537",
       "tema": "finanzas",
-      "titular_es": "Netflix se desploma en bolsa: las cinco dudas que explican el castigo de Wall Street",
-      "resumen": "A pesar de reportar resultados financieros sólidos, las acciones de Netflix cayeron debido a señales de desaceleración en el crecimiento de suscriptores. Los analistas advierten que el gigante del streaming está entrando en una fase de normalización de mercado.",
+      "titular_es": "Netflix se desploma en bolsa ante las dudas de Wall Street sobre la normalización de su crecimiento",
+      "resumen": "A pesar de presentar resultados financieros alineados con las expectativas, las acciones de Netflix sufrieron un fuerte castigo en Wall Street. Las firmas de análisis advierten que varios indicadores clave apuntan a una desaceleración y normalización del crecimiento de suscriptores tras el auge de los últimos trimestres.",
       "relevancia": 8,
       "url": "https://www.bloomberglinea.com/mercados/netflix-se-desploma-en-bolsa-estas-son-las-cinco-dudas-que-explican-el-castigo-de-wall-street/",
       "fuente": "bloomberglinea.com",
@@ -159,220 +174,100 @@
       ]
     },
     {
-      "id": "86a0041dbb",
-      "tema": "ia",
-      "titular_es": "Error en AWS genera facturas estimadas incorrectas de hasta 1.700 millones de dólares",
-      "resumen": "Un fallo en el sistema de facturación estimada de Amazon Web Services provocó pánico global al mostrar cargos astronómicos a diversos usuarios. AWS ya trabaja en resolver el problema técnico, que expone la fragilidad de las herramientas de monitoreo de costos en la nube.",
+      "id": "602f7dbf10",
+      "tema": "finanzas",
+      "titular_es": "Wall Street cierra a la baja por dudas sobre la IA y tensiones geopolíticas entre EE. UU. e Irán",
+      "resumen": "El mercado bursátil neoyorquino finalizó la semana con pérdidas generalizadas debido al escepticismo sobre las altas valoraciones de las empresas de inteligencia artificial. A esto se sumó el recrudecimiento del conflicto geopolítico entre Estados Unidos e Irán, lo que provocó un repunte inmediato en los precios internacionales del petróleo.",
       "relevancia": 8,
-      "url": "https://news.ycombinator.com/item?id=48945241",
-      "fuente": "news.ycombinator.com",
+      "url": "https://www.bloomberglinea.com/mercados/wall-street-retrocede-con-la-venta-de-acciones-de-fabricantes-de-chips-y-el-desplome-de-netflix/",
+      "fuente": "bloomberglinea.com",
       "bandera": "🇺🇸",
       "tags": [
-        "AWS",
-        "computación en la nube",
-        "error técnico"
+        "Wall Street",
+        "inteligencia artificial",
+        "petróleo"
       ]
     },
     {
-      "id": "9f0a72b022",
-      "tema": "ia",
-      "titular_es": "El plan de Apple para aplastar a OpenAI",
-      "resumen": "Un análisis de la demanda judicial de Apple contra OpenAI revela una estrategia agresiva para frenar el dominio de la startup respaldada por Microsoft. Expertos debaten si las acusaciones tienen sustento legal o si es una maniobra puramente competitiva.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
-      "fuente": "theverge.com",
+      "id": "1eb4d16555",
+      "tema": "ciencia",
+      "titular_es": "Surgen detalles preocupantes sobre la polémica destitución en la Asociación Americana de la Diabetes",
+      "resumen": "Autores de artículos de opinión científicos revelaron que la Asociación Americana de la Diabetes (ADA) bloqueó la publicación de sus textos críticos, obligándolos a difundirlos de forma independiente como preprints. El caso ha desatado un intenso debate sobre la censura editorial, la transparencia institucional y la libertad de expresión en la investigación médica de Estados Unidos.",
+      "relevancia": 7,
+      "url": "https://arstechnica.com/science/2026/07/troubling-new-details-emerge-on-diabetes-ouster-controversy/",
+      "fuente": "arstechnica.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Apple",
-        "OpenAI",
-        "demanda"
+        "diabetes",
+        "publicación científica",
+        "medicina"
       ]
     },
     {
-      "id": "114fb06224",
-      "tema": "ciencia",
-      "titular_es": "Científicos desarrollan una cámara capaz de rastrear partículas invisibles en 3D",
-      "resumen": "El nuevo detector PLATON utiliza una cámara de campo de luz, sensores de fotones de alta sensibilidad e inteligencia artificial para reconstruir trayectorias de partículas. Este avance promete simplificar drásticamente el hardware utilizado en la física de alta energía.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260716023610.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
+      "id": "ba106eabc8",
+      "tema": "ia",
+      "titular_es": "Monitores LG instalan software silenciosamente a través de Windows Update sin consentimiento",
+      "resumen": "Usuarios han reportado que ciertos monitores LG están instalando software de control de pantalla de manera automática y silenciosa mediante el servicio de Windows Update. Esta práctica, realizada sin el consentimiento explícito de los usuarios, ha levantado serias preocupaciones sobre la privacidad y el control de los controladores en sistemas operativos modernos.",
+      "relevancia": 7,
+      "url": "https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent",
+      "fuente": "videocardz.com (vía HN)",
+      "bandera": "🇰🇷",
       "tags": [
-        "física de partículas",
-        "PLATON",
-        "sensores"
-      ]
-    },
-    {
-      "id": "63082e1256",
-      "tema": "ciencia",
-      "titular_es": "Terapia recubierta de azúcar aumenta un 50% la supervivencia contra el cáncer cerebral en ratones",
-      "resumen": "Científicos utilizaron nanopartículas recubiertas de azúcar para burlar la barrera hematoencefálica y entregar instrucciones genéticas directamente a células de glioblastoma. El tratamiento logró restaurar una proteína supresora de tumores clave, mostrando resultados prometedores.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260715083542.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "nanotecnología",
-        "oncología",
-        "biomedicina"
-      ]
-    },
-    {
-      "id": "7dbee03660",
-      "tema": "ciencia",
-      "titular_es": "Nuevo fármaco para el Alzheimer repara el daño en el ADN y reduce la inflamación cerebral",
-      "resumen": "El compuesto KCL-286, originalmente desarrollado para lesiones de médula espinal, demostró reparar el daño genético y reducir la neuroinflamación en ratones. Al no enfocarse únicamente en las placas amiloides, propone una vía terapéutica totalmente innovadora.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260711010118.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇬🇧",
-      "tags": [
-        "Alzheimer",
-        "KCL-286",
-        "farmacología"
+        "LG",
+        "Windows",
+        "privacidad"
       ]
     },
     {
       "id": "c35b417007",
       "tema": "ia",
-      "titular_es": "Kimi K3 y lo que aún podemos aprender del benchmark Pelican",
-      "resumen": "El nuevo modelo de IA chino Kimi K3 demuestra capacidades sorprendentes de razonamiento que desafían a los líderes de la industria. El análisis de su rendimiento bajo el benchmark Pelican revela nuevas fronteras en la eficiencia del procesamiento de lenguaje.",
+      "titular_es": "Kimi K3 y las lecciones que aún podemos aprender del benchmark Pelican",
+      "resumen": "Un análisis técnico del nuevo modelo Kimi K3 de Moonshot destaca su rendimiento frente al benchmark Pelican, especializado en evaluar capacidades de razonamiento complejo. El estudio revela cómo los modelos de tamaño intermedio están logrando optimizaciones de eficiencia que desafían a los gigantes de la industria de la inteligencia artificial.",
       "relevancia": 7,
       "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/",
       "fuente": "simonwillison.net (vía HN)",
       "bandera": "🇨🇳",
       "tags": [
+        "inteligencia artificial",
         "Kimi K3",
-        "IA",
         "benchmarks"
       ]
     },
     {
       "id": "3ca766d4c6",
       "tema": "ia",
-      "titular_es": "TikTok prueba una herramienta de detección de identidad por inteligencia artificial",
-      "resumen": "La plataforma está testeando una función que escanea y detecta el uso no autorizado de la imagen o voz de creadores mediante IA. Esta medida busca combatir los deepfakes y proteger los derechos de propiedad intelectual de los usuarios en EE. UU.",
+      "titular_es": "TikTok prueba una herramienta de detección de clonación de voz e imagen por IA",
+      "resumen": "TikTok ha comenzado a probar una función opcional en Estados Unidos que escanea la plataforma en busca de duplicados sintéticos de la apariencia o voz de los creadores. Esta herramienta busca combatir el uso no autorizado de la identidad digital mediante inteligencia artificial generativa, permitiendo a los usuarios reportar infracciones directamente.",
       "relevancia": 7,
       "url": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
         "TikTok",
-        "IA",
-        "ciberseguridad"
+        "inteligencia artificial",
+        "derechos de autor"
       ]
     },
     {
-      "id": "6318fbb66c",
+      "id": "d49e0e4e62",
       "tema": "ia",
-      "titular_es": "Se filtra el rediseño del Samsung Galaxy Z Fold 8 con pantalla más ancha",
-      "resumen": "Imágenes filtradas revelan que el próximo dispositivo plegable de Samsung adoptará una relación de aspecto más ancha y corta. La filtración ocurre a pocos días de su evento oficial de lanzamiento, confirmando cambios clave en su ergonomía.",
+      "titular_es": "Intuit rediseñó su arquitectura de agentes de IA dos veces en cuatro meses para acelerar su éxito",
+      "resumen": "Durante el evento VB Transform 2026, la vicepresidenta de IA de Intuit reveló que la empresa descartó y reconstruyó por completo su infraestructura de agentes inteligentes en dos ocasiones en menos de medio año. La compañía pasó de una flota de agentes especialistas a un sistema centralizado, demostrando la volatilidad y el rápido aprendizaje en la ingeniería de IA actual.",
       "relevancia": 7,
-      "url": "https://www.theverge.com/tech/967198/samsung-galaxy-z-fold-8-images-specs-leak",
-      "fuente": "theverge.com",
-      "bandera": "🇰🇷",
-      "tags": [
-        "Samsung",
-        "smartphones",
-        "filtración"
-      ]
-    },
-    {
-      "id": "be986c3da0",
-      "tema": "ia",
-      "titular_es": "Arrestan a un hombre en Florida por robar más de 200.000 dólares en criptomonedas mediante malware en Steam",
-      "resumen": "Las autoridades federales detuvieron a un joven acusado de distribuir malware oculto en juegos de la plataforma Steam para vaciar billeteras cripto. El caso subraya los crecientes riesgos de seguridad en la distribución de software independiente.",
-      "relevancia": 7,
-      "url": "https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest",
-      "fuente": "theverge.com",
+      "url": "https://venturebeat.com/orchestration/intuit-scrapped-its-own-ai-agent-architecture-twice-in-four-months-at-vb-transform-2026-its-ai-vp-called-that-the-fast-path",
+      "fuente": "venturebeat.com",
       "bandera": "🇺🇸",
       "tags": [
-        "ciberseguridad",
-        "Steam",
-        "criptomonedas"
-      ]
-    },
-    {
-      "id": "2d45f1405e",
-      "tema": "ia",
-      "titular_es": "Retiran más de medio millón de baterías de herramientas eléctricas por riesgo de incendio USB-C",
-      "resumen": "Greenworks Tools ordenó la retirada masiva de baterías de la marca Kobalt tras reportes de sobrecalentamiento y fuego durante la carga por USB-C. El incidente resalta los desafíos de control de calidad en la transición a estándares de carga rápida.",
-      "relevancia": 7,
-      "url": "https://www.theverge.com/tech/967049/greenworks-kobalt-power-tools-lithium-ion-battery-recall",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "baterías",
-        "seguridad",
-        "hardware"
-      ]
-    },
-    {
-      "id": "2c1619b108",
-      "tema": "ciencia",
-      "titular_es": "Un encefalograma demuestra que el cerebro puede codificar simultáneamente dos flujos de voz",
-      "resumen": "Investigadores descubrieron que el cerebro humano procesa y codifica de forma paralela dos conversaciones distintas al mismo tiempo. Este hallazgo de neurociencia redefine nuestra comprensión de la atención auditiva y la capacidad de procesamiento cerebral.",
-      "relevancia": 7,
-      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003876",
-      "fuente": "journals.plos.org (vía HN)",
-      "bandera": "🌍",
-      "tags": [
-        "neurociencia",
-        "cerebro",
-        "investigación"
-      ]
-    },
-    {
-      "id": "5777494d3b",
-      "tema": "ciencia",
-      "titular_es": "El riesgo de sabotaje de datos meteorológicos está en aumento",
-      "resumen": "Los pronósticos del tiempo guían decisiones críticas en aviación, agricultura y redes eléctricas, convirtiéndolos en un objetivo geopolítico de alto riesgo. Expertos advierten sobre la necesidad de blindar la infraestructura de datos meteorológicos contra ciberataques.",
-      "relevancia": 7,
-      "url": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": [
-        "meteorología",
-        "ciberseguridad",
-        "infraestructura"
-      ]
-    },
-    {
-      "id": "08985239be",
-      "tema": "ciencia",
-      "titular_es": "Científicos analizan 39 edulcorantes y descubren efectos inesperados en la microbiota intestinal",
-      "resumen": "Un estudio de laboratorio reveló que múltiples edulcorantes comunes alteran directamente el crecimiento de bacterias intestinales. Además, se identificaron interacciones anómalas al combinarse con cafeína o medicamentos, abriendo nuevas líneas de investigación en salud.",
-      "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260716023552.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "microbiota",
-        "edulcorantes",
-        "salud"
-      ]
-    },
-    {
-      "id": "64875f4721",
-      "tema": "ciencia",
-      "titular_es": "El informe que preocupa a las petroleras: la ciencia de la atribución climática",
-      "resumen": "Un nuevo reporte destaca que la capacidad científica para vincular desastres meteorológicos específicos directamente con el cambio climático ha mejorado drásticamente. Esto abre la puerta a demandas legales sin precedentes contra las corporaciones de combustibles fósiles.",
-      "relevancia": 7,
-      "url": "https://arstechnica.com/science/2026/07/national-academies-climate-attribution-is-maturing-but-still-has-limits/",
-      "fuente": "arstechnica.com",
-      "bandera": "🌍",
-      "tags": [
-        "cambio climático",
-        "atribución climática",
-        "medio ambiente"
+        "Intuit",
+        "agentes de IA",
+        "arquitectura de software"
       ]
     },
     {
       "id": "9b93c7da46",
-      "tema": "emprendimiento",
-      "titular_es": "Los agentes de IA piensan en milisegundos, pero la infraestructura heredada no",
-      "resumen": "Líderes de LinkedIn, Walmart y Zendesk señalaron que el verdadero cuello de botella de los agentes de IA no son los modelos, sino los sistemas heredados. Optimizar la infraestructura de datos es el desafío de ingeniería más crítico para habilitar la automatización en tiempo real.",
+      "tema": "ia",
+      "titular_es": "LinkedIn, Walmart y Zendesk abordan el cuello de botella de la infraestructura heredada en agentes de IA",
+      "resumen": "Líderes de infraestructura de LinkedIn, Walmart y Zendesk señalaron en VB Transform 2026 que los sistemas heredados, y no los modelos de lenguaje, son los que ralentizan a los agentes de IA. Mientras los agentes procesan en milisegundos, las bases de datos y APIs tradicionales tardan segundos, planteando un reto crítico de ingeniería de datos para la industria.",
       "relevancia": 7,
       "url": "https://venturebeat.com/data/agents-think-in-milliseconds-legacy-infrastructure-doesnt-linkedin-walmart-and-zendesk-shared-how-they-closed-the-gap-at-vb-transform-2026",
       "fuente": "venturebeat.com",
@@ -380,14 +275,14 @@
       "tags": [
         "infraestructura",
         "agentes de IA",
-        "ingeniería de datos"
+        "latencia"
       ]
     },
     {
       "id": "07c1ad9b06",
-      "tema": "emprendimiento",
-      "titular_es": "Brex diseñó su política de agentes de IA observando su comportamiento real en lugar de imponer reglas previas",
-      "resumen": "La fintech Brex descubrió que los marcos de control tradicionales fallan al gestionar las credenciales y accesos de los agentes de IA. Su enfoque consistió en monitorear la actividad real de los agentes para construir políticas de seguridad adaptativas y escalables.",
+      "tema": "ia",
+      "titular_es": "Brex define sus políticas de agentes de IA observando su comportamiento real en producción",
+      "resumen": "La fintech Brex ha adoptado un enfoque empírico para la seguridad de sus agentes de IA basados en el framework OpenClaw, analizando sus acciones en lugar de imponer reglas teóricas previas. Al requerir credenciales reales de API y tokens OAuth, la empresa descubrió que los límites de seguridad tradicionales no bastaban para contener la autonomía de los agentes.",
       "relevancia": 7,
       "url": "https://venturebeat.com/orchestration/brex-built-its-ai-agent-policy-by-watching-what-agents-actually-do-not-by-writing-rules-first",
       "fuente": "venturebeat.com",
@@ -395,29 +290,104 @@
       "tags": [
         "Brex",
         "agentes de IA",
-        "ciberseguridad"
+        "seguridad"
       ]
     },
     {
       "id": "f8e95b4445",
       "tema": "finanzas",
-      "titular_es": "Apple Music aumentará sus precios de suscripción",
-      "resumen": "Apple anunció un incremento en las tarifas mensuales de sus planes individual, familiar y de estudiantes en Estados Unidos. Este ajuste refleja la creciente presión inflacionaria y los costos de licenciamiento en la industria del streaming musical.",
-      "relevancia": 6,
+      "titular_es": "Apple Music sube sus precios de suscripción en Estados Unidos",
+      "resumen": "Apple ha anunciado un incremento en las tarifas de su servicio de música en streaming Apple Music para el mercado estadounidense. El plan individual sube a 11,99 dólares mensuales, mientras que los planes familiar y de estudiante también experimentan alzas, reflejando la presión inflacionaria y el aumento de costos de licencias en la industria musical.",
+      "relevancia": 7,
       "url": "https://www.theverge.com/tech/967379/apple-music-price-increase",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Apple Music",
+        "Apple",
         "streaming",
-        "finanzas"
+        "precios"
+      ]
+    },
+    {
+      "id": "239e010062",
+      "tema": "finanzas",
+      "titular_es": "Futuros del Dow Jones: Google, Tesla y AMD en la mira tras la venta masiva de acciones de IA",
+      "resumen": "Los mercados financieros se preparan para una semana de alta volatilidad con la atención puesta en los gigantes tecnológicos Google, Tesla y AMD. Tras una fuerte corrección en el sector de la inteligencia artificial, los inversores buscan señales de estabilización en los futuros del Dow Jones y el Nasdaq.",
+      "relevancia": 7,
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-google-tesla-amd-ai-stock-sell-off/?src=A00220&yptr=yahoo",
+      "fuente": "investors.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Wall Street",
+        "acciones",
+        "tecnología"
+      ]
+    },
+    {
+      "id": "3ba1d4489a",
+      "tema": "finanzas",
+      "titular_es": "Brecha de datos en Fidelity: Se acerca el plazo para reclamar compensaciones de hasta 5.000 dólares",
+      "resumen": "Los clientes afectados por la filtración de datos de la firma financiera Fidelity se enfrentan al cierre del plazo para solicitar indemnizaciones de hasta 5.000 dólares por persona. El acuerdo judicial busca compensar los gastos y el tiempo perdidos por los usuarios tras el incidente de ciberseguridad que expuso información personal sensible.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/fidelity-data-breach-deadline-looms-for-up-to-5000-per-customer-settlement-payouts-174013618.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Fidelity",
+        "ciberseguridad",
+        "demanda"
+      ]
+    },
+    {
+      "id": "f9d6c74a21",
+      "tema": "emprendimiento",
+      "titular_es": "El fundador de Pebble, Eric Migicovsky, defiende que su garantía de 30 días se basa en la confianza",
+      "resumen": "Eric Migicovsky, creador de los relojes inteligentes Pebble, ha salido al paso de las críticas por la corta garantía de 30 días de sus nuevos dispositivos de papel electrónico. El emprendedor argumenta que el modelo de negocio busca establecer una relación de confianza directa y transparente con los usuarios pioneros, prometiendo resolver cualquier fallo técnico de forma personalizada.",
+      "relevancia": 6,
+      "url": "https://www.theverge.com/gadgets/967471/pebble-smartwatch-warranty-repairs-migicovsky-interview",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Pebble",
+        "hardware",
+        "garantías"
+      ]
+    },
+    {
+      "id": "ab8715cdc9",
+      "tema": "emprendimiento",
+      "titular_es": "Stripe x Startup Battlefield abre su convocatoria para fundadores australianos",
+      "resumen": "Quedan solo 48 horas para postular a la competencia Stripe x Startup Battlefield en Sídney, donde ocho startups australianas presentarán sus proyectos ante inversores globales. La empresa ganadora obtendrá un pase directo sin filtros adicionales para participar en el prestigioso evento TechCrunch Disrupt en San Francisco, una oportunidad única de visibilidad internacional.",
+      "relevancia": 6,
+      "url": "https://techcrunch.com/2026/07/17/applications-close-in-48-hours-heres-everything-australian-founders-need-to-know-about-stripe-x-startup-battlefield/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇦🇺",
+      "tags": [
+        "Stripe",
+        "startups",
+        "Australia"
+      ]
+    },
+    {
+      "id": "5d2b0c79af",
+      "tema": "emprendimiento",
+      "titular_es": "El inversor Neil Rimer predice una redistribución de la riqueza generada por la IA en Silicon Valley",
+      "resumen": "Neil Rimer, cofundador de la firma de capital de riesgo Index Ventures, sostiene que la inmensa riqueza acumulada por el auge de la inteligencia artificial tendrá que ser redistribuida a mediano plazo. Según el inversor, este proceso ocurrirá de forma voluntaria por parte de las corporaciones o mediante regulaciones e impuestos estatales para evitar una crisis de desigualdad extrema.",
+      "relevancia": 6,
+      "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": [
+        "Index Ventures",
+        "capital de riesgo",
+        "inteligencia artificial"
       ]
     },
     {
       "id": "51860ee553",
       "tema": "finanzas",
-      "titular_es": "Las tres razones por las que Bank of America prevé un fortalecimiento del dólar este año",
-      "resumen": "Bank of America proyecta que el dólar estadounidense continuará apreciándose durante la segunda mitad del año. La entidad señala cambios estructurales en los flujos de capital y la política monetaria como los principales motores de este movimiento.",
+      "titular_es": "Las tres razones de Bank of America para prever un fortalecimiento del dólar este año",
+      "resumen": "Bank of America proyecta que la reciente racha alcista del dólar estadounidense se extenderá durante la segunda mitad del año. La entidad financiera fundamenta su análisis en un cambio estructural de los factores macroeconómicos globales, la divergencia de políticas de los bancos centrales y la búsqueda de activos de refugio seguro.",
       "relevancia": 6,
       "url": "https://www.bloomberglinea.com/mercados/las-tres-razones-por-las-que-bank-of-america-cree-que-el-dolar-se-puede-fortalecer-este-ano/",
       "fuente": "bloomberglinea.com",
@@ -426,51 +396,6 @@
         "dólar",
         "divisas",
         "Bank of America"
-      ]
-    },
-    {
-      "id": "1eb4d16555",
-      "tema": "ciencia",
-      "titular_es": "Surgen detalles preocupantes sobre la controversia de censura en la Asociación Americana de Diabetes",
-      "resumen": "La Asociación Americana de Diabetes bloqueó la publicación de artículos de opinión críticos, lo que obligó a los autores a difundirlos de forma independiente como preprints. El incidente reaviva el debate sobre la transparencia y el control editorial en la ciencia médica.",
-      "relevancia": 6,
-      "url": "https://arstechnica.com/science/2026/07/troubling-new-details-emerge-on-diabetes-ouster-controversy/",
-      "fuente": "arstechnica.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "diabetes",
-        "ética científica",
-        "censura"
-      ]
-    },
-    {
-      "id": "0cb9e6bfec",
-      "tema": "ia",
-      "titular_es": "El estado de la inteligencia artificial de código abierto",
-      "resumen": "Un análisis detallado del panorama actual de la IA de código abierto, destacando los desafíos de licenciamiento y la competencia frente a los modelos cerrados. Es clave para entender hacia dónde se dirige el desarrollo colaborativo de software.",
-      "relevancia": 5,
-      "url": "https://stateofopensource.ai/",
-      "fuente": "stateofopensource.ai (vía HN)",
-      "bandera": "🌍",
-      "tags": [
-        "código abierto",
-        "IA",
-        "software"
-      ]
-    },
-    {
-      "id": "1df79545e7",
-      "tema": "emprendimiento",
-      "titular_es": "Cómo conseguir financiación pre-semilla sin tener un producto listo",
-      "resumen": "En un mercado saturado por startups de IA, conseguir capital pre-semilla requiere dominar el arte de la narrativa y la convicción. Expertos de TechCrunch Disrupt explican cómo los fundadores en etapas iniciales pueden destacar ante los inversores de riesgo.",
-      "relevancia": 5,
-      "url": "https://techcrunch.com/2026/07/17/no-product-no-problem-this-disrupt-2026-session-shows-how-to-get-pre-seed-funding-with-conviction-storytelling/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "pre-seed",
-        "capital de riesgo",
-        "startups"
       ]
     }
   ]
