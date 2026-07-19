@@ -1,6 +1,6 @@
 {
   "fecha": "2026-07-19",
-  "generado_utc": "2026-07-19T13:18:37Z",
+  "generado_utc": "2026-07-19T20:39:32Z",
   "indicadores": {
     "dolar": {
       "valor": 924.5,
@@ -13,7 +13,7 @@
       "variacion_pct": 0.0
     }
   },
-  "noticia_del_dia": "c8b4b3d83f",
+  "noticia_del_dia": "0b0a2dde41",
   "pildora_ia": "Atención (Transformers): el mecanismo que deja a un modelo pesar qué partes de la entrada importan más para cada palabra que genera. Es el corazón de la arquitectura Transformer detrás de GPT, Gemini y Claude.",
   "pildoras_ia": [
     "Atención (Transformers): el mecanismo que deja a un modelo pesar qué partes de la entrada importan más para cada palabra que genera. Es el corazón de la arquitectura Transformer detrás de GPT, Gemini y Claude.",
@@ -24,303 +24,377 @@
   ],
   "noticias": [
     {
-      "id": "c8b4b3d83f",
-      "tema": "ia",
-      "titular_es": "Qwen 3.8 se lanzará pronto con pesos abiertos",
-      "resumen": "El equipo de Qwen ha anunciado el próximo lanzamiento de su modelo Qwen 3.8 bajo una licencia de pesos abiertos (open-weight). Esto permitirá a desarrolladores e investigadores de todo el mundo ejecutar y ajustar el modelo localmente de forma gratuita. Es un paso crucial para la democratización de la IA de alto rendimiento.",
+      "id": "0b0a2dde41",
+      "tema": "ciencia",
+      "titular_es": "Un nuevo análisis de sangre con IA predice enfermedades cardíacas con 15 años de anticipación",
+      "resumen": "Investigadores de la Universidad de Hong Kong han desarrollado CardiOmicScore, una prueba de sangre impulsada por inteligencia artificial que analiza miles de proteínas y metabolitos. El sistema es capaz de predecir el riesgo de desarrollar seis enfermedades cardiovasculares mayores hasta con 15 años de antelación. Este avance promete revolucionar la medicina preventiva y el tratamiento personalizado de afecciones cardíacas.",
       "relevancia": 9,
-      "url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
-      "fuente": "twitter.com (vía HN)",
-      "bandera": "🇨🇳",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260716023603.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇭🇰",
       "tags": [
-        "Qwen",
-        "código abierto",
-        "LLM"
+        "medicina preventiva",
+        "inteligencia artificial",
+        "CardiOmicScore"
       ]
     },
     {
-      "id": "2be64b864e",
-      "tema": "ciencia",
-      "titular_es": "Un antidepresivo común podría aliviar la fatiga extrema del COVID prolongado",
-      "resumen": "Un ensayo clínico aleatorizado con 399 adultos demostró que la fluvoxamina, un antidepresivo de bajo costo, reduce significativamente la fatiga crónica y mejora la calidad de vida en pacientes con COVID prolongado. Este fármaco se convierte en uno de los primeros tratamientos accesibles en mostrar beneficios clínicos reales y medibles contra este síndrome. El descubrimiento representa una esperanza terapéutica inmediata y económica.",
+      "id": "c772a968fa",
+      "tema": "finanzas",
+      "titular_es": "Los futuros del Dow Jones caen ante la escalada de ataques entre EE. UU. e Irán",
+      "resumen": "Los mercados financieros globales muestran alta volatilidad tras el aumento de las tensiones militares entre Estados Unidos e Irán. Las acciones de gigantes tecnológicos como Google, Tesla y AMD se preparan para una jornada de fuertes fluctuaciones. Los inversores buscan refugio en activos seguros mientras evalúan el impacto macroeconómico del conflicto.",
       "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260718010158.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-iran-attack-kills-us-troops-google-tesla-amd/?src=A00220&yptr=yahoo",
+      "fuente": "investors.com",
+      "bandera": "🇺🇸",
       "tags": [
-        "medicina",
-        "COVID prolongado",
-        "ensayo clínico"
+        "Dow Jones",
+        "geopolítica",
+        "mercados financieros"
+      ]
+    },
+    {
+      "id": "0f6b50f4d7",
+      "tema": "finanzas",
+      "titular_es": "La caída del 25% de IBM revela la primera víctima corporativa oculta de la IA",
+      "resumen": "Las acciones de IBM sufrieron un desplome histórico del 25% tras reportar que sus servicios de consultoría tradicional están siendo desplazados por soluciones automatizadas de IA. Este colapso financiero evidencia el riesgo de disrupción interna que enfrentan las grandes corporaciones tecnológicas si no adaptan rápidamente sus modelos de negocio. Un hito que marca un antes y un después en la adopción corporativa de la IA.",
+      "relevancia": 9,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ibm-25-crash-reveals-ai-194700067.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "IBM",
+        "disrupción tecnológica",
+        "acciones"
+      ]
+    },
+    {
+      "id": "dedcee44d9",
+      "tema": "ia",
+      "titular_es": "Moonshot AI suspende nuevas suscripciones ante la alta demanda de Kimi K3",
+      "resumen": "La startup china de inteligencia artificial Moonshot AI ha pausado temporalmente las nuevas suscripciones de pago para su modelo Kimi K3. La decisión se debe a un aumento masivo en la demanda que ha saturado sus servidores. Este suceso destaca los desafíos de infraestructura que enfrentan las empresas de IA ante el crecimiento exponencial de usuarios.",
+      "relevancia": 8,
+      "url": "https://twitter.com/kimi_moonshot/status/2078855608565207130",
+      "fuente": "twitter.com (vía HN)",
+      "bandera": "🇨🇳",
+      "tags": [
+        "Moonshot AI",
+        "infraestructura",
+        "servicios en la nube"
       ]
     },
     {
       "id": "a69cdbbe8c",
       "tema": "ia",
       "titular_es": "Claude Code ahora utiliza Bun escrito en Rust",
-      "resumen": "Anthropic ha actualizado su herramienta de terminal Claude Code para utilizar Bun, el entorno de ejecución de JavaScript de alto rendimiento escrito en Rust. Este cambio promete mejorar drásticamente la velocidad y eficiencia de la herramienta de desarrollo de IA. Es un hito relevante para desarrolladores que buscan optimizar sus flujos de trabajo con IA.",
+      "resumen": "Anthropic ha actualizado su herramienta de terminal Claude Code para utilizar el entorno de ejecución Bun, el cual ahora está optimizado con componentes en Rust. Esta transición técnica busca reducir drásticamente los tiempos de latencia y mejorar la eficiencia en la ejecución de scripts locales. Un movimiento estratégico que resalta la creciente adopción de Rust en herramientas de desarrollo de IA.",
       "relevancia": 8,
       "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
       "fuente": "simonwillison.net (vía HN)",
       "bandera": "🇺🇸",
       "tags": [
-        "Claude Code",
-        "Bun",
-        "Rust"
+        "Anthropic",
+        "Rust",
+        "Bun"
       ]
     },
     {
-      "id": "5fa9f7716c",
+      "id": "c8b4b3d83f",
       "tema": "ia",
-      "titular_es": "Vista previa de Qwen 3.8 Max",
-      "resumen": "Alibaba ha presentado la vista previa de su nuevo modelo de lenguaje Qwen 3.8 Max, posicionándose fuertemente en la carrera de la inteligencia artificial. Este modelo promete capacidades avanzadas de razonamiento y procesamiento de lenguaje natural. Representa un avance clave en la competencia global de modelos de código cerrado y abierto.",
+      "titular_es": "Alibaba lanza Qwen 3.8 con nuevos planes de precios",
+      "resumen": "La división de nube de Alibaba ha presentado su nuevo modelo de lenguaje Qwen 3.8, acompañado de un esquema de precios altamente competitivo para desarrolladores. Este lanzamiento intensifica la guerra de precios en el sector de modelos de código abierto y APIs de IA en Asia. Promete un rendimiento optimizado para tareas de razonamiento y procesamiento de lenguaje natural.",
       "relevancia": 8,
-      "url": "https://www.qwencloud.com/pricing/token-plan",
-      "fuente": "qwencloud.com (vía HN)",
+      "url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
+      "fuente": "twitter.com (vía HN)",
       "bandera": "🇨🇳",
       "tags": [
-        "Qwen",
         "Alibaba",
-        "LLM"
+        "Qwen",
+        "modelos de lenguaje"
       ]
     },
     {
-      "id": "94b209d96e",
+      "id": "451e0a3051",
       "tema": "ia",
-      "titular_es": "Nueva York podría exigir a propietarios revelar el uso de IA en anuncios inmobiliarios",
-      "resumen": "La ciudad de Nueva York evalúa un proyecto de ley que obligaría a declarar si se utiliza inteligencia artificial para redactar o alterar anuncios de alquiler o venta de viviendas. La medida busca combatir la publicidad engañosa y aumentar la transparencia en el mercado inmobiliario. De aprobarse, sentaría un precedente importante para la regulación de la IA de consumo.",
+      "titular_es": "OpenAI reduce el tamaño de contexto del modelo Codex de 372k a 272k tokens",
+      "resumen": "OpenAI ha anunciado una reducción en la ventana de contexto de su modelo Codex, disminuyéndola a 272k tokens. Esta medida técnica busca optimizar el rendimiento de los servidores y reducir los costos operativos asociados al procesamiento de contextos masivos. La decisión ha generado debate entre desarrolladores que dependen de ventanas amplias para análisis de código complejo.",
       "relevancia": 8,
-      "url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
-      "fuente": "petapixel.com (vía HN)",
+      "url": "https://github.com/openai/codex/pull/33972/files",
+      "fuente": "github.com (vía HN)",
       "bandera": "🇺🇸",
       "tags": [
-        "regulación",
-        "IA",
-        "bienes raíces"
+        "OpenAI",
+        "Codex",
+        "ventanas de contexto"
       ]
     },
     {
-      "id": "a7a58eeb6e",
+      "id": "ad7139199a",
       "tema": "emprendimiento",
-      "titular_es": "El momento Kimi K3: El avance de la startup Moonshot AI",
-      "resumen": "La startup china Moonshot AI ha captado la atención de la industria con el rendimiento de su nuevo modelo Kimi K3, destacando en tareas de razonamiento complejo y contexto ultra largo. Este hito posiciona a la empresa como un fuerte competidor frente a los gigantes occidentales de la IA. El avance demuestra la rápida evolución y financiamiento del ecosistema tecnológico asiático.",
+      "titular_es": "¿Podría una demanda de Apple descarrilar los planes de hardware de OpenAI?",
+      "resumen": "OpenAI enfrenta posibles disputas legales con Apple que amenazan con frenar el desarrollo de sus propios dispositivos físicos de inteligencia artificial. El conflicto se centra en patentes de diseño y tecnologías de procesamiento local que Apple reclama como exclusivas. Esta batalla legal podría redefinir las alianzas estratégicas y el desarrollo de hardware dedicado a la IA de consumo.",
       "relevancia": 8,
-      "url": "https://stephen.bochinski.dev/blog/2026/07/18/the-kimi-k3-moment/",
-      "fuente": "stephen.bochinski.dev (vía HN)",
-      "bandera": "🇨🇳",
-      "tags": [
-        "Moonshot AI",
-        "Kimi K3",
-        "startups"
-      ]
-    },
-    {
-      "id": "7687e4792c",
-      "tema": "finanzas",
-      "titular_es": "BlackRock alcanza un récord histórico en activos bajo gestión tras el segundo trimestre",
-      "resumen": "BlackRock ha reportado un volumen récord de activos bajo gestión (AUM) tras la presentación de sus resultados financieros del segundo trimestre. El hito consolida su posición como la mayor gestora de activos del mundo y refleja un fuerte flujo de capital hacia sus fondos indexados y ETFs. Analistas evalúan ahora el comportamiento de sus acciones frente a las nuevas proyecciones de tasas de interés.",
-      "relevancia": 8,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/blackrock-just-achieved-record-aum-133002162.html",
+      "url": "https://finance.yahoo.com/technology/ai/articles/apple-lawsuit-derail-openai-hardware-192445049.html",
       "fuente": "finance.yahoo.com",
       "bandera": "🇺🇸",
       "tags": [
-        "BlackRock",
-        "finanzas",
-        "ETFs"
+        "Apple",
+        "OpenAI",
+        "patentes de hardware"
       ]
     },
     {
-      "id": "fbe6c7a087",
-      "tema": "finanzas",
-      "titular_es": "Las tasas de interés hipotecarias suben ante la escalada del conflicto en Irán",
-      "resumen": "Las tasas de interés para hipotecas y refinanciamientos registraron un alza tras la intensificación del conflicto geopolítico en Irán, lo que ha generado volatilidad en los mercados globales de bonos. Este incremento refleja el nerviosismo de los inversores, quienes buscan refugio en activos seguros, presionando al alza los rendimientos de la deuda soberana. El fenómeno encarece el costo del crédito a nivel internacional.",
-      "relevancia": 8,
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-july-19-2026-rates-moved-higher-last-week-as-iranian-conflict-escalated-100000829.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": [
-        "tasas de interés",
-        "geopolítica",
-        "macroeconomía"
-      ]
-    },
-    {
-      "id": "65f310606e",
-      "tema": "finanzas",
-      "titular_es": "Bonos corporativos con grado de inversión se rezagan frente a las acciones en 2026",
-      "resumen": "Un análisis bancario revela que la correlación (beta) entre el mercado de bonos corporativos de alta calidad y el mercado accionario ha alcanzado un máximo histórico en 2026, con los bonos quedando notablemente rezagados. El informe explica que las diferencias de rendimiento se deben a las expectativas de inflación y la resiliencia de las ganancias corporativas. Es un dato clave para la asignación de portafolios institucionales.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/mundo/estados-unidos/bonos-de-empresas-con-grado-de-inversion-quedan-rezagados-frente-a-las-acciones-en-2026/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": [
-        "bonos",
-        "acciones",
-        "mercados"
-      ]
-    },
-    {
-      "id": "dfe2ccfcf3",
+      "id": "b1321a7a5f",
       "tema": "ciencia",
-      "titular_es": "La extenuante carrera de 630 millas donde el único combustible es la luz solar",
-      "resumen": "Estudiantes de secundaria en Texas competirán en una carrera de 630 millas utilizando vehículos solares diseñados y construidos por ellos mismos con piezas comerciales e impresión 3D. El evento pone a prueba la eficiencia energética, la ingeniería de materiales y la resistencia de los prototipos bajo el sol extremo. Es una vitrina excepcional para la innovación en energías renovables aplicadas.",
+      "titular_es": "El misterioso zumbido escuchado en todo el mundo podría tener finalmente una explicación",
+      "resumen": "Investigadores han realizado pruebas para determinar el origen de 'The Hum', un enigmático sonido de baja frecuencia reportado globalmente durante décadas. Tras descartar que se deba a una audición excepcionalmente sensible o a emisiones otoacústicas internas, los científicos apuntan a fenómenos geofísicos e industriales específicos. Un avance intrigante en la resolución de uno de los misterios acústicos más persistentes.",
       "relevancia": 8,
-      "url": "https://www.theverge.com/transportation/966701/solar-car-challenge-high-school-student-race-texas",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "energía solar",
-        "vehículos eléctricos",
-        "ingeniería"
-      ]
-    },
-    {
-      "id": "d93a727ed5",
-      "tema": "ciencia",
-      "titular_es": "El café podría ayudar a combatir el estrés y el envejecimiento celular mediante un interruptor oculto",
-      "resumen": "Científicos han descubierto que ciertos compuestos del café activan el receptor NR4A1, una proteína celular que protege a las células contra el estrés, la inflamación y el daño oxidativo. El estudio revela que los efectos protectores desaparecen por completo cuando este receptor es bloqueado, proporcionando una explicación molecular a los beneficios del café para la longevidad. El hallazgo abre nuevas vías para terapias antienvejecimiento.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260719035927.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260719040002.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
       "tags": [
-        "biología celular",
-        "salud",
-        "café"
+        "acústica",
+        "geofísica",
+        "investigación científica"
+      ]
+    },
+    {
+      "id": "2be64b864e",
+      "tema": "ciencia",
+      "titular_es": "Un antidepresivo común podría aliviar la fatiga extrema del COVID prolongado",
+      "resumen": "Un ensayo clínico aleatorizado con 399 adultos demostró que la fluvoxamina, un antidepresivo de bajo costo, reduce significativamente la fatiga crónica causada por el COVID prolongado. Los pacientes tratados reportaron una mejora sustancial en su calidad de vida en comparación con el grupo de placebo. Este descubrimiento representa uno de los primeros tratamientos farmacológicos efectivos y accesibles para esta condición.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260718010158.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "COVID prolongado",
+        "fluvoxamina",
+        "ensayo clínico"
+      ]
+    },
+    {
+      "id": "3480c39c19",
+      "tema": "ciencia",
+      "titular_es": "Un pequeño universo en una botella revela pistas sobre los orígenes de la vida",
+      "resumen": "Un equipo de investigadores logró sintetizar polvo cósmico recreando las condiciones extremas del espacio exterior dentro de tubos de vidrio. El polvo resultante contiene moléculas complejas ricas en carbono, esenciales para la vida, y emite señales infrarrojas idénticas a las observadas en el espacio profundo. Este experimento abre nuevas vías para comprender cómo se formaron los bloques químicos de la vida en el universo temprano.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260718010156.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "astrobiología",
+        "polvo cósmico",
+        "orígenes de la vida"
       ]
     },
     {
       "id": "34fd865ea3",
       "tema": "ciencia",
       "titular_es": "Científicos identifican el raro meteorito que extinguió a los dinosaurios hace 66 millones de años",
-      "resumen": "Un nuevo análisis químico sugiere que el asteroide que impactó la Tierra hace 66 millones de años era una condrita carbonácea (CO) extremadamente rara, proveniente de los confines del sistema solar. Los investigadores determinaron que el polvo y los escombros que enfriaron el planeta, y no el azufre del impacto, fueron los causantes del colapso climático global. El estudio redefine nuestra comprensión de los eventos de extinción masiva.",
+      "resumen": "Un nuevo análisis geoquímico revela que el asteroide que impactó la Tierra hace 66 millones de años era una condrita carbonácea del tipo CO, extremadamente rara y proveniente de las regiones externas del sistema solar. El estudio sugiere que el polvo y los escombros ricos en carbono que bloquearon la luz solar fueron los principales causantes del enfriamiento global letal, más que el azufre liberado.",
       "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/07/260718010142.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
       "tags": [
-        "astronomía",
-        "geología",
-        "dinosaurios"
+        "paleontología",
+        "meteorito",
+        "extinción masiva"
       ]
     },
     {
-      "id": "781dac050a",
-      "tema": "ciencia",
-      "titular_es": "Sustitutos de azúcar populares son vinculados con un envejecimiento cerebral acelerado",
-      "resumen": "Un estudio observacional revela que el consumo elevado de edulcorantes artificiales comunes está asociado con un deterioro cognitivo significativamente más rápido, equivalente a unos 1.6 años de envejecimiento cerebral adicional. El efecto fue especialmente pronunciado en adultos menores de 60 años y personas con diabetes. La investigación cuestiona la supuesta inocuidad de estos sustitutos en la salud neurológica a largo plazo.",
+      "id": "65890bc15e",
+      "tema": "finanzas",
+      "titular_es": "Los ETFs de servicios públicos suben un 8% impulsados por la demanda energética de la IA",
+      "resumen": "Los fondos cotizados (ETFs) del sector de servicios públicos han registrado un alza del 8% en lo que va del año debido a la masiva demanda eléctrica de los centros de datos de IA. Este fenómeno financiero resalta cómo la infraestructura física y energética se ha convertido en el nuevo cuello de botella de la revolución tecnológica. Analistas recomiendan vigilar de cerca las empresas de generación eléctrica.",
       "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260717033213.htm",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/utility-etfs-soar-8-ytd-195846799.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "ETFs",
+        "energía",
+        "centros de datos"
+      ]
+    },
+    {
+      "id": "58e13740cb",
+      "tema": "finanzas",
+      "titular_es": "La proyección de Jensen Huang de una IA de 4 billones de dólares podría elevar el valor de Nvidia a 20 billones",
+      "resumen": "El director ejecutivo de Nvidia proyecta que el mercado de infraestructura de IA alcanzará un valor de 4 billones de dólares en los próximos años. De cumplirse esta estimación, la capitalización de mercado de Nvidia podría dispararse hasta los 20 billones de dólares, consolidando su monopolio en el suministro de chips de alto rendimiento. Una cifra sin precedentes que redefine las expectativas de la industria de semiconductores.",
+      "relevancia": 8,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jensen-huangs-4-trillion-artificial-193800547.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "semiconductores"
+      ]
+    },
+    {
+      "id": "3a50c957e7",
+      "tema": "finanzas",
+      "titular_es": "Argentina vs. España: cinco indicadores financieros antes de la final del Mundial 2026",
+      "resumen": "Un análisis económico compara las bolsas de valores, la fortaleza de las monedas y el valor de las principales empresas de Argentina y España en vísperas de la final de la Copa del Mundo. El informe detalla cómo el rendimiento deportivo se cruza con el comportamiento de los mercados financieros y el patrocinio de marcas globales. Una perspectiva analítica y oportuna sobre el impacto económico del fútbol.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/mercados/argentina-vs-espana-cinco-indicadores-financieros-antes-de-la-final-del-mundial-2026/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🌍",
+      "tags": [
+        "indicadores financieros",
+        "Mundial 2026",
+        "mercados globales"
+      ]
+    },
+    {
+      "id": "262590a6ea",
+      "tema": "emprendimiento",
+      "titular_es": "Lo que aprendí vendiendo 2,500 grabadores MIDI: el hardware no es tan difícil",
+      "resumen": "Un emprendedor comparte su experiencia diseñando, fabricando y comercializando miles de dispositivos MIDI físicos desde su hogar. El artículo desmitifica el desarrollo de hardware moderno gracias a la accesibilidad de la impresión 3D y la fabricación de PCBs bajo demanda. Ofrece valiosas lecciones sobre logística, diseño industrial y validación de mercado.",
+      "relevancia": 7,
+      "url": "https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard",
+      "fuente": "chipweinberger.com (vía HN)",
+      "bandera": "🌍",
+      "tags": [
+        "hardware",
+        "MIDI",
+        "emprendimiento"
+      ]
+    },
+    {
+      "id": "5df319f963",
+      "tema": "emprendimiento",
+      "titular_es": "La trampa de la limpieza: por qué no debes pedirle a RAG que solucione datos corruptos",
+      "resumen": "Un análisis crítico del ecosistema de IA empresarial advierte sobre el error común de usar arquitecturas RAG (Generación Aumentada por Recuperación) para compensar bases de datos mal estructuradas. El autor argumenta que millones de dólares en pilotos de IA fallan porque las empresas evitan el trabajo pesado de limpiar sus datos de origen. Una advertencia técnica crucial para ingenieros de datos y arquitectos de soluciones.",
+      "relevancia": 7,
+      "url": "https://venturebeat.com/orchestration/the-cleanup-trap-stop-asking-rag-to-fix-bad-data",
+      "fuente": "venturebeat.com",
+      "bandera": "🌍",
+      "tags": [
+        "RAG",
+        "calidad de datos",
+        "IA empresarial"
+      ]
+    },
+    {
+      "id": "dfe2ccfcf3",
+      "tema": "ciencia",
+      "titular_es": "La extenuante carrera solar de 630 millas donde el único combustible es la luz",
+      "resumen": "Estudiantes de secundaria en Texas competirán en una carrera de cinco días utilizando vehículos solares diseñados y construidos por ellos mismos. El desafío técnico requiere el uso de piezas comerciales y componentes impresos en 3D, optimizando al máximo la eficiencia energética. Un evento que pone a prueba la ingeniería aplicada y las tecnologías de energía renovable en condiciones reales.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/transportation/966701/solar-car-challenge-high-school-student-race-texas",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "energía solar",
+        "vehículos eléctricos",
+        "ingeniería aplicada"
+      ]
+    },
+    {
+      "id": "d93a727ed5",
+      "tema": "ciencia",
+      "titular_es": "El café podría ayudar al cuerpo a combatir el estrés y el envejecimiento mediante un interruptor celular oculto",
+      "resumen": "Científicos han descubierto que ciertos compuestos del café activan el receptor NR4A1, una proteína celular clave que protege contra la inflamación y el daño oxidativo. Al desactivar este receptor en pruebas de laboratorio, los efectos protectores del café desaparecieron por completo. Este hallazgo proporciona una base molecular sólida para explicar los beneficios del café en la longevidad saludable.",
+      "relevancia": 7,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260719035927.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
       "tags": [
-        "neurología",
-        "nutrición",
-        "salud"
+        "biología celular",
+        "café",
+        "longevidad"
       ]
     },
     {
-      "id": "4276818fd4",
-      "tema": "ia",
-      "titular_es": "Transcribe.cpp: Transcripción de audio local y eficiente",
-      "resumen": "Se ha presentado Transcribe.cpp, una implementación de alto rendimiento para la transcripción de audio basada en modelos de código abierto y optimizada en C++. Permite ejecutar transcripciones de voz a texto de forma local y con un consumo mínimo de recursos. Es una herramienta ideal para desarrolladores que buscan privacidad y eficiencia en sus proyectos.",
+      "id": "fbe6c7a087",
+      "tema": "finanzas",
+      "titular_es": "Las tasas hipotecarias suben tras la escalada del conflicto en Irán",
+      "resumen": "Las tasas de interés para hipotecas y refinanciamientos en EE. UU. registraron un incremento al cierre de la semana debido a la inestabilidad geopolítica en Medio Oriente. El aumento de la tensión militar ha presionado al alza los rendimientos de los bonos del Tesoro, afectando directamente al mercado inmobiliario. Expertos sugieren cautela ante la volatilidad de las tasas a corto plazo.",
       "relevancia": 7,
-      "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
-      "fuente": "workshop.cjpais.com (vía HN)",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-july-19-2026-rates-moved-higher-last-week-as-iranian-conflict-escalated-100000829.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "tasas hipotecarias",
+        "macroeconomía",
+        "bonos del Tesoro"
+      ]
+    },
+    {
+      "id": "d53ed21b4b",
+      "tema": "finanzas",
+      "titular_es": "Analistas proyectan que las acciones de Oklo alcanzarán los 87 dólares en 2027",
+      "resumen": "La startup de energía nuclear Oklo, respaldada por Sam Altman, ha recibido proyecciones financieras optimistas que sitúan sus acciones en 87 dólares para 2027. El interés radica en su tecnología de microrreactores nucleares rápidos, diseñados para abastecer de energía limpia a los centros de datos de IA. Los inversores debaten si la relación riesgo-beneficio justifica la inversión a largo plazo.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analysts-project-oklo-stock-price-192100654.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Oklo",
+        "energía nuclear",
+        "inversiones"
+      ]
+    },
+    {
+      "id": "65f310606e",
+      "tema": "finanzas",
+      "titular_es": "Los bonos corporativos con grado de inversión quedan rezagados frente a las acciones en 2026",
+      "resumen": "Un informe bancario revela que la correlación (beta) entre el mercado de bonos de alta calidad y el mercado accionario ha alcanzado un máximo histórico en 2026. A pesar de esto, los bonos corporativos muestran un rendimiento inferior debido a las expectativas de tasas de interés prolongadamente altas. Una lectura técnica esencial para comprender la asignación de activos en el entorno macroeconómico actual.",
+      "relevancia": 7,
+      "url": "https://www.bloomberglinea.com/mundo/estados-unidos/bonos-de-empresas-con-grado-de-inversion-quedan-rezagados-frente-a-las-acciones-en-2026/",
+      "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": [
-        "C++",
-        "transcripción",
-        "código abierto"
+        "bonos corporativos",
+        "acciones",
+        "tasas de interés"
+      ]
+    },
+    {
+      "id": "8f1e596996",
+      "tema": "ia",
+      "titular_es": "Show HN: Reemplacé un sistema de bolera de 120,000 dólares con 1,600 dólares en ESP32",
+      "resumen": "Un ingeniero de confiabilidad de sitios (SRE) relata cómo automatizó y reparó una bolera abandonada utilizando microcontroladores ESP32 de bajo costo. Al sustituir un costoso sistema comercial por hardware libre, logró revivir el negocio familiar con una fracción del presupuesto original. Un caso de estudio fascinante sobre ingenio técnico y hardware embebido.",
+      "relevancia": 6,
+      "url": "https://news.ycombinator.com/item?id=48968606",
+      "fuente": "news.ycombinator.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "ESP32",
+        "hardware libre",
+        "automatización"
+      ]
+    },
+    {
+      "id": "0b4fb7fdaa",
+      "tema": "ia",
+      "titular_es": "Minecraft: Java Edition ahora utiliza SDL3",
+      "resumen": "La versión de Java de Minecraft ha migrado oficialmente a la biblioteca SDL3 para la gestión de ventanas, entrada de usuario y gráficos. Este cambio técnico promete mejorar el rendimiento multiplataforma y solucionar problemas históricos de compatibilidad en sistemas operativos modernos. Una actualización clave para desarrolladores interesados en la arquitectura de videojuegos.",
+      "relevancia": 6,
+      "url": "https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-4",
+      "fuente": "minecraft.net (vía HN)",
+      "bandera": "🌍",
+      "tags": [
+        "Minecraft",
+        "SDL3"
       ]
     },
     {
       "id": "5476eaca52",
       "tema": "ia",
-      "titular_es": "Dave Eggers advierte al personal de OpenAI que ChatGPT está 'silenciando a toda una generación'",
-      "resumen": "El reconocido autor Dave Eggers dio una charla ante 200 empleados de OpenAI donde criticó duramente el impacto de ChatGPT en la creatividad humana y la escritura. Eggers argumentó que la automatización de la escritura desincentiva el pensamiento crítico y la expresión artística original de los jóvenes. El debate resalta las crecientes tensiones éticas entre la comunidad creativa y los desarrolladores de IA.",
-      "relevancia": 7,
+      "titular_es": "Dave Eggers advierte al personal de OpenAI que ChatGPT está 'silenciando a una generación'",
+      "resumen": "El reconocido autor Dave Eggers ofreció una charla ante empleados de OpenAI donde criticó el impacto de las herramientas generativas en la creatividad humana. Eggers argumentó que la dependencia de la IA para la escritura y el arte debilita el pensamiento crítico de los jóvenes. El encuentro subraya las tensiones éticas y culturales entre los creadores tradicionales y los desarrolladores de tecnología.",
+      "relevancia": 6,
       "url": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
         "OpenAI",
-        "ética",
+        "ética de la IA",
         "creatividad"
-      ]
-    },
-    {
-      "id": "e4e5dade9f",
-      "tema": "ia",
-      "titular_es": "Google libera el código fuente de sus emojis en 3D",
-      "resumen": "Coincidiendo con el Día Mundial del Emoji, Google ha decidido abrir el código de sus diseños de emojis en 3D para que cualquier desarrollador o diseñador pueda utilizarlos libremente. La compañía detalló los complejos desafíos de diseño que implicó pasar de ilustraciones planas a modelos tridimensionales interactivos. Es un recurso valioso para creadores de interfaces y entornos virtuales.",
-      "relevancia": 7,
-      "url": "https://www.theverge.com/design/967606/google-open-source-3d-emoji",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Google",
-        "código abierto",
-        "diseño 3D"
-      ]
-    },
-    {
-      "id": "7e72881b01",
-      "tema": "finanzas",
-      "titular_es": "Inversores de Intel: Marquen el 23 de julio en sus calendarios",
-      "resumen": "Intel se prepara para presentar sus resultados financieros trimestrales el próximo 23 de julio, una fecha clave para evaluar el avance de su reestructuración interna y su estrategia de fundición de chips. Los inversores buscarán señales de recuperación en la demanda de procesadores y avances en sus contratos de manufactura de semiconductores. El reporte podría definir el rumbo de la acción para el resto del año.",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-intel-stock-fans-mark-133002034.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Intel",
-        "semiconductores",
-        "acciones"
-      ]
-    },
-    {
-      "id": "0532f9b517",
-      "tema": "ciencia",
-      "titular_es": "Científicos descubren una rama perdida de los marsupiales de Australia",
-      "resumen": "El hallazgo de fósiles en Queensland ha revelado un orden de marsupiales previamente desconocido que sobrevivió durante unos 35 millones de años en Australia. Este descubrimiento desafía la teoría tradicional de que todos los marsupiales del continente evolucionaron a partir de un único linaje lineal y directo. El estudio reescribe una parte fundamental de la historia evolutiva de los mamíferos australianos.",
-      "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260715083546.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇦🇺",
-      "tags": [
-        "paleontología",
-        "evolución",
-        "fósiles"
-      ]
-    },
-    {
-      "id": "18d828c057",
-      "tema": "ia",
-      "titular_es": "Google podría no limitar el Pixel 11a con un procesador antiguo",
-      "resumen": "Filtraciones recientes sugieren que el próximo teléfono de gama media de Google, el Pixel 11a, contará con el procesador insignia Tensor G6 en lugar de un chip de generación anterior. Esto rompería la tendencia previa de Google de recortar potencia en sus modelos económicos de la serie 'a'. La decisión busca mantener la competitividad del dispositivo en tareas locales de inteligencia artificial.",
-      "relevancia": 6,
-      "url": "https://www.theverge.com/tech/967612/google-pixel-11a-tensor-g6-leak",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Google",
-        "Pixel 11a",
-        "procesadores"
-      ]
-    },
-    {
-      "id": "2fa1cf2509",
-      "tema": "ciencia",
-      "titular_es": "El monitoreo es clave para prevenir enfermedades ante la expansión de los mosquitos",
-      "resumen": "A medida que el cambio climático expande el hábitat de los mosquitos transmisores de enfermedades, los expertos advierten que mejorar los sistemas de monitoreo es crucial para prevenir brotes epidémicos. Aunque estas tareas de vigilancia son costosas y requieren mucha mano de obra, resultan indispensables para que las autoridades de salud pública actúen a tiempo. El artículo destaca la necesidad de automatizar estos procesos mediante tecnología.",
-      "relevancia": 6,
-      "url": "https://arstechnica.com/science/2026/07/as-mosquito-ranges-expand-better-monitoring-is-key-to-preventing-disease/",
-      "fuente": "arstechnica.com",
-      "bandera": "🌍",
-      "tags": [
-        "salud pública",
-        "ecología",
-        "cambio climático"
       ]
     }
   ]
