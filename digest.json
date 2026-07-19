@@ -1,6 +1,6 @@
 {
-  "fecha": "2026-07-18",
-  "generado_utc": "2026-07-18T20:39:14Z",
+  "fecha": "2026-07-19",
+  "generado_utc": "2026-07-19T13:18:37Z",
   "indicadores": {
     "dolar": {
       "valor": 924.5,
@@ -13,382 +13,247 @@
       "variacion_pct": 0.0
     }
   },
-  "noticia_del_dia": "da56b4ec12",
-  "pildora_ia": "Embeddings: representan palabras, imágenes o cualquier dato como vectores de números donde la cercanía significa similitud de significado. Son la base de la búsqueda semántica y de cómo los LLM 'entienden' texto.",
+  "noticia_del_dia": "c8b4b3d83f",
+  "pildora_ia": "Atención (Transformers): el mecanismo que deja a un modelo pesar qué partes de la entrada importan más para cada palabra que genera. Es el corazón de la arquitectura Transformer detrás de GPT, Gemini y Claude.",
   "pildoras_ia": [
-    "Embeddings: representan palabras, imágenes o cualquier dato como vectores de números donde la cercanía significa similitud de significado. Son la base de la búsqueda semántica y de cómo los LLM 'entienden' texto.",
     "Atención (Transformers): el mecanismo que deja a un modelo pesar qué partes de la entrada importan más para cada palabra que genera. Es el corazón de la arquitectura Transformer detrás de GPT, Gemini y Claude.",
     "Gradiente descendente: el algoritmo que entrena casi todas las redes neuronales. Ajusta los parámetros poco a poco en la dirección que más reduce el error, como bajar una montaña a ciegas siguiendo la pendiente.",
     "Tokens: los LLM no leen palabras sino 'tokens', fragmentos de texto (a veces una palabra, a veces parte de una). El costo y los límites de las APIs se miden en tokens, no en caracteres.",
-    "Temperatura: parámetro que controla cuán 'creativa' es la respuesta de un LLM. Baja (0) da respuestas predecibles y consistentes; alta (1+) las hace más variadas y arriesgadas."
+    "Temperatura: parámetro que controla cuán 'creativa' es la respuesta de un LLM. Baja (0) da respuestas predecibles y consistentes; alta (1+) las hace más variadas y arriesgadas.",
+    "RAG (Retrieval-Augmented Generation): técnica para que un LLM responda usando documentos externos: primero busca información relevante y luego la usa para generar la respuesta. Reduce alucinaciones y permite datos frescos sin reentrenar."
   ],
   "noticias": [
     {
-      "id": "da56b4ec12",
+      "id": "c8b4b3d83f",
       "tema": "ia",
-      "titular_es": "GPT-5.6 cierra una brecha de 30 años en optimización convexa mediante un prompt",
-      "resumen": "El nuevo modelo GPT-5.6 ha logrado resolver un problema matemático de optimización convexa que llevaba tres décadas estancado, utilizando únicamente un prompt estructurado. Este hito demuestra el potencial de los modelos de frontera para acelerar descubrimientos científicos y resolver problemas complejos de ingeniería de forma autónoma.",
+      "titular_es": "Qwen 3.8 se lanzará pronto con pesos abiertos",
+      "resumen": "El equipo de Qwen ha anunciado el próximo lanzamiento de su modelo Qwen 3.8 bajo una licencia de pesos abiertos (open-weight). Esto permitirá a desarrolladores e investigadores de todo el mundo ejecutar y ajustar el modelo localmente de forma gratuita. Es un paso crucial para la democratización de la IA de alto rendimiento.",
       "relevancia": 9,
-      "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
-      "fuente": "old.reddit.com (vía HN)",
-      "bandera": "🇺🇸",
+      "url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
+      "fuente": "twitter.com (vía HN)",
+      "bandera": "🇨🇳",
       "tags": [
-        "GPT-5.6",
-        "matemáticas",
-        "optimización"
+        "Qwen",
+        "código abierto",
+        "LLM"
       ]
     },
     {
-      "id": "c772a968fa",
-      "tema": "finanzas",
-      "titular_es": "Futuros del Dow Jones: Ataque en Irán deja dos soldados estadounidenses muertos; Google, Tesla y AMD avanzan",
-      "resumen": "Los mercados financieros reaccionan con volatilidad tras un ataque militar en Irán que resultó en la muerte de dos soldados de EE. UU. A pesar de la tensión geopolítica, las acciones de gigantes tecnológicos como Google, Tesla y AMD muestran movimientos alcistas en las operaciones previas a la apertura del mercado.",
+      "id": "2be64b864e",
+      "tema": "ciencia",
+      "titular_es": "Un antidepresivo común podría aliviar la fatiga extrema del COVID prolongado",
+      "resumen": "Un ensayo clínico aleatorizado con 399 adultos demostró que la fluvoxamina, un antidepresivo de bajo costo, reduce significativamente la fatiga crónica y mejora la calidad de vida en pacientes con COVID prolongado. Este fármaco se convierte en uno de los primeros tratamientos accesibles en mostrar beneficios clínicos reales y medibles contra este síndrome. El descubrimiento representa una esperanza terapéutica inmediata y económica.",
       "relevancia": 9,
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-iran-attack-kills-us-troops-google-tesla-amd/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
-      "bandera": "🇺🇸",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260718010158.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
       "tags": [
-        "Dow Jones",
-        "geopolítica",
-        "mercados"
+        "medicina",
+        "COVID prolongado",
+        "ensayo clínico"
       ]
     },
     {
-      "id": "8d1ab98c0d",
-      "tema": "finanzas",
-      "titular_es": "SpaceX pierde un billón de dólares en valoración de mercado tras cancelarse el lanzamiento de Starship",
-      "resumen": "La valoración estimada de SpaceX ha sufrido una caída masiva de un billón de dólares desde mediados de junio tras la suspensión de su último lanzamiento de prueba de Starship. Este revés técnico subraya los enormes riesgos financieros y de ingeniería asociados a la carrera espacial comercial.",
-      "relevancia": 9,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musks-spacex-lost-1t-150000833.html",
-      "fuente": "finance.yahoo.com",
+      "id": "a69cdbbe8c",
+      "tema": "ia",
+      "titular_es": "Claude Code ahora utiliza Bun escrito en Rust",
+      "resumen": "Anthropic ha actualizado su herramienta de terminal Claude Code para utilizar Bun, el entorno de ejecución de JavaScript de alto rendimiento escrito en Rust. Este cambio promete mejorar drásticamente la velocidad y eficiencia de la herramienta de desarrollo de IA. Es un hito relevante para desarrolladores que buscan optimizar sus flujos de trabajo con IA.",
+      "relevancia": 8,
+      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
+      "fuente": "simonwillison.net (vía HN)",
       "bandera": "🇺🇸",
       "tags": [
-        "SpaceX",
-        "Starship",
-        "valoración"
+        "Claude Code",
+        "Bun",
+        "Rust"
       ]
     },
     {
-      "id": "2a6c589fb1",
-      "tema": "emprendimiento",
-      "titular_es": "Databricks alcanza una valoración de 188.000 millones de dólares impulsada por la IA",
-      "resumen": "Databricks consolida su posición de liderazgo tecnológico al alcanzar una valoración récord de 188.000 millones de dólares tras reorientar su negocio hacia la inteligencia artificial. Sus investigaciones sobre la reducción de costos en modelos de código abierto han atraído un enorme flujo de capital privado.",
-      "relevancia": 9,
-      "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
-      "fuente": "techcrunch.com",
+      "id": "5fa9f7716c",
+      "tema": "ia",
+      "titular_es": "Vista previa de Qwen 3.8 Max",
+      "resumen": "Alibaba ha presentado la vista previa de su nuevo modelo de lenguaje Qwen 3.8 Max, posicionándose fuertemente en la carrera de la inteligencia artificial. Este modelo promete capacidades avanzadas de razonamiento y procesamiento de lenguaje natural. Representa un avance clave en la competencia global de modelos de código cerrado y abierto.",
+      "relevancia": 8,
+      "url": "https://www.qwencloud.com/pricing/token-plan",
+      "fuente": "qwencloud.com (vía HN)",
+      "bandera": "🇨🇳",
+      "tags": [
+        "Qwen",
+        "Alibaba",
+        "LLM"
+      ]
+    },
+    {
+      "id": "94b209d96e",
+      "tema": "ia",
+      "titular_es": "Nueva York podría exigir a propietarios revelar el uso de IA en anuncios inmobiliarios",
+      "resumen": "La ciudad de Nueva York evalúa un proyecto de ley que obligaría a declarar si se utiliza inteligencia artificial para redactar o alterar anuncios de alquiler o venta de viviendas. La medida busca combatir la publicidad engañosa y aumentar la transparencia en el mercado inmobiliario. De aprobarse, sentaría un precedente importante para la regulación de la IA de consumo.",
+      "relevancia": 8,
+      "url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
+      "fuente": "petapixel.com (vía HN)",
       "bandera": "🇺🇸",
       "tags": [
-        "Databricks",
-        "valoración",
-        "inteligencia artificial"
+        "regulación",
+        "IA",
+        "bienes raíces"
       ]
     },
     {
       "id": "a7a58eeb6e",
-      "tema": "ia",
-      "titular_es": "El momento Kimi K3",
-      "resumen": "El modelo de lenguaje Kimi K3 de Moonshot AI marca un hito en el ecosistema tecnológico chino. Este avance destaca por su capacidad de razonamiento complejo y procesamiento de contexto ultra largo, posicionándose como un fuerte competidor frente a las alternativas occidentales en tareas de ingeniería y desarrollo.",
+      "tema": "emprendimiento",
+      "titular_es": "El momento Kimi K3: El avance de la startup Moonshot AI",
+      "resumen": "La startup china Moonshot AI ha captado la atención de la industria con el rendimiento de su nuevo modelo Kimi K3, destacando en tareas de razonamiento complejo y contexto ultra largo. Este hito posiciona a la empresa como un fuerte competidor frente a los gigantes occidentales de la IA. El avance demuestra la rápida evolución y financiamiento del ecosistema tecnológico asiático.",
       "relevancia": 8,
       "url": "https://stephen.bochinski.dev/blog/2026/07/18/the-kimi-k3-moment/",
       "fuente": "stephen.bochinski.dev (vía HN)",
       "bandera": "🇨🇳",
       "tags": [
+        "Moonshot AI",
         "Kimi K3",
-        "LLM",
-        "inteligencia artificial"
+        "startups"
       ]
     },
     {
-      "id": "f9dce90b0c",
-      "tema": "ia",
-      "titular_es": "Capital One lanza VulnHunter, una herramienta de IA de código abierto para detectar fallos de software",
-      "resumen": "El gigante financiero Capital One ha liberado VulnHunter, un agente de IA de seguridad que escanea el código fuente en busca de vulnerabilidades explotables antes de su despliegue en producción. La herramienta simula ataques reales y propone parches específicos, facilitando el desarrollo seguro de software.",
-      "relevancia": 8,
-      "url": "https://venturebeat.com/technology/capital-one-releases-vulnhunter-an-open-source-ai-tool-that-finds-software-flaws-before-hackers-do",
-      "fuente": "venturebeat.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "ciberseguridad",
-        "código abierto",
-        "Capital One"
-      ]
-    },
-    {
-      "id": "6f6ee041b9",
+      "id": "7687e4792c",
       "tema": "finanzas",
-      "titular_es": "Popular empresa de cosméticos se declara en bancarrota bajo el Capítulo 11",
-      "resumen": "Una reconocida firma de cosméticos ha solicitado la protección por bancarrota del Capítulo 11 en EE. UU. para reestructurar sus deudas financieras. Este movimiento refleja las crecientes presiones de costos, los cambios en los hábitos de consumo y la intensa competencia en el sector minorista de belleza.",
+      "titular_es": "BlackRock alcanza un récord histórico en activos bajo gestión tras el segundo trimestre",
+      "resumen": "BlackRock ha reportado un volumen récord de activos bajo gestión (AUM) tras la presentación de sus resultados financieros del segundo trimestre. El hito consolida su posición como la mayor gestora de activos del mundo y refleja un fuerte flujo de capital hacia sus fondos indexados y ETFs. Analistas evalúan ahora el comportamiento de sus acciones frente a las nuevas proyecciones de tasas de interés.",
       "relevancia": 8,
-      "url": "https://finance.yahoo.com/small-business/articles/popular-cosmetics-company-files-chapter-201459549.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/blackrock-just-achieved-record-aum-133002162.html",
       "fuente": "finance.yahoo.com",
       "bandera": "🇺🇸",
       "tags": [
-        "bancarrota",
-        "negocios",
-        "comercio"
+        "BlackRock",
+        "finanzas",
+        "ETFs"
       ]
     },
     {
-      "id": "60a0581fbb",
+      "id": "fbe6c7a087",
       "tema": "finanzas",
-      "titular_es": "El empleo en el sector de petróleo y gas cae a mínimos de 2026 a pesar de registrar producción récord",
-      "resumen": "La industria energética experimenta una paradoja laboral al alcanzar niveles mínimos de empleo mientras la extracción de crudo y gas rompe récords históricos. La automatización avanzada y la optimización de procesos de ingeniería explican esta drástica reducción de mano de obra en los yacimientos.",
+      "titular_es": "Las tasas de interés hipotecarias suben ante la escalada del conflicto en Irán",
+      "resumen": "Las tasas de interés para hipotecas y refinanciamientos registraron un alza tras la intensificación del conflicto geopolítico en Irán, lo que ha generado volatilidad en los mercados globales de bonos. Este incremento refleja el nerviosismo de los inversores, quienes buscan refugio en activos seguros, presionando al alza los rendimientos de la deuda soberana. El fenómeno encarece el costo del crédito a nivel internacional.",
       "relevancia": 8,
-      "url": "https://finance.yahoo.com/energy/articles/oil-gas-employment-hits-2026-150000486.html",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-july-19-2026-rates-moved-higher-last-week-as-iranian-conflict-escalated-100000829.html",
       "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
+      "bandera": "🌍",
       "tags": [
-        "energía",
-        "empleo",
-        "automatización"
+        "tasas de interés",
+        "geopolítica",
+        "macroeconomía"
       ]
     },
     {
-      "id": "6b03d1af44",
+      "id": "65f310606e",
       "tema": "finanzas",
-      "titular_es": "Argentina vs. España: la victoria para Adidas en el Mundial 2026 llegó antes de la final",
-      "resumen": "La marca deportiva alemana Adidas se asegura el éxito comercial en el Mundial de Fútbol 2026 al vestir a ambas selecciones finalistas. Analistas confirman que el torneo ha disparado las ventas globales de la compañía, elevando sus previsiones financieras y consolidando su liderazgo frente a Nike.",
+      "titular_es": "Bonos corporativos con grado de inversión se rezagan frente a las acciones en 2026",
+      "resumen": "Un análisis bancario revela que la correlación (beta) entre el mercado de bonos corporativos de alta calidad y el mercado accionario ha alcanzado un máximo histórico en 2026, con los bonos quedando notablemente rezagados. El informe explica que las diferencias de rendimiento se deben a las expectativas de inflación y la resiliencia de las ganancias corporativas. Es un dato clave para la asignación de portafolios institucionales.",
       "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/mercados/argentina-vs-espana-la-victoria-para-adidas-en-el-mundial-2026-llego-antes-de-la-final/",
+      "url": "https://www.bloomberglinea.com/mundo/estados-unidos/bonos-de-empresas-con-grado-de-inversion-quedan-rezagados-frente-a-las-acciones-en-2026/",
       "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": [
-        "Adidas",
-        "Mundial 2026",
-        "marketing deportivo"
+        "bonos",
+        "acciones",
+        "mercados"
       ]
     },
     {
-      "id": "10be5da707",
+      "id": "dfe2ccfcf3",
       "tema": "ciencia",
-      "titular_es": "Taylor Farms retira la lechuga iceberg del mercado estadounidense tras un brote de ciclosporiasis",
-      "resumen": "La productora de alimentos Taylor Farms ha retirado voluntariamente del mercado de EE. UU. toda la lechuga iceberg proveniente del centro de México debido a un brote de infección parasitaria. La medida afecta directamente a grandes cadenas de comida rápida como Taco Bell y resalta la vulnerabilidad de las cadenas de suministro agrícola.",
+      "titular_es": "La extenuante carrera de 630 millas donde el único combustible es la luz solar",
+      "resumen": "Estudiantes de secundaria en Texas competirán en una carrera de 630 millas utilizando vehículos solares diseñados y construidos por ellos mismos con piezas comerciales e impresión 3D. El evento pone a prueba la eficiencia energética, la ingeniería de materiales y la resistencia de los prototipos bajo el sol extremo. Es una vitrina excepcional para la innovación en energías renovables aplicadas.",
       "relevancia": 8,
-      "url": "https://www.theverge.com/science/967563/cyclospora-taylor-farms-taco-bell-iceberg-lettuce",
+      "url": "https://www.theverge.com/transportation/966701/solar-car-challenge-high-school-student-race-texas",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "salud pública",
-        "seguridad alimentaria",
-        "Taylor Farms"
+        "energía solar",
+        "vehículos eléctricos",
+        "ingeniería"
       ]
     },
     {
-      "id": "3ce0a96c63",
+      "id": "d93a727ed5",
       "tema": "ciencia",
-      "titular_es": "El ayuno intermitente ayudó a mantener la pérdida de peso durante un año",
-      "resumen": "Un estudio clínico revela que un programa de ayuno intermitente de 12 semanas mantuvo sus beneficios de pérdida de peso un año después de finalizar. Los participantes que limitaron su ingesta a una ventana de ocho horas lograron mejores resultados que el grupo de control, sin importar si la ventana era temprana o tardía.",
+      "titular_es": "El café podría ayudar a combatir el estrés y el envejecimiento celular mediante un interruptor oculto",
+      "resumen": "Científicos han descubierto que ciertos compuestos del café activan el receptor NR4A1, una proteína celular que protege a las células contra el estrés, la inflamación y el daño oxidativo. El estudio revela que los efectos protectores desaparecen por completo cuando este receptor es bloqueado, proporcionando una explicación molecular a los beneficios del café para la longevidad. El hallazgo abre nuevas vías para terapias antienvejecimiento.",
       "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260718010154.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260719035927.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
       "tags": [
-        "ayuno intermitente",
-        "nutrición",
-        "salud"
+        "biología celular",
+        "salud",
+        "café"
+      ]
+    },
+    {
+      "id": "34fd865ea3",
+      "tema": "ciencia",
+      "titular_es": "Científicos identifican el raro meteorito que extinguió a los dinosaurios hace 66 millones de años",
+      "resumen": "Un nuevo análisis químico sugiere que el asteroide que impactó la Tierra hace 66 millones de años era una condrita carbonácea (CO) extremadamente rara, proveniente de los confines del sistema solar. Los investigadores determinaron que el polvo y los escombros que enfriaron el planeta, y no el azufre del impacto, fueron los causantes del colapso climático global. El estudio redefine nuestra comprensión de los eventos de extinción masiva.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260718010142.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "astronomía",
+        "geología",
+        "dinosaurios"
       ]
     },
     {
       "id": "781dac050a",
       "tema": "ciencia",
-      "titular_es": "Sustitutos populares del azúcar son vinculados a un envejecimiento cerebral más rápido",
-      "resumen": "Una investigación científica asocia el consumo elevado de edulcorantes artificiales con un deterioro cognitivo acelerado, equivalente a un envejecimiento cerebral de 1.6 años. El efecto fue especialmente pronunciado en adultos menores de 60 años o con diagnóstico previo de diabetes.",
+      "titular_es": "Sustitutos de azúcar populares son vinculados con un envejecimiento cerebral acelerado",
+      "resumen": "Un estudio observacional revela que el consumo elevado de edulcorantes artificiales comunes está asociado con un deterioro cognitivo significativamente más rápido, equivalente a unos 1.6 años de envejecimiento cerebral adicional. El efecto fue especialmente pronunciado en adultos menores de 60 años y personas con diabetes. La investigación cuestiona la supuesta inocuidad de estos sustitutos en la salud neurológica a largo plazo.",
       "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/07/260717033213.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
       "tags": [
-        "edulcorantes",
-        "neurociencia",
+        "neurología",
+        "nutrición",
         "salud"
       ]
     },
     {
-      "id": "7299a8a2af",
-      "tema": "ciencia",
-      "titular_es": "El telescopio James Webb de la NASA capta a un agujero negro supermasivo alimentándose",
-      "resumen": "El telescopio espacial James Webb ha obtenido imágenes de alta resolución que muestran filamentos de gas alimentando al agujero negro supermasivo en el centro de la galaxia NGC 4696. El material gira a velocidades de hasta 600 kilómetros por segundo dentro de un disco de 800 años luz de diámetro.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260716023601.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "James Webb",
-        "astronomía",
-        "agujeros negros"
-      ]
-    },
-    {
-      "id": "40a043ccda",
+      "id": "4276818fd4",
       "tema": "ia",
-      "titular_es": "Fable 5 frente a GPT-5.6 Sol en un problema NP-difícil: ¿Ayuda la instrucción de objetivo?",
-      "resumen": "Una comparativa técnica evalúa el rendimiento de los modelos Fable 5 y GPT-5.6 al enfrentarse a problemas de computación NP-difíciles. El estudio analiza si la inclusión de directrices de objetivo claras mejora la eficiencia del razonamiento algorítmico en tareas de alta complejidad computacional.",
+      "titular_es": "Transcribe.cpp: Transcripción de audio local y eficiente",
+      "resumen": "Se ha presentado Transcribe.cpp, una implementación de alto rendimiento para la transcripción de audio basada en modelos de código abierto y optimizada en C++. Permite ejecutar transcripciones de voz a texto de forma local y con un consumo mínimo de recursos. Es una herramienta ideal para desarrolladores que buscan privacidad y eficiencia en sus proyectos.",
       "relevancia": 7,
-      "url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/",
-      "fuente": "charlesazam.com (vía HN)",
+      "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
+      "fuente": "workshop.cjpais.com (vía HN)",
       "bandera": "🌍",
       "tags": [
-        "benchmarks",
-        "algoritmos",
-        "computación"
+        "C++",
+        "transcripción",
+        "código abierto"
       ]
     },
     {
-      "id": "ba106eabc8",
+      "id": "5476eaca52",
       "tema": "ia",
-      "titular_es": "Monitores LG instalan software silenciosamente a través de Windows Update sin consentimiento",
-      "resumen": "Se ha descubierto que ciertos monitores LG aprovechan el servicio de Windows Update para instalar software de control de pantalla de forma automática y sin avisar al usuario. Este comportamiento plantea serias dudas sobre la privacidad, la seguridad del sistema operativo y el control del hardware por parte de terceros.",
+      "titular_es": "Dave Eggers advierte al personal de OpenAI que ChatGPT está 'silenciando a toda una generación'",
+      "resumen": "El reconocido autor Dave Eggers dio una charla ante 200 empleados de OpenAI donde criticó duramente el impacto de ChatGPT en la creatividad humana y la escritura. Eggers argumentó que la automatización de la escritura desincentiva el pensamiento crítico y la expresión artística original de los jóvenes. El debate resalta las crecientes tensiones éticas entre la comunidad creativa y los desarrolladores de IA.",
       "relevancia": 7,
-      "url": "https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent",
-      "fuente": "videocardz.com (vía HN)",
-      "bandera": "🇰🇷",
-      "tags": [
-        "LG",
-        "seguridad",
-        "Windows Update"
-      ]
-    },
-    {
-      "id": "d49e0e4e62",
-      "tema": "ia",
-      "titular_es": "Intuit desechó su arquitectura de agentes de IA dos veces en cuatro meses para acelerar su desarrollo",
-      "resumen": "Durante el evento VB Transform 2026, la vicepresidenta de IA de Intuit reveló cómo la empresa reconstruyó por completo su arquitectura de agentes inteligentes en dos ocasiones en menos de medio año. Esta estrategia ágil de 'fallar rápido' les permitió migrar de agentes especializados a sistemas más robustos.",
-      "relevancia": 7,
-      "url": "https://venturebeat.com/orchestration/intuit-scrapped-its-own-ai-agent-architecture-twice-in-four-months-at-vb-transform-2026-its-ai-vp-called-that-the-fast-path",
-      "fuente": "venturebeat.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Intuit",
-        "arquitectura de software",
-        "agentes de IA"
-      ]
-    },
-    {
-      "id": "04301db61d",
-      "tema": "finanzas",
-      "titular_es": "Cadena de tiendas de descuento cierra 75 sucursales tras calificarlas de deficientes",
-      "resumen": "Una importante cadena minorista de descuento ha anunciado el cierre inmediato de 75 establecimientos debido a su bajo rendimiento y condiciones subestándar. La empresa busca optimizar su red de distribución y concentrar recursos en sus tiendas más rentables para sobrevivir a la inflación.",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/discount-chain-closing-75-stores-150700942.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "comercio minorista",
-        "reestructuración",
-        "negocios"
-      ]
-    },
-    {
-      "id": "d4db72662b",
-      "tema": "finanzas",
-      "titular_es": "Meta Platforms sube un 21% este mes: ¿Qué está impulsando este repunte?",
-      "resumen": "Las acciones de Meta han registrado un impresionante aumento del 21% en las últimas semanas, impulsadas por la sólida monetización de sus herramientas de IA y la eficiencia operativa. Los inversores reaccionan positivamente a la integración de modelos de lenguaje en sus plataformas publicitarias.",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-21-month-whats-195000181.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Meta",
-        "acciones",
-        "publicidad digital"
-      ]
-    },
-    {
-      "id": "d563d127d6",
-      "tema": "finanzas",
-      "titular_es": "La memoria es el mayor cuello de botella de la IA: Micron y SanDisk superan a Nvidia en bolsa",
-      "resumen": "Siguiendo las declaraciones de Jensen Huang en el CES 2026 sobre las limitaciones de hardware, las empresas de almacenamiento de datos Micron y SanDisk han superado el rendimiento bursátil de Nvidia. La demanda de chips de memoria de banda ancha ultra rápida se consolida como el nuevo motor del sector de semiconductores.",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/technology/ai/articles/jensen-huang-told-ces-2026-194200302.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "semiconductores",
-        "Nvidia",
-        "hardware"
-      ]
-    },
-    {
-      "id": "94d1f7bc70",
-      "tema": "ciencia",
-      "titular_es": "El mayor evento volcánico de la Tierra transformó por completo una placa oceánica",
-      "resumen": "El análisis de ondas sísmicas ha revelado que la placa oceánica bajo la meseta de Ontong Java sufrió alteraciones estructurales masivas debido a la colosal actividad volcánica de hace 100 millones de años. Los científicos identificaron una compleja red de capas horizontales atravesadas por antiguos conductos de magma.",
-      "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260716023618.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "geología",
-        "volcanes",
-        "sismología"
-      ]
-    },
-    {
-      "id": "0009130ce2",
-      "tema": "ciencia",
-      "titular_es": "La dieta mediterránea podría activar proteínas celulares que protegen el corazón y el cerebro",
-      "resumen": "Un nuevo estudio sugiere que la dieta mediterránea estimula la producción mitocondrial de las proteínas humanina y SHMOOSE, asociadas con la protección cardiovascular y neuronal en adultos mayores. El consumo de aceite de oliva, pescado y legumbres se consolida como un pilar de la longevidad saludable.",
-      "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260716023605.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "dieta mediterránea",
-        "mitocondrias",
-        "longevidad"
-      ]
-    },
-    {
-      "id": "3dcaabf869",
-      "tema": "ciencia",
-      "titular_es": "Un asteroide fragmentado podría haber bombardeado la Tierra hace 800 millones de años",
-      "resumen": "Investigadores sugieren que la desintegración catastrófica de un gran asteroide cerca de la órbita de Júpiter desató una oleada de impactos masivos en la Tierra, la Luna y Marte hace 800 millones de años. Este bombardeo cósmico coincide con profundos cambios geológicos y climáticos en nuestro planeta.",
-      "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260716023559.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "asteroides",
-        "astronomía",
-        "geología"
-      ]
-    },
-    {
-      "id": "4121744c0c",
-      "tema": "ia",
-      "titular_es": "El impacto de la inteligencia artificial en Stack Overflow reflejado en un gráfico",
-      "resumen": "Un análisis visual revela la drástica caída en el tráfico y la participación de usuarios en Stack Overflow desde el auge de los asistentes de código basados en IA. Este cambio de paradigma muestra cómo los desarrolladores prefieren consultar directamente a modelos de lenguaje en lugar de buscar en foros tradicionales.",
-      "relevancia": 6,
-      "url": "https://data.stackexchange.com/stackoverflow/query/1953768#graph",
-      "fuente": "data.stackexchange.com (vía HN)",
-      "bandera": "🌍",
-      "tags": [
-        "Stack Overflow",
-        "desarrolladores",
-        "productividad"
-      ]
-    },
-    {
-      "id": "18d828c057",
-      "tema": "ia",
-      "titular_es": "Google podría no recortar la potencia del Pixel 11a con un procesador antiguo",
-      "resumen": "Filtraciones recientes sugieren que el próximo Pixel 11a de Google mantendrá el procesador insignia Tensor G6 en lugar de recurrir a un chip de generación anterior. Esta decisión estratégica evitaría la decepción de los usuarios y garantizaría un rendimiento óptimo para ejecutar tareas locales de inteligencia artificial.",
-      "relevancia": 6,
-      "url": "https://www.theverge.com/tech/967612/google-pixel-11a-tensor-g6-leak",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Google",
-        "Pixel 11a",
-        "hardware"
+        "OpenAI",
+        "ética",
+        "creatividad"
       ]
     },
     {
       "id": "e4e5dade9f",
       "tema": "ia",
       "titular_es": "Google libera el código fuente de sus emojis en 3D",
-      "resumen": "Con motivo del Día Mundial del Emoji, Google ha decidido abrir el código y los diseños de sus populares emojis tridimensionales para su uso libre. La compañía detalló los complejos desafíos de diseño que implica transformar ilustraciones planas en modelos 3D interactivos y adaptables.",
-      "relevancia": 6,
+      "resumen": "Coincidiendo con el Día Mundial del Emoji, Google ha decidido abrir el código de sus diseños de emojis en 3D para que cualquier desarrollador o diseñador pueda utilizarlos libremente. La compañía detalló los complejos desafíos de diseño que implicó pasar de ilustraciones planas a modelos tridimensionales interactivos. Es un recurso valioso para creadores de interfaces y entornos virtuales.",
+      "relevancia": 7,
       "url": "https://www.theverge.com/design/967606/google-open-source-3d-emoji",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
@@ -399,48 +264,63 @@
       ]
     },
     {
-      "id": "d6c347a374",
+      "id": "7e72881b01",
       "tema": "finanzas",
-      "titular_es": "Semana clave en la bolsa: Navegando la incertidumbre del mercado",
-      "resumen": "Los inversores se preparan para una semana de alta volatilidad marcada por decisiones de política monetaria y reportes de ganancias corporativas. Analistas recomiendan cautela y diversificación para mitigar los riesgos asociados a las fluctuaciones macroeconómicas globales.",
-      "relevancia": 6,
-      "url": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-navigating-uncertainty/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
-      "bandera": "🌍",
-      "tags": [
-        "bolsa de valores",
-        "inversiones",
-        "macroeconomía"
-      ]
-    },
-    {
-      "id": "ab8715cdc9",
-      "tema": "emprendimiento",
-      "titular_es": "Últimas 48 horas para postular a Stripe x Startup Battlefield en Australia",
-      "resumen": "Se cierra la convocatoria para que fundadores australianos compitan en el Stripe Tour de Sídney. La startup ganadora obtendrá un pase directo sin filtros adicionales para presentarse ante inversores globales y prensa especializada en el prestigioso TechCrunch Disrupt de San Francisco.",
-      "relevancia": 6,
-      "url": "https://techcrunch.com/2026/07/17/applications-close-in-48-hours-heres-everything-australian-founders-need-to-know-about-stripe-x-startup-battlefield/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇦🇺",
-      "tags": [
-        "Stripe",
-        "startups",
-        "TechCrunch"
-      ]
-    },
-    {
-      "id": "5d2b0c79af",
-      "tema": "emprendimiento",
-      "titular_es": "Neil Rimer predice que la riqueza generada por la IA tendrá que redistribuirse",
-      "resumen": "El cofundador de Index Ventures, Neil Rimer, sostiene que la inmensa riqueza acumulada en Silicon Valley gracias a la revolución de la IA deberá ser redistribuida de forma voluntaria o mediante regulaciones impositivas. El inversor advierte sobre las tensiones sociales que podría generar la disparidad económica tecnológica.",
-      "relevancia": 6,
-      "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
-      "fuente": "techcrunch.com",
+      "titular_es": "Inversores de Intel: Marquen el 23 de julio en sus calendarios",
+      "resumen": "Intel se prepara para presentar sus resultados financieros trimestrales el próximo 23 de julio, una fecha clave para evaluar el avance de su reestructuración interna y su estrategia de fundición de chips. Los inversores buscarán señales de recuperación en la demanda de procesadores y avances en sus contratos de manufactura de semiconductores. El reporte podría definir el rumbo de la acción para el resto del año.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-intel-stock-fans-mark-133002034.html",
+      "fuente": "finance.yahoo.com",
       "bandera": "🇺🇸",
       "tags": [
-        "capital de riesgo",
-        "IA",
-        "economía"
+        "Intel",
+        "semiconductores",
+        "acciones"
+      ]
+    },
+    {
+      "id": "0532f9b517",
+      "tema": "ciencia",
+      "titular_es": "Científicos descubren una rama perdida de los marsupiales de Australia",
+      "resumen": "El hallazgo de fósiles en Queensland ha revelado un orden de marsupiales previamente desconocido que sobrevivió durante unos 35 millones de años en Australia. Este descubrimiento desafía la teoría tradicional de que todos los marsupiales del continente evolucionaron a partir de un único linaje lineal y directo. El estudio reescribe una parte fundamental de la historia evolutiva de los mamíferos australianos.",
+      "relevancia": 7,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260715083546.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇦🇺",
+      "tags": [
+        "paleontología",
+        "evolución",
+        "fósiles"
+      ]
+    },
+    {
+      "id": "18d828c057",
+      "tema": "ia",
+      "titular_es": "Google podría no limitar el Pixel 11a con un procesador antiguo",
+      "resumen": "Filtraciones recientes sugieren que el próximo teléfono de gama media de Google, el Pixel 11a, contará con el procesador insignia Tensor G6 en lugar de un chip de generación anterior. Esto rompería la tendencia previa de Google de recortar potencia en sus modelos económicos de la serie 'a'. La decisión busca mantener la competitividad del dispositivo en tareas locales de inteligencia artificial.",
+      "relevancia": 6,
+      "url": "https://www.theverge.com/tech/967612/google-pixel-11a-tensor-g6-leak",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Google",
+        "Pixel 11a",
+        "procesadores"
+      ]
+    },
+    {
+      "id": "2fa1cf2509",
+      "tema": "ciencia",
+      "titular_es": "El monitoreo es clave para prevenir enfermedades ante la expansión de los mosquitos",
+      "resumen": "A medida que el cambio climático expande el hábitat de los mosquitos transmisores de enfermedades, los expertos advierten que mejorar los sistemas de monitoreo es crucial para prevenir brotes epidémicos. Aunque estas tareas de vigilancia son costosas y requieren mucha mano de obra, resultan indispensables para que las autoridades de salud pública actúen a tiempo. El artículo destaca la necesidad de automatizar estos procesos mediante tecnología.",
+      "relevancia": 6,
+      "url": "https://arstechnica.com/science/2026/07/as-mosquito-ranges-expand-better-monitoring-is-key-to-preventing-disease/",
+      "fuente": "arstechnica.com",
+      "bandera": "🌍",
+      "tags": [
+        "salud pública",
+        "ecología",
+        "cambio climático"
       ]
     }
   ]
