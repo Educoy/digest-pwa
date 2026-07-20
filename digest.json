@@ -1,11 +1,11 @@
 {
-  "fecha": "2026-07-19",
-  "generado_utc": "2026-07-19T20:39:32Z",
+  "fecha": "2026-07-20",
+  "generado_utc": "2026-07-20T14:07:11Z",
   "indicadores": {
     "dolar": {
-      "valor": 924.5,
-      "variacion": -0.28,
-      "variacion_pct": -0.03
+      "valor": 933.92,
+      "variacion": 9.42,
+      "variacion_pct": 1.02
     },
     "uf": {
       "valor": 40844.79,
@@ -13,389 +13,312 @@
       "variacion_pct": 0.0
     }
   },
-  "noticia_del_dia": "0b0a2dde41",
-  "pildora_ia": "Atención (Transformers): el mecanismo que deja a un modelo pesar qué partes de la entrada importan más para cada palabra que genera. Es el corazón de la arquitectura Transformer detrás de GPT, Gemini y Claude.",
+  "noticia_del_dia": "28244eb868",
+  "pildora_ia": "Gradiente descendente: el algoritmo que entrena casi todas las redes neuronales. Ajusta los parámetros poco a poco en la dirección que más reduce el error, como bajar una montaña a ciegas siguiendo la pendiente.",
   "pildoras_ia": [
-    "Atención (Transformers): el mecanismo que deja a un modelo pesar qué partes de la entrada importan más para cada palabra que genera. Es el corazón de la arquitectura Transformer detrás de GPT, Gemini y Claude.",
     "Gradiente descendente: el algoritmo que entrena casi todas las redes neuronales. Ajusta los parámetros poco a poco en la dirección que más reduce el error, como bajar una montaña a ciegas siguiendo la pendiente.",
     "Tokens: los LLM no leen palabras sino 'tokens', fragmentos de texto (a veces una palabra, a veces parte de una). El costo y los límites de las APIs se miden en tokens, no en caracteres.",
     "Temperatura: parámetro que controla cuán 'creativa' es la respuesta de un LLM. Baja (0) da respuestas predecibles y consistentes; alta (1+) las hace más variadas y arriesgadas.",
-    "RAG (Retrieval-Augmented Generation): técnica para que un LLM responda usando documentos externos: primero busca información relevante y luego la usa para generar la respuesta. Reduce alucinaciones y permite datos frescos sin reentrenar."
+    "RAG (Retrieval-Augmented Generation): técnica para que un LLM responda usando documentos externos: primero busca información relevante y luego la usa para generar la respuesta. Reduce alucinaciones y permite datos frescos sin reentrenar.",
+    "Fine-tuning: reentrenar un modelo existente con tus propios datos para especializarlo. Más barato que entrenar desde cero, pero para conocimiento actualizado muchas veces conviene más RAG."
   ],
   "noticias": [
     {
-      "id": "0b0a2dde41",
-      "tema": "ciencia",
-      "titular_es": "Un nuevo análisis de sangre con IA predice enfermedades cardíacas con 15 años de anticipación",
-      "resumen": "Investigadores de la Universidad de Hong Kong han desarrollado CardiOmicScore, una prueba de sangre impulsada por inteligencia artificial que analiza miles de proteínas y metabolitos. El sistema es capaz de predecir el riesgo de desarrollar seis enfermedades cardiovasculares mayores hasta con 15 años de antelación. Este avance promete revolucionar la medicina preventiva y el tratamiento personalizado de afecciones cardíacas.",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260716023603.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇭🇰",
-      "tags": [
-        "medicina preventiva",
-        "inteligencia artificial",
-        "CardiOmicScore"
-      ]
+      "id": "28244eb868",
+      "tema": "ia",
+      "titular_es": "The EU is about to sell our most sensitive data to the US for visa-free travel",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 10,
+      "url": "https://edri.org/our-work/the-eu-is-about-to-sell-our-most-sensitive-data-to-the-us-for-visa-free-travel/",
+      "fuente": "edri.org (vía HN)",
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "c772a968fa",
+      "id": "5e2054e064",
       "tema": "finanzas",
-      "titular_es": "Los futuros del Dow Jones caen ante la escalada de ataques entre EE. UU. e Irán",
-      "resumen": "Los mercados financieros globales muestran alta volatilidad tras el aumento de las tensiones militares entre Estados Unidos e Irán. Las acciones de gigantes tecnológicos como Google, Tesla y AMD se preparan para una jornada de fuertes fluctuaciones. Los inversores buscan refugio en activos seguros mientras evalúan el impacto macroeconómico del conflicto.",
+      "titular_es": "Major car dealer cuts 40% of its locations, issues serious warning",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 10,
+      "url": "https://finance.yahoo.com/small-business/articles/major-car-dealer-cuts-40-014700349.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "574925d1d1",
+      "tema": "emprendimiento",
+      "titular_es": "StrictlyVC returns to New York City September 10 to celebrate a huge year for the city’s startup community",
+      "resumen": "For the first time since 2024, StrictlyVC is coming back to New York City — and we're bringing the kind of access you’d expect from an under-wraps event to the whole startup, VC, and dealmaking community.",
+      "relevancia": 10,
+      "url": "https://techcrunch.com/2026/07/20/strictlyvc-returns-to-new-york-city-september-10-to-celebrate-a-huge-year-for-the-citys-startup-community/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "d3e0bceadb",
+      "tema": "ciencia",
+      "titular_es": "The Download: AI hiring biases, and weather data sabotage",
+      "resumen": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI is more likely than humans to form biases when hiring The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s…",
+      "relevancia": 10,
+      "url": "https://www.technologyreview.com/2026/07/20/1140664/the-download-ai-hiring-biases-weather-data-sabotage/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "fbba896c8d",
+      "tema": "ia",
+      "titular_es": "Airport Simulator",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 9,
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-iran-attack-kills-us-troops-google-tesla-amd/?src=A00220&yptr=yahoo",
+      "url": "https://airport.apunen.com/",
+      "fuente": "airport.apunen.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "c642c3fc4b",
+      "tema": "finanzas",
+      "titular_es": "After IBM's epic stock crash, Wall Street chatter is Big Blue should break up",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 9,
+      "url": "https://finance.yahoo.com/markets/stocks/article/after-ibms-epic-stock-crash-wall-street-chatter-is-big-blue-should-break-up-135450235.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "d213c30d25",
+      "tema": "ciencia",
+      "titular_es": "AI is more likely than humans to form biases when hiring",
+      "resumen": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also develop their own bi",
+      "relevancia": 9,
+      "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "0c57235891",
+      "tema": "ia",
+      "titular_es": "Airbus Takes Flight from AWS",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 8,
+      "url": "https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109",
+      "fuente": "theregister.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "bf07ffb207",
+      "tema": "finanzas",
+      "titular_es": "Taiwan Semiconductor Manufacturing Company Limited (TSM) Jumped as Market Favored AI Capex Winners",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 8,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-manufacturing-company-limited-134754090.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "ffa1afbe68",
+      "tema": "ciencia",
+      "titular_es": "Some dinosaurs could rise like giants until they grew too big",
+      "resumen": "Two elephant-sized South American sauropods were unusually well built for standing on their hind legs. Digital tests showed that their robust femurs handled the enormous forces better than those of larger species, especially while the dinosaurs were young. The upright pose may have helped them reach",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260719231758.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "58bfd998af",
+      "tema": "ia",
+      "titular_es": "Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 7,
+      "url": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6/",
+      "fuente": "slcyber.io (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "9a91653563",
+      "tema": "finanzas",
+      "titular_es": "Stock Market Today: Dow Rises On Peace Hopes; Nvidia, Micron, Sandisk Rebound (Live Coverage)",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 7,
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-us-iran-nvidia-micron-sandisk-2/?src=A00220&yptr=yahoo",
       "fuente": "investors.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Dow Jones",
-        "geopolítica",
-        "mercados financieros"
-      ]
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "0f6b50f4d7",
+      "id": "9338ca7fc5",
+      "tema": "ciencia",
+      "titular_es": "An ordinary laptop solved a problem thought to require a quantum computer",
+      "resumen": "A quantum problem once described as impossible for classical computers has now been solved using relatively modest hardware. Researchers used tensor networks to compress the overwhelming wave function created by hundreds of entangled qubits, allowing some calculations to run on a laptop. Their resul",
+      "relevancia": 7,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260719040000.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "8c57a066ad",
+      "tema": "ia",
+      "titular_es": "Xiaomi-Robotics-1",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 6,
+      "url": "https://robotics.xiaomi.com/xiaomi-robotics-1.html",
+      "fuente": "robotics.xiaomi.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "edcabb968e",
       "tema": "finanzas",
-      "titular_es": "La caída del 25% de IBM revela la primera víctima corporativa oculta de la IA",
-      "resumen": "Las acciones de IBM sufrieron un desplome histórico del 25% tras reportar que sus servicios de consultoría tradicional están siendo desplazados por soluciones automatizadas de IA. Este colapso financiero evidencia el riesgo de disrupción interna que enfrentan las grandes corporaciones tecnológicas si no adaptan rápidamente sus modelos de negocio. Un hito que marca un antes y un después en la adopción corporativa de la IA.",
-      "relevancia": 9,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ibm-25-crash-reveals-ai-194700067.html",
+      "titular_es": "AMD, Micron, SK Hynix lead chip stock recovery",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 6,
+      "url": "https://finance.yahoo.com/technology/article/amd-micron-sk-hynix-lead-chip-stock-recovery-133110868.html",
       "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "IBM",
-        "disrupción tecnológica",
-        "acciones"
-      ]
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "dedcee44d9",
-      "tema": "ia",
-      "titular_es": "Moonshot AI suspende nuevas suscripciones ante la alta demanda de Kimi K3",
-      "resumen": "La startup china de inteligencia artificial Moonshot AI ha pausado temporalmente las nuevas suscripciones de pago para su modelo Kimi K3. La decisión se debe a un aumento masivo en la demanda que ha saturado sus servidores. Este suceso destaca los desafíos de infraestructura que enfrentan las empresas de IA ante el crecimiento exponencial de usuarios.",
-      "relevancia": 8,
-      "url": "https://twitter.com/kimi_moonshot/status/2078855608565207130",
-      "fuente": "twitter.com (vía HN)",
-      "bandera": "🇨🇳",
-      "tags": [
-        "Moonshot AI",
-        "infraestructura",
-        "servicios en la nube"
-      ]
+      "id": "a852d69628",
+      "tema": "ciencia",
+      "titular_es": "Earth’s waters are quietly running out of oxygen, scientists warn",
+      "resumen": "Oxygen is disappearing from oceans, lakes, rivers, and coastal waters at an alarming rate, threatening aquatic life and weakening the natural processes that help regulate Earth’s climate. Scientists warn that this widespread deoxygenation is closely connected to other major planetary threats, includ",
+      "relevancia": 6,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260719035939.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "a69cdbbe8c",
+      "id": "2d603aee23",
       "tema": "ia",
-      "titular_es": "Claude Code ahora utiliza Bun escrito en Rust",
-      "resumen": "Anthropic ha actualizado su herramienta de terminal Claude Code para utilizar el entorno de ejecución Bun, el cual ahora está optimizado con componentes en Rust. Esta transición técnica busca reducir drásticamente los tiempos de latencia y mejorar la eficiencia en la ejecución de scripts locales. Un movimiento estratégico que resalta la creciente adopción de Rust en herramientas de desarrollo de IA.",
-      "relevancia": 8,
-      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
-      "fuente": "simonwillison.net (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Anthropic",
-        "Rust",
-        "Bun"
-      ]
-    },
-    {
-      "id": "c8b4b3d83f",
-      "tema": "ia",
-      "titular_es": "Alibaba lanza Qwen 3.8 con nuevos planes de precios",
-      "resumen": "La división de nube de Alibaba ha presentado su nuevo modelo de lenguaje Qwen 3.8, acompañado de un esquema de precios altamente competitivo para desarrolladores. Este lanzamiento intensifica la guerra de precios en el sector de modelos de código abierto y APIs de IA en Asia. Promete un rendimiento optimizado para tareas de razonamiento y procesamiento de lenguaje natural.",
-      "relevancia": 8,
-      "url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
-      "fuente": "twitter.com (vía HN)",
-      "bandera": "🇨🇳",
-      "tags": [
-        "Alibaba",
-        "Qwen",
-        "modelos de lenguaje"
-      ]
-    },
-    {
-      "id": "451e0a3051",
-      "tema": "ia",
-      "titular_es": "OpenAI reduce el tamaño de contexto del modelo Codex de 372k a 272k tokens",
-      "resumen": "OpenAI ha anunciado una reducción en la ventana de contexto de su modelo Codex, disminuyéndola a 272k tokens. Esta medida técnica busca optimizar el rendimiento de los servidores y reducir los costos operativos asociados al procesamiento de contextos masivos. La decisión ha generado debate entre desarrolladores que dependen de ventanas amplias para análisis de código complejo.",
-      "relevancia": 8,
-      "url": "https://github.com/openai/codex/pull/33972/files",
+      "titular_es": "LoRA Speedrun – a public wall-clock leaderboard for fine-tuning techniques",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 5,
+      "url": "https://github.com/Saivineeth147/lora-speedrun",
       "fuente": "github.com (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "OpenAI",
-        "Codex",
-        "ventanas de contexto"
-      ]
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "ad7139199a",
-      "tema": "emprendimiento",
-      "titular_es": "¿Podría una demanda de Apple descarrilar los planes de hardware de OpenAI?",
-      "resumen": "OpenAI enfrenta posibles disputas legales con Apple que amenazan con frenar el desarrollo de sus propios dispositivos físicos de inteligencia artificial. El conflicto se centra en patentes de diseño y tecnologías de procesamiento local que Apple reclama como exclusivas. Esta batalla legal podría redefinir las alianzas estratégicas y el desarrollo de hardware dedicado a la IA de consumo.",
-      "relevancia": 8,
-      "url": "https://finance.yahoo.com/technology/ai/articles/apple-lawsuit-derail-openai-hardware-192445049.html",
+      "id": "36b266ee81",
+      "tema": "finanzas",
+      "titular_es": "Weekly Stock List",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 5,
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47669_StockPicks_1784548244000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
       "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Apple",
-        "OpenAI",
-        "patentes de hardware"
-      ]
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "b1321a7a5f",
+      "id": "ac0f32967e",
       "tema": "ciencia",
-      "titular_es": "El misterioso zumbido escuchado en todo el mundo podría tener finalmente una explicación",
-      "resumen": "Investigadores han realizado pruebas para determinar el origen de 'The Hum', un enigmático sonido de baja frecuencia reportado globalmente durante décadas. Tras descartar que se deba a una audición excepcionalmente sensible o a emisiones otoacústicas internas, los científicos apuntan a fenómenos geofísicos e industriales específicos. Un avance intrigante en la resolución de uno de los misterios acústicos más persistentes.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260719040002.htm",
+      "titular_es": "Alzheimer’s breakthrough: Scientists restore two hours of sleep without clearing brain plaques",
+      "resumen": "Researchers have uncovered a surprising culprit behind sleep loss in Alzheimer’s disease: the brain’s own immune cells. In mice with amyloid plaques, overactive microglia triggered inflammation that kept the brain from getting enough deep, restorative sleep. Temporarily removing most of these cells ",
+      "relevancia": 5,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260719035931.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": [
-        "acústica",
-        "geofísica",
-        "investigación científica"
-      ]
+      "tags": []
     },
     {
-      "id": "2be64b864e",
-      "tema": "ciencia",
-      "titular_es": "Un antidepresivo común podría aliviar la fatiga extrema del COVID prolongado",
-      "resumen": "Un ensayo clínico aleatorizado con 399 adultos demostró que la fluvoxamina, un antidepresivo de bajo costo, reduce significativamente la fatiga crónica causada por el COVID prolongado. Los pacientes tratados reportaron una mejora sustancial en su calidad de vida en comparación con el grupo de placebo. Este descubrimiento representa uno de los primeros tratamientos farmacológicos efectivos y accesibles para esta condición.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260718010158.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "COVID prolongado",
-        "fluvoxamina",
-        "ensayo clínico"
-      ]
-    },
-    {
-      "id": "3480c39c19",
-      "tema": "ciencia",
-      "titular_es": "Un pequeño universo en una botella revela pistas sobre los orígenes de la vida",
-      "resumen": "Un equipo de investigadores logró sintetizar polvo cósmico recreando las condiciones extremas del espacio exterior dentro de tubos de vidrio. El polvo resultante contiene moléculas complejas ricas en carbono, esenciales para la vida, y emite señales infrarrojas idénticas a las observadas en el espacio profundo. Este experimento abre nuevas vías para comprender cómo se formaron los bloques químicos de la vida en el universo temprano.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260718010156.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "astrobiología",
-        "polvo cósmico",
-        "orígenes de la vida"
-      ]
-    },
-    {
-      "id": "34fd865ea3",
-      "tema": "ciencia",
-      "titular_es": "Científicos identifican el raro meteorito que extinguió a los dinosaurios hace 66 millones de años",
-      "resumen": "Un nuevo análisis geoquímico revela que el asteroide que impactó la Tierra hace 66 millones de años era una condrita carbonácea del tipo CO, extremadamente rara y proveniente de las regiones externas del sistema solar. El estudio sugiere que el polvo y los escombros ricos en carbono que bloquearon la luz solar fueron los principales causantes del enfriamiento global letal, más que el azufre liberado.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260718010142.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "paleontología",
-        "meteorito",
-        "extinción masiva"
-      ]
-    },
-    {
-      "id": "65890bc15e",
-      "tema": "finanzas",
-      "titular_es": "Los ETFs de servicios públicos suben un 8% impulsados por la demanda energética de la IA",
-      "resumen": "Los fondos cotizados (ETFs) del sector de servicios públicos han registrado un alza del 8% en lo que va del año debido a la masiva demanda eléctrica de los centros de datos de IA. Este fenómeno financiero resalta cómo la infraestructura física y energética se ha convertido en el nuevo cuello de botella de la revolución tecnológica. Analistas recomiendan vigilar de cerca las empresas de generación eléctrica.",
-      "relevancia": 8,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/utility-etfs-soar-8-ytd-195846799.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "ETFs",
-        "energía",
-        "centros de datos"
-      ]
-    },
-    {
-      "id": "58e13740cb",
-      "tema": "finanzas",
-      "titular_es": "La proyección de Jensen Huang de una IA de 4 billones de dólares podría elevar el valor de Nvidia a 20 billones",
-      "resumen": "El director ejecutivo de Nvidia proyecta que el mercado de infraestructura de IA alcanzará un valor de 4 billones de dólares en los próximos años. De cumplirse esta estimación, la capitalización de mercado de Nvidia podría dispararse hasta los 20 billones de dólares, consolidando su monopolio en el suministro de chips de alto rendimiento. Una cifra sin precedentes que redefine las expectativas de la industria de semiconductores.",
-      "relevancia": 8,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jensen-huangs-4-trillion-artificial-193800547.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Nvidia",
-        "Jensen Huang",
-        "semiconductores"
-      ]
-    },
-    {
-      "id": "3a50c957e7",
-      "tema": "finanzas",
-      "titular_es": "Argentina vs. España: cinco indicadores financieros antes de la final del Mundial 2026",
-      "resumen": "Un análisis económico compara las bolsas de valores, la fortaleza de las monedas y el valor de las principales empresas de Argentina y España en vísperas de la final de la Copa del Mundo. El informe detalla cómo el rendimiento deportivo se cruza con el comportamiento de los mercados financieros y el patrocinio de marcas globales. Una perspectiva analítica y oportuna sobre el impacto económico del fútbol.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/mercados/argentina-vs-espana-cinco-indicadores-financieros-antes-de-la-final-del-mundial-2026/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": [
-        "indicadores financieros",
-        "Mundial 2026",
-        "mercados globales"
-      ]
-    },
-    {
-      "id": "262590a6ea",
-      "tema": "emprendimiento",
-      "titular_es": "Lo que aprendí vendiendo 2,500 grabadores MIDI: el hardware no es tan difícil",
-      "resumen": "Un emprendedor comparte su experiencia diseñando, fabricando y comercializando miles de dispositivos MIDI físicos desde su hogar. El artículo desmitifica el desarrollo de hardware moderno gracias a la accesibilidad de la impresión 3D y la fabricación de PCBs bajo demanda. Ofrece valiosas lecciones sobre logística, diseño industrial y validación de mercado.",
-      "relevancia": 7,
-      "url": "https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard",
-      "fuente": "chipweinberger.com (vía HN)",
-      "bandera": "🌍",
-      "tags": [
-        "hardware",
-        "MIDI",
-        "emprendimiento"
-      ]
-    },
-    {
-      "id": "5df319f963",
-      "tema": "emprendimiento",
-      "titular_es": "La trampa de la limpieza: por qué no debes pedirle a RAG que solucione datos corruptos",
-      "resumen": "Un análisis crítico del ecosistema de IA empresarial advierte sobre el error común de usar arquitecturas RAG (Generación Aumentada por Recuperación) para compensar bases de datos mal estructuradas. El autor argumenta que millones de dólares en pilotos de IA fallan porque las empresas evitan el trabajo pesado de limpiar sus datos de origen. Una advertencia técnica crucial para ingenieros de datos y arquitectos de soluciones.",
-      "relevancia": 7,
-      "url": "https://venturebeat.com/orchestration/the-cleanup-trap-stop-asking-rag-to-fix-bad-data",
-      "fuente": "venturebeat.com",
-      "bandera": "🌍",
-      "tags": [
-        "RAG",
-        "calidad de datos",
-        "IA empresarial"
-      ]
-    },
-    {
-      "id": "dfe2ccfcf3",
-      "tema": "ciencia",
-      "titular_es": "La extenuante carrera solar de 630 millas donde el único combustible es la luz",
-      "resumen": "Estudiantes de secundaria en Texas competirán en una carrera de cinco días utilizando vehículos solares diseñados y construidos por ellos mismos. El desafío técnico requiere el uso de piezas comerciales y componentes impresos en 3D, optimizando al máximo la eficiencia energética. Un evento que pone a prueba la ingeniería aplicada y las tecnologías de energía renovable en condiciones reales.",
-      "relevancia": 7,
-      "url": "https://www.theverge.com/transportation/966701/solar-car-challenge-high-school-student-race-texas",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "energía solar",
-        "vehículos eléctricos",
-        "ingeniería aplicada"
-      ]
-    },
-    {
-      "id": "d93a727ed5",
-      "tema": "ciencia",
-      "titular_es": "El café podría ayudar al cuerpo a combatir el estrés y el envejecimiento mediante un interruptor celular oculto",
-      "resumen": "Científicos han descubierto que ciertos compuestos del café activan el receptor NR4A1, una proteína celular clave que protege contra la inflamación y el daño oxidativo. Al desactivar este receptor en pruebas de laboratorio, los efectos protectores del café desaparecieron por completo. Este hallazgo proporciona una base molecular sólida para explicar los beneficios del café en la longevidad saludable.",
-      "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260719035927.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "biología celular",
-        "café",
-        "longevidad"
-      ]
-    },
-    {
-      "id": "fbe6c7a087",
-      "tema": "finanzas",
-      "titular_es": "Las tasas hipotecarias suben tras la escalada del conflicto en Irán",
-      "resumen": "Las tasas de interés para hipotecas y refinanciamientos en EE. UU. registraron un incremento al cierre de la semana debido a la inestabilidad geopolítica en Medio Oriente. El aumento de la tensión militar ha presionado al alza los rendimientos de los bonos del Tesoro, afectando directamente al mercado inmobiliario. Expertos sugieren cautela ante la volatilidad de las tasas a corto plazo.",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-july-19-2026-rates-moved-higher-last-week-as-iranian-conflict-escalated-100000829.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "tasas hipotecarias",
-        "macroeconomía",
-        "bonos del Tesoro"
-      ]
-    },
-    {
-      "id": "d53ed21b4b",
-      "tema": "finanzas",
-      "titular_es": "Analistas proyectan que las acciones de Oklo alcanzarán los 87 dólares en 2027",
-      "resumen": "La startup de energía nuclear Oklo, respaldada por Sam Altman, ha recibido proyecciones financieras optimistas que sitúan sus acciones en 87 dólares para 2027. El interés radica en su tecnología de microrreactores nucleares rápidos, diseñados para abastecer de energía limpia a los centros de datos de IA. Los inversores debaten si la relación riesgo-beneficio justifica la inversión a largo plazo.",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/analysts-project-oklo-stock-price-192100654.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Oklo",
-        "energía nuclear",
-        "inversiones"
-      ]
-    },
-    {
-      "id": "65f310606e",
-      "tema": "finanzas",
-      "titular_es": "Los bonos corporativos con grado de inversión quedan rezagados frente a las acciones en 2026",
-      "resumen": "Un informe bancario revela que la correlación (beta) entre el mercado de bonos de alta calidad y el mercado accionario ha alcanzado un máximo histórico en 2026. A pesar de esto, los bonos corporativos muestran un rendimiento inferior debido a las expectativas de tasas de interés prolongadamente altas. Una lectura técnica esencial para comprender la asignación de activos en el entorno macroeconómico actual.",
-      "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/mundo/estados-unidos/bonos-de-empresas-con-grado-de-inversion-quedan-rezagados-frente-a-las-acciones-en-2026/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": [
-        "bonos corporativos",
-        "acciones",
-        "tasas de interés"
-      ]
-    },
-    {
-      "id": "8f1e596996",
+      "id": "287dc4b7b5",
       "tema": "ia",
-      "titular_es": "Show HN: Reemplacé un sistema de bolera de 120,000 dólares con 1,600 dólares en ESP32",
-      "resumen": "Un ingeniero de confiabilidad de sitios (SRE) relata cómo automatizó y reparó una bolera abandonada utilizando microcontroladores ESP32 de bajo costo. Al sustituir un costoso sistema comercial por hardware libre, logró revivir el negocio familiar con una fracción del presupuesto original. Un caso de estudio fascinante sobre ingenio técnico y hardware embebido.",
-      "relevancia": 6,
-      "url": "https://news.ycombinator.com/item?id=48968606",
-      "fuente": "news.ycombinator.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "ESP32",
-        "hardware libre",
-        "automatización"
-      ]
-    },
-    {
-      "id": "0b4fb7fdaa",
-      "tema": "ia",
-      "titular_es": "Minecraft: Java Edition ahora utiliza SDL3",
-      "resumen": "La versión de Java de Minecraft ha migrado oficialmente a la biblioteca SDL3 para la gestión de ventanas, entrada de usuario y gráficos. Este cambio técnico promete mejorar el rendimiento multiplataforma y solucionar problemas históricos de compatibilidad en sistemas operativos modernos. Una actualización clave para desarrolladores interesados en la arquitectura de videojuegos.",
-      "relevancia": 6,
-      "url": "https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-4",
-      "fuente": "minecraft.net (vía HN)",
+      "titular_es": "When can a power company take your land for data center infrastructure?",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 4,
+      "url": "https://theconversation.com/when-can-a-power-company-take-your-land-for-data-center-infrastructure-284061",
+      "fuente": "theconversation.com (vía HN)",
       "bandera": "🌍",
-      "tags": [
-        "Minecraft",
-        "SDL3"
-      ]
+      "tags": []
     },
     {
-      "id": "5476eaca52",
+      "id": "51169fd584",
+      "tema": "finanzas",
+      "titular_es": "Amazon closes another major facility, nearly 500 workers affected",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 4,
+      "url": "https://finance.yahoo.com/small-business/articles/amazon-closes-another-major-facility-214700424.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "27c0f24912",
+      "tema": "ciencia",
+      "titular_es": "UCLA scientists develop mineral sunscreen without the chalky white cast",
+      "resumen": "Scientists have redesigned zinc oxide particles to create a mineral sunscreen that protects against ultraviolet radiation without leaving such a noticeable white cast. The SPF 30 formula could make sunscreen easier and more appealing to use across a wider range of skin tones.",
+      "relevancia": 4,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260718010200.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "10e8f8db37",
       "tema": "ia",
-      "titular_es": "Dave Eggers advierte al personal de OpenAI que ChatGPT está 'silenciando a una generación'",
-      "resumen": "El reconocido autor Dave Eggers ofreció una charla ante empleados de OpenAI donde criticó el impacto de las herramientas generativas en la creatividad humana. Eggers argumentó que la dependencia de la IA para la escritura y el arte debilita el pensamiento crítico de los jóvenes. El encuentro subraya las tensiones éticas y culturales entre los creadores tradicionales y los desarrolladores de tecnología.",
-      "relevancia": 6,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "OpenAI",
-        "ética de la IA",
-        "creatividad"
-      ]
+      "titular_es": "Moonshine: Lets you stream games from your PC to any device running Moonlight",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 3,
+      "url": "https://github.com/hgaiser/moonshine",
+      "fuente": "github.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "3f4269d984",
+      "tema": "ciencia",
+      "titular_es": "Scientists found two powerful new ways to destroy forever chemicals",
+      "resumen": "Scientists are testing two promising ways to destroy PFAS, the stubborn “forever chemicals” that can accumulate in water and resist normal treatment. One method uses collapsing vapor bubbles to generate extreme heat and reactive molecules, while the other uses cold plasma and rising gas bubbles to p",
+      "relevancia": 3,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260718010147.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "6d7f7bed44",
+      "tema": "ia",
+      "titular_es": "Orion Browser by Kagi",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 2,
+      "url": "https://orionbrowser.com/",
+      "fuente": "orionbrowser.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "2e2bc6e71d",
+      "tema": "ia",
+      "titular_es": "HomeLab #1: MikroTik as a Home Router",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 1,
+      "url": "https://justsomebody.dev/blog/mikrotik-home-router",
+      "fuente": "justsomebody.dev (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "237d5c650b",
+      "tema": "finanzas",
+      "titular_es": "Tesla Earnings: Investors 'Increasingly Focused' On Robotaxi, Optimus Spending",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 1,
+      "url": "https://www.investors.com/news/tesla-earnings-elon-musk-robotaxi-optimus-electric-vehicle/?src=A00220&yptr=yahoo",
+      "fuente": "investors.com",
+      "bandera": "🌍",
+      "tags": []
     }
   ]
 }
