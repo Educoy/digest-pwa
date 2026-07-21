@@ -1,19 +1,8 @@
 {
   "fecha": "2026-07-21",
-  "generado_utc": "2026-07-21T13:51:59Z",
-  "indicadores": {
-    "dolar": {
-      "valor": 933,
-      "variacion": -0.92,
-      "variacion_pct": -0.1
-    },
-    "uf": {
-      "valor": 40844.79,
-      "variacion": 0.0,
-      "variacion_pct": 0.0
-    }
-  },
-  "noticia_del_dia": "c279174d0e",
+  "generado_utc": "2026-07-21T21:00:15Z",
+  "indicadores": {},
+  "noticia_del_dia": "9e86e0fbb2",
   "pildora_ia": "Tokens: los LLM no leen palabras sino 'tokens', fragmentos de texto (a veces una palabra, a veces parte de una). El costo y los límites de las APIs se miden en tokens, no en caracteres.",
   "pildoras_ia": [
     "Tokens: los LLM no leen palabras sino 'tokens', fragmentos de texto (a veces una palabra, a veces parte de una). El costo y los límites de las APIs se miden en tokens, no en caracteres.",
@@ -24,422 +13,394 @@
   ],
   "noticias": [
     {
-      "id": "c279174d0e",
+      "id": "9e86e0fbb2",
       "tema": "ia",
-      "titular_es": "Qwen-Image-3.0: Rich Content, Authentic Details, Deep Knowledge",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "Juez aprueba acuerdo de $1.500 millones entre Anthropic y autores por derechos de autor",
+      "resumen": "Un tribunal federal de EE. UU. aprobó definitivamente el acuerdo de $1.500 millones para cerrar la demanda colectiva contra Anthropic por entrenar sus modelos con libros protegidos. La resolución indemnizará a miles de escritores y establece un hito histórico para la industria de la inteligencia artificial. El fallo fija pautas clave sobre el uso compensado de datos con derechos de autor en el entrenamiento de IA.",
       "relevancia": 10,
-      "url": "https://qwen.ai/blog?id=qwen-image-3.0",
-      "fuente": "qwen.ai (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "4a5c71bad4",
-      "tema": "finanzas",
-      "titular_es": "Jim Cramer says it may be time to trim comeback stock after 441% surge",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 10,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-may-time-181700105.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "c8815315b3",
-      "tema": "emprendimiento",
-      "titular_es": "Bluecore Energy raises $10M to build portable nuclear reactors on barges",
-      "resumen": "Maritime nuclear energy startup Bluecore Energy has raised $10 million in a pre-seed funding round led by Slauson & Co.",
-      "relevancia": 10,
-      "url": "https://techcrunch.com/2026/07/21/this-uber-alumn-just-raised-a-10m-pre-seed-to-build-portable-nuclear-enegry/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "4f2427b73e",
-      "tema": "ciencia",
-      "titular_es": "The Download: Chinese AI divides the White House, and a record copyright payout",
-      "resumen": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. China’s AI models have Trump’s AI world at war with itself Last weekend, several current and former advisers to President Donald Trump on AI publicly lobbed insul",
-      "relevancia": 10,
-      "url": "https://www.technologyreview.com/2026/07/21/1140685/the-download-chinese-ai-divides-white-house-anthropic-copyright-settlement/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "296b7d0b54",
-      "tema": "ia",
-      "titular_es": "Running Doom on Our Custom CPU and Going Viral",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 9,
-      "url": "https://www.armaangomes.com/blogs/doom/",
-      "fuente": "armaangomes.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "cb78f92bf7",
-      "tema": "finanzas",
-      "titular_es": "Stock market today: Nasdaq leads Dow, S&P 500 futures higher as chip stocks revive",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 9,
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-july-21-dow-sp-500-nasdaq-084631499.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "d0888a3b49",
-      "tema": "emprendimiento",
-      "titular_es": "Colossal Biosciences reportedly in talks to raise new capital at $20B–$30B valuation",
-      "resumen": "The de-extinction startup is looking to double or triple its previous valuation, according to the report.",
-      "relevancia": 9,
-      "url": "https://techcrunch.com/2026/07/20/colossal-biosciences-reportedly-in-talks-to-raise-new-capital-at-20b-30b-valuation/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "6d5a86555d",
-      "tema": "ciencia",
-      "titular_es": "Advancing next-gen AI with materials science innovation",
-      "resumen": "The conversation about AI often centers on algorithms, computing power, or huge investments in new semiconductor fabrication plants and hyperscale data centers. But beneath each of these advances is another layer of innovation that makes them possible: advanced materials. Every new generation of AI ",
-      "relevancia": 9,
-      "url": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "e44a2e8798",
-      "tema": "ia",
-      "titular_es": "Incremental – A library for incremental computations",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 8,
-      "url": "https://github.com/janestreet/incremental",
-      "fuente": "github.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "334bb02f38",
-      "tema": "finanzas",
-      "titular_es": "Rolls-Royce needs UK decision on narrowbody engine soon, says CEO",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 8,
-      "url": "https://finance.yahoo.com/news/rolls-royce-needs-uk-decision-132056620.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "3b423b75db",
-      "tema": "emprendimiento",
-      "titular_es": "Natural raises $30M to reinvent payments for AI agents — and take on Stripe",
-      "resumen": "The one-year-old startup aims to reinvent financial architecture for autonomous AI transactions.",
-      "relevancia": 8,
-      "url": "https://techcrunch.com/2026/07/20/natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "61d13d1985",
-      "tema": "ciencia",
-      "titular_es": "China’s AI models have Trump’s AI world at war with itself",
-      "resumen": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Over the weekend, several current and former advisors to President Donald Trump on AI publicly lobbed insults at the country’s leading AI companies. David Sacks, ",
-      "relevancia": 8,
-      "url": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "e856dac838",
-      "tema": "ia",
-      "titular_es": "Jellyfin founder Andrew leaves team",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 7,
-      "url": "https://forum.jellyfin.org/t-project-leadership-changes",
-      "fuente": "forum.jellyfin.org (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "cbc3ec3996",
-      "tema": "finanzas",
-      "titular_es": "3M stock jumps on raised outlook as company's turnaround gains traction",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/markets/article/3m-stock-jumps-on-raised-outlook-as-companys-turnaround-gains-traction-131529020.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "b2509b10b3",
-      "tema": "emprendimiento",
-      "titular_es": "Inference startup Infinity raises $15M from Touring Capital, OpenAI and Anthropic researchers",
-      "resumen": "AI infrastructure company Infinity announced Monday a $15 million raise at a $100 million valuation from investors including Touring Capital, Principal VC, and researchers from companies such as OpenAI and Anthropic.",
-      "relevancia": 7,
-      "url": "https://techcrunch.com/2026/07/20/inference-startup-infinity-raises-15m-from-touring-capital-openai-and-athropic-researchers/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "67d40ee686",
-      "tema": "ciencia",
-      "titular_es": "Scientists found mystery bacteria inside one of the ocean’s most elusive whales",
-      "resumen": "Scientists studying decades of pygmy sperm whale strandings have uncovered three previously unknown types of Helicobacter bacteria hiding in the animals’ stomachs. All four infected whales showed serious digestive damage, including inflammation, ulcers, scarring, and parasite infestations, although ",
-      "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260721000847.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "df6b090979",
-      "tema": "ia",
-      "titular_es": "I wrote an bash enumerator because I was sick of xargs",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 6,
-      "url": "https://numerlab.org/2025/07/20/bashumerate-enumerator/",
-      "fuente": "numerlab.org (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "b7c4a6d3cf",
-      "tema": "finanzas",
-      "titular_es": "Nebius Advances On Nvidia Stake Disclosure Amid AI Cloud Swoon",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 6,
-      "url": "https://www.investors.com/news/technology/nebius-stock-nbis-nvidia-stake-coreweave-cloud-computing/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "7216c8fa04",
-      "tema": "emprendimiento",
-      "titular_es": "Watch Flock Safety CEO Garrett Langley discuss the future of surveillance at TechCrunch Disrupt 2026",
-      "resumen": "Flock Safety sits right at the center of the debate over where the line should be drawn between privacy and public safety. That’s why we’re bringing Flock’s founder and CEO Garrett Langley to the stage to speak about those very issues.",
-      "relevancia": 6,
-      "url": "https://techcrunch.com/2026/07/20/watch-flock-safety-ceo-garrett-langley-discuss-the-future-of-surveillance-at-techcrunch-disrupt-2026/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "3eedc1873d",
-      "tema": "ciencia",
-      "titular_es": "Ancient DNA reveals a chilling secret at China’s 4,000-year-old Shimao city",
-      "resumen": "Ancient DNA from China’s vast 4,000-year-old Shimao settlement is revealing how one of East Asia’s earliest complex societies was organized. Researchers found that its people were largely descended from local Yellow River farming communities, but also had genetic ties to distant southern and steppe ",
-      "relevancia": 6,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260721000828.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "b9d3ed8365",
-      "tema": "ia",
-      "titular_es": "Show HN: Immersive Gaussian Splat tour of grace cathedral, San Francisco",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 5,
-      "url": "https://vincentwoo.com/3d/grace_cathedral/",
-      "fuente": "vincentwoo.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "9fb790c8a1",
-      "tema": "finanzas",
-      "titular_es": "Daily Spotlight: Financially Healthy, Wealthy, and Wise",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 5,
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_47678_MarketOutlook_1784633207000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "7080898098",
-      "tema": "emprendimiento",
-      "titular_es": "Atlassian: Why AI speeds up employees but not organizations",
-      "resumen": "Presented by Atlassian Most companies are approaching AI adoption backwards by optimizing how individuals use AI instead of how teams work together, said Dr. Molly Sands, head of the Teamwork Lab at Atlassian, during a fireside chat with VentureBeat senior technology contributor Sam Witteveen at VB ",
-      "relevancia": 5,
-      "url": "https://venturebeat.com/orchestration/atlassian-why-ai-speeds-up-employees-but-not-organizations",
-      "fuente": "venturebeat.com",
-      "bandera": "🌍",
-      "tags": []
+      "url": "https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Anthropic",
+        "derechos de autor",
+        "regulación"
+      ]
     },
     {
       "id": "137276ec41",
       "tema": "ciencia",
-      "titular_es": "Astronomers find the first atmosphere on a rocky world in the habitable zone",
-      "resumen": "Astronomers have found the first confirmed atmosphere around a rocky planet in another star’s habitable zone. The planet, LHS 1140 b, revealed its atmosphere through helium slowly leaking into space. Located 48 light-years away, the world may have preserved its atmosphere for billions of years, maki",
-      "relevancia": 5,
+      "titular_es": "Detectan por primera vez una atmósfera en un exoplaneta rocoso en zona habitable",
+      "resumen": "Astrónomos confirmaron la presencia de atmósfera alrededor de LHS 1140 b, un planeta rocoso situado a 48 años luz dentro de la zona de habitabilidad de su estrella. La atmósfera fue detectada gracias a la lenta filtración de helio hacia el espacio exterior. El avance representa uno de los mayores logros en la búsqueda de mundos potencialmente aptos para albergar vida.",
+      "relevancia": 10,
       "url": "https://www.sciencedaily.com/releases/2026/07/260721000825.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "astronomía",
+        "exoplanetas",
+        "LHS 1140 b"
+      ]
     },
     {
-      "id": "1e600f36c1",
+      "id": "ee8670fb67",
       "tema": "ia",
-      "titular_es": "The Power of Awareness: Overcoming Surveillance Capitalism",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 4,
-      "url": "https://www.scottrlarson.com/presentations/overcoming-surveillance-capitalism-with-awareness/",
-      "fuente": "scottrlarson.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
+      "titular_es": "Jack Dorsey lanza 'Buzz', una plataforma que combina chat, agentes de IA y hosting Git",
+      "resumen": "El cofundador de Twitter presentó Buzz, una nueva herramienta diseñada para centralizar la colaboración de equipos de desarrollo. La plataforma integra chat grupal, asistentes de inteligencia artificial autónomos y alojamiento de repositorios de código. El proyecto busca competir en el espacio de herramientas para desarrolladores ofreciendo flujos de trabajo nativos en IA.",
+      "relevancia": 9,
+      "url": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
+      "fuente": "runtimewire.com (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Jack Dorsey",
+        "IA",
+        "desarrollo de software"
+      ]
     },
     {
-      "id": "ae2f0e2c6d",
-      "tema": "finanzas",
-      "titular_es": "Novartis Q2 2026 earnings beat as cancer, MS drugs drive growth",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 4,
-      "url": "https://finance.yahoo.com/healthcare/articles/novartis-q2-2026-earnings-beat-132444828.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "4e3d5f4e38",
-      "tema": "emprendimiento",
-      "titular_es": "Writer's AI harness cuts token spend nearly 40% — without sacrificing accuracy",
-      "resumen": "Enterprise AI is facing an ROI paradox. While throwing more compute at the strongest foundation model works well in product experiments, the costs become unbearable when the product is deployed in production. A new paper from researchers at Writer provides a solution that is accessible to engineerin",
-      "relevancia": 4,
-      "url": "https://venturebeat.com/orchestration/writers-ai-harness-cuts-token-spend-nearly-40-without-sacrificing-accuracy",
-      "fuente": "venturebeat.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "db48b54b38",
-      "tema": "ciencia",
-      "titular_es": "Watching too much TV in midlife may shrink the brain",
-      "resumen": "Watching television very often in midlife may be linked to troubling brain changes decades later. In a study of about 1,700 adults, frequent TV viewers later showed smaller brain regions involved in memory, decision-making, and visual processing, along with more signs of damage in the brain’s white ",
-      "relevancia": 4,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260721000822.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "b3fbd93bad",
+      "id": "2967707ce8",
       "tema": "ia",
-      "titular_es": "Human mathematicians are being outcounterexampled",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 3,
-      "url": "https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/",
-      "fuente": "xenaproject.wordpress.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
+      "titular_es": "Google presenta Gemini 3.6 Flash y modelos especializados en ciberseguridad",
+      "resumen": "Google lanzó oficialmente Gemini 3.6 Flash junto con versiones optimizadas como Flash-Lite y Flash Cyber. La versión orientada a ciberseguridad promete identificar y corregir vulnerabilidades a un costo significativamente menor que modelos de mayor tamaño. Con este movimiento, Google busca masificar el uso de agentes de IA eficientes en entornos corporativos.",
+      "relevancia": 9,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "fuente": "blog.google (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Google",
+        "Gemini",
+        "ciberseguridad"
+      ]
     },
     {
-      "id": "bef822c9ce",
+      "id": "1fd04628ba",
+      "tema": "ia",
+      "titular_es": "Tesla expande el servicio de sus Robotaxis a Orlando y Tampa",
+      "resumen": "Tesla anunció oficialmente el despliegue de su flota de taxis autónomos Robotaxi en las ciudades de Orlando y Tampa, Florida. La compañía compartió mapas del área de servicio inicial coincidiendo con su presentación de resultados financieros. El movimiento marca un paso crucial en la competencia del transporte autónomo contra competidores como Waymo.",
+      "relevancia": 9,
+      "url": "https://www.theverge.com/transportation/968624/tesla-robotaxis-orlando-tampa-florida-earnings",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Tesla",
+        "Robotaxi",
+        "vehículos autónomos"
+      ]
+    },
+    {
+      "id": "5836cb74d7",
       "tema": "finanzas",
-      "titular_es": "Danaher Plummets After One Segment Comes In 'Surprisingly Soft'",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 3,
-      "url": "https://www.investors.com/news/technology/danaher-stock-danaher-earnings-q2-2026/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
+      "titular_es": "Emisión de deuda para infraestructura de IA supera en siete meses el total de 2025",
+      "resumen": "La necesidad de financiar centros de datos y redes eléctricas provocó un volumen récord de emisión de deuda vinculada a la inteligencia artificial. Sorprendentemente, solo el 40% de los bonos proviene de gigantes como Microsoft o Google, mientras que el resto corresponde a empresas proveedoras de infraestructura energética y soporte. La cifra refleja el apetito voraz de capital para sostener el avance de la tecnología.",
+      "relevancia": 9,
+      "url": "https://www.bloomberglinea.com/mercados/la-carrera-por-la-ia-dispara-la-emision-de-deuda-del-sector-en-siete-meses-ya-supera-todo-2025/",
+      "fuente": "bloomberglinea.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "deuda corporativa",
+        "IA",
+        "infraestructura"
+      ]
     },
     {
-      "id": "6697e908fb",
+      "id": "c8815315b3",
       "tema": "emprendimiento",
-      "titular_es": "A single AI agent conversation can look perfect and still be broken, leaders from LangChain, Conviva and CoreWeave said at VB Transform 2026",
-      "resumen": "A single AI agent conversation can look flawless scored on its own and still point to a broken product. That gap is driving a shift in how enterprises evaluate agents, away from scoring individual traces and toward comparing cohorts of users against a baseline. At VB Transform 2026 , Harrison Chase,",
-      "relevancia": 3,
-      "url": "https://venturebeat.com/data/a-single-ai-agent-conversation-can-look-perfect-and-still-be-broken-leaders-from-langchain-conviva-and-coreweave-said-at-vb-transform-2026",
-      "fuente": "venturebeat.com",
-      "bandera": "🌍",
-      "tags": []
+      "titular_es": "Bluecore Energy recauda $10M para construir reactores nucleares portátiles en barcazas",
+      "resumen": "La startup de energía marítima Bluecore Energy cerró una ronda de financiación pre-semilla de 10 millones de dólares liderada por Slauson & Co. La compañía busca desarrollar pequeños reactores nucleares modulares montados sobre barcazas para abastecer zonas costeras e infraestructuras aisladas. El proyecto propone una solución limpia e innovadora para la creciente demanda energética mundial.",
+      "relevancia": 9,
+      "url": "https://techcrunch.com/2026/07/21/this-uber-alumn-just-raised-a-10m-pre-seed-to-build-portable-nuclear-enegry/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Bluecore Energy",
+        "energía nuclear",
+        "capital de riesgo"
+      ]
+    },
+    {
+      "id": "d0888a3b49",
+      "tema": "emprendimiento",
+      "titular_es": "Colossal Biosciences busca nueva ronda de capital con una valoración de hasta $30.000 millones",
+      "resumen": "La startup orientada a la 'desextinción' de especies extintas negocia una ronda de financiación para duplicar o triplicar su valoración previa. Colossal combina edición genética avanzada con biotecnología aplicada para resucitar especies como el mamut lanudo. El elevado interés de los inversores refleja la confianza en el potencial comercial de sus patentes genéticas.",
+      "relevancia": 9,
+      "url": "https://techcrunch.com/2026/07/20/colossal-biosciences-reportedly-in-talks-to-raise-new-capital-at-20b-30b-valuation/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Colossal Biosciences",
+        "biotecnología",
+        "startups"
+      ]
     },
     {
       "id": "55ba6a12b8",
       "tema": "ciencia",
-      "titular_es": "A hidden “switch-off” signal could predict solar storms seven years early",
-      "resumen": "A newly discovered turning point in the Sun’s 11-year cycle could allow scientists to predict future solar activity years earlier than before. At this “switch-off” point, the most violent space weather abruptly ends, and the remaining number of sunspots offers clues about the next cycle’s strength. ",
-      "relevancia": 3,
+      "titular_es": "Descubren señal solar que permite predecir tormentas solares con 7 años de anticipación",
+      "resumen": "Un nuevo hito en física solar identificó un punto de inflexión en el ciclo de 11 años del Sol denominado 'desconexión'. En este instante, el clima espacial violento cesa de forma abrupta y las manchas restantes revelan la intensidad del ciclo posterior. El descubrimiento permitirá proteger redes eléctricas y satélites con casi una década de anticipación.",
+      "relevancia": 9,
       "url": "https://www.sciencedaily.com/releases/2026/07/260721000818.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "física solar",
+        "clima espacial",
+        "Sol"
+      ]
     },
     {
-      "id": "3e0cfadf11",
-      "tema": "ia",
-      "titular_es": "Nativ: Run frontier open models locally on your Mac",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 2,
-      "url": "https://blaizzy.github.io/nativ/",
-      "fuente": "blaizzy.github.io (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "3e1cbde68a",
-      "tema": "finanzas",
-      "titular_es": "Stock Market Today: Dow Rises As GM Surges On Earnings Report; Marvell, Micron, Sandisk Rally (Live Coverage)",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 2,
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-gm-stock-marvell-micron-sandisk/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "83cb376f33",
-      "tema": "emprendimiento",
-      "titular_es": "At VB Transform 2026, Zillow's engineering chief said AI ROI numbers only hold up if you measure before you build",
-      "resumen": "Zillow, the real estate technology company, doesn't get one conversation with its customers. They move from a phone screen to a loan officer to a real estate agent, sometimes over months or years, and expect the context to follow them. A single chatbot could never carry that thread. At VB Transform ",
-      "relevancia": 2,
-      "url": "https://venturebeat.com/data/at-vb-transform-2026-zillows-engineering-chief-said-ai-roi-numbers-only-hold-up-if-you-measure-before-you-build",
-      "fuente": "venturebeat.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "05d8b092a5",
+      "id": "2a7347099f",
       "tema": "ciencia",
-      "titular_es": "New molecular map reveals how the flu virus hijacks human cells",
-      "resumen": "Scientists uncovered how influenza A commandeers human cells, including a surprising strategy that dissolves tiny structures in the nucleus and releases proteins the virus may use to reproduce. The detailed molecular map could reveal new drug targets and help researchers study dangerous flu strains ",
-      "relevancia": 2,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260721000816.htm",
+      "titular_es": "Nuevo fármaco con anticuerpos frena la propagación del cáncer de próstata agresivo",
+      "resumen": "Científicos desarrollaron un anticuerpo completamente humano que logró detener el crecimiento y las metástasis del cáncer de próstata en pruebas preclínicas. A diferencia de las terapias convencionales, el compuesto utiliza un mecanismo novedoso que reduce sustancialmente los efectos secundarios indeseados. Si se valida en ensayos clínicos, podría convertirse en un tratamiento revolucionario para tumores avanzados.",
+      "relevancia": 9,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260718010151.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "oncología",
+        "anticuerpos",
+        "medicina"
+      ]
     },
     {
-      "id": "0c340e3192",
+      "id": "495612d792",
+      "tema": "ciencia",
+      "titular_es": "Muestras de la sonda Chang'e-6 explican diferencias en el viento solar en la Luna",
+      "resumen": "El análisis del suelo traído por la misión china Chang'e-6 desde la cara oculta de la Luna reveló por qué las partículas del viento solar penetran a mayor profundidad allí que en la cara visible. La magnetosfera terrestre actúa como escudo frenando el impacto de partículas en la cara visible. La investigación resuelve un enigma de décadas sobre la evolución del regolito lunar.",
+      "relevancia": 9,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260718010145.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇨🇳",
+      "tags": [
+        "Chang'e-6",
+        "Luna",
+        "exploración espacial"
+      ]
+    },
+    {
+      "id": "a6a720bfc5",
       "tema": "ia",
-      "titular_es": "Agent swarms and the new model economics",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 1,
-      "url": "https://cursor.com/blog/agent-swarm-model-economics",
-      "fuente": "cursor.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
+      "titular_es": "OpenAI y Hugging Face se asocian para responder a incidente de seguridad",
+      "resumen": "OpenAI y la plataforma Hugging Face anunciaron una alianza estratégica para gestionar y mitigar las consecuencias de un reciente incidente de seguridad. La colaboración busca fortalecer la protección de modelos y repositorios compartidos en el ecosistema open-source. El acuerdo sienta un precedente sobre cómo las grandes empresas de IA colaboran ante vulnerabilidades críticas.",
+      "relevancia": 8,
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "fuente": "openai.com (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "OpenAI",
+        "Hugging Face",
+        "ciberseguridad"
+      ]
     },
     {
-      "id": "5df319f963",
+      "id": "c985fe6038",
+      "tema": "ia",
+      "titular_es": "OpenAI comenzará a incluir anuncios publicitarios en ChatGPT",
+      "resumen": "OpenAI planea introducir formatos publicitarios dentro de ChatGPT para monetizar el uso de sus modelos de lenguaje por parte de usuarios gratuitos. La medida marca una transición importante hacia un modelo de negocio impulsado por publicidad en asistentes de IA. La industria evalúa cómo afectará esta decisión a la experiencia de usuario y a la imparcialidad de las respuestas.",
+      "relevancia": 8,
+      "url": "https://ads.openai.com/",
+      "fuente": "ads.openai.com (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "publicidad"
+      ]
+    },
+    {
+      "id": "c279174d0e",
+      "tema": "ia",
+      "titular_es": "Alibaba lanza Qwen-Image-3.0 con mejoras en detalle y generación visual",
+      "resumen": "Alibaba Cloud anunció la nueva versión de su modelo de generación de imágenes Qwen-Image-3.0. La actualización ofrece mayor fidelidad fotorrealista, mejor comprensión de textos complejos y representación precisa de conocimientos generales. El lanzamiento refuerza la competencia de los modelos de código abierto chinos frente a las alternativas occidentales.",
+      "relevancia": 8,
+      "url": "https://qwen.ai/blog?id=qwen-image-3.0",
+      "fuente": "qwen.ai (vía HN)",
+      "bandera": "🇨🇳",
+      "tags": [
+        "Alibaba",
+        "Qwen",
+        "generación de imágenes"
+      ]
+    },
+    {
+      "id": "479948011b",
+      "tema": "ia",
+      "titular_es": "Substack integra un detector de IA para identificar contenidos automatizados",
+      "resumen": "La plataforma de newsletters Substack incorporará una herramienta diseñada para escanear publicaciones, notas y comentarios en busca de texto generado por IA. El sistema analizará patrones lingüísticos para ofrecer a los lectores una estimación de la intervención automatizada. La iniciativa responde a la preocupación de los creadores por la proliferación de contenido masivo sin autoría humana.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/968855/substack-pangram-ai-detecting-tool",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Substack",
+        "detección de IA",
+        "publicación digital"
+      ]
+    },
+    {
+      "id": "612445dbd7",
+      "tema": "ia",
+      "titular_es": "Sony demanda al generador de música Udio por infringir derechos de 30.000 canciones",
+      "resumen": "Sony Music Entertainment presentó una nueva demanda judicial en Nueva York acusando a la startup de IA Udio de utilizar ilegalmente su catálogo musical. La demanda exige indemnizaciones por la copia no autorizada de temas de artistas como Elvis Presley, Beyoncé y Harry Styles. El proceso judicial intensifica el conflicto entre las discográficas mayoritarias y las empresas de música generativa.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Sony Music",
+        "Udio",
+        "propiedad intelectual"
+      ]
+    },
+    {
+      "id": "f5582359a4",
+      "tema": "finanzas",
+      "titular_es": "Wall Street sube impulsado por acciones de chips a pesar de tensiones petroleras",
+      "resumen": "Los principales índices de Wall Street cerraron en verde gracias al impulso del sector de semiconductores. Los inversores mantuvieron el optimismo en el área tecnológica a la espera de los reportes trimestrales de las grandes empresas. La jornada estuvo condicionada por la volatilidad del crudo debido al conflicto geopolítico en Medio Oriente.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/mercados/wall-street-sube-tras-el-rebote-de-las-acciones-de-chips-pese-a-los-riesgos-sobre-el-petroleo/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Wall Street",
+        "semiconductores",
+        "mercados"
+      ]
+    },
+    {
+      "id": "79917c0c4c",
+      "tema": "finanzas",
+      "titular_es": "Pampa Energía aprueba inversión histórica de US$2.700 millones para planta de urea",
+      "resumen": "El grupo energético argentino Pampa Energía dio luz verde a la mayor inversión de su historia destinada a construir una planta de fertilizantes. La noticia provocó reacciones positivas entre analistas financieros, quienes ven un fuerte potencial de revalorización para las acciones de la compañía. El proyecto apunta a abastecer la demanda agrícola local y exportar excedentes a la región.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/pampa-anuncio-la-mayor-inversion-en-su-historia-momento-de-comprar-acciones/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇦🇷",
+      "tags": [
+        "Pampa Energía",
+        "Argentina",
+        "inversión"
+      ]
+    },
+    {
+      "id": "4e3d5f4e38",
       "tema": "emprendimiento",
-      "titular_es": "The cleanup trap: Stop asking RAG to fix bad data",
-      "resumen": "The enterprise technology ecosystem is caught in a costly cycle. Over the past two years, millions of dollars have been funneled into generative AI pilots, yet many of these initiatives stall out before ever reaching a live production environment. When a project fails, the immediate instinct of tech",
-      "relevancia": 1,
-      "url": "https://venturebeat.com/orchestration/the-cleanup-trap-stop-asking-rag-to-fix-bad-data",
+      "titular_es": "Writer presenta una arquitectura que reduce el consumo de tokens un 40%",
+      "resumen": "La startup de IA empresarial Writer publicó un estudio técnico donde demuestra cómo recortar un 40% el gasto en tokens sin perder precisión en modelos de lenguaje. La solución aborda la paradoja del retorno de inversión en IA, donde los costos de cómputo se disparan al pasar de prototipos a producción. La arquitectura permite a los ingenieros desplegar soluciones eficientes a escala empresarial.",
+      "relevancia": 8,
+      "url": "https://venturebeat.com/orchestration/writers-ai-harness-cuts-token-spend-nearly-40-without-sacrificing-accuracy",
       "fuente": "venturebeat.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Writer",
+        "optimización de tokens",
+        "IA empresarial"
+      ]
+    },
+    {
+      "id": "67d40ee686",
+      "tema": "ciencia",
+      "titular_es": "Descubren tres bacterias desconocidas en estómagos de cachalotes pigmeos",
+      "resumen": "Científicos hallaron tres especies inéditas de la bacteria Helicobacter al analizar cachalotes pigmeos varados a lo largo de varias décadas. Todos los animales infectados presentaban daños severos en el aparato digestivo, como úlceras e inflamaciones. El hallazgo aporta valiosa información sobre la salud de los cetáceos y las amenazas patógenas en la vida marina.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260721000847.htm",
+      "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "biología marina",
+        "bacterias",
+        "cetáceos"
+      ]
+    },
+    {
+      "id": "3eedc1873d",
+      "tema": "ciencia",
+      "titular_es": "ADN antiguo revela la organización social de la mítica ciudad china de Shimao",
+      "resumen": "El análisis de ADN antiguo recuperado del asentamiento prehistórico de Shimao reveló datos clave sobre la estructura de las primeras sociedades complejas en Asia Oriental. Los resultados indican que los habitantes descendían mayoritariamente de agricultores locales del río Amarillo, con aportes genéticos de regiones distantes. El estudio aporta pistas fundamentales para entender los orígenes de la urbanización en China hace 4.000 años.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260721000828.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇨🇳",
+      "tags": [
+        "genética",
+        "arqueología",
+        "China"
+      ]
+    },
+    {
+      "id": "2aa2ba7b9d",
+      "tema": "finanzas",
+      "titular_es": "Dos empresas concentran la mayor parte del crecimiento de ganancias del S&P 500",
+      "resumen": "Un análisis de la firma Zacks revela que el crecimiento proyectado de las ganancias en el S&P 500 depende fuertemente del desempeño de solo dos gigantes tecnológicos. Mientras este par impulsa los promedios generales, la mayoría de las empresas del índice muestra una expansión de utilidades mucho más moderada. La concentración genera debate sobre la vulnerabilidad del mercado ante posibles correcciones del sector tech.",
+      "relevancia": 7,
+      "url": "https://www.bloomberglinea.com/mercados/las-ganancias-del-sp-500-dependen-cada-vez-mas-del-impulso-de-estas-dos-acciones/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "S&P 500",
+        "Zacks",
+        "acciones"
+      ]
+    },
+    {
+      "id": "361aef10e4",
+      "tema": "finanzas",
+      "titular_es": "Bank of America prevé que la corrección del oro podría extenderse a finales de 2026",
+      "resumen": "A pesar de mantener su visión alcista a largo plazo para el oro, Bank of America advirtió que el ajuste de precios actual muestra patrones similares a las correcciones de 1980 y 2011. El banco estima que la fase de consolidación podría continuar durante la segunda mitad de 2026. Analistas recomiendan cautela frente a la volatilidad de los metales preciosos en el corto plazo.",
+      "relevancia": 7,
+      "url": "https://www.bloomberglinea.com/mercados/la-caida-del-oro-puede-no-haber-terminado-bofa-detecta-senales-similares-a-las-de-2011-y-1980/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Bank of America",
+        "oro",
+        "commodities"
+      ]
+    },
+    {
+      "id": "d65f92312c",
+      "tema": "finanzas",
+      "titular_es": "Citi proyecta alzas en el azúcar por El Niño y advierte sobre el café y el cacao",
+      "resumen": "Citi prevé que un episodio severo del fenómeno El Niño reduzca la oferta global de azúcar y mantenga elevados sus precios en los mercados internacionales. En contraste, el banco estima que las cotizaciones del cacao ya incorporan los riesgos climáticos y que el café muestra signos de sobrevaloración. La volatilidad agrícola seguirá marcando la pauta para las materias primas en los próximos meses.",
+      "relevancia": 7,
+      "url": "https://www.bloomberglinea.com/mercados/el-azucar-lidera-las-apuestas-de-citi-ante-el-nino-mientras-ve-presiones-para-el-cacao-y-el-cafe/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🌍",
+      "tags": [
+        "Citi",
+        "commodities",
+        "El Niño"
+      ]
+    },
+    {
+      "id": "f1331c7902",
+      "tema": "emprendimiento",
+      "titular_es": "Expedia sostiene que las evaluaciones ('evals') están reemplazando a los PRD tradicionales",
+      "resumen": "El director de datos e IA de Expedia Group afirmó durante VB Transform 2026 que los documentos de requerimientos de producto tradicionales están siendo sustituidos por pruebas de evaluación continua ('evals'). Explicó que codificar las expectativas del producto mediante pruebas automatizadas permite iterar más rápido en agentes de IA. La práctica está redefiniendo la metodología de desarrollo de software en la era de los LLM.",
+      "relevancia": 6,
+      "url": "https://venturebeat.com/security/evals-are-the-new-prd-expedia-ai-chief-tells-vb-transform-2026",
+      "fuente": "venturebeat.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Expedia",
+        "desarrollo de producto",
+        "evaluación de IA"
+      ]
+    },
+    {
+      "id": "d7245e6099",
+      "tema": "emprendimiento",
+      "titular_es": "Estudio de Atlassian recomienda enfocar la adopción de IA en equipos y no en individuos",
+      "resumen": "Investigaciones presentadas por el Teamwork Lab de Atlassian señalan que las empresas cometen el error de optimizar el uso individual de la IA en lugar de transformar los flujos de trabajo grupales. El reporte enfatiza que el retorno real de la inversión en IA proviene de redefinir la colaboración entre personas y sistemas automatizados. El enfoque sugiere cambios en cómo las organizaciones abordan la transformación digital.",
+      "relevancia": 6,
+      "url": "https://venturebeat.com/orchestration/atlassian-research-shows-organizations-should-approach-ai-at-the-team-level-not-the-individual-level-to-achieve-true-roi",
+      "fuente": "venturebeat.com",
+      "bandera": "🇦🇺",
+      "tags": [
+        "Atlassian",
+        "productividad",
+        "trabajo en equipo"
+      ]
     }
   ]
 }
