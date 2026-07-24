@@ -1,7 +1,12 @@
 {
-  "fecha": "2026-07-23",
-  "generado_utc": "2026-07-23T20:53:32Z",
+  "fecha": "2026-07-24",
+  "generado_utc": "2026-07-24T13:46:44Z",
   "indicadores": {
+    "dolar": {
+      "valor": 946.24,
+      "variacion": 9.85,
+      "variacion_pct": 1.05
+    },
     "uf": {
       "valor": 40844.79,
       "variacion": 0.0,
@@ -9,21 +14,21 @@
     }
   },
   "noticia_del_dia": "1d1f4c9db4",
-  "pildora_ia": "RAG (Retrieval-Augmented Generation): técnica para que un LLM responda usando documentos externos: primero busca información relevante y luego la usa para generar la respuesta. Reduce alucinaciones y permite datos frescos sin reentrenar.",
+  "pildora_ia": "Fine-tuning: reentrenar un modelo existente con tus propios datos para especializarlo. Más barato que entrenar desde cero, pero para conocimiento actualizado muchas veces conviene más RAG.",
   "pildoras_ia": [
-    "RAG (Retrieval-Augmented Generation): técnica para que un LLM responda usando documentos externos: primero busca información relevante y luego la usa para generar la respuesta. Reduce alucinaciones y permite datos frescos sin reentrenar.",
     "Fine-tuning: reentrenar un modelo existente con tus propios datos para especializarlo. Más barato que entrenar desde cero, pero para conocimiento actualizado muchas veces conviene más RAG.",
     "Alucinaciones: cuando un LLM genera información falsa con total seguridad. No 'miente': predice el texto más probable, y a veces lo más probable no es lo verdadero. Por eso conviene verificar datos críticos.",
     "Backpropagation: el método que reparte la 'culpa' del error entre todos los parámetros de una red, capa por capa, para saber cómo ajustar cada uno. Sin él, entrenar redes profundas sería inviable.",
-    "Bias-variance tradeoff: el equilibrio central del ML. Un modelo muy simple falla por rígido (bias alto); uno muy complejo falla por inestable (varianza alta). El arte está en el punto medio."
+    "Bias-variance tradeoff: el equilibrio central del ML. Un modelo muy simple falla por rígido (bias alto); uno muy complejo falla por inestable (varianza alta). El arte está en el punto medio.",
+    "Dropout: durante el entrenamiento se 'apagan' neuronas al azar en cada paso. Suena raro, pero obliga a la red a no depender de unas pocas conexiones y reduce el sobreajuste."
   ],
   "noticias": [
     {
       "id": "1d1f4c9db4",
       "tema": "ia",
-      "titular_es": "OpenAI despliega ChatGPT Health para vincular historiales médicos y datos de salud",
-      "resumen": "OpenAI comenzó el lanzamiento generalizado de ChatGPT Health en EE. UU., permitiendo integrar récords médicos y dispositivos de monitoreo directamente en el chatbot.\nLa empresa asegura que sus nuevos modelos alcanzaron una precisión inédita en la interpretación de información clínica preventiva.\nEste paso marca la entrada formal de OpenAI en el multimillonario sector de la tecnología de la salud digital.",
-      "relevancia": 10,
+      "titular_es": "OpenAI despliega ChatGPT Health para todos los usuarios en EE. UU.",
+      "resumen": "OpenAI comenzó el despliegue general de ChatGPT Health en Estados Unidos, permitiendo conectar historiales médicos e información de entrenamiento.\nLa empresa sostiene que sus modelos alcanzaron un alto nivel de precisión en la interpretación de datos clínicos y de bienestar.\nEl servicio busca operar como un asistente médico personal garantizando la privacidad del usuario.",
+      "relevancia": 9,
       "url": "https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
@@ -34,115 +39,55 @@
       ]
     },
     {
-      "id": "cc744205c4",
+      "id": "3b492c2725",
       "tema": "ia",
-      "titular_es": "DARPA y la Fuerza Aérea de EE. UU. completan vuelo de un caza F-16 controlado por IA",
-      "resumen": "DARPA y la Fuerza Aérea estadounidense realizaron exitosamente pruebas de vuelo de combate utilizando un caza F-16 pilotado enteramente por inteligencia artificial.\nEl hito demuestra el avance acelerado de los sistemas autónomos en la defensa militar y la aviación de alta precisión.\nEste ensayo marca un punto de inflexión en la integración de agentes de aprendizaje profundo en entornos de combate reales.",
+      "titular_es": "Microsoft lanza modelos propios de IA que reducen costos hasta un 89% frente a OpenAI",
+      "resumen": "Microsoft presentó en vista previa sus modelos internos MAI-Image-2.5-Pro y MAI-Voice-2-Flash optimizados para empresas.\nLa compañía publicó datos de producción que muestran reducciones operativas de costo de hasta un 89% respecto a las API de OpenAI.\nEl lanzamiento refuerza la estrategia de Microsoft para disminuir la dependencia de modelos externos en Azure.",
       "relevancia": 9,
-      "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
-      "fuente": "darpa.mil (vía HN)",
+      "url": "https://venturebeat.com/infrastructure/microsoft-launches-new-in-house-ai-models-it-says-cut-costs-up-to-89-versus-openai",
+      "fuente": "venturebeat.com",
       "bandera": "🇺🇸",
       "tags": [
-        "defensa",
-        "IA",
-        "aviación"
+        "Microsoft",
+        "modelos IA",
+        "costos"
       ]
     },
     {
-      "id": "f7a651ced6",
+      "id": "ae0937817a",
       "tema": "ia",
-      "titular_es": "El modo de voz de Claude llega a los modelos Opus y Sonnet de Anthropic",
-      "resumen": "Anthropic expandió el modo de voz interactivo de Claude a sus modelos más potentes, Opus y Sonnet, tras haber estado limitado a Haiku.\nAdemás, la funcionalidad ahora se integra directamente con herramientas corporativas clave como Gmail, Slack y Canva.\nEsta actualización coloca a la compañía en competencia directa con las capacidades conversacionales avanzadas de OpenAI.",
+      "titular_es": "OpenAI integra control de voz bidireccional en Codex y ChatGPT para escritorio",
+      "resumen": "OpenAI incorporó su modelo GPT-Live con capacidades full-duplex directamente en sus aplicaciones de escritorio para macOS y Windows.\nLa herramienta permite a los desarrolladores interactuar por voz en tiempo real con Codex y ChatGPT mientras programan.\nLa actualización apunta a masificar la programación asistida totalmente manos libres.",
       "relevancia": 9,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai",
-      "fuente": "theverge.com",
+      "url": "https://venturebeat.com/orchestration/agentic-coding-goes-hands-free-as-openai-brings-gpt-lives-full-duplex-voice-control-to-codex-and-chatgpt-on-the-desktop",
+      "fuente": "venturebeat.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Anthropic",
-        "Claude",
-        "IA conversacional"
+        "OpenAI",
+        "Codex",
+        "programación"
       ]
     },
     {
-      "id": "ba66588328",
-      "tema": "ciencia",
-      "titular_es": "Logran trasplantar riñones superenfriados en cerdos con éxito histórico",
-      "resumen": "Un equipo científico preservó riñones mediante técnicas de superenfriamiento y los trasplantó con éxito en cerdos, manteniendo la funcionalidad del órgano.\nEsta técnica extiende drásticamente la ventana de tiempo que los órganos pueden conservarse fuera del cuerpo humano antes del trasplante.\nEl avance podría revolucionar las listas de espera de donaciones y reducir significativamente el desperdicio de órganos.",
-      "relevancia": 9,
-      "url": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
-      "fuente": "technologyreview.com",
-      "bandera": "🇬🇧",
-      "tags": [
-        "biomedicina",
-        "trasplantes",
-        "organos"
-      ]
-    },
-    {
-      "id": "792ed9a6fb",
-      "tema": "ciencia",
-      "titular_es": "La NASA ensayará el acoplamiento con los módulos lunares de SpaceX y Blue Origin",
-      "resumen": "Como parte de la misión Artemis III en 2027, los astronautas en la nave Orion realizarán maniobras de acoplamiento orbital con los prototipos de aterrizaje de SpaceX y Blue Origin.\nEl ensayo permitirá verificar en órbita los sistemas de transferencia de tripulación antes del descenso a la superficie de la Luna.\nRepresenta uno de los hitos técnicos más complejos del programa espacial moderno de la NASA.",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260722032113.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "NASA",
-        "SpaceX",
-        "Luna"
-      ]
-    },
-    {
-      "id": "498b5d7384",
-      "tema": "ciencia",
-      "titular_es": "El telescopio James Webb descubre un planeta gigante oculto en el sistema Beta Pictoris",
-      "resumen": "El telescopio espacial James Webb logró detectar el protoplaneta Beta Pictoris d, el cual permanecía oculto tras un denso disco de polvo cósmico.\nLa detección fue posible gracias al análisis espectral de trazas de monóxido de carbono, vapor de agua y metano en su atmósfera.\nEl logro valida una innovadora metodología para hallar exoplanetas difíciles de observar directamente.",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260722032111.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "James Webb",
-        "astronomía",
-        "exoplanetas"
-      ]
-    },
-    {
-      "id": "26ec455160",
-      "tema": "ciencia",
-      "titular_es": "Desarrollan un gel libre de flúor capaz de regenerar el esmalte dental dañado",
-      "resumen": "Científicos crearon un gel biomimético inspirándose en las proteínas que forman los dientes durante la infancia para reconstruir el esmalte perdido.\nEl producto rellena microgrietas en la dentina y aprovecha el calcio y fosfato de la saliva para cristalizar nuevo mineral natural.\nEl avance podría eliminar la necesidad de empastes tradicionales frente a las caries en etapas tempranas.",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260717033046.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇬🇧",
-      "tags": [
-        "odontología",
-        "biomateriales",
-        "salud"
-      ]
-    },
-    {
-      "id": "7280fe4d8d",
+      "id": "c35d420edf",
       "tema": "emprendimiento",
-      "titular_es": "Runway lanza un enrutador inteligente para optimizar modelos de generación de medios",
-      "resumen": "La startup de generación multimedia Runway presentó 'Media Router', una herramienta que selecciona automáticamente el mejor modelo de imagen, video o audio según la solicitud.\nPermite a los desarrolladores priorizar el rendimiento ajustando el balance entre costo, velocidad y calidad de generación.\nLa innovación simplifica la arquitectura técnica para startups que integran contenido generativo multimodal.",
+      "titular_es": "Startup de seguros Corgi alcanza valoración de $4.000M en su tercera ronda seguida",
+      "resumen": "La startup insurtech Corgi levantó nuevo capital alcanzando una valoración de $4.000 millones de dólares en solo ocho semanas.\nEl ritmo vertiginoso de capitalización refleja el enorme interés de los inversores en modelos de suscripción basados en IA.\nLos recursos serán destinados a acelerar la automatización del procesamiento de siniestros.",
       "relevancia": 9,
-      "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+      "url": "https://techcrunch.com/2026/07/23/insurance-startup-corgi-reportedly-raised-more-money-at-4b-its-third-round-in-eight-weeks/",
       "fuente": "techcrunch.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Runway",
-        "IA generativa",
+        "insurtech",
+        "venture capital",
         "startups"
       ]
     },
     {
       "id": "8d7c08e5e7",
       "tema": "emprendimiento",
-      "titular_es": "La startup de chips Etched alcanza una valoración de $10.300 millones",
-      "resumen": "Etched, fundada por tres exalumnos de Harvard, captó masivo capital alcanzando una valoración superior a los $10.000 millones.\nLa empresa diseña procesadores y componentes de memoria a medida especializados en acelerar la inferencia de IA sin requerir GPU convencionales de Nvidia.\nEl hito representa un desafío directo al dominio de la arquitectura gráfica tradicional en la industria.",
+      "titular_es": "Etched alcanza valoración de $10.300M con sus chips especializados de IA",
+      "resumen": "La startup de hardware Etched logró una valoración multimillonaria tras obtener el respaldo de destacados inversores de Silicon Valley.\nLa compañía diseñó procesadores dedicados a acelerar la inferencia en modelos de IA sin requerir GPU convencionales.\nSu tecnología promete reducir drásticamente el consumo energético en los grandes centros de datos.",
       "relevancia": 9,
       "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
       "fuente": "techcrunch.com",
@@ -150,104 +95,74 @@
       "tags": [
         "Etched",
         "semiconductores",
-        "startups"
+        "hardware"
       ]
     },
     {
       "id": "f6876293c8",
       "tema": "emprendimiento",
-      "titular_es": "Black Forest Labs presenta FLUX 3 para la creación de imágenes, video y audio simultáneo",
-      "resumen": "El laboratorio creador de los modelos FLUX lanzó su versión 3, un sistema multimodal capaz de generar fragmentos de video con audio sincronizado de hasta 20 segundos.\nEl modelo amplía su arquitectura para procesar entradas y salidas combinadas con alta fidelidad a partir de un solo prompt.\nEl lanzamiento inicial estará disponible de forma limitada para desarrolladores seleccionados.",
+      "titular_es": "Black Forest Labs lanza FLUX 3 capaz de generar video y audio sincronizado",
+      "resumen": "Black Forest Labs presentó FLUX 3, un modelo multimodal que amplía las capacidades de generación de imágenes hacia video y sonido.\nLa herramienta permite crear secuencias de hasta 20 segundos con audio sincronizado a partir de un solo texto instructivo.\nEl modelo se encuentra en despliegue limitado mientras se evalúan sus parámetros de rendimiento.",
       "relevancia": 9,
       "url": "https://venturebeat.com/technology/black-forest-labs-launches-flux-3-capable-of-generating-images-and-20-second-video-with-audio-but-in-limited-release-to-start",
       "fuente": "venturebeat.com",
-      "bandera": "🇩🇪",
+      "bandera": "🇪🇺",
       "tags": [
+        "Black Forest Labs",
         "FLUX 3",
-        "multimodal",
-        "startups"
+        "IA generativa"
+      ]
+    },
+    {
+      "id": "ba66588328",
+      "tema": "ciencia",
+      "titular_es": "Logran trasplantar con éxito riñones superenfriados en modelos animales",
+      "resumen": "Científicos lograron preservar mediante superenfriamiento y trasplantar con éxito riñones en modelos porcinos.\nEl procedimiento extiende de forma histórica el tiempo límite que un órgano puede conservarse fuera del cuerpo antes de deteriorarse.\nEl hito abre la puerta a optimizar las redes de donación y reducir las listas de espera en trasplantes humanos.",
+      "relevancia": 9,
+      "url": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
+      "tags": [
+        "trasplantes",
+        "biomedicina",
+        "biotecnología"
       ]
     },
     {
       "id": "aca257bb93",
       "tema": "ia",
-      "titular_es": "Fundadores de startups piden al Gobierno de EE. UU. no bloquear la IA de pesos abiertos de China",
-      "resumen": "Un grupo de emprendedores tecnológicos solicitó formalmente a las autoridades estadounidenses mantener el acceso a modelos de IA chinos de código abierto. Argumentan que restringirlos frenaría la innovación local y perjudicaría a las startups que dependen de estas alternativas económicas.\nEl debate refleja la creciente tensión geopolítica entre la regulación de la seguridad nacional y la competitividad tecnológica global.",
+      "titular_es": "Fundadores de startups piden a EE. UU. no bloquear la IA de código abierto china",
+      "resumen": "Un grupo de emprendedores tecnológicos instó al gobierno estadounidense a permitir el uso de modelos de IA de código abierto desarrollados en China.\nArgumentan que restringir estas tecnologías perjudicaría la competitividad y la capacidad de innovación de las startups locales.\nLa petición surge en medio de crecientes tensiones regulatorias en torno a la transferencia tecnológica global.",
       "relevancia": 8,
       "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
       "fuente": "politico.com (vía HN)",
       "bandera": "🇺🇸",
       "tags": [
-        "IA",
         "código abierto",
-        "regulación"
-      ]
-    },
-    {
-      "id": "c478b8dfb1",
-      "tema": "ia",
-      "titular_es": "Empresas de inteligencia artificial ocultan altos niveles de endeudamiento",
-      "resumen": "Un análisis financiero reveló que diversas empresas del sector de IA están utilizando estructuras contables complejas para enmascarar su elevado endeudamiento.\nLa necesidad masiva de capital para financiar infraestructura de cómputo y centros de datos está empujando los balances al límite.\nAnalistas advierten sobre los riesgos crediticios si los ingresos esperados de la IA tardan más de lo previsto en materializarse.",
-      "relevancia": 8,
-      "url": "https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet",
-      "fuente": "futurism.com (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "IA",
-        "finanzas",
-        "centros de datos"
-      ]
-    },
-    {
-      "id": "655cdfa99e",
-      "tema": "ia",
-      "titular_es": "Patreon despide al 20% de su plantilla en un ajuste de estructura",
-      "resumen": "La plataforma de mecenazgo Patreon anunció el despido de aproximadamente 93 empleados, equivalentes a una quinta parte de su personal.\nSu CEO aclaró que la medida no busca reemplazar trabajadores por automatización, sino adaptar la empresa a los rápidos cambios del sector tecnológico.\nLa reestructuración busca garantizar la sostenibilidad económica frente al cambiante mercado de creadores digitales.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/tech/970211/patreon-layoffs-ai",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Patreon",
-        "empleo",
+        "regulación",
         "startups"
       ]
     },
     {
-      "id": "fca650e5fd",
+      "id": "f7a651ced6",
       "tema": "ia",
-      "titular_es": "Las promesas de robotaxis de Tesla chocan con la realidad operativa",
-      "resumen": "A pesar del tono optimista de Elon Musk sobre la expansión de los robotaxis sin supervisión, surgen dudas sobre el ritmo real de despliegue.\nAnalistas señalan que las barreras regulatorias y los desafíos de seguridad vial siguen frenando el crecimiento comercial masivo prometido por la firma.\nLa presión de los inversores aumenta tras la presentación de resultados trimestrales que muestran un margen más estrecho.",
+      "titular_es": "Anthropic habilita el modo de voz para sus modelos Claude Opus y Sonnet",
+      "resumen": "Anthropic extendió la función de voz a sus modelos más avanzados, Opus y Sonnet, anteriormente restringida a la versión Haiku.\nLa empresa también integró esta capacidad interactiva con aplicaciones de trabajo como Gmail, Slack y Canva.\nEsta actualización busca optimizar flujos de trabajo mediante instrucciones conversacionales fluidas.",
       "relevancia": 8,
-      "url": "https://www.theverge.com/transportation/970003/tesla-robotaxi-mileage-waymo-cities-earnings-musk",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Tesla",
-        "robotaxis",
-        "vehículos autónomos"
-      ]
-    },
-    {
-      "id": "d25ebbc762",
-      "tema": "ia",
-      "titular_es": "Primate Labs lanza Geekbench 7 con pruebas exigentes para nuevos chips de IA y CPU",
-      "resumen": "Primate Labs presentó Geekbench 7, la nueva versión de su benchmark diseñado para evaluar el rendimiento de hardware moderno.\nIncluye nuevas pruebas de codificación de audio y video, diagnósticos multinúcleo rediseñados y cargas de trabajo optimizadas para aceleradores de IA.\nLa herramienta facilitará la comparación objetiva de procesamiento en computadoras y dispositivos móviles de última generación.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/gadgets/970012/primate-labs-geekbench-7-benchmark-test-software-update",
-      "fuente": "theverge.com",
-      "bandera": "🇨🇦",
-      "tags": [
-        "hardware",
-        "benchmarks",
-        "Geekbench"
+        "Anthropic",
+        "Claude",
+        "IA de voz"
       ]
     },
     {
       "id": "bf8b59fc2d",
       "tema": "ia",
-      "titular_es": "Congresistas de EE. UU. preparan un proyecto de ley para exigir un 'botón de apagado' en sistemas de IA",
-      "resumen": "Legisladores estadounidenses impulsan la 'Ley del Botón de Apagado de IA', que otorgaría al Departamento de Seguridad Nacional el poder de apagar modelos de IA descontrolados.\nLa medida responde a preocupaciones sobre riesgos sistémicos de ciberseguridad y seguridad nacional vinculados a modelos avanzados.\nDe aprobarse, obligaría a los desarrolladores a construir mecanismos de interrupción remota e inmediata.",
+      "titular_es": "Congresistas de EE. UU. preparan un proyecto para exigir un 'botón de apagado' en IA",
+      "resumen": "Legisladores estadounidenses preparan una ley que obligará a las empresas de IA a integrar mecanismos de interrupción remota.\nLa medida otorgaría al Departamento de Seguridad Nacional el poder de apagar sistemas en caso de amenazas graves a la seguridad.\nEl proyecto abre un intenso debate entre la regulación de riesgos catastróficos y la libertad de desarrollo tecnológico.",
       "relevancia": 8,
       "url": "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
       "fuente": "theverge.com",
@@ -255,247 +170,247 @@
       "tags": [
         "regulación",
         "seguridad",
-        "IA"
+        "ciberseguridad"
       ]
     },
     {
-      "id": "a63318c648",
-      "tema": "ciencia",
-      "titular_es": "Astrónomos podrían haber hallado la primera exoluna fuera de nuestro sistema solar",
-      "resumen": "Un equipo de investigadores identificó indicios de lo que podría ser la primera luna detectada orbitando un planeta fuera del sistema solar.\nEl hallazgo amplía la comprensión sobre cómo se forman los sistemas planetarios lejanos y abre nuevas fronteras en la búsqueda de mundos habitables.\nLos científicos continúan analizando los datos telescópicos para confirmar definitivamente el descubrimiento.",
+      "id": "c379bbec79",
+      "tema": "ia",
+      "titular_es": "Ataques de múltiples turnos vulneran modelos de IA en el 88% de los casos",
+      "resumen": "Un estudio de Cisco demostró que los ataques adaptativos en conversaciones continuas logran burlar la seguridad del 88,3% de los modelos probados.\nLas pruebas tradicionales de una sola interacción no logran detectar cómo los atacantes ajustan sus tácticas progresivamente.\nEl hallazgo subraya la necesidad urgente de rediseñar las defensas en agentes conversacionales empresariales.",
       "relevancia": 8,
-      "url": "https://www.eso.org/public/news/eso2610/",
-      "fuente": "eso.org (vía HN)",
-      "bandera": "🌍",
+      "url": "https://venturebeat.com/security/openai-anthropic-google-and-xai-models-all-broke-under-multi-turn-attack-up-to-88-of-the-time",
+      "fuente": "venturebeat.com",
+      "bandera": "🇺🇸",
       "tags": [
-        "astronomía",
-        "exolunas",
-        "espacio"
+        "seguridad IA",
+        "ciberseguridad",
+        "Cisco"
       ]
     },
     {
-      "id": "1dd469c2f5",
-      "tema": "ciencia",
-      "titular_es": "La Antártida dará décadas de margen para predecir el alza del nivel del mar",
-      "resumen": "Un nuevo estudio climático sugiere que la pérdida de hielo en la Antártida se mantendrá en patrones relativamente predecibles hasta mediados de siglo.\nEsto otorga a los gobiernos costeros un periodo valioso para planificar infraestructuras de protección antes de que el deshielo acelerado sea impredecible.\nSin embargo, los científicos advierten que la inestabilidad extrema se desatará inevitablemente en la segunda mitad del siglo.",
+      "id": "d1b2c5a542",
+      "tema": "ia",
+      "titular_es": "El 54% de las empresas ha sufrido incidentes de seguridad con agentes de IA",
+      "resumen": "Un informe realizado en más de 100 empresas reveló un retraso en las políticas de seguridad frente a la adopción masiva de agentes de IA.\nMás de la mitad de las organizaciones confirmó haber experimentado fallos o riesgos inminentes por otorgar credenciales compartidas a los agentes.\nEspecialistas recomiendan implementar identidades aisladas y con permisos delimitados para cada agente autónomo.",
       "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260722032123.htm",
-      "fuente": "sciencedaily.com",
+      "url": "https://venturebeat.com/resources/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
+      "fuente": "venturebeat.com",
       "bandera": "🌍",
       "tags": [
-        "clima",
-        "Antártida",
-        "nivel del mar"
+        "agentes IA",
+        "ciberseguridad",
+        "empresas"
       ]
     },
     {
-      "id": "790d5a8f5c",
-      "tema": "ciencia",
-      "titular_es": "Descubren el interruptor cerebral que asigna las tareas en las abejas",
-      "resumen": "Biólogos identificaron los circuitos neuronales específicos que dictan qué rol asume una abeja dentro de la colmena conforme envejece.\nAl desactivar experimentalmente este circuito, abejas recolectoras viejas regresaron a cuidar a la reina y a las larvas.\nEl hallazgo ofrece nueva luz sobre la neurobiología del comportamiento social y la división del trabajo en insectos.",
+      "id": "e1105770fe",
+      "tema": "finanzas",
+      "titular_es": "Socios comerciales de EE. UU. rechazan aranceles globales impuestos por Trump",
+      "resumen": "Países aliados rechazaron los argumentos sobre trabajo forzoso presentados por EE. UU. para justificar nuevos aranceles globales.\nSin embargo, la mayoría de los gobiernos afectados indicó que continuará las negociaciones para evitar un conflicto comercial mayor.\nLos analistas prevén un aumento de volatilidad en las cadenas de suministros e inflación en bienes importados.",
       "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260722032117.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
+      "url": "https://www.cnbc.com/2026/07/24/trump-global-tariffs-trade-imbalance-forced-labor.html",
+      "fuente": "cnbc.com",
+      "bandera": "🇺🇸",
       "tags": [
-        "neurociencia",
-        "biología",
-        "entomología"
+        "aranceles",
+        "comercio",
+        "Donald Trump"
       ]
     },
     {
-      "id": "b3049ac385",
-      "tema": "ciencia",
-      "titular_es": "Un compuesto natural muestra potencial para combatir la artritis reumatoide desde la raíz",
-      "resumen": "Un principio activo extraído de plantas logró reducir significativamente la inflamación y el daño articular en modelos animales con artritis reumatoide.\nEl tratamiento ayudó a reequilibrar la respuesta inmune y restaurar el metabolismo lipídico alterado en los tejidos inflamados.\nLos investigadores preparan la fase de ensayos clínicos para evaluar su seguridad en humanos.",
+      "id": "75dd439a94",
+      "tema": "finanzas",
+      "titular_es": "Wall Street opera con cautela entre el alivio del petróleo y riesgos geopolíticos",
+      "resumen": "Las acciones estadounidenses mostraron variaciones mixtas tras la moderación temporal en las cotizaciones energéticas.\nNo obstante, la escalada entre EE. UU. e Irán y las nuevas tarifas comerciales mantienen frenadas las ganancias en los mercados.\nLos inversores mantienen una postura prudente a la espera de claridad sobre la rentabilidad del sector tecnológico.",
       "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260721000845.htm",
-      "fuente": "sciencedaily.com",
+      "url": "https://www.bloomberglinea.com/mercados/wall-street-opera-mixto-entre-el-alivio-del-petroleo-y-nuevos-riesgos-por-iran-y-los-aranceles/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Wall Street",
+        "petróleo",
+        "mercados"
+      ]
+    },
+    {
+      "id": "9d081332b4",
+      "tema": "finanzas",
+      "titular_es": "El precio del petróleo supera los US$100 y reaviva el riesgo de inflación",
+      "resumen": "El barril de crudo Brent volvió a superar la barrera de los US$100, abriendo el debate sobre un posible repunte hacia los US$120.\nAnalistas advierten que un encarecimiento prolongado afectará los costos de transporte e impulsará nuevamente la inflación global.\nLas economías de América Latina evalúan los impactos fiscales contrapuestos entre países importadores y exportadores.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/mercados/y-si-el-petroleo-vuelve-a-us120-escenarios-y-riesgos-para-los-mercados-y-america-latina/",
+      "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": [
-        "medicina",
-        "farmacología",
-        "salud"
+        "petróleo",
+        "inflación",
+        "mercados"
+      ]
+    },
+    {
+      "id": "d96bea7ced",
+      "tema": "finanzas",
+      "titular_es": "Deuda privada en Colombia se reactiva con emisiones por COP $10 billones",
+      "resumen": "Nueve entidades financieras avanzan en la tramitación de permisos ante la Superintendencia Financiera tras el cierre del periodo electoral.\nEl dinamismo proyecta un volumen de emisiones de deuda privada cercano a los COP $10 billones en el segundo semestre.\nLa reactivación del crédito representa una señal de recuperación en el apetito por riesgo corporativo local.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/exclusiva-se-reactiva-el-mercado-de-deuda-privada-tras-elecciones-con-emisiones-por-cop10-billones/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇨🇴",
+      "tags": [
+        "Colombia",
+        "deuda privada",
+        "mercados"
       ]
     },
     {
       "id": "1fa28552c3",
       "tema": "finanzas",
-      "titular_es": "Wall Street retrocede arrastrado por gigantes tecnológicas y el aumento del petróleo",
-      "resumen": "Los principales índices bursátiles de Nueva York registraron pérdidas significativas ante las dudas sobre la rentabilidad inmediata de las inversiones en IA.\nEl repunte del barril de crudo por encima de los US$ 100 y el alza en el rendimiento de los bonos del Tesoro aumentaron la aversión al riesgo.\nLos inversores muestran una creciente cautela frente a las altas valoraciones del sector tecnológico.",
+      "titular_es": "Wall Street cae impulsado por caídas en tecnológicas y petróleo elevado",
+      "resumen": "Los principales índices bursátiles cerraron a la baja afectados por dudas en los retornos de inversión de la inteligencia artificial.\nEl mantenimiento del petróleo por encima de los US$100 y el aumento en los rendimientos de bonos castigaron el apetito de riesgo.\nLas grandes empresas tecnológicas concentraron las mayores pérdidas durante la jornada bursátil.",
       "relevancia": 8,
       "url": "https://www.bloomberglinea.com/mercados/alphabet-y-tesla-arrastran-a-wall-street-mientras-el-petroleo-vuelve-a-tocar-los-us100/",
       "fuente": "bloomberglinea.com",
       "bandera": "🇺🇸",
       "tags": [
         "Wall Street",
-        "bolsa",
-        "tecnología"
+        "big tech",
+        "petróleo"
       ]
     },
     {
       "id": "4c771a085d",
       "tema": "finanzas",
-      "titular_es": "Acciones de Tesla y Alphabet sufren fuertes caídas por exigencias de retornos en IA",
-      "resumen": "Las acciones de Alphabet y Tesla cayeron marcadamente en Bolsa tras la presentación de sus reportes financieros trimestrales.\nWall Street exige evidencias concretas de que el gasto multimillonario en infraestructura de IA se traduzca en flujo de caja y mejores márgenes operacionales.\nEl castigo refleja un cambio de mentalidad en los inversores, que priorizan la rentabilidad sobre la promesa de crecimiento futuro.",
+      "titular_es": "Acciones de Tesla y Alphabet se desploman tras exigencias de retornos en IA",
+      "resumen": "Las cotizaciones de Tesla y Alphabet registraron caídas significativas tras sus últimos reportes financieros.\nLos analistas e inversores exigen que las fuertes inversiones en IA comiencen a traducirse en ingresos y márgenes operativos sostenibles.\nLa reacción del mercado marca un cambio de enfoque hacia la generación de caja inmediata sobre promesas de crecimiento.",
       "relevancia": 8,
       "url": "https://www.bloomberglinea.com/mercados/acciones-de-tesla-y-alphabet-se-desploman-cinco-claves-detras-del-castigo-bursatil/",
       "fuente": "bloomberglinea.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Alphabet",
         "Tesla",
-        "inversiones"
+        "Alphabet",
+        "acciones"
       ]
     },
     {
-      "id": "99369ff0c3",
-      "tema": "finanzas",
-      "titular_es": "JPMorgan y UBS reiteran recomendación de compra para acciones de Vista Energy",
-      "resumen": "Los bancos de inversión JPMorgan y UBS emitieron reportes positivos recomendando comprar acciones de la petrolera argentina Vista tras sus sólidos resultados del segundo trimestre.\nDestacan el crecimiento operativo en Vaca Muerta, la reducción de costos de extracción y la disciplina financiera de la compañía.\nLos objetivos de precio fijados por las entidades sugieren un elevado potencial de revalorización en el mercado.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/jpmorgan-y-ubs-recomiendan-acciones-de-vista-tras-balance-del-segundo-trimestre/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇦🇷",
-      "tags": [
-        "Vista Energy",
-        "acciones",
-        "Vaca Muerta"
-      ]
-    },
-    {
-      "id": "c35d420edf",
+      "id": "655cdfa99e",
       "tema": "emprendimiento",
-      "titular_es": "La startup de seguros Corgi alcanza una valoración de $4.000 millones tras su tercera ronda en ocho semanas",
-      "resumen": "Insurtech Corgi completó una nueva ronda de financiamiento acelerada que eleva su valoración de $2.600 millones a $4.000 millones de dólares en dos meses.\nEl extraordinario apetito de los fondos de capital de riesgo destaca la demanda por plataformas de seguros automatizadas con IA.\nLa empresa planea expandir rápidamente su cobertura de productos y su presencia geográfica internacional.",
+      "titular_es": "Patreon recorta el 20% de su plantilla en una reestructuración operativa",
+      "resumen": "La plataforma Patreon anunció el despido de 93 colaboradores, lo que representa el 20% de su personal global.\nSu director ejecutivo aclaró que la medida no busca sustituir empleados por IA, sino adaptar la estructura al mercado actual.\nLa startup busca reorganizar sus costos fijos para sostener su modelo de negocio enfocado en creadores.",
       "relevancia": 8,
-      "url": "https://techcrunch.com/2026/07/23/insurance-startup-corgi-reportedly-raised-more-money-at-4b-its-third-round-in-eight-weeks/",
-      "fuente": "techcrunch.com",
+      "url": "https://www.theverge.com/tech/970211/patreon-layoffs-ai",
+      "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "startups",
-        "capital de riesgo",
-        "insurtech"
+        "Patreon",
+        "despidos",
+        "creadores"
       ]
     },
     {
       "id": "83feacd899",
       "tema": "emprendimiento",
-      "titular_es": "AegisAI recauda $36 millones para combatir el spear-phishing impulsado por IA",
-      "resumen": "Fundada por exempleados del equipo de seguridad de Google, AegisAI cerró una ronda Serie A de $36 millones para desplegar agentes autónomos de defensa por correo electrónico.\nEl sistema analiza anomalías sutiles en los mensajes simulando el criterio humano para bloquear ciberataques sofisticados.\nLa solución busca frenar la ola de fraudes dirigidos que utilizan modelos de lenguaje para engañar a ejecutivos.",
+      "titular_es": "AegisAI levanta $36M para detectar ciberataques impulsados por IA",
+      "resumen": "AegisAI, fundada por exejecutivos de seguridad de Google, cerró una ronda de financiación de $36 millones de dólares.\nLa startup desarrolló agentes de IA que analizan correos electrónicos en búsqueda de anomalías contextuales avanzadas.\nSu plataforma busca frenar ataques de phishing personalizados que esquivan las listas de control convencionales.",
       "relevancia": 8,
       "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
       "fuente": "techcrunch.com",
       "bandera": "🇺🇸",
       "tags": [
-        "startups",
+        "AegisAI",
         "ciberseguridad",
-        "AegisAI"
+        "startups"
       ]
     },
     {
-      "id": "c379bbec79",
+      "id": "7280fe4d8d",
       "tema": "emprendimiento",
-      "titular_es": "Estudio de Cisco revela que los ataques conversacionales de múltiples turnos vulneran el 88% de los modelos de IA",
-      "resumen": "Durante pruebas con casi 7.000 ataques interactivos contra 15 modelos de IA líderes, investigadores de Cisco lograron saltarse las barreras de seguridad en el 88,3% de las pruebas.\nLas evaluaciones tradicionales de un solo intento no logran detectar cómo los atacantes adaptan su lenguaje a lo largo de una conversación.\nEl hallazgo resalta serias vulnerabilidades en el despliegue comercial de agentes autónomos.",
+      "titular_es": "Runway lanza un enrutador inteligente de modelos para optimizar generación multimedia",
+      "resumen": "Runway presentó Media Router, un sistema que selecciona automáticamente el modelo de IA más adecuado para cada solicitud de usuario.\nLa herramienta permite equilibrar las prioridades de los desarrolladores entre velocidad, costo operativo y calidad visual.\nEl desarrollo responde a la creciente saturación de modelos generativos en el mercado de contenidos.",
       "relevancia": 8,
-      "url": "https://venturebeat.com/security/openai-anthropic-google-and-xai-models-all-broke-under-multi-turn-attack-up-to-88-of-the-time",
-      "fuente": "venturebeat.com",
+      "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+      "fuente": "techcrunch.com",
       "bandera": "🇺🇸",
       "tags": [
-        "ciberseguridad",
-        "Cisco",
-        "agentes IA"
+        "Runway",
+        "generación de video",
+        "modelos IA"
       ]
     },
     {
-      "id": "d1b2c5a542",
-      "tema": "emprendimiento",
-      "titular_es": "El 54% de las empresas ya sufrió incidentes de seguridad relacionados con agentes de IA",
-      "resumen": "Una encuesta a más de 100 empresas reveló que más de la mitad ha experimentado fallos o brechas de seguridad provocadas por agentes de IA autónomos.\nA pesar del riesgo, solo un tercio de las corporaciones asigna identidades y permisos delimitados a cada agente informático.\nEl estudio pone en evidencia la brecha entre el rápido despliegue corporativo y la falta de controles de acceso rigurosos.",
-      "relevancia": 8,
-      "url": "https://venturebeat.com/resources/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
-      "fuente": "venturebeat.com",
+      "id": "27b0ad2998",
+      "tema": "ia",
+      "titular_es": "Amazon actualiza Alexa Plus con IA para ejecutar instrucciones complejas",
+      "resumen": "Amazon presentó una vista previa de Alexa Plus impulsada por inteligencia artificial adaptativa.\nLa actualización permite coordinar dispositivos de marcas como Bosch, iRobot y Yale para automatizar tareas complejas del hogar.\nEl objetivo de la compañía es transformar la interacción por voz en un sistema de control del hogar más autónomo.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
+      "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "seguridad",
-        "agentes IA",
-        "empresa"
+        "Amazon",
+        "Alexa",
+        "domótica"
       ]
     },
     {
-      "id": "46604d74ca",
+      "id": "36a3166cc1",
       "tema": "finanzas",
-      "titular_es": "El temido pico explosivo en los precios del petróleo no se concreta en los mercados",
-      "resumen": "Pese a las tensiones geopolíticas y los temores de interrupción en el suministro global, el precio del crudo se mantuvo relativamente estable.\nAnalistas atribuyen la moderación a una producción sólida fuera de la OPEP+ y a una demanda global más tibia de lo anticipado.\nEl comportamiento del mercado calma temporalmente las presiones inflacionarias a nivel mundial.",
+      "titular_es": "La UE advierte a TikTok que la protección a menores debe ser obligatoria por defecto",
+      "resumen": "La Comisión Europea emitió hallazgos preliminares bajo la Ley de Servicios Digitales exigiendo cambios en el diseño de TikTok.\nEl organismo afirma que las medidas para salvaguardar a los menores de edad no deben ser opcionales para los usuarios.\nLa plataforma podría afrontar importantes sanciones si no ajusta sus políticas de privacidad e interfaz de manera inmediata.",
       "relevancia": 7,
-      "url": "https://finance.yahoo.com/energy/articles/oil-spike-everyone-feared-never-020300378.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
+      "url": "https://www.theverge.com/tech/970519/tiktok-eu-dsa-child-safety-age-account-privacy",
+      "fuente": "theverge.com",
+      "bandera": "🇪🇺",
       "tags": [
-        "petróleo",
-        "mercados",
-        "energía"
-      ]
-    },
-    {
-      "id": "c9b8d9efb1",
-      "tema": "finanzas",
-      "titular_es": "Las tensiones en el estrecho de Bab el-Mandeb impulsan la volatilidad del petróleo",
-      "resumen": "El estrecho estratégico de Bab el-Mandeb se consolidó como un punto crítico de conflicto geopolítico que presiona al alza las tarifas del transporte marítimo de crudo.\nLas interrupciones en el paso de petroleros obligan a utilizar rutas más largas y costosas alrededor de África.\nLos analistas financieros vigilan de cerca la evolución del conflicto por su impacto potencial en la inflación de fletes.",
-      "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/mercados/que-es-el-estrecho-de-bab-el-mandeb-y-por-que-esta-impulsando-el-precio-del-petroleo/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": [
-        "petróleo",
-        "comercio mundial",
-        "geopolítica"
+        "TikTok",
+        "Unión Europea",
+        "regulación"
       ]
     },
     {
       "id": "b3b14154cf",
       "tema": "finanzas",
-      "titular_es": "El estrecho de Ormuz reconfigura el mapa del riesgo soberano de importadores de energía",
-      "resumen": "Un informe financiero detalla cómo las posibles restricciones de tránsito en Ormuz amenazan las calificaciones crediticias de países dependientes de la importación de petróleo.\nEn contraste, los países exportadores netos ganan margen fiscal debido a los elevados precios resultantes en los mercados energéticos.\nEl equilibrio macroeconómico global se encuentra condicionado por la estabilidad de este paso estratégico.",
+      "titular_es": "Riesgo soberano global se reconfigura por tensiones en el estrecho de Ormuz",
+      "resumen": "Las amenazas de cierre en el estrecho de Ormuz alteran las evaluaciones de riesgo soberano para múltiples economías.\nLos países importadores de energía enfrentan un deterioro en sus métricas fiscales por el incremento en la factura de combustibles.\nPor su parte, los productores de crudo experimentan una mejora temporal en sus balanzas comerciales.",
       "relevancia": 7,
       "url": "https://www.bloomberglinea.com/mercados/el-mapa-del-riesgo-soberano-cambia-con-el-estrecho-de-ormuz-los-paises-que-ganan-y-pierden/",
       "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": [
-        "riesgo soberano",
         "petróleo",
-        "economía"
+        "riesgo soberano",
+        "geopolítica"
       ]
     },
     {
       "id": "1d1d2a59e2",
       "tema": "emprendimiento",
-      "titular_es": "Startup edtech recauda $4,5 millones para enseñar a estudiantes a programar asistidos por IA",
-      "resumen": "La plataforma Imagi cerró una ronda semilla de $4,5 millones con la participación de Brighteye Ventures y el artista Will.i.am.\nLa startup desarrolla metodologías educativas enfocadas en la programación guiada por intuición e IA ('vibe coding') para jóvenes estudiantes.\nEl objetivo es transformar la educación en ciencias de la computación adaptándola a las herramientas generativas modernas.",
+      "titular_es": "Plataforma edtech Imagi recauda $4,5M para enseñar programación asistida por IA",
+      "resumen": "La startup Imagi cerró una ronda de inversión semilla de $4,5 millones respaldada por Brighteye Ventures y Will.i.am.\nLa empresa planea expandir su plataforma educativa enfocada en enseñar a estudiantes a crear código junto a asistentes de IA.\nEl objetivo es transformar la enseñanza del pensamiento computacional adaptándolo a la era generativa.",
       "relevancia": 7,
       "url": "https://techcrunch.com/2026/07/23/edtech-platform-raises-4-5m-to-help-teach-students-how-to-vibe-code/",
       "fuente": "techcrunch.com",
-      "bandera": "🇬🇧",
+      "bandera": "🌍",
       "tags": [
         "edtech",
-        "programación",
-        "startups"
+        "educación",
+        "programación"
       ]
     },
     {
-      "id": "3d07170d34",
-      "tema": "emprendimiento",
-      "titular_es": "ServiceNow invierte $40 millones en el especialista indio en software bancario BusinessNext",
-      "resumen": "ServiceNow anunció una inversión estratégica de $40 millones de dólares en la firma india BusinessNext.\nLa alianza busca integrar capacidades de automatización con IA en el software de atención y gestión para instituciones financieras globales.\nEl acuerdo acelera la expansión de ServiceNow en el mercado bancario de alta escala.",
+      "id": "f3232e6897",
+      "tema": "ciencia",
+      "titular_es": "Registran por primera vez un ataque coordinado de orcas a un pez sol gigante",
+      "resumen": "Investigadores en el Golfo de California documentaron un comportamiento de caza nunca antes observado en orcas.\nEn dos episodios separados, un ejemplar sujetó a la presa mientras otro embistió a alta velocidad para fragmentarla.\nEl hallazgo aporta valiosa información sobre la complejidad de las estrategias sociales de alimentación en mamíferos marinos.",
       "relevancia": 7,
-      "url": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇮🇳",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260723084040.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇲🇽",
       "tags": [
-        "ServiceNow",
-        "fintech",
-        "India"
+        "biología marina",
+        "orcas",
+        "investigación"
       ]
     }
   ]
