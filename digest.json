@@ -1,6 +1,6 @@
 {
-  "fecha": "2026-07-24",
-  "generado_utc": "2026-07-24T20:56:27Z",
+  "fecha": "2026-07-25",
+  "generado_utc": "2026-07-25T13:27:39Z",
   "indicadores": {
     "dolar": {
       "valor": 946.24,
@@ -13,111 +13,81 @@
       "variacion_pct": 0.0
     }
   },
-  "noticia_del_dia": "668dd79640",
-  "pildora_ia": "Fine-tuning: reentrenar un modelo existente con tus propios datos para especializarlo. Más barato que entrenar desde cero, pero para conocimiento actualizado muchas veces conviene más RAG.",
+  "noticia_del_dia": "be8b33f7f6",
+  "pildora_ia": "Alucinaciones: cuando un LLM genera información falsa con total seguridad. No 'miente': predice el texto más probable, y a veces lo más probable no es lo verdadero. Por eso conviene verificar datos críticos.",
   "pildoras_ia": [
-    "Fine-tuning: reentrenar un modelo existente con tus propios datos para especializarlo. Más barato que entrenar desde cero, pero para conocimiento actualizado muchas veces conviene más RAG.",
     "Alucinaciones: cuando un LLM genera información falsa con total seguridad. No 'miente': predice el texto más probable, y a veces lo más probable no es lo verdadero. Por eso conviene verificar datos críticos.",
     "Backpropagation: el método que reparte la 'culpa' del error entre todos los parámetros de una red, capa por capa, para saber cómo ajustar cada uno. Sin él, entrenar redes profundas sería inviable.",
     "Bias-variance tradeoff: el equilibrio central del ML. Un modelo muy simple falla por rígido (bias alto); uno muy complejo falla por inestable (varianza alta). El arte está en el punto medio.",
-    "Dropout: durante el entrenamiento se 'apagan' neuronas al azar en cada paso. Suena raro, pero obliga a la red a no depender de unas pocas conexiones y reduce el sobreajuste."
+    "Dropout: durante el entrenamiento se 'apagan' neuronas al azar en cada paso. Suena raro, pero obliga a la red a no depender de unas pocas conexiones y reduce el sobreajuste.",
+    "RLHF: aprendizaje por refuerzo con retroalimentación humana. Alinea a los LLM con lo que la gente considera útil y seguro usando preferencias humanas. Clave en ChatGPT, Gemini y Claude."
   ],
   "noticias": [
     {
-      "id": "668dd79640",
+      "id": "be8b33f7f6",
       "tema": "ia",
-      "titular_es": "Anthropic lanza Claude Opus 5, su nuevo modelo insignia",
-      "resumen": "Anthropic ha presentado oficialmente Claude Opus 5, su modelo más avanzado hasta la fecha. La compañía asegura que sus capacidades se acercan al rendimiento de rendimiento de Claude Fable 5 a un costo significativamente menor. El lanzamiento busca liderar el mercado empresarial en tareas complejas de razonamiento y programación.",
+      "titular_es": "Anthropic lanza Claude Opus 5, un modelo de IA más económico para tareas complejas",
+      "resumen": "Anthropic ha presentado oficialmente Claude Opus 5, diseñado para optimizar flujos de trabajo en código y agentes autónomos. La compañía asegura que ofrece un rendimiento cercano a su modelo insignia pero reduciendo los costos de operación a la mitad. El lanzamiento refleja cómo la competencia en IA se desplaza desde la potencia bruta hacia la viabilidad económica en el uso diario.",
       "relevancia": 10,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release",
-      "fuente": "theverge.com",
+      "url": "https://venturebeat.com/orchestration/anthropic-launches-claude-opus-5-a-cheaper-ai-model-for-coding-agents-and-enterprise-workflows",
+      "fuente": "venturebeat.com",
       "bandera": "🇺🇸",
       "tags": [
         "Anthropic",
         "Claude Opus 5",
-        "modelos de lenguaje"
+        "inteligencia artificial"
       ]
     },
     {
       "id": "1d031e62c1",
       "tema": "ia",
-      "titular_es": "EE.UU. anuncia la 'Misión Génesis' con US$ 5.000 millones para investigación en IA",
-      "resumen": "La administración estadounidense presentó una iniciativa masiva para financiar cientos de proyectos científicos impulsados por inteligencia artificial. El gobierno comparó el alcance y urgencia del proyecto con el histórico Programa Manhattan. Esta inversión pública busca acelerar descubrimientos estratégicos en biotecnología, energía y materiales.",
+      "titular_es": "El gobierno de EE. UU. destina 5.000 millones de dólares a la iniciativa de IA 'Genesis Mission'",
+      "resumen": "La administración estadounidense anunció las primeras subvenciones de la Misión Génesis para financiar proyectos científicos impulsados por IA. Con una urgencia comparada al Proyecto Manhattan, el programa busca acelerar la investigación científica mediante tecnología avanzada. El anuncio coincide con cambios estratégicos en las políticas de ciencia e innovación del país.",
       "relevancia": 9,
       "url": "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "gobierno EE.UU.",
-        "financiamiento",
-        "investigación"
+        "Gobierno EE.UU.",
+        "Genesis Mission",
+        "inversión"
       ]
     },
     {
-      "id": "ae0937817a",
-      "tema": "ia",
-      "titular_es": "OpenAI integra el control por voz 'full duplex' de GPT-Live en Codex y ChatGPT",
-      "resumen": "OpenAI incorporó su modelo de audio de baja latencia GPT-Live en las aplicaciones de escritorio de ChatGPT para macOS y Windows. Esto permite a los desarrolladores controlar el flujo de trabajo en Codex mediante voz mientras la IA escucha y habla de forma simultánea. Representa un paso clave hacia la programación sin manos mediante agentes conversacionales.",
-      "relevancia": 9,
-      "url": "https://venturebeat.com/orchestration/agentic-coding-goes-hands-free-as-openai-brings-gpt-lives-full-duplex-voice-control-to-codex-and-chatgpt-on-the-desktop",
-      "fuente": "venturebeat.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "OpenAI",
-        "programación",
-        "voz"
-      ]
-    },
-    {
-      "id": "3b492c2725",
+      "id": "07eccc4e8b",
       "tema": "emprendimiento",
-      "titular_es": "Microsoft lanza modelos propios de IA con costos hasta un 89% inferiores a OpenAI",
-      "resumen": "Microsoft presentó en vista previa sus nuevos modelos in-house MAI-Image-2.5-Pro y MAI-Voice-2-Flash orientados a cargas de trabajo empresariales masivas. La empresa hizo públicos datos de producción que demuestran reducciones de costos drásticas frente a alternativas del mercado. El movimiento intensifica la competencia interna dentro del ecosistema de socios de IA.",
+      "titular_es": "Prentis, la nueva startup de IA de Reid Hoffman y Mark Pincus, busca $100 millones",
+      "resumen": "El laboratorio de IA cofundado por Reid Hoffman y Mark Pincus se encuentra en negociaciones para levantar una ronda de inversión de $100 millones de dólares. La empresa apuesta a que la automatización de tareas informáticas rutinarias superará al desarrollo de código como el principal caso de uso de la IA. El proyecto ha captado un alto interés en Silicon Valley.",
       "relevancia": 9,
-      "url": "https://venturebeat.com/infrastructure/microsoft-launches-new-in-house-ai-models-it-says-cut-costs-up-to-89-versus-openai",
-      "fuente": "venturebeat.com",
+      "url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
+      "fuente": "techcrunch.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Microsoft",
-        "modelos de IA",
-        "costos"
+        "Prentis",
+        "capital de riesgo",
+        "startups"
       ]
     },
     {
       "id": "99400f6164",
       "tema": "ciencia",
-      "titular_es": "IA de Stanford descubre una molécula que actúa como 'Ozempic natural' sin efectos secundarios",
-      "resumen": "Investigadores de Stanford Medicine utilizaron modelos de IA para identificar la molécula BRP, capaz de suprimir el apetito actuando sobre zonas específicas del cerebro. En pruebas preliminares, el compuesto redujo el peso corporal con una eficacia similar a los fármacos GLP-1 pero sin causar las náuseas habituales. El hallazgo promete revolucionar los tratamientos contra la obesidad.",
+      "titular_es": "Científicos de Stanford usan IA y descubren una molécula similar al Ozempic sin sus efectos secundarios",
+      "resumen": "Un equipo de Stanford Medicine identificó mediante IA una molécula natural denominada BRP que suprime el apetito y ayuda a reducir el peso corporal. A diferencia de fármacos como el Ozempic, la molécula actúa en una región específica del cerebro vinculada al hambre sin provocar náuseas ni malestares digestivos. El hallazgo promete revolucionar los tratamientos contra la obesidad.",
       "relevancia": 9,
       "url": "https://www.sciencedaily.com/releases/2026/07/260719230608.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🇺🇸",
       "tags": [
         "Stanford",
-        "biotecnología",
-        "IA en salud"
-      ]
-    },
-    {
-      "id": "51f89d378e",
-      "tema": "ia",
-      "titular_es": "Nvidia, Microsoft y Meta advierten contra la sobre-regulación de modelos abiertos",
-      "resumen": "Los gigantes tecnológicos enviaron una carta conjunta a las autoridades de EE.UU. alertando sobre los riesgos de restringir los modelos de código abierto. Argumentan que un ecosistema libre es vital para mantener la competitividad económica de la nación frente a otros bloques globales. Advierten que regulaciones excesivas podrían sofocar la innovación en pequeños desarrolladores.",
-      "relevancia": 8,
-      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
-      "fuente": "cnbc.com (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Nvidia",
-        "regulación",
-        "código abierto"
+        "Ozempic",
+        "biomedicina"
       ]
     },
     {
       "id": "9e99a2ed73",
       "tema": "ia",
-      "titular_es": "Meta actualiza su chatbot de IA con integración de calendario y tareas asistidas",
-      "resumen": "Meta ha mejorado Meta AI añadiendo funciones de productividad diseñadas para competir directamente con ChatGPT y Gemini. El chatbot ahora puede sincronizarse con calendarios personales, generar resúmenes diarios y realizar investigaciones detalladas con instrucciones del usuario. La actualización busca convertir la herramienta en un asistente virtual completo.",
+      "titular_es": "Meta actualiza su asistente de IA con integración de calendario y búsquedas avanzadas",
+      "resumen": "Meta lanzó una importante actualización para su chatbot, permitiéndole conectarse al calendario del usuario para organizar eventos y generar resúmenes diarios. La herramienta también incorpora funciones de investigación guiada para competir directamente con ChatGPT, Claude y Gemini. La apuesta busca transformar la IA de Meta en un asistente personal de productividad.",
       "relevancia": 8,
       "url": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
       "fuente": "theverge.com",
@@ -129,100 +99,25 @@
       ]
     },
     {
-      "id": "e1105770fe",
-      "tema": "finanzas",
-      "titular_es": "Socios comerciales rechazan aranceles de EE.UU. justificados en trabajo forzado",
-      "resumen": "Principales socios comerciales de Estados Unidos cuestionaron la justificación legal utilizada por el gobierno de Trump para implementar nuevos aranceles globales. A pesar de los reclamos, la mayoría de los países afectados señalaron su disposición a mantener abiertas las negociaciones bilaterales. Los analistas advierten sobre el impacto de estas tarifas en las cadenas de suministro globales.",
+      "id": "872d902cc1",
+      "tema": "ia",
+      "titular_es": "Meta congela su plan de cobrar suscripción por la mejora de audio en sus gafas inteligentes",
+      "resumen": "Tras intensas críticas del público, Meta decidió pausar su plan de cobrar $20 dólares mensuales por una función de claridad de voz en sus gafas inteligentes. Los usuarios rechazaron el cobro dado que el procesamiento del audio se realiza localmente en el dispositivo sin requerir infraestructura en la nube. La empresa busca calmar las tensiones con los consumidores.",
       "relevancia": 8,
-      "url": "https://www.cnbc.com/2026/07/24/trump-global-tariffs-trade-imbalance-forced-labor.html",
-      "fuente": "cnbc.com",
+      "url": "https://www.theverge.com/tech/970970/after-backlash-meta-pauses-plan-to-rate-limit-its-smart-glasses",
+      "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "comercio internacional",
-        "aranceles",
-        "Donald Trump"
-      ]
-    },
-    {
-      "id": "f936bf7530",
-      "tema": "finanzas",
-      "titular_es": "CAF alista respaldo financiero para Perú y propone agenda de cielos abiertos",
-      "resumen": "El Banco de Desarrollo de América Latina (CAF) anunció un paquete de apoyo financiero orientado a proyectos estratégicos en Perú. Adicionalmente, el organismo propuso relanzar la integración andina mediante acuerdos de cielos abiertos, simplificación comercial y servicios financieros compartidos. La iniciativa busca dinamizar el intercambio económico en la región.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/economia/exclusiva-caf-alista-un-respaldo-financiero-para-peru-y-propone-una-mayor-integracion-andina/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇵🇪",
-      "tags": [
-        "CAF",
-        "Perú",
-        "integración andina"
-      ]
-    },
-    {
-      "id": "eb2646bd22",
-      "tema": "finanzas",
-      "titular_es": "Edenor presenta oferta irrevocable para adquirir el 70% de Metrogas en Argentina",
-      "resumen": "La distribuidora eléctrica Edenor, junto al grupo Andina PLC, formalizó una propuesta para comprar la participación mayoritaria que YPF posee en Metrogas. La noticia provocó una subida superior al 7% en la cotización bursátil de Edenor durante los últimos días. La operación reestructuraría el mapa energético del mercado público argentino.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/edenor-va-por-las-acciones-de-metrogas-que-vende-ypf-esto-informo-a-la-comision-nacional-de-valores/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇦🇷",
-      "tags": [
-        "Edenor",
-        "YPF",
-        "mercados"
-      ]
-    },
-    {
-      "id": "e4c9325872",
-      "tema": "finanzas",
-      "titular_es": "Acciones de Intel caen pese a lograr su mayor crecimiento de ingresos en 15 años",
-      "resumen": "A pesar de superar los pronósticos de facturación de Wall Street, la cotización de Intel cayó tras la presentación de sus resultados trimestrales. Los inversores expresan escepticismo sobre la capacidad del fabricante para rentabilizar su negocio de fundición frente a rivales de IA. El mercado exige pruebas claras de una recuperación de márgenes a largo plazo.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/mercados/por-que-caen-las-acciones-de-intel-si-tuvo-su-mayor-crecimiento-de-ingresos-en-15-anos/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Intel",
-        "semiconductores",
-        "acciones"
-      ]
-    },
-    {
-      "id": "9d081332b4",
-      "tema": "finanzas",
-      "titular_es": "El barril de Brent supera los US$100 y aviva temores de una escalada a US$120",
-      "resumen": "Las tensiones geopolíticas en Medio Oriente impulsaron el precio del crudo internacional por encima de los 100 dólares. Analistas evalúan el impacto que un petróleo a 120 dólares tendría en las presiones inflacionarias globales y las tasas de interés. Las economías latinoamericanas enfrentan escenarios mixtos entre ingresos fiscales e inflación energética.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/mercados/y-si-el-petroleo-vuelve-a-us120-escenarios-y-riesgos-para-los-mercados-y-america-latina/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": [
-        "petróleo",
-        "América Latina",
-        "mercados"
-      ]
-    },
-    {
-      "id": "d96bea7ced",
-      "tema": "finanzas",
-      "titular_es": "Se reactiva la deuda privada en Colombia con emisiones por COP$10 billones",
-      "resumen": "Tras meses de cautela por el contexto político, el mercado crediticio colombiano muestra un fuerte repunte con nueve entidades tramitando permisos ante la Superfinanciera. Las emisiones planificadas superan los 10 billones de pesos para el segundo semestre. El movimiento refleja un renovado apetito por financiamiento empresarial en la región.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/exclusiva-se-reactiva-el-mercado-de-deuda-privada-tras-elecciones-con-emisiones-por-cop10-billones/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇨🇴",
-      "tags": [
-        "Colombia",
-        "deuda privada",
-        "mercado de capitales"
+        "Meta",
+        "gafas inteligentes",
+        "hardware"
       ]
     },
     {
       "id": "7a28f08a49",
-      "tema": "finanzas",
-      "titular_es": "Qualcomm anuncia un aumento de precios de doble dígito en sus chips",
-      "resumen": "Qualcomm notificó a sus clientes que aplicará incrementos significativos en sus productos despachados a partir de septiembre. La compañía justificó la medida por la imposibilidad de seguir absorbiendo los mayores costos de fabricación y materias primas. Se prevé que el alza impacte directamente en los precios finales de teléfonos inteligentes y dispositivos electrónicos.",
+      "tema": "ia",
+      "titular_es": "Qualcomm anuncia un incremento de precios de dos dígitos en sus microchips",
+      "resumen": "Qualcomm notificó a sus clientes que subirá los precios de sus productos en un porcentaje de dos dígitos a partir de septiembre. La compañía justificó la medida afirmando que ha agotado su capacidad para absorber el incremento en los costos de producción. Este ajuste impactará directamente en los costos de fabricación de smartphones y dispositivos tecnológicos a nivel global.",
       "relevancia": 8,
       "url": "https://www.theverge.com/gadgets/970910/qualcomm-raising-prices-bloomberg",
       "fuente": "theverge.com",
@@ -234,10 +129,40 @@
       ]
     },
     {
+      "id": "8523fb49b1",
+      "tema": "ia",
+      "titular_es": "El CEO de Nvidia defiende un ecosistema abierto de IA para impulsar la economía",
+      "resumen": "Jensen Huang publicó su primera carta abierta en la plataforma X resaltando la importancia estratégica de la inteligencia artificial para Estados Unidos. El ejecutivo instó a las autoridades a evitar regulaciones restrictivas que frenen el ritmo de innovación. Aseguró que una arquitectura abierta permitirá llevar la IA a todos los sectores productivos.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/mercados/la-carta-con-la-que-jensen-huang-ceo-de-nvidia-debuto-en-x-la-ia-y-el-papel-de-eeuu/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "regulación"
+      ]
+    },
+    {
+      "id": "6dd5f2d4f0",
+      "tema": "emprendimiento",
+      "titular_es": "Midjourney concreta la compra de la aplicación de astrología Co-Star",
+      "resumen": "La startup de inteligencia artificial generativa Midjourney anunció la adquisición de Co-Star, una popular aplicación de astrología personalizada. Este movimiento representa la expansión de la compañía de imágenes hacia plataformas comunitarias y de estilo de vida. La operación demuestra cómo los generadores de IA buscan diversificar sus aplicaciones hacia el consumidor masivo.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Midjourney",
+        "Co-Star",
+        "adquisiciones"
+      ]
+    },
+    {
       "id": "436be49a96",
       "tema": "emprendimiento",
-      "titular_es": "El modelo Kimi K3 de la startup china Moonshot sacude a la industria de la IA",
-      "resumen": "El lanzamiento del modelo abierto Kimi por parte del laboratorio Moonshot generó alarma entre firmas e inversores de Silicon Valley. La eficiencia y alcance del desarrollo chino reavivaron el debate sobre la competitividad de las startups estadounidenses frente a alternativas globales. El caso resalta el vertiginoso avance de la IA fuera de Occidente.",
+      "titular_es": "El modelo Kimi K3 del laboratorio chino Moonshot genera revuelo en el sector de la IA",
+      "resumen": "El lanzamiento del modelo abierto Kimi de la startup china Moonshot generó una fuerte reacción en la industria estadounidense y Wall Street. El modelo demostró altas capacidades de procesamiento, reavivando el debate sobre la competitividad de las startups chinas frente a las gigantes norteamericanas. Al mismo tiempo, el evento coincidió con reportes de filtraciones de seguridad en modelos en desarrollo.",
       "relevancia": 8,
       "url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street/",
       "fuente": "techcrunch.com",
@@ -249,40 +174,100 @@
       ]
     },
     {
-      "id": "6dd5f2d4f0",
+      "id": "55a2f23163",
       "tema": "emprendimiento",
-      "titular_es": "Midjourney adquiere Co-Star para ingresar al mercado de aplicaciones móviles",
-      "resumen": "La popular startup de generación de imágenes por IA anunció la compra de Co-Star, una aplicación de astrología personalizada con millones de usuarios. La transacción marca el primer paso estratégico de Midjourney hacia nuevos sectores de consumo fuera de las herramientas puramente creativas. El monto financiero del acuerdo no fue revelado.",
+      "titular_es": "Elon Musk advierte a los inversores bajistas tras acumularse $25.000M en apuestas contra SpaceX",
+      "resumen": "Elon Musk lanzó una advertencia a los fondos de cobertura que mantienen posiciones cortas contra el ecosistema de SpaceX por un valor estimado de $25.000 millones de dólares. La tensión surge en vísperas de la presentación de métricas financieras de la compañía aeroespacial. La cifra refleja la alta especulación bursátil en torno a la valoración de la empresa privada.",
       "relevancia": 8,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition",
-      "fuente": "theverge.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-warns-short-sellers-112039197.html",
+      "fuente": "finance.yahoo.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Midjourney",
-        "adquisición",
-        "startups"
+        "SpaceX",
+        "Elon Musk",
+        "mercados"
       ]
     },
     {
-      "id": "6f3dc14cb1",
-      "tema": "ciencia",
-      "titular_es": "Logran trasplantar con éxito riñones congelados mediante superenfriamiento",
-      "resumen": "Un equipo científico alcanzó un hito histórico al conservar riñones mediante técnicas de superenfriamiento y trasplantarlos en cerdos sin pérdida de función. El avance permite extender el tiempo de viabilidad de los órganos fuera del cuerpo de unas pocas horas a varios días. El método abre la puerta a la creación de bancos globales de órganos para pacientes en lista de espera.",
+      "id": "e4c9325872",
+      "tema": "finanzas",
+      "titular_es": "Las acciones de Intel caen a pesar de registrar su mayor crecimiento de ingresos en 15 años",
+      "resumen": "Intel reportó un sólido incremento en sus ingresos trimestrales, pero Wall Street reaccionó con una baja en el precio de sus acciones. El mercado mantiene dudas sobre la capacidad del fabricante para convertir la demanda de IA y su negocio de fundición en una rentabilidad sostenible a largo plazo. Las altas inversiones en infraestructura continúan pesando sobre los márgenes de la empresa.",
       "relevancia": 8,
-      "url": "https://www.technologyreview.com/2026/07/24/1140776/the-download-organ-transplant-breakthrough-chinese-chips/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
+      "url": "https://www.bloomberglinea.com/mercados/por-que-caen-las-acciones-de-intel-si-tuvo-su-mayor-crecimiento-de-ingresos-en-15-anos/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇺🇸",
       "tags": [
-        "trasplantes",
-        "medicina",
-        "biotecnología"
+        "Intel",
+        "resultados financieros",
+        "bolsa"
+      ]
+    },
+    {
+      "id": "5dc97cf48d",
+      "tema": "finanzas",
+      "titular_es": "Google y Tesla pierden medio billón de dólares en valor de mercado en una semana",
+      "resumen": "Una intensa ola de ventas borró $500.000 millones de dólares en capitalización bursátil combinada entre Alphabet y Tesla durante los últimos días. Mientras las acciones de los gigantes caían, los proveedores e intermediarios aprovecharon la volatilidad para tomar ganancias. El ajuste evidencia el recelo de los inversores ante los retornos de inversión en sectores tecnológicos.",
+      "relevancia": 8,
+      "url": "https://finance.yahoo.com/markets/article/google-and-tesla-lost-half-a-trillion-dollars-this-week-as-their-suppliers-cashed-in-chart-of-the-day-121403846.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Google",
+        "Tesla",
+        "mercado bursátil"
+      ]
+    },
+    {
+      "id": "ca8cdc0fee",
+      "tema": "finanzas",
+      "titular_es": "Banco Santander alcanza resultados récord en 2026 y fortalece su cotización en bolsa",
+      "resumen": "El Banco Santander reportó beneficios récord impulsados por el crecimiento de su negocio bancario recurrente en sus principales mercados. Las firmas de análisis reiteraron su recomendación positiva sobre el título respaldando el cumplimiento de sus objetivos financieros para 2026. La solidez operativa ha permitido a la entidad sostener su rendimiento bursátil.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/mercados/evolucion-de-las-acciones-de-santander-en-2026-resultados-record-y-que-esperan-los-analistas/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇪🇸",
+      "tags": [
+        "Santander",
+        "banca",
+        "resultados"
+      ]
+    },
+    {
+      "id": "eb2646bd22",
+      "tema": "finanzas",
+      "titular_es": "Edenor presenta una oferta para comprar la participación de YPF en Metrogas",
+      "resumen": "La distribuidora eléctrica Edenor formalizó una oferta irrevocable en conjunto con Andina PLC para adquirir el 70% de Metrogas, actualmente en manos de YPF. La noticia impulsó las acciones de Edenor con una suba superior al 7% en la bolsa de Buenos Aires durante los últimos días. La operación busca consolidar un gran conglomerado energético en Argentina.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/edenor-va-por-las-acciones-de-metrogas-que-vende-ypf-esto-informo-a-la-comision-nacional-de-valores/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇦🇷",
+      "tags": [
+        "Edenor",
+        "YPF",
+        "Metrogas"
+      ]
+    },
+    {
+      "id": "f936bf7530",
+      "tema": "finanzas",
+      "titular_es": "CAF prepara respaldo financiero para Perú y promueve la integración económica andina",
+      "resumen": "El Banco de Desarrollo de América Latina (CAF) alista un paquete de financiamiento para proyectos de infraestructura en Perú. Paralelamente, la entidad propuso relanzar la integración andina mediante una agenda que abarca cielos abiertos, simplificación comercial y servicios financieros transfronterizos. La propuesta busca dinamizar el comercio regional.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/economia/exclusiva-caf-alista-un-respaldo-financiero-para-peru-y-propone-una-mayor-integracion-andina/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇵🇪",
+      "tags": [
+        "CAF",
+        "Perú",
+        "integración regional"
       ]
     },
     {
       "id": "496d9d0bf0",
       "tema": "ciencia",
-      "titular_es": "Descubren un compuesto de azufre que estimula la reparación del músculo envejecido",
-      "resumen": "Científicos identificaron que el compuesto 'LASSS' protege y potencia una proteína clave encargada de regenerar el tejido muscular dañado por la edad. Los ensayos sugieren que el tratamiento podría combatir la sarcopenia y preservar la fuerza en adultos mayores. El hallazgo sienta las bases para nuevas terapias contra el deterioro físico.",
+      "titular_es": "Descubren un compuesto sulfurado que promueve la reparación muscular en la vejez",
+      "resumen": "Investigadores identificaron que el compuesto LASSS protege y potencia la función de una proteína clave en la regeneración de tejidos musculares dañados. El avance podría permitir el desarrollo de terapias para frenar la sarcopenia y preservar la fuerza en adultos mayores. Los resultados preliminares abren nuevas vías en la investigación sobre longevidad.",
       "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/07/260724061432.htm",
       "fuente": "sciencedaily.com",
@@ -296,151 +281,166 @@
     {
       "id": "eec4e260e8",
       "tema": "ciencia",
-      "titular_es": "Un nuevo antiviral oral logra detener la transmisión del sarampión en laboratorio",
-      "resumen": "Una píldora experimental demostró ser efectiva para prevenir el contagio del virus del sarampión por vía aérea en ensayos con animales. Administrado antes o poco después de la exposición, el fármaco acortó la severidad de la enfermedad y el periodo de contagio. La herramienta podría ser vital para contener brotes epidémicos repentinos.",
+      "titular_es": "Un nuevo antiviral oral logra frenar la propagación del sarampión en ensayos",
+      "resumen": "Un medicamento experimental en píldora logró prevenir la transmisión aérea y por contacto estrecho de un virus similar al sarampión en pruebas de laboratorio. El fármaco demostró eficacia al administrarse antes o poco después de la exposición, reduciendo además el tiempo de contagio. El desarrollo podría convertirse en una herramienta clave para controlar brotes epidémicos.",
       "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/07/260724061431.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
       "tags": [
-        "farmacología",
-        "virología",
+        "medicina",
+        "antivirales",
         "salud pública"
       ]
     },
     {
-      "id": "4a8e291d43",
+      "id": "0ad2f37661",
       "tema": "ciencia",
-      "titular_es": "El gen APOE2 demuestra proteger las neuronas contra el alzhéimer",
-      "resumen": "Estudios genéticos revelaron que la variante génica APOE2 reduce el daño en el ADN celular y acelera la recuperación del estrés en neuronas cerebrales. Este mecanismo natural de defensa explica por qué los portadores sufren significativamente menos deterioro cognitivo. El descubrimiento permitirá diseñar fármacos que imiten las propiedades protectoras del gen.",
+      "titular_es": "Avanzan tecnologías para mantener órganos viables fuera del cuerpo humano",
+      "resumen": "Nuevas investigaciones buscan extender el tiempo de preservación de órganos donados más allá de las pocas horas que resisten actualmente en hielo. Los avances en perfusión y conservación abren la posibilidad de crear bancos de órganos para trasplantes. Este desarrollo técnico podría reducir drásticamente las listas de espera en los hospitales.",
       "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260723084856.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇺🇸",
+      "url": "https://www.technologyreview.com/2026/07/24/1140790/the-quest-to-keep-organs-alive-outside-the-body/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
       "tags": [
-        "genética",
-        "alzhéimer",
-        "neurociencia"
-      ]
-    },
-    {
-      "id": "dbc7e2df92",
-      "tema": "ciencia",
-      "titular_es": "Suecia cataloga yacimientos de tierras raras para reducir la dependencia de China",
-      "resumen": "Geólogos en Suecia están mapeando depósitos minerales complejos para desarrollar imanes de alta tecnología a partir de combinaciones naturales de elementos. La iniciativa busca crear cadenas de suministro europeas independientes para la producción de vehículos eléctricos y turbinas eólicas. El proyecto es visto como estratégico para la transición energética del continente.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260723084055.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇸🇪",
-      "tags": [
-        "Suecia",
-        "tierras raras",
-        "tecnología verde"
-      ]
-    },
-    {
-      "id": "96146cd188",
-      "tema": "ciencia",
-      "titular_es": "La sonda china Tianwen-1 fotografía el cometa interestelar 3I/ATLAS cerca de Marte",
-      "resumen": "El orbitador marciano chino capturó imágenes detalladas de la cabellera y cola del cometa interestelar 3I/ATLAS durante su paso cercano al planeta rojo. Es la primera vez que una nave en Marte registra un objeto proveniente de fuera del sistema solar. Los datos permitirán analizar la composición química de materiales formados en otros sistemas estelares.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260723084052.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇨🇳",
-      "tags": [
-        "China",
-        "exploración espacial",
-        "cometas"
+        "trasplantes",
+        "biomedicina",
+        "tecnología"
       ]
     },
     {
       "id": "9a01a23679",
       "tema": "ciencia",
-      "titular_es": "Utilizan AlphaFold para rediseñar proteínas CRISPR y hacerlas más precisas",
-      "resumen": "Un equipo de investigadores empleó la herramienta de IA AlphaFold para identificar y corregir regiones en proteínas de edición genética que causaban cortes no deseados en el ADN. El rediseño estructural redujo drásticamente las mutaciones secundarias no planificadas. Este avance incrementa la seguridad de las terapias génicas antes de sus ensayos clínicos en humanos.",
+      "titular_es": "Utilizan la IA AlphaFold para rediseñar proteínas CRISPR y mejorar la precisión genética",
+      "resumen": "Un equipo científico empleó AlphaFold de Google para identificar las regiones de las proteínas de edición genética responsables de cometer errores fuera de objetivo. El rediseño estructural de estas moléculas permitió incrementar la precisión de la técnica CRISPR y reducir riesgos no deseados. El estudio acerca la edición genética a aplicaciones clínicas más seguras.",
       "relevancia": 8,
       "url": "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer/",
       "fuente": "arstechnica.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Google",
         "AlphaFold",
-        "edición genética"
+        "CRISPR",
+        "genética"
       ]
     },
     {
-      "id": "27b0ad2998",
+      "id": "dbc6f46ad5",
       "tema": "ia",
-      "titular_es": "Alexa Plus se actualiza con IA para procesar comandos de voz complejos",
-      "resumen": "Amazon comenzó a desplegar una vista previa de Alexa Plus capaz de interactuar de forma más inteligente con ecosistemas del hogar conectado. El nuevo modelo admite comandos compuestos y se integra nativamente con dispositivos de marcas como Bosch, Eufy, Yale y iRobot. Con esta mejora, Amazon intenta revitalizar el uso de sus altavoces inteligentes.",
+      "titular_es": "Roku incrementa hasta $50 dólares el precio de sus reproductores de streaming",
+      "resumen": "Roku aplicó un alza generalizada en los precios de su línea de reproductores de streaming, fijando el modelo básico HD en $39,99 dólares. Algunos dispositivos de gama más alta sufrieron incrementos de hasta $50 dólares respecto a su valor anterior. El ajuste responde a presiones en la cadena de suministro y cambios en los márgenes del sector de hardware.",
       "relevancia": 7,
-      "url": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
+      "url": "https://www.theverge.com/streaming/970814/roku-streaming-price-increase",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Amazon",
-        "hogar inteligente",
-        "asistente de voz"
+        "Roku",
+        "hardware",
+        "streaming"
       ]
     },
     {
-      "id": "a2e5b03f67",
+      "id": "75dd439a94",
       "tema": "finanzas",
-      "titular_es": "Desarrollan el indicador 'TACO' para prever la política energética de EE.UU.",
-      "resumen": "La firma Signum Global Advisors creó un índice matemático que monitorea el precio del petróleo, bonos y tráfico marítimo para anticipar giros geopolíticos. El modelo intenta predecir decisiones estratégicas de Donald Trump frente a las tensiones con Irán. La herramienta busca ofrecer a los operadores bursátiles una ventaja analítica en momentos de volatilidad.",
+      "titular_es": "Wall Street cierra una semana volátil marcada por la IA, el petróleo y los aranceles",
+      "resumen": "Los principales índices bursátiles de Nueva York concluyeron una semana de fuertes oscilaciones a la espera de las decisiones de la Reserva Federal. A pesar de una baja en los precios del petróleo, la incertidumbre en el sector tecnológico y las probables medidas arancelarias mantuvieron a los inversores cautos. La tensión geopolítica con Irán también influyó en el ánimo del mercado.",
       "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/mercados/taco-asi-es-la-formula-matematica-que-intenta-anticipar-el-proximo-giro-de-trump-con-iran/",
+      "url": "https://www.bloomberglinea.com/mercados/wall-street-opera-mixto-entre-el-alivio-del-petroleo-y-nuevos-riesgos-por-iran-y-los-aranceles/",
       "fuente": "bloomberglinea.com",
       "bandera": "🇺🇸",
       "tags": [
-        "petróleo",
-        "geopolítica",
-        "EE.UU."
+        "Wall Street",
+        "mercados",
+        "petróleo"
       ]
     },
     {
-      "id": "7c032e5d2b",
-      "tema": "emprendimiento",
-      "titular_es": "Encuestas revelan fallas críticas en la gobernanza de agentes de IA empresariales",
-      "resumen": "Un informe de VentureBeat Research reveló que la mayoría de las empresas han desplegado agentes de IA de forma apresurada sin los controles de seguridad requeridos. A pesar de conocer los riesgos de privacidad y ejecución, las organizaciones priorizaron la velocidad sobre la gobernanza. Ahora, el sector de startups de ciberseguridad busca ofrecer soluciones de auditoría reactivas.",
+      "id": "ebbdf93abe",
+      "tema": "finanzas",
+      "titular_es": "GE Aerospace supera pronósticos trimestrales pero su cotización vuelve a caer",
+      "resumen": "GE Aerospace presentó resultados financieros por encima de las estimaciones del consenso, pero sus acciones sufrieron su tercera caída consecutiva. La cautela de los inversores responde a los crecientes costos operativos y las persistentes restricciones en la cadena de suministros aeronáutica. La empresa reiteró sus metas anuales de producción.",
       "relevancia": 7,
-      "url": "https://venturebeat.com/technology/venturebeat-research-where-enterprise-ai-agent-governance-hasnt-caught-up",
-      "fuente": "venturebeat.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ge-aerospace-ge-just-beat-112946138.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "GE Aerospace",
+        "aviación",
+        "resultados"
+      ]
+    },
+    {
+      "id": "1b34bf047a",
+      "tema": "finanzas",
+      "titular_es": "Micron se revaloriza gracias a la IA aunque persisten dudas sobre la duración del ciclo",
+      "resumen": "El fabricante de memorias Micron experimentó un ajuste al alza en su valoración bursátil impulsado por la demanda de chips de alto ancho de banda para IA. Sin embargo, analistas del mercado debaten si este superciclo podrá sostenerse ante eventuales fluctuaciones en los pedidos de los grandes centros de datos. La cotización refleja la alta volatilidad del sector.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-ai-repricing-real-market-114136142.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Micron",
+        "semiconductores",
+        "IA"
+      ]
+    },
+    {
+      "id": "49f5585f28",
+      "tema": "ciencia",
+      "titular_es": "Hannah Fry gana el Premio Leelavati 2026 por su labor en divulgación matemática",
+      "resumen": "La matemática y divulgadora británica Hannah Fry fue distinguida con el prestigioso Premio Leelavati 2026 por su contribución al entendimiento público de las matemáticas. El jurado destacó su habilidad para explicar conceptos complejos a audiencias masivas a través de libros y programas. El galardón es uno de los mayores reconocimientos globales en educación científica.",
+      "relevancia": 7,
+      "url": "https://www.maths.cam.ac.uk/features/professor-hannah-fry-wins-leelavati-prize",
+      "fuente": "maths.cam.ac.uk (vía HN)",
+      "bandera": "🇬🇧",
+      "tags": [
+        "matemáticas",
+        "premios",
+        "divulgación"
+      ]
+    },
+    {
+      "id": "0fb2271a29",
+      "tema": "ciencia",
+      "titular_es": "Presentan el satélite robótico de servicio espacial más avanzado hasta la fecha",
+      "resumen": "Ingenieros espaciales revelaron los detalles del satélite de servicio robótico más sofisticado construido hasta el momento, diseñado para reparar y reabastecer naves en órbita. Las operaciones de acoplamiento autónomo en el espacio representan uno de los desafíos más complejos de la ingeniería aeroespacial. La tecnología busca extender la vida útil de la infraestructura satelital existente.",
+      "relevancia": 7,
+      "url": "https://arstechnica.com/space/2026/07/this-is-the-worlds-most-advanced-robotic-servicing-satellite-that-we-know-about/",
+      "fuente": "arstechnica.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "espacio",
+        "satélites",
+        "robótica"
+      ]
+    },
+    {
+      "id": "8340ff0cb3",
+      "tema": "ciencia",
+      "titular_es": "Relativity Space proyecta una nueva fábrica de cohetes cerca de Cabo Cañaveral",
+      "resumen": "La empresa aeroespacial Relativity Space anunció sus planes para edificar una segunda planta de producción de cohetes en las proximidades de Cabo Cañaveral, Florida. La instalación permitirá acelerar la producción de vectores orbitales mediante impresión 3D a gran escala. El anuncio se produce en un momento de gran actividad en el sector de lanzamientos espaciales.",
+      "relevancia": 7,
+      "url": "https://arstechnica.com/space/2026/07/rocket-report-lightning-strikes-in-china-starship-launch-on-deck/",
+      "fuente": "arstechnica.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Relativity Space",
+        "cohetes",
+        "espacio"
+      ]
+    },
+    {
+      "id": "7ae7008a64",
+      "tema": "ciencia",
+      "titular_es": "Descubren que los cachalotes expulsan burbujas de aire para dormir en posición vertical",
+      "resumen": "Biólogos marinos documentaron cómo los cachalotes liberan burbujas de aire para ajustar su flotabilidad y lograr un descanso vertical profundo. El comportamiento permite a estos cetáceos optimizar el consumo de energía mientras permanecen inmóviles cerca de la superficie. El hallazgo arroja nueva luz sobre las adaptaciones fisiológicas de los mamíferos marinos.",
+      "relevancia": 6,
+      "url": "https://news.st-andrews.ac.uk/archive/sperm-whales-blow-bubbles-to-achieve-restful-vertical-sleep/",
+      "fuente": "news.st-andrews.ac.uk (vía HN)",
       "bandera": "🌍",
       "tags": [
-        "agentes de IA",
-        "seguridad",
-        "empresas"
-      ]
-    },
-    {
-      "id": "68886b8a1b",
-      "tema": "emprendimiento",
-      "titular_es": "TechCrunch y Stripe llevan la competencia Startup Battlefield a Australia",
-      "resumen": "La prestigiosa competencia de emprendimiento emergente anunció su desembarco en Australia en alianza con la plataforma de pagos Stripe. El evento busca identificar y financiar a las startups en fase inicial más prometedoras de la región de Oceanía. Las empresas ganadoras obtendrán acceso a inversores globales y capital semilla.",
-      "relevancia": 7,
-      "url": "https://techcrunch.com/2026/07/23/meet-the-judges-who-will-crown-australias-next-breakout-startup/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇦🇺",
-      "tags": [
-        "TechCrunch",
-        "Stripe",
-        "startups"
-      ]
-    },
-    {
-      "id": "43845dad43",
-      "tema": "emprendimiento",
-      "titular_es": "Reportan ataque militar contra un centro de datos de Amazon en Baréin",
-      "resumen": "Fuerzas militares de la Guardia Revolucionaria de Irán afirmaron haber destruido infraestructura clave de Amazon Web Services ubicada en Baréin. El incidente resalta la vulnerabilidad de la infraestructura de la nube frente a conflictos geopolíticos armados en la región. Las empresas de tecnología evalúan planes de contingencia para mitigar interrupciones críticas.",
-      "relevancia": 7,
-      "url": "https://houseofsaud.com/irgc-claims-destroyed-amazon-bahrain-data-center/",
-      "fuente": "houseofsaud.com (vía HN)",
-      "bandera": "🇧🇭",
-      "tags": [
-        "Amazon Web Services",
-        "seguridad",
-        "ciberataque"
+        "biología marina",
+        "cachalotes",
+        "fauna"
       ]
     }
   ]
