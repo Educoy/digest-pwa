@@ -1,6 +1,6 @@
 {
   "fecha": "2026-07-26",
-  "generado_utc": "2026-07-26T13:23:16Z",
+  "generado_utc": "2026-07-26T20:47:57Z",
   "indicadores": {
     "dolar": {
       "valor": 946.24,
@@ -13,7 +13,7 @@
       "variacion_pct": 0.0
     }
   },
-  "noticia_del_dia": "7d2d21f0d7",
+  "noticia_del_dia": "c72648667b",
   "pildora_ia": "Backpropagation: el método que reparte la 'culpa' del error entre todos los parámetros de una red, capa por capa, para saber cómo ajustar cada uno. Sin él, entrenar redes profundas sería inviable.",
   "pildoras_ia": [
     "Backpropagation: el método que reparte la 'culpa' del error entre todos los parámetros de una red, capa por capa, para saber cómo ajustar cada uno. Sin él, entrenar redes profundas sería inviable.",
@@ -24,295 +24,310 @@
   ],
   "noticias": [
     {
-      "id": "7d2d21f0d7",
-      "tema": "ia",
-      "titular_es": "DeepSeek pausa su ronda de inversión tras filtrarse declaraciones sobre la brecha computacional con EE. UU.",
-      "resumen": "La startup china de inteligencia artificial DeepSeek ha suspendido temporalmente su proceso de recaudación de fondos tras la filtración de una transcripción. En el documento, directivos admitían una brecha significativa en potencia de cálculo respecto a las empresas estadounidenses. La noticia genera incertidumbre sobre el avance del sector de IA en China frente a las restricciones de hardware.",
-      "relevancia": 9,
-      "url": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
-      "fuente": "github.com (vía HN)",
-      "bandera": "🇨🇳",
+      "id": "c72648667b",
+      "tema": "finanzas",
+      "titular_es": "Google invierte 490 millones diarios en IA y sufre su primer trimestre negativo",
+      "resumen": "Alphabet reportó un gasto masivo en infraestructura de inteligencia artificial que alcanzó los 5.900 millones de dólares en pérdidas de efectivo.\nSe trata del primer trimestre con flujo de caja negativo para la compañía desde su salida a bolsa.\nEl mercado analiza el impacto de estas inversiones récord en sus márgenes operativos futuros.",
+      "relevancia": 10,
+      "url": "https://finance.yahoo.com/technology/ai/articles/google-spent-490-million-day-163000234.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
       "tags": [
-        "DeepSeek",
-        "inteligencia artificial",
-        "inversión"
+        "Google",
+        "IA",
+        "resultados"
+      ]
+    },
+    {
+      "id": "6cf169cd95",
+      "tema": "finanzas",
+      "titular_es": "Google revela una participación de 94.100 millones de dólares en SpaceX",
+      "resumen": "Alphabet reveló públicamente el valor actual de su participación del 6% en la empresa aeroespacial SpaceX.\nLa inversión inicial realizada en 2015 se ha multiplicado exponencialmente en los últimos años.\nEl anuncio subraya la consolidación financiera de SpaceX en el mercado privado global.",
+      "relevancia": 9,
+      "url": "https://www.wsj.com/tech/google-discloses-94-1-billion-in-spacex-stock-marking-6-stake-91655d7c",
+      "fuente": "wsj.com (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Google",
+        "SpaceX",
+        "inversiones"
+      ]
+    },
+    {
+      "id": "30ba8e1454",
+      "tema": "ciencia",
+      "titular_es": "Uso de CRISPR permite que la inmunoterapia combata el cáncer de próstata",
+      "resumen": "Un equipo científico utilizó edición genética CRISPR para hacer vulnerables al sistema inmunológico células tumorales prostáticas antes resistentes.\nEn ensayos con modelos animales, el tratamiento experimental multiplicó la eficacia de las inmunoterapias existentes.\nEl avance ofrece un prometedor camino de desarrollo clínico para tumores sólidos de difícil abordaje.",
+      "relevancia": 9,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260726015250.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "CRISPR",
+        "oncología",
+        "biotecnología"
+      ]
+    },
+    {
+      "id": "f8bbda6d7d",
+      "tema": "finanzas",
+      "titular_es": "La producción de petróleo en Argentina se dispara con nuevos récords en Vaca Muerta",
+      "resumen": "La cuenca no convencional de Vaca Muerta alcanzó niveles récord de extracción de crudo y gas en Argentina.\nEl incremento impulsa de forma decisiva la balanza comercial energética del país sudamericano.\nEl fenómeno atrae mayores compromisos de inversión privada y consolida el perfil exportador regional.",
+      "relevancia": 8,
+      "url": "https://finance.yahoo.com/energy/articles/argentina-oil-production-soars-vaca-190000618.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇦🇷",
+      "tags": [
+        "Argentina",
+        "Vaca Muerta",
+        "petróleo"
+      ]
+    },
+    {
+      "id": "8422f71da5",
+      "tema": "finanzas",
+      "titular_es": "El fundador de Mobileye renuncia tras reportar sólidos resultados financieros",
+      "resumen": "Las acciones de la firma de conducción autónoma cayeron tras anunciarse la salida repentina de su fundador.\nA pesar de la reacción del mercado, analistas consideran la transición ejecutiva como un reinicio estratégico y no una alerta.\nLa compañía mantiene proyecciones financieras sólidas y una posición firme en tecnología vehicular.",
+      "relevancia": 8,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mobileye-stock-down-despite-strong-140002566.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇮🇱",
+      "tags": [
+        "Mobileye",
+        "conducción autónoma",
+        "mercados"
       ]
     },
     {
       "id": "d3a894a486",
       "tema": "finanzas",
       "titular_es": "Moody’s eleva la calificación crediticia de cinco empresas argentinas de infraestructura",
-      "resumen": "La agencia Moody's Ratings aumentó la nota de riesgo a cinco compañías clave del sector de infraestructura en Argentina. La decisión es una consecuencia directa de la reciente mejora en la calificación macroeconómica soberana del país. Esto facilita el acceso a financiamiento internacional para proyectos energéticos y de transporte.",
-      "relevancia": 9,
+      "resumen": "La agencia Moody’s Ratings mejoró las notas de crédito corporativo para cinco firmas clave del sector infraestructural en Argentina.\nLa decisión responde directamente a la mejora en el escenario macroeconómico y el riesgo soberano del país.\nEl ajuste facilitará el acceso a financiamiento internacional para proyectos de energía y transporte.",
+      "relevancia": 8,
       "url": "https://www.bloomberglinea.com/latinoamerica/argentina/moodys-sube-la-nota-de-cinco-empresas-de-infraestructura-por-el-nuevo-escenario-macro-argentino/",
       "fuente": "bloomberglinea.com",
       "bandera": "🇦🇷",
       "tags": [
         "Moody's",
         "Argentina",
-        "infraestructura"
+        "calificaciones"
       ]
     },
     {
-      "id": "9f1c697c2a",
-      "tema": "emprendimiento",
-      "titular_es": "The Boring Company negocia una nueva ronda de inversión que la valoraría en 20.000 millones de dólares",
-      "resumen": "La empresa de túneles y transporte subterráneo fundada por Elon Musk busca cerrar un nuevo financiamiento multimillonario. De concretarse, la valoración de la compañía alcanzaría los 20.000 millones de dólares a pesar de los retrasos en varios proyectos comerciales. La noticia destaca el continuo apetito de los inversores por las empresas del ecosistema de Musk.",
-      "relevancia": 9,
-      "url": "https://techcrunch.com/2026/07/25/elon-musks-boring-company-reportedly-raising-funding-at-a-20-billion-valuation/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Boring Company",
-        "Elon Musk",
-        "startups"
-      ]
-    },
-    {
-      "id": "e8050cd78e",
-      "tema": "ciencia",
-      "titular_es": "SpaceX intentará capturar la nave Starship con la torre de lanzamiento en su próximo vuelo",
-      "resumen": "Tras el éxito de su décima tercera prueba de vuelo, SpaceX planea atrapar la etapa superior de Starship usando los brazos mecánicos de la torre de lanzamiento. El objetivo es acelerar la reutilización completa y rápida de todo el sistema de transporte espacial. El hito marcaría un avance sin precedentes en la ingeniería aeroespacial moderna.",
-      "relevancia": 9,
-      "url": "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight/",
-      "fuente": "arstechnica.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "SpaceX",
-        "Starship",
-        "aeroespacial"
-      ]
-    },
-    {
-      "id": "30ba8e1454",
-      "tema": "ciencia",
-      "titular_es": "Utilizan CRISPR para lograr que el cáncer de próstata sea vulnerable a la inmunoterapia",
-      "resumen": "Investigadores aplicaron la herramienta de edición genética CRISPR para hacer invisibles las defensas de las células tumorales prostáticas frente al sistema inmune. En ensayos con ratones, la combinación logró restaurar completamente la eficacia de los tratamientos de inmunoterapia. Este avance científico abre la puerta a ensayos clínicos en tumores históricamente resistentes.",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260726015250.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "CRISPR",
-        "cáncer",
-        "biotecnología"
-      ]
-    },
-    {
-      "id": "6ebeb4cd06",
-      "tema": "ciencia",
-      "titular_es": "Una sola dosis de rapamicina revierte síntomas del autismo en ratones adultos en pocas horas",
-      "resumen": "Científicos descubrieron que una única administración del fármaco rapamicina redujo la hipersensibilidad sensorial y conductas repetitivas en ratones con alteraciones del desarrollo cerebral. Los síntomas, provocados por inflamación prenatal, disminuyeron sustancialmente a las dos horas del tratamiento. Aunque el efecto fue temporal, abre nuevas vías para entender la plasticidad cerebral en adultos.",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260724061436.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "neurociencia",
-        "farmacología",
-        "medicina"
-      ]
-    },
-    {
-      "id": "22d9f015cb",
+      "id": "eecacd53fa",
       "tema": "ia",
-      "titular_es": "Google confirma indirectamente que el Pixel 11 tendrá un incremento de precio",
-      "resumen": "Un alto ejecutivo de dispositivos de Google sugirió en una entrevista que el próximo Pixel 11 superará el precio del modelo anterior. El alza respondería a la escasez y encarecimiento de la memoria RAM, provocado por la alta demanda en centros de datos de IA. La medida refleja cómo la presión de la infraestructura de IA empieza a encarecer la tecnología de consumo.",
+      "titular_es": "Apple presentará sus gafas inteligentes con foco central en la privacidad",
+      "resumen": "Apple planea revelar sus primeras gafas inteligentes en la conferencia WWDC de junio, con un lanzamiento previsto hacia 2027.\nLa compañía busca diferenciarse de rivales como Meta mediante una sólida arquitectura de privacidad de datos.\nEl retraso en el desarrollo responde a los rigurosos estándares de seguridad y mensaje que busca proyectar.",
       "relevancia": 8,
-      "url": "https://www.theverge.com/tech/971041/google-confirms-pixel-11-price-hike",
+      "url": "https://www.theverge.com/tech/971101/apple-smart-glasses-privacy",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Google",
-        "Pixel",
-        "hardware"
+        "Apple",
+        "gafas inteligentes",
+        "privacidad"
       ]
     },
     {
-      "id": "c13d670732",
+      "id": "4a6649cdae",
       "tema": "ia",
-      "titular_es": "Cloudflare presenta nuevas herramientas para gestionar el tráfico de inteligencia artificial",
-      "resumen": "Cloudflare ha lanzado un conjunto de opciones diseñadas para que los administradores de sitios web controlen el acceso de rastreadores de IA. La solución permite bloquear, monetizar o autorizar el raspado de datos por parte de modelos de lenguaje en tiempo real. Esto otorga mayor control a los creadores de contenido sobre el uso no autorizado de su información.",
+      "titular_es": "EE. UU. procesa penalmente a un ciudadano por borrar su teléfono en la frontera",
+      "resumen": "La fiscalía federal acusa a un ciudadano estadounidense por ingresar una contraseña de pánico que borró su celular al ser confiscado.\nEl incidente en el aeropuerto de Atlanta abre un preocupante precedente legal sobre privacidad y encriptación en las fronteras.\nOrganizaciones de derechos civiles advierten sobre el abuso de autoridad en la inspección de dispositivos personales.",
       "relevancia": 8,
-      "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
-      "fuente": "blog.cloudflare.com (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Cloudflare",
-        "inteligencia artificial",
-        "ciberseguridad"
-      ]
-    },
-    {
-      "id": "6e860f05df",
-      "tema": "ia",
-      "titular_es": "Consiguen ejecutar un modelo de lenguaje de 28,9 millones de parámetros en un microcontrolador de 8 dólares",
-      "resumen": "Un proyecto de ingeniería logró adaptar y correr un LLM compacto en un chip económico de bajo consumo de tan solo 8 dólares. El avance demuestra la viabilidad de desplegar modelos de lenguaje directamente en dispositivos embebidos sin depender de la nube. Esto abre amplias oportunidades para la automatización local y la privacidad en Internet de las Cosas (IoT).",
-      "relevancia": 8,
-      "url": "https://github.com/slvDev/esp32-ai",
-      "fuente": "github.com (vía HN)",
-      "bandera": "🌍",
-      "tags": [
-        "microcontroladores",
-        "LLM",
-        "edge computing"
-      ]
-    },
-    {
-      "id": "59618d4219",
-      "tema": "ia",
-      "titular_es": "Lanzan Inflect-Micro-v2: un modelo de voz completo con solo 9,36 millones de parámetros",
-      "resumen": "Se presentó un nuevo modelo generativo de voz capaz de sintetizar audio de alta calidad con un tamaño extremadamente reducido de 9,36 millones de parámetros. Su arquitectura ligera permite un procesamiento ultra rápido en dispositivos de limitados recursos informáticos. Representa un hito relevante para asistentes de voz locales e interfaces conversacionales eficientes.",
-      "relevancia": 8,
-      "url": "https://huggingface.co/owensong/Inflect-Micro-v2",
-      "fuente": "huggingface.co (vía HN)",
-      "bandera": "🌍",
-      "tags": [
-        "inteligencia artificial",
-        "síntesis de voz",
-        "modelos ligeros"
-      ]
-    },
-    {
-      "id": "151c67f3e6",
-      "tema": "finanzas",
-      "titular_es": "Warner Bros. demanda a Amazon por contratación ilegal de ejecutivos clave",
-      "resumen": "Warner Bros. Discovery presentó una acción judicial contra Amazon acusándola de captar a sus altos directivos violando acuerdos de confidencialidad y no competencia. La demanda señala específicamente el fichaje de la exvicepresidenta de marketing de producciones originales. El conflicto legal refleja la intensa batalla corporativa entre los gigantes del entretenimiento y el streaming.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/business/971011/warner-bros-suing-amazon-poaching-employees",
+      "url": "https://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Warner Bros",
-        "Amazon",
-        "demandas"
+        "privacidad",
+        "cifrado",
+        "EE.UU."
       ]
     },
     {
-      "id": "0042f9f136",
-      "tema": "ciencia",
-      "titular_es": "Descubren que perder el tipo de grasa incorrecto puede desencadenar diabetes",
-      "resumen": "Un estudio reveló que el deterioro de las células adiposas saludables provoca inflamación y pérdida de capacidad para almacenar lípidos de forma segura. Esta destrucción del tejido graso funcional altera el metabolismo general, pudiendo desencadenar diabetes independientemente del sobrepeso. El hallazgo cambia la perspectiva médica sobre la relación entre tejido adiposo y salud metabólica.",
+      "id": "014001bdd2",
+      "tema": "ia",
+      "titular_es": "Agencia de inmigración de EE. UU. accede a datos de tarjetas de crédito mediante un contrato de 125 millones",
+      "resumen": "La agencia ICE utiliza un acuerdo comercial con Thomson Reuters para acceder a registros financieros y bancarios sin orden judicial.\nLa revelación reaviva el debate ético y técnico sobre la compra masiva de datos privados por parte de organismos públicos.\nEspecialistas en ciberseguridad alertan sobre la falta de marcos regulatorios para proteger la información del consumidor.",
       "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260726015259.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "salud",
-        "diabetes",
-        "medicina"
-      ]
-    },
-    {
-      "id": "8fb94ab756",
-      "tema": "ciencia",
-      "titular_es": "Identifican un punto de inflexión cerebral que determina el avance del Alzheimer",
-      "resumen": "Un equipo de investigadores halló un momento clave en el que las células inmunes del cerebro responden ante la acumulación de placas amiloides y proteína tau. Dependiendo de esta respuesta inmunitaria, el paciente desarrollará demencia o mantendrá su reserva cognitiva. El descubrimiento ofrece una diana terapéutica inédita para frenar el deterioro en fases tempranas.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260726015257.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "Alzheimer",
-        "neurociencia",
-        "salud"
-      ]
-    },
-    {
-      "id": "89d38eddd6",
-      "tema": "ciencia",
-      "titular_es": "Las quemas prescritas cuatriplican la supervivencia de las secoyas gigantes ante incendios",
-      "resumen": "Un análisis de más de 26.000 secoyas gigantes determinó que los árboles ubicados en zonas con quemas controladas previas tuvieron cuatro veces más probabilidades de sobrevivir a megaincendios. El estudio confirma que el fuego preventivo es esencial para evitar la pérdida de ejemplares milenarios destruidos por incendios forestales de alta intensidad.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260726015243.htm",
-      "fuente": "sciencedaily.com",
+      "url": "https://finance.yahoo.com/economy/policy/articles/ice-uses-125-million-thomson-140000150.html",
+      "fuente": "finance.yahoo.com",
       "bandera": "🇺🇸",
       "tags": [
-        "ecología",
-        "medio ambiente",
-        "incendios"
+        "privacidad",
+        "datos",
+        "vigilancia"
       ]
     },
     {
       "id": "49cca73007",
       "tema": "ciencia",
-      "titular_es": "Las aplicaciones de IA para contar calorías pueden errar por más de 340 calorías por comida",
-      "resumen": "Un estudio analizó cuatro aplicaciones populares de nutrición con inteligencia artificial y detectó que subestiman significativamente las calorías y grasas ingeridas. Las desviaciones alcanzaron promedios de un tercio del valor real, registrando los mayores errores en platos cetogénicos o de alto contenido graso. Los investigadores recomiendan cautela al confiar exclusivamente en el reconocimiento visual de alimentos.",
+      "titular_es": "Estudio advierte que las apps de IA para contar calorías fallan hasta por 345 calorías por comida",
+      "resumen": "Una investigación evaluó cuatro aplicaciones populares impulsadas por IA que calculan valores nutricionales a partir de fotos.\nLos experimentos demostraron que las herramientas subestiman en un tercio las calorías y grasas reales consumidas.\nLos errores más severos ocurrieron en platos con alto contenido graso y dietas cetogénicas.",
       "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/07/260726015237.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
       "tags": [
         "inteligencia artificial",
-        "nutrición",
-        "estudios"
+        "salud",
+        "nutrición"
       ]
     },
     {
-      "id": "1f3687206c",
-      "tema": "ia",
-      "titular_es": "Ruff v0.16.0 incluye importantes actualizaciones y amplía a 413 sus reglas por defecto",
-      "resumen": "El popular linter y formateador de código Python escrito en Rust ha publicado su versión 0.16.0. Esta actualización incrementa sustancialmente sus reglas predeterminadas, pasando de 59 a 413 comprobaciones automáticas para mejorar la calidad del código. Es una mejora clave para desarrolladores que buscan optimizar el análisis estático en sus proyectos.",
-      "relevancia": 7,
-      "url": "https://astral.sh/blog/ruff-v0.16.0",
-      "fuente": "astral.sh (vía HN)",
+      "id": "8fb94ab756",
+      "tema": "ciencia",
+      "titular_es": "Descubren un punto de inflexión inmunológico que determina el avance del alzhéimer",
+      "resumen": "Científicos identificaron el mecanismo inmunológico cerebral que define si la acumulación de proteínas deriva en demencia sintomática.\nLa respuesta de las células microgliales ante las placas seniles resulta determinante para la resiliencia cognitiva.\nEl hallazgo abre una vía terapéutica inédita centrada en modular la inmunidad del cerebro antes de la pérdida de memoria.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260726015257.htm",
+      "fuente": "sciencedaily.com",
       "bandera": "🌍",
       "tags": [
-        "Python",
-        "Ruff",
-        "programación"
+        "neurociencia",
+        "alzhéimer",
+        "medicina"
       ]
     },
     {
-      "id": "9b29631a6a",
-      "tema": "ia",
-      "titular_es": "Definen las nuevas reglas de ingeniería de contexto para los modelos Claude 5",
-      "resumen": "Se publicaron las directrices clave sobre cómo estructurar la ventana de contexto para maximizar el rendimiento en la nueva generación de modelos Claude 5. Las reglas abordan el manejo de instrucciones complejas, memoria a largo plazo y reducción de alucinaciones en solicitudes extensas. Resulta imprescindible para ingenieros de prompts y desarrolladores que integran las API de Anthropic.",
-      "relevancia": 7,
-      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-      "fuente": "claude.com (vía HN)",
+      "id": "0042f9f136",
+      "tema": "ciencia",
+      "titular_es": "La pérdida de tejido adiposo saludable puede desencadenar diabetes tipo 2",
+      "resumen": "Investigadores descubrieron que el deterioro y pérdida de células grasas saludables altera el metabolismo general del cuerpo humano.\nLa diabetes tipo 2 no solo surge por exceso de adiposidad, sino también por la incapacidad de almacenar lípidos correctamente.\nEste principio transforma la comprensión fisiológica de los trastornos metabólicos y sus tratamientos.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260726015259.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "diabetes",
+        "metabolismo",
+        "medicina"
+      ]
+    },
+    {
+      "id": "89d38eddd6",
+      "tema": "ciencia",
+      "titular_es": "Las quemas prescritas cuatriplican la supervivencia de las secuoyas gigantes ante incendios",
+      "resumen": "Un estudio sobre 26.400 secuoyas gigantes determinó que el uso de fuego controlado es crucial para salvar árboles milenarios.\nEjemplares ubicados en áreas tratadas previamente con quemas preventivas tuvieron cuatro veces más probabilidad de sobrevivir.\nEcólogos instan a modificar las estrategias forestales para proteger la biodiversidad frente al cambio climático.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260726015243.htm",
+      "fuente": "sciencedaily.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Anthropic",
-        "Claude",
-        "ingeniería de prompts"
+        "ecología",
+        "secuoyas",
+        "incendios"
       ]
     },
     {
-      "id": "c28024dfea",
-      "tema": "ia",
-      "titular_es": "Debian debate tres propuestas formales para regular el uso de LLM en el proyecto",
-      "resumen": "La comunidad de la distribución Linux Debian evalúa tres iniciativas sobre cómo incorporar y regular las herramientas de código generadas por IA en su desarrollo. Las propuestas buscan equilibrar la productividad de los mantenedores con la calidad, derechos de autor y la filosofía del software libre. El resultado sentará un precedente para la gobernanza en grandes proyectos open source.",
-      "relevancia": 7,
-      "url": "https://www.debian.org/vote/2026/vote_002",
-      "fuente": "debian.org (vía HN)",
+      "id": "fde2c51822",
+      "tema": "ciencia",
+      "titular_es": "Hallan el origen de los ojos vertebrados en un ancestro unicelular de 600 millones de años",
+      "resumen": "Biólogos evolutivos rastrearon el origen de la vista hasta un diminuto organismo ancestral dotado de un único receptor de luz.\nEl análisis revela que aquel órgano sensorial primario subsiste hoy en el cerebro humano en forma de glándula pineal.\nEl trabajo resuelve una incógnita biológica histórica sobre la evolución del sistema visual.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260725105554.htm",
+      "fuente": "sciencedaily.com",
       "bandera": "🌍",
       "tags": [
-        "Debian",
-        "Linux",
-        "open source"
+        "evolución",
+        "biología",
+        "visión"
+      ]
+    },
+    {
+      "id": "ba76d94c92",
+      "tema": "finanzas",
+      "titular_es": "Elizabeth Warren denuncia vacíos legales en la prohibición de operar acciones en el Congreso de EE. UU.",
+      "resumen": "La senadora estadounidense advirtió que las propuestas actuales para prohibir el comercio de acciones a legisladores tienen fallas graves.\nUn informe revela que el 48% de los miembros del Congreso aún posee acciones individuales de empresas privadas.\nSe exige una regulación más estricta para erradicar posibles conflictos de interés en decisiones públicas.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/elizabeth-warren-says-house-stock-143000935.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Congreso",
+        "EE.UU.",
+        "regulación"
       ]
     },
     {
       "id": "7c18c07604",
       "tema": "finanzas",
-      "titular_es": "Goldman Sachs identifica tres oportunidades de inversión desvinculadas del sector de IA",
-      "resumen": "El banco de inversión estadounidense reveló tres sectores en Wall Street con alta proyección y baja correlación con las acciones tecnológicas de inteligencia artificial. La estrategia busca diversificar las carteras ante una eventual corrección del mercado tecnológico. La recomendación ayuda a inversores a cubrir riesgos en el panorama macroeconómico actual.",
+      "titular_es": "Goldman Sachs identifica tres oportunidades de inversión desvinculadas de la IA",
+      "resumen": "El banco de inversión seleccionó tres áreas del mercado global con baja correlación frente al auge de la inteligencia artificial.\nLa estrategia busca diversificar portafolios expuestos a la alta volatilidad de las acciones tecnológicas.\nEntre las recomendaciones destacan activos en energía tradicional, infraestructura crítica y servicios esenciales.",
       "relevancia": 7,
       "url": "https://www.bloomberglinea.com/mercados/donde-invertir-mas-alla-de-la-ia-goldman-sachs-revela-tres-oportunidades-en-wall-street/",
       "fuente": "bloomberglinea.com",
       "bandera": "🇺🇸",
       "tags": [
         "Goldman Sachs",
+        "inversiones",
+        "Wall Street"
+      ]
+    },
+    {
+      "id": "f2d8d00f54",
+      "tema": "ia",
+      "titular_es": "El aeropuerto de Londres-Gatwick estrena un servicio de estacionamiento robótico",
+      "resumen": "El aeropuerto británico implementó un sistema automatizado que utiliza robots autónomos para acomodar los vehículos de los pasajeros.\nLa tecnología optimiza el espacio disponible en los aparcamientos y reduce significativamente los tiempos de espera.\nEsta iniciativa sirve como modelo piloto para la automatización logística en infraestructuras de transporte masivo.",
+      "relevancia": 7,
+      "url": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics/",
+      "fuente": "aerospaceglobalnews.com (vía HN)",
+      "bandera": "🇬🇧",
+      "tags": [
+        "robótica",
+        "automatización",
+        "transporte"
+      ]
+    },
+    {
+      "id": "c683c4e30e",
+      "tema": "ia",
+      "titular_es": "El equipo de Go lanza un nuevo framework modular para análisis estático de código",
+      "resumen": "El equipo oficial del lenguaje Go presentó un marco de trabajo modular diseñado para el análisis estático de código fuente.\nLa herramienta facilita a los desarrolladores la creación de analizadores personalizados para detectar fallos de seguridad.\nEl lanzamiento promete estandarizar la calidad de software en ecosistemas empresariales de gran escala.",
+      "relevancia": 7,
+      "url": "https://pkg.go.dev/golang.org/x/tools/go/analysis",
+      "fuente": "pkg.go.dev (vía HN)",
+      "bandera": "🌍",
+      "tags": [
+        "Go",
+        "programación",
+        "software"
+      ]
+    },
+    {
+      "id": "26878d3487",
+      "tema": "finanzas",
+      "titular_es": "Los futuros de Wall Street cotizan al alza a la espera de resultados de Apple y reunión de la Fed",
+      "resumen": "Los mercados financieros abren la semana pendientes de las negociaciones geopolíticas entre Estados Unidos e Irán.\nA su vez, los inversores aguardan los reportes trimestrales de Big Tech encabezados por Apple y la decisión de tasas de la Fed.\nSe anticipa una jornada de alta volatilidad en los principales índices bursátiles.",
+      "relevancia": 6,
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-apple-earnings-iran-news-fed-meeting-ai-stocks/?src=A00220&yptr=yahoo",
+      "fuente": "investors.com",
+      "bandera": "🇺🇸",
+      "tags": [
         "Wall Street",
-        "inversiones"
+        "Apple",
+        "Fed"
+      ]
+    },
+    {
+      "id": "aeacc8a39f",
+      "tema": "finanzas",
+      "titular_es": "Cadena minorista de 63 años evalúa la bancarrota tras cerrar 80 tiendas",
+      "resumen": "Una emblemática cadena comercial estadounidense emitió una advertencia de reestructuración bajo el Capítulo 11 de bancarrota.\nTras el cierre progresivo de 80 locales, la firma no ha logrado estabilizar sus ingresos operativos.\nEl caso refleja las persistentes presiones del comercio electrónico sobre las tiendas físicas tradicionales.",
+      "relevancia": 6,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/80-stores-close-63-old-150700367.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "bancarrota",
+        "retail",
+        "comercio"
       ]
     },
     {
       "id": "f98451746f",
       "tema": "ia",
-      "titular_es": "GrapheneOS detalla sus mecanismos de protección frente a la extracción de datos en equipos bloqueados",
-      "resumen": "El sistema operativo enfocado en privacidad detalló las capas de seguridad implementadas para evitar el acceso no autorizado a datos en dispositivos Pixel bloqueados. La arquitectura refuerza el cifrado del almacenamiento y la memoria RAM contra ataques forenses físicos. Es un análisis relevante para profesionales del área de la ciberseguridad móvil.",
+      "titular_es": "GrapheneOS detalla sus defensas contra la extracción de datos en dispositivos bloqueados",
+      "resumen": "El sistema operativo centrado en privacidad expuso sus capas de protección para evitar la extracción de datos mediante herramientas forenses.\nLas salvaguardas bloquean el acceso al almacenamiento cuando el dispositivo móvil se encuentra en estado bloqueado.\nLa documentación resulta clave para desarrolladores de software de seguridad e investigadores de ciberdefensa.",
       "relevancia": 6,
       "url": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices",
       "fuente": "discuss.grapheneos.org (vía HN)",
@@ -320,22 +335,37 @@
       "tags": [
         "GrapheneOS",
         "ciberseguridad",
-        "privacidad"
+        "Android"
       ]
     },
     {
-      "id": "461018098e",
-      "tema": "ia",
-      "titular_es": "Desarrollan un radar de aviones de escritorio basado en un chip ESP32",
-      "resumen": "Un proyecto open source muestra cómo construir un receptor y visualizador de tráfico aéreo en tiempo real usando un microcontrolador ESP32 económico. El sistema captura señales ADS-B de aeronaves cercanas y las proyecta en una pequeña pantalla de escritorio. Es un excelente ejemplo de proyectos de hardware libre combinando RF y embebidos.",
+      "id": "bfd29983f8",
+      "tema": "ciencia",
+      "titular_es": "Registran el fenómeno de El Niño más intenso de la historia reciente",
+      "resumen": "Mediciones meteorológicas globales confirman que el actual patrón térmico de El Niño rompió récords de temperatura en el Pacífico.\nLas anomalías oceánicas están desencadenando eventos climáticos extremos y sequías prolongadas en diversos continentes.\nLos científicos monitorean el impacto del fenómeno sobre los ecosistemas marinos y la producción de alimentos.",
       "relevancia": 6,
-      "url": "https://blog.ktz.me/esp32-plane-radar/",
-      "fuente": "blog.ktz.me (vía HN)",
+      "url": "https://www.theclimatebrink.com/p/the-strongest-el-nino-ever",
+      "fuente": "theclimatebrink.com (vía HN)",
       "bandera": "🌍",
       "tags": [
-        "ESP32",
-        "hardware",
-        "electrónica"
+        "clima",
+        "El Niño",
+        "meteorología"
+      ]
+    },
+    {
+      "id": "7fb8a23f82",
+      "tema": "emprendimiento",
+      "titular_es": "Una 'founder house' en Londres reinventa la convivencia para evitar el 'burnout'",
+      "resumen": "Un espacio de co-living para fundadores en Londres implementa reglas enfocadas en la salud mental y el balance de vida.\nFrente a la cultura tradicional del agotamiento extremo en startups, la propuesta fomenta la sostenibilidad personal.\nLa iniciativa busca demostrar que mitigar el estrés de los emprendedores mejora la tasa de éxito de sus empresas.",
+      "relevancia": 6,
+      "url": "https://techcrunch.com/2026/07/26/inside-one-london-founder-house-rewriting-the-founder-house-rules/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇬🇧",
+      "tags": [
+        "startups",
+        "emprendimiento",
+        "Londres"
       ]
     }
   ]
