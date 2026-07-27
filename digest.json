@@ -1,124 +1,269 @@
 {
-  "fecha": "2026-07-26",
-  "generado_utc": "2026-07-26T20:47:57Z",
+  "fecha": "2026-07-27",
+  "generado_utc": "2026-07-27T14:35:42Z",
   "indicadores": {
     "dolar": {
-      "valor": 946.24,
-      "variacion": 9.85,
-      "variacion_pct": 1.05
-    },
-    "uf": {
-      "valor": 40844.79,
-      "variacion": 0.0,
-      "variacion_pct": 0.0
+      "valor": 946.14,
+      "variacion": -0.1,
+      "variacion_pct": -0.01
     }
   },
-  "noticia_del_dia": "c72648667b",
-  "pildora_ia": "Backpropagation: el método que reparte la 'culpa' del error entre todos los parámetros de una red, capa por capa, para saber cómo ajustar cada uno. Sin él, entrenar redes profundas sería inviable.",
+  "noticia_del_dia": "40c3588f70",
+  "pildora_ia": "Bias-variance tradeoff: el equilibrio central del ML. Un modelo muy simple falla por rígido (bias alto); uno muy complejo falla por inestable (varianza alta). El arte está en el punto medio.",
   "pildoras_ia": [
-    "Backpropagation: el método que reparte la 'culpa' del error entre todos los parámetros de una red, capa por capa, para saber cómo ajustar cada uno. Sin él, entrenar redes profundas sería inviable.",
     "Bias-variance tradeoff: el equilibrio central del ML. Un modelo muy simple falla por rígido (bias alto); uno muy complejo falla por inestable (varianza alta). El arte está en el punto medio.",
     "Dropout: durante el entrenamiento se 'apagan' neuronas al azar en cada paso. Suena raro, pero obliga a la red a no depender de unas pocas conexiones y reduce el sobreajuste.",
     "RLHF: aprendizaje por refuerzo con retroalimentación humana. Alinea a los LLM con lo que la gente considera útil y seguro usando preferencias humanas. Clave en ChatGPT, Gemini y Claude.",
-    "Función de pérdida (loss): el número que mide qué tan equivocado está el modelo. Todo el entrenamiento consiste en minimizarlo; elegir bien la loss define qué aprende realmente el modelo."
+    "Función de pérdida (loss): el número que mide qué tan equivocado está el modelo. Todo el entrenamiento consiste en minimizarlo; elegir bien la loss define qué aprende realmente el modelo.",
+    "Épocas y batches: una 'época' es una pasada completa por todos los datos; un 'batch' es el grupo de ejemplos que se procesan juntos antes de actualizar el modelo. Ajustar ambos afecta velocidad y calidad."
   ],
   "noticias": [
     {
-      "id": "c72648667b",
-      "tema": "finanzas",
-      "titular_es": "Google invierte 490 millones diarios en IA y sufre su primer trimestre negativo",
-      "resumen": "Alphabet reportó un gasto masivo en infraestructura de inteligencia artificial que alcanzó los 5.900 millones de dólares en pérdidas de efectivo.\nSe trata del primer trimestre con flujo de caja negativo para la compañía desde su salida a bolsa.\nEl mercado analiza el impacto de estas inversiones récord en sus márgenes operativos futuros.",
-      "relevancia": 10,
-      "url": "https://finance.yahoo.com/technology/ai/articles/google-spent-490-million-day-163000234.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Google",
-        "IA",
-        "resultados"
-      ]
-    },
-    {
-      "id": "6cf169cd95",
-      "tema": "finanzas",
-      "titular_es": "Google revela una participación de 94.100 millones de dólares en SpaceX",
-      "resumen": "Alphabet reveló públicamente el valor actual de su participación del 6% en la empresa aeroespacial SpaceX.\nLa inversión inicial realizada en 2015 se ha multiplicado exponencialmente en los últimos años.\nEl anuncio subraya la consolidación financiera de SpaceX en el mercado privado global.",
+      "id": "40c3588f70",
+      "tema": "ia",
+      "titular_es": "Nvidia y Microsoft lanzan una alianza abierta de seguridad en IA",
+      "resumen": "Nvidia anunció una alianza junto a Microsoft, SpaceX e IBM para desarrollar herramientas de seguridad de código abierto contra ataques de modelos de frontera.\nLa coalición Open Secure AI Alliance busca defender sistemas sin depender exclusivamente de gigantes como OpenAI, Google o Anthropic.\nEl movimiento plantea un estándar abierto clave para la infraestructura global de inteligencia artificial.",
       "relevancia": 9,
-      "url": "https://www.wsj.com/tech/google-discloses-94-1-billion-in-spacex-stock-marking-6-stake-91655d7c",
-      "fuente": "wsj.com (vía HN)",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
+      "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Google",
-        "SpaceX",
-        "inversiones"
+        "Nvidia",
+        "Microsoft",
+        "ciberseguridad"
       ]
     },
     {
-      "id": "30ba8e1454",
+      "id": "57c0b15410",
+      "tema": "finanzas",
+      "titular_es": "El gigante chino de memorias CXMT se dispara 466% en su debut bursátil",
+      "resumen": "ChangXin Memory Technologies (CXMT) debutó en la bolsa de Shanghái con una espectacular subida del 466% en su primera jornada.\nLa cotización elevó la valoración de la compañía de semiconductores hasta los 484.000 millones de dólares.\nEl hito refleja el masivo impulso de China por lograr la autosuficiencia en chips de memoria.",
+      "relevancia": 9,
+      "url": "https://www.theverge.com/tech/971358/cxmt-china-ram-stock-market-debut",
+      "fuente": "theverge.com",
+      "bandera": "🇨🇳",
+      "tags": [
+        "CXMT",
+        "semiconductores",
+        "bolsa"
+      ]
+    },
+    {
+      "id": "82e3b73156",
+      "tema": "emprendimiento",
+      "titular_es": "Enigma levanta $70M para simplificar el control robótico",
+      "resumen": "La startup Enigma cerró una ronda semilla masiva de 70 millones de dólares liderada por Index Ventures y Ribbit Capital.\nLa compañía desarrolla software para que la programación de movimientos robóticos sea tan intuitiva como ajustar el volumen de un radio.\nLa inversión refleja el creciente interés del capital de riesgo en la robótica asistida por software.",
+      "relevancia": 9,
+      "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Enigma",
+        "robótica",
+        "capital de riesgo"
+      ]
+    },
+    {
+      "id": "c3feba7a8a",
       "tema": "ciencia",
-      "titular_es": "Uso de CRISPR permite que la inmunoterapia combata el cáncer de próstata",
-      "resumen": "Un equipo científico utilizó edición genética CRISPR para hacer vulnerables al sistema inmunológico células tumorales prostáticas antes resistentes.\nEn ensayos con modelos animales, el tratamiento experimental multiplicó la eficacia de las inmunoterapias existentes.\nEl avance ofrece un prometedor camino de desarrollo clínico para tumores sólidos de difícil abordaje.",
+      "titular_es": "Astronauta de la NASA regresa a la Tierra tras 241 días en órbita",
+      "resumen": "El astronauta Chris Williams y dos cosmonautas aterrizaron con éxito tras una misión de más de siete meses en la Estación Espacial Internacional.\nDurante su estancia, recorrieron más de 160 millones de kilómetros y completaron 3.856 órbitas terrestres.\nLa misión permitió avanzar en experimentos sobre el impacto fisiológico de la microgravedad prolongada.",
       "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260726015250.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260727012131.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🇺🇸",
       "tags": [
-        "CRISPR",
-        "oncología",
-        "biotecnología"
+        "NASA",
+        "espacio",
+        "ISS"
       ]
     },
     {
-      "id": "f8bbda6d7d",
-      "tema": "finanzas",
-      "titular_es": "La producción de petróleo en Argentina se dispara con nuevos récords en Vaca Muerta",
-      "resumen": "La cuenca no convencional de Vaca Muerta alcanzó niveles récord de extracción de crudo y gas en Argentina.\nEl incremento impulsa de forma decisiva la balanza comercial energética del país sudamericano.\nEl fenómeno atrae mayores compromisos de inversión privada y consolida el perfil exportador regional.",
+      "id": "b605e00bfb",
+      "tema": "ia",
+      "titular_es": "Se lanza el modelo Kimi-K3 en HuggingFace",
+      "resumen": "La empresa china Moonshot AI ha publicado de forma abierta su nuevo modelo Kimi-K3 en la plataforma HuggingFace.\nEl lanzamiento destaca por sus capacidades avanzadas en el procesamiento de contextos ultralargos y razonamiento complejo.\nEstará disponible para la comunidad global de desarrolladores e investigadores.",
       "relevancia": 8,
-      "url": "https://finance.yahoo.com/energy/articles/argentina-oil-production-soars-vaca-190000618.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇦🇷",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3",
+      "fuente": "huggingface.co (vía HN)",
+      "bandera": "🇨🇳",
       "tags": [
-        "Argentina",
-        "Vaca Muerta",
+        "Kimi-K3",
+        "HuggingFace",
+        "código abierto"
+      ]
+    },
+    {
+      "id": "4a6649cdae",
+      "tema": "ia",
+      "titular_es": "EE. UU. procesa a un ciudadano por borrar su teléfono en una inspección fronteriza",
+      "resumen": "Autoridades federales acusan a un ciudadano estadounidense de dar una contraseña de coerción que formateó su teléfono GrapheneOS durante un registro aeroportuario.\nEl incidente en el aeropuerto de Atlanta abre un tenso debate legal sobre el derecho a la privacidad digital en fronteras.\nEl caso podría sentar un precedente sobre el uso de sistemas informáticos de autodestrucción de datos.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "privacidad",
+        "GrapheneOS",
+        "seguridad"
+      ]
+    },
+    {
+      "id": "b353bae08d",
+      "tema": "finanzas",
+      "titular_es": "Singapur endurece su política monetaria ante el repunte del petróleo",
+      "resumen": "La Autoridad Monetaria de Singapur ajustó la banda de tipo de cambio de su moneda en una decisión no anticipada por los mercados.\nLa medida busca frenar los riesgos inflacionarios derivados del alza en los precios internacionales del crudo.\nA diferencia de otros bancos centrales, Singapur gestiona la estabilidad de precios mediante el tipo de cambio.",
+      "relevancia": 8,
+      "url": "https://www.cnbc.com/2026/07/27/singapore-mas-july-monetary-policy-middle-east-oil-prices-inflation-.html",
+      "fuente": "cnbc.com",
+      "bandera": "🇸🇬",
+      "tags": [
+        "Singapur",
+        "política monetaria",
         "petróleo"
       ]
     },
     {
-      "id": "8422f71da5",
+      "id": "b5f69c2762",
       "tema": "finanzas",
-      "titular_es": "El fundador de Mobileye renuncia tras reportar sólidos resultados financieros",
-      "resumen": "Las acciones de la firma de conducción autónoma cayeron tras anunciarse la salida repentina de su fundador.\nA pesar de la reacción del mercado, analistas consideran la transición ejecutiva como un reinicio estratégico y no una alerta.\nLa compañía mantiene proyecciones financieras sólidas y una posición firme en tecnología vehicular.",
+      "titular_es": "China presiona a TSMC, pero los analistas mantienen sus perspectivas alcistas",
+      "resumen": "Pekín ha anunciado nuevas restricciones dirigidas al gigante de semiconductores TSMC en medio de tensiones geopolíticas.\nPese a las presiones regulatorias, analistas de Wall Street destacan que la demanda irremplazable de chips avanzados mantiene sólido el negocio.\nLa posición dominante de TSMC en la cadena de IA actúa como amortiguador financiero.",
       "relevancia": 8,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/mobileye-stock-down-despite-strong-140002566.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/beijing-just-aimed-taiwan-semiconductor-140827384.html",
       "fuente": "finance.yahoo.com",
-      "bandera": "🇮🇱",
+      "bandera": "🇹🇼",
       "tags": [
-        "Mobileye",
-        "conducción autónoma",
-        "mercados"
+        "TSMC",
+        "China",
+        "semiconductores"
       ]
     },
     {
-      "id": "d3a894a486",
+      "id": "872c521036",
       "tema": "finanzas",
-      "titular_es": "Moody’s eleva la calificación crediticia de cinco empresas argentinas de infraestructura",
-      "resumen": "La agencia Moody’s Ratings mejoró las notas de crédito corporativo para cinco firmas clave del sector infraestructural en Argentina.\nLa decisión responde directamente a la mejora en el escenario macroeconómico y el riesgo soberano del país.\nEl ajuste facilitará el acceso a financiamiento internacional para proyectos de energía y transporte.",
+      "titular_es": "Porsche eleva su plan de recortes a 9.000 empleos para 2035",
+      "resumen": "El fabricante alemán de automóviles de lujo Porsche acelerará su reestructuración reduciendo hasta 9.000 puestos de trabajo.\nLa decisión responde a la ralentización del mercado de vehículos eléctricos y al aumento de costos operativos en Europa.\nEl sector automotriz tradicional sigue ajustando sus plantillas para mantener la rentabilidad durante la transición energética.",
       "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/moodys-sube-la-nota-de-cinco-empresas-de-infraestructura-por-el-nuevo-escenario-macro-argentino/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇦🇷",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/porsche-ramps-job-cuts-9-140200262.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇩🇪",
       "tags": [
-        "Moody's",
-        "Argentina",
-        "calificaciones"
+        "Porsche",
+        "empleo",
+        "automotriz"
+      ]
+    },
+    {
+      "id": "622d0cfbf7",
+      "tema": "finanzas",
+      "titular_es": "El S&P 500 sube tras la caída del petróleo antes de decisiones de la Fed",
+      "resumen": "Los principales índices de Wall Street avanzaron gracias a un alivio en los precios del crudo que frena el temor inflacionario.\nLos inversores se preparan para una semana decisiva marcada por los anuncios de tasas de interés y resultados de las Big Tech.\nEl optimismo por la inversión continua en infraestructura de IA sostiene el apetito por el riesgo.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/mercados/sp-500-avanza-tras-el-desplome-del-petroleo-en-una-semana-clave-para-la-fed-y-las-tecnologicas/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Wall Street",
+        "S&P 500",
+        "Fed"
+      ]
+    },
+    {
+      "id": "a380c4dc5b",
+      "tema": "ciencia",
+      "titular_es": "Avances en tecnología láser prometen transformar el combustible nuclear",
+      "resumen": "Investigadores detallan cómo el uso de láseres de alta precisión puede optimizar la producción y enriquecimiento de combustible para reactores.\nLa tecnología busca hacer más eficiente y limpia la generación de energía nuclear frente al aumento de la demanda eléctrica mundial.\nParalelamente, el informe destaca hallazgos cruciales para la preservación prolongada de órganos para trasplantes.",
+      "relevancia": 8,
+      "url": "https://www.technologyreview.com/2026/07/27/1140833/the-download-lasers-nuclear-organ-preservation/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
+      "tags": [
+        "energía nuclear",
+        "láseres",
+        "innovación"
+      ]
+    },
+    {
+      "id": "a000daebd9",
+      "tema": "ciencia",
+      "titular_es": "El campo magnético de Júpiter explica por qué conserva varias lunas gigantes",
+      "resumen": "Un estudio astrofísico sugiere que el potente campo magnético de Júpiter creó una zona segura durante la formación del sistema solar.\nEsta protección evitó que sus grandes lunas colapsaran hacia el planeta, a diferencia de Saturno, que solo conserva a Titán.\nEl hallazgo aporta luz sobre la dinámica de formación de sistemas planetarios y satélites.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260727012143.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "astronomía",
+        "Júpiter",
+        "espacio"
+      ]
+    },
+    {
+      "id": "2772eebcc6",
+      "tema": "ciencia",
+      "titular_es": "Descubren por qué el mismo daño en el ADN provoca cáncer solo en algunas personas",
+      "resumen": "Un estudio en ratones demostró que la genética heredada determina cómo inicia y evoluciona el cáncer tras un daño en el ADN.\nLos resultados explican por qué mutaciones idénticas tienen desenlaces clínicos completamente distintos según el individuo.\nEl avance permitirá diseñar pruebas de riesgo más precisas y personalizar los tratamientos preventivos.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260727012123.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "genética",
+        "cáncer",
+        "medicina"
+      ]
+    },
+    {
+      "id": "099bc27d74",
+      "tema": "ciencia",
+      "titular_es": "Hallan un martillo de hueso de elefante de 500.000 años hecho por humanos primitivos",
+      "resumen": "Arqueólogos descubrieron en Inglaterra una herramienta reutilizable elaborada a partir de fémur de elefante por homínidos antiguos.\nEl objeto era utilizado para afilar utensilios de piedra, revelando habilidades de planificación y fabricación muy superiores a lo estimado.\nEl hallazgo reescribe la cronología del desarrollo tecnológico de los ancestros humanos.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260726015301.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇬🇧",
+      "tags": [
+        "arqueología",
+        "evolución",
+        "herramientas"
+      ]
+    },
+    {
+      "id": "2cdfbbed62",
+      "tema": "ia",
+      "titular_es": "Empresas de IA están destruyendo libros raros para entrenar sus modelos",
+      "resumen": "Diversas compañías tecnológicas están digitalizando y desguazando físicamente libros antiguos y descatalogados para acelerar la captura de texto de alta calidad.\nEsta práctica busca alimentar modelos de lenguaje masivos evitando restricciones de derechos de autor tradicionales.\nEl método genera controversia en la comunidad bibliotecaria y de preservación histórica.",
+      "relevancia": 7,
+      "url": "https://xcancel.com/HedgieMarkets/status/2081534588485296565",
+      "fuente": "xcancel.com (vía HN)",
+      "bandera": "🌍",
+      "tags": [
+        "IA",
+        "derechos de autor",
+        "datos"
+      ]
+    },
+    {
+      "id": "062c956266",
+      "tema": "ia",
+      "titular_es": "Vercel presenta Scriptc: compilador de TypeScript a nativo sin ejecutable JS",
+      "resumen": "Vercel anunció Scriptc, una herramienta experimental para compilar TypeScript directamente a binarios nativos de alto rendimiento.\nAl eliminar el motor de JavaScript en el binario final, logra tiempos de arranque instantáneos y menor consumo de memoria.\nEs un avance prometedor para la ejecución eficiente de microservicios y código en el borde.",
+      "relevancia": 7,
+      "url": "https://github.com/vercel-labs/scriptc",
+      "fuente": "github.com (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Vercel",
+        "TypeScript",
+        "compiladores"
       ]
     },
     {
       "id": "eecacd53fa",
       "tema": "ia",
-      "titular_es": "Apple presentará sus gafas inteligentes con foco central en la privacidad",
-      "resumen": "Apple planea revelar sus primeras gafas inteligentes en la conferencia WWDC de junio, con un lanzamiento previsto hacia 2027.\nLa compañía busca diferenciarse de rivales como Meta mediante una sólida arquitectura de privacidad de datos.\nEl retraso en el desarrollo responde a los rigurosos estándares de seguridad y mensaje que busca proyectar.",
-      "relevancia": 8,
+      "titular_es": "Apple apostará por la privacidad para diferenciar sus gafas inteligentes",
+      "resumen": "Apple planea presentar sus primeras gafas inteligentes en la WWDC de junio, con miras a un lanzamiento comercial para 2027.\nLa estrategia central de la firma de Cupertino es priorizar la privacidad del usuario para distanciarse de los problemas de imagen de Meta.\nEl retraso busca afinar mecanismos de protección de datos e indicadores visuales de grabación.",
+      "relevancia": 7,
       "url": "https://www.theverge.com/tech/971101/apple-smart-glasses-privacy",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
@@ -129,243 +274,138 @@
       ]
     },
     {
-      "id": "4a6649cdae",
-      "tema": "ia",
-      "titular_es": "EE. UU. procesa penalmente a un ciudadano por borrar su teléfono en la frontera",
-      "resumen": "La fiscalía federal acusa a un ciudadano estadounidense por ingresar una contraseña de pánico que borró su celular al ser confiscado.\nEl incidente en el aeropuerto de Atlanta abre un preocupante precedente legal sobre privacidad y encriptación en las fronteras.\nOrganizaciones de derechos civiles advierten sobre el abuso de autoridad en la inspección de dispositivos personales.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "privacidad",
-        "cifrado",
-        "EE.UU."
-      ]
-    },
-    {
-      "id": "014001bdd2",
-      "tema": "ia",
-      "titular_es": "Agencia de inmigración de EE. UU. accede a datos de tarjetas de crédito mediante un contrato de 125 millones",
-      "resumen": "La agencia ICE utiliza un acuerdo comercial con Thomson Reuters para acceder a registros financieros y bancarios sin orden judicial.\nLa revelación reaviva el debate ético y técnico sobre la compra masiva de datos privados por parte de organismos públicos.\nEspecialistas en ciberseguridad alertan sobre la falta de marcos regulatorios para proteger la información del consumidor.",
-      "relevancia": 8,
-      "url": "https://finance.yahoo.com/economy/policy/articles/ice-uses-125-million-thomson-140000150.html",
+      "id": "ee0ce8fd9b",
+      "tema": "finanzas",
+      "titular_es": "Las ventas de Myer en Australia crecen 11.3% hasta los A$4.080 millones",
+      "resumen": "La tienda por departamentos australiana Myer reportó un incremento del 11,3% en sus ingresos para el año fiscal 2026.\nEl repunte en el consumo minorista y la optimización de su canal de comercio electrónico impulsaron el balance financiero.\nLos resultados superan las previsiones del mercado en un entorno de gasto moderado.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/australia-myer-fy26-sales-rise-141534327.html",
       "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
+      "bandera": "🇦🇺",
       "tags": [
-        "privacidad",
-        "datos",
-        "vigilancia"
+        "Myer",
+        "retail",
+        "Australia"
       ]
     },
     {
-      "id": "49cca73007",
+      "id": "0932a40fe1",
+      "tema": "finanzas",
+      "titular_es": "Petróleo alto, El Niño y aranceles amenazan a Wall Street y América Latina",
+      "resumen": "Un análisis advierte que la combinación de costos energéticos al alza y fenómenos climáticos amenaza la estabilidad inflacionaria regional.\nLas severas perturbaciones agrícolas causadas por El Niño incrementan la presión sobre la cesta básica y las cadenas logísticas.\nAdemás, el resurgimiento de aranceles globales añade volatilidad a las divisas latinoamericanas.",
+      "relevancia": 7,
+      "url": "https://www.bloomberglinea.com/mercados/petroleo-caro-el-nino-y-aranceles-los-tres-riesgos-que-amenazan-a-wall-street-y-america-latina/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🌎",
+      "tags": [
+        "América Latina",
+        "inflación",
+        "materias primas"
+      ]
+    },
+    {
+      "id": "9aee479a01",
+      "tema": "emprendimiento",
+      "titular_es": "Europa lanza programa en vivo de tecnología tras levantar $1.6M",
+      "resumen": "Una nueva red de medios europea inspirada en el formato TBPN cerró una ronda de financiación con inversores de Axel Springer y OpenAI.\nEl espacio busca convertirse en el canal en vivo de referencia para fundadores e inversores del ecosistema del viejo continente.\nEl proyecto demuestra la maduración de la cultura mediática enfocada en startups en Europa.",
+      "relevancia": 7,
+      "url": "https://techcrunch.com/2026/07/27/europe-got-its-own-tbpn-style-live-show-and-its-already-a-hot-spot-on-a-press-tour/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇪🇺",
+      "tags": [
+        "startups",
+        "Europa",
+        "inversión"
+      ]
+    },
+    {
+      "id": "31a791e8e2",
       "tema": "ciencia",
-      "titular_es": "Estudio advierte que las apps de IA para contar calorías fallan hasta por 345 calorías por comida",
-      "resumen": "Una investigación evaluó cuatro aplicaciones populares impulsadas por IA que calculan valores nutricionales a partir de fotos.\nLos experimentos demostraron que las herramientas subestiman en un tercio las calorías y grasas reales consumidas.\nLos errores más severos ocurrieron en platos con alto contenido graso y dietas cetogénicas.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260726015237.htm",
+      "titular_es": "La IA acelera el descubrimiento de fármacos reduciendo costos históricos",
+      "resumen": "El desarrollo de nuevos medicamentos busca romper la Ley de Eroom, que ha duplicado sus costos cada nueve años desde 1950.\nPlataformas de IA que cierran el bucle entre experimentación y simulación están reduciendo drásticamente los tiempos de ensayo.\nEl enfoque busca acortar años de desarrollo clínico para llevar tratamientos clave al mercado.",
+      "relevancia": 7,
+      "url": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
+      "tags": [
+        "farmacéutica",
+        "IA",
+        "biotecnología"
+      ]
+    },
+    {
+      "id": "f0c3ff2faa",
+      "tema": "ciencia",
+      "titular_es": "Estudio analiza el efecto real del agua con gas en el esmalte dental",
+      "resumen": "Una investigación preliminar monitoreó la acidez bucal tras consumir distintas bebidas y confirmó que el agua con gas sin azúcar es segura.\nAunque genera una caída temporal del pH salival, la boca recupera rápidamente la neutralidad a diferencia de los refrescos azucarados.\nEl trabajo desmiente mitos sobre el daño erosivo severo del agua carbonatada en los dientes.",
+      "relevancia": 7,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260727012126.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
       "tags": [
-        "inteligencia artificial",
         "salud",
+        "dientes",
         "nutrición"
       ]
     },
     {
-      "id": "8fb94ab756",
+      "id": "2c379d6f98",
       "tema": "ciencia",
-      "titular_es": "Descubren un punto de inflexión inmunológico que determina el avance del alzhéimer",
-      "resumen": "Científicos identificaron el mecanismo inmunológico cerebral que define si la acumulación de proteínas deriva en demencia sintomática.\nLa respuesta de las células microgliales ante las placas seniles resulta determinante para la resiliencia cognitiva.\nEl hallazgo abre una vía terapéutica inédita centrada en modular la inmunidad del cerebro antes de la pérdida de memoria.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260726015257.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "neurociencia",
-        "alzhéimer",
-        "medicina"
-      ]
-    },
-    {
-      "id": "0042f9f136",
-      "tema": "ciencia",
-      "titular_es": "La pérdida de tejido adiposo saludable puede desencadenar diabetes tipo 2",
-      "resumen": "Investigadores descubrieron que el deterioro y pérdida de células grasas saludables altera el metabolismo general del cuerpo humano.\nLa diabetes tipo 2 no solo surge por exceso de adiposidad, sino también por la incapacidad de almacenar lípidos correctamente.\nEste principio transforma la comprensión fisiológica de los trastornos metabólicos y sus tratamientos.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260726015259.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "diabetes",
-        "metabolismo",
-        "medicina"
-      ]
-    },
-    {
-      "id": "89d38eddd6",
-      "tema": "ciencia",
-      "titular_es": "Las quemas prescritas cuatriplican la supervivencia de las secuoyas gigantes ante incendios",
-      "resumen": "Un estudio sobre 26.400 secuoyas gigantes determinó que el uso de fuego controlado es crucial para salvar árboles milenarios.\nEjemplares ubicados en áreas tratadas previamente con quemas preventivas tuvieron cuatro veces más probabilidad de sobrevivir.\nEcólogos instan a modificar las estrategias forestales para proteger la biodiversidad frente al cambio climático.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260726015243.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "ecología",
-        "secuoyas",
-        "incendios"
-      ]
-    },
-    {
-      "id": "fde2c51822",
-      "tema": "ciencia",
-      "titular_es": "Hallan el origen de los ojos vertebrados en un ancestro unicelular de 600 millones de años",
-      "resumen": "Biólogos evolutivos rastrearon el origen de la vista hasta un diminuto organismo ancestral dotado de un único receptor de luz.\nEl análisis revela que aquel órgano sensorial primario subsiste hoy en el cerebro humano en forma de glándula pineal.\nEl trabajo resuelve una incógnita biológica histórica sobre la evolución del sistema visual.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260725105554.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "evolución",
-        "biología",
-        "visión"
-      ]
-    },
-    {
-      "id": "ba76d94c92",
-      "tema": "finanzas",
-      "titular_es": "Elizabeth Warren denuncia vacíos legales en la prohibición de operar acciones en el Congreso de EE. UU.",
-      "resumen": "La senadora estadounidense advirtió que las propuestas actuales para prohibir el comercio de acciones a legisladores tienen fallas graves.\nUn informe revela que el 48% de los miembros del Congreso aún posee acciones individuales de empresas privadas.\nSe exige una regulación más estricta para erradicar posibles conflictos de interés en decisiones públicas.",
+      "titular_es": "Comer en una ventana de 8 horas ayuda a preservar la agilidad mental en la vejez",
+      "resumen": "Un ensayo clínico de seis meses determinó que limitar la ingesta diaria a un periodo de 8 a 9 horas mejora la capacidad de planificación.\nLas participantes maduras mostraron mejor desempeño en pruebas cognitivas complejas frente a quienes comieron durante 12 horas.\nEl estudio sugiere beneficios neurológicos directos del ayuno intermitente más allá de la pérdida de peso.",
       "relevancia": 7,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/elizabeth-warren-says-house-stock-143000935.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260727012125.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
       "tags": [
-        "Congreso",
-        "EE.UU.",
-        "regulación"
+        "salud",
+        "neurología",
+        "ayuno"
       ]
     },
     {
-      "id": "7c18c07604",
-      "tema": "finanzas",
-      "titular_es": "Goldman Sachs identifica tres oportunidades de inversión desvinculadas de la IA",
-      "resumen": "El banco de inversión seleccionó tres áreas del mercado global con baja correlación frente al auge de la inteligencia artificial.\nLa estrategia busca diversificar portafolios expuestos a la alta volatilidad de las acciones tecnológicas.\nEntre las recomendaciones destacan activos en energía tradicional, infraestructura crítica y servicios esenciales.",
-      "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/mercados/donde-invertir-mas-alla-de-la-ia-goldman-sachs-revela-tres-oportunidades-en-wall-street/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Goldman Sachs",
-        "inversiones",
-        "Wall Street"
-      ]
-    },
-    {
-      "id": "f2d8d00f54",
+      "id": "06a56bd162",
       "tema": "ia",
-      "titular_es": "El aeropuerto de Londres-Gatwick estrena un servicio de estacionamiento robótico",
-      "resumen": "El aeropuerto británico implementó un sistema automatizado que utiliza robots autónomos para acomodar los vehículos de los pasajeros.\nLa tecnología optimiza el espacio disponible en los aparcamientos y reduce significativamente los tiempos de espera.\nEsta iniciativa sirve como modelo piloto para la automatización logística en infraestructuras de transporte masivo.",
-      "relevancia": 7,
-      "url": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics/",
-      "fuente": "aerospaceglobalnews.com (vía HN)",
-      "bandera": "🇬🇧",
-      "tags": [
-        "robótica",
-        "automatización",
-        "transporte"
-      ]
-    },
-    {
-      "id": "c683c4e30e",
-      "tema": "ia",
-      "titular_es": "El equipo de Go lanza un nuevo framework modular para análisis estático de código",
-      "resumen": "El equipo oficial del lenguaje Go presentó un marco de trabajo modular diseñado para el análisis estático de código fuente.\nLa herramienta facilita a los desarrolladores la creación de analizadores personalizados para detectar fallos de seguridad.\nEl lanzamiento promete estandarizar la calidad de software en ecosistemas empresariales de gran escala.",
-      "relevancia": 7,
-      "url": "https://pkg.go.dev/golang.org/x/tools/go/analysis",
-      "fuente": "pkg.go.dev (vía HN)",
-      "bandera": "🌍",
-      "tags": [
-        "Go",
-        "programación",
-        "software"
-      ]
-    },
-    {
-      "id": "26878d3487",
-      "tema": "finanzas",
-      "titular_es": "Los futuros de Wall Street cotizan al alza a la espera de resultados de Apple y reunión de la Fed",
-      "resumen": "Los mercados financieros abren la semana pendientes de las negociaciones geopolíticas entre Estados Unidos e Irán.\nA su vez, los inversores aguardan los reportes trimestrales de Big Tech encabezados por Apple y la decisión de tasas de la Fed.\nSe anticipa una jornada de alta volatilidad en los principales índices bursátiles.",
+      "titular_es": "Protestan contra el despliegue de las gafas inteligentes de Meta",
+      "resumen": "Activistas en Nueva York, Londres y Washington han intervenido los anuncios publicitarios de las gafas inteligentes de Meta con carteles satíricos.\nLas protestas califican al dispositivo como herramienta de vigilancia masiva y vulneración de la privacidad callejera.\nEl rechazo social evidencia el reto cultural que enfrentan las tecnologías vestibles con cámara.",
       "relevancia": 6,
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-apple-earnings-iran-news-fed-meeting-ai-stocks/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
+      "url": "https://www.theverge.com/tech/970948/meta-smart-glasses-privacy-wearables",
+      "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Wall Street",
-        "Apple",
-        "Fed"
-      ]
-    },
-    {
-      "id": "aeacc8a39f",
-      "tema": "finanzas",
-      "titular_es": "Cadena minorista de 63 años evalúa la bancarrota tras cerrar 80 tiendas",
-      "resumen": "Una emblemática cadena comercial estadounidense emitió una advertencia de reestructuración bajo el Capítulo 11 de bancarrota.\nTras el cierre progresivo de 80 locales, la firma no ha logrado estabilizar sus ingresos operativos.\nEl caso refleja las persistentes presiones del comercio electrónico sobre las tiendas físicas tradicionales.",
-      "relevancia": 6,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/80-stores-close-63-old-150700367.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "bancarrota",
-        "retail",
-        "comercio"
-      ]
-    },
-    {
-      "id": "f98451746f",
-      "tema": "ia",
-      "titular_es": "GrapheneOS detalla sus defensas contra la extracción de datos en dispositivos bloqueados",
-      "resumen": "El sistema operativo centrado en privacidad expuso sus capas de protección para evitar la extracción de datos mediante herramientas forenses.\nLas salvaguardas bloquean el acceso al almacenamiento cuando el dispositivo móvil se encuentra en estado bloqueado.\nLa documentación resulta clave para desarrolladores de software de seguridad e investigadores de ciberdefensa.",
-      "relevancia": 6,
-      "url": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices",
-      "fuente": "discuss.grapheneos.org (vía HN)",
-      "bandera": "🌍",
-      "tags": [
-        "GrapheneOS",
-        "ciberseguridad",
-        "Android"
-      ]
-    },
-    {
-      "id": "bfd29983f8",
-      "tema": "ciencia",
-      "titular_es": "Registran el fenómeno de El Niño más intenso de la historia reciente",
-      "resumen": "Mediciones meteorológicas globales confirman que el actual patrón térmico de El Niño rompió récords de temperatura en el Pacífico.\nLas anomalías oceánicas están desencadenando eventos climáticos extremos y sequías prolongadas en diversos continentes.\nLos científicos monitorean el impacto del fenómeno sobre los ecosistemas marinos y la producción de alimentos.",
-      "relevancia": 6,
-      "url": "https://www.theclimatebrink.com/p/the-strongest-el-nino-ever",
-      "fuente": "theclimatebrink.com (vía HN)",
-      "bandera": "🌍",
-      "tags": [
-        "clima",
-        "El Niño",
-        "meteorología"
+        "Meta",
+        "wearables",
+        "privacidad"
       ]
     },
     {
       "id": "7fb8a23f82",
       "tema": "emprendimiento",
-      "titular_es": "Una 'founder house' en Londres reinventa la convivencia para evitar el 'burnout'",
-      "resumen": "Un espacio de co-living para fundadores en Londres implementa reglas enfocadas en la salud mental y el balance de vida.\nFrente a la cultura tradicional del agotamiento extremo en startups, la propuesta fomenta la sostenibilidad personal.\nLa iniciativa busca demostrar que mitigar el estrés de los emprendedores mejora la tasa de éxito de sus empresas.",
+      "titular_es": "Una 'founder house' en Londres reinventa la convivencia emprendedora",
+      "resumen": "Una residencia para emprendedores en Londres promueve un modelo enfocado en la salud mental y el equilibrio de trabajo.\nA diferencia de las casas de aceleración tradicionales centradas en jornadas extenuantes, la iniciativa busca prevenir el agotamiento.\nEl experimento propone que el bienestar personal mejora las métricas de supervivencia de las startups.",
       "relevancia": 6,
       "url": "https://techcrunch.com/2026/07/26/inside-one-london-founder-house-rewriting-the-founder-house-rules/",
       "fuente": "techcrunch.com",
       "bandera": "🇬🇧",
       "tags": [
         "startups",
-        "emprendimiento",
-        "Londres"
+        "Londres",
+        "bienestar"
+      ]
+    },
+    {
+      "id": "3a7e6fbce8",
+      "tema": "emprendimiento",
+      "titular_es": "SAP destaca la importancia de los grafos de conocimiento en agentes de IA",
+      "resumen": "Ejecutivos de SAP señalaron que para pasar de simples chatbots a agentes autónomos se requieren estructuras de gobernanza sólidas.\nLos grafos de conocimiento permiten a las IA entender el contexto corporativo y ejecutar procesos de negocio complejos con seguridad.\nLa firma impulsa esta arquitectura como la base operativa para la automatización empresarial moderna.",
+      "relevancia": 6,
+      "url": "https://venturebeat.com/orchestration/why-sap-says-enterprise-ai-agents-need-knowledge-graphs-and-governance",
+      "fuente": "venturebeat.com",
+      "bandera": "🇩🇪",
+      "tags": [
+        "SAP",
+        "agentes de IA",
+        "enterprise"
       ]
     }
   ]
