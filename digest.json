@@ -1,14 +1,19 @@
 {
   "fecha": "2026-07-30",
-  "generado_utc": "2026-07-30T14:04:36Z",
+  "generado_utc": "2026-07-30T20:58:45Z",
   "indicadores": {
+    "dolar": {
+      "valor": 935.57,
+      "variacion": -0.59,
+      "variacion_pct": -0.06
+    },
     "uf": {
       "valor": 40844.79,
       "variacion": 0.0,
       "variacion_pct": 0.0
     }
   },
-  "noticia_del_dia": "7f35f023de",
+  "noticia_del_dia": "2aaefae5d0",
   "pildora_ia": "Función de pérdida (loss): el número que mide qué tan equivocado está el modelo. Todo el entrenamiento consiste en minimizarlo; elegir bien la loss define qué aprende realmente el modelo.",
   "pildoras_ia": [
     "Función de pérdida (loss): el número que mide qué tan equivocado está el modelo. Todo el entrenamiento consiste en minimizarlo; elegir bien la loss define qué aprende realmente el modelo.",
@@ -19,422 +24,424 @@
   ],
   "noticias": [
     {
-      "id": "7f35f023de",
+      "id": "2aaefae5d0",
       "tema": "ia",
-      "titular_es": "'VPNs are lawful technical tools,' says EU Court in landmark copyright ruling",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "Microsoft confirma el lanzamiento de una superaplicación de Copilot para este año",
+      "resumen": "Satya Nadella confirmó que Microsoft lanzará una 'super app' que unificará el chat, la programación y las capacidades de agentes autónomos de Copilot.\nEl sistema estará disponible tanto para clientes comerciales como para usuarios finales antes de terminar el año.\nEsta consolidación busca posicionar a Copilot como el asistente central en el ecosistema multiplataforma de la compañía.",
       "relevancia": 10,
-      "url": "https://remysharp.com/links/2026-07-23-35890312",
-      "fuente": "remysharp.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
+      "url": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Microsoft",
+        "Copilot",
+        "agentes IA"
+      ]
     },
     {
-      "id": "120808bde3",
-      "tema": "finanzas",
-      "titular_es": "U.S. economy slowed to 1.5% growth rate in Q2; June core inflation at 3.3%",
-      "resumen": "While the GDP number was below expectations, the miss appeared to come from a decline in federal government spending and inventories.",
-      "relevancia": 10,
-      "url": "https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html",
-      "fuente": "cnbc.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "72983700e6",
-      "tema": "emprendimiento",
-      "titular_es": "TechCrunch Disrupt 2026’s biggest stage features leaders from Amazon, Replit, Tether, with much more to come",
-      "resumen": "The Disrupt Stage is where many of the biggest conversations in technology happen, with a legacy that stretches back for more than a decade.",
-      "relevancia": 10,
-      "url": "https://techcrunch.com/2026/07/30/techcrunch-disrupt-2026s-biggest-stage-features-leaders-from-amazon-replit-tether-with-much-more-to-come/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "97aec3fde3",
-      "tema": "ciencia",
-      "titular_es": "The Download: tricking LLMs, and reviving geothermal plants",
-      "resumen": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A fundamental flaw leaves LLMs strikingly vulnerable to attack It is impossible to make large language models fully secure against hacks because of a fundamental ",
-      "relevancia": 10,
-      "url": "https://www.technologyreview.com/2026/07/30/1140936/the-download-tricking-llms-reviving-geothermal/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "44706ce26e",
+      "id": "ef47a8e86a",
       "tema": "ia",
-      "titular_es": "GCC steering committee announces AI policy",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "OpenAI busca avanzar en la frontera de costo y rendimiento con GPT-5.6",
+      "resumen": "OpenAI ha anunciado avances significativos en la eficiencia operativa de sus modelos con la presentación de GPT-5.6.\nLa nueva actualización busca reducir drásticamente los costos de inferencia por token manteniendo capacidades avanzadas de razonamiento.\nEste lanzamiento marca un paso clave para escalar el acceso de empresas a inteligencia artificial sin disparar los costos de cómputo.",
       "relevancia": 9,
-      "url": "https://lwn.net/Articles/1086041/",
-      "fuente": "lwn.net (vía HN)",
-      "bandera": "🌍",
-      "tags": []
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+      "fuente": "openai.com (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "OpenAI",
+        "GPT-5.6",
+        "llm"
+      ]
     },
     {
-      "id": "2c62797ce4",
+      "id": "6859a1dfdf",
+      "tema": "ia",
+      "titular_es": "Google DeepMind presenta Gemini Robotics 2 con control corporal completo para humanoides",
+      "resumen": "DeepMind reveló Gemini Robotics 2, un modelo de IA capaz de coordinar los movimientos de todo el cuerpo de un robot humanoide.\nA diferencia de versiones anteriores centradas en la parte superior, esta actualización integra desde los pies hasta los dedos para maniobras complejas.\nEl avance coloca a Google en la vanguardia de la robótica autónoma aplicada a entornos industriales y domésticos.",
+      "relevancia": 9,
+      "url": "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Google",
+        "robótica",
+        "DeepMind"
+      ]
+    },
+    {
+      "id": "1020793b81",
       "tema": "finanzas",
-      "titular_es": "What a divided Fed means for investors",
-      "resumen": "Wall Street has a clear takeaway from this week's Federal Reserve decision: A hike is likely on the horizon.",
+      "titular_es": "Meta cae y Microsoft se dispara: Wall Street exige retornos reales por la inversión en IA",
+      "resumen": "La reacción dispar en bolsa tras los balances de Meta y Microsoft refleja un cambio de exigencia entre los analistas financieros.\nEl mercado dejó de premiar el gasto multimillonario en infraestructura si no viene acompañado de monetización inmediata.\nMicrosoft convenció a los inversores con ingresos crecientes en la nube, mientras Meta fue castigada por mayores costes operativos.",
       "relevancia": 9,
-      "url": "https://www.cnbc.com/2026/07/29/fed-meeting-interest-rates-warsh-stocks-bonds.html",
-      "fuente": "cnbc.com",
-      "bandera": "🌍",
-      "tags": []
+      "url": "https://www.bloomberglinea.com/mercados/meta-se-hunde-y-microsoft-se-dispara-cinco-claves-que-explican-la-reaccion-de-wall-street/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Wall Street",
+        "Microsoft",
+        "Meta"
+      ]
     },
     {
-      "id": "1a490bc117",
+      "id": "97625a3cb9",
       "tema": "emprendimiento",
-      "titular_es": "Inforcer raises $50M to help prepare smaller businesses for a new world of AI and security risks",
-      "resumen": "London-based Inforcer just closed a $50 million Series C round led by Insight Partners.",
+      "titular_es": "Simile alcanza una valoración de US$2.000 millones tras levantar US$200 millones",
+      "resumen": "La startup especializada en modelos de usuarios sintéticos mediante IA Simile cerró su Serie B solo 5 meses después de su Serie A.\nLa ronda fue valorada en $2.000 millones de dólares, impulsada por la demanda de simulación de comportamiento de clientes.\nEl rápido crecimiento consolida a la empresa como uno de los unicornios más acelerados del sector tecnológico.",
       "relevancia": 9,
-      "url": "https://techcrunch.com/2026/07/30/inforcer-raises-50m-to-help-prepare-smbs-for-a-new-world-of-ai-and-security-risks/",
+      "url": "https://techcrunch.com/2026/07/30/synthetic-user-startup-simile-raises-200m-at-2b-valuation-5-months-after-100m-series-a/",
       "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "startups",
+        "Simile",
+        "capital de riesgo"
+      ]
+    },
+    {
+      "id": "9327b82975",
+      "tema": "emprendimiento",
+      "titular_es": "Okta adquiere la startup de ciberseguridad Permiso por cerca de US$200 millones",
+      "resumen": "Okta concretó la compra de Permiso para integrar herramientas de detección de amenazas en identidades no humanas.\nLa adquisición apunta a proteger agentes de IA y credenciales automatizadas en entornos multi-nube corporativos.\nCierra una de las operaciones de M&A más destacadas del trimestre en el segmento de seguridad en la nube.",
+      "relevancia": 9,
+      "url": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Okta",
+        "Permiso",
+        "ciberseguridad"
+      ]
+    },
+    {
+      "id": "027368541f",
+      "tema": "emprendimiento",
+      "titular_es": "Commonwealth Fusion Systems asegura US$1.000 millones para su planta comercial",
+      "resumen": "La startup de energía de fusión nuclear levantó $1.000 millones adicionales en una ronda privada masiva.\nLos fondos se destinarán a finalizar la construcción de su reactor prototipo y preparar la escalabilidad comercial.\nLa empresa mantiene su cronograma para demostrar ganancia neta de energía antes del cierre de la década.",
+      "relevancia": 9,
+      "url": "https://techcrunch.com/2026/07/30/fusion-power-darling-commonwealth-fusion-systems-raises-another-1b/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "fusión nuclear",
+        "startups",
+        "inversión"
+      ]
     },
     {
       "id": "d3ef4a34cd",
       "tema": "ciencia",
-      "titular_es": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
-      "resumen": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI conference, this month. The claim has huge implications for the saf",
+      "titular_es": "Investigadores revelan un fallo de seguridad estructural e irreparable en los LLM",
+      "resumen": "Un estudio presentado en la conferencia ICML demuestra que es imposible blindar totalmente los LLM contra ataques de 'jailbreak'.\nLa falla reside en la arquitectura fundamental de procesamiento de tokens de los modelos de lenguaje actuales.\nEl descubrimiento cuestiona la viabilidad de usar estos sistemas en infraestructuras críticas sin supervisión humana.",
       "relevancia": 9,
       "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
       "fuente": "technologyreview.com",
       "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "0e9be19015",
-      "tema": "ia",
-      "titular_es": "Google will expand age checks on Android worldwide till the end of the year",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 8,
-      "url": "https://android-developers.googleblog.com/2026/07/google-play-age-signals-api-safer-experiences.html",
-      "fuente": "android-developers.googleblog.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "da4e8a26a3",
-      "tema": "finanzas",
-      "titular_es": "Jim Cramer says this post-earnings sell-off is a golden buying opportunity",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 8,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-post-earnings-221700892.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "b509c20461",
-      "tema": "emprendimiento",
-      "titular_es": "Claude Opus 5 became downright ruthless when tasked with running a vending machine",
-      "resumen": "Andon Labs' latest vending machine simulation shows Opus 5 lied and colluded its way to become the best AI capitalist ever.",
-      "relevancia": 8,
-      "url": "https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "2ef3d49a86",
-      "tema": "ciencia",
-      "titular_es": "How an overlooked geothermal plant got a second chance",
-      "resumen": "In June 2024, a small company called Zanskar purchased a geothermal power plant in New Mexico that was failing fast. The water coming from the underground reservoir was getting colder by the day, making the plant uneconomical to run. Now, two years later, that plant is running at full capacity again",
-      "relevancia": 8,
-      "url": "https://www.technologyreview.com/2026/07/29/1140896/geothermal-second-chance/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "15a8d84f6a",
-      "tema": "ia",
-      "titular_es": "Ron Gilbert started production on Thimbleweed Park 2",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 7,
-      "url": "https://www.grumpygamer.com/twp2_announce/",
-      "fuente": "grumpygamer.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "c4cbecf2d2",
-      "tema": "finanzas",
-      "titular_es": "US economic growth slows to 1.5% in second quarter",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/economy/article/us-economic-growth-slows-to-15-in-second-quarter-135510531.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "bd3475aa87",
-      "tema": "emprendimiento",
-      "titular_es": "‘If this isn’t addiction, I don’t know what is’: Light’s founders get real about screen time",
-      "resumen": "With the Light Phone, Kaiwei Tang and Joe Hollier have spent over a decade exploring the value of simplicity in our relationship to technology, partnering along the way with players like Andrew Yang, Kendrick Lamar, and Pete Davidson. Now, with a new flip phone and a growing wave of “attention activ",
-      "relevancia": 7,
-      "url": "https://techcrunch.com/podcast/if-this-isnt-addiction-i-dont-know-what-is-lights-founders-get-real-about-screen-time/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "ffd65b355b",
-      "tema": "ciencia",
-      "titular_es": "Scientists found evolution repeating itself in the Galápagos Islands",
-      "resumen": "More than 150 years after Darwin’s finches helped reshape biology, Galápagos plants are exposing another evolutionary surprise. Giant daisies repeatedly developed similar heat-tolerant leaf shapes, but each lineage used a different combination of genes. Researchers also found major genetic differenc",
-      "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260729051537.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "cf9847582c",
-      "tema": "ia",
-      "titular_es": "The Productivity Mirage",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 6,
-      "url": "https://frantic.im/mirage/",
-      "fuente": "frantic.im (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "ac1516915c",
-      "tema": "finanzas",
-      "titular_es": "Is Schwab Stock A Sweet Buy In Sour Market? Consider These Clues.",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 6,
-      "url": "https://www.investors.com/research/ibd-stock-analysis/schwab-stock-schw-time-to-buy-shares-of-financial-giant/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "c037c1f2be",
-      "tema": "emprendimiento",
-      "titular_es": "Hint, a new AI startup co-founded by Martha Stewart, offers an AI assistant for homeowners",
-      "resumen": "AI home management startup Hint, co-founded by Martha Stewart, wants to become an “AI for your home,” combining property records, maintenance schedules, home documents, and an AI assistant into a single app.",
-      "relevancia": 6,
-      "url": "https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "773bf7ac41",
-      "tema": "ciencia",
-      "titular_es": "What if the brain does not create consciousness?",
-      "resumen": "Christof Koch is taking on one of science’s deepest mysteries: how the brain creates conscious experience, or whether it creates it at all. He argues that materialism has yet to solve this “hard problem” and will explore puzzling phenomena such as near-death experiences and terminal lucidity. His wo",
-      "relevancia": 6,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260729043829.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "0d2705fe39",
-      "tema": "ia",
-      "titular_es": "LLM Honeypot",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 5,
-      "url": "https://llm2human.pages.dev/",
-      "fuente": "llm2human.pages.dev (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "3c9b30339a",
-      "tema": "finanzas",
-      "titular_es": "A Quarter Of Canadians Now Own Crypto",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 5,
-      "url": "https://finance.yahoo.com/markets/crypto/articles/quarter-canadians-now-own-crypto-134900396.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "0891c470d2",
-      "tema": "emprendimiento",
-      "titular_es": "The lineage behind 69% of open models was never verified. Cisco just fingerprinted almost 900 for free",
-      "resumen": "A security team approving an open-source model for production today starts with a repository page. The page lists the model name, the license, and a tag identifying the base model it descended from. That tag is a string the uploader typed. Hugging Face does not require uploaders to substantiate the ",
-      "relevancia": 5,
-      "url": "https://venturebeat.com/security/cisco-ai-supply-chain-provenance-explorer-fingerprints-900-open-models-replaces-self-reported-tags",
-      "fuente": "venturebeat.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "3617a28ef8",
-      "tema": "ciencia",
-      "titular_es": "Rice bran compound may help ease irritable bowel symptoms",
-      "resumen": "A compound in rice bran may help calm an overactive gut by reducing the calcium signals that cause intestinal muscles to contract. Ferulic acid suppressed contractions triggered by several chemical messengers in laboratory experiments. The discovery could eventually support new dietary approaches fo",
-      "relevancia": 5,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260729010742.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "1bb6a0f510",
-      "tema": "ia",
-      "titular_es": "AI's top startups are barely publishing their research",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 4,
-      "url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
-      "fuente": "science.org (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "3a164f0211",
-      "tema": "finanzas",
-      "titular_es": "Technical Assessment: Bullish in the Intermediate-Term",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 4,
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_47773_TechnicalAnalysis_1785410198000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "dc715a08c7",
-      "tema": "emprendimiento",
-      "titular_es": "Companies are finally seeing AI ROI — and now they know how much more value it can deliver",
-      "resumen": "Presented by SAP Enterprise AI has moved from experiment to execution, and that shift is beginning to show real returns. The SAP Value of AI Report 2026, produced with Oxford Economics and based on a survey of 2,600 business leaders across 13 countries, found that AI now supports nearly one-third of",
-      "relevancia": 4,
-      "url": "https://venturebeat.com/technology/companies-are-finally-seeing-ai-roi-and-now-they-know-how-much-more-value-it-can-deliver",
-      "fuente": "venturebeat.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "b11af77404",
-      "tema": "ciencia",
-      "titular_es": "A forgotten fossil just revealed a new Triassic predator from 210 million years ago",
-      "resumen": "A fossil overlooked for nearly 80 years has revealed a previously unknown crocodile relative that lived 210 million years ago in what is now New Mexico. Named Eosphorosuchus lacrimosa, the jackal-sized predator had a reinforced skull, powerful jaw muscles, and a short snout built for tackling larger",
-      "relevancia": 4,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260729010732.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "baa2ee0191",
-      "tema": "ia",
-      "titular_es": "The Cold Email",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 3,
-      "url": "https://zachholman.com/posts/cold-email",
-      "fuente": "zachholman.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "894be34927",
-      "tema": "finanzas",
-      "titular_es": "Overlooked AI stock is growing faster than Nvidia",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 3,
-      "url": "https://finance.yahoo.com/technology/ai/articles/overlooked-ai-stock-growing-faster-013700188.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "a009bc9dd4",
-      "tema": "emprendimiento",
-      "titular_es": "At Waymo, an AI project isn't ready until its evals are — not when the model performs well",
-      "resumen": "Few companies face higher stakes when deploying AI than Waymo , the self-driving car company under Alphabet that spun out of Google. Its models do not merely generate text or automate back-office tasks: They help vehicles navigate unpredictable streets, respond to human drivers and make split-second",
-      "relevancia": 3,
-      "url": "https://venturebeat.com/technology/at-waymo-an-ai-project-isnt-ready-until-its-evals-are-not-when-the-model-performs-well",
-      "fuente": "venturebeat.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "3ce29761d4",
-      "tema": "ciencia",
-      "titular_es": "This 4,000-year-old city defied the rules of history",
-      "resumen": "As Mohenjo-daro prospered, the gap between its richest and poorest households actually shrank. Its shared infrastructure, fair trade systems, and lack of powerful royal elites suggest that equality may have helped fuel the ancient city’s success.",
-      "relevancia": 3,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260729010730.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "92e6cbdb00",
-      "tema": "ia",
-      "titular_es": "The coolest use for the Vision Pro",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 2,
-      "url": "https://christianselig.com/2026/07/vision-pro-house/",
-      "fuente": "christianselig.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "ca083a22c2",
-      "tema": "finanzas",
-      "titular_es": "Meta stock sinks on earnings miss, 'barely passable' quarterly results",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 2,
-      "url": "https://finance.yahoo.com/markets/article/meta-stock-sinks-on-earnings-miss-barely-passable-quarterly-results-124851083.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "30f8e69e4b",
-      "tema": "emprendimiento",
-      "titular_es": "Enterprise AI agents can't talk to each other, can't be trusted with permissions, and can't be audited — 5 startups are already fixing that",
-      "resumen": "Enterprise AI agents can do the work — but the infrastructure to let them talk to each other, prove they should be trusted , and be audited when something goes wrong is still being built. Here's a look at how five startups are tackling that gap — around orchestration, observability, connectivity, an",
-      "relevancia": 2,
-      "url": "https://venturebeat.com/orchestration/enterprise-ai-agents-cant-talk-to-each-other-cant-be-trusted-with-permissions-and-cant-be-audited-5-startups-are-already-fixing-that",
-      "fuente": "venturebeat.com",
-      "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "investigación",
+        "ciberseguridad",
+        "LLM"
+      ]
     },
     {
       "id": "593b9e1f67",
       "tema": "ciencia",
-      "titular_es": "Ultrafast X-rays capture chemistry unfolding atom by atom",
-      "resumen": "Ultrafast X-rays revealed how a molecule converts absorbed light into motion in just trillionths of a second. Individual atoms recorded different stages of the process, opening a powerful new window into light-driven chemistry.",
-      "relevancia": 2,
+      "titular_es": "Rayos X ultrarrápidos capturan reacciones químicas a escala atómica por primera vez",
+      "resumen": "Utilizando pulsos de rayos X de femtosegundos, científicos lograron filmar cómo una molécula convierte luz en movimiento.\nLa técnica permitió registrar el desplazamiento individual de los átomos en trillonesimas de segundo.\nEl avance promete revolucionar el diseño de materiales fotosensibles y paneles solares de alta eficiencia.",
+      "relevancia": 9,
       "url": "https://www.sciencedaily.com/releases/2026/07/260729010726.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "química",
+        "física",
+        "tecnología"
+      ]
     },
     {
-      "id": "01888601fc",
+      "id": "169a6f9c39",
       "tema": "ia",
-      "titular_es": "Spotify Running Mode helps match tunes to tempo",
-      "resumen": "Spotify has introduced a new Running Mode feature that makes it easier to curate playlists around your workout goals, music tastes, and desired beats per minute (BPM). The aim is to help you \"spend less time hunting for the right music and more time moving,\" according to Spotify's announcement, prov",
-      "relevancia": 1,
-      "url": "https://www.theverge.com/entertainment/973002/spotify-running-mode-launch-bpm-playlists",
+      "titular_es": "Meta alista una fuerte ofensiva en el desarrollo de agentes de IA personalizados",
+      "resumen": "Mark Zuckerberg adelantó en la llamada de resultados de Meta una estrategia agresiva para desplegar agentes personales de IA.\nLos sistemas estarán diseñados para ejecutar tareas complejas y transacciones en nombre de los usuarios a través de WhatsApp e Instagram.\nRepresenta el mayor giro operativo de Meta para monetizar directamente sus inversiones masivas en infraestructura de IA.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents",
       "fuente": "theverge.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "Meta",
+        "agentes IA",
+        "Zuckerberg"
+      ]
     },
     {
-      "id": "a4f69881c1",
+      "id": "dfcbbeea2f",
+      "tema": "finanzas",
+      "titular_es": "Ventas de iPhone y Mac de Apple crecen fuertemente pese a la escasez global de memoria RAM",
+      "resumen": "Apple reportó un salto del 22% en ventas de iPhone ($54.250 millones) y del 29% en Mac ($10.350 millones) durante el tercer trimestre.\nLos resultados superaron las estimaciones del mercado en un periodo marcado por cuellos de botella en suministros de memoria.\nEl impulso en ingresos consolida el poder de fijación de precios de la empresa frente a presiones en la cadena logística.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/tech/973430/apple-q3-2026-earnings",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Apple",
+        "mercados",
+        "resultados"
+      ]
+    },
+    {
+      "id": "120808bde3",
+      "tema": "finanzas",
+      "titular_es": "La economía de EE. UU. se desacelera al 1,5% en el segundo trimestre e inflación sube a 3,3%",
+      "resumen": "El PIB de Estados Unidos creció a una tasa anualizada del 1,5% en el segundo trimestre, por debajo de las previsiones de Wall Street.\nEl freno se atribuye principalmente a caídas en el gasto público federal y a la liquidación de inventarios comerciales.\nPor su parte, la inflación subyacente de junio se situó en 3,3%, complicando el panorama para las próximas decisiones de la Reserva Federal.",
+      "relevancia": 8,
+      "url": "https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html",
+      "fuente": "cnbc.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "EEUU",
+        "PIB",
+        "inflación"
+      ]
+    },
+    {
+      "id": "cae953b7ec",
+      "tema": "finanzas",
+      "titular_es": "Wall Street cierra al alza impulsado por una jornada histórica de Microsoft en bolsa",
+      "resumen": "Los principales índices de Nueva York cerraron con fuertes ganancias tras el rally bursátil experimentado por Microsoft.\nLas cifras récord en su división de servicios de nube disiparon temporalmente el temor a un estancamiento en el sector tecnológico.\nLos inversores absorbieron de forma positiva los últimos datos macreoconómicos de empleo e inflación en Estados Unidos.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/mercados/wall-street-repunta-impulsado-por-microsoft-y-nuevos-datos-economicos-en-estados-unidos/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Wall Street",
+        "bolsa",
+        "tecnología"
+      ]
+    },
+    {
+      "id": "129c110369",
+      "tema": "finanzas",
+      "titular_es": "Las acciones de Adidas se desploman tras el gasto en marketing para el Mundial 2026",
+      "resumen": "Los títulos de Adidas perdieron todas sus ganancias anuales a pesar de haber registrado ingresos trimestrales récord.\nEl desmedido incremento en los costes publicitarios y de patrocinio para la Copa del Mundo redujo los márgenes operativos.\nLa noticia generó decepción entre los analistas que esperaban un mayor retorno neto tras el torneo internacional.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/mercados/el-mundial-2026-pasa-factura-a-adidas-la-accion-se-desploma-y-pierde-las-ganancias-del-ano/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇩🇪",
+      "tags": [
+        "Adidas",
+        "acciones",
+        "marketing"
+      ]
+    },
+    {
+      "id": "627a9cc089",
+      "tema": "finanzas",
+      "titular_es": "Ecopetrol evalúa la venta de su participación en ISA a Grupo Energía Bogotá",
+      "resumen": "La potencial desinversión de Ecopetrol en ISA en favor del Grupo Energía Bogotá (GEB) perfila la mayor transacción corporativa del año en Colombia.\nLa operación permitiría a Ecopetrol reducir deuda y concentrarse en producción energética sin perder posicionamiento.\nAnalistas proyectan volatilidades e impactos diferenciados en las cotizaciones de las tres firmas involucradas.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/ecopetrol-vendera-isa-a-geb-el-efecto-en-las-acciones-envueltas-en-el-negocio-del-ano/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇨🇴",
+      "tags": [
+        "Ecopetrol",
+        "Colombia",
+        "energía"
+      ]
+    },
+    {
+      "id": "cf84dae64f",
+      "tema": "finanzas",
+      "titular_es": "Fibra CFE financiará hasta US$3.500 millones para expandir redes eléctricas en México",
+      "resumen": "El fideicomiso de la Comisión Federal de Electricidad alistó un plan de inversión enfocado en infraestructura de transmisión.\nEl objetivo principal es conectar los nuevos parques de generación pública con los centros de alto consumo industrial.\nLa medida busca reducir pérdidas operativas e integrar la red ante la creciente demanda energética nacional.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/latinoamerica/mexico/fibra-de-cfe-financiara-inversiones-en-redes-electricas-hasta-por-us3500-millones/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇲🇽",
+      "tags": [
+        "CFE",
+        "México",
+        "infraestructura"
+      ]
+    },
+    {
+      "id": "1a490bc117",
       "tema": "emprendimiento",
-      "titular_es": "Nimble claims its new, domain-specialized Web Search Agents cut token costs in half while boosting retrieval accuracy",
-      "resumen": "Nimble , a New York City-based tech startup VentureBeat previously covered for its efforts to re-invent web search for enterprises by using multiple AI agents to improve accuracy and depth, is taking another step toward its vision of a world in which agents do most of the web searching instead of us",
-      "relevancia": 1,
-      "url": "https://venturebeat.com/orchestration/nimble-claims-its-new-domain-specialized-web-search-agents-cut-token-costs-in-half-while-boosting-retrieval-accuracy",
+      "titular_es": "La británica Inforcer cierra una Serie C de US$50 millones para seguridad con IA",
+      "resumen": "Inforcer, con sede en Londres, levantó $50 millones de dólares en una ronda liderada por la firma Insight Partners.\nLa empresa desarrolla herramientas de gestión de políticas de seguridad automatizadas para pequeñas y medianas empresas.\nLos recursos permitirán acelerar su expansión en el mercado corporativo norteamericano.",
+      "relevancia": 8,
+      "url": "https://techcrunch.com/2026/07/30/inforcer-raises-50m-to-help-prepare-smbs-for-a-new-world-of-ai-and-security-risks/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇬🇧",
+      "tags": [
+        "Inforcer",
+        "startups",
+        "seguridad"
+      ]
+    },
+    {
+      "id": "09a40f5b17",
+      "tema": "emprendimiento",
+      "titular_es": "Mastercard adapta su sistema antifraude ante el aumento de compras ejecutadas por bots de IA",
+      "resumen": "Mastercard está reconfigurando sus modelos analíticos diseñados originalmente para bloquear bots como posibles atacantes.\nAnte el auge de agentes de IA que realizan compras legítimas por usuarios, la red debe adaptar la evaluación en milisegundos.\nLa transición representa un desafío técnico sin precedentes para la infraestructura de procesamiento de pagos.",
+      "relevancia": 8,
+      "url": "https://venturebeat.com/security/mastercard-spent-decades-training-its-fraud-system-to-see-bots-as-thieves-now-bots-are-the-ones-doing-the-buying",
       "fuente": "venturebeat.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Mastercard",
+        "fintech",
+        "agentes IA"
+      ]
+    },
+    {
+      "id": "b2e3f7e34c",
+      "tema": "emprendimiento",
+      "titular_es": "Hush Security recauda US$30 millones para gestionar identidades de agentes de IA",
+      "resumen": "La startup israelí Hush Security cerró una Serie A de $30 millones liderada por sus inversores iniciales.\nLa compañía sostiene que el peligro principal de la IA ha pasado del modelo al control de credenciales de agentes autónomos.\nLa solución permite a las empresas auditar permisos y accesos concedidos a bots dentro de redes corporativas.",
+      "relevancia": 8,
+      "url": "https://venturebeat.com/security/hush-security-says-the-ai-security-problem-has-shifted-from-protecting-models-to-governing-identities-as-autonomous-agents-spread",
+      "fuente": "venturebeat.com",
+      "bandera": "🇮🇱",
+      "tags": [
+        "Hush Security",
+        "ciberseguridad",
+        "startups"
+      ]
+    },
+    {
+      "id": "0891c470d2",
+      "tema": "emprendimiento",
+      "titular_es": "Cisco analiza la autenticidad de 900 modelos de código abierto sin verificar",
+      "resumen": "Un equipo de ciberseguridad de Cisco descubrió que el 69% de los modelos open-source carece de linaje genético verificado.\nCisco publicó una herramienta gratuita que generó huellas digitales para casi 900 modelos en plataformas como Hugging Face.\nLa iniciativa busca evitar que atacantes distribuyan modelos manipulados o con backdoors bajo etiquetas falsas.",
+      "relevancia": 8,
+      "url": "https://venturebeat.com/security/cisco-ai-supply-chain-provenance-explorer-fingerprints-900-open-models-replaces-self-reported-tags",
+      "fuente": "venturebeat.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Cisco",
+        "código abierto",
+        "seguridad"
+      ]
+    },
+    {
+      "id": "7baf6e778f",
+      "tema": "ciencia",
+      "titular_es": "Físicos resuelven la anomalía del muón, descartando incompatibilidades con el Modelo Estándar",
+      "resumen": "Un equipo de físicos teóricos logró calcular con precisión inédita el comportamiento magnético de la partícula muón.\nLos nuevos resultados resuelven discrepancias históricas y muestran coherencia con las predicciones del Modelo Estándar.\nEl hallazgo redirige la búsqueda de 'nueva física' hacia otros experimentos de alta energía.",
+      "relevancia": 8,
+      "url": "https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/",
+      "fuente": "quantamagazine.org (vía HN)",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "física",
+        "partículas",
+        "ciencia"
+      ]
+    },
+    {
+      "id": "32e49dc9d2",
+      "tema": "ciencia",
+      "titular_es": "El rover Curiosity de la NASA descubre un patrón de polígonos gigantes en Marte",
+      "resumen": "Curiosity capturó imágenes de una formación geológica en forma de panal en la región de Valle Grande en Marte.\nLos polígonos miden entre 4 y 7 centímetros y sugieren ciclos antiguos de humedad y desecación en la superficie.\nEste hallazgo refuerza la hipótesis de que el planeta rojo albergó condiciones propicias para la vida microbiana.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/science/973314/nasa-curiosity-rover-mars-polygons",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "NASA",
+        "Marte",
+        "espacio"
+      ]
+    },
+    {
+      "id": "ffd65b355b",
+      "tema": "ciencia",
+      "titular_es": "Científicos descubren patrones de evolución convergente en la flora de las Islas Galápagos",
+      "resumen": "Un equipo de biólogos halló que varias especies de margaritas gigantes desarrollaron de forma independiente hojas resistentes al calor.\nA pesar de lograr estructuras idénticas, cada linaje activó combinaciones genéticas completamente distintas.\nEl estudio aporta nueva evidencia sobre cómo las plantas pueden adaptarse rápidamente al cambio climático.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260729051537.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇪🇨",
+      "tags": [
+        "evolución",
+        "biología",
+        "Galápagos"
+      ]
+    },
+    {
+      "id": "30c9b3df4f",
+      "tema": "ciencia",
+      "titular_es": "La IA revela que la evolución de las aves ocurre en ráfagas asociadas a cambios climáticos",
+      "resumen": "Un análisis basado en aprendizaje automático descubrió que las aves cantoras evolucionaron mediante explosiones morfológicas breves.\nEstos periodos de diversificación acelerada coincidieron históricamente con alteraciones drásticas en el clima terrestre.\nEl modelo cambia la percepción tradicional de una evolución puramente gradual y constante en la biosfera.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260729010709.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "IA",
+        "evolución",
+        "biología"
+      ]
+    },
+    {
+      "id": "8c6c41436c",
+      "tema": "ciencia",
+      "titular_es": "El telescopio ALMA completa su primera búsqueda SETI en frecuencias de radio elevadas",
+      "resumen": "Astrónomos utilizaron datos de archivo del radiotelescopio ALMA en Chile para buscar señales de tecnología extraterrestre.\nLa investigación cubrió un rango de frecuencias más altas que las exploradas tradicionalmente por los programas SETI.\nAunque no se detectaron transmisiones artificiales, se estableció un nuevo estándar para futuros rastreos profundos.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260726015239.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇨🇱",
+      "tags": [
+        "SETI",
+        "astronomía",
+        "ALMA"
+      ]
+    },
+    {
+      "id": "5660592593",
+      "tema": "ia",
+      "titular_es": "GitHub activa de forma oficial el soporte para Pull Requests apilados",
+      "resumen": "GitHub lanzó formalmente la función de 'Stacked PRs', permitiendo a los desarrolladores dividir grandes cambios de código en revisiones secuenciales e independientes.\nEsta herramienta optimiza los flujos de trabajo en equipos grandes al reducir los cuellos de botella en la revisión de software.\nLa actualización ya se encuentra disponible para todos los usuarios de la plataforma global.",
+      "relevancia": 7,
+      "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
+      "fuente": "github.blog (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "GitHub",
+        "desarrollo",
+        "software"
+      ]
+    },
+    {
+      "id": "44706ce26e",
+      "tema": "ia",
+      "titular_es": "El comité directivo de GCC anuncia su primera política oficial sobre inteligencia artificial",
+      "resumen": "El comité directivo del compilador GCC ha publicado sus directrices oficiales para regular el uso de código generado por IA en el proyecto.\nLa norma busca proteger la propiedad intelectual de la herramienta y prevenir vulnerabilidades de seguridad en software crítico.\nEstablece requisitos estrictos de atribución y verificación para cualquier contribución asistida por modelos de lenguaje.",
+      "relevancia": 7,
+      "url": "https://lwn.net/Articles/1086041/",
+      "fuente": "lwn.net (vía HN)",
+      "bandera": "🌍",
+      "tags": [
+        "GCC",
+        "código abierto",
+        "regulación"
+      ]
+    },
+    {
+      "id": "0d730ddf13",
+      "tema": "ia",
+      "titular_es": "LinkedIn añade un botón para denunciar contenido generado por IA de baja calidad",
+      "resumen": "LinkedIn lanzó una opción que permite a los usuarios marcar publicaciones sospechosas de ser contenido spam o automatizado ('AI slop').\nLa medida responde a la creciente saturación de textos generados por algoritmos en las noticias profesionales.\nBusca devolver la relevancia y autenticidad a las interacciones dentro de la red social de Microsoft.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "LinkedIn",
+        "redes sociales",
+        "spam"
+      ]
     }
   ]
 }
