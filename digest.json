@@ -1,6 +1,6 @@
 {
   "fecha": "2026-08-02",
-  "generado_utc": "2026-08-02T13:21:52Z",
+  "generado_utc": "2026-08-02T20:44:25Z",
   "indicadores": {
     "dolar": {
       "valor": 924.78,
@@ -13,7 +13,7 @@
       "variacion_pct": 0.0
     }
   },
-  "noticia_del_dia": "e092adfe40",
+  "noticia_del_dia": "159fef8f06",
   "pildora_ia": "Ventana de contexto: la cantidad máxima de tokens que un LLM puede 'ver' a la vez (prompt + respuesta). Si te pasas, olvida el inicio. Los modelos modernos van de miles a millones de tokens.",
   "pildoras_ia": [
     "Ventana de contexto: la cantidad máxima de tokens que un LLM puede 'ver' a la vez (prompt + respuesta). Si te pasas, olvida el inicio. Los modelos modernos van de miles a millones de tokens.",
@@ -24,258 +24,318 @@
   ],
   "noticias": [
     {
-      "id": "e092adfe40",
-      "tema": "ia",
-      "titular_es": "El modelo Kimi K3 corre en la AMD MI355X con mejor rendimiento por dólar que en la Nvidia B300",
-      "resumen": "Nuevas pruebas de rendimiento demuestran que ejecutar el modelo de lenguaje Kimi K3 en aceleradores AMD Instinct MI355X logra una eficiencia económica superior frente a las GPU Nvidia B300.\nEste hallazgo evidencia la creciente competitividad del hardware de AMD en cargas de trabajo de IA intensivas.\nEl resultado posiciona a AMD como una alternativa clave para optimizar costos de infraestructura a gran escala.",
+      "id": "159fef8f06",
+      "tema": "finanzas",
+      "titular_es": "La deuda de Amazon se duplica hasta 129.000 millones de dólares por su gasto en centros de datos para IA",
+      "resumen": "La deuda de Amazon se disparó casi al doble en solo seis meses debido a un agresivo plan de inversión. El CEO Andy Jassy defendió un gasto proyectado de 220.000 millones de dólares destinado a infraestructura de centros de datos e IA. La medida busca asegurar la posición de liderazgo de la compañía en la carrera tecnológica global.",
       "relevancia": 9,
-      "url": "https://www.wafer.ai/blog/kimi-k3-mi355x",
-      "fuente": "wafer.ai (vía HN)",
-      "bandera": "🌍",
-      "tags": [
-        "IA",
-        "AMD",
-        "hardware"
-      ]
-    },
-    {
-      "id": "9f8c4b9e50",
-      "tema": "ciencia",
-      "titular_es": "El rover Curiosity de la NASA descubre un misterioso paisaje en forma de panal en Marte",
-      "resumen": "El explorador Curiosity ingresó a un valle marciano cubierto por un extenso patrón de fracturas poligonales de pocos centímetros de ancho.\nLa formación geológica se extiende a lo largo del terreno y rodea una colina adyacente de seis metros de altura.\nLos científicos estudian estas estructuras para determinar si estuvieron vinculadas a ciclos antiguos de humedad y sequía en el planeta rojo.",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260731034142.htm",
-      "fuente": "sciencedaily.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amazons-debt-nearly-doubled-129-140000968.html",
+      "fuente": "finance.yahoo.com",
       "bandera": "🇺🇸",
       "tags": [
-        "NASA",
-        "Marte",
-        "espacio"
+        "Amazon",
+        "inversión",
+        "centros de datos"
       ]
     },
     {
-      "id": "54e1266aa2",
-      "tema": "ciencia",
-      "titular_es": "Ingenieros planifican una arriesgada misión para capturar y salvar un satélite de la NASA",
-      "resumen": "Un equipo de ingenieros espaciales diseña un plan para capturar en órbita la nave destinada a rescatar la misión del telescopio espacial Swift de la NASA.\nLa compleja maniobra de desacoplamiento e intercepción orbital busca estabilizar el instrumento y extender su vida útil científica.\nLa operación representa un hito técnico relevante en la asistencia y mantenimiento de satélites en servicio.",
-      "relevancia": 9,
-      "url": "https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/",
-      "fuente": "arstechnica.com",
+      "id": "2146b18978",
+      "tema": "finanzas",
+      "titular_es": "Mercados atentos a los resultados de AMD, SpaceX y Eli Lilly mientras cambian los futuros de Wall Street",
+      "resumen": "Los futuros de los principales índices estadounidenses muestran cautela antes de una semana clave de reportes financieros. Gigantes tecnológicos e industriales como AMD, Sandisk, SpaceX y Eli Lilly están por presentar sus balances trimestrales. La volatilidad también se ve impulsada por novedades geopolíticas en Medio Oriente.",
+      "relevancia": 8,
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-spacex-amd-sandisk-eli-lilly-earnings-loom/?src=A00220&yptr=yahoo",
+      "fuente": "investors.com",
       "bandera": "🇺🇸",
       "tags": [
-        "NASA",
-        "ingeniería espacial",
-        "satélites"
+        "Wall Street",
+        "resultados trimestrales",
+        "mercados"
       ]
     },
     {
-      "id": "30440b3052",
+      "id": "ad96f7462c",
+      "tema": "emprendimiento",
+      "titular_es": "BYD acelera sus ventas internacionales impulsada por alta demanda y carga ultrarrápida",
+      "resumen": "El gigante chino de vehículos eléctricos intensifica su expansión en mercados internacionales para desafiar a Tesla. Su estrategia combina precios competitivos con avances en sistemas de carga ultrarrápida. Las crecientes exportaciones reflejan un cambio decisivo en la cuota de mercado global de la movilidad eléctrica.",
+      "relevancia": 8,
+      "url": "https://www.investors.com/news/tesla-rival-byd-sales-overseas-demand-flash-charging/?src=A00220&yptr=yahoo",
+      "fuente": "investors.com",
+      "bandera": "🇨🇳",
+      "tags": [
+        "BYD",
+        "vehículos eléctricos",
+        "expansión global"
+      ]
+    },
+    {
+      "id": "cd356e3afa",
+      "tema": "emprendimiento",
+      "titular_es": "CoreWeave firma alianza estratégica con Leidos para impulsar infraestructura de IA",
+      "resumen": "La startup de infraestructura en la nube para inteligencia artificial ha cerrado un acuerdo relevante con el contratista tecnológico Leidos. El acuerdo permitirá integrar capacidades avanzadas de computación de alto rendimiento en el sector público y de defensa. La noticia refuerza la rápida valoración e importancia comercial de la startup.",
+      "relevancia": 8,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-just-scored-leidos-partnership-141239028.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "CoreWeave",
+        "startups",
+        "infraestructura IA"
+      ]
+    },
+    {
+      "id": "7af70de6db",
       "tema": "ia",
-      "titular_es": "Filtración revela las especificaciones técnicas y el precio del próximo Pixel 11",
-      "resumen": "Una filtración masiva alinea los datos de la serie Pixel 11 antes del evento oficial de Google previsto para este mes.\nEl dispositivo base incluiría 256 GB de almacenamiento estándar pero sufriría un incremento de 100 dólares en su precio de venta, situándose en 899 USD.\nLa información confirma la tendencia del mercado hacia el aumento de costos en dispositivos de gama alta.",
+      "titular_es": "Microsoft confirma subidas de precio de hasta 200 euros para las consolas Xbox en Europa",
+      "resumen": "Tras anunciar incrementos en Estados Unidos, Microsoft reveló los nuevos precios de sus consolas Xbox para Europa y Reino Unido. Dependiendo del modelo, los aumentos alcanzan hasta 200 euros o 170 libras esterlinas. La decisión responde al incremento en los costos de fabricación y distribución de hardware tecnológico.",
       "relevancia": 8,
-      "url": "https://www.theverge.com/tech/974238/pixel-11-specs-and-price-leak",
+      "url": "https://www.theverge.com/games/974253/xbox-prices-increasing-200-euros",
       "fuente": "theverge.com",
-      "bandera": "🇺🇸",
+      "bandera": "🇪🇺",
       "tags": [
-        "Google",
-        "smartphones",
-        "Pixel"
+        "Microsoft",
+        "Xbox",
+        "gaming"
       ]
     },
     {
-      "id": "5bd2ff2f2c",
-      "tema": "ia",
-      "titular_es": "Una canción sospechosa de ser generada por IA alcanza el puesto 58 en Billboard Hot 100",
-      "resumen": "El tema 'Rubberz' del rapero Fenix Flexin alcanzó una posición destacada en el top Billboard, desatando una fuerte polémica en la industria musical.\nOyentes y especialistas afirman que la pista utiliza voces o maquetas sintetizadas con herramientas de inteligencia artificial.\nEl caso reaviva la discusión sobre la autenticidad y la penetración de contenido sintético en las listas de éxito.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "IA generativa",
-        "música",
-        "Billboard"
-      ]
-    },
-    {
-      "id": "8622f91f0b",
-      "tema": "ia",
-      "titular_es": "Ataques cibernéticos golpean los sistemas de agua de Minnesota en medio de disputas políticas",
-      "resumen": "Agencias federales como el FBI y CISA investigan una serie de ciberataques dirigidos contra la infraestructura de suministro de agua potable en Minnesota.\nPese a que las sospechas principales apuntan a grupos vinculados a Irán, el evento desató controversias políticas a nivel nacional.\nLa intrusión resalta la vulnerabilidad de la infraestructura crítica frente a amenazas informáticas geopolíticas.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/policy/974197/trump-tim-walz-minnesota-water-hacks-iran",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "ciberseguridad",
-        "infraestructura",
-        "EE. UU."
-      ]
-    },
-    {
-      "id": "f66614f16a",
+      "id": "70ceb3d700",
       "tema": "ciencia",
-      "titular_es": "Agujeros negros primordiales podrían estar haciendo explotar estrellas en la Vía Láctea",
-      "resumen": "Un estudio teórico sugiere que pequeños agujeros negros formados tras el Big Bang podrían atravesar estrellas enanas blancas y desencadenar supernovas Tipo Ia.\nEsta hipótesis ayuda a explicar las anomalías químicas detectadas en restos de supernovas cercanas dentro de nuestra galaxia.\nDe confirmarse, el hallazgo aportaría pistas clave sobre la naturaleza de la materia oscura.",
+      "titular_es": "Descubren una fuerza secreta en la materia oscura con efectos inesperados en el universo",
+      "resumen": "Astrofísicos detectaron que las partículas de materia oscura podrían ejercer una fuerza de atracción mutua hasta ahora desconocida. Paradójicamente, esta interacción hace que la materia oscura parezca más ligera a medida que el universo se expande. El hallazgo podría obligar a recalibrar los modelos cosmológicos sobre el crecimiento de las estructuras galácticas.",
       "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/07/260729051515.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260801042822.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
       "tags": [
         "astrofísica",
-        "agujeros negros",
-        "ciencia"
+        "materia oscura",
+        "cosmología"
+      ]
+    },
+    {
+      "id": "cfb99c55f2",
+      "tema": "ciencia",
+      "titular_es": "Demostración matemática confirma que las elecciones perfectamente justas son imposibles",
+      "resumen": "Un equipo de matemáticos ha probado formalmente que ningún sistema electoral puede cumplir simultáneamente con representación local, proporcionalidad perfecta y parlamentos de tamaño fijo. Al competir múltiples partidos, las contradicciones resultan inevitablemente en distorsiones. Para mitigar esto, proponen un nuevo método de votación que minimiza estos desequilibrios.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260801042812.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "matemáticas",
+        "sistemas electorales",
+        "teoría de juegos"
+      ]
+    },
+    {
+      "id": "c2514c3aca",
+      "tema": "ciencia",
+      "titular_es": "Las células cancerosas rompen deliberadamente su propio ADN para acelerar su crecimiento",
+      "resumen": "Una investigación reveló que las células tumorales sobrecargan sus interruptores genéticos para crecer rápidamente, provocando fracturas en su propio ADN. El proceso continuo de daño y reparación imperfecta genera nuevas mutaciones que incrementan la agresividad del cáncer. Identificar este mecanismo abre la puerta a terapias que bloqueen dicha autoreparación.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260731034204.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "oncología",
+        "genética",
+        "investigación médica"
+      ]
+    },
+    {
+      "id": "31672dcd44",
+      "tema": "ciencia",
+      "titular_es": "Detectan un objeto en la Vía Láctea capaz de acelerar protones a energías récord",
+      "resumen": "Científicos identificaron la fuente cósmica LHAASO J1912+1014u, un acelerador natural capaz de impulsar protones a más de un petaelectronvoltio. Este descubrimiento ayuda a resolver el misterio de los rayos cósmicos superenergéticos que bombardean nuestra galaxia. La investigación ofrece pistas fundamentales sobre los fenómenos más extremos del universo.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/07/260731034150.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇨🇳",
+      "tags": [
+        "astrofísica",
+        "rayos cósmicos",
+        "Vía Láctea"
+      ]
+    },
+    {
+      "id": "16e1a6046d",
+      "tema": "finanzas",
+      "titular_es": "El fraude amistoso se dispara un 29% con 158 millones de contracargos comerciales",
+      "resumen": "Un informe revela que las disputas de contracargo alcanzaron cifras récord a nivel global afectando gravemente al comercio electrónico. El fenómeno del 'fraude amistoso', donde clientes reclaman reembolsos injustificados, genera costos multimillonarios para las empresas. Comercios e instituciones financieras buscan nuevas tecnologías para frenar este abuso.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/small-business/articles/shoppers-made-158-million-chargeback-153000950.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": [
+        "ciberseguridad",
+        "comercio electrónico",
+        "finanzas"
       ]
     },
     {
       "id": "ae1047b720",
       "tema": "finanzas",
-      "titular_es": "Goldman Sachs advierte sobre tres riesgos que podrían desatar volatilidad en el mercado de divisas",
-      "resumen": "Un informe de Goldman Sachs analiza 11 periodos históricos para identificar los factores capaces de romper la inusual calma actual en el mercado cambiario.\nEl análisis destaca que divergencias monetarias, tensiones geopolíticas e incertidumbres fiscales podrían reavivar la volatilidad global.\nLos inversores vigilan de cerca estas variables para ajustar sus estrategias de cobertura en divisas.",
-      "relevancia": 8,
+      "titular_es": "Goldman Sachs identifica tres riesgos que podrían romper la calma en el mercado de divisas",
+      "resumen": "Tras analizar 11 periodos de baja volatilidad en las últimas dos décadas, Goldman Sachs advirtió sobre la fragilidad del mercado cambiario actual. Cambios drásticos en políticas monetarias, tensiones geopolíticas e impactos comerciales podrían sacudir las principales divisas. El banco insta a los inversores a preparar coberturas ante posibles shocks repentinos.",
+      "relevancia": 7,
       "url": "https://www.bloomberglinea.com/mercados/puede-terminar-la-calma-en-el-mercado-de-divisas-goldman-sachs-identifica-tres-riesgos/",
       "fuente": "bloomberglinea.com",
       "bandera": "🇺🇸",
       "tags": [
         "Goldman Sachs",
         "mercado de divisas",
-        "finanzas"
-      ]
-    },
-    {
-      "id": "49c2e04983",
-      "tema": "ia",
-      "titular_es": "La Fundación Wikimedia rechaza sindicalizar a sus empleados y contrata a una firma antisindicatos",
-      "resumen": "La Fundación Wikimedia se ha negado a reconocer formalmente la representación sindical de sus trabajadores tras meses de negociaciones. Para contener la iniciativa laboral, la entidad contrató a una firma de abogados especializada en la disuasión de sindicatos.\nLa decisión ha generado una fuerte controversia dentro de la comunidad de código abierto y el entorno tecnológico.",
-      "relevancia": 7,
-      "url": "https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2026-08-02/News_and_notes",
-      "fuente": "en.wikipedia.org (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Wikimedia",
-        "sindicatos",
-        "tecnología"
-      ]
-    },
-    {
-      "id": "1746f99df1",
-      "tema": "ia",
-      "titular_es": "Presentan Seedance 2.5, una nueva actualización para generación de animación",
-      "resumen": "Se ha lanzado oficialmente la versión 2.5 de Seedance, introduciendo mejoras sustanciales en el renderizado y control de movimiento mediante modelos generativos.\nEsta actualización optimiza los tiempos de procesamiento y facilita la integración en flujos de trabajo profesionales de animación.\nEl avance busca reducir la barrera técnica en la producción de contenido audiovisual asistido por IA.",
-      "relevancia": 7,
-      "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-      "fuente": "seed.bytedance.com (vía HN)",
-      "bandera": "🌍",
-      "tags": [
-        "IA generativa",
-        "animación",
-        "software"
-      ]
-    },
-    {
-      "id": "d8f8d4c848",
-      "tema": "ciencia",
-      "titular_es": "Estudiante de 15 años diseña y construye un reductor cicloidal funcional",
-      "resumen": "Un joven entusiasta de la ingeniería presentó el diseño y fabricación independiente de una caja de cambios cicloidal.\nEste tipo de mecanismo ofrece alta precisión y gran tolerancia a cargas de impacto en espacios reducidos, siendo clave en robótica.\nEl proyecto demuestra la accesibilidad actual de las herramientas de prototipado rápido para jóvenes desarrolladores.",
-      "relevancia": 7,
-      "url": "https://github.com/tom-ilan/cycloidal_gearbox",
-      "fuente": "github.com (vía HN)",
-      "bandera": "🌍",
-      "tags": [
-        "ingeniería",
-        "robótica",
-        "prototipado"
+        "macroeconomía"
       ]
     },
     {
       "id": "0bb15545c7",
       "tema": "emprendimiento",
-      "titular_es": "Una 'hacker house' en Londres promueve el equilibrio laboral para combatir el agotamiento de los fundadores",
-      "resumen": "Una residencia compartida para desarrolladores en Londres está implementando políticas estrictas de descanso para evitar el desgaste mental de los emprendedores.\nLa iniciativa desafía la cultura de trabajo extremo en las startups al demostrar que el bienestar incrementa la productividad a largo plazo.\nEl proyecto busca posicionarse como un modelo sostenible dentro del ecosistema emprendedor europeo.",
+      "titular_es": "Una 'hacker house' en Londres promueve un nuevo modelo contra el agotamiento de los emprendedores",
+      "resumen": "Una residencia tecnológica en Londres está apostando por priorizar el bienestar físico y mental de sus residentes para evitar el 'burnout'. La iniciativa busca demostrar que un equilibrio saludable no compromete el ritmo de innovación de una startup. El experimento propone una alternativa sostenible a la cultura del sobretrabajo extremo en el ecosistema fundador.",
       "relevancia": 7,
       "url": "https://techcrunch.com/2026/08/01/inside-one-london-founder-house-rewriting-the-founder-house-rules/",
       "fuente": "techcrunch.com",
       "bandera": "🇬🇧",
       "tags": [
         "startups",
-        "emprendimiento",
-        "Londres"
+        "hacker house",
+        "salud mental"
       ]
     },
     {
-      "id": "e4e5f3b9e7",
+      "id": "30440b3052",
       "tema": "ia",
-      "titular_es": "Análisis post mórtem revela la causa de un fallo crítico de solidez en el kernel",
-      "resumen": "Desarrolladores publicaron un informe detallado sobre el error #14576, un fallo grave que comprometía la integridad del kernel.\nEl análisis explica cómo una condición de carrera provocaba comportamientos indefinidos en la memoria durante operaciones concurrentes.\nEl reporte aporta lecciones valiosas para el diseño de sistemas operativos resilientes y la ingeniería de software.",
-      "relevancia": 6,
-      "url": "https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/",
-      "fuente": "leodemoura.github.io (vía HN)",
-      "bandera": "🌍",
-      "tags": [
-        "ciberseguridad",
-        "kernel",
-        "software"
-      ]
-    },
-    {
-      "id": "9754aadc29",
-      "tema": "ia",
-      "titular_es": "¿Es suficiente pagar a los artistas para que acepten el entrenamiento de modelos de IA?",
-      "resumen": "El debate sobre los derechos de autor en la IA generativa entra en una nueva etapa tras propuestas para compensar financieramente a ilustradores y creadores.\nDiversos colectivos artísticos argumentan que los pagos aislados no resuelven la falta de consentimiento previo en el entrenamiento masivo de datos.\nLa discusión pone de relieve los dilemas éticos y regulatorios que afrontan las startups de IA.",
-      "relevancia": 6,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+      "titular_es": "Filtran especificaciones y precios de la línea Google Pixel 11",
+      "resumen": "Nuevas filtraciones detallan las características completas de la familia Pixel 11 antes del evento oficial del 12 de agosto. El modelo base partiría desde los 899 dólares, lo que representa un aumento de 100 dólares, incluyendo 256 GB de almacenamiento base. La línea incorporará mejoras significativas en procesamiento de IA directamente en el dispositivo.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/tech/974238/pixel-11-specs-and-price-leak",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "IA generativa",
-        "derechos de autor",
-        "ética"
+        "Google",
+        "Pixel 11",
+        "smartphones"
       ]
     },
     {
-      "id": "9f49f89585",
-      "tema": "finanzas",
-      "titular_es": "Las tasas de interés hipotecarias retroceden levemente respecto a la semana anterior",
-      "resumen": "Las tasas promedio de préstamos hipotecarios y refinanciamientos registraron un moderado descenso al cierre de la semana.\nAunque la reducción ofrece un leve alivio a los compradores de vivienda, los costos de endeudamiento continúan en niveles elevados.\nAnalistas prevén que la estabilidad se mantenga según evolucionen las decisiones de la Reserva Federal.",
-      "relevancia": 6,
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-august-2-2026-rates-a-bit-lower-than-last-week-100000673.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "hipotecas",
-        "tasas de interés",
-        "finanzas"
-      ]
-    },
-    {
-      "id": "9cdef28e33",
+      "id": "f16567a289",
       "tema": "ia",
-      "titular_es": "Lanzan un recorrido interactivo para explorar las novedades de Go 1.27",
-      "resumen": "Se ha publicado un tour interactivo diseñado para experimentar de primera mano con las características actualizadas del lenguaje Go en su versión 1.27.\nLa herramienta permite ejecutar fragmentos de código directamente desde el navegador para facilitar la adopción de los cambios.\nResulta un recurso práctico para programadores que buscan actualizar su pila tecnológica de backend.",
-      "relevancia": 5,
-      "url": "https://victoriametrics.com/blog/go-1-27/index.html",
-      "fuente": "victoriametrics.com (vía HN)",
+      "titular_es": "GraphRAG vs Vector RAG: Cuándo conviene dejar de graficarlo todo en sistemas de IA",
+      "resumen": "Un análisis técnico evalúa la efectividad de las arquitecturas GraphRAG en comparación con la búsqueda vectorial tradicional. Aunque los grafos mejoran las consultas complejas y contextuales, introducen una latencia y costo elevados que no siempre se justifican. La guía ayuda a ingenieros a determinar el enfoque adecuado según el tipo de datos del proyecto.",
+      "relevancia": 7,
+      "url": "https://venturebeat.com/orchestration/stop-graphing-everything-when-graphrag-actually-beats-vector-rag",
+      "fuente": "venturebeat.com",
       "bandera": "🌍",
       "tags": [
-        "Go",
-        "programación",
-        "software"
+        "GraphRAG",
+        "inteligencia artificial",
+        "arquitectura de software"
       ]
     },
     {
-      "id": "0ef72d0e81",
-      "tema": "finanzas",
-      "titular_es": "Las tasas de certificados de depósito ofrecen hasta un 4,10% de rendimiento anual",
-      "resumen": "Los productos de ahorro a plazo fijo mantienen rendimientos competitivos cercanos al 4,10% APY antes de posibles recortes de tasas oficiales.\nLas entidades bancarias buscan asegurar liquidez ofreciendo retornos atractivos para inversores de bajo riesgo.\nLa situación representa una oportunidad para asegurar rendimientos garantizados en el mediano plazo.",
-      "relevancia": 5,
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-sunday-august-2-2026-lock-in-up-to-410-apy-100000506.html",
-      "fuente": "finance.yahoo.com",
+      "id": "1893fb993f",
+      "tema": "ciencia",
+      "titular_es": "Un solo entrenamiento semanal de intervalos reduce significativamente la grasa abdominal",
+      "resumen": "Un ensayo clínico con 315 adultos demostró que realizar 75 minutos de caminata a intervalos una vez por semana reduce sustancialmente la grasa visceral. Los resultados sugieren que dosis reducidas pero intensas de ejercicio aportan beneficios metabólicos claves. El hallazgo ofrece una alternativa accesible para combatir la obesidad central.",
+      "relevancia": 7,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260801042831.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "salud",
+        "ejercicio",
+        "metabolismo"
+      ]
+    },
+    {
+      "id": "0ed1606f4d",
+      "tema": "ciencia",
+      "titular_es": "Hallan una proteína clave que evita que el músculo dañado se transforme en grasa",
+      "resumen": "Investigadores descubrieron que la proteína TRF2 es fundamental para la regeneración del tejido muscular tras una lesión. Sin esta proteína, las células madre musculares pierden su capacidad reparadora y el tejido se convierte en grasa y cicatrices. El avance podría conducir a nuevos tratamientos para distrofias musculares y envejecimiento.",
+      "relevancia": 7,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260801042814.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "biología",
+        "regeneración celular",
+        "músculos"
+      ]
+    },
+    {
+      "id": "bbc62a8f12",
+      "tema": "ia",
+      "titular_es": "Las controvertidas declaraciones del CEO de Fender sobre la IA y la creación musical",
+      "resumen": "Comentarios del CEO de Fender, Edward Cole, sugiriendo que los compañeros de banda son equivalentes a 'IA analógica', desataron polémica en la industria musical. Las declaraciones generaron rechazo entre artistas que critican el avance sin control de la IA generativa en la música. El debate reaviva la discusión sobre los derechos de autor y el valor del trabajo humano.",
+      "relevancia": 6,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
+      "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "bancos",
-        "ahorro",
-        "finanzas personales"
+        "Fender",
+        "inteligencia artificial",
+        "música"
+      ]
+    },
+    {
+      "id": "6afb0054ae",
+      "tema": "ia",
+      "titular_es": "Bor: Sistema de código abierto para la gestión centralizada de políticas en escritorios Linux",
+      "resumen": "Se presentó Bor, una herramienta desarrollada en Go orientada a la administración centralizada de sistemas Linux. A diferencia de soluciones tradicionales, distribuye políticas en tiempo real mediante mTLS y gRPC sin requerir polling constante. Es compatible con navegadores como Firefox y Chrome, además de entornos dconf y polkit.",
+      "relevancia": 6,
+      "url": "https://getbor.dev/blog/2026-08-02-bor-v080-release/",
+      "fuente": "getbor.dev (vía HN)",
+      "bandera": "🌍",
+      "tags": [
+        "Linux",
+        "código abierto",
+        "seguridad"
+      ]
+    },
+    {
+      "id": "16972dfbed",
+      "tema": "ia",
+      "titular_es": "Kakehashi: Espacio de usuario experimental para ejecutar binarios de macOS en Linux ARM",
+      "resumen": "Desarrolladores presentaron un proyecto experimental que busca traducir y ejecutar binarios compilados para macOS en sistemas Linux sobre arquitectura ARM. La herramienta actúa en espacio de usuario sin necesidad de emular un sistema operativo completo. Aunque se encuentra en fase temprana, abre posibilidades interesantísimas para el desarrollo multiplataforma.",
+      "relevancia": 6,
+      "url": "https://github.com/wie-project/kakehashi",
+      "fuente": "github.com (vía HN)",
+      "bandera": "🌍",
+      "tags": [
+        "macOS",
+        "Linux",
+        "ARM"
+      ]
+    },
+    {
+      "id": "135a001adc",
+      "tema": "ia",
+      "titular_es": "Meshdiff: Herramienta web para comparar visualmente versiones de archivos STL en 3D",
+      "resumen": "Meshdiff permite a ingenieros y diseñadores realizar diferencias visuales entre dos archivos STL directamente en el navegador de manera cliente. Al procesar los datos de forma local, garantiza la privacidad de los modelos CAD sin enviarlos a servidores externos. Simplifica notablemente el control de versiones en proyectos de impresión 3D y modelado mecánico.",
+      "relevancia": 6,
+      "url": "https://meshdiff.com/",
+      "fuente": "meshdiff.com (vía HN)",
+      "bandera": "🌍",
+      "tags": [
+        "impresión 3D",
+        "CAD",
+        "herramientas web"
+      ]
+    },
+    {
+      "id": "d8f8d4c848",
+      "tema": "ciencia",
+      "titular_es": "Un estudiante de 15 años diseña y construye una caja de cambios cicloidal funcional",
+      "resumen": "Un joven entusiasta de la ingeniería presentó el diseño y fabricación casera de un reductor cicloidal de alta precisión. El proyecto incluye el modelado 3D, tolerancias calculadas y la impresión de componentes para soportar torques elevados. La iniciativa destaca el impacto de las herramientas modernas de fabricación digital en ingenieros jóvenes.",
+      "relevancia": 6,
+      "url": "https://github.com/tom-ilan/cycloidal_gearbox",
+      "fuente": "github.com (vía HN)",
+      "bandera": "🌍",
+      "tags": [
+        "ingeniería mecánica",
+        "impresión 3D",
+        "proyectos"
       ]
     }
   ]
