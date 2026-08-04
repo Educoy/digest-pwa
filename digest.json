@@ -1,6 +1,6 @@
 {
   "fecha": "2026-08-04",
-  "generado_utc": "2026-08-04T14:12:30Z",
+  "generado_utc": "2026-08-04T21:04:09Z",
   "indicadores": {
     "dolar": {
       "valor": 924.89,
@@ -26,98 +26,83 @@
     {
       "id": "62498cfc58",
       "tema": "emprendimiento",
-      "titular_es": "Bending Spoons acuerda la compra de Airtable por 1.280 millones de dólares",
-      "resumen": "La firma Bending Spoons anunció la adquisición de la plataforma de bases de datos Airtable por 1.280 millones de dólares.\nLa cifra representa una marcada reducción respecto a la valoración de 11.000 millones que alcanzó Airtable en 2021.\nEl acuerdo marca una de las operaciones de consolidación más significativas del sector del software.",
+      "titular_es": "Bending Spoons acuerda la compra de Airtable por $1.280 millones de dólares",
+      "resumen": "La firma italiana Bending Spoons acordó adquirir Airtable en una valoración muy inferior a su pico de $11.000 millones en 2021. La transacción refleja la drástica corrección de valoraciones que enfrenta el sector de software para empresas. La compra permitirá a Bending Spoons reestructurar la plataforma y optimizar sus costos operativos.",
       "relevancia": 10,
       "url": "https://techcrunch.com/2026/08/04/bending-spoons-to-buy-airtable-for-1-28b/",
       "fuente": "techcrunch.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Bending Spoons",
         "Airtable",
+        "Bending Spoons",
         "adquisición"
-      ]
-    },
-    {
-      "id": "e5895e668b",
-      "tema": "emprendimiento",
-      "titular_es": "Valar Atomics obtiene 1.000 millones de dólares en ronda liderada por Sequoia",
-      "resumen": "La startup de energía nuclear Valar Atomics alcanzó una valoración de 6.000 millones de dólares tras una ronda masiva.\nEl financiamiento llega tras firmar un acuerdo de desarrollo estratégico con la tecnológica Nvidia.\nLos recursos permitirán acelerar la construcción de reactores modulares para centros de datos.",
-      "relevancia": 10,
-      "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Valar Atomics",
-        "energía nuclear",
-        "Sequoia"
-      ]
-    },
-    {
-      "id": "8f22e6cc5b",
-      "tema": "emprendimiento",
-      "titular_es": "Base Power recauda 1.000 millones de dólares para escalar baterías de respaldo residencial",
-      "resumen": "La empresa de almacenamiento energético Base Power aseguró 1.000 millones de dólares en su última ronda de inversión.\nLa startup instala sistemas de baterías en hogares para dar soporte a la red eléctrica durante picos de demanda.\nLos fondos impulsarán la producción masiva de sus equipos y la expansión de sus servicios.",
-      "relevancia": 10,
-      "url": "https://techcrunch.com/2026/08/03/base-power-raises-another-1b-to-save-the-grid-using-backyard-batteries/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Base Power",
-        "baterías",
-        "financiamiento"
-      ]
-    },
-    {
-      "id": "c34e3565d3",
-      "tema": "ia",
-      "titular_es": "OpenAI hace públicas pruebas para rebatir la demanda judicial presentada por Apple",
-      "resumen": "OpenAI publicó una entrada de blog donde rechaza las acusaciones de Apple sobre robo de secretos comerciales.\nLa firma argumenta que las demandas de Apple carecen de fundamento y busca el apoyo de la opinión pública.\nEl conflicto legal incrementa la tensión entre dos de los mayores actores tecnológicos del mundo.",
-      "relevancia": 9,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "OpenAI",
-        "Apple",
-        "demandas"
-      ]
-    },
-    {
-      "id": "41b2e08c39",
-      "tema": "ia",
-      "titular_es": "Entran en vigor las obligaciones de transparencia e identificación de IA de la Unión Europea",
-      "resumen": "La Unión Europea comenzó a aplicar nuevas reglas que exigen identificar claramente la interacción con chatbots y deepfakes.\nLas empresas tecnológicas deben notificar a los usuarios cuando el contenido haya sido generado por IA.\nLa medida forma parte de la Ley de Inteligencia Artificial para combatir la desinformación en la región.",
-      "relevancia": 9,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
-      "fuente": "theverge.com",
-      "bandera": "🇪🇺",
-      "tags": [
-        "regulación",
-        "ia",
-        "Unión Europea"
       ]
     },
     {
       "id": "fd8f692b30",
       "tema": "ia",
-      "titular_es": "Alibaba lanza Qwen3.8-Max afirmando superar a sus rivales en tareas autónomas",
-      "resumen": "El equipo de investigación de Alibaba presentó Qwen3.8-Max, un modelo multimodal de 2,4 billones de parámetros.\nLa compañía asegura que supera a modelos como GPT-5.6 Sol Max en el manejo autónomo de ordenadores.\nEl desarrollo intensifica la competencia global por el liderazgo en agentes inteligentes de IA.",
-      "relevancia": 9,
+      "titular_es": "Alibaba presenta Qwen3.8-Max, afirmando superar a GPT-5.6 en uso autónomo de computadoras",
+      "resumen": "El equipo de IA de Alibaba ha presentado su nuevo modelo insignia Qwen3.8-Max, con 2,4 billones de parámetros y arquitectura MoE. La compañía afirma que supera a sus principales competidores en tareas complejas de uso informático autónomo. Este lanzamiento intensifica la competencia global por el dominio de los agentes de IA.",
+      "relevancia": 10,
       "url": "https://venturebeat.com/technology/qwen3-8-max-arrives-with-a-bold-claim-it-outperforms-gpt-5-6-sol-max-and-fable-5-on-agentic-computer-use",
       "fuente": "venturebeat.com",
       "bandera": "🇨🇳",
       "tags": [
         "Alibaba",
         "Qwen",
-        "modelos ia"
+        "LLMs"
+      ]
+    },
+    {
+      "id": "4826195d4c",
+      "tema": "ia",
+      "titular_es": "Mistral lanza Shieldstral, un modelo abierto de 3B para moderación multimodal",
+      "resumen": "Mistral AI ha publicado Shieldstral, un nuevo modelo de moderación de pesos abiertos diseñado para clasificar contenido multimodal. La herramienta busca ayudar a los desarrolladores a filtrar textos e imágenes no deseados con bajo consumo de recursos. Refuerza el compromiso de la firma francesa con el ecosistema de IA de código abierto.",
+      "relevancia": 9,
+      "url": "https://mistral.ai/news/shieldstral/",
+      "fuente": "mistral.ai (vía HN)",
+      "bandera": "🇫🇷",
+      "tags": [
+        "Mistral AI",
+        "moderación",
+        "código abierto"
+      ]
+    },
+    {
+      "id": "1670c78807",
+      "tema": "ia",
+      "titular_es": "El negocio de centros de datos de AMD se dispara un 107% impulsado por la demanda de IA",
+      "resumen": "AMD reportó ingresos récord en su división de centros de datos, alcanzando los $6.700 millones de dólares en el trimestre. La desbordante demanda de infraestructura de procesamiento para inteligencia artificial impulsó este crecimiento interanual. Mientras tanto, la división de videojuegos de la compañía pasó a un segundo plano.",
+      "relevancia": 9,
+      "url": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "AMD",
+        "data centers",
+        "hardware"
+      ]
+    },
+    {
+      "id": "a0dd31c7a2",
+      "tema": "finanzas",
+      "titular_es": "Electronic Arts se convierte en empresa privada tras una operación de $55.000 millones",
+      "resumen": "Electronic Arts (EA) completó formalmente su transición a empresa privada tras ser adquirida por un consorcio inversor por $55.000 millones de dólares. El grupo comprador incluye el Fondo de Inversión Pública de Arabia Saudita, Silver Lake y Affinity Partners. La transacción retira a uno de los mayores editores de videojuegos de la bolsa de valores.",
+      "relevancia": 9,
+      "url": "https://www.theverge.com/games/974736/ea-private-company-deal-closed",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "EA",
+        "adquisición",
+        "mercados"
       ]
     },
     {
       "id": "3e8102df90",
       "tema": "finanzas",
-      "titular_es": "El S&P 500 alcanza un máximo histórico ante avances diplomáticos entre EE.UU. e Irán",
-      "resumen": "Los mercados estadounidenses cerraron en niveles récord ante la posibilidad de un acuerdo entre Estados Unidos e Irán.\nLas señales de distensión presionaron a la baja los precios del petróleo y aliviaron el rendimiento de los bonos.\nUna temporada de resultados corporativos superior a lo previsto fortaleció el apetito por el riesgo.",
+      "titular_es": "El S&P 500 supera los 7.700 puntos e impulsa un récord en Wall Street",
+      "resumen": "Los principales índices bursátiles de EE.UU. registraron máximos históricos impulsados por la caída en los precios del petróleo y avances diplomáticos. La perspectiva de estabilidad en el estrecho de Ormuz atenuó las preocupaciones sobre la oferta de energía. Además, sólidos reportes trimestrales de ganancias reforzaron la confianza de los inversionistas.",
       "relevancia": 9,
       "url": "https://www.bloomberglinea.com/mercados/sp-500-alcanza-un-record-impulsado-por-la-posibilidad-de-un-acuerdo-entre-iran-y-estados-unidos/",
       "fuente": "bloomberglinea.com",
@@ -131,53 +116,83 @@
     {
       "id": "c640b3318b",
       "tema": "finanzas",
-      "titular_es": "Wall Street evalúa los primeros estados financieros de SpaceX tras su debut bursátil",
-      "resumen": "SpaceX presentó sus primeros resultados trimestrales tras sufrir una corrección del 45% desde sus máximos bursátiles.\nLos inversores centran su atención en los ingresos de Starlink y el desarrollo de servicios de IA.\nEl reporte servirá de métrica para determinar la valoración a largo plazo de la compañía espacial.",
+      "titular_es": "Wall Street analiza los primeros resultados de SpaceX como empresa cotizada",
+      "resumen": "SpaceX presentó su primer informe de utilidades tras salir al mercado bursátil, captando la atención de los analistas financieros. Los inversionistas se centran en el crecimiento del servicio Starlink, la rentabilidad de su división de IA y el fin del bloqueo de acciones. Los títulos buscan estabilizarse tras una corrección del 45% desde sus máximos.",
       "relevancia": 9,
       "url": "https://www.bloomberglinea.com/mercados/wall-street-busca-respuestas-en-los-primeros-resultados-de-spacex-desde-su-debut-bursatil/",
       "fuente": "bloomberglinea.com",
       "bandera": "🇺🇸",
       "tags": [
         "SpaceX",
-        "resultados",
-        "Wall Street"
+        "Starlink",
+        "bolsa"
+      ]
+    },
+    {
+      "id": "b0950fe486",
+      "tema": "emprendimiento",
+      "titular_es": "El uso masivo de agentes de IA para programar dispara los costos en startups",
+      "resumen": "Empresas como Replit y Kilo Code revelan que sus ingenieros solo escriben código manualmente el 1% del tiempo, delegando el resto a agentes de IA. Sin embargo, este cambio ha desbordado los presupuestos de cómputo y generado nuevos retos de supervisión. Las startups buscan equilibrar la productividad con el control de gastos en modelos.",
+      "relevancia": 9,
+      "url": "https://venturebeat.com/orchestration/ai-coding-agents-are-blowing-through-budgets-replit-kilo-code-and-symbotic-explain-how-theyre-managing-it",
+      "fuente": "venturebeat.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Replit",
+        "agentes IA",
+        "programación"
+      ]
+    },
+    {
+      "id": "dc48138fd8",
+      "tema": "emprendimiento",
+      "titular_es": "Los ingresos de SpaceX por servicios de 'neocloud' de IA alcanzan $2.600 millones",
+      "resumen": "La división de computación e infraestructura de IA de SpaceX triplicó sus ingresos anuales impulsada por alianzas con firmas tecnológicas. Según documentos corporativos, el suministro de capacidad de procesamiento se ha convertido en una línea de negocio clave. Esto diversifica el negocio espacial de la empresa más allá de lanzamientos y Starlink.",
+      "relevancia": 9,
+      "url": "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "SpaceX",
+        "neocloud",
+        "computación"
       ]
     },
     {
       "id": "4709475d8b",
       "tema": "ciencia",
       "titular_es": "Desarrollan una turbina de hidrógeno que genera electricidad mediante ondas de detonación",
-      "resumen": "Científicos lograron generar electricidad utilizando una turbina que produce su propia presión por detonaciones controladas.\nEl diseño elimina la necesidad de un compresor mecánico convencional, elevando la eficiencia del sistema.\nEl avance promete transformar la generación de energía limpia y el desarrollo de la aviación del futuro.",
+      "resumen": "Científicos lograron generar energía eléctrica utilizando una turbina de hidrógeno que crea su propia presión con explosiones controladas. El sistema elimina la necesidad de compresores mecánicos tradicionales, elevando drásticamente la eficiencia. El avance abre la puerta a sistemas de propulsión y energía limpia mucho más potentes.",
       "relevancia": 9,
       "url": "https://www.sciencedaily.com/releases/2026/08/260803080919.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
       "tags": [
         "hidrógeno",
-        "turbinas",
-        "energía"
+        "energía limpia",
+        "turbinas"
       ]
     },
     {
       "id": "3f1dab2cb5",
       "tema": "ciencia",
-      "titular_es": "Un chicle experimental reduce la presencia del VPH en la boca hasta en un 93%",
-      "resumen": "Investigadores diseñaron un chicle capaz de neutralizar el virus del VPH y bacterias asociadas al cáncer de cabeza y cuello.\nLas pruebas mostraron que el tratamiento conserva la microbiota beneficiosa de la cavidad bucal.\nLa terapia representa una alternativa accesible y de bajo costo para la prevención oncológica.",
+      "titular_es": "Un chicle experimental reduce la presencia del VPH en la boca hasta un 93%",
+      "resumen": "Un chicle desarrollado con proteínas especiales redujo la carga viral del virus del papiloma humano (VPH) en pruebas de laboratorio. Además, eliminó bacterias vinculadas al cáncer de cabeza y cuello sin dañar la microbiota oral beneficiosa. El avance plantea una alternativa accesible para reducir riesgos tumorales.",
       "relevancia": 9,
       "url": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🇺🇸",
       "tags": [
-        "salud",
-        "VPH",
-        "biomedicina"
+        "oncología",
+        "biomedicina",
+        "VPH"
       ]
     },
     {
       "id": "537dc0b20d",
       "tema": "ciencia",
-      "titular_es": "Experimento cuántico demuestra la existencia de 'tiempo negativo' en fotones",
-      "resumen": "Físicos observaron que fotones atravesando una nube atómica pueden salir antes de lo previsto, simulando tiempo negativo.\nMediante mediciones cuánticas débiles se confirmó que el efecto no es una simple ilusión óptica del pulso de luz.\nEl descubrimiento aporta nuevos datos sobre la interacción entre la radiación y la materia a escala atómica.",
+      "titular_es": "Experimento cuántico confirma que el 'tiempo negativo' es un fenómeno medible",
+      "resumen": "Físicos demostraron que fotones que atraviesan una nube de átomos pueden salir pareciendo haber pasado un tiempo negativo en su interior. Mediante mediciones extremadamente débiles, confirmaron que los átomos registran este comportamiento insólito. El experimento ofrece valiosas pistas sobre la naturaleza del tiempo a escala cuántica.",
       "relevancia": 9,
       "url": "https://www.sciencedaily.com/releases/2026/08/260803080904.htm",
       "fuente": "sciencedaily.com",
@@ -191,271 +206,211 @@
     {
       "id": "b1ba4acf3c",
       "tema": "ciencia",
-      "titular_es": "Logran imprimir en 3D carburo de tungsteno cobalto manteniendo su dureza extrema",
-      "resumen": "Un nuevo método de fabricación aditiva permite estructurar uno de los materiales más duros de la Tierra usando menos materia prima.\nAl ablandar el material en lugar de fundirlo por completo, se lograron piezas industriales libres de grietas o defectos.\nEl proceso abre la puerta a la producción eficiente de herramientas de alta resistencia en la industria.",
+      "titular_es": "Consiguen imprimir en 3D uno de los metales más duros de la Tierra sin defectos",
+      "resumen": "Un nuevo método de fabricación aditiva logró imprimir carburo de tungsteno cobalto ablandando el material en lugar de fundirlo por completo. La técnica produce piezas sin grietas ni microdefectos manteniendo una dureza de grado industrial. Este proceso optimiza el uso de materia prima y reduce costos en piezas mecánicas pesadas.",
       "relevancia": 9,
       "url": "https://www.sciencedaily.com/releases/2026/08/260801094053.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
       "tags": [
+        "impresión 3D",
         "materiales",
-        "impresión 3d",
-        "ingeniería"
+        "tungsteno"
+      ]
+    },
+    {
+      "id": "662b5f913f",
+      "tema": "ia",
+      "titular_es": "Waymo expande su servicio de robotaxis a todos los usuarios en Dallas",
+      "resumen": "Waymo ha abierto oficialmente su servicio de viajes autónomos sin conductor para el público general en la ciudad de Dallas. La medida representa un paso clave en la comercialización y escalabilidad de la tecnología de transporte autónomo. Los habitantes ya pueden solicitar viajes directamente a través de la aplicación.",
+      "relevancia": 8,
+      "url": "https://waymo.com/blog/shorts/dallas-open-to-all/",
+      "fuente": "waymo.com (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Waymo",
+        "vehículos autónomos",
+        "transporte"
+      ]
+    },
+    {
+      "id": "54ed8f1ef0",
+      "tema": "ia",
+      "titular_es": "Apple afirma que más ex-empleados habrían transferido datos confidenciales a OpenAI",
+      "resumen": "Apple ha intensificado sus señalamientos sobre la fuga de propiedad intelectual tras la salida de personal clave hacia OpenAI. La empresa investiga si múltiples antiguos empleados extrajeron información confidencial sobre arquitectura de software antes de renunciar. El caso agrava la tensión legal e industrial entre ambos gigantes tecnológicos.",
+      "relevancia": 8,
+      "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+      "fuente": "techcrunch.com (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Apple",
+        "OpenAI",
+        "propiedad intelectual"
       ]
     },
     {
       "id": "0f8ccd6fbe",
       "tema": "ia",
-      "titular_es": "DeepSeek logra ejecutar su modelo V4 Flash en una sola tarjeta AMD MI300X",
-      "resumen": "La empresa de IA DeepSeek demostró la ejecución de su arquitectura V4 Flash en un único acelerador AMD MI300X.\nEl avance destaca la eficiencia de optimización del software frente a limitaciones de cómputo.\nEsto abre la puerta a un despliegue de modelos avanzados a menor costo operativo.",
+      "titular_es": "Logran ejecutar DeepSeek V4 Flash en un único acelerador AMD MI300X",
+      "resumen": "Pruebas recientes demostraron la viabilidad de correr el modelo de lenguaje DeepSeek V4 Flash utilizando solo una GPU AMD MI300X. El logro destaca los avances en optimización de memoria e inferencia de modelos masivos en hardware de alta gama. Esto promete reducir sustancialmente los costos operativos de despliegue para empresas.",
       "relevancia": 8,
       "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
       "fuente": "github.com (vía HN)",
       "bandera": "🇨🇳",
       "tags": [
-        "ia",
         "DeepSeek",
-        "hardware"
+        "AMD",
+        "optimización"
       ]
     },
     {
-      "id": "4b42d21706",
-      "tema": "finanzas",
-      "titular_es": "Palantir supera proyecciones de ingresos gracias al crecimiento de su plataforma de IA",
-      "resumen": "Palantir reportó resultados trimestrales que superaron las estimaciones de Wall Street gracias a la alta demanda corporativa.\nEl impulso de su plataforma de inteligencia artificial mitigó las preocupaciones de los analistas sobre la competencia.\nLas acciones de la compañía registraron alzas tras el optimista pronóstico para el resto del año.",
+      "id": "8b650b9cdc",
+      "tema": "ia",
+      "titular_es": "Texas exigirá auditorías a los centros de datos antes de permitir su conexión a la red eléctrica",
+      "resumen": "El gobernador de Texas ordenó auditorías estrictas a las nuevas instalaciones de centros de datos que soliciten conectarse a la red eléctrica del estado. La medida busca evaluar el impacto del consumo energético masivo generado por la infraestructura de IA y evitar apagones. Este requisito podría retrasar la apertura de nuevos proyectos en la región.",
       "relevancia": 8,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-blowout-earnings-where-stock-140016899.html",
-      "fuente": "finance.yahoo.com",
+      "url": "https://www.theverge.com/policy/975071/texas-data-center-audit",
+      "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Palantir",
-        "resultados",
-        "acciones"
+        "Texas",
+        "data centers",
+        "energía"
       ]
     },
     {
-      "id": "5a606270e1",
-      "tema": "finanzas",
-      "titular_es": "Las ventas mayoristas de Tesla en China crecieron un 38% durante julio de 2026",
-      "resumen": "Tesla registró un incremento del 38% en sus entregas de vehículos eléctricos en el mercado chino durante el último mes.\nEl resultado muestra una sólida recuperación de la demanda en uno de los mercados más competitivos del sector.\nLos datos alivian temores de inversionistas sobre la pérdida de cuota frente a competidores locales.",
+      "id": "c34e3565d3",
+      "tema": "ia",
+      "titular_es": "OpenAI responde públicamente a la demanda de Apple sobre secretos comerciales",
+      "resumen": "OpenAI publicó una declaración desestimando la demanda de Apple, calificándola de infundada y descuidada en sus acusaciones de robo de secretos. La firma creadora de ChatGPT asegura que el reclamo busca frenar la competencia mediante la presión mediática y legal. La disputa pública refleja la feroz batalla por el talento en IA.",
       "relevancia": 8,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-china-wholesale-ev-sales-135446577.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇨🇳",
-      "tags": [
-        "Tesla",
-        "vehículos eléctricos",
-        "ventas"
-      ]
-    },
-    {
-      "id": "52bf5a8279",
-      "tema": "finanzas",
-      "titular_es": "Las acciones de Caterpillar se disparan un 10% tras reportar ingresos trimestrales récord",
-      "resumen": "Caterpillar anunció los mayores ingresos trimestrales de su historia impulsada por la demanda en construcción e infraestructura.\nEl informe financiero superó las estimaciones de analistas y provocó una fuerte subida en su cotización bursátil.\nLa empresa mantuvo previsiones positivas para la segunda mitad del año a pesar de presiones inflacionarias.",
-      "relevancia": 8,
-      "url": "https://finance.yahoo.com/markets/stocks/article/caterpillar-stock-pops-10-on-record-quarterly-revenue-120556209.html",
-      "fuente": "finance.yahoo.com",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
+      "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Caterpillar",
-        "resultados",
-        "bolsa"
+        "OpenAI",
+        "Apple",
+        "demandas"
       ]
     },
     {
-      "id": "1ba61bdab4",
+      "id": "cdbe9334d1",
       "tema": "finanzas",
-      "titular_es": "Spotify cae en bolsa tras presentar un pronóstico de usuarios por debajo de lo esperado",
-      "resumen": "La plataforma de audio acumuló pérdidas en la sesión al no alcanzar las metas de usuarios activos mensuales proyectadas.\nA pesar de mantener rentabilidad en otros rubros, la ralentización en nuevos suscriptores preocupó a Wall Street.\nLa compañía prevé ajustar sus estrategias de captación en mercados emergentes.",
+      "titular_es": "Encuesta manufacturera revela temores de inflación peores que en la pandemia",
+      "resumen": "Un sondeo entre gerentes de compras mostró un repunte significativo en las presiones de costos operativos en el sector industrial de EE.UU. Los ejecutivos señalaron una volatilidad superior a la experimentada durante la crisis del COVID-19. Los datos aumentan la presión sobre la Reserva Federal para ajustar su política monetaria.",
       "relevancia": 8,
-      "url": "https://finance.yahoo.com/markets/article/spotify-stock-sinks-as-streaming-giants-monthly-active-users-forecast-misses-estimates-133728671.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇸🇪",
+      "url": "https://www.cnbc.com/2026/08/03/manufacturing-survey-shows-inflation-worries-adding-to-pressure-on-fed.html",
+      "fuente": "cnbc.com",
+      "bandera": "🇺🇸",
       "tags": [
-        "Spotify",
-        "mercados",
-        "usuarios"
+        "inflación",
+        "Reserva Federal",
+        "manufactura"
+      ]
+    },
+    {
+      "id": "29a98ee0a7",
+      "tema": "finanzas",
+      "titular_es": "Ecopetrol supera previsiones operativas pero analistas mantienen cautela",
+      "resumen": "La petrolera colombiana reportó un desempeño sólido en el trimestre, superando los pronósticos de producción y utilidades. A pesar del resultado, bancos como Citi y Bank of America mantienen una postura prudente sobre el precio de la acción. Advierten que la generación de caja y las incertidumbres regulatorias aún representan riesgos.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/mercados/ecopetrol-sorprende-con-sus-resultados-pero-citi-y-bofa-siguen-viendo-riesgos-para-la-accion/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇨🇴",
+      "tags": [
+        "Ecopetrol",
+        "acciones",
+        "petróleo"
       ]
     },
     {
       "id": "171c4ce309",
       "tema": "finanzas",
-      "titular_es": "Utilidades de Ecopetrol aumentan un 81% en el primer semestre de 2026",
-      "resumen": "La petrolera estatal colombiana reportó ganancias por 8,95 billones de pesos en los primeros seis meses del año.\nEl resultado revierte varios trimestres consecutivos de caídas en el beneficio neto de la compañía.\nEl alza responde a mejores eficiencias operativas y precios favorables en el mercado energético internacional.",
+      "titular_es": "Las ganancias de Ecopetrol crecen un 81% en el primer semestre",
+      "resumen": "Ecopetrol registró ganancias netas por $8,95 billones de pesos colombianos durante la primera mitad del año, revirtiendo caídas previas. El repunte se explicó por un aumento en la eficiencia operativa y precios de venta favorables. La cifra devuelve el optimismo a la empresa estatal tras varios trimestres de contracción.",
       "relevancia": 8,
       "url": "https://www.bloomberglinea.com/latinoamerica/colombia/utilidades-de-ecopetrol-reaccionaron-gano-81-mas-en-el-primer-semestre/",
       "fuente": "bloomberglinea.com",
       "bandera": "🇨🇴",
       "tags": [
         "Ecopetrol",
-        "ganancias",
-        "energía"
+        "Colombia",
+        "resultados"
       ]
     },
     {
-      "id": "d4fd364cbf",
+      "id": "2a10bcfb33",
       "tema": "finanzas",
-      "titular_es": "Ecopetrol y Petrobras confirman hallazgo de gas natural en el Caribe colombiano",
-      "resumen": "El pozo exploratorio Sandía-1, situado a 1.285 metros de profundidad, ratificó reservas de gas en aguas profundas.\nEl descubrimiento fortalece el potencial del bloque offshore GUA-OFF-0 operado de forma conjunta.\nEl hallazgo representa una oportunidad estratégica para el abastecimiento energético de la región a largo plazo.",
+      "titular_es": "Riesgo país en América Latina cierra julio con variaciones mixtas",
+      "resumen": "Uruguay se mantuvo a la cabeza de la región con los rendimientos de bonos más bajos y mayor solvencia crediticia. En contraste, economías como Argentina, Ecuador y Bolivia luchan por reducir sus primas de riesgo por debajo de los 400 puntos. El panorama refleja la diversidad de estabilidad fiscal en el cono sur.",
       "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/ecopetrol-y-petrobras-anuncian-nuevo-descubrimiento-de-gas-en-aguas-profundas-del-caribe-colombiano/",
+      "url": "https://www.bloomberglinea.com/latinoamerica/asi-cerro-el-riesgo-pais-en-latinoamerica-en-el-mes-de-julio/",
       "fuente": "bloomberglinea.com",
-      "bandera": "🇨🇴",
+      "bandera": "🌎",
       "tags": [
-        "Ecopetrol",
-        "Petrobras",
-        "gas"
+        "riesgo país",
+        "Latinoamérica",
+        "bonos"
       ]
     },
     {
-      "id": "4d7bc75aa1",
-      "tema": "emprendimiento",
-      "titular_es": "AWS integra la herramienta para startups Superblocks en las nubes privadas de sus clientes",
-      "resumen": "Amazon Web Services permitirá incrustar la herramienta de desarrollo Superblocks en entornos privados de clientes.\nEl movimiento facilita la creación de aplicaciones internas conectadas a modelos de IA sin exponer datos sensibles.\nLa alianza impulsa el crecimiento de la startup en el mercado de software corporativo.",
+      "id": "ff9163c37d",
+      "tema": "finanzas",
+      "titular_es": "Wall Street fija sus expectativas para MercadoLibre antes de publicar resultados",
+      "resumen": "Bancos de inversión en Wall Street reiteraron un optimismo moderado sobre las acciones de MercadoLibre previo a su balance del segundo trimestre. Los analistas prevén crecimiento sostenido en el segmento fintech y en el volumen de ventas de e-commerce. La atención estará puesta en la expansión de márgenes en Brasil y México.",
       "relevancia": 8,
-      "url": "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
+      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/estos-son-los-precios-objetivo-de-wall-street-para-las-acciones-de-mercadolibre-previo-a-su-balance/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇦🇷",
       "tags": [
-        "AWS",
-        "Superblocks",
-        "startups"
-      ]
-    },
-    {
-      "id": "dc0d90ec36",
-      "tema": "ciencia",
-      "titular_es": "Estados Unidos impone restricciones comerciales al desarrollo de robótica e IA",
-      "resumen": "Nuevas directrices gubernamentales de EE.UU. extienden el proteccionismo tecnológico al campo de los robots humanoides.\nLas medidas limitan la importación de componentes y la transferencia de tecnología hacia ciertos países.\nExpertos advierten que las restricciones podrían frenar el ritmo de avance en robótica industrial.",
-      "relevancia": 8,
-      "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
-      "fuente": "technologyreview.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "robótica",
-        "EE.UU.",
-        "política"
-      ]
-    },
-    {
-      "id": "4dc1b37847",
-      "tema": "ciencia",
-      "titular_es": "Un fósil de 518 millones de años revela el origen de las tenazas de los arácnidos",
-      "resumen": "El hallazgo de una criatura marina prehistórica en China mostró las estructuras anatómicas precursoras de los colmillos de las arañas.\nLos tejidos blandos conservados revelan extremidades tipo pinza que explican la evolución de los quelíceros.\nEl estudio aporta piezas clave para reconstruir el árbol evolutivo de arácnidos y escorpiones.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260803080906.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇨🇳",
-      "tags": [
-        "paleontología",
-        "evolución",
-        "fósiles"
-      ]
-    },
-    {
-      "id": "6a0dcdd85d",
-      "tema": "ciencia",
-      "titular_es": "Análisis de ADN en la Sábana Santa de Turín revela siglos de diversidad biológica",
-      "resumen": "Estudios genéticos en la Sábana Santa identificaron rastros de ADN de múltiples linajes humanos, plantas y microorganismos.\nLos hallazgos reflejan el historial de manipulación y desplazamientos que sufrió la reliquia a lo largo de los siglos.\nAunque no determinan la autenticidad del lienzo, los datos reconstruyen su contexto biológico histórico.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260803080859.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇮🇹",
-      "tags": [
-        "genética",
-        "ADN",
-        "arqueología"
-      ]
-    },
-    {
-      "id": "64a915705c",
-      "tema": "ia",
-      "titular_es": "Nuevas técnicas permiten ejecutar modelos Kimi y GLM a gran escala con menor consumo",
-      "resumen": "Investigadores publicaron métodos para optimizar la inferencia de los modelos de lenguaje Kimi y GLM.\nLa técnica reduce los requerimientos de memoria sin sacrificar la precisión de las respuestas.\nPermite operar modelos masivos en entornos con recursos de hardware más restringidos.",
-      "relevancia": 7,
-      "url": "https://blog.cloudflare.com/smaller-faster-safer-models/",
-      "fuente": "blog.cloudflare.com (vía HN)",
-      "bandera": "🇨🇳",
-      "tags": [
-        "ia",
-        "LLM",
-        "infraestructura"
-      ]
-    },
-    {
-      "id": "082edf922d",
-      "tema": "ia",
-      "titular_es": "Reddit combate una nueva ola de contenido basura generado por IA para posicionamiento SEO",
-      "resumen": "Múltiples comunidades de Reddit registran un aumento de respuestas automatizadas diseñadas para promocionar productos.\nLos moderadores señalan que las herramientas de IA generan mensajes creíbles difíciles de detectar.\nLa plataforma evalúa nuevos mecanismos de moderación para proteger la autenticidad de sus foros.",
-      "relevancia": 7,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Reddit",
-        "ia",
-        "SEO"
+        "MercadoLibre",
+        "e-commerce",
+        "acciones"
       ]
     },
     {
       "id": "434fd6f90b",
-      "tema": "ia",
-      "titular_es": "Asana presenta agentes de IA con memoria compartida para flujos de trabajo en equipo",
-      "resumen": "Asana lanzó agentes de inteligencia artificial capaces de retener el contexto entre distintas consultas dentro de una empresa.\nLa herramienta resuelve el problema de la falta de continuidad en las interacciones corporativas con IA.\nEl sistema promete mantener el historial de decisiones protegiendo al mismo tiempo la privacidad de datos.",
-      "relevancia": 7,
+      "tema": "emprendimiento",
+      "titular_es": "Asana lanza memoria compartida corporativa para sus agentes de inteligencia artificial",
+      "resumen": "Asana presentó una función que permite a los agentes de IA retener contexto e historial entre múltiples empleados de una empresa sin comprometer la privacidad. La herramienta resuelve la desconexión habitual de los chatbots que no recuerdan interacciones previas. Promete mejorar la coordinación de proyectos complejos en equipos grandes.",
+      "relevancia": 8,
       "url": "https://venturebeat.com/orchestration/asanas-ai-agents-share-memory-across-your-company-but-not-your-secrets",
       "fuente": "venturebeat.com",
       "bandera": "🇺🇸",
       "tags": [
         "Asana",
-        "agentes ia",
-        "empresas"
+        "agentes IA",
+        "productividad"
       ]
     },
     {
-      "id": "89a42210a2",
-      "tema": "finanzas",
-      "titular_es": "YPF concreta un split accionario de diez a uno para aumentar la liquidez de sus títulos",
-      "resumen": "La petrolera argentina YPF dividió sus acciones para multiplicar por diez la cantidad de papeles en circulación.\nLa medida no altera el patrimonio de los accionistas pero busca reducir el precio por título individual.\nEl objetivo principal es atraer a pequeños inversores minoristas y mejorar la operatividad en el mercado.",
-      "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/por-que-caen-las-acciones-de-ypf-y-como-afecta-a-los-inversores-el-split/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇦🇷",
+      "id": "4dc1b37847",
+      "tema": "ciencia",
+      "titular_es": "Fósil de 518 millones de años revela el origen de los colmillos de los arácnidos",
+      "resumen": "El hallazgo de una pequeña criatura marina fósil reveló estructuras primitivas que dieron origen a los quelíceros de las arañas. El fósil preservó tejidos blandos y apéndices en forma de pinza que aclaran la evolución de arácnidos y escorpiones. El estudio resuelve un dilema evolutivo de más de cinco siglos de antigüedad.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260803080906.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
       "tags": [
-        "YPF",
-        "acciones",
-        "split"
+        "paleontología",
+        "fósiles",
+        "evolución"
       ]
     },
     {
-      "id": "5c210e0377",
-      "tema": "emprendimiento",
-      "titular_es": "Design Arena recauda 7,9 millones de dólares para evaluar el diseño en modelos de IA",
-      "resumen": "La plataforma Design Arena levantó capital para ofrecer evaluaciones humanas del sentido estético en modelos de IA.\nLa herramienta es utilizada por más de 5 millones de personas para enviar retroalimentación a laboratorios de desarrollo.\nLos fondos se destinarán a ampliar la infraestructura de pruebas para modelos de frontera.",
-      "relevancia": 7,
-      "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
+      "id": "7ad9763b55",
+      "tema": "ciencia",
+      "titular_es": "El cerebro humano está programado biológicamente para recuperar el peso perdido",
+      "resumen": "Un estudio neurocientífico explica que el cerebro interpreta la pérdida de peso como una amenaza a la supervivencia y activa mecanismos para recuperar grasa. Esta memoria biológica incrementa la sensación de hambre y reduce el gasto calórico tras una dieta. El hallazgo subraya que el sobrepeso involucra respuestas evolutivas profundas.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260803080902.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
       "tags": [
-        "Design Arena",
-        "inversión",
-        "ia"
-      ]
-    },
-    {
-      "id": "c1e9b4a799",
-      "tema": "emprendimiento",
-      "titular_es": "Outernet lanza una app que incentiva a convertir guardados digitales en actividades reales",
-      "resumen": "Creada por los organizadores de eventos virales en San Francisco, Outernet presentó su aplicación móvil.\nEl sistema guarda ubicaciones y actividades descubiertas en redes y envía recordatorios para visitarlas en persona.\nLa startup busca monetizar la desconexión digital promoviendo experiencias en el mundo físico.",
-      "relevancia": 6,
-      "url": "https://techcrunch.com/2026/08/03/outernet-turns-your-saved-posts-into-real-world-adventures/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Outernet",
-        "aplicaciones",
-        "startups"
+        "neurociencia",
+        "metabolismo",
+        "salud"
       ]
     }
   ]
