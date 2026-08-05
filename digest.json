@@ -1,273 +1,172 @@
 {
-  "fecha": "2026-08-04",
-  "generado_utc": "2026-08-04T21:04:09Z",
-  "indicadores": {
-    "dolar": {
-      "valor": 924.89,
-      "variacion": -3.53,
-      "variacion_pct": -0.38
-    },
-    "uf": {
-      "valor": 40844.79,
-      "variacion": 0.0,
-      "variacion_pct": 0.0
-    }
-  },
-  "noticia_del_dia": "62498cfc58",
-  "pildora_ia": "Overfitting (sobreajuste): cuando un modelo memoriza el ruido de los datos de entrenamiento en vez del patrón general. Rinde perfecto en entrenamiento pero mal con datos nuevos. Se combate con más datos, regularización o dropout.",
+  "fecha": "2026-08-05",
+  "generado_utc": "2026-08-05T14:10:19Z",
+  "indicadores": {},
+  "noticia_del_dia": "f91b380ba6",
+  "pildora_ia": "Embeddings: representan palabras, imágenes o cualquier dato como vectores de números donde la cercanía significa similitud de significado. Son la base de la búsqueda semántica y de cómo los LLM 'entienden' texto.",
   "pildoras_ia": [
-    "Overfitting (sobreajuste): cuando un modelo memoriza el ruido de los datos de entrenamiento en vez del patrón general. Rinde perfecto en entrenamiento pero mal con datos nuevos. Se combate con más datos, regularización o dropout.",
     "Embeddings: representan palabras, imágenes o cualquier dato como vectores de números donde la cercanía significa similitud de significado. Son la base de la búsqueda semántica y de cómo los LLM 'entienden' texto.",
     "Atención (Transformers): el mecanismo que deja a un modelo pesar qué partes de la entrada importan más para cada palabra que genera. Es el corazón de la arquitectura Transformer detrás de GPT, Gemini y Claude.",
     "Gradiente descendente: el algoritmo que entrena casi todas las redes neuronales. Ajusta los parámetros poco a poco en la dirección que más reduce el error, como bajar una montaña a ciegas siguiendo la pendiente.",
-    "Tokens: los LLM no leen palabras sino 'tokens', fragmentos de texto (a veces una palabra, a veces parte de una). El costo y los límites de las APIs se miden en tokens, no en caracteres."
+    "Tokens: los LLM no leen palabras sino 'tokens', fragmentos de texto (a veces una palabra, a veces parte de una). El costo y los límites de las APIs se miden en tokens, no en caracteres.",
+    "Temperatura: parámetro que controla cuán 'creativa' es la respuesta de un LLM. Baja (0) da respuestas predecibles y consistentes; alta (1+) las hace más variadas y arriesgadas."
   ],
   "noticias": [
     {
-      "id": "62498cfc58",
-      "tema": "emprendimiento",
-      "titular_es": "Bending Spoons acuerda la compra de Airtable por $1.280 millones de dólares",
-      "resumen": "La firma italiana Bending Spoons acordó adquirir Airtable en una valoración muy inferior a su pico de $11.000 millones en 2021. La transacción refleja la drástica corrección de valoraciones que enfrenta el sector de software para empresas. La compra permitirá a Bending Spoons reestructurar la plataforma y optimizar sus costos operativos.",
-      "relevancia": 10,
-      "url": "https://techcrunch.com/2026/08/04/bending-spoons-to-buy-airtable-for-1-28b/",
-      "fuente": "techcrunch.com",
+      "id": "f91b380ba6",
+      "tema": "ia",
+      "titular_es": "Google Assistant desaparecerá de los teléfonos en septiembre para dar paso definitivo a Gemini",
+      "resumen": "Google anunció la retirada de Assistant en dispositivos Android y accesorios conectados a partir del 4 de septiembre. La transición hacia Gemini marca la sustitución completa de su asistente tradicional por modelos de inteligencia artificial generativa. La medida afecta a smartphones, relojes inteligentes y auriculares compatibles.",
+      "relevancia": 9,
+      "url": "https://www.theverge.com/tech/975516/google-assistant-android-phones-tablets-shutdown",
+      "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Airtable",
-        "Bending Spoons",
-        "adquisición"
+        "Google",
+        "Gemini",
+        "IA"
       ]
     },
     {
-      "id": "fd8f692b30",
+      "id": "a22f950ea9",
       "tema": "ia",
-      "titular_es": "Alibaba presenta Qwen3.8-Max, afirmando superar a GPT-5.6 en uso autónomo de computadoras",
-      "resumen": "El equipo de IA de Alibaba ha presentado su nuevo modelo insignia Qwen3.8-Max, con 2,4 billones de parámetros y arquitectura MoE. La compañía afirma que supera a sus principales competidores en tareas complejas de uso informático autónomo. Este lanzamiento intensifica la competencia global por el dominio de los agentes de IA.",
-      "relevancia": 10,
-      "url": "https://venturebeat.com/technology/qwen3-8-max-arrives-with-a-bold-claim-it-outperforms-gpt-5-6-sol-max-and-fable-5-on-agentic-computer-use",
-      "fuente": "venturebeat.com",
-      "bandera": "🇨🇳",
-      "tags": [
-        "Alibaba",
-        "Qwen",
-        "LLMs"
-      ]
-    },
-    {
-      "id": "4826195d4c",
-      "tema": "ia",
-      "titular_es": "Mistral lanza Shieldstral, un modelo abierto de 3B para moderación multimodal",
-      "resumen": "Mistral AI ha publicado Shieldstral, un nuevo modelo de moderación de pesos abiertos diseñado para clasificar contenido multimodal. La herramienta busca ayudar a los desarrolladores a filtrar textos e imágenes no deseados con bajo consumo de recursos. Refuerza el compromiso de la firma francesa con el ecosistema de IA de código abierto.",
+      "titular_es": "Tribunal de EE.UU. anula la orden judicial de Amazon contra Perplexity AI",
+      "resumen": "Un tribunal de apelaciones revocó la medida cautelar que impedía a Perplexity AI acceder a ciertos servicios de raspado de datos de Amazon. El fallo permite a la startup de IA continuar desarrollando sus motores de búsqueda conversacionales con información en tiempo real. La decisión sienta un precedente clave sobre la recopilación de datos públicos frente a los términos de servicio corporativos.",
       "relevancia": 9,
-      "url": "https://mistral.ai/news/shieldstral/",
-      "fuente": "mistral.ai (vía HN)",
-      "bandera": "🇫🇷",
+      "url": "https://finance.yahoo.com/technology/ai/articles/us-court-overturns-amazon-injunction-135004000.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
       "tags": [
-        "Mistral AI",
-        "moderación",
-        "código abierto"
+        "Perplexity AI",
+        "Amazon",
+        "legal"
       ]
     },
     {
       "id": "1670c78807",
-      "tema": "ia",
-      "titular_es": "El negocio de centros de datos de AMD se dispara un 107% impulsado por la demanda de IA",
-      "resumen": "AMD reportó ingresos récord en su división de centros de datos, alcanzando los $6.700 millones de dólares en el trimestre. La desbordante demanda de infraestructura de procesamiento para inteligencia artificial impulsó este crecimiento interanual. Mientras tanto, la división de videojuegos de la compañía pasó a un segundo plano.",
+      "tema": "finanzas",
+      "titular_es": "Los ingresos de centros de datos de AMD aumentan un 107% impulsados por la demanda de IA",
+      "resumen": "AMD reportó ventas récord en su división de data centers alcanzando los $6.700 millones en el trimestre, impulsadas por sus chips aceleradores de IA. A pesar del fuerte crecimiento interanual, las acciones cayeron levemente debido a la desaceleración en el segmento de videojuegos. El reporte confirma la migración de ingresos del hardware de consumo hacia el cómputo empresarial masivo.",
       "relevancia": 9,
       "url": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
         "AMD",
-        "data centers",
-        "hardware"
+        "semiconductores",
+        "resultados"
       ]
     },
     {
-      "id": "a0dd31c7a2",
-      "tema": "finanzas",
-      "titular_es": "Electronic Arts se convierte en empresa privada tras una operación de $55.000 millones",
-      "resumen": "Electronic Arts (EA) completó formalmente su transición a empresa privada tras ser adquirida por un consorcio inversor por $55.000 millones de dólares. El grupo comprador incluye el Fondo de Inversión Pública de Arabia Saudita, Silver Lake y Affinity Partners. La transacción retira a uno de los mayores editores de videojuegos de la bolsa de valores.",
+      "id": "503ba1ffa5",
+      "tema": "emprendimiento",
+      "titular_es": "SpaceX planea construir una red móvil terrestre para competir directamente con las grandes operadoras de EE.UU.",
+      "resumen": "Elon Musk y Gwynne Shotwell anunciaron intenciones de desarrollar infraestructura terrestre para competir con T-Mobile, AT&T y Verizon. La estrategia busca complementar la red satelital Starlink y capturar cuota de mercado en telefonía móvil. La movida convertiría a la empresa espacial en un operador de telecomunicaciones de servicio completo.",
       "relevancia": 9,
-      "url": "https://www.theverge.com/games/974736/ea-private-company-deal-closed",
+      "url": "https://www.theverge.com/science/975480/spacex-mobile-terrestrial-cellphone-company",
       "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "EA",
-        "adquisición",
-        "mercados"
-      ]
-    },
-    {
-      "id": "3e8102df90",
-      "tema": "finanzas",
-      "titular_es": "El S&P 500 supera los 7.700 puntos e impulsa un récord en Wall Street",
-      "resumen": "Los principales índices bursátiles de EE.UU. registraron máximos históricos impulsados por la caída en los precios del petróleo y avances diplomáticos. La perspectiva de estabilidad en el estrecho de Ormuz atenuó las preocupaciones sobre la oferta de energía. Además, sólidos reportes trimestrales de ganancias reforzaron la confianza de los inversionistas.",
-      "relevancia": 9,
-      "url": "https://www.bloomberglinea.com/mercados/sp-500-alcanza-un-record-impulsado-por-la-posibilidad-de-un-acuerdo-entre-iran-y-estados-unidos/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "S&P 500",
-        "Wall Street",
-        "petróleo"
-      ]
-    },
-    {
-      "id": "c640b3318b",
-      "tema": "finanzas",
-      "titular_es": "Wall Street analiza los primeros resultados de SpaceX como empresa cotizada",
-      "resumen": "SpaceX presentó su primer informe de utilidades tras salir al mercado bursátil, captando la atención de los analistas financieros. Los inversionistas se centran en el crecimiento del servicio Starlink, la rentabilidad de su división de IA y el fin del bloqueo de acciones. Los títulos buscan estabilizarse tras una corrección del 45% desde sus máximos.",
-      "relevancia": 9,
-      "url": "https://www.bloomberglinea.com/mercados/wall-street-busca-respuestas-en-los-primeros-resultados-de-spacex-desde-su-debut-bursatil/",
-      "fuente": "bloomberglinea.com",
       "bandera": "🇺🇸",
       "tags": [
         "SpaceX",
         "Starlink",
-        "bolsa"
-      ]
-    },
-    {
-      "id": "b0950fe486",
-      "tema": "emprendimiento",
-      "titular_es": "El uso masivo de agentes de IA para programar dispara los costos en startups",
-      "resumen": "Empresas como Replit y Kilo Code revelan que sus ingenieros solo escriben código manualmente el 1% del tiempo, delegando el resto a agentes de IA. Sin embargo, este cambio ha desbordado los presupuestos de cómputo y generado nuevos retos de supervisión. Las startups buscan equilibrar la productividad con el control de gastos en modelos.",
-      "relevancia": 9,
-      "url": "https://venturebeat.com/orchestration/ai-coding-agents-are-blowing-through-budgets-replit-kilo-code-and-symbotic-explain-how-theyre-managing-it",
-      "fuente": "venturebeat.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Replit",
-        "agentes IA",
-        "programación"
+        "telecomunicaciones"
       ]
     },
     {
       "id": "dc48138fd8",
       "tema": "emprendimiento",
-      "titular_es": "Los ingresos de SpaceX por servicios de 'neocloud' de IA alcanzan $2.600 millones",
-      "resumen": "La división de computación e infraestructura de IA de SpaceX triplicó sus ingresos anuales impulsada por alianzas con firmas tecnológicas. Según documentos corporativos, el suministro de capacidad de procesamiento se ha convertido en una línea de negocio clave. Esto diversifica el negocio espacial de la empresa más allá de lanzamientos y Starlink.",
+      "titular_es": "SpaceX genera más ingresos en su división de IA que en su negocio espacial tradicional",
+      "resumen": "Documentos financieros revelan que la unidad de inteligencia artificial de SpaceX generó $2.600 millones en ingresos en el trimestre, triplicando la cifra del año anterior. La compañía ha monetizado el suministro de capacidad de cómputo a otras startups de IA. Los datos muestran una diversificación drástica del modelo de negocio previo a su planeada salida a bolsa.",
       "relevancia": 9,
       "url": "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
         "SpaceX",
-        "neocloud",
-        "computación"
+        "startups",
+        "IA"
       ]
     },
     {
-      "id": "4709475d8b",
-      "tema": "ciencia",
-      "titular_es": "Desarrollan una turbina de hidrógeno que genera electricidad mediante ondas de detonación",
-      "resumen": "Científicos lograron generar energía eléctrica utilizando una turbina de hidrógeno que crea su propia presión con explosiones controladas. El sistema elimina la necesidad de compresores mecánicos tradicionales, elevando drásticamente la eficiencia. El avance abre la puerta a sistemas de propulsión y energía limpia mucho más potentes.",
+      "id": "6523192f92",
+      "tema": "emprendimiento",
+      "titular_es": "Robinhood lanzará un fondo que permitirá a minoristas invertir en startups de Y Combinator",
+      "resumen": "Robinhood anunció un nuevo instrumento financiero diseñado para democratizar la inversión de capital de riesgo entre inversores no acreditados. El vehículo permitirá comprar participaciones respaldadas por empresas nacidas en la aceleradora Y Combinator. La iniciativa busca abrir un mercado históricamente reservado a fondos de Venture Capital e inversores ángeles.",
       "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260803080919.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
+      "url": "https://techcrunch.com/2026/08/05/robinhood-to-list-a-fund-that-lets-anyone-back-y-combinator-startups/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸",
       "tags": [
-        "hidrógeno",
-        "energía limpia",
-        "turbinas"
+        "Robinhood",
+        "Y Combinator",
+        "venture capital"
       ]
     },
     {
-      "id": "3f1dab2cb5",
+      "id": "ec86245c00",
       "tema": "ciencia",
-      "titular_es": "Un chicle experimental reduce la presencia del VPH en la boca hasta un 93%",
-      "resumen": "Un chicle desarrollado con proteínas especiales redujo la carga viral del virus del papiloma humano (VPH) en pruebas de laboratorio. Además, eliminó bacterias vinculadas al cáncer de cabeza y cuello sin dañar la microbiota oral beneficiosa. El avance plantea una alternativa accesible para reducir riesgos tumorales.",
+      "titular_es": "El nuevo telescopio espacial Nancy Grace Roman de la NASA podrá detectar asteroides potencialmente peligrosos",
+      "resumen": "La NASA prepara el lanzamiento del telescopio Roman a finales de agosto con una doble misión científica: estudiar la energía oscura y monitorear la Tierra. Gracias a su amplio campo de visión, el observatorio identificará asteroides cercanos que representan amenazas de impacto. Representa un avance fundamental tanto para la cosmología como para la defensa planetaria.",
       "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm",
+      "url": "https://www.technologyreview.com/2026/08/05/1141200/nasas-roman-telescope-detect-asteroids/",
+      "fuente": "technologyreview.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "NASA",
+        "astronomía",
+        "espacio"
+      ]
+    },
+    {
+      "id": "2c3a79e72b",
+      "tema": "ciencia",
+      "titular_es": "Descubren células inmunitarias que explotan como bombas microscópicas para destruir bacterias",
+      "resumen": "Científicos de Stanford hallaron un tipo de célula inmune en gusanos planos que se autodestruye violentamente en minutos para erradicar patógenos cercanos. El mecanismo de ataque veloz y localizado evita la propagación de infecciones sin dañar el tejido circundante. Los investigadores esperan adaptar este principio biomolecular para desarrollar terapias dirigidas contra bacterias resistentes y cáncer.",
+      "relevancia": 9,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260803080914.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🇺🇸",
       "tags": [
-        "oncología",
-        "biomedicina",
-        "VPH"
+        "Stanford",
+        "inmunología",
+        "biología"
       ]
     },
     {
-      "id": "537dc0b20d",
-      "tema": "ciencia",
-      "titular_es": "Experimento cuántico confirma que el 'tiempo negativo' es un fenómeno medible",
-      "resumen": "Físicos demostraron que fotones que atraviesan una nube de átomos pueden salir pareciendo haber pasado un tiempo negativo en su interior. Mediante mediciones extremadamente débiles, confirmaron que los átomos registran este comportamiento insólito. El experimento ofrece valiosas pistas sobre la naturaleza del tiempo a escala cuántica.",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260803080904.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇨🇦",
-      "tags": [
-        "física cuántica",
-        "fotones",
-        "investigación"
-      ]
-    },
-    {
-      "id": "b1ba4acf3c",
-      "tema": "ciencia",
-      "titular_es": "Consiguen imprimir en 3D uno de los metales más duros de la Tierra sin defectos",
-      "resumen": "Un nuevo método de fabricación aditiva logró imprimir carburo de tungsteno cobalto ablandando el material en lugar de fundirlo por completo. La técnica produce piezas sin grietas ni microdefectos manteniendo una dureza de grado industrial. Este proceso optimiza el uso de materia prima y reduce costos en piezas mecánicas pesadas.",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260801094053.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "impresión 3D",
-        "materiales",
-        "tungsteno"
-      ]
-    },
-    {
-      "id": "662b5f913f",
+      "id": "4826195d4c",
       "tema": "ia",
-      "titular_es": "Waymo expande su servicio de robotaxis a todos los usuarios en Dallas",
-      "resumen": "Waymo ha abierto oficialmente su servicio de viajes autónomos sin conductor para el público general en la ciudad de Dallas. La medida representa un paso clave en la comercialización y escalabilidad de la tecnología de transporte autónomo. Los habitantes ya pueden solicitar viajes directamente a través de la aplicación.",
+      "titular_es": "Mistral presenta Shieldstral, un modelo abierto de 3B para moderación multimodal",
+      "resumen": "La startup europea Mistral lanzó Shieldstral, un modelo de peso abierto diseñado para detectar contenido no deseado en texto e imágenes. Con solo 3.000 millones de parámetros, busca ofrecer una alternativa liviana y eficiente para la moderación de contenido en tiempo real. Su liberación permite a desarrolladores e ingenieros auditar e implementar la herramienta de forma local.",
       "relevancia": 8,
-      "url": "https://waymo.com/blog/shorts/dallas-open-to-all/",
-      "fuente": "waymo.com (vía HN)",
+      "url": "https://mistral.ai/news/shieldstral/",
+      "fuente": "mistral.ai (vía HN)",
+      "bandera": "🇪🇺",
+      "tags": [
+        "Mistral",
+        "código abierto",
+        "moderación"
+      ]
+    },
+    {
+      "id": "b654b838a5",
+      "tema": "ia",
+      "titular_es": "El marco de evaluación de IA de Trump excluye los modelos de código abierto",
+      "resumen": "La administración estadounidense presentó un borrador voluntario para evaluar riesgos de ciberseguridad en modelos avanzados de IA que deja fuera a las soluciones abiertas. Críticos señalan que la medida ignora los riesgos de modelos descargables e inspeccionables por cualquier usuario. La decisión reaviva el debate regulatorio entre el desarrollo de código abierto y los modelos propietarios.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded",
+      "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Waymo",
-        "vehículos autónomos",
-        "transporte"
-      ]
-    },
-    {
-      "id": "54ed8f1ef0",
-      "tema": "ia",
-      "titular_es": "Apple afirma que más ex-empleados habrían transferido datos confidenciales a OpenAI",
-      "resumen": "Apple ha intensificado sus señalamientos sobre la fuga de propiedad intelectual tras la salida de personal clave hacia OpenAI. La empresa investiga si múltiples antiguos empleados extrajeron información confidencial sobre arquitectura de software antes de renunciar. El caso agrava la tensión legal e industrial entre ambos gigantes tecnológicos.",
-      "relevancia": 8,
-      "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
-      "fuente": "techcrunch.com (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Apple",
-        "OpenAI",
-        "propiedad intelectual"
-      ]
-    },
-    {
-      "id": "0f8ccd6fbe",
-      "tema": "ia",
-      "titular_es": "Logran ejecutar DeepSeek V4 Flash en un único acelerador AMD MI300X",
-      "resumen": "Pruebas recientes demostraron la viabilidad de correr el modelo de lenguaje DeepSeek V4 Flash utilizando solo una GPU AMD MI300X. El logro destaca los avances en optimización de memoria e inferencia de modelos masivos en hardware de alta gama. Esto promete reducir sustancialmente los costos operativos de despliegue para empresas.",
-      "relevancia": 8,
-      "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
-      "fuente": "github.com (vía HN)",
-      "bandera": "🇨🇳",
-      "tags": [
-        "DeepSeek",
-        "AMD",
-        "optimización"
+        "regulación",
+        "IA",
+        "Estados Unidos"
       ]
     },
     {
       "id": "8b650b9cdc",
       "tema": "ia",
-      "titular_es": "Texas exigirá auditorías a los centros de datos antes de permitir su conexión a la red eléctrica",
-      "resumen": "El gobernador de Texas ordenó auditorías estrictas a las nuevas instalaciones de centros de datos que soliciten conectarse a la red eléctrica del estado. La medida busca evaluar el impacto del consumo energético masivo generado por la infraestructura de IA y evitar apagones. Este requisito podría retrasar la apertura de nuevos proyectos en la región.",
+      "titular_es": "Texas exigirá auditorías a centros de datos antes de permitir su conexión a la red eléctrica",
+      "resumen": "El gobernador de Texas ordenó a los reguladores energéticos auditar de manera rigurosa las nuevas instalaciones de infraestructura tecnológica. La medida busca evitar interrupciones en la red ante el vertiginoso aumento en la demanda de energía por la IA y el minado de criptomonedas. La decisión podría ralentizar la apertura de nuevos data centers en uno de los principales hubs de EE.UU.",
       "relevancia": 8,
       "url": "https://www.theverge.com/policy/975071/texas-data-center-audit",
       "fuente": "theverge.com",
@@ -279,138 +178,243 @@
       ]
     },
     {
-      "id": "c34e3565d3",
-      "tema": "ia",
-      "titular_es": "OpenAI responde públicamente a la demanda de Apple sobre secretos comerciales",
-      "resumen": "OpenAI publicó una declaración desestimando la demanda de Apple, calificándola de infundada y descuidada en sus acusaciones de robo de secretos. La firma creadora de ChatGPT asegura que el reclamo busca frenar la competencia mediante la presión mediática y legal. La disputa pública refleja la feroz batalla por el talento en IA.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "OpenAI",
-        "Apple",
-        "demandas"
-      ]
-    },
-    {
-      "id": "cdbe9334d1",
+      "id": "be5c95ff43",
       "tema": "finanzas",
-      "titular_es": "Encuesta manufacturera revela temores de inflación peores que en la pandemia",
-      "resumen": "Un sondeo entre gerentes de compras mostró un repunte significativo en las presiones de costos operativos en el sector industrial de EE.UU. Los ejecutivos señalaron una volatilidad superior a la experimentada durante la crisis del COVID-19. Los datos aumentan la presión sobre la Reserva Federal para ajustar su política monetaria.",
+      "titular_es": "La creación de empleo privado en EE.UU. cae a 44.000 puestos en julio, muy por debajo del consenso",
+      "resumen": "El informe nacional de empleo de ADP reveló una drástica desaceleración en la contratación privada durante el último mes. La salud fue el único sector con crecimiento notable, mientras otros rubros mostraron estancamiento o recortes. Los datos alimentan las expectativas de un recorte de tasas por parte de la Reserva Federal ante señales de enfriamiento económico.",
       "relevancia": 8,
-      "url": "https://www.cnbc.com/2026/08/03/manufacturing-survey-shows-inflation-worries-adding-to-pressure-on-fed.html",
+      "url": "https://www.cnbc.com/2026/08/05/private-companies-added-just-44000-workers-in-july-below-expectations-adp-reports.html",
       "fuente": "cnbc.com",
       "bandera": "🇺🇸",
       "tags": [
-        "inflación",
-        "Reserva Federal",
-        "manufactura"
+        "empleo",
+        "ADP",
+        "Fed"
+      ]
+    },
+    {
+      "id": "295cca6641",
+      "tema": "finanzas",
+      "titular_es": "Una sequía extrema en Europa paraliza el transporte de carga en los ríos Rin y Danubio",
+      "resumen": "Niveles críticamente bajos de agua en las principales arterias fluviales europeas están interrumpiendo el transporte de carbón, insumos químicos y bienes industriales. La situación obliga a dragar lechos fluviales y reducir las cargas de los barcos, elevando de forma drástica los costos logísticos. El fenómeno amenaza con reactivar presiones inflacionarias en las cadenas de suministro de la eurozona.",
+      "relevancia": 8,
+      "url": "https://www.cnbc.com/2026/08/05/drought-rhine-danube-water-levels-economy.html",
+      "fuente": "cnbc.com",
+      "bandera": "🇪🇺",
+      "tags": [
+        "Europa",
+        "logística",
+        "economía"
+      ]
+    },
+    {
+      "id": "a07ee7aa54",
+      "tema": "finanzas",
+      "titular_es": "Las acciones de Eli Lilly se disparan tras una demanda récord de sus fármacos contra la obesidad",
+      "resumen": "La farmacéutica Eli Lilly registró una fuerte subida en bolsa impulsada por ventas trimestrales que superaron las expectativas de Wall Street. La alta demanda de tratamientos como Zepbound y Mounjaro obligó a la empresa a elevar sus proyecciones anuales. El mercado de medicamentos metabólicos continúa posicionándose como uno de los motores financieros más sólidos del sector.",
+      "relevancia": 8,
+      "url": "https://finance.yahoo.com/markets/article/eli-lilly-stock-soars-on-strong-demand-for-weight-loss-drugs-135325819.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Eli Lilly",
+        "bolsa",
+        "fármacos"
+      ]
+    },
+    {
+      "id": "baf3cd733e",
+      "tema": "finanzas",
+      "titular_es": "El S&P 500 marca un máximo histórico impulsado por resultados corporativos y menor tensión geopolítica",
+      "resumen": "El índice S&P 500 superó sus récords previos tras reportes de ganancias sólidos de gigantes como Disney y Eli Lilly. A esto se sumó la caída en los precios del petróleo por expectativas de un acuerdo marítimo en el Estrecho de Ormuz. El apetito por el riesgo se consolida sostenido por la resiliencia en las ganancias del sector tecnológico e industrial.",
+      "relevancia": 8,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-hits-record-high-135125164.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "S&P 500",
+        "Wall Street",
+        "mercados"
+      ]
+    },
+    {
+      "id": "9cf2286921",
+      "tema": "emprendimiento",
+      "titular_es": "Saudi Aramco respalda a la startup Mitti Labs para optimizar el cultivo de arroz en Asia",
+      "resumen": "La gigante energética Saudi Aramco lideró una inversión en Mitti Labs para promover técnicas de cultivo sostenibles y eficientes en el uso de agua en la India. La startup combina datos agrícolas con incentivos mediante créditos de carbono para reducir el impacto ambiental del arrozal. La empresa prevé expandir sus operaciones a Filipinas e Indonesia próximamente.",
+      "relevancia": 8,
+      "url": "https://techcrunch.com/2026/08/05/saudi-aramco-backs-indias-mitti-labs-to-make-asias-rice-farming-more-water-resilient/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇸🇦",
+      "tags": [
+        "Aramco",
+        "AgTech",
+        "startups"
+      ]
+    },
+    {
+      "id": "8b3b35a1ca",
+      "tema": "emprendimiento",
+      "titular_es": "WindBorne recauda $37 millones para escalar sus globos meteorológicos impulsados por IA",
+      "resumen": "La startup WindBorne Systems cerró una ronda de inversión Serie B para desplegar miles de globos sensores en la atmósfera. Los datos recopilados alimentan modelos de aprendizaje automático para predecir patrones climáticos extremos con alta precisión. La tecnología apunta a vender pronósticos ultralocalizados a gobiernos e industrias vulnerables al clima.",
+      "relevancia": 8,
+      "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "WindBorne",
+        "IA",
+        "clima"
+      ]
+    },
+    {
+      "id": "b0950fe486",
+      "tema": "emprendimiento",
+      "titular_es": "El alto consumo presupuestario de los agentes de código con IA preocupa a las startups",
+      "resumen": "Compañías como Replit y Kilo Code advirtieron que los agentes autónomos de programación están disparando los costos operativos de infraestructura de cómputo. En algunas firmas, los ingenieros solo redactan directamente el 1% del código mientras los modelos ejecutan el resto. Las startups comienzan a desarrollar métricas estrictas de gobernanza para evitar gastos descontrolados en API.",
+      "relevancia": 8,
+      "url": "https://venturebeat.com/orchestration/ai-coding-agents-are-blowing-through-budgets-replit-kilo-code-and-symbotic-explain-how-theyre-managing-it",
+      "fuente": "venturebeat.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Replit",
+        "código",
+        "startups"
+      ]
+    },
+    {
+      "id": "338f1c42eb",
+      "tema": "ciencia",
+      "titular_es": "Descubren un gigantesco depósito de magma de 6.000 km³ oculto bajo la Toscana",
+      "resumen": "Geólogos detectaron una enorme reserva magmática subterránea mediante el análisis de vibraciones sísmicas naturales en el norte de Italia. Aunque la estructura no presenta riesgo inminente de erupción, su hallazgo reescribe la comprensión vulcanológica de la región. El descubrimiento servirá para mejorar los modelos de predicción de actividad geotérmica y volcánica europea.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260804034645.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇮🇹",
+      "tags": [
+        "geología",
+        "Italia",
+        "volcanes"
+      ]
+    },
+    {
+      "id": "194c507c40",
+      "tema": "ciencia",
+      "titular_es": "Incendios forestales en España y Francia alcanzan tal intensidad que generan sus propias tormentas",
+      "resumen": "Una ola de calor extremo e incendios devastadores en el sur de Europa provocaron la formación de pirocumulonimbos, nubes de tormenta creadas por el calor intenso. El fenómeno desató fuertes rachas de viento y descargas eléctricas que dificultaron las labores de extinción. Científicos advierten que la combinación de sequía y biomasa acumulada está haciendo más frecuentes estos eventos extremos.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260804034631.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇪🇸",
+      "tags": [
+        "incendios",
+        "clima",
+        "Europa"
+      ]
+    },
+    {
+      "id": "7b326244e7",
+      "tema": "ciencia",
+      "titular_es": "Científicos descubren las neuronas clave que sostienen la motivación ante tareas difíciles",
+      "resumen": "Investigadores identificaron un grupo de células cerebrales llamadas neuronas de orexina que se activan para mantener el esfuerzo cuando las recompensas requieren más trabajo. La inhibición de estas neuronas en modelos animales provocó una pérdida rápida de la perseverancia. El hallazgo abre puertas para tratar trastornos neuropsiquiátricos asociados con el déficit de motivación o apatía.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260804034622.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "neurociencia",
+        "cerebro",
+        "salud"
+      ]
+    },
+    {
+      "id": "4b600ce3a6",
+      "tema": "ciencia",
+      "titular_es": "Capturan por primera vez a un 'gen saltarín' transfiriéndose entre especies diferentes",
+      "resumen": "Un equipo científico documentó la transferencia horizontal de elementos genéticos móviles a través de ARN circular proveniente de bacterias depredadoras. El hallazgo demuestra que los genes saltarines no dependen únicamente de virus para trasladarse entre distintas especies. El descubrimiento reescribe aspectos fundamentales sobre la aceleración de la evolución e intercambio genético en la naturaleza.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260803080911.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "genética",
+        "biología",
+        "evolución"
+      ]
+    },
+    {
+      "id": "8531769f26",
+      "tema": "ciencia",
+      "titular_es": "Un accidente aéreo civil en Nuevo México es vinculado al bloqueo de GPS militar",
+      "resumen": "Investigaciones preliminares asociaron la caída de una aeronave civil al uso de interferencia de señales GPS durante maniobras de entrenamiento militar en la zona. El incidente enciende las alarmas sobre los riesgos de las pruebas de guerra electrónica en el espacio aéreo compartido. Autoridades de aviación exigen revisar los protocolos de notificación para prevenir futuras interferencias catastróficas.",
+      "relevancia": 8,
+      "url": "https://www.wired.com/story/a-civilian-plane-crashed-in-new-mexico-was-the-militarys-tech-to-blame/",
+      "fuente": "wired.com (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "aviación",
+        "GPS",
+        "seguridad"
+      ]
+    },
+    {
+      "id": "06279ba582",
+      "tema": "ia",
+      "titular_es": "Maple-Preview logra ejecutar un modelo MoE de 20B a 120 tokens por segundo en un iPhone",
+      "resumen": "Desarrolladores presentaron un sistema basado en cuantización ternaria capaz de correr un modelo de mezcla de expertos de 20.000 millones de parámetros directamente en dispositivos móviles. La prueba logró velocidades de generación de 120 tokens/seg en un iPhone sin requerir conexión a la nube. Representa un avance notable para el procesamiento de IA local e inferencia edge de alto rendimiento.",
+      "relevancia": 7,
+      "url": "https://deepgrove.ai/maple-preview",
+      "fuente": "deepgrove.ai (vía HN)",
+      "bandera": "🌍",
+      "tags": [
+        "iPhone",
+        "IA local",
+        "hardware"
+      ]
+    },
+    {
+      "id": "120fa8d484",
+      "tema": "ia",
+      "titular_es": "Fugas de IP y DNS en WebKit comprometen la privacidad en iCloud Private Relay y navegadores proxy",
+      "resumen": "Investigadores descubrieron fallos de seguridad en el motor WebKit que exponen las direcciones IP reales de los usuarios a través de solicitudes de red no canalizadas. El fallo afecta tanto a navegadores basados en WebKit como al servicio Private Relay de Apple. La vulnerabilidad permite a sitios web rastrear a usuarios que dependían de estas capas de anonimato.",
+      "relevancia": 7,
+      "url": "https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/",
+      "fuente": "mysk.blog (vía HN)",
+      "bandera": "🌍",
+      "tags": [
+        "WebKit",
+        "ciberseguridad",
+        "Apple"
       ]
     },
     {
       "id": "29a98ee0a7",
       "tema": "finanzas",
-      "titular_es": "Ecopetrol supera previsiones operativas pero analistas mantienen cautela",
-      "resumen": "La petrolera colombiana reportó un desempeño sólido en el trimestre, superando los pronósticos de producción y utilidades. A pesar del resultado, bancos como Citi y Bank of America mantienen una postura prudente sobre el precio de la acción. Advierten que la generación de caja y las incertidumbres regulatorias aún representan riesgos.",
-      "relevancia": 8,
+      "titular_es": "Ecopetrol sorprende con buenos resultados, pero analistas mantienen cautela sobre la acción",
+      "resumen": "Pese a reportar un desempeño operativo superior al esperado en el trimestre, bancos como Citi y BofA reiteraron sus calificaciones de mantener. Las firmas señalan preocupaciones en la generación de caja a largo plazo y la incertidumbre en proyectos de exploración. El mercado sigue con atención las decisiones del gobierno colombiano respecto al futuro energético de la petrolera.",
+      "relevancia": 7,
       "url": "https://www.bloomberglinea.com/mercados/ecopetrol-sorprende-con-sus-resultados-pero-citi-y-bofa-siguen-viendo-riesgos-para-la-accion/",
       "fuente": "bloomberglinea.com",
       "bandera": "🇨🇴",
       "tags": [
         "Ecopetrol",
-        "acciones",
-        "petróleo"
-      ]
-    },
-    {
-      "id": "171c4ce309",
-      "tema": "finanzas",
-      "titular_es": "Las ganancias de Ecopetrol crecen un 81% en el primer semestre",
-      "resumen": "Ecopetrol registró ganancias netas por $8,95 billones de pesos colombianos durante la primera mitad del año, revirtiendo caídas previas. El repunte se explicó por un aumento en la eficiencia operativa y precios de venta favorables. La cifra devuelve el optimismo a la empresa estatal tras varios trimestres de contracción.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/utilidades-de-ecopetrol-reaccionaron-gano-81-mas-en-el-primer-semestre/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇨🇴",
-      "tags": [
-        "Ecopetrol",
         "Colombia",
-        "resultados"
+        "acciones"
       ]
     },
     {
       "id": "2a10bcfb33",
       "tema": "finanzas",
-      "titular_es": "Riesgo país en América Latina cierra julio con variaciones mixtas",
-      "resumen": "Uruguay se mantuvo a la cabeza de la región con los rendimientos de bonos más bajos y mayor solvencia crediticia. En contraste, economías como Argentina, Ecuador y Bolivia luchan por reducir sus primas de riesgo por debajo de los 400 puntos. El panorama refleja la diversidad de estabilidad fiscal en el cono sur.",
-      "relevancia": 8,
+      "titular_es": "El riesgo país en Latinoamérica cierra julio con fuertes brechas entre economías",
+      "resumen": "Uruguay se mantuvo como el emisor de menor riesgo en la región con los bonos más valiosos, mientras que Argentina, Ecuador y Bolivia continúan con dificultades para bajar de los 400 puntos básicos. Las diferencias reflejan las distintas políticas fiscales y niveles de reservas internacionales de cada país. Los analistas prevén un escenario volátil ante los próximos movimientos de tasas internacionales.",
+      "relevancia": 7,
       "url": "https://www.bloomberglinea.com/latinoamerica/asi-cerro-el-riesgo-pais-en-latinoamerica-en-el-mes-de-julio/",
       "fuente": "bloomberglinea.com",
       "bandera": "🌎",
       "tags": [
-        "riesgo país",
         "Latinoamérica",
+        "riesgo país",
         "bonos"
-      ]
-    },
-    {
-      "id": "ff9163c37d",
-      "tema": "finanzas",
-      "titular_es": "Wall Street fija sus expectativas para MercadoLibre antes de publicar resultados",
-      "resumen": "Bancos de inversión en Wall Street reiteraron un optimismo moderado sobre las acciones de MercadoLibre previo a su balance del segundo trimestre. Los analistas prevén crecimiento sostenido en el segmento fintech y en el volumen de ventas de e-commerce. La atención estará puesta en la expansión de márgenes en Brasil y México.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/estos-son-los-precios-objetivo-de-wall-street-para-las-acciones-de-mercadolibre-previo-a-su-balance/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇦🇷",
-      "tags": [
-        "MercadoLibre",
-        "e-commerce",
-        "acciones"
-      ]
-    },
-    {
-      "id": "434fd6f90b",
-      "tema": "emprendimiento",
-      "titular_es": "Asana lanza memoria compartida corporativa para sus agentes de inteligencia artificial",
-      "resumen": "Asana presentó una función que permite a los agentes de IA retener contexto e historial entre múltiples empleados de una empresa sin comprometer la privacidad. La herramienta resuelve la desconexión habitual de los chatbots que no recuerdan interacciones previas. Promete mejorar la coordinación de proyectos complejos en equipos grandes.",
-      "relevancia": 8,
-      "url": "https://venturebeat.com/orchestration/asanas-ai-agents-share-memory-across-your-company-but-not-your-secrets",
-      "fuente": "venturebeat.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Asana",
-        "agentes IA",
-        "productividad"
-      ]
-    },
-    {
-      "id": "4dc1b37847",
-      "tema": "ciencia",
-      "titular_es": "Fósil de 518 millones de años revela el origen de los colmillos de los arácnidos",
-      "resumen": "El hallazgo de una pequeña criatura marina fósil reveló estructuras primitivas que dieron origen a los quelíceros de las arañas. El fósil preservó tejidos blandos y apéndices en forma de pinza que aclaran la evolución de arácnidos y escorpiones. El estudio resuelve un dilema evolutivo de más de cinco siglos de antigüedad.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260803080906.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "paleontología",
-        "fósiles",
-        "evolución"
-      ]
-    },
-    {
-      "id": "7ad9763b55",
-      "tema": "ciencia",
-      "titular_es": "El cerebro humano está programado biológicamente para recuperar el peso perdido",
-      "resumen": "Un estudio neurocientífico explica que el cerebro interpreta la pérdida de peso como una amenaza a la supervivencia y activa mecanismos para recuperar grasa. Esta memoria biológica incrementa la sensación de hambre y reduce el gasto calórico tras una dieta. El hallazgo subraya que el sobrepeso involucra respuestas evolutivas profundas.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260803080902.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "neurociencia",
-        "metabolismo",
-        "salud"
       ]
     }
   ]
