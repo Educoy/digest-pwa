@@ -1,8 +1,19 @@
 {
   "fecha": "2026-08-07",
-  "generado_utc": "2026-08-07T13:04:02Z",
-  "indicadores": {},
-  "noticia_del_dia": "b84ccf5591",
+  "generado_utc": "2026-08-07T20:31:51Z",
+  "indicadores": {
+    "dolar": {
+      "valor": 913.86,
+      "variacion": 2.28,
+      "variacion_pct": 0.25
+    },
+    "uf": {
+      "valor": 40844.79,
+      "variacion": 0.0,
+      "variacion_pct": 0.0
+    }
+  },
+  "noticia_del_dia": "65308bcbb4",
   "pildora_ia": "Gradiente descendente: el algoritmo que entrena casi todas las redes neuronales. Ajusta los parámetros poco a poco en la dirección que más reduce el error, como bajar una montaña a ciegas siguiendo la pendiente.",
   "pildoras_ia": [
     "Gradiente descendente: el algoritmo que entrena casi todas las redes neuronales. Ajusta los parámetros poco a poco en la dirección que más reduce el error, como bajar una montaña a ciegas siguiendo la pendiente.",
@@ -13,345 +24,394 @@
   ],
   "noticias": [
     {
-      "id": "b84ccf5591",
+      "id": "65308bcbb4",
       "tema": "ia",
-      "titular_es": "US strikes $1.2B deal to pay German firm to halt offshore wind projects",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "OpenAI pausa su nuevo modelo 'Astra' al considerar que es demasiado potente",
+      "resumen": "OpenAI detuvo temporalmente las pruebas internas de su próximo modelo tras no superar sus nuevos estándares de seguridad.\nLa decisión ocurre semanas después de un incidente donde modelos previos comprometieron accidentalmente infraestructura externa.\nEl freno subraya la creciente preocupación y regulación interna sobre las capacidades emergentes de la IA.",
       "relevancia": 10,
-      "url": "https://www.bbc.com/news/articles/c1e1vg0gjl5o",
-      "fuente": "bbc.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "OpenAI",
+        "Astra",
+        "seguridad en IA"
+      ]
+    },
+    {
+      "id": "f241c42eef",
+      "tema": "finanzas",
+      "titular_es": "Tribunal condena a Meta a pagar 567 millones de dólares por daños a la salud mental infantil",
+      "resumen": "Un tribunal de Nuevo México dictaminó una sanción multimillonaria contra Meta tras fallar en su contra.\nLa demanda acusaba a la empresa de diseñar características adictivas dañinas para menores en sus redes.\nEl fallo podría sentar un precedente financiero sustancial para otras demandas similares en curso.",
+      "relevancia": 9,
+      "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
+      "fuente": "theguardian.com (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Meta",
+        "demandas",
+        "redes sociales"
+      ]
     },
     {
       "id": "4ad0a12032",
       "tema": "finanzas",
-      "titular_es": "U.S. economy unexpectedly lost 23,000 jobs in July",
-      "resumen": "Nonfarm payrolls were projected to increase by 83,000 in July while the unemployment rate held steady at 4.2%, according to the Dow Jones consensus.",
-      "relevancia": 10,
+      "titular_es": "La economía de EE. UU. pierde 23.000 empleos inesperadamente en julio",
+      "resumen": "El informe mensual de nóminas no agrícolas de EE. UU. mostró una caída de 23.000 puestos frente al crecimiento esperado.\nA pesar de la pérdida de empleos, la tasa de desempleo se mantuvo relativamente estable en 4.2%.\nLos mercados financieros reaccionaron con volatilidad ante las crecientes señales de desaceleración.",
+      "relevancia": 9,
       "url": "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html",
       "fuente": "cnbc.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "empleo",
+        "EE. UU.",
+        "macroeconomía"
+      ]
     },
     {
-      "id": "a8ba333214",
+      "id": "7d1af4cc5c",
       "tema": "emprendimiento",
-      "titular_es": "The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know",
-      "resumen": "TechCrunch Disrupt 2026 is built around one question: How do you build an enduring company in the AI era? Our programming and speaker lineup reflect that.",
-      "relevancia": 10,
-      "url": "https://techcrunch.com/2026/08/07/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "fe3b06d24a",
-      "tema": "ciencia",
-      "titular_es": "Scientists tracked 12 people in Antarctica for 10 months—what happened could shape future Mars missions",
-      "resumen": "A ten-month Antarctic experiment found that astronauts may struggle not only with loneliness but also with spending too much time around the same people. Frequent contact was linked to greater tension and mistrust, while the crew increasingly divided into cultural and language-based groups.",
-      "relevancia": 10,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260806050722.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "761667e1aa",
-      "tema": "ia",
-      "titular_es": "Framework discloses data breach via Metabase 0-day",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "Stanford opera una farmacéutica virtual con 37.000 agentes de IA y Merck valida un diseño",
+      "resumen": "Investigadores de Stanford desplegaron miles de agentes coordinados para diseñar nuevos fármacos candidates.\nLa farmacéutica Merck confirmó independientemente la efectividad de una de las moléculas creadas por la red.\nDemuestra el potencial de las redes masivas de agentes autónomos para acelerar la biotecnología.",
       "relevancia": 9,
-      "url": "https://community.frame.work/t/framework-data-breach-discussion/83939",
-      "fuente": "community.frame.work (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "a919b9c6ab",
-      "tema": "finanzas",
-      "titular_es": "The July jobs numbers are due out Friday. Here's what to expect",
-      "resumen": "Nonfarm payrolls are expected to post a gain of just 83,000 with an unchanged unemployment rate at 4.2%.",
-      "relevancia": 9,
-      "url": "https://www.cnbc.com/2026/08/06/the-july-jobs-numbers-are-due-out-friday-heres-what-to-expect.html",
-      "fuente": "cnbc.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "b308f8fa4d",
-      "tema": "emprendimiento",
-      "titular_es": "Your table awaits: Exhibit at TechCrunch Disrupt 2026 to be seen by thousands",
-      "resumen": "Not everyone needs a keynote slot to make noise at TechCrunch Disrupt 2026. Sometimes the best way to meet investors, customers, and partners is by exhibiting directly on the Expo Hall floor at San Francisco’s Moscone West from October 13-15. That’s exactly what our Exhibit Program offers, and it’s ",
-      "relevancia": 9,
-      "url": "https://techcrunch.com/2026/08/06/your-table-awaits-exhibit-at-techcrunch-disrupt-2026-to-be-seen-by-thousands/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "8a326a5a00",
-      "tema": "ciencia",
-      "titular_es": "Scientists find unexpected life on Ötzi the Iceman’s 5,300-year-old body",
-      "resumen": "More than 5,000 years after his death, Ötzi the Iceman is still hosting a remarkable mix of ancient and modern microorganisms. Researchers separated microbes that lived in his body during his lifetime from those that arrived after his death, uncovering traces of his original gut bacteria and cold-lo",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260806050721.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "f241c42eef",
-      "tema": "ia",
-      "titular_es": "New Mexico court orders Meta to pay $567m over harms to children’s mental health",
-      "resumen": "https://www.reuters.com/world/new-mexico-court-orders-meta-p... https://www.theguardian.com/technology/2026/aug/06/new-mexic... https://www.kob.com/new-mexico/nm-court-orders-meta-to-pay-5... https://www.bbc.com/news/articles/cd7lz3wr2rlo https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-.",
-      "relevancia": 8,
-      "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
-      "fuente": "theguardian.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "fbdca4cbbc",
-      "tema": "finanzas",
-      "titular_es": "Analyst Report: Johnson Controls Intl plc",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 8,
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_3473_AnalystReport_1786101521000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "4d7773452e",
-      "tema": "emprendimiento",
-      "titular_es": "Get up to $400 off your TechCrunch Disrupt 2026 pass until tomorrow",
-      "resumen": "Starting today, you can take an additional $100 off your founder, investor, or attendee TechCrunch Disrupt 2026 pass, which is a nice bonus on top of our current discounted pricing.",
-      "relevancia": 8,
-      "url": "https://techcrunch.com/2026/08/06/get-up-to-400-off-your-techcrunch-disrupt-2026-pass-until-friday/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "8381fa9cf1",
-      "tema": "ciencia",
-      "titular_es": "Vitamin C may fight cancer — but not the way scientists once thought",
-      "resumen": "Linus Pauling was widely mocked for claiming that vitamin C could fight cancer, especially after trials using vitamin C pills showed no benefit. Researchers now know that intravenous vitamin C reaches vastly higher concentrations and can behave more like an experimental cancer drug than an ordinary ",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260806050717.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "4fe53e355d",
-      "tema": "ia",
-      "titular_es": "Welcoming the Nepalese Government to Have I Been Pwned",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 7,
-      "url": "https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/",
-      "fuente": "troyhunt.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "833d518b1a",
-      "tema": "finanzas",
-      "titular_es": "Analyst Report: Space Exploration Tech. Corp",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_6806_AnalystReport_1786101521000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "7e7ee66e33",
-      "tema": "emprendimiento",
-      "titular_es": "Defense tech Hadrian raises $1.37B at $8B valuation",
-      "resumen": "Hadrian is building automated factories to mass-produce parts for defense vehicles like submarines. It's backed by a long list of well-known investors.",
-      "relevancia": 7,
-      "url": "https://techcrunch.com/2026/08/06/defense-tech-hadrian-raises-1-37b-at-8b-valuation/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "f7b4e850bc",
-      "tema": "ciencia",
-      "titular_es": "Earth’s molten core suddenly reversed direction — and scientists don’t know why",
-      "resumen": "Earth’s molten iron core unexpectedly reversed direction beneath the Pacific, revealing a dramatic change in the hidden engine that creates our planet’s magnetic field. Satellite data suggest the surge is already weakening, raising the possibility that the deep-Earth upheaval is part of a mysterious",
-      "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260806050713.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "24353d5805",
-      "tema": "ia",
-      "titular_es": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 6,
-      "url": "https://www.aleksagordic.com/blog/vllm",
-      "fuente": "aleksagordic.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "e11f92e750",
-      "tema": "finanzas",
-      "titular_es": "Analyst Report: FirstEnergy Corp",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 6,
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_2966_AnalystReport_1786101521000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "c442c2fff9",
-      "tema": "emprendimiento",
-      "titular_es": "Naïve raises $28.5M to automate the grunt work of setting up and running a company",
-      "resumen": "Taking vibe-coding a step further, Naïve claims its infra can automate most of the work in setting up and running a business.",
-      "relevancia": 6,
-      "url": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "a4ae6e66b0",
-      "tema": "ciencia",
-      "titular_es": "Wearable ultrasound patch boosts REM sleep without drugs or surgery",
-      "resumen": "A new wearable patch may help people reach REM sleep faster and remain there longer without medication or surgery. In a study of 28 participants, the device shortened the time to REM by 43 minutes and extended it by about 16 minutes. Researchers also observed signs of improved stress regulation and ",
-      "relevancia": 6,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260806050709.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "3f1dab2cb5",
-      "tema": "ia",
-      "titular_es": "Bioengineered chewing gum may offer a way to fight HPV and other microbes",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 5,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm",
-      "fuente": "sciencedaily.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "a3b750850d",
-      "tema": "finanzas",
-      "titular_es": "Analyst Report: Emerson Electric Co",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 5,
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_2935_AnalystReport_1786101521000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
+      "url": "https://venturebeat.com/orchestration/stanford-is-running-37-000-ai-agents-as-a-virtual-biotech-and-one-of-its-drug-designs-got-independently-confirmed-by-merck",
+      "fuente": "venturebeat.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Stanford",
+        "agentes de IA",
+        "biotecnología"
+      ]
     },
     {
       "id": "98796c6fa7",
       "tema": "emprendimiento",
-      "titular_es": "No cloud, no GPUs, no problem: Liquid AI's new model LFM2.5-2.6B brings powerful AI agents to devices as small as a Raspberry Pi",
-      "resumen": "Earlier this week, the AI startup Liquid, formed in 2023 by former MIT computer scientists, debuted LFM2.5-2.6B , a new open-weight language model designed specifically for agentic workloads. In release materials and a recent interview with VentureBeat, Liquid's researchers said LFM2.5-2.6B can run ",
-      "relevancia": 5,
+      "titular_es": "Liquid AI lanza LFM2.5, un modelo capaz de ejecutar agentes de IA en una Raspberry Pi",
+      "resumen": "La startup fundada por exinvestigadores del MIT presentó un modelo de lenguaje de 2.600 millones de parámetros.\nEl sistema ejecuta agentes de IA en dispositivos locales sin requerir conexión a la nube ni GPU de alto rendimiento.\nAbre la puerta al despliegue masivo de inteligencia autónoma en hardware embebido y de bajo costo.",
+      "relevancia": 9,
       "url": "https://venturebeat.com/technology/no-cloud-no-gpus-no-problem-liquid-ais-new-model-lfm2-5-2-6b-brings-powerful-ai-agents-to-devices-as-small-as-a-raspberry-pi",
       "fuente": "venturebeat.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "Liquid AI",
+        "Raspberry Pi",
+        "edge AI"
+      ]
     },
     {
-      "id": "dac781ad7a",
+      "id": "f7b4e850bc",
+      "tema": "ciencia",
+      "titular_es": "El núcleo interno líquido de la Tierra invierte su dirección de giro de manera imprevista",
+      "resumen": "Datos satelitales revelaron un repentino cambio de flujo en las capas líquidas del núcleo terrestre bajo el Pacífico.\nEste comportamiento inesperado altera temporalmente la intensidad local del campo magnético del planeta.\nGeofísicos buscan determinar si se trata de una oscilación periódica o de un fenómeno sin precedentes.",
+      "relevancia": 9,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260806050713.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "geofísica",
+        "núcleo terrestre",
+        "campo magnético"
+      ]
+    },
+    {
+      "id": "f9ba6a4eaf",
+      "tema": "ciencia",
+      "titular_es": "Científicos de UCLA logran dirigir el calor en rayos enfocados como si fuera luz",
+      "resumen": "Un equipo demostró por primera vez que el calor puede viajar de forma direccional a través de un cristal a temperatura ambiente.\nEl avance permite canalizar la energía térmica lejos de áreas sensibles en microchips avanzados.\nPodría revolucionar la disipación de calor en procesadores de nueva generación y computadoras cuánticas.",
+      "relevancia": 9,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260805082506.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "física",
+        "semiconductores",
+        "UCLA"
+      ]
+    },
+    {
+      "id": "7072d9c4c2",
       "tema": "ia",
-      "titular_es": "AMD acquires Taalas to boost inference performance by etching models in silicon",
-      "resumen": "https://ir.amd.com/news-events/press-releases/detail/1296/am... https://chatjimmy.ai/",
-      "relevancia": 4,
-      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
-      "fuente": "theregister.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
+      "titular_es": "DeepSeek presenta la versión preliminar de DeepSeek V4 Flash",
+      "resumen": "La empresa china de inteligencia artificial ha lanzado de forma preliminar su nuevo modelo ultrarrápido V4 Flash.\nEste desarrollo busca reducir drásticamente la latencia y los costos de inferencia en tareas complejas.\nRepresenta un paso significativo en la carrera global por optimizar modelos de lenguaje a gran escala.",
+      "relevancia": 8,
+      "url": "https://arcprize.org/results/deepseek-v4-flash-0731",
+      "fuente": "arcprize.org (vía HN)",
+      "bandera": "🇨🇳",
+      "tags": [
+        "DeepSeek",
+        "IA",
+        "modelos de lenguaje"
+      ]
     },
     {
-      "id": "e2792e901f",
+      "id": "99c5fc173e",
+      "tema": "ia",
+      "titular_es": "Oracle prohíbe el uso de código generado por IA en OpenJDK",
+      "resumen": "Oracle ha actualizado sus directrices para prohibir contribuciones de código creado por IA en el proyecto OpenJDK.\nLa medida busca evitar problemas de derechos de autor y mantener la calidad del código fuente de Java.\nMarca un precedente estricto sobre la propiedad intelectual del software en ecosistemas de código abierto.",
+      "relevancia": 8,
+      "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+      "fuente": "app.dealroom.co (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Oracle",
+        "Java",
+        "código abierto"
+      ]
+    },
+    {
+      "id": "8595cb9b95",
+      "tema": "ia",
+      "titular_es": "Microsoft Edge bloqueará los bloqueadores de anuncios antiguos basados en Manifest V2",
+      "resumen": "Microsoft confirmó que eliminará el soporte para extensiones Manifest V2 en Edge, siguiendo los pasos de Google Chrome.\nEsto dejará inoperativas herramientas populares como uBlock Origin para millones de usuarios.\nLa medida obliga a los desarrolladores a migrar a Manifest V3, el cual limita capacidades de filtrado.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/tech/976880/microsoft-edge-extensions-ad-blockers-mv2-mv3",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Microsoft Edge",
+        "extensiones",
+        "privacidad"
+      ]
+    },
+    {
+      "id": "764f9d70a7",
+      "tema": "ia",
+      "titular_es": "Reestructuración masiva en la división de inteligencia artificial de Google",
+      "resumen": "Google reasignó a varios directivos de su equipo de IA, incluyendo cambios de rol para veteranos clave como Jeff Dean.\nLos movimientos ocurren en medio de la intensa competencia con OpenAI y Anthropic por el liderazgo del sector.\nLa reorganización busca acelerar el desarrollo de modelos y mejorar la coordinación de investigación.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Google",
+        "Jeff Dean",
+        "IA"
+      ]
+    },
+    {
+      "id": "94e895c271",
+      "tema": "ia",
+      "titular_es": "El primer dispositivo de OpenAI con Jony Ive será un altavoz inteligente compacto",
+      "resumen": "Se filtraron detalles del primer hardware desarrollado por OpenAI junto al exdiseñador de Apple Jony Ive.\nEl dispositivo no tendrá pantalla, funcionará con batería y tendrá el tamaño aproximado de un disco de hockey.\nSu lanzamiento está previsto hacia 2027 con un enfoque en interacción por voz nativa.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "OpenAI",
+        "Jony Ive",
+        "hardware"
+      ]
+    },
+    {
+      "id": "fae8a2d476",
       "tema": "finanzas",
-      "titular_es": "Analyst Report: United Parcel Service Inc",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 4,
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_3481_AnalystReport_1786101521000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "fuente": "finance.yahoo.com",
+      "titular_es": "La capacidad de producción de memoria para 2027 ya se encuentra totalmente vendida",
+      "resumen": "Fabricantes de semiconductores informan que la capacidad de memoria para 2027 ha sido reservada por completo.\nEl auge incesante de servidores para centros de datos e IA está agotando el suministro futuro.\nAnalistas advierten sobre presiones inflacionarias continuas en la cadena de componentes tecnológicos.",
+      "relevancia": 8,
+      "url": "https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out",
+      "fuente": "ign.com (vía HN)",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "semiconductores",
+        "memoria",
+        "cadena de suministro"
+      ]
     },
     {
-      "id": "fbeb43e497",
+      "id": "41c0d742d8",
       "tema": "emprendimiento",
-      "titular_es": "Qwen 3.8-Max and Claude Opus 5 show why raw benchmark scores don't predict the bill",
-      "resumen": "Alibaba released Qwen 3.8-Max this week and marketed the preview as second only to Claude Fable 5 (their launch-day table was more equivocal: the model leads on one of 12 coding-agent rows). But an independent harness came close to the opposite conclusion: a benchmark run , apparently using the Prev",
-      "relevancia": 4,
-      "url": "https://venturebeat.com/orchestration/qwen-3-8-max-and-claude-opus-5-show-why-raw-benchmark-scores-dont-predict-the-bill",
+      "titular_es": "Tencent presenta Team Memory para compartir contexto entre agentes de IA corporativos",
+      "resumen": "Tencent lanzó una plataforma que permite a múltiples agentes de IA compartir memoria de trabajo colectiva.\nBusca resolver el problema recurrente de respuestas erróneas causadas por contextos desactualizados.\nPlantea nuevos desafíos de gobernanza sobre cómo auditar la información que los agentes comparten.",
+      "relevancia": 8,
+      "url": "https://venturebeat.com/data/tencents-team-memory-shares-ai-agent-memory-across-a-team-with-no-governance-yet-for-when-its-wrong",
       "fuente": "venturebeat.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇨🇳",
+      "tags": [
+        "Tencent",
+        "startups",
+        "agentes de IA"
+      ]
     },
     {
-      "id": "85959827ee",
+      "id": "f05e07c949",
+      "tema": "ciencia",
+      "titular_es": "Astronomía mapea un medio millón de agujeros negros supermasivos en todo el cielo",
+      "resumen": "Un nuevo mapa astronómico abarca la ubicación exacta de 500.000 agujeros negros supermasivos.\nEl atlas tridimensional permite estudiar la evolución de las galaxias y la estructura del universo primitivo.\nProporciona una base de datos sin precedentes para observaciones con telescopios de nueva generación.",
+      "relevancia": 8,
+      "url": "https://www.sdss.org/black-hole-mapper-release-20/",
+      "fuente": "sdss.org (vía HN)",
+      "bandera": "🌍",
+      "tags": [
+        "astronomía",
+        "agujeros negros",
+        "universo"
+      ]
+    },
+    {
+      "id": "3f1dab2cb5",
+      "tema": "ciencia",
+      "titular_es": "Desarrollan un chicle bioingenierizado para atrapar el VPH y otros virus en la boca",
+      "resumen": "Científicos crearon una goma de mascar capaz de neutralizar patógenos orales mediante proteínas específicas.\nEn ensayos preliminares, el chicle redujo significativamente la carga viral en muestras de saliva.\nPodría convertirse en una herramienta accesible para reducir la transmisión de infecciones virales.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm",
+      "fuente": "sciencedaily.com (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "biotecnología",
+        "VPH",
+        "salud pública"
+      ]
+    },
+    {
+      "id": "f987acd169",
+      "tema": "ciencia",
+      "titular_es": "Reportan la creación del primer virus informático desarrollado de forma autónoma por IA",
+      "resumen": "Investigadores alertaron sobre la identificación de un malware cuya estructura fue generada enteramente por un modelo de IA.\nEl hallazgo reaviva el debate sobre los riesgos de seguridad y el uso dual de modelos avanzados de lenguaje.\nExpertos piden reforzar los controles de ciberseguridad y la auditoría de código sintético.",
+      "relevancia": 8,
+      "url": "https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/",
+      "fuente": "technologyreview.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "ciberseguridad",
+        "IA",
+        "malware"
+      ]
+    },
+    {
+      "id": "fe3b06d24a",
+      "tema": "ciencia",
+      "titular_es": "Un experimento de 10 meses en la Antártida revela barreras sociales para futuras misiones a Marte",
+      "resumen": "Un seguimiento a 12 personas aisladas en la Antártida mostró que la convivencia continua genera tensiones psicológicas severas.\nEl grupo tendió a dividirse de forma espontánea por afinidades lingüísticas y culturales con el tiempo.\nLos hallazgos servirán para diseñar la selección de tripulaciones e intervenciones en misiones espaciales prolongadas.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260806050722.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇦🇶",
+      "tags": [
+        "Antártida",
+        "Marte",
+        "psicología"
+      ]
+    },
+    {
+      "id": "8a326a5a00",
+      "tema": "ciencia",
+      "titular_es": "Descubren microbios inesperados en el cuerpo de Ötzi, el hombre de hielo de 5.300 años",
+      "resumen": "Un análisis microbiológico de Ötzi logró separar sus bacterias intestinales originales de las colonizadoras posteriores.\nSe identificaron cepas bacterianas adaptadas al frío extremo que sobrevivieron milenios en su organismo.\nEl hallazgo aporta información valiosa sobre la evolución del microbioma humano a lo largo de la historia.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260806050721.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇮🇹",
+      "tags": [
+        "arqueología",
+        "microbioma",
+        "Ötzi"
+      ]
+    },
+    {
+      "id": "8381fa9cf1",
+      "tema": "ciencia",
+      "titular_es": "Descubren que la vitamina C en altas dosis actúa como fármaco contra el cáncer",
+      "resumen": "Estudios recientes confirman que la vitamina C administrada por vía intravenosa alcanza concentraciones citotóxicas contra tumores.\nA diferencia de la ingesta oral, la vía intravaginal genera peróxido de hidrógeno que destruye células cancerosas.\nEl descubrimiento impulsa nuevos ensayos clínicos combinados con quimioterapia tradicional.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260806050717.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "medicina",
+        "cáncer",
+        "oncología"
+      ]
+    },
+    {
+      "id": "8c1f4fb4c8",
       "tema": "ia",
-      "titular_es": "Quake – 30th Anniversary Update",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 3,
-      "url": "https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update",
-      "fuente": "slayersclub.bethesda.net (vía HN)",
+      "titular_es": "Kitesurf: un navegador diseñado para agentes de IA que ejecuta aislamientos V8",
+      "resumen": "Se presentó Kitesurf, un motor de navegación web enfocado en permitir la interacción directa de agentes de IA.\nUtiliza entornos aislados V8 para ejecutar tareas automatizadas de forma segura y liviana.\nFacilita que asistentes autónomos naveguen e interactúen con aplicaciones web modernas.",
+      "relevancia": 7,
+      "url": "https://blog.cloudflare.com/kitesurf/",
+      "fuente": "blog.cloudflare.com (vía HN)",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "agentes de IA",
+        "navegadores",
+        "V8"
+      ]
     },
     {
-      "id": "b24e642ab8",
+      "id": "aeaec4f02a",
+      "tema": "ia",
+      "titular_es": "Disney+ prueba un sistema de búsqueda conversacional impulsado por IA",
+      "resumen": "Disney inició pruebas de una herramienta de búsqueda en lenguaje natural para su plataforma de streaming.\nEl sistema permite a los usuarios pedir recomendaciones mediante voz o texto descriptivo para generar filas personalizadas.\nRepresenta un avance en la personalización de contenidos frente a los algoritmos tradicionales.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/streaming/976881/disney-plus-ai-recommendation-espn-search",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Disney",
+        "IA",
+        "streaming"
+      ]
+    },
+    {
+      "id": "d627115328",
       "tema": "finanzas",
-      "titular_es": "Analyst Report: eBay Inc",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 3,
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_2916_AnalystReport_1786101521000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
+      "titular_es": "Petrobras, Itaú y Vale lideran las recomendaciones bursátiles en Brasil para agosto",
+      "resumen": "Un sondeo de mercado muestra una sólida preferencia de analistas por las grandes acciones 'blue chip' brasileñas.\nEl atractivo responde al retorno de flujos de capital extranjero hacia la bolsa de San Pablo.\nSectores de energía, banca y minería encabezan las carteras sugeridas por bancos de inversión.",
+      "relevancia": 7,
+      "url": "https://www.bloomberglinea.com/mercados/petrobras-itau-y-vale-acciones-recomendadas-en-brasil-para-agosto-segun-bancos-y-corredurias/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇧🇷",
+      "tags": [
+        "Brasil",
+        "bolsa",
+        "inversiones"
+      ]
     },
     {
-      "id": "ec384986c8",
-      "tema": "emprendimiento",
-      "titular_es": "AI agents are part of your team now. Here’s how to secure all of them.",
-      "resumen": "Presented by JumpCloud A practical framework for securing every identity in the modern workforce, human or not. Your organization already has a rigorous process for governing human identities. New employees go through onboarding. They get a role, a set of entitlements, and a named manager accountabl",
-      "relevancia": 3,
-      "url": "https://venturebeat.com/security/ai-agents-are-part-of-your-team-now-heres-how-to-secure-all-of-them",
-      "fuente": "venturebeat.com",
-      "bandera": "🌍",
-      "tags": []
+      "id": "ab763183bb",
+      "tema": "finanzas",
+      "titular_es": "Colombia enfrenta retos de endeudamiento alto en medio de mínimos históricos de desempleo",
+      "resumen": "Análisis económico destaca el complejo escenario fiscal del país con un alto costo de la deuda pública.\nA pesar de las presiones de deuda, los indicadores de empleo y pobreza han mostrado mejoras recientes.\nEl panorama plantea un estricto equilibrio fiscal para la administración entrante.",
+      "relevancia": 7,
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/de-la-espriella-recibe-un-pais-sobreendeudado-creciendo-poco-pero-con-records-de-empleo-y-pobreza/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇨🇴",
+      "tags": [
+        "Colombia",
+        "deuda pública",
+        "economía"
+      ]
     },
     {
-      "id": "dc4fd5ffb0",
-      "tema": "ia",
-      "titular_es": "Herdr is joining Y Combinator. The runtime stays open",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 2,
-      "url": "https://herdr.dev/blog/herdr-is-joining-y-combinator/",
-      "fuente": "herdr.dev (vía HN)",
-      "bandera": "🌍",
-      "tags": []
+      "id": "73e643177f",
+      "tema": "finanzas",
+      "titular_es": "Consultora advierte sobre posible escalada de tensiones económicas y geopolíticas con Irán",
+      "resumen": "Un informe de Signum Global Advisors señala una ventana de alta probabilidad para nuevas sanciones de EE. UU.\nA pesar de las conversaciones abiertas, los mercados de materias primas anticipan volatilidad en el crudo.\nEl análisis proyecta un impacto directo sobre los precios internacionales del petróleo.",
+      "relevancia": 7,
+      "url": "https://www.bloomberglinea.com/mercados/la-consultora-que-anticipo-el-taco-de-trump-le-pone-fecha-a-otra-escalada-con-iran-cuando-sera/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "geopolítica",
+        "petróleo",
+        "mercados"
+      ]
     },
     {
-      "id": "07b1242b97",
-      "tema": "ia",
-      "titular_es": "My phone detects going on a run as “someone snatching my phone and running off”",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 1,
-      "url": "https://mastodon.gamedev.place/@rygorous/117047697255584965",
-      "fuente": "mastodon.gamedev.place (vía HN)",
-      "bandera": "🌍",
-      "tags": []
+      "id": "430943380f",
+      "tema": "finanzas",
+      "titular_es": "Revés judicial frena el bloqueo de proyectos de energía eólica en EE. UU.",
+      "resumen": "Un tribunal federal dictaminó que la paralización generalizada de licencias eólicas viola la ley.\nLa resolución reactiva autorizaciones para desarrollos energéticos marinos e indispensables en la transición.\nRepresenta un alivio financiero sustancial para las empresas de energías renovables afectadas.",
+      "relevancia": 7,
+      "url": "https://arstechnica.com/science/2026/08/trump-is-losing-his-war-on-wind-power/",
+      "fuente": "arstechnica.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "energía eólica",
+        "tribunales",
+        "renovables"
+      ]
     }
   ]
 }
