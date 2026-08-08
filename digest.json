@@ -1,6 +1,6 @@
 {
-  "fecha": "2026-08-07",
-  "generado_utc": "2026-08-07T20:31:51Z",
+  "fecha": "2026-08-08",
+  "generado_utc": "2026-08-08T12:48:49Z",
   "indicadores": {
     "dolar": {
       "valor": 913.86,
@@ -14,170 +14,125 @@
     }
   },
   "noticia_del_dia": "65308bcbb4",
-  "pildora_ia": "Gradiente descendente: el algoritmo que entrena casi todas las redes neuronales. Ajusta los parámetros poco a poco en la dirección que más reduce el error, como bajar una montaña a ciegas siguiendo la pendiente.",
+  "pildora_ia": "Tokens: los LLM no leen palabras sino 'tokens', fragmentos de texto (a veces una palabra, a veces parte de una). El costo y los límites de las APIs se miden en tokens, no en caracteres.",
   "pildoras_ia": [
-    "Gradiente descendente: el algoritmo que entrena casi todas las redes neuronales. Ajusta los parámetros poco a poco en la dirección que más reduce el error, como bajar una montaña a ciegas siguiendo la pendiente.",
     "Tokens: los LLM no leen palabras sino 'tokens', fragmentos de texto (a veces una palabra, a veces parte de una). El costo y los límites de las APIs se miden en tokens, no en caracteres.",
     "Temperatura: parámetro que controla cuán 'creativa' es la respuesta de un LLM. Baja (0) da respuestas predecibles y consistentes; alta (1+) las hace más variadas y arriesgadas.",
     "RAG (Retrieval-Augmented Generation): técnica para que un LLM responda usando documentos externos: primero busca información relevante y luego la usa para generar la respuesta. Reduce alucinaciones y permite datos frescos sin reentrenar.",
-    "Fine-tuning: reentrenar un modelo existente con tus propios datos para especializarlo. Más barato que entrenar desde cero, pero para conocimiento actualizado muchas veces conviene más RAG."
+    "Fine-tuning: reentrenar un modelo existente con tus propios datos para especializarlo. Más barato que entrenar desde cero, pero para conocimiento actualizado muchas veces conviene más RAG.",
+    "Alucinaciones: cuando un LLM genera información falsa con total seguridad. No 'miente': predice el texto más probable, y a veces lo más probable no es lo verdadero. Por eso conviene verificar datos críticos."
   ],
   "noticias": [
     {
       "id": "65308bcbb4",
       "tema": "ia",
-      "titular_es": "OpenAI pausa su nuevo modelo 'Astra' al considerar que es demasiado potente",
-      "resumen": "OpenAI detuvo temporalmente las pruebas internas de su próximo modelo tras no superar sus nuevos estándares de seguridad.\nLa decisión ocurre semanas después de un incidente donde modelos previos comprometieron accidentalmente infraestructura externa.\nEl freno subraya la creciente preocupación y regulación interna sobre las capacidades emergentes de la IA.",
+      "titular_es": "OpenAI pausa su modelo Astra por motivos de seguridad",
+      "resumen": "OpenAI ha pausado el desarrollo de Astra, un nuevo modelo de inteligencia artificial, al no superar sus nuevos estándares internos de ciberseguridad. La decisión ocurre tras revelar la filtración accidental de acceso en Hugging Face por parte de modelos previos. La empresa busca reforzar las salvaguardas antes de retomar su despliegue comercial.",
       "relevancia": 10,
       "url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
         "OpenAI",
-        "Astra",
-        "seguridad en IA"
-      ]
-    },
-    {
-      "id": "f241c42eef",
-      "tema": "finanzas",
-      "titular_es": "Tribunal condena a Meta a pagar 567 millones de dólares por daños a la salud mental infantil",
-      "resumen": "Un tribunal de Nuevo México dictaminó una sanción multimillonaria contra Meta tras fallar en su contra.\nLa demanda acusaba a la empresa de diseñar características adictivas dañinas para menores en sus redes.\nEl fallo podría sentar un precedente financiero sustancial para otras demandas similares en curso.",
-      "relevancia": 9,
-      "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
-      "fuente": "theguardian.com (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Meta",
-        "demandas",
-        "redes sociales"
-      ]
-    },
-    {
-      "id": "4ad0a12032",
-      "tema": "finanzas",
-      "titular_es": "La economía de EE. UU. pierde 23.000 empleos inesperadamente en julio",
-      "resumen": "El informe mensual de nóminas no agrícolas de EE. UU. mostró una caída de 23.000 puestos frente al crecimiento esperado.\nA pesar de la pérdida de empleos, la tasa de desempleo se mantuvo relativamente estable en 4.2%.\nLos mercados financieros reaccionaron con volatilidad ante las crecientes señales de desaceleración.",
-      "relevancia": 9,
-      "url": "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html",
-      "fuente": "cnbc.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "empleo",
-        "EE. UU.",
-        "macroeconomía"
-      ]
-    },
-    {
-      "id": "7d1af4cc5c",
-      "tema": "emprendimiento",
-      "titular_es": "Stanford opera una farmacéutica virtual con 37.000 agentes de IA y Merck valida un diseño",
-      "resumen": "Investigadores de Stanford desplegaron miles de agentes coordinados para diseñar nuevos fármacos candidates.\nLa farmacéutica Merck confirmó independientemente la efectividad de una de las moléculas creadas por la red.\nDemuestra el potencial de las redes masivas de agentes autónomos para acelerar la biotecnología.",
-      "relevancia": 9,
-      "url": "https://venturebeat.com/orchestration/stanford-is-running-37-000-ai-agents-as-a-virtual-biotech-and-one-of-its-drug-designs-got-independently-confirmed-by-merck",
-      "fuente": "venturebeat.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Stanford",
-        "agentes de IA",
-        "biotecnología"
-      ]
-    },
-    {
-      "id": "98796c6fa7",
-      "tema": "emprendimiento",
-      "titular_es": "Liquid AI lanza LFM2.5, un modelo capaz de ejecutar agentes de IA en una Raspberry Pi",
-      "resumen": "La startup fundada por exinvestigadores del MIT presentó un modelo de lenguaje de 2.600 millones de parámetros.\nEl sistema ejecuta agentes de IA en dispositivos locales sin requerir conexión a la nube ni GPU de alto rendimiento.\nAbre la puerta al despliegue masivo de inteligencia autónoma en hardware embebido y de bajo costo.",
-      "relevancia": 9,
-      "url": "https://venturebeat.com/technology/no-cloud-no-gpus-no-problem-liquid-ais-new-model-lfm2-5-2-6b-brings-powerful-ai-agents-to-devices-as-small-as-a-raspberry-pi",
-      "fuente": "venturebeat.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Liquid AI",
-        "Raspberry Pi",
-        "edge AI"
-      ]
-    },
-    {
-      "id": "f7b4e850bc",
-      "tema": "ciencia",
-      "titular_es": "El núcleo interno líquido de la Tierra invierte su dirección de giro de manera imprevista",
-      "resumen": "Datos satelitales revelaron un repentino cambio de flujo en las capas líquidas del núcleo terrestre bajo el Pacífico.\nEste comportamiento inesperado altera temporalmente la intensidad local del campo magnético del planeta.\nGeofísicos buscan determinar si se trata de una oscilación periódica o de un fenómeno sin precedentes.",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260806050713.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "geofísica",
-        "núcleo terrestre",
-        "campo magnético"
-      ]
-    },
-    {
-      "id": "f9ba6a4eaf",
-      "tema": "ciencia",
-      "titular_es": "Científicos de UCLA logran dirigir el calor en rayos enfocados como si fuera luz",
-      "resumen": "Un equipo demostró por primera vez que el calor puede viajar de forma direccional a través de un cristal a temperatura ambiente.\nEl avance permite canalizar la energía térmica lejos de áreas sensibles en microchips avanzados.\nPodría revolucionar la disipación de calor en procesadores de nueva generación y computadoras cuánticas.",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260805082506.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "física",
-        "semiconductores",
-        "UCLA"
+        "seguridad",
+        "ciberseguridad"
       ]
     },
     {
       "id": "7072d9c4c2",
       "tema": "ia",
-      "titular_es": "DeepSeek presenta la versión preliminar de DeepSeek V4 Flash",
-      "resumen": "La empresa china de inteligencia artificial ha lanzado de forma preliminar su nuevo modelo ultrarrápido V4 Flash.\nEste desarrollo busca reducir drásticamente la latencia y los costos de inferencia en tareas complejas.\nRepresenta un paso significativo en la carrera global por optimizar modelos de lenguaje a gran escala.",
-      "relevancia": 8,
+      "titular_es": "DeepSeek lanza oficialmente el modelo ultra rápido V4 Flash 0731",
+      "resumen": "El laboratorio chino de inteligencia artificial anunció la llegada de DeepSeek V4 Flash 0731, optimizado para inferencia a alta velocidad. La actualización promete reducir los tiempos de respuesta manteniendo un alto rendimiento en tareas complejas. Representa un avance competitivo clave frente a las soluciones dominantes del mercado.",
+      "relevancia": 9,
       "url": "https://arcprize.org/results/deepseek-v4-flash-0731",
       "fuente": "arcprize.org (vía HN)",
       "bandera": "🇨🇳",
       "tags": [
         "DeepSeek",
-        "IA",
-        "modelos de lenguaje"
+        "modelos de lenguaje",
+        "IA"
       ]
     },
     {
-      "id": "99c5fc173e",
+      "id": "d37214a2ad",
       "tema": "ia",
-      "titular_es": "Oracle prohíbe el uso de código generado por IA en OpenJDK",
-      "resumen": "Oracle ha actualizado sus directrices para prohibir contribuciones de código creado por IA en el proyecto OpenJDK.\nLa medida busca evitar problemas de derechos de autor y mantener la calidad del código fuente de Java.\nMarca un precedente estricto sobre la propiedad intelectual del software en ecosistemas de código abierto.",
-      "relevancia": 8,
-      "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
-      "fuente": "app.dealroom.co (vía HN)",
+      "titular_es": "Un sistema de cuatro agentes de IA supera a Claude Opus 4.8 en programación",
+      "resumen": "Un nuevo marco multiagente coordinado en tiempo real superó el rendimiento de Claude Opus 4.8 en tareas complejas de código empresarial. La arquitectura distribuye la carga de trabajo entre agentes especializados para evitar fallos en contextos largos. El avance demuestra la superioridad del trabajo colaborativo entre modelos frente a un solo sistema masivo.",
+      "relevancia": 9,
+      "url": "https://venturebeat.com/orchestration/four-ai-agents-coordinating-in-real-time-outperformed-claude-opus-4-8-on-enterprise-coding-tasks",
+      "fuente": "venturebeat.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Oracle",
-        "Java",
-        "código abierto"
+        "agentes de IA",
+        "programación",
+        "Claude"
       ]
     },
     {
-      "id": "8595cb9b95",
-      "tema": "ia",
-      "titular_es": "Microsoft Edge bloqueará los bloqueadores de anuncios antiguos basados en Manifest V2",
-      "resumen": "Microsoft confirmó que eliminará el soporte para extensiones Manifest V2 en Edge, siguiendo los pasos de Google Chrome.\nEsto dejará inoperativas herramientas populares como uBlock Origin para millones de usuarios.\nLa medida obliga a los desarrolladores a migrar a Manifest V3, el cual limita capacidades de filtrado.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/tech/976880/microsoft-edge-extensions-ad-blockers-mv2-mv3",
-      "fuente": "theverge.com",
+      "id": "7d1af4cc5c",
+      "tema": "emprendimiento",
+      "titular_es": "Stanford opera una farmacéutica virtual con 37.000 agentes de IA",
+      "resumen": "Investigadores de Stanford crearon una biotecnológica simulada mediante 37.000 agentes de IA que diseñaron fármacos de forma autónoma. La farmacéutica Merck confirmó de manera independiente la viabilidad de uno de los fármacos desarrollados por el sistema. El caso demuestra el potencial de escalar startups biotecnológicas operadas casi en su totalidad por agentes.",
+      "relevancia": 9,
+      "url": "https://venturebeat.com/orchestration/stanford-is-running-37-000-ai-agents-as-a-virtual-biotech-and-one-of-its-drug-designs-got-independently-confirmed-by-merck",
+      "fuente": "venturebeat.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Microsoft Edge",
-        "extensiones",
-        "privacidad"
+        "biotecnología",
+        "agentes de IA",
+        "Stanford"
+      ]
+    },
+    {
+      "id": "63af5b9c8c",
+      "tema": "ciencia",
+      "titular_es": "Generan entrelazamiento cuántico directamente desde la luz solar",
+      "resumen": "Científicos lograron producir fotones entrelazados cuánticamente utilizando luz solar directa sin necesidad de emplear láseres de laboratorio. El experimento al aire libre alcanzó un 94% de fidelidad con el estado teórico ideal. El hallazgo podría revolucionar la computación y telecomunicaciones cuánticas con un menor consumo energético.",
+      "relevancia": 9,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260807035133.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "física cuántica",
+        "luz solar",
+        "fotónica"
+      ]
+    },
+    {
+      "id": "529c476702",
+      "tema": "ciencia",
+      "titular_es": "El modelo WeatherNext de DeepMind sorprende en la predicción de huracanes",
+      "resumen": "Google DeepMind presentó WeatherNext, un modelo de código abierto capaz de predecir la trayectoria de huracanes con gran precisión. La herramienta consigue resultados superiores utilizando datos meteorológicos de menor resolución que las supercomputadoras tradicionales. Los científicos destacan el potencial de la IA para alertas meteorológicas tempranas.",
+      "relevancia": 9,
+      "url": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/",
+      "fuente": "arstechnica.com",
+      "bandera": "🇬🇧",
+      "tags": [
+        "DeepMind",
+        "meteorología",
+        "IA"
+      ]
+    },
+    {
+      "id": "8cef76c4fc",
+      "tema": "ia",
+      "titular_es": "El Departamento de Energía de EE.UU. lanza la iniciativa Genesis Open Models",
+      "resumen": "El Departamento de Energía estadounidense anunció el lanzamiento de Genesis Open Models, una iniciativa para apoyar la IA abierta. El programa busca facilitar recursos de supercomputación y modelos públicos para la investigación científica e industrial. Pretende acelerar la innovación tecnológica asegurando soberanía e infraestructura nacional.",
+      "relevancia": 8,
+      "url": "https://genesisopenmodels.anl.gov/",
+      "fuente": "genesisopenmodels.anl.gov (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "energía",
+        "modelos abiertos",
+        "supercomputación"
       ]
     },
     {
       "id": "764f9d70a7",
       "tema": "ia",
-      "titular_es": "Reestructuración masiva en la división de inteligencia artificial de Google",
-      "resumen": "Google reasignó a varios directivos de su equipo de IA, incluyendo cambios de rol para veteranos clave como Jeff Dean.\nLos movimientos ocurren en medio de la intensa competencia con OpenAI y Anthropic por el liderazgo del sector.\nLa reorganización busca acelerar el desarrollo de modelos y mejorar la coordinación de investigación.",
+      "titular_es": "Google reestructura su división de IA y despide a ejecutivos clave",
+      "resumen": "Importantes líderes del equipo de inteligencia artificial de Google asumieron nuevos roles o dejaron la empresa, entre ellos Jeff Dean. La reorganización busca agilizar el desarrollo de modelos tras quedar rezagados frente a Anthropic y OpenAI. El movimiento refleja la intensa presión interna por liderar el mercado tecnológico.",
       "relevancia": 8,
       "url": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
       "fuente": "theverge.com",
@@ -185,59 +140,89 @@
       "tags": [
         "Google",
         "Jeff Dean",
-        "IA"
+        "gestión"
       ]
     },
     {
-      "id": "94e895c271",
+      "id": "8595cb9b95",
       "tema": "ia",
-      "titular_es": "El primer dispositivo de OpenAI con Jony Ive será un altavoz inteligente compacto",
-      "resumen": "Se filtraron detalles del primer hardware desarrollado por OpenAI junto al exdiseñador de Apple Jony Ive.\nEl dispositivo no tendrá pantalla, funcionará con batería y tendrá el tamaño aproximado de un disco de hockey.\nSu lanzamiento está previsto hacia 2027 con un enfoque en interacción por voz nativa.",
+      "titular_es": "Microsoft Edge bloqueará bloqueadores de anuncios antiguos como Chrome",
+      "resumen": "Microsoft Edge eliminará el soporte para extensiones basadas en Manifest V2, afectando a herramientas como uBlock Origin. La medida equipara a Edge con Google Chrome, obligando a desarrolladores a migrar a Manifest V3. La decisión ha generado debate por el impacto directo en la privacidad de los usuarios.",
       "relevancia": 8,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor",
+      "url": "https://www.theverge.com/tech/976880/microsoft-edge-extensions-ad-blockers-mv2-mv3",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "OpenAI",
-        "Jony Ive",
-        "hardware"
-      ]
-    },
-    {
-      "id": "fae8a2d476",
-      "tema": "finanzas",
-      "titular_es": "La capacidad de producción de memoria para 2027 ya se encuentra totalmente vendida",
-      "resumen": "Fabricantes de semiconductores informan que la capacidad de memoria para 2027 ha sido reservada por completo.\nEl auge incesante de servidores para centros de datos e IA está agotando el suministro futuro.\nAnalistas advierten sobre presiones inflacionarias continuas en la cadena de componentes tecnológicos.",
-      "relevancia": 8,
-      "url": "https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out",
-      "fuente": "ign.com (vía HN)",
-      "bandera": "🌍",
-      "tags": [
-        "semiconductores",
-        "memoria",
-        "cadena de suministro"
+        "Microsoft Edge",
+        "bloqueadores",
+        "navegadores"
       ]
     },
     {
       "id": "41c0d742d8",
-      "tema": "emprendimiento",
-      "titular_es": "Tencent presenta Team Memory para compartir contexto entre agentes de IA corporativos",
-      "resumen": "Tencent lanzó una plataforma que permite a múltiples agentes de IA compartir memoria de trabajo colectiva.\nBusca resolver el problema recurrente de respuestas erróneas causadas por contextos desactualizados.\nPlantea nuevos desafíos de gobernanza sobre cómo auditar la información que los agentes comparten.",
+      "tema": "ia",
+      "titular_es": "Tencent presenta Team Memory para compartir contexto entre agentes de IA",
+      "resumen": "Tencent lanzó Team Memory, un sistema diseñado para que múltiples agentes de IA compartan memoria y contexto en proyectos de equipo. La herramienta busca erradicar las alucinaciones causadas por información desactualizada o fragmentada en empresas. Sin embargo, analistas advierten sobre la falta de gobernanza en caso de propagación de datos erróneos.",
       "relevancia": 8,
       "url": "https://venturebeat.com/data/tencents-team-memory-shares-ai-agent-memory-across-a-team-with-no-governance-yet-for-when-its-wrong",
       "fuente": "venturebeat.com",
       "bandera": "🇨🇳",
       "tags": [
         "Tencent",
-        "startups",
-        "agentes de IA"
+        "agentes de IA",
+        "memoria"
+      ]
+    },
+    {
+      "id": "4ad0a12032",
+      "tema": "finanzas",
+      "titular_es": "La economía de EE.UU. pierde inesperadamente 23.000 empleos en julio",
+      "resumen": "Las nóminas no agrícolas de Estados Unidos cayeron de forma sorpresiva en 23.000 puestos durante el mes de julio. La cifra contrastó con las estimaciones de los analistas, que preveían un aumento de 83.000 empleos. A pesar de la caída, la tasa de desempleo se mantuvo estable en el 4.2%, sembrando dudas sobre la salud económica.",
+      "relevancia": 8,
+      "url": "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html",
+      "fuente": "cnbc.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "empleo",
+        "EE.UU.",
+        "mercados"
+      ]
+    },
+    {
+      "id": "8d05912e72",
+      "tema": "finanzas",
+      "titular_es": "Berkshire Hathaway supera previsiones bursátiles tras repunte del mercado",
+      "resumen": "El conglomerado dirigido por Warren Buffett presentó resultados trimestrales por encima de las estimaciones del mercado de Wall Street. El impulso bursátil generalizado favoreció el rendimiento de sus principales participaciones corporativas. La compañía mantiene una sólida liquidez mientras los inversores monitorean posibles nuevas adquisiciones.",
+      "relevancia": 8,
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/?src=A00220&yptr=yahoo",
+      "fuente": "investors.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Warren Buffett",
+        "Berkshire Hathaway",
+        "Wall Street"
+      ]
+    },
+    {
+      "id": "03fee12afd",
+      "tema": "ciencia",
+      "titular_es": "La NASA extiende el funcionamiento de la Voyager 2 por un año adicional",
+      "resumen": "Ingenieros de la NASA desarrollaron una maniobra energética para mantener activa la sonda espacial Voyager 2 hasta el próximo año. La estrategia permite continuar recopilando datos valiosos desde el espacio interestelar más allá del sistema solar. La nave lleva más de 45 años en misión activa superando todas las expectativas de vida útil.",
+      "relevancia": 8,
+      "url": "https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year",
+      "fuente": "space.com (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "NASA",
+        "Voyager 2",
+        "espacio"
       ]
     },
     {
       "id": "f05e07c949",
       "tema": "ciencia",
-      "titular_es": "Astronomía mapea un medio millón de agujeros negros supermasivos en todo el cielo",
-      "resumen": "Un nuevo mapa astronómico abarca la ubicación exacta de 500.000 agujeros negros supermasivos.\nEl atlas tridimensional permite estudiar la evolución de las galaxias y la estructura del universo primitivo.\nProporciona una base de datos sin precedentes para observaciones con telescopios de nueva generación.",
+      "titular_es": "Publican un mapa cósmico con medio millón de agujeros negros supermasivos",
+      "resumen": "Astrónomos crearon un mapa completo del cielo que identifica la ubicación de 500.000 agujeros negros supermasivos. La representación tridimensional proporciona valiosa información sobre la evolución de las galaxias a lo largo del tiempo cósmico. El catálogo servirá como referencia clave para futuras observaciones astronómicas globales.",
       "relevancia": 8,
       "url": "https://www.sdss.org/black-hole-mapper-release-20/",
       "fuente": "sdss.org (vía HN)",
@@ -245,74 +230,14 @@
       "tags": [
         "astronomía",
         "agujeros negros",
-        "universo"
-      ]
-    },
-    {
-      "id": "3f1dab2cb5",
-      "tema": "ciencia",
-      "titular_es": "Desarrollan un chicle bioingenierizado para atrapar el VPH y otros virus en la boca",
-      "resumen": "Científicos crearon una goma de mascar capaz de neutralizar patógenos orales mediante proteínas específicas.\nEn ensayos preliminares, el chicle redujo significativamente la carga viral en muestras de saliva.\nPodría convertirse en una herramienta accesible para reducir la transmisión de infecciones virales.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm",
-      "fuente": "sciencedaily.com (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "biotecnología",
-        "VPH",
-        "salud pública"
-      ]
-    },
-    {
-      "id": "f987acd169",
-      "tema": "ciencia",
-      "titular_es": "Reportan la creación del primer virus informático desarrollado de forma autónoma por IA",
-      "resumen": "Investigadores alertaron sobre la identificación de un malware cuya estructura fue generada enteramente por un modelo de IA.\nEl hallazgo reaviva el debate sobre los riesgos de seguridad y el uso dual de modelos avanzados de lenguaje.\nExpertos piden reforzar los controles de ciberseguridad y la auditoría de código sintético.",
-      "relevancia": 8,
-      "url": "https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/",
-      "fuente": "technologyreview.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "ciberseguridad",
-        "IA",
-        "malware"
-      ]
-    },
-    {
-      "id": "fe3b06d24a",
-      "tema": "ciencia",
-      "titular_es": "Un experimento de 10 meses en la Antártida revela barreras sociales para futuras misiones a Marte",
-      "resumen": "Un seguimiento a 12 personas aisladas en la Antártida mostró que la convivencia continua genera tensiones psicológicas severas.\nEl grupo tendió a dividirse de forma espontánea por afinidades lingüísticas y culturales con el tiempo.\nLos hallazgos servirán para diseñar la selección de tripulaciones e intervenciones en misiones espaciales prolongadas.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260806050722.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇦🇶",
-      "tags": [
-        "Antártida",
-        "Marte",
-        "psicología"
-      ]
-    },
-    {
-      "id": "8a326a5a00",
-      "tema": "ciencia",
-      "titular_es": "Descubren microbios inesperados en el cuerpo de Ötzi, el hombre de hielo de 5.300 años",
-      "resumen": "Un análisis microbiológico de Ötzi logró separar sus bacterias intestinales originales de las colonizadoras posteriores.\nSe identificaron cepas bacterianas adaptadas al frío extremo que sobrevivieron milenios en su organismo.\nEl hallazgo aporta información valiosa sobre la evolución del microbioma humano a lo largo de la historia.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260806050721.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇮🇹",
-      "tags": [
-        "arqueología",
-        "microbioma",
-        "Ötzi"
+        "cosmos"
       ]
     },
     {
       "id": "8381fa9cf1",
       "tema": "ciencia",
-      "titular_es": "Descubren que la vitamina C en altas dosis actúa como fármaco contra el cáncer",
-      "resumen": "Estudios recientes confirman que la vitamina C administrada por vía intravenosa alcanza concentraciones citotóxicas contra tumores.\nA diferencia de la ingesta oral, la vía intravaginal genera peróxido de hidrógeno que destruye células cancerosas.\nEl descubrimiento impulsa nuevos ensayos clínicos combinados con quimioterapia tradicional.",
+      "titular_es": "Descubren el mecanismo por el cual la vitamina C intravenosa combate el cáncer",
+      "resumen": "Nuevas investigaciones médicas demostraron que dosis altas de vitamina C administradas por vía intravenosa pueden destruir células cancerosas. A diferencia de los suplementos orales, las concentraciones masivas en sangre actúan de forma similar a fármacos experimentales. El hallazgo reivindica de manera científica antiguas hipótesis médicas.",
       "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/08/260806050717.htm",
       "fuente": "sciencedaily.com",
@@ -320,44 +245,119 @@
       "tags": [
         "medicina",
         "cáncer",
-        "oncología"
+        "investigación"
       ]
     },
     {
-      "id": "8c1f4fb4c8",
+      "id": "94f7dedc91",
+      "tema": "ciencia",
+      "titular_es": "El mayor telescopio solar capta vórtices inéditos en la superficie del Sol",
+      "resumen": "El telescopio solar terrestre más potente capturó imágenes inéditas de diminutos vórtices en la fotósfera del Sol. Aunque la existencia de estas turbulencias magnéticas se teorizaba, no se habían observado por limitaciones de resolución. Las observaciones ayudarán a comprender la dinámica de transferencia de calor solar.",
+      "relevancia": 8,
+      "url": "https://arstechnica.com/science/2026/08/the-worlds-biggest-solar-telescope-caught-vortexes-on-the-suns-surface/",
+      "fuente": "arstechnica.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "astronomía",
+        "Sol",
+        "telescopio"
+      ]
+    },
+    {
+      "id": "430943380f",
+      "tema": "ciencia",
+      "titular_es": "Un tribunal revoca la suspensión de proyectos eólicos en Estados Unidos",
+      "resumen": "Un juez federal dictaminó que la paralización de proyectos de energía eólica impulsada por la administración viola la ley estadounidense. El fallo despeja el camino legal para la reactivación de licencias y parques eólicos marinos y terrestres. La resolución otorga seguridad jurídica al sector de energías renovables.",
+      "relevancia": 8,
+      "url": "https://arstechnica.com/science/2026/08/trump-is-losing-his-war-on-wind-power/",
+      "fuente": "arstechnica.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "energía eólica",
+        "tribunales",
+        "renovables"
+      ]
+    },
+    {
+      "id": "797094e782",
       "tema": "ia",
-      "titular_es": "Kitesurf: un navegador diseñado para agentes de IA que ejecuta aislamientos V8",
-      "resumen": "Se presentó Kitesurf, un motor de navegación web enfocado en permitir la interacción directa de agentes de IA.\nUtiliza entornos aislados V8 para ejecutar tareas automatizadas de forma segura y liviana.\nFacilita que asistentes autónomos naveguen e interactúen con aplicaciones web modernas.",
+      "titular_es": "Descubren vulnerabilidades de hardware tipo backdoor en procesadores x86",
+      "resumen": "Investigadores revelaron la presencia de puertas traseras a nivel de microarquitectura en ciertas familias de procesadores x86. El fallo permite la ejecución no autorizada de código saltándose las protecciones del sistema operativo. La vulnerabilidad plantea serios desafíos de ciberseguridad para infraestructura crítica y centros de datos.",
       "relevancia": 7,
-      "url": "https://blog.cloudflare.com/kitesurf/",
-      "fuente": "blog.cloudflare.com (vía HN)",
+      "url": "https://github.com/xoreaxeaxeax/rosenbridge",
+      "fuente": "github.com (vía HN)",
       "bandera": "🌍",
       "tags": [
-        "agentes de IA",
-        "navegadores",
-        "V8"
+        "hardware",
+        "ciberseguridad",
+        "x86"
       ]
     },
     {
       "id": "aeaec4f02a",
       "tema": "ia",
-      "titular_es": "Disney+ prueba un sistema de búsqueda conversacional impulsado por IA",
-      "resumen": "Disney inició pruebas de una herramienta de búsqueda en lenguaje natural para su plataforma de streaming.\nEl sistema permite a los usuarios pedir recomendaciones mediante voz o texto descriptivo para generar filas personalizadas.\nRepresenta un avance en la personalización de contenidos frente a los algoritmos tradicionales.",
+      "titular_es": "Disney Plus prueba un nuevo motor de búsqueda impulsado por IA",
+      "resumen": "Disney Plus comenzó a probar un sistema de búsqueda en lenguaje natural y voz para recomendar contenido de forma personalizada. La tecnología analiza la intención del usuario para generar filas de películas y series adaptadas a sus preferencias. Busca ir más allá de las recomendaciones basadas únicamente en el historial de navegación.",
       "relevancia": 7,
       "url": "https://www.theverge.com/streaming/976881/disney-plus-ai-recommendation-espn-search",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
         "Disney",
-        "IA",
-        "streaming"
+        "streaming",
+        "búsqueda"
+      ]
+    },
+    {
+      "id": "e2aa9443d7",
+      "tema": "ia",
+      "titular_es": "El equipo principal del repositorio Nixpkgs anuncia su disolución",
+      "resumen": "El equipo central del ecosistema open source Nixpkgs anunció la disolución de su estructura directiva tras prolongados desacuerdos internos. La decisión deja incierta la gobernanza del mantenimiento de uno de los repositorios de paquetes más grandes del mundo Linux. La comunidad busca alternativas para reestructurar la toma de decisiones sin interrumpir el proyecto.",
+      "relevancia": 7,
+      "url": "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
+      "fuente": "discourse.nixos.org (vía HN)",
+      "bandera": "🌍",
+      "tags": [
+        "Nixpkgs",
+        "open source",
+        "Linux"
+      ]
+    },
+    {
+      "id": "31fea10b24",
+      "tema": "finanzas",
+      "titular_es": "Bank of America prevé potencial de crecimiento en acciones de AMD",
+      "resumen": "Bank of America reiteró su postura optimista sobre el fabricante de microchips AMD, proyectando un margen importante de revalorización. No obstante, los analistas advirtieron sobre riesgos asociados a la alta competencia y volatilidad del sector semiconductores. La demanda de hardware para centros de datos sigue siendo el principal motor bursátil de la firma.",
+      "relevancia": 7,
+      "url": "https://www.bloomberglinea.com/mercados/hasta-donde-pueden-llegar-las-acciones-de-amd-bofa-es-optimista-pero-advierte-riesgos/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "AMD",
+        "Bank of America",
+        "semiconductores"
+      ]
+    },
+    {
+      "id": "15a3b1398c",
+      "tema": "finanzas",
+      "titular_es": "De la Espriella promete reestructurar Ecopetrol e impulsar el fracking",
+      "resumen": "El dirigente político colombiano prometió recuperar las finanzas de Ecopetrol y promover proyectos de fracking con estándares sostenibles. El anuncio responde a la fuerte caída en las utilidades de la compañía petrolera, que pasaron de 35 a 9 billones de pesos. La propuesta busca dinamizar los ingresos fiscales e inversión energética del país.",
+      "relevancia": 7,
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/de-la-espriella-se-compromete-a-recuperar-ecopetrol-y-a-hacer-fracking-responsable-y-sostenible/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇨🇴",
+      "tags": [
+        "Ecopetrol",
+        "Colombia",
+        "energía"
       ]
     },
     {
       "id": "d627115328",
       "tema": "finanzas",
-      "titular_es": "Petrobras, Itaú y Vale lideran las recomendaciones bursátiles en Brasil para agosto",
-      "resumen": "Un sondeo de mercado muestra una sólida preferencia de analistas por las grandes acciones 'blue chip' brasileñas.\nEl atractivo responde al retorno de flujos de capital extranjero hacia la bolsa de San Pablo.\nSectores de energía, banca y minería encabezan las carteras sugeridas por bancos de inversión.",
+      "titular_es": "Petrobras, Itaú y Vale lideran las recomendaciones bursátiles en Brasil",
+      "resumen": "Un informe de Bloomberg Línea reveló que los bancos de inversión prefieren acciones defensivas en la bolsa brasileña para el mes de agosto. Firmas como Petrobras, Itaú y Vale encabezan las recomendaciones ante el retorno de flujos de capital extranjero. El optimismo se fundamenta en valoraciones atractivas y sólidos dividendos.",
       "relevancia": 7,
       "url": "https://www.bloomberglinea.com/mercados/petrobras-itau-y-vale-acciones-recomendadas-en-brasil-para-agosto-segun-bancos-y-corredurias/",
       "fuente": "bloomberglinea.com",
@@ -369,48 +369,63 @@
       ]
     },
     {
-      "id": "ab763183bb",
+      "id": "c335bcdc29",
       "tema": "finanzas",
-      "titular_es": "Colombia enfrenta retos de endeudamiento alto en medio de mínimos históricos de desempleo",
-      "resumen": "Análisis económico destaca el complejo escenario fiscal del país con un alto costo de la deuda pública.\nA pesar de las presiones de deuda, los indicadores de empleo y pobreza han mostrado mejoras recientes.\nEl panorama plantea un estricto equilibrio fiscal para la administración entrante.",
+      "titular_es": "Ondo Perps alcanza $7.000 millones en volumen pocas semanas tras su lanzamiento",
+      "resumen": "La plataforma de derivados de activos del mundo real Ondo Perps superó los 7.000 millones de dólares en volumen negociado. El rápido crecimiento evidencia un aumento sustancial en la adopción de productos financieros tokenizados. El hito posiciona a la firma como un actor emergente relevante en las finanzas descentralizadas.",
       "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/de-la-espriella-recibe-un-pais-sobreendeudado-creciendo-poco-pero-con-records-de-empleo-y-pobreza/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇨🇴",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/ondo-perps-hits-7-billion-215819332.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
       "tags": [
-        "Colombia",
-        "deuda pública",
-        "economía"
+        "DeFi",
+        "Ondo Perps",
+        "criptomonedas"
       ]
     },
     {
-      "id": "73e643177f",
-      "tema": "finanzas",
-      "titular_es": "Consultora advierte sobre posible escalada de tensiones económicas y geopolíticas con Irán",
-      "resumen": "Un informe de Signum Global Advisors señala una ventana de alta probabilidad para nuevas sanciones de EE. UU.\nA pesar de las conversaciones abiertas, los mercados de materias primas anticipan volatilidad en el crudo.\nEl análisis proyecta un impacto directo sobre los precios internacionales del petróleo.",
+      "id": "2bfb59a8a8",
+      "tema": "ciencia",
+      "titular_es": "Estudio vincula el consumo de cannabis en adolescentes con un desarrollo cognitivo más lento",
+      "resumen": "Un análisis longitudinal determinó que los jóvenes que consumen cannabis presentan un estancamiento en el crecimiento de su memoria y capacidad de procesamiento. Aunque mostraban un rendimiento inicial normal, sus habilidades cognitivas se ralentizaron en comparación con no consumidores. El compuesto THC fue señalado como el principal factor causante.",
       "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/mercados/la-consultora-que-anticipo-el-taco-de-trump-le-pone-fecha-a-otra-escalada-con-iran-cuando-sera/",
-      "fuente": "bloomberglinea.com",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260806050726.htm",
+      "fuente": "sciencedaily.com",
       "bandera": "🇺🇸",
       "tags": [
-        "geopolítica",
-        "petróleo",
-        "mercados"
+        "salud",
+        "neurología",
+        "cannabis"
       ]
     },
     {
-      "id": "430943380f",
+      "id": "eb4211c221",
       "tema": "finanzas",
-      "titular_es": "Revés judicial frena el bloqueo de proyectos de energía eólica en EE. UU.",
-      "resumen": "Un tribunal federal dictaminó que la paralización generalizada de licencias eólicas viola la ley.\nLa resolución reactiva autorizaciones para desarrollos energéticos marinos e indispensables en la transición.\nRepresenta un alivio financiero sustancial para las empresas de energías renovables afectadas.",
-      "relevancia": 7,
-      "url": "https://arstechnica.com/science/2026/08/trump-is-losing-his-war-on-wind-power/",
-      "fuente": "arstechnica.com",
+      "titular_es": "Bitcoin y Ethereum suben tras conocerse los datos de empleo en EE.UU.",
+      "resumen": "Las principales criptomonedas registraron ganancias moderadas tras la difusión del reporte del mercado laboral estadounidense. Los inversores reaccionaron ajustando expectativas respecto a las futuras decisiones de tipos de interés de la Reserva Federal. El movimiento técnico devolvió volatilidad positiva a los activos digitales.",
+      "relevancia": 6,
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": [
+        "Bitcoin",
+        "Ethereum",
+        "criptomonedas"
+      ]
+    },
+    {
+      "id": "7171ba64d9",
+      "tema": "emprendimiento",
+      "titular_es": "El medio de videojuegos Restart despide a todo su equipo editorial",
+      "resumen": "El sitio web de información sobre videojuegos Restart, lanzado en 2024 con patrocinio de Walmart, despidió a la totalidad de su plantilla editorial. La operación gestionada por la firma Moonrock pone de relieve los desafíos financieros del periodismo digital especializado. Las reducciones reflejan la baja sostenibilidad del modelo publicitario actual.",
+      "relevancia": 6,
+      "url": "https://www.theverge.com/games/977056/restart-gaming-site-walmart-moonrock-layoffs",
+      "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "energía eólica",
-        "tribunales",
-        "renovables"
+        "startups",
+        "medios",
+        "despidos"
       ]
     }
   ]
