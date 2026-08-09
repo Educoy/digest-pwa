@@ -1,6 +1,6 @@
 {
   "fecha": "2026-08-09",
-  "generado_utc": "2026-08-09T12:50:54Z",
+  "generado_utc": "2026-08-09T20:22:05Z",
   "indicadores": {
     "dolar": {
       "valor": 913.86,
@@ -26,8 +26,8 @@
     {
       "id": "ac65e556af",
       "tema": "ciencia",
-      "titular_es": "Un hito de 0,42 nanómetros abre la ruta para transistores que superen al silicio",
-      "resumen": "Científicos lograron diseñar una interfaz atómica extremadamente delgada que protege el flujo de electrones sin perder aislamiento.\nEste avance supera uno de los mayores obstáculos físicos para desarrollar chips atómicamente finos y ultraeficientes.\nEl desarrollo promete revolucionar el diseño de microchips de próxima generación ante los límites de la ley de Moore.",
+      "titular_es": "Un avance de 0,42 nanómetros abre el camino a transistores más allá del silicio",
+      "resumen": "Investigadores han diseñado una interfaz atómica de solo 0,42 nanómetros que protege el flujo de electrones en semiconductores ultradelgados.\nEste desarrollo supera uno de los principales límites físicos para la miniaturización de procesadores.\nPermitirá fabricar microchips considerablemente más pequeños, eficientes y potentes para la próxima generación informática.",
       "relevancia": 10,
       "url": "https://www.sciencedaily.com/releases/2026/08/260808234943.htm",
       "fuente": "sciencedaily.com",
@@ -35,217 +35,292 @@
       "tags": [
         "semiconductores",
         "nanotecnología",
-        "física"
-      ]
-    },
-    {
-      "id": "afd0f8851c",
-      "tema": "finanzas",
-      "titular_es": "Goldman Sachs prevé que gigantes de la IA sumarán US$2 billones en deuda sin perder grado de inversión",
-      "resumen": "Una alta ejecutiva del banco estimó que los hiperescaladores de IA absorberán enormes montos de financiamiento para expandir infraestructura.\nGracias a sus sólidos flujos de caja y bajos niveles de apalancamiento relativo, mantendrán calificaciones crediticias óptimas.\nEl informe subraya el apetito del mercado crediticio por financiar la infraestructura tecnológica global.",
-      "relevancia": 9,
-      "url": "https://www.bloomberglinea.com/mercados/hiperescaladores-de-ia-podrian-sumar-us2-billones-de-deuda-y-aun-mantener-grado-de-inversion/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": [
-        "Goldman Sachs",
-        "deuda",
-        "inversión"
-      ]
-    },
-    {
-      "id": "61f42ecb8f",
-      "tema": "emprendimiento",
-      "titular_es": "OpenAI adquiere la startup NextSlide para integrar su equipo en ChatGPT",
-      "resumen": "OpenAI confirmó la compra de NextSlide, una startup especializada en la generación automatizada de presentaciones visuales.\nEl equipo fundador de NextSlide pasará a trabajar directamente en las capacidades del ecosistema ChatGPT.\nEsta adquisición refuerza la estrategia de OpenAI de expandir sus herramientas hacia la productividad corporativa.",
-      "relevancia": 9,
-      "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "OpenAI",
-        "adquisiciones",
-        "ChatGPT"
-      ]
-    },
-    {
-      "id": "91ec329b9f",
-      "tema": "ciencia",
-      "titular_es": "Un nuevo nanomaterial de carbono revoluciona las celdas de combustible de hidrógeno",
-      "resumen": "Diseñaron una estructura de carbono que permite a los catalizadores usar cantidades mínimas de platino sin perder estabilidad.\nEl avance reduce drásticamente el costo de las celdas de combustible de hidrógeno conservando alta eficiencia.\nPodría acelerar la adopción de hidrógeno limpio para alimentar centros de datos e industria pesada.",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260807035140.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "energía limpia",
-        "nanotecnología",
-        "hidrógeno"
-      ]
-    },
-    {
-      "id": "57d042a675",
-      "tema": "ia",
-      "titular_es": "X cancela su programa de monetización por impresiones y lanza 'Original Content Rewards'",
-      "resumen": "La plataforma de Elon Musk pondrá fin a su polémico sistema de reparto de ingresos publicitarios el próximo 8 de septiembre.\nEn su lugar implementará un nuevo esquema enfocado en recompensar contenido original de creadores verificados con al menos 500 seguidores.\nLa medida busca reducir el spam y la amplificación de contenido republicado o generado por bots.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/tech/977143/x-revenue-sharing-original-content-rewards",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "X",
-        "redes sociales",
-        "creadores"
-      ]
-    },
-    {
-      "id": "7a2536fc12",
-      "tema": "ia",
-      "titular_es": "Amazon construirá una planta de gas contaminante en Texas para alimentar su nuevo centro de datos",
-      "resumen": "Para satisfacer la demanda energética de sus instalaciones de IA en West Texas, Amazon invierte en una gran central térmica a gas.\nExpertos ambientales advierten que la planta podría convertirse en una de las mayores fuentes individuales de gases de efecto invernadero en EE. UU.\nEl caso evidencia el enorme desafío climático que representa la infraestructura para mantener la carrera tecnológica.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Amazon",
-        "centros de datos",
-        "energía"
-      ]
-    },
-    {
-      "id": "fdc2dceaf8",
-      "tema": "ciencia",
-      "titular_es": "El estrés y el cortisol alteran el 'GPS interno' del cerebro en entornos virtuales",
-      "resumen": "Estudios con resonancia magnética revelaron que la hormona del estrés desorienta la actividad de las células red del cerebro.\nEstas neuronas especializadas son fundamentales para la ubicación espacial y la navegación cognitiva.\nEl descubrimiento ayuda a entender por qué situaciones bajo elevada presión afectan drásticamente la toma de decisiones.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260807035151.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "neurociencia",
-        "estrés",
-        "cerebro"
+        "microchips"
       ]
     },
     {
       "id": "4a49fa4b00",
       "tema": "ciencia",
-      "titular_es": "Descubren bacterias capaces de inmovilizar y limpiar uranio tóxico en agua contaminada",
-      "resumen": "Al añadir glicerol en aguas mineras contaminadas, científicos lograron que microbios locales eliminaran el 95% del uranio disuelto en 130 días.\nLas bacterias convirtieron el metal pesado soluble en una forma mineral estable y no tóxica.\nEl hallazgo ofrece un método biológico de bajo costo para remediar zonas industriales profundamente contaminadas.",
-      "relevancia": 8,
+      "titular_es": "Descubren bacterias capaces de atrapar y neutralizar uranio tóxico",
+      "resumen": "Científicos hallaron que microbios en aguas subterráneas contaminadas convierten uranio disuelto en una forma mineral estable no tóxica.\nAl alimentar a las bacterias con glicerol, el 95% del uranio disuelto desapareció en un periodo de 130 días.\nEste avance biotecnológico ofrece una solución económica y sostenible para limpiar sitios con contaminación nuclear.",
+      "relevancia": 9,
       "url": "https://www.sciencedaily.com/releases/2026/08/260807035149.htm",
       "fuente": "sciencedaily.com",
-      "bandera": "🌍",
+      "bandera": "🇺🇸",
       "tags": [
         "biotecnología",
         "medio ambiente",
-        "microbiología"
+        "bacterias"
+      ]
+    },
+    {
+      "id": "afd0f8851c",
+      "tema": "finanzas",
+      "titular_es": "Hiperescaladores de IA podrían emitir US$ 2 billones en deuda sin perder grado de inversión",
+      "resumen": "Un análisis de Goldman Sachs calcula que las grandes empresas de IA podrían captar hasta US$ 2 billones en endeudamiento para infraestructura.\nA pesar del masivo volumen financiero, los niveles de apalancamiento actuales les permitirían mantener sus altas calificaciones crediticias.\nEl dato refleja la magnitud del capital requerido para sostener la carrera global por centros de datos e IA.",
+      "relevancia": 9,
+      "url": "https://www.bloomberglinea.com/mercados/hiperescaladores-de-ia-podrian-sumar-us2-billones-de-deuda-y-aun-mantener-grado-de-inversion/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "inteligencia artificial",
+        "Goldman Sachs",
+        "deuda"
+      ]
+    },
+    {
+      "id": "b6706c8c7b",
+      "tema": "finanzas",
+      "titular_es": "Berkshire Hathaway rompe racha vendedora con US$ 23.500 millones en compras de acciones",
+      "resumen": "El conglomerado de Warren Buffett puso fin a 14 trimestres consecutivos de ventas netas al realizar masivas adquisiciones bursátiles.\nDel total invertido, aproximadamente US$ 10.000 millones se destinaron a una sola compañía mediante una transacción privada.\nLa jugada marca un giro estratégico clave en la asignación de capital del grupo financiero.",
+      "relevancia": 9,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-breaks-14-quarter-selling-194000465.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Warren Buffett",
+        "Berkshire Hathaway",
+        "inversiones"
+      ]
+    },
+    {
+      "id": "582dd51504",
+      "tema": "ciencia",
+      "titular_es": "Un trabuco supersónico rompe la barrera del sonido utilizando únicamente la gravedad",
+      "resumen": "El creador Tom Stanton diseñó un sistema mecánico tipo trabuco que logró acelerar un proyectil hasta superar la velocidad del sonido.\nEl mecanismo no utiliza pólvora ni propulsores químicos, dependiendo exclusivamente del potencial gravitatorio.\nDemuestra un impresionante logro de ingeniería en física aplicada y dinámica de fluidos.",
+      "relevancia": 8,
+      "url": "https://www.techeblog.com/tom-stanton-supersonic-trebuchet/",
+      "fuente": "techeblog.com (vía HN)",
+      "bandera": "🇬🇧",
+      "tags": [
+        "ingeniería",
+        "física",
+        "aerodinámica"
+      ]
+    },
+    {
+      "id": "16240711c4",
+      "tema": "ciencia",
+      "titular_es": "Grabados de 60.000 años en cáscaras de huevo revelan un complejo pensamiento geométrico",
+      "resumen": "Arqueólogos descubrieron patrones geométricos en cáscaras de huevo de avestruz en el sur de África con más de 60 milenios de antigüedad.\nLos diseños incluyen cuadrículas, líneas paralelas y ángulos rectos fabricados bajo patrones deliberados y repetitivos.\nEl hallazgo demuestra una capacidad de abstracción y comunicación simbólica mucho más antigua de lo estimado.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260808235013.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇿🇦",
+      "tags": [
+        "arqueología",
+        "evolución",
+        "geometría"
+      ]
+    },
+    {
+      "id": "591421aa85",
+      "tema": "ciencia",
+      "titular_es": "Estudio con 340.000 adultos revela diferencias de impacto en la salud según el tipo de alcohol",
+      "resumen": "Una investigación de más de una década concluyó que el consumo excesivo de cualquier alcohol eleva sustancialmente el riesgo de mortalidad.\nSin embargo, a niveles moderados, la cerveza y licores mostraron mayor riesgo relativo mientras que el vino registró asociaciones inversas.\nEl trabajo aporta datos significativos sobre hábitos de consumo y longevidad epidemiológica.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260808235008.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "salud",
+        "epidemiología",
+        "estudio"
+      ]
+    },
+    {
+      "id": "630bd3cc73",
+      "tema": "ciencia",
+      "titular_es": "Siete días de meditación intensiva pueden reconfigurar la conectividad cerebral",
+      "resumen": "Un estudio sobre retiros de meditación de una semana halló cambios profundos en la neuroplasticidad y el sistema inmunológico.\nLos participantes mostraron patrones de conectividad cerebral similares a los inducidos por tratamientos con psicodélicos.\nLos resultados sugieren mecanismos biológicos concretos de autorregulación del dolor y el estrés.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260807235243.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "neurociencia",
+        "meditación",
+        "cerebro"
       ]
     },
     {
       "id": "0202e3fe96",
       "tema": "ciencia",
-      "titular_es": "Químicos logran liberar electrones en solución y rompen una barrera histórica de la síntesis molecular",
-      "resumen": "Un nuevo catalizador logró violar la regla tradicional que rige qué moléculas reciben electrones durante una reacción química.\nAl liberar electrones directamente en la solución, los científicos pueden activar enlaces anteriormente inaccesibles.\nEl método abre la puerta a la creación de nuevos fármacos y materiales avanzados de difícil síntesis.",
+      "titular_es": "Químicos logran liberar electrones en solución y rompen una barrera conceptual histórica",
+      "resumen": "Investigadores desarrollaron un catalizador capaz de liberar electrones directamente en un medio líquido durante reacciones químicas.\nEste método desafía los principios convencionales sobre la transferencia de electrones entre moléculas.\nPermitirá sintetizar nuevos compuestos orgánicos y desarrollar fármacos anteriormente imposibles de fabricar.",
       "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/08/260807035147.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
       "tags": [
         "química",
-        "innovación",
-        "materiales"
+        "catalizadores",
+        "innovación"
       ]
     },
     {
-      "id": "d8d80d420e",
-      "tema": "ciencia",
-      "titular_es": "Meteorito que impactó una casa en Nueva Jersey contiene aminoácidos y claves del origen de la vida",
-      "resumen": "El análisis de una rara roca espacial caída en una residencia reveló la presencia de fluidos salinos primordiales y compuestos orgánicos.\nAl estar libre de alteración terrestre previa, el objeto conserva información intacta sobre asteroides primigenios.\nAporta datos cruciales sobre cómo los meteoritos sembraron ingredientes biológicos en la Tierra primitiva.",
+      "id": "c380efef1a",
+      "tema": "finanzas",
+      "titular_es": "P&G acuerda compra en el sector salud por US$ 3.800 millones pese a perspectivas de costos altos",
+      "resumen": "Procter & Gamble concretó una importante transacción de adquisición en el segmento de bienestar y salud por US$ 3.800 millones.\nLa operación se lleva a cabo en medio de proyecciones financieras complejas debido a costos operativos crecientes.\nLa empresa busca diversificar su portafolio hacia categorías de alto margen para sostener su crecimiento.",
       "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260807035145.htm",
-      "fuente": "sciencedaily.com",
+      "url": "https://finance.yahoo.com/healthcare/articles/p-g-pg-3-8b-183514791.html",
+      "fuente": "finance.yahoo.com",
       "bandera": "🇺🇸",
       "tags": [
-        "astronomía",
-        "astrobiología",
-        "espacio"
+        "P&G",
+        "adquisiciones",
+        "mercados"
       ]
     },
     {
-      "id": "56af37a2bc",
+      "id": "626fb4a322",
       "tema": "ia",
-      "titular_es": "Shopify reemplaza Redis por MySQL para sus reservas de inventario y logra escalar",
-      "resumen": "Shopify migró uno de sus motores clave de almacenamiento en memoria de Redis a MySQL para gestionar reservaciones de inventario durante eventos de alto tráfico.\nLa ingeniería detrás del proyecto logró mantener latencias bajísimas garantizando consistencia ACID transaccional.\nEste cambio demuestra que las bases de datos relacionales tradicionales bien optimizadas pueden competir con sistemas en memoria.",
-      "relevancia": 7,
-      "url": "https://shopify.engineering/scaling-inventory-reservations",
-      "fuente": "shopify.engineering (vía HN)",
-      "bandera": "🇨🇦",
+      "titular_es": "Entrenador de los 49ers de la NFL revela que chocó su Tesla mientras usaba Autopilot",
+      "resumen": "Kyle Shanahan admitió en conferencia de prensa que la función Autopilot de su vehículo estaba activa al momento de su accidente en Palo Alto.\nEl hecho reaviva el escrutinio público sobre los sistemas de conducción asistida y la responsabilidad del conductor.\nTesla enfrenta crecientes cuestionamientos legales sobre la seguridad real de sus asistentes automotrices.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/transportation/977155/49ers-coach-tesla-autopilot-crash",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
       "tags": [
-        "Shopify",
-        "bases de datos",
-        "MySQL"
+        "Tesla",
+        "Autopilot",
+        "conducción autónoma"
+      ]
+    },
+    {
+      "id": "96bb13e95c",
+      "tema": "finanzas",
+      "titular_es": "Bank of America identifica nuevos riesgos para las acciones de las 'Siete Magníficas'",
+      "resumen": "Analistas de la entidad bancaria advirtieron sobre factores macroeconómicos que podrían frenar el rally tecnológico.\nSeñalan presiones en los márgenes operacionales y exigencias de retorno sobre las inversiones masivas en IA.\nEl informe sugiere mayor cautela para los inversores expuestos a las megacaps tecnológicas estadounidenses.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-spots-curveball-magnificent-030700311.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Bank of America",
+        "acciones",
+        "tecnología"
+      ]
+    },
+    {
+      "id": "2c1f29cbf6",
+      "tema": "finanzas",
+      "titular_es": "Jeff Bezos supera su propio récord de venta de acciones de Amazon",
+      "resumen": "El fundador de Amazon ejecutó un nuevo plan de liquidación de títulos dentro de la normativa de valores de Estados Unidos.\nLa operación representa uno de los mayores volúmenes de capital liquidados por un fundador tecnológico en tiempos recientes.\nLos fondos se destinarían a financiar sus proyectos espaciales en Blue Origin e iniciativas filantrópicas.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jeff-bezos-breaks-own-amazon-140700871.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Jeff Bezos",
+        "Amazon",
+        "acciones"
+      ]
+    },
+    {
+      "id": "8260e5674d",
+      "tema": "finanzas",
+      "titular_es": "Ford apuesta por una camioneta eléctrica de US$ 28.350 ante un mercado exigente",
+      "resumen": "El fabricante automotriz busca competir en el segmento masivo con una plataforma de camioneta eléctrica de bajo costo.\nLa estrategia intenta contrarrestar la desaceleración general en las ventas de vehículos eléctricos de alto precio.\nLa cotización de la acción refleja las dudas de Wall Street sobre la rentabilidad a corto plazo.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ford-f-28-350-electric-174959508.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Ford",
+        "vehículos eléctricos",
+        "automotriz"
+      ]
+    },
+    {
+      "id": "57d042a675",
+      "tema": "ia",
+      "titular_es": "X elimina su sistema de ingresos compartidos y lanza 'Original Content Rewards'",
+      "resumen": "La red social de Elon Musk reemplazará a partir del 8 de septiembre su controvertido esquema de monetización para creadores.\nEl nuevo programa exigirá contar con al menos 500 seguidores verificados para optar a los pagos.\nEl cambio busca incentivar el contenido exclusivo y combatir el spam dentro de la plataforma.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/tech/977143/x-revenue-sharing-original-content-rewards",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "X",
+        "monetización",
+        "redes sociales"
+      ]
+    },
+    {
+      "id": "eefafc646c",
+      "tema": "ia",
+      "titular_es": "ServiceNow presenta herramientas de seguridad autónoma con IA para impulsar su crecimiento",
+      "resumen": "La plataforma de software empresarial presentó nuevos módulos de ciberseguridad basados en agentes autónomos de inteligencia artificial.\nEl sistema automatiza la detección y respuesta ante incidentes sin requerir intervención humana directa.\nLa compañía busca consolidar su posición en el mercado de automatización corporativa de TI.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/technology/ai/articles/servicenow-now-unveils-autonomous-security-191105328.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "ServiceNow",
+        "ciberseguridad",
+        "inteligencia artificial"
+      ]
+    },
+    {
+      "id": "e28a1bafae",
+      "tema": "emprendimiento",
+      "titular_es": "El antiguo barrio rojo de Londres se convierte en un centro global de startups de IA",
+      "resumen": "La zona de King's Cross pasó de ser un sector degradado a concentrar laboratorios clave como Google DeepMind y múltiples startups.\nInversiones urbanísticas y la proximidad a universidades de élite atrajeron a emprendedores e inversores tecnológicos.\nEs un caso de estudio sobre la rápida transformación de distritos urbanos en polos de innovación.",
+      "relevancia": 7,
+      "url": "https://techcrunch.com/2026/08/09/this-former-notorious-red-light-district-is-now-one-of-the-worlds-top-ai-hubs/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇬🇧",
+      "tags": [
+        "startups",
+        "Londres",
+        "DeepMind"
+      ]
+    },
+    {
+      "id": "1114dfbc82",
+      "tema": "finanzas",
+      "titular_es": "Invertir en una economía global que envejece: menor crecimiento y nuevos nichos",
+      "resumen": "La disminución de las tasas de natalidad y el aumento de la longevidad reducirán el ritmo de expansión económica global.\nEl cambio demográfico impactará el rendimiento de la renta variable tradicional en los próximos decenios.\nSurgirán oportunidades específicas en sectores como salud, automatización y servicios especializados.",
+      "relevancia": 6,
+      "url": "https://www.bloomberglinea.com/mercados/invertir-en-una-economia-que-envejece-menos-crecimiento-y-oportunidades-para-los-mercados/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🌍",
+      "tags": [
+        "demografía",
+        "mercados",
+        "inversiones"
       ]
     },
     {
       "id": "acf86426db",
       "tema": "ia",
-      "titular_es": "Los detectores de IA generan una nueva era de desconfianza en el ámbito académico y laboral",
-      "resumen": "Las herramientas diseñadas para identificar texto generado por inteligencia artificial están cometiendo frecuentes falsos positivos.\nEsto ha provocado tensiones injustificadas entre educadores, estudiantes y creadores de contenido.\nEspecialistas advierten que la falta de fiabilidad técnica de estas herramientas exige revisar los métodos de evaluación.",
-      "relevancia": 7,
+      "titular_es": "Los detectores de IA generan un clima de desconfianza en el ámbito educativo y profesional",
+      "resumen": "Las herramientas diseñadas para identificar texto generado por IA presentan elevadas tasas de falsos positivos.\nEstudiantes y profesionales enfrentan acusaciones injustificadas debido a la falta de fiabilidad de estos algoritmos.\nEl fenómeno plantea el debate sobre la necesidad de mejores métodos de evaluación académica.",
+      "relevancia": 6,
       "url": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
       "fuente": "theverge.com",
-      "bandera": "🌍",
+      "bandera": "🇺🇸",
       "tags": [
         "inteligencia artificial",
-        "ética",
-        "educación"
+        "educación",
+        "algoritmos"
       ]
     },
     {
-      "id": "2648b4ddc0",
-      "tema": "finanzas",
-      "titular_es": "El creador del plan de retiro 401(k) propone una alternativa tras calificarlo de insostenible",
-      "resumen": "Ted Benna, pionero de las cuentas de jubilación 401(k) en EE. UU., afirmó que el sistema actual beneficia principalmente a los ingresos altos.\nPropone un modelo más simple y con menores comisiones para proteger a la clase trabajadora frente a la inflación y volatilidad.\nEl debate cobra relevancia en medio de reformas previsionales a nivel global.",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/markets/articles/ted-benna-built-401-k-125500076.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "finanzas",
-        "pensiones",
-        "economía"
-      ]
-    },
-    {
-      "id": "45d9a6b712",
-      "tema": "finanzas",
-      "titular_es": "Analistas de Wall Street cuestionan si el auge de acciones de semiconductores como ARM está sobrevalorado",
-      "resumen": "Wall Street debate si la vertiginosa subida de las acciones vinculadas a la arquitectura de CPU y chips ha tocado techo.\nAnalistas advierten sobre múltiplos exigentes y posibles ajustes en las expectativas de ingresos en el corto plazo.\nEl comportamiento de empresas como ARM servirá de termómetro para el sector de hardware de IA.",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/analyst-wall-street-thinks-cpu-125533234.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Wall Street",
-        "ARM",
-        "semiconductores"
-      ]
-    },
-    {
-      "id": "c4c593837e",
-      "tema": "ia",
-      "titular_es": "Fastmail abre una región de datos localizada en la Unión Europea",
-      "resumen": "El proveedor independiente de correo electrónico anunció la disponibilidad de infraestructura de almacenamiento dentro de la UE.\nLa medida busca ofrecer mayor privacidad y cumplimiento normativo estricto bajo el marco del RGPD para usuarios europeos.\nRepresenta una alternativa estratégica frente al dominio de los grandes gigantes tecnológicos estadounidenses.",
+      "id": "21cc3dd6da",
+      "tema": "emprendimiento",
+      "titular_es": "Estudio analiza los datos de fundadores y startups procesados por fraude en Silicon Valley",
+      "resumen": "Una investigación examinó casos judiciales de emprendedores acusados de fraude financiero y falsificación de métricas.\nEl informe identifica factores recurrentes como la presión por métricas irreales y la falta de gobernanza interna.\nOfrece lecciones críticas sobre auditoría y ética empresarial para el ecosistema emprendedor.",
       "relevancia": 6,
-      "url": "https://www.fastmail.com/blog/fastmail-offers-eu-data-region/",
-      "fuente": "fastmail.com (vía HN)",
-      "bandera": "🇪🇺",
+      "url": "https://pubsonline.informs.org/doi/full/10.1287/orsc.2024.19981",
+      "fuente": "pubsonline.informs.org (vía HN)",
+      "bandera": "🇺🇸",
       "tags": [
-        "Fastmail",
-        "privacidad",
-        "infraestructura"
+        "startups",
+        "Silicon Valley",
+        "fraude"
       ]
     }
   ]
