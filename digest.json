@@ -1,6 +1,6 @@
 {
-  "fecha": "2026-08-08",
-  "generado_utc": "2026-08-08T20:20:00Z",
+  "fecha": "2026-08-09",
+  "generado_utc": "2026-08-09T12:50:54Z",
   "indicadores": {
     "dolar": {
       "valor": 913.86,
@@ -13,389 +13,239 @@
       "variacion_pct": 0.0
     }
   },
-  "noticia_del_dia": "8cef76c4fc",
-  "pildora_ia": "Tokens: los LLM no leen palabras sino 'tokens', fragmentos de texto (a veces una palabra, a veces parte de una). El costo y los límites de las APIs se miden en tokens, no en caracteres.",
+  "noticia_del_dia": "ac65e556af",
+  "pildora_ia": "Temperatura: parámetro que controla cuán 'creativa' es la respuesta de un LLM. Baja (0) da respuestas predecibles y consistentes; alta (1+) las hace más variadas y arriesgadas.",
   "pildoras_ia": [
-    "Tokens: los LLM no leen palabras sino 'tokens', fragmentos de texto (a veces una palabra, a veces parte de una). El costo y los límites de las APIs se miden en tokens, no en caracteres.",
     "Temperatura: parámetro que controla cuán 'creativa' es la respuesta de un LLM. Baja (0) da respuestas predecibles y consistentes; alta (1+) las hace más variadas y arriesgadas.",
     "RAG (Retrieval-Augmented Generation): técnica para que un LLM responda usando documentos externos: primero busca información relevante y luego la usa para generar la respuesta. Reduce alucinaciones y permite datos frescos sin reentrenar.",
     "Fine-tuning: reentrenar un modelo existente con tus propios datos para especializarlo. Más barato que entrenar desde cero, pero para conocimiento actualizado muchas veces conviene más RAG.",
-    "Alucinaciones: cuando un LLM genera información falsa con total seguridad. No 'miente': predice el texto más probable, y a veces lo más probable no es lo verdadero. Por eso conviene verificar datos críticos."
+    "Alucinaciones: cuando un LLM genera información falsa con total seguridad. No 'miente': predice el texto más probable, y a veces lo más probable no es lo verdadero. Por eso conviene verificar datos críticos.",
+    "Backpropagation: el método que reparte la 'culpa' del error entre todos los parámetros de una red, capa por capa, para saber cómo ajustar cada uno. Sin él, entrenar redes profundas sería inviable."
   ],
   "noticias": [
     {
-      "id": "8cef76c4fc",
-      "tema": "ia",
-      "titular_es": "El Departamento de Energía de EE. UU. lanza la iniciativa de modelos abiertos Genesis",
-      "resumen": "El gobierno estadounidense lanzó una iniciativa nacional para financiar y coordinar la creación de modelos de inteligencia artificial abiertos enfocados en la ciencia. El proyecto proporcionará acceso a supercomputadores gubernamentales y grandes conjuntos de datos para el desarrollo científico. Busca posicionar a las instituciones públicas y a la comunidad investigadora en la vanguardia frente a modelos propietarios.",
-      "relevancia": 10,
-      "url": "https://genesisopenmodels.anl.gov/",
-      "fuente": "genesisopenmodels.anl.gov (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "gobierno",
-        "modelos abiertos",
-        "Estados Unidos"
-      ]
-    },
-    {
-      "id": "63af5b9c8c",
+      "id": "ac65e556af",
       "tema": "ciencia",
-      "titular_es": "Consiguen generar entrelazamiento cuántico directo a partir de la luz solar",
-      "resumen": "Un experimento logró producir fotones entrelazados cuánticamente al aire libre utilizando únicamente la luz solar directa sin necesidad de láseres. El estado obtenido alcanzó un 94% de fidelidad con respecto a las fuentes generadas artificialmente en laboratorio. Este hito abre la puerta a tecnologías cuánticas de bajo consumo alimentadas de forma pasiva por la naturaleza.",
+      "titular_es": "Un hito de 0,42 nanómetros abre la ruta para transistores que superen al silicio",
+      "resumen": "Científicos lograron diseñar una interfaz atómica extremadamente delgada que protege el flujo de electrones sin perder aislamiento.\nEste avance supera uno de los mayores obstáculos físicos para desarrollar chips atómicamente finos y ultraeficientes.\nEl desarrollo promete revolucionar el diseño de microchips de próxima generación ante los límites de la ley de Moore.",
       "relevancia": 10,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260807035133.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260808234943.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
       "tags": [
-        "física cuántica",
-        "luz solar",
-        "innovación"
+        "semiconductores",
+        "nanotecnología",
+        "física"
       ]
     },
     {
-      "id": "ea121f25d1",
-      "tema": "ia",
-      "titular_es": "El modelo WeatherNext de DeepMind logra un avance clave en la predicción de ciclones",
-      "resumen": "DeepMind presentó su nuevo modelo meteorológico capaz de predecir la trayectoria e intensidad de huracanes y ciclones con precisión sin precedentes. La herramienta de IA supera a los supercomputadores tradicionales procesando patrones meteorológicos complejos en segundos. Este avance promete revolucionar los sistemas de alerta temprana y mitigar desastres naturales globales.",
+      "id": "afd0f8851c",
+      "tema": "finanzas",
+      "titular_es": "Goldman Sachs prevé que gigantes de la IA sumarán US$2 billones en deuda sin perder grado de inversión",
+      "resumen": "Una alta ejecutiva del banco estimó que los hiperescaladores de IA absorberán enormes montos de financiamiento para expandir infraestructura.\nGracias a sus sólidos flujos de caja y bajos niveles de apalancamiento relativo, mantendrán calificaciones crediticias óptimas.\nEl informe subraya el apetito del mercado crediticio por financiar la infraestructura tecnológica global.",
       "relevancia": 9,
-      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-      "fuente": "deepmind.google (vía HN)",
-      "bandera": "🇬🇧",
-      "tags": [
-        "DeepMind",
-        "meteorología",
-        "IA"
-      ]
-    },
-    {
-      "id": "d37214a2ad",
-      "tema": "ia",
-      "titular_es": "Sistema de cuatro agentes de IA supera a Claude Opus 4.8 en tareas de programación empresarial",
-      "resumen": "Un equipo de cuatro agentes especializados coordinados en tiempo real demostró ser más eficaz que los modelos individuales más avanzados en bases de código complejas. Al dividir el trabajo y realizar llamadas a herramientas en paralelo, solucionaron el colapso recurrente de los modelos únicos en tareas de largo alcance. El experimento respalda el cambio metodológico hacia arquitecturas multiagente para la ingeniería de software.",
-      "relevancia": 9,
-      "url": "https://venturebeat.com/orchestration/four-ai-agents-coordinating-in-real-time-outperformed-claude-opus-4-8-on-enterprise-coding-tasks",
-      "fuente": "venturebeat.com",
+      "url": "https://www.bloomberglinea.com/mercados/hiperescaladores-de-ia-podrian-sumar-us2-billones-de-deuda-y-aun-mantener-grado-de-inversion/",
+      "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": [
-        "agentes IA",
-        "programación",
-        "software"
-      ]
-    },
-    {
-      "id": "8d52865ca5",
-      "tema": "finanzas",
-      "titular_es": "AMD adquiere Taalas para acelerar su competencia contra Nvidia en inferencia de IA",
-      "resumen": "La multinacional AMD concretó la compra de la startup de chips Taalas para fortalecer su catálogo de procesadores optimizados para inferencia. La movida estratégica busca restar cuota de mercado a Nvidia en un sector que demanda chips más eficientes y económicos. El acuerdo refleja la intensa consolidación financiera y tecnológica en la industria de los semiconductores.",
-      "relevancia": 9,
-      "url": "https://finance.yahoo.com/technology/ai/articles/amd-amd-buys-taalas-ai-194609482.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "AMD",
-        "Nvidia",
-        "semiconductores"
+        "Goldman Sachs",
+        "deuda",
+        "inversión"
       ]
     },
     {
       "id": "61f42ecb8f",
       "tema": "emprendimiento",
-      "titular_es": "OpenAI adquiere la startup de presentaciones NextSlide para integrarla en ChatGPT",
-      "resumen": "OpenAI anunció la compra de NextSlide, una startup especializada en la generación automatizada de presentaciones visuales con inteligencia artificial. Tras la adquisición, el equipo de NextSlide pasará a incorporarse directamente al desarrollo de capacidades avanzadas dentro de ChatGPT. El movimiento estratégico apunta a transformar a ChatGPT en una suite de productividad completa para entornos corporativos.",
+      "titular_es": "OpenAI adquiere la startup NextSlide para integrar su equipo en ChatGPT",
+      "resumen": "OpenAI confirmó la compra de NextSlide, una startup especializada en la generación automatizada de presentaciones visuales.\nEl equipo fundador de NextSlide pasará a trabajar directamente en las capacidades del ecosistema ChatGPT.\nEsta adquisición refuerza la estrategia de OpenAI de expandir sus herramientas hacia la productividad corporativa.",
       "relevancia": 9,
       "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
       "fuente": "techcrunch.com",
       "bandera": "🇺🇸",
       "tags": [
         "OpenAI",
-        "NextSlide",
-        "adquisiciones"
-      ]
-    },
-    {
-      "id": "d8d80d420e",
-      "tema": "ciencia",
-      "titular_es": "Meteorito que impactó un tejado en Nueva Jersey revela fluidos salinos y aminoácidos primitivos",
-      "resumen": "Análisis químicos de un meteorito caído en EE. UU. revelaron la presencia de fluidos salinos antiguos y compuestos orgánicos fundamentales. La roca espacial conserva su química prístina, ofreciendo pistas sobre cómo los asteroides aportaron los bloques del origen de la vida en la Tierra. El hallazgo proporciona evidencia directa sobre la abundancia de agua y precursores orgánicos en el sistema solar temprano.",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260807035145.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "astronomía",
-        "meteoritos",
-        "origen de la vida"
+        "adquisiciones",
+        "ChatGPT"
       ]
     },
     {
       "id": "91ec329b9f",
       "tema": "ciencia",
-      "titular_es": "Un avance en células de combustible con nanoestructuras de carbono promete alimentar centros de datos",
-      "resumen": "Científicos desarrollaron un diseño de carbono nanoestructurado que reduce drásticamente el uso de platino en catalizadores de celdas de hidrógeno. El nuevo material mantiene una alta eficiencia y estabilidad operativa prolongada con costos de fabricación significativamente menores. La tecnología podría hacer viable el uso masivo de hidrógeno limpio para abastecer la enorme demanda eléctrica de los centros de datos.",
+      "titular_es": "Un nuevo nanomaterial de carbono revoluciona las celdas de combustible de hidrógeno",
+      "resumen": "Diseñaron una estructura de carbono que permite a los catalizadores usar cantidades mínimas de platino sin perder estabilidad.\nEl avance reduce drásticamente el costo de las celdas de combustible de hidrógeno conservando alta eficiencia.\nPodría acelerar la adopción de hidrógeno limpio para alimentar centros de datos e industria pesada.",
       "relevancia": 9,
       "url": "https://www.sciencedaily.com/releases/2026/08/260807035140.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
       "tags": [
         "energía limpia",
-        "hidrógeno",
-        "centros de datos"
-      ]
-    },
-    {
-      "id": "d19a8c0230",
-      "tema": "ciencia",
-      "titular_es": "Crean un cristal de oro capaz de operar tecnología cuántica a temperatura ambiente",
-      "resumen": "Investigadores fabricaron una metamembrana ultrafina de oro tallada microscópicamente que transporta estados cuánticos de la luz sin congelación. El material elimina la necesidad de voluminosos e ineficientes sistemas de refrigeración criogénica a cerca del cero absoluto. El desarrollo representa un paso gigante hacia computadores y sensores cuánticos prácticos e integrables en dispositivos cotidianos.",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260806050706.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "física cuántica",
         "nanotecnología",
-        "materiales"
+        "hidrógeno"
       ]
     },
     {
-      "id": "b8923fa1c0",
-      "tema": "ciencia",
-      "titular_es": "Una proteína ancestral podría revolucionar la inmunoterapia contra el cáncer",
-      "resumen": "Científicos descubrieron que la proteína C3, cuyo origen evolutivo precede al sistema circulatorio, fortalece la respuesta inmunitaria contra tumores. Al expresarse dentro de los tejidos cancerosos, la proteína bloquea células inmunosupresoras permitiendo mayor eficacia de los fármacos. Lograron replicar este mecanismo en tumores que eran previamente resistentes a la inmunoterapia estándar.",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260806050702.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "oncología",
-        "biomedicina",
-        "inmunoterapia"
-      ]
-    },
-    {
-      "id": "482fdf4e3a",
+      "id": "57d042a675",
       "tema": "ia",
-      "titular_es": "Dinamarca exigirá defensas orales en trabajos escritos para frenar el fraude con IA",
-      "resumen": "Las autoridades educativas danesas implementarán evaluaciones orales obligatorias para verificar la autoría de los estudiantes en sus entregas escritas. La medida busca contrarrestar el uso no detectado de herramientas de inteligencia artificial en la educación superior. Esta reforma marca un precedente sobre cómo las evaluaciones académicas deben adaptarse a la era de la IA generativa.",
+      "titular_es": "X cancela su programa de monetización por impresiones y lanza 'Original Content Rewards'",
+      "resumen": "La plataforma de Elon Musk pondrá fin a su polémico sistema de reparto de ingresos publicitarios el próximo 8 de septiembre.\nEn su lugar implementará un nuevo esquema enfocado en recompensar contenido original de creadores verificados con al menos 500 seguidores.\nLa medida busca reducir el spam y la amplificación de contenido republicado o generado por bots.",
       "relevancia": 8,
-      "url": "https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/",
-      "fuente": "mezha.net (vía HN)",
-      "bandera": "🇩🇰",
+      "url": "https://www.theverge.com/tech/977143/x-revenue-sharing-original-content-rewards",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
       "tags": [
-        "educación",
-        "IA",
-        "Dinamarca"
-      ]
-    },
-    {
-      "id": "a8577abe40",
-      "tema": "ia",
-      "titular_es": "Gentoo cierra su Bugzilla debido a la saturación de scrapers de IA",
-      "resumen": "La distribución Linux Gentoo se vio obligada a suspender temporalmente el acceso público a su sistema Bugzilla tras un tráfico masivo incontrolable. Bots automatizados que extraían datos para entrenar modelos de IA colapsaron la infraestructura de la organización. El incidente resalta el impacto negativo de la recolección agresiva de datos sobre el ecosistema de código abierto.",
-      "relevancia": 8,
-      "url": "https://social.treehouse.systems/@mgorny/117058483039362779",
-      "fuente": "social.treehouse.systems (vía HN)",
-      "bandera": "🌍",
-      "tags": [
-        "Gentoo",
-        "ciberseguridad",
-        "código abierto"
-      ]
-    },
-    {
-      "id": "797094e782",
-      "tema": "ia",
-      "titular_es": "Descubren puertas traseras de hardware en ciertos procesadores x86",
-      "resumen": "Investigadores de seguridad identificaron mecanismos indocumentados en el silicio de procesadores con arquitectura x86. Estas vulnerabilidades de nivel de hardware permiten eludir las protecciones del sistema operativo de forma indetectable. El hallazgo reabre el debate sobre la transparencia en el diseño de microchips y la seguridad en la cadena de suministro de componentes.",
-      "relevancia": 8,
-      "url": "https://github.com/xoreaxeaxeax/rosenbridge",
-      "fuente": "github.com (vía HN)",
-      "bandera": "🌍",
-      "tags": [
-        "hardware",
-        "ciberseguridad",
-        "procesadores"
+        "X",
+        "redes sociales",
+        "creadores"
       ]
     },
     {
       "id": "7a2536fc12",
       "tema": "ia",
-      "titular_es": "Un centro de datos de Amazon en Texas impulsará una de las plantas más contaminantes de EE. UU.",
-      "resumen": "Amazon invertirá en la construcción de una planta de gas natural en Texas para alimentar sus operaciones de IA. Expertos advierten que la instalación podría convertirse en uno de los mayores emisores individuales de gases de efecto invernadero del país. El caso refleja el conflicto entre las metas de sostenibilidad corporativa y la insaciable demanda energética de los centros de datos.",
+      "titular_es": "Amazon construirá una planta de gas contaminante en Texas para alimentar su nuevo centro de datos",
+      "resumen": "Para satisfacer la demanda energética de sus instalaciones de IA en West Texas, Amazon invierte en una gran central térmica a gas.\nExpertos ambientales advierten que la planta podría convertirse en una de las mayores fuentes individuales de gases de efecto invernadero en EE. UU.\nEl caso evidencia el enorme desafío climático que representa la infraestructura para mantener la carrera tecnológica.",
       "relevancia": 8,
       "url": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
         "Amazon",
-        "energía",
-        "centros de datos"
-      ]
-    },
-    {
-      "id": "4d73f110e1",
-      "tema": "finanzas",
-      "titular_es": "Aerolíneas enfrentan escasez de combustible de aviación por tensiones en el Estrecho de Ormuz",
-      "resumen": "Las principales aerolíneas globales sufren presiones operativas y financieras ante el estancamiento de envíos de combustible desde el Oriente Medio. Las interrupciones marítimas en el estrecho de Ormuz han disparado los precios del Jet A-1 en los mercados internacionales. Los analistas prevén un aumento en las tarifas de los pasajes aéreos y un impacto negativo en los resultados trimestrales del sector aviación.",
-      "relevancia": 8,
-      "url": "https://finance.yahoo.com/energy/articles/airlines-scramble-jet-fuel-hormuz-190000182.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": [
-        "aerolíneas",
-        "petróleo",
-        "mercados"
-      ]
-    },
-    {
-      "id": "15a3b1398c",
-      "tema": "finanzas",
-      "titular_es": "De la Espriella promete recuperar Ecopetrol e impulsar el fracking sostenible en Colombia",
-      "resumen": "El aspirante presidencial Abelardo de la Espriella criticó duramente la caída en las utilidades de la petrolera estatal Ecopetrol. Propuso reactivar proyectos de exploración no convencional mediante técnicas de fracking bajo estándares ambientales. La controversia política y económica gira en torno a la recuperación de ingresos fiscales que pasaron de COP 35 billones a COP 9 billones.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/de-la-espriella-se-compromete-a-recuperar-ecopetrol-y-a-hacer-fracking-responsable-y-sostenible/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇨🇴",
-      "tags": [
-        "Ecopetrol",
-        "Colombia",
+        "centros de datos",
         "energía"
       ]
     },
     {
-      "id": "303ab3d6d9",
+      "id": "fdc2dceaf8",
       "tema": "ciencia",
-      "titular_es": "Reducir los alimentos dulces no disminuye los antojos ni mejora la salud según un ensayo clínico",
-      "resumen": "Un estudio riguroso de seis meses demostró que alterar la cantidad de azúcar consumida no cambia la preferencia ni la apetencia por lo dulce. Los participantes en dietas con bajo o alto contenido de azúcar no mostraron diferencias significativas en peso ni en niveles de antojo. Los resultados cuestionan supuestos nutricionales comunes sobre la adicción al azúcar y la conducta alimentaria.",
+      "titular_es": "El estrés y el cortisol alteran el 'GPS interno' del cerebro en entornos virtuales",
+      "resumen": "Estudios con resonancia magnética revelaron que la hormona del estrés desorienta la actividad de las células red del cerebro.\nEstas neuronas especializadas son fundamentales para la ubicación espacial y la navegación cognitiva.\nEl descubrimiento ayuda a entender por qué situaciones bajo elevada presión afectan drásticamente la toma de decisiones.",
       "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260807235103.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260807035151.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
       "tags": [
-        "nutrición",
-        "salud",
-        "investigación"
+        "neurociencia",
+        "estrés",
+        "cerebro"
+      ]
+    },
+    {
+      "id": "4a49fa4b00",
+      "tema": "ciencia",
+      "titular_es": "Descubren bacterias capaces de inmovilizar y limpiar uranio tóxico en agua contaminada",
+      "resumen": "Al añadir glicerol en aguas mineras contaminadas, científicos lograron que microbios locales eliminaran el 95% del uranio disuelto en 130 días.\nLas bacterias convirtieron el metal pesado soluble en una forma mineral estable y no tóxica.\nEl hallazgo ofrece un método biológico de bajo costo para remediar zonas industriales profundamente contaminadas.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260807035149.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "biotecnología",
+        "medio ambiente",
+        "microbiología"
+      ]
+    },
+    {
+      "id": "0202e3fe96",
+      "tema": "ciencia",
+      "titular_es": "Químicos logran liberar electrones en solución y rompen una barrera histórica de la síntesis molecular",
+      "resumen": "Un nuevo catalizador logró violar la regla tradicional que rige qué moléculas reciben electrones durante una reacción química.\nAl liberar electrones directamente en la solución, los científicos pueden activar enlaces anteriormente inaccesibles.\nEl método abre la puerta a la creación de nuevos fármacos y materiales avanzados de difícil síntesis.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260807035147.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "química",
+        "innovación",
+        "materiales"
+      ]
+    },
+    {
+      "id": "d8d80d420e",
+      "tema": "ciencia",
+      "titular_es": "Meteorito que impactó una casa en Nueva Jersey contiene aminoácidos y claves del origen de la vida",
+      "resumen": "El análisis de una rara roca espacial caída en una residencia reveló la presencia de fluidos salinos primordiales y compuestos orgánicos.\nAl estar libre de alteración terrestre previa, el objeto conserva información intacta sobre asteroides primigenios.\nAporta datos cruciales sobre cómo los meteoritos sembraron ingredientes biológicos en la Tierra primitiva.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260807035145.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "astronomía",
+        "astrobiología",
+        "espacio"
+      ]
+    },
+    {
+      "id": "56af37a2bc",
+      "tema": "ia",
+      "titular_es": "Shopify reemplaza Redis por MySQL para sus reservas de inventario y logra escalar",
+      "resumen": "Shopify migró uno de sus motores clave de almacenamiento en memoria de Redis a MySQL para gestionar reservaciones de inventario durante eventos de alto tráfico.\nLa ingeniería detrás del proyecto logró mantener latencias bajísimas garantizando consistencia ACID transaccional.\nEste cambio demuestra que las bases de datos relacionales tradicionales bien optimizadas pueden competir con sistemas en memoria.",
+      "relevancia": 7,
+      "url": "https://shopify.engineering/scaling-inventory-reservations",
+      "fuente": "shopify.engineering (vía HN)",
+      "bandera": "🇨🇦",
+      "tags": [
+        "Shopify",
+        "bases de datos",
+        "MySQL"
+      ]
+    },
+    {
+      "id": "acf86426db",
+      "tema": "ia",
+      "titular_es": "Los detectores de IA generan una nueva era de desconfianza en el ámbito académico y laboral",
+      "resumen": "Las herramientas diseñadas para identificar texto generado por inteligencia artificial están cometiendo frecuentes falsos positivos.\nEsto ha provocado tensiones injustificadas entre educadores, estudiantes y creadores de contenido.\nEspecialistas advierten que la falta de fiabilidad técnica de estas herramientas exige revisar los métodos de evaluación.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
+      "fuente": "theverge.com",
+      "bandera": "🌍",
+      "tags": [
+        "inteligencia artificial",
+        "ética",
+        "educación"
+      ]
+    },
+    {
+      "id": "2648b4ddc0",
+      "tema": "finanzas",
+      "titular_es": "El creador del plan de retiro 401(k) propone una alternativa tras calificarlo de insostenible",
+      "resumen": "Ted Benna, pionero de las cuentas de jubilación 401(k) en EE. UU., afirmó que el sistema actual beneficia principalmente a los ingresos altos.\nPropone un modelo más simple y con menores comisiones para proteger a la clase trabajadora frente a la inflación y volatilidad.\nEl debate cobra relevancia en medio de reformas previsionales a nivel global.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/markets/articles/ted-benna-built-401-k-125500076.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "finanzas",
+        "pensiones",
+        "economía"
+      ]
+    },
+    {
+      "id": "45d9a6b712",
+      "tema": "finanzas",
+      "titular_es": "Analistas de Wall Street cuestionan si el auge de acciones de semiconductores como ARM está sobrevalorado",
+      "resumen": "Wall Street debate si la vertiginosa subida de las acciones vinculadas a la arquitectura de CPU y chips ha tocado techo.\nAnalistas advierten sobre múltiplos exigentes y posibles ajustes en las expectativas de ingresos en el corto plazo.\nEl comportamiento de empresas como ARM servirá de termómetro para el sector de hardware de IA.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analyst-wall-street-thinks-cpu-125533234.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Wall Street",
+        "ARM",
+        "semiconductores"
       ]
     },
     {
       "id": "c4c593837e",
       "tema": "ia",
-      "titular_es": "Fastmail lanza una región de almacenamiento de datos exclusiva para la Unión Europea",
-      "resumen": "El proveedor de correo electrónico Fastmail ha abierto una infraestructura de datos basada en la UE para responder a la creciente demanda de privacidad. Los usuarios europeos ahora podrán alojar sus correos y contactos bajo estrictas normativas de protección de datos como el RGPD. El movimiento refuerza la tendencia global hacia la soberanía de datos y el cumplimiento regulatorio.",
-      "relevancia": 7,
+      "titular_es": "Fastmail abre una región de datos localizada en la Unión Europea",
+      "resumen": "El proveedor independiente de correo electrónico anunció la disponibilidad de infraestructura de almacenamiento dentro de la UE.\nLa medida busca ofrecer mayor privacidad y cumplimiento normativo estricto bajo el marco del RGPD para usuarios europeos.\nRepresenta una alternativa estratégica frente al dominio de los grandes gigantes tecnológicos estadounidenses.",
+      "relevancia": 6,
       "url": "https://www.fastmail.com/blog/fastmail-offers-eu-data-region/",
       "fuente": "fastmail.com (vía HN)",
       "bandera": "🇪🇺",
       "tags": [
-        "privacidad",
         "Fastmail",
-        "Unión Europea"
-      ]
-    },
-    {
-      "id": "83a56bfafb",
-      "tema": "ia",
-      "titular_es": "Revelan la cronología del ataque accidental de OpenAI contra Hugging Face",
-      "resumen": "Se publicaron detalles sobre cómo una prueba interna de OpenAI saturó sin intención la infraestructura de la plataforma Hugging Face. El tráfico desmedido generó interrupciones temporales en los servicios de alojamiento de modelos de código abierto. El evento pone de manifiesto la vulnerabilidad de las plataformas colaborativas ante las gigantescas peticiones automatizadas de los grandes laboratorios de IA.",
-      "relevancia": 7,
-      "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
-      "fuente": "simonwillison.net (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "OpenAI",
-        "Hugging Face",
+        "privacidad",
         "infraestructura"
-      ]
-    },
-    {
-      "id": "b4cbeffe8a",
-      "tema": "finanzas",
-      "titular_es": "Nokia prueba sus redes optimizadas con IA en un banco de pruebas en Taiwán",
-      "resumen": "La compañía finlandesa de telecomunicaciones desplegó una infraestructura experimental en Taiwán para validar la optimización de tráfico por IA. Las pruebas buscan demostrar reducciones significativas en latencia y consumo de energía para redes móviles 5G y 6G. El proyecto es clave en los planes de Nokia para recuperar terreno y dinamismo financiero en el sector de redes.",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/technology/ai/articles/nokia-nok-ai-network-bet-193932563.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇹🇼",
-      "tags": [
-        "Nokia",
-        "telecomunicaciones",
-        "Taiwán"
-      ]
-    },
-    {
-      "id": "f2892fef38",
-      "tema": "finanzas",
-      "titular_es": "Tenable amplia su cobertura de seguridad para IA en pleno giro hacia la rentabilidad",
-      "resumen": "La firma de ciberseguridad Tenable anunció la expansión de sus soluciones de protección de datos para modelos de lenguaje en empresas. El anuncio coincide con un informe financiero trimestral que muestra una clara aceleración en sus márgenes de beneficio operativo. La combinación de crecimiento en ingresos recurrentes e innovación en IA ha mejorado las perspectivas de los analistas sobre la acción.",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/technology/ai/articles/tenable-tenb-widens-ai-security-185944892.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Tenable",
-        "ciberseguridad",
-        "acciones"
-      ]
-    },
-    {
-      "id": "f34e647f2a",
-      "tema": "finanzas",
-      "titular_es": "Xanadu acelera la producción de chips cuánticos mientras atrae a nuevos inversores",
-      "resumen": "La empresa de computación cuántica Xanadu informó un aumento en su capacidad de fabricación de chips fotónicos cuánticos. El reporte trimestral destaca el interés de fondos de capital de riesgo en catalizadores hacia sistemas cuánticos escalables a temperatura ambiente. La firma busca consolidar su posición en la carrera financiera por comercializar la infraestructura cuántica.",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/technology/ai/articles/xanadu-accelerates-chip-production-investors-164143794.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇨🇦",
-      "tags": [
-        "Xanadu",
-        "computación cuántica",
-        "inversiones"
-      ]
-    },
-    {
-      "id": "31fea10b24",
-      "tema": "finanzas",
-      "titular_es": "Bank of America prevé potencial alcista para AMD pero advierte sobre riesgos de mercado",
-      "resumen": "Un informe de BofA reitera su recomendación optimista sobre las acciones de AMD impulsadas por la demanda de chips de IA. Sin embargo, los analistas advirtieron que la alta valoración y la fuerte competencia de Nvidia podrían generar volatilidad a corto plazo. El banco ajustó sus proyecciones de precio objetivo considerando la ejecución en la entrega de sus nuevas arquitecturas de procesamiento.",
-      "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/mercados/hasta-donde-pueden-llegar-las-acciones-de-amd-bofa-es-optimista-pero-advierte-riesgos/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "AMD",
-        "Bank of America",
-        "acciones"
-      ]
-    },
-    {
-      "id": "3f769e0953",
-      "tema": "emprendimiento",
-      "titular_es": "El músico y emprendedor Tom Vek desarrolla un nuevo reproductor de música digital",
-      "resumen": "Tom Vek está impulsando una startup enfocada en el diseño de un reproductor portátil de música digital que elude la estética retro. El proyecto propone una experiencia de usuario física centrada en la calidad de audio y el diseño industrial moderno. El emprendimiento busca hacerse un hueco en el mercado de dispositivos dedicados frente al dominio del smartphone.",
-      "relevancia": 6,
-      "url": "https://www.theverge.com/report/976872/tom-vek-musician-entrepreneur-sleevenote-interview",
-      "fuente": "theverge.com",
-      "bandera": "🇬🇧",
-      "tags": [
-        "hardware",
-        "música",
-        "startups"
-      ]
-    },
-    {
-      "id": "7171ba64d9",
-      "tema": "emprendimiento",
-      "titular_es": "La web de videojuegos Restart, patrocinada por Walmart, despide a todo su equipo editorial",
-      "resumen": "El medio digital sobre videojuegos Restart, lanzado a finales de 2024 operado por Moonrock, despidió a su plantilla periodística completando un veloz cierre. A pesar del respaldo financiero inicial de Walmart, el medio no logró consolidar un modelo de negocio sostenible ni suficiente tráfico. El despido masivo ilustra la persistente volatilidad en la industria de medios digitales y portales especializados.",
-      "relevancia": 6,
-      "url": "https://www.theverge.com/games/977056/restart-gaming-site-walmart-moonrock-layoffs",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "despidos",
-        "medios digitales",
-        "Walmart"
       ]
     }
   ]
