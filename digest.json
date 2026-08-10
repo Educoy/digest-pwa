@@ -1,326 +1,395 @@
 {
-  "fecha": "2026-08-09",
-  "generado_utc": "2026-08-09T20:22:05Z",
+  "fecha": "2026-08-10",
+  "generado_utc": "2026-08-10T13:08:38Z",
   "indicadores": {
-    "dolar": {
-      "valor": 913.86,
-      "variacion": 2.28,
-      "variacion_pct": 0.25
-    },
     "uf": {
-      "valor": 40844.79,
-      "variacion": 0.0,
+      "valor": 40846.11,
+      "variacion": 1.32,
       "variacion_pct": 0.0
     }
   },
-  "noticia_del_dia": "ac65e556af",
-  "pildora_ia": "Temperatura: parámetro que controla cuán 'creativa' es la respuesta de un LLM. Baja (0) da respuestas predecibles y consistentes; alta (1+) las hace más variadas y arriesgadas.",
+  "noticia_del_dia": "89a6a135e2",
+  "pildora_ia": "RAG (Retrieval-Augmented Generation): técnica para que un LLM responda usando documentos externos: primero busca información relevante y luego la usa para generar la respuesta. Reduce alucinaciones y permite datos frescos sin reentrenar.",
   "pildoras_ia": [
-    "Temperatura: parámetro que controla cuán 'creativa' es la respuesta de un LLM. Baja (0) da respuestas predecibles y consistentes; alta (1+) las hace más variadas y arriesgadas.",
     "RAG (Retrieval-Augmented Generation): técnica para que un LLM responda usando documentos externos: primero busca información relevante y luego la usa para generar la respuesta. Reduce alucinaciones y permite datos frescos sin reentrenar.",
     "Fine-tuning: reentrenar un modelo existente con tus propios datos para especializarlo. Más barato que entrenar desde cero, pero para conocimiento actualizado muchas veces conviene más RAG.",
     "Alucinaciones: cuando un LLM genera información falsa con total seguridad. No 'miente': predice el texto más probable, y a veces lo más probable no es lo verdadero. Por eso conviene verificar datos críticos.",
-    "Backpropagation: el método que reparte la 'culpa' del error entre todos los parámetros de una red, capa por capa, para saber cómo ajustar cada uno. Sin él, entrenar redes profundas sería inviable."
+    "Backpropagation: el método que reparte la 'culpa' del error entre todos los parámetros de una red, capa por capa, para saber cómo ajustar cada uno. Sin él, entrenar redes profundas sería inviable.",
+    "Bias-variance tradeoff: el equilibrio central del ML. Un modelo muy simple falla por rígido (bias alto); uno muy complejo falla por inestable (varianza alta). El arte está en el punto medio."
   ],
   "noticias": [
     {
-      "id": "ac65e556af",
-      "tema": "ciencia",
-      "titular_es": "Un avance de 0,42 nanómetros abre el camino a transistores más allá del silicio",
-      "resumen": "Investigadores han diseñado una interfaz atómica de solo 0,42 nanómetros que protege el flujo de electrones en semiconductores ultradelgados.\nEste desarrollo supera uno de los principales límites físicos para la miniaturización de procesadores.\nPermitirá fabricar microchips considerablemente más pequeños, eficientes y potentes para la próxima generación informática.",
-      "relevancia": 10,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260808234943.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "semiconductores",
-        "nanotecnología",
-        "microchips"
-      ]
-    },
-    {
-      "id": "4a49fa4b00",
-      "tema": "ciencia",
-      "titular_es": "Descubren bacterias capaces de atrapar y neutralizar uranio tóxico",
-      "resumen": "Científicos hallaron que microbios en aguas subterráneas contaminadas convierten uranio disuelto en una forma mineral estable no tóxica.\nAl alimentar a las bacterias con glicerol, el 95% del uranio disuelto desapareció en un periodo de 130 días.\nEste avance biotecnológico ofrece una solución económica y sostenible para limpiar sitios con contaminación nuclear.",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260807035149.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "biotecnología",
-        "medio ambiente",
-        "bacterias"
-      ]
-    },
-    {
-      "id": "afd0f8851c",
+      "id": "89a6a135e2",
       "tema": "finanzas",
-      "titular_es": "Hiperescaladores de IA podrían emitir US$ 2 billones en deuda sin perder grado de inversión",
-      "resumen": "Un análisis de Goldman Sachs calcula que las grandes empresas de IA podrían captar hasta US$ 2 billones en endeudamiento para infraestructura.\nA pesar del masivo volumen financiero, los niveles de apalancamiento actuales les permitirían mantener sus altas calificaciones crediticias.\nEl dato refleja la magnitud del capital requerido para sostener la carrera global por centros de datos e IA.",
+      "titular_es": "La integración de las bolsas de Santiago, Colombia y Lima avanza para estar operativa en 2027",
+      "resumen": "Las bolsas de valores de Chile, Colombia y Perú finalizaron exitosamente la primera etapa de migración tecnológica hacia una plataforma unificada.\nEl proyecto entra ahora en la fase crítica de unificación de los sistemas de compensación y liquidación de operaciones.\nEsta integración busca consolidar un mercado bursátil regional más líquido y atractivo para inversionistas internacionales.",
       "relevancia": 9,
-      "url": "https://www.bloomberglinea.com/mercados/hiperescaladores-de-ia-podrian-sumar-us2-billones-de-deuda-y-aun-mantener-grado-de-inversion/",
+      "url": "https://www.bloomberglinea.com/mercados/integracion-de-bolsas-de-santiago-colombia-y-lima-da-un-nuevo-paso-para-estar-lista-en-2027/",
       "fuente": "bloomberglinea.com",
-      "bandera": "🇺🇸",
+      "bandera": "🇨🇱",
       "tags": [
-        "inteligencia artificial",
-        "Goldman Sachs",
-        "deuda"
+        "bolsa de valores",
+        "América Latina",
+        "integración financiera"
       ]
     },
     {
-      "id": "b6706c8c7b",
+      "id": "3f4b51b0e9",
+      "tema": "ia",
+      "titular_es": "Meta presenta Muse Glimmer, un modelo local de código de 30B con pesos abiertos",
+      "resumen": "Meta ha publicado los pesos abiertos de Muse Glimmer, un nuevo modelo de inteligencia artificial de 30 mil millones de parámetros optimizado para programación local.\nEl modelo está diseñado para ejecutarse en hardware de consumo sin depender de la nube.\nSu lanzamiento busca ofrecer a los desarrolladores una alternativa accesible y privada para la generación de código.",
+      "relevancia": 8,
+      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "fuente": "research.meta.ai (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Meta",
+        "código",
+        "modelos abiertos"
+      ]
+    },
+    {
+      "id": "51e3d9e70e",
+      "tema": "ia",
+      "titular_es": "Docker lanza Sandboxes para aislar la ejecución de agentes de IA",
+      "resumen": "Docker ha presentado Sandboxes, entornos desechables y aislados diseñados para que los agentes de inteligencia artificial ejecuten código de forma segura.\nEsta solución evita que agentes autónomos realicen cambios no deseados o dañinos en el sistema anfitrión.\nLa herramienta responde a la creciente adopción de agentes capaces de interactuar directamente con entornos de desarrollo.",
+      "relevancia": 8,
+      "url": "https://www.docker.com/products/docker-sandboxes/",
+      "fuente": "docker.com (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Docker",
+        "agentes de IA",
+        "seguridad"
+      ]
+    },
+    {
+      "id": "796635d12b",
+      "tema": "ia",
+      "titular_es": "El modo automático pasa a ser el predeterminado en Claude Code",
+      "resumen": "Anthropic ha actualizado Claude Code para que el modo automático sea la opción por defecto en la herramienta de línea de comandos.\nEsto permite que el modelo ejecute comandos y modifique archivos sin requerir confirmación manual continua del usuario.\nLa medida busca agilizar el flujo de trabajo de los desarrolladores aumentando la autonomía del sistema.",
+      "relevancia": 8,
+      "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "fuente": "claude.com (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Anthropic",
+        "Claude Code",
+        "desarrollo"
+      ]
+    },
+    {
+      "id": "d0eec2779f",
+      "tema": "ia",
+      "titular_es": "Llega a la Play Store de EE. UU. la primera tienda alternativa de aplicaciones para Android",
+      "resumen": "Tras los fallos judiciales contra Google por monopolio, la tienda de juegos Aptoide se ha convertido en la primera tienda de aplicaciones de terceros disponible dentro de Google Play Store en Estados Unidos.\nLos usuarios pueden descargar e instalar directamente tiendas competidoras sin recurrir al 'sideloading'.\nEste hito marca un cambio histórico en la distribución de software en la plataforma Android.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/tech/977269/google-play-store-third-party-app-aptoide-games",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Google",
+        "Android",
+        "Aptoide"
+      ]
+    },
+    {
+      "id": "1249ae711a",
       "tema": "finanzas",
-      "titular_es": "Berkshire Hathaway rompe racha vendedora con US$ 23.500 millones en compras de acciones",
-      "resumen": "El conglomerado de Warren Buffett puso fin a 14 trimestres consecutivos de ventas netas al realizar masivas adquisiciones bursátiles.\nDel total invertido, aproximadamente US$ 10.000 millones se destinaron a una sola compañía mediante una transacción privada.\nLa jugada marca un giro estratégico clave en la asignación de capital del grupo financiero.",
-      "relevancia": 9,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-breaks-14-quarter-selling-194000465.html",
+      "titular_es": "Las acciones de Monday.com caen tras presentar proyecciones por debajo de las expectativas",
+      "resumen": "Pese a superar las estimaciones de ingresos y ganancias del trimestre, las acciones de Monday.com cayeron en bolsa debido a sus débiles previsiones.\nLos analistas mostraron cautela ante la desaceleración proyectada en la contratación de software empresarial.\nLa empresa de gestión de trabajo busca mantener márgenes operativos sólidos ajustando sus costos de adquisición de clientes.",
+      "relevancia": 8,
+      "url": "https://www.investors.com/news/technology/monday-stock-monday-earnings-q22026/?src=A00220&yptr=yahoo",
+      "fuente": "investors.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Monday.com",
+        "acciones",
+        "software"
+      ]
+    },
+    {
+      "id": "10bf9cb352",
+      "tema": "finanzas",
+      "titular_es": "Las acciones de Meta suben tras presentar su nuevo modelo abierto e intensificar críticas a rivales",
+      "resumen": "La cotización de Meta Platforms avanzó en la bolsa impulsada por el lanzamiento de sus nuevos modelos de lenguaje de código abierto.\nEl CEO Mark Zuckerberg cuestionó públicamente los enfoques cerrados de competidores como OpenAI y Google.\nLos inversores celebraron el posicionamiento estratégico de la firma para dominar la infraestructura de IA.",
+      "relevancia": 8,
+      "url": "https://www.investors.com/news/technology/meta-stock-muse-glimmer-zuckerberg-ai/?src=A00220&yptr=yahoo",
+      "fuente": "investors.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Meta",
+        "acciones",
+        "modelos abiertos"
+      ]
+    },
+    {
+      "id": "8e7b0b15ab",
+      "tema": "finanzas",
+      "titular_es": "Las acciones de SpaceX se acercan a su precio de salida tras sólidos resultados trimestrales",
+      "resumen": "Las acciones de SpaceX experimentaron un alza tras el reporte de ingresos sólidos y el desbloqueo programado de acciones para empleados.\nEl rendimiento operativo impulsado por Starlink ha fortalecido la confianza de los inversores en el mercado privado.\nLa valoración de la compañía espacial continúa marcando máximos en el sector aeroespacial privado.",
+      "relevancia": 8,
+      "url": "https://www.investors.com/news/spacex-stock-rebound-reclaim-135-ipo-price/?src=A00220&yptr=yahoo",
+      "fuente": "investors.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "SpaceX",
+        "acciones",
+        "Starlink"
+      ]
+    },
+    {
+      "id": "9c61225c73",
+      "tema": "finanzas",
+      "titular_es": "Embraer se dispara en bolsa tras reportar resultados superiores a Boeing y Airbus",
+      "resumen": "El fabricante aeronáutico brasileño Embraer registró un fuerte aumento en sus acciones tras presentar un balance trimestral con ganancias récord.\nLa acumulación de pedidos de aviones ejecutivos y comerciales permitió a la empresa superar las tasas de crecimiento de Boeing y Airbus.\nLa directiva confirmó que las entregas para la segunda mitad del año continúan según lo programado.",
+      "relevancia": 8,
+      "url": "https://www.investors.com/news/embraer-earnings-boeing-airbus-aerospace-jet-planes/?src=A00220&yptr=yahoo",
+      "fuente": "investors.com",
+      "bandera": "🇧🇷",
+      "tags": [
+        "Embraer",
+        "aeronáutica",
+        "resultados financieros"
+      ]
+    },
+    {
+      "id": "f994a4dd37",
+      "tema": "finanzas",
+      "titular_es": "MercadoLibre reporta desaceleración en Argentina pero mantiene un crecimiento global del 38%",
+      "resumen": "MercadoLibre advirtió sobre una menor demanda del consumidor en Argentina, donde los ingresos cayeron del 22,5% al 18,1% del total consolidado.\nA pesar del impacto macroeconómico en su mercado de origen, la compañía compensó los resultados gracias a la fortaleza de sus operaciones en Brasil y México.\nEl volumen total de mercancía vendida sigue aumentando a ritmo constante impulsado por la división fintech.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/mercadolibre-advierte-menor-demanda-del-consumidor-en-argentina-pero-sigue-creciendo-al-38/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇦🇷",
+      "tags": [
+        "MercadoLibre",
+        "Argentina",
+        "comercio electrónico"
+      ]
+    },
+    {
+      "id": "ee092482a3",
+      "tema": "emprendimiento",
+      "titular_es": "Discovered Materials recauda 9 millones de dólares para diseñar chips con nuevos materiales",
+      "resumen": "La startup Discovered Materials cerró una ronda de financiación de 9 millones de dólares para acelerar el hallazgo de materiales avanzados.\nLa compañía utiliza inteligencia artificial para identificar compuestos capaces de reducir el calentamiento en microchips de alta densidad.\nEl capital se destinará a ampliar sus laboratorios y colaborar con fabricantes de semiconductores.",
+      "relevancia": 8,
+      "url": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Discovered Materials",
+        "startups",
+        "semiconductores"
+      ]
+    },
+    {
+      "id": "d3b5290afd",
+      "tema": "ia",
+      "titular_es": "Una brecha de datos en un proveedor de Steam expone información de usuarios en Europa",
+      "resumen": "Valve informó que una filtración de seguridad en su socio logístico europeo, CEVA Logistics, podría haber expuesto datos personales de compradores de hardware de Steam.\nEntre la información comprometida se encuentran nombres, direcciones y números de teléfono de clientes en la región.\nLa compañía aseguró que las contraseñas y datos bancarios no se vieron afectados por el incidente.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/games/977314/valve-steam-hardware-shipping-data-breach",
+      "fuente": "theverge.com",
+      "bandera": "🇪🇺",
+      "tags": [
+        "Valve",
+        "ciberseguridad",
+        "privacidad"
+      ]
+    },
+    {
+      "id": "5479eb873a",
+      "tema": "ia",
+      "titular_es": "Ford despliega un asistente de IA para verificar el estado y mantenimiento de sus vehículos",
+      "resumen": "Ford ha comenzado a integrar un asistente basado en IA en sus aplicaciones móviles oficiales para vehículos Ford y Lincoln.\nEl sistema responde dudas técnicas en tiempo real, como la capacidad de remolque o la necesidad de combustible para un viaje.\nSe prevé expandir gradualmente la funcionalidad directamente a las pantallas del salpicadero de los automóviles.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/transportation/976748/ford-ai-assistant-mobile-app",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Ford",
+        "asistente de IA",
+        "automoción"
+      ]
+    },
+    {
+      "id": "fd43a718a5",
+      "tema": "finanzas",
+      "titular_es": "El Bitcoin vuelve a superar los $65.000 impulsado por compras institucionales",
+      "resumen": "La principal criptomoneda del mercado superó nuevamente la barrera de los 65.000 dólares en las primeras horas de negociación.\nEthereum y otros activos digitales acompañaron la tendencia alcista gracias a entradas constantes en fondos cotizados (ETF).\nAnalistas atribuyen el movimiento a una mayor estabilidad macroeconómica y compras de grandes tenedores.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-10-2026-btc-breaking-past-65000-yet-again-125722282.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": [
+        "Bitcoin",
+        "Ethereum",
+        "criptomonedas"
+      ]
+    },
+    {
+      "id": "e2e0a72e9c",
+      "tema": "finanzas",
+      "titular_es": "Johnson & Johnson recibe aprobación de la FDA para Ottava y desafía a Intuitive Surgical",
+      "resumen": "La FDA otorgó la aprobación reglamentaria al sistema quirúrgico robótico Ottava, desarrollado por Johnson & Johnson.\nLa decisión le permite a J&J competir directamente contra el liderazgo de Intuitive Surgical en procedimientos asistidos.\nLas acciones del sector médico reaccionaron ante el nuevo escenario de competencia en robótica hospitalaria.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-jnj-challenge-intuitive-124242559.html",
       "fuente": "finance.yahoo.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Warren Buffett",
-        "Berkshire Hathaway",
-        "inversiones"
+        "Johnson & Johnson",
+        "FDA",
+        "robótica médica"
       ]
     },
     {
-      "id": "582dd51504",
-      "tema": "ciencia",
-      "titular_es": "Un trabuco supersónico rompe la barrera del sonido utilizando únicamente la gravedad",
-      "resumen": "El creador Tom Stanton diseñó un sistema mecánico tipo trabuco que logró acelerar un proyectil hasta superar la velocidad del sonido.\nEl mecanismo no utiliza pólvora ni propulsores químicos, dependiendo exclusivamente del potencial gravitatorio.\nDemuestra un impresionante logro de ingeniería en física aplicada y dinámica de fluidos.",
-      "relevancia": 8,
-      "url": "https://www.techeblog.com/tom-stanton-supersonic-trebuchet/",
-      "fuente": "techeblog.com (vía HN)",
-      "bandera": "🇬🇧",
-      "tags": [
-        "ingeniería",
-        "física",
-        "aerodinámica"
-      ]
-    },
-    {
-      "id": "16240711c4",
-      "tema": "ciencia",
-      "titular_es": "Grabados de 60.000 años en cáscaras de huevo revelan un complejo pensamiento geométrico",
-      "resumen": "Arqueólogos descubrieron patrones geométricos en cáscaras de huevo de avestruz en el sur de África con más de 60 milenios de antigüedad.\nLos diseños incluyen cuadrículas, líneas paralelas y ángulos rectos fabricados bajo patrones deliberados y repetitivos.\nEl hallazgo demuestra una capacidad de abstracción y comunicación simbólica mucho más antigua de lo estimado.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260808235013.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇿🇦",
-      "tags": [
-        "arqueología",
-        "evolución",
-        "geometría"
-      ]
-    },
-    {
-      "id": "591421aa85",
-      "tema": "ciencia",
-      "titular_es": "Estudio con 340.000 adultos revela diferencias de impacto en la salud según el tipo de alcohol",
-      "resumen": "Una investigación de más de una década concluyó que el consumo excesivo de cualquier alcohol eleva sustancialmente el riesgo de mortalidad.\nSin embargo, a niveles moderados, la cerveza y licores mostraron mayor riesgo relativo mientras que el vino registró asociaciones inversas.\nEl trabajo aporta datos significativos sobre hábitos de consumo y longevidad epidemiológica.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260808235008.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "salud",
-        "epidemiología",
-        "estudio"
-      ]
-    },
-    {
-      "id": "630bd3cc73",
-      "tema": "ciencia",
-      "titular_es": "Siete días de meditación intensiva pueden reconfigurar la conectividad cerebral",
-      "resumen": "Un estudio sobre retiros de meditación de una semana halló cambios profundos en la neuroplasticidad y el sistema inmunológico.\nLos participantes mostraron patrones de conectividad cerebral similares a los inducidos por tratamientos con psicodélicos.\nLos resultados sugieren mecanismos biológicos concretos de autorregulación del dolor y el estrés.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260807235243.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "neurociencia",
-        "meditación",
-        "cerebro"
-      ]
-    },
-    {
-      "id": "0202e3fe96",
-      "tema": "ciencia",
-      "titular_es": "Químicos logran liberar electrones en solución y rompen una barrera conceptual histórica",
-      "resumen": "Investigadores desarrollaron un catalizador capaz de liberar electrones directamente en un medio líquido durante reacciones químicas.\nEste método desafía los principios convencionales sobre la transferencia de electrones entre moléculas.\nPermitirá sintetizar nuevos compuestos orgánicos y desarrollar fármacos anteriormente imposibles de fabricar.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260807035147.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "química",
-        "catalizadores",
-        "innovación"
-      ]
-    },
-    {
-      "id": "c380efef1a",
+      "id": "697d0d7515",
       "tema": "finanzas",
-      "titular_es": "P&G acuerda compra en el sector salud por US$ 3.800 millones pese a perspectivas de costos altos",
-      "resumen": "Procter & Gamble concretó una importante transacción de adquisición en el segmento de bienestar y salud por US$ 3.800 millones.\nLa operación se lleva a cabo en medio de proyecciones financieras complejas debido a costos operativos crecientes.\nLa empresa busca diversificar su portafolio hacia categorías de alto margen para sostener su crecimiento.",
-      "relevancia": 8,
-      "url": "https://finance.yahoo.com/healthcare/articles/p-g-pg-3-8b-183514791.html",
+      "titular_es": "El precio del oro registra su valor de apertura más alto desde el mes de junio",
+      "resumen": "El metal precioso abrió la semana con cotizaciones al alza, alcanzando máximos no vistos en más de dos meses.\nLa demanda por activos refugio se mantiene elevada debido a la volatilidad cambiaria y tensiones geopolíticas.\nLos analistas anticipan que el precio podría seguir sostenido si las tasas de interés internacionales comienzan a descender.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-august-10-2026-highest-opening-price-since-early-june-123242269.html",
       "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
+      "bandera": "🌍",
       "tags": [
-        "P&G",
-        "adquisiciones",
+        "oro",
+        "materias primas",
         "mercados"
       ]
     },
     {
       "id": "626fb4a322",
       "tema": "ia",
-      "titular_es": "Entrenador de los 49ers de la NFL revela que chocó su Tesla mientras usaba Autopilot",
-      "resumen": "Kyle Shanahan admitió en conferencia de prensa que la función Autopilot de su vehículo estaba activa al momento de su accidente en Palo Alto.\nEl hecho reaviva el escrutinio público sobre los sistemas de conducción asistida y la responsabilidad del conductor.\nTesla enfrenta crecientes cuestionamientos legales sobre la seguridad real de sus asistentes automotrices.",
-      "relevancia": 8,
+      "titular_es": "Entrenador de la NFL confirma que su Tesla estaba en Autopilot durante un accidente",
+      "resumen": "Kyle Shanahan, entrenador de los San Francisco 49ers, reveló en rueda de prensa que el sistema Autopilot de su Tesla estaba activo cuando chocó en Palo Alto.\nEl choque reaviva el debate sobre la supervisión requerida en sistemas de asistencia a la conducción de Nivel 2.\nTesla continúa enfrentando escrutinio público e investigaciones regulatorias relativas a la seguridad de su tecnología.",
+      "relevancia": 6,
       "url": "https://www.theverge.com/transportation/977155/49ers-coach-tesla-autopilot-crash",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
         "Tesla",
         "Autopilot",
-        "conducción autónoma"
+        "seguridad vial"
       ]
     },
     {
-      "id": "96bb13e95c",
+      "id": "b9c587e912",
       "tema": "finanzas",
-      "titular_es": "Bank of America identifica nuevos riesgos para las acciones de las 'Siete Magníficas'",
-      "resumen": "Analistas de la entidad bancaria advirtieron sobre factores macroeconómicos que podrían frenar el rally tecnológico.\nSeñalan presiones en los márgenes operacionales y exigencias de retorno sobre las inversiones masivas en IA.\nEl informe sugiere mayor cautela para los inversores expuestos a las megacaps tecnológicas estadounidenses.",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-spots-curveball-magnificent-030700311.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
+      "titular_es": "Fondos de pensiones lideraron compras de acciones en la Bolsa de Colombia durante julio",
+      "resumen": "El reporte mensual de operaciones de la Bolsa de Valores de Colombia reveló que los fondos pensionales fueron los mayores compradores netos.\nLas compras se concentraron en títulos de Ecopetrol, el ETF iColcap y Preferencial Grupo Cibest.\nPor el contrario, los fondos redujeron su exposición en compañías como Grupo Argos y Preferencial Grupo Sura.",
+      "relevancia": 6,
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/quien-compra-y-quien-vende-acciones-en-la-bolsa-de-valores-de-colombia/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇨🇴",
       "tags": [
-        "Bank of America",
+        "Bolsa de Colombia",
         "acciones",
-        "tecnología"
+        "fondos de pensiones"
       ]
     },
     {
-      "id": "2c1f29cbf6",
-      "tema": "finanzas",
-      "titular_es": "Jeff Bezos supera su propio récord de venta de acciones de Amazon",
-      "resumen": "El fundador de Amazon ejecutó un nuevo plan de liquidación de títulos dentro de la normativa de valores de Estados Unidos.\nLa operación representa uno de los mayores volúmenes de capital liquidados por un fundador tecnológico en tiempos recientes.\nLos fondos se destinarían a financiar sus proyectos espaciales en Blue Origin e iniciativas filantrópicas.",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jeff-bezos-breaks-own-amazon-140700871.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Jeff Bezos",
-        "Amazon",
-        "acciones"
-      ]
-    },
-    {
-      "id": "8260e5674d",
-      "tema": "finanzas",
-      "titular_es": "Ford apuesta por una camioneta eléctrica de US$ 28.350 ante un mercado exigente",
-      "resumen": "El fabricante automotriz busca competir en el segmento masivo con una plataforma de camioneta eléctrica de bajo costo.\nLa estrategia intenta contrarrestar la desaceleración general en las ventas de vehículos eléctricos de alto precio.\nLa cotización de la acción refleja las dudas de Wall Street sobre la rentabilidad a corto plazo.",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ford-f-28-350-electric-174959508.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Ford",
-        "vehículos eléctricos",
-        "automotriz"
-      ]
-    },
-    {
-      "id": "57d042a675",
-      "tema": "ia",
-      "titular_es": "X elimina su sistema de ingresos compartidos y lanza 'Original Content Rewards'",
-      "resumen": "La red social de Elon Musk reemplazará a partir del 8 de septiembre su controvertido esquema de monetización para creadores.\nEl nuevo programa exigirá contar con al menos 500 seguidores verificados para optar a los pagos.\nEl cambio busca incentivar el contenido exclusivo y combatir el spam dentro de la plataforma.",
-      "relevancia": 7,
-      "url": "https://www.theverge.com/tech/977143/x-revenue-sharing-original-content-rewards",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "X",
-        "monetización",
-        "redes sociales"
-      ]
-    },
-    {
-      "id": "eefafc646c",
-      "tema": "ia",
-      "titular_es": "ServiceNow presenta herramientas de seguridad autónoma con IA para impulsar su crecimiento",
-      "resumen": "La plataforma de software empresarial presentó nuevos módulos de ciberseguridad basados en agentes autónomos de inteligencia artificial.\nEl sistema automatiza la detección y respuesta ante incidentes sin requerir intervención humana directa.\nLa compañía busca consolidar su posición en el mercado de automatización corporativa de TI.",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/technology/ai/articles/servicenow-now-unveils-autonomous-security-191105328.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "ServiceNow",
-        "ciberseguridad",
-        "inteligencia artificial"
-      ]
-    },
-    {
-      "id": "e28a1bafae",
+      "id": "6859719fca",
       "tema": "emprendimiento",
-      "titular_es": "El antiguo barrio rojo de Londres se convierte en un centro global de startups de IA",
-      "resumen": "La zona de King's Cross pasó de ser un sector degradado a concentrar laboratorios clave como Google DeepMind y múltiples startups.\nInversiones urbanísticas y la proximidad a universidades de élite atrajeron a emprendedores e inversores tecnológicos.\nEs un caso de estudio sobre la rápida transformación de distritos urbanos en polos de innovación.",
-      "relevancia": 7,
-      "url": "https://techcrunch.com/2026/08/09/this-former-notorious-red-light-district-is-now-one-of-the-worlds-top-ai-hubs/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇬🇧",
+      "titular_es": "Nuevas startups buscan superar la arquitectura Transformer en modelos de lenguaje",
+      "resumen": "Un reporte de MIT Technology Review analiza la ola de empresas emergentes que intentan crear alternativas a la arquitectura Transformer desarrollada en 2017.\nEstas startups buscan reducir el altísimo costo computacional del entrenamiento de LLMs mediante arquitecturas de memoria eficientes.\nEl objetivo es conseguir modelos con razonamiento complejo pero con requerimientos energéticos drásticamente menores.",
+      "relevancia": 6,
+      "url": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
+      "fuente": "technologyreview.com",
+      "bandera": "🇺🇸",
       "tags": [
         "startups",
-        "Londres",
-        "DeepMind"
+        "modelos de lenguaje",
+        "MIT Tech Review"
       ]
     },
     {
-      "id": "1114dfbc82",
-      "tema": "finanzas",
-      "titular_es": "Invertir en una economía global que envejece: menor crecimiento y nuevos nichos",
-      "resumen": "La disminución de las tasas de natalidad y el aumento de la longevidad reducirán el ritmo de expansión económica global.\nEl cambio demográfico impactará el rendimiento de la renta variable tradicional en los próximos decenios.\nSurgirán oportunidades específicas en sectores como salud, automatización y servicios especializados.",
+      "id": "1e1aa73b47",
+      "tema": "ciencia",
+      "titular_es": "El desarrollo de IA para la ciencia exige capacidades de razonamiento y no solo datos",
+      "resumen": "Eric Schmidt y Suhas Mahesh argumentan que el futuro de los descubrimientos científicos automatizados requiere modelos capaces de razonar hipotéticamente.\nEl volumen masivo de datos no basta para formular nuevas teorías si los algoritmos carecen de lógica deductiva.\nDiversas instituciones ya invierten en arquitecturas híbridas orientadas a la validación de hipótesis en física y biología.",
       "relevancia": 6,
-      "url": "https://www.bloomberglinea.com/mercados/invertir-en-una-economia-que-envejece-menos-crecimiento-y-oportunidades-para-los-mercados/",
-      "fuente": "bloomberglinea.com",
+      "url": "https://www.technologyreview.com/2026/08/10/1141526/the-download-ai-agents-science-censorship-industrial-complex/",
+      "fuente": "technologyreview.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "IA para la ciencia",
+        "investigación",
+        "razonamiento"
+      ]
+    },
+    {
+      "id": "20c95f3fe5",
+      "tema": "ciencia",
+      "titular_es": "Investigadores sostienen que la ciencia moderna necesita modelos de razonamiento profundo",
+      "resumen": "Un ensayo sobre la historia de los descubrimientos enfatiza que la física y la química enfrentan límites que la IA actual no puede resolver solo con patrones de datos.\nSe señala la necesidad de integrar lógica causal y simulación dentro de las redes neuronales científicas.\nLos autores destacan que la verdadera revolución ocurrirá cuando la IA pueda formular experimentos novedosos e interpretables.",
+      "relevancia": 6,
+      "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
+      "fuente": "technologyreview.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "ciencia",
+        "inteligencia artificial",
+        "investigación"
+      ]
+    },
+    {
+      "id": "55e0cdb0c0",
+      "tema": "ciencia",
+      "titular_es": "El sistema de revisión por pares colapsa ante la saturación de artículos generados por IA",
+      "resumen": "La proliferación de papers redactados con asistencia de modelos de lenguaje ha desbordado la capacidad de los revisores académicos voluntarios.\nRevistas científicas internacionales advierten sobre una degradación en el rigor de la evaluación de descubrimientos.\nComunidades académicas proponen implementar herramientas de auditoría y revisar los incentivos de publicación actual.",
+      "relevancia": 6,
+      "url": "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/",
+      "fuente": "arstechnica.com",
       "bandera": "🌍",
       "tags": [
-        "demografía",
-        "mercados",
-        "inversiones"
+        "revisión por pares",
+        "investigación"
       ]
     },
     {
-      "id": "acf86426db",
+      "id": "2a66c41bb5",
       "tema": "ia",
-      "titular_es": "Los detectores de IA generan un clima de desconfianza en el ámbito educativo y profesional",
-      "resumen": "Las herramientas diseñadas para identificar texto generado por IA presentan elevadas tasas de falsos positivos.\nEstudiantes y profesionales enfrentan acusaciones injustificadas debido a la falta de fiabilidad de estos algoritmos.\nEl fenómeno plantea el debate sobre la necesidad de mejores métodos de evaluación académica.",
-      "relevancia": 6,
-      "url": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
+      "titular_es": "Lanzan un videojuego conversacional de misterio impulsado por agentes de voz con IA",
+      "resumen": "Un desarrollador presentó en Hacker News un juego interactivo donde los usuarios interrogan con voz a sospechosos gestionados por IA.\nEl proyecto demuestra los avances recientes en latencia y naturalidad de la síntesis de voz en tiempo real.\nLa experiencia combina narrativa interactiva con el procesamiento de lenguaje natural aplicado a entretenimiento.",
+      "relevancia": 5,
+      "url": "https://www.whodunnitai.com/",
+      "fuente": "whodunnitai.com (vía HN)",
+      "bandera": "🌍",
       "tags": [
-        "inteligencia artificial",
-        "educación",
-        "algoritmos"
+        "IA conversacional",
+        "voz",
+        "videojuegos"
       ]
     },
     {
-      "id": "21cc3dd6da",
-      "tema": "emprendimiento",
-      "titular_es": "Estudio analiza los datos de fundadores y startups procesados por fraude en Silicon Valley",
-      "resumen": "Una investigación examinó casos judiciales de emprendedores acusados de fraude financiero y falsificación de métricas.\nEl informe identifica factores recurrentes como la presión por métricas irreales y la falta de gobernanza interna.\nOfrece lecciones críticas sobre auditoría y ética empresarial para el ecosistema emprendedor.",
-      "relevancia": 6,
-      "url": "https://pubsonline.informs.org/doi/full/10.1287/orsc.2024.19981",
-      "fuente": "pubsonline.informs.org (vía HN)",
+      "id": "12ff5d2911",
+      "tema": "ia",
+      "titular_es": "Logran ejecutar aplicaciones VR de Android en las gafas Apple Vision Pro",
+      "resumen": "Un proyecto de código abierto ha permitido cargar e interpretar paquetes APK de realidad virtual diseñados para Android ARM64 en las Apple Vision Pro.\nEl avance permite ampliar la biblioteca de software disponible para el dispositivo de Apple mediante emulación.\nLa comunidad de desarrolladores celebra esta alternativa ante las restricciones del ecosistema de visionOS.",
+      "relevancia": 5,
+      "url": "https://github.com/shinyquagsire23/Klepton",
+      "fuente": "github.com (vía HN)",
       "bandera": "🇺🇸",
       "tags": [
-        "startups",
-        "Silicon Valley",
-        "fraude"
+        "Apple Vision Pro",
+        "Android",
+        "realidad virtual"
+      ]
+    },
+    {
+      "id": "c8de2885f9",
+      "tema": "ciencia",
+      "titular_es": "Proyectos de espejos en el espacio plantean riesgos para la astronomía terrestre",
+      "resumen": "Expertos advierten que las propuestas de satélites con espejos para reflejar luz solar a la Tierra de noche podrían contaminar la observación astronómica.\nLa luz reflejada perturbaría los telescopios ópticos terrestres y alteraría los ecosistemas nocturnos.\nCientíficos piden regulación internacional antes de que comiencen las pruebas orbitales a gran escala.",
+      "relevancia": 5,
+      "url": "https://www.theverge.com/science/976977/space-mirror-reflect-orbital-fcc-solar-eye-damage",
+      "fuente": "theverge.com",
+      "bandera": "🌍",
+      "tags": [
+        "astronomía",
+        "satélites",
+        "espacio"
       ]
     }
   ]
