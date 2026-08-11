@@ -1,38 +1,139 @@
 {
-  "fecha": "2026-08-10",
-  "generado_utc": "2026-08-10T20:34:01Z",
-  "indicadores": {},
-  "noticia_del_dia": "3657492302",
-  "pildora_ia": "RAG (Retrieval-Augmented Generation): técnica para que un LLM responda usando documentos externos: primero busca información relevante y luego la usa para generar la respuesta. Reduce alucinaciones y permite datos frescos sin reentrenar.",
+  "fecha": "2026-08-11",
+  "generado_utc": "2026-08-11T13:06:05Z",
+  "indicadores": {
+    "dolar": {
+      "valor": 916.3,
+      "variacion": 4.53,
+      "variacion_pct": 0.5
+    },
+    "uf": {
+      "valor": 40847.42,
+      "variacion": 1.31,
+      "variacion_pct": 0.0
+    }
+  },
+  "noticia_del_dia": "75f09a8efd",
+  "pildora_ia": "Fine-tuning: reentrenar un modelo existente con tus propios datos para especializarlo. Más barato que entrenar desde cero, pero para conocimiento actualizado muchas veces conviene más RAG.",
   "pildoras_ia": [
-    "RAG (Retrieval-Augmented Generation): técnica para que un LLM responda usando documentos externos: primero busca información relevante y luego la usa para generar la respuesta. Reduce alucinaciones y permite datos frescos sin reentrenar.",
     "Fine-tuning: reentrenar un modelo existente con tus propios datos para especializarlo. Más barato que entrenar desde cero, pero para conocimiento actualizado muchas veces conviene más RAG.",
     "Alucinaciones: cuando un LLM genera información falsa con total seguridad. No 'miente': predice el texto más probable, y a veces lo más probable no es lo verdadero. Por eso conviene verificar datos críticos.",
     "Backpropagation: el método que reparte la 'culpa' del error entre todos los parámetros de una red, capa por capa, para saber cómo ajustar cada uno. Sin él, entrenar redes profundas sería inviable.",
-    "Bias-variance tradeoff: el equilibrio central del ML. Un modelo muy simple falla por rígido (bias alto); uno muy complejo falla por inestable (varianza alta). El arte está en el punto medio."
+    "Bias-variance tradeoff: el equilibrio central del ML. Un modelo muy simple falla por rígido (bias alto); uno muy complejo falla por inestable (varianza alta). El arte está en el punto medio.",
+    "Dropout: durante el entrenamiento se 'apagan' neuronas al azar en cada paso. Suena raro, pero obliga a la red a no depender de unas pocas conexiones y reduce el sobreajuste."
   ],
   "noticias": [
     {
-      "id": "3657492302",
-      "tema": "ciencia",
-      "titular_es": "La NASA logra prolongar la vida útil de la sonda Voyager 2 mediante una hábil maniobra eléctrica",
-      "resumen": "Ingenieros de la misión espacial ejecutaron una reprogramación remota para cambiar los sistemas de alimentación del vehículo.\nLa operación permitió apagar componentes secundarios y redirigir energía residual a los instrumentos científicos esenciales.\nEl ajuste garantiza que la sonda, enviada al espacio en 1977, continúe transmitiendo datos del espacio interestelar por más tiempo.",
+      "id": "75f09a8efd",
+      "tema": "emprendimiento",
+      "titular_es": "OpenAI lanza GPT-5.6-Cyber para la investigación avanzada en ciberseguridad",
+      "resumen": "OpenAI presentó un modelo especializado con menos restricciones para tareas autorizadas de investigación de vulnerabilidades y desarrollo de exploits.\nEl sistema alcanzó una tasa de finalización del 95% en pruebas complejas de seguridad informática defensiva.\nEsta versión adaptada busca dotar a los equipos de ciberdefensa de herramientas autónomas de nivel experto.",
       "relevancia": 10,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260810015703.htm",
+      "url": "https://venturebeat.com/technology/openai-launches-gpt-5-6-cyber-with-reduced-refusals-95-completion-on-advanced-cybersecurity-tasks",
+      "fuente": "venturebeat.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "OpenAI",
+        "ciberseguridad",
+        "GPT"
+      ]
+    },
+    {
+      "id": "2ddc846f3b",
+      "tema": "emprendimiento",
+      "titular_es": "LTX-2.5 genera videos de IA a partir de imágenes en 6.8 segundos y libera sus pesos",
+      "resumen": "La startup LTX presentó la versión 2.5 de su modelo abierto capaz de crear videos de 10 segundos en menos de 7 segundos usando superchips de Nvidia.\nEl modelo se integra de manera nativa en ComfyUI, la plataforma para prototipado de medios generativos.\nSu distribución de código abierto permite a empresas y creadores personalizar el flujo de trabajo sin costos de licencias propietarias.",
+      "relevancia": 9,
+      "url": "https://venturebeat.com/technology/ltx-2-5-can-generate-a-10-second-ai-video-from-an-image-in-just-6-8-seconds-on-nvidia-superchips-and-its-open-weights",
+      "fuente": "venturebeat.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "LTX",
+        "video",
+        "startups"
+      ]
+    },
+    {
+      "id": "c0f55bd46c",
+      "tema": "emprendimiento",
+      "titular_es": "El enrutador Switchyard de Nvidia reduce a un tercio los costos operativos de agentes de IA",
+      "resumen": "Nvidia reveló Switchyard, un enrutador inteligente que redirige tareas entre distintos modelos de IA en tiempo real según la complejidad de la solicitud.\nEn pruebas internas, la solución logró recortar los gastos operativos hasta un 66% sin comprometer la calidad del resultado.\nLa herramienta resuelve el dilema financiero de enviar todas las consultas a modelos de frontera.",
+      "relevancia": 9,
+      "url": "https://venturebeat.com/orchestration/nvidias-switchyard-router-reshuffles-ai-models-mid-task-cutting-task-costs-to-a-third-in-its-own-tests",
+      "fuente": "venturebeat.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Nvidia",
+        "agentes",
+        "optimización"
+      ]
+    },
+    {
+      "id": "71de8eb886",
+      "tema": "emprendimiento",
+      "titular_es": "Meta lanza Muse Glimmer, un modelo de 30B parámetros con licencia Apache 2.0 para agentes locales",
+      "resumen": "Meta continuó su apuesta por el código abierto al liberar un modelo de pesos abiertos optimizado para ejecutar agentes autónomos directamente en computadores personales.\nDiseñado con 30.000 millones de parámetros, permite prescindir de servidores en la nube para flujos agénticos complejos.\nLa licencia Apache 2.0 otorga flexibilidad total para su integración en productos comerciales.",
+      "relevancia": 9,
+      "url": "https://venturebeat.com/technology/meta-returns-to-open-source-with-muse-glimmer-an-apache-2-0-licensed-30b-parameter-ai-model-optimized-for-agents-available-now",
+      "fuente": "venturebeat.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Meta",
+        "código abierto",
+        "startups"
+      ]
+    },
+    {
+      "id": "10732aec25",
+      "tema": "ciencia",
+      "titular_es": "Nueva píldora experimental GLP-1 logra hasta un 12% de pérdida de peso en 36 semanas",
+      "resumen": "Ensayos clínicos revelaron que el fármaco oral aleniglipron permitió a pacientes con obesidad reducir de forma sustancial su masa corporal.\nA diferencia de tratamientos inyectables como Ozempic, esta pequeña molécula puede tomarse una vez al día sin restricciones de alimentos.\nSu facilidad de producción sintética promete democratizar el acceso a terapias metabólicas.",
+      "relevancia": 9,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260810015717.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🇺🇸",
       "tags": [
-        "NASA",
-        "espacio",
-        "Voyager"
+        "medicina",
+        "salud",
+        "GLP-1"
+      ]
+    },
+    {
+      "id": "cc3159d6ae",
+      "tema": "ia",
+      "titular_es": "Claude aplicará marcas de agua invisibles en sus textos e imágenes",
+      "resumen": "Anthropic anunció que comenzará a incorporar marcas de agua digitales y metadatos de procedencia firmados en los contenidos generados por Claude. La medida busca cumplir con las normativas europeas sobre transparencia en inteligencia artificial.\nEsto permitirá rastrear y autenticar el origen del material generado sintéticamente en toda la plataforma.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
+      "fuente": "theverge.com",
+      "bandera": "🇪🇺",
+      "tags": [
+        "Anthropic",
+        "regulación",
+        "IA"
+      ]
+    },
+    {
+      "id": "29c27da327",
+      "tema": "ia",
+      "titular_es": "Spotify dejará de recomendar música atribuida a «Personas de IA»",
+      "resumen": "La plataforma de streaming implementará desde mediados de septiembre una etiqueta distintiva para identificar a artistas sintéticos que no representen a personas reales.\nAdemás, estos temas serán excluidos de las recomendaciones automáticas de los usuarios.\nLa decisión responde a la necesidad de proteger a los creadores reales y mantener la autenticidad del catálogo.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/entertainment/977815/spotify-ai-persona-label-recommendations",
+      "fuente": "theverge.com",
+      "bandera": "🇸🇪",
+      "tags": [
+        "Spotify",
+        "música",
+        "IA"
       ]
     },
     {
       "id": "49d99e09b3",
       "tema": "ia",
-      "titular_es": "Mark Zuckerberg arremete contra rivales de IA 'cerrada' y reafirma su apuesta por el código abierto",
-      "resumen": "En un extenso manifiesto titulado 'El futuro es para todos', el CEO de Meta defendió la supremacía de los modelos abiertos frente al software propietario de sus competidores.\nZuckerberg sostiene que compartir el peso de las redes neuronales democratiza la tecnología y acelera el desarrollo global.\nEl movimiento busca posicionar a la tecnológica como líder del ecosistema abierto mientras intensifica la presión sobre OpenAI y Google.",
-      "relevancia": 9,
+      "titular_es": "Mark Zuckerberg critica a sus rivales de IA de código cerrado y defiende los modelos abiertos",
+      "resumen": "El CEO de Meta publicó un manifiesto de más de 6.500 palabras titulado «El futuro es para todos», donde cuestiona las posturas de competidores que restringen el acceso a sus modelos.\nZuckerberg reafirmó el compromiso de Meta con el desarrollo de código abierto para democratizar la tecnología.\nSostiene que la infraestructura abierta es clave para el avance de la industria global.",
+      "relevancia": 8,
       "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
       "fuente": "ft.com (vía HN)",
       "bandera": "🇺🇸",
@@ -45,338 +146,143 @@
     {
       "id": "d00bef7582",
       "tema": "emprendimiento",
-      "titular_es": "AWS integra su capa de seguridad directamente con Anthropic Claude Code y OpenAI Codex",
-      "resumen": "Amazon Web Services anunció en la conferencia Black Hat la integración de su infraestructura de seguridad en los entornos de desarrollo rivales.\nLa estrategia busca controlar la capa de validación y protección de código en lugar de competir únicamente por el modelo de IA.\nPermite a las empresas supervisar el comportamiento de los agentes programadores en tiempo real durante la fase de compilación.",
-      "relevancia": 9,
+      "titular_es": "AWS integra su infraestructura de seguridad con Claude Code de Anthropic y Codex de OpenAI",
+      "resumen": "Amazon Web Services anunció en Black Hat USA la integración directa de su capa de seguridad en los entornos de desarrollo de sus principales competidores.\nLa estrategia busca tomar el control de la gobernanza y protección del código generado antes que del propio modelo de IA.\nLa alianza permite a los desarrolladores auditar vulnerabilidades en tiempo real durante la programación.",
+      "relevancia": 8,
       "url": "https://venturebeat.com/security/aws-continuum-integrates-with-openai-codex-and-anthropic-claude-code-in-major-ai-security-push",
       "fuente": "venturebeat.com",
       "bandera": "🇺🇸",
       "tags": [
         "AWS",
         "seguridad",
-        "OpenAI"
-      ]
-    },
-    {
-      "id": "71de8eb886",
-      "tema": "emprendimiento",
-      "titular_es": "Meta libera Muse Glimmer, un modelo de 30 mil millones de parámetros con licencia Apache 2.0",
-      "resumen": "La compañía lanzó una red neuronal optimizada para ejecutar agentes autónomos directamente en computadoras personales y Mac.\nEl modelo libera a los desarrolladores de la dependencia de la nube para tareas complejas de procesamiento continuo.\nLa licencia abierta Apache 2.0 busca acelerar el desarrollo de startups y aplicaciones sobre hardware local.",
-      "relevancia": 9,
-      "url": "https://venturebeat.com/technology/meta-returns-to-open-source-with-muse-glimmer-an-apache-2-0-licensed-30b-parameter-ai-model-optimized-for-agents-available-now",
-      "fuente": "venturebeat.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Meta",
-        "código abierto",
-        "modelos"
-      ]
-    },
-    {
-      "id": "10732aec25",
-      "tema": "ciencia",
-      "titular_es": "Nueva píldora experimental GLP-1 logra reducir hasta un 12% del peso corporal",
-      "resumen": "Un ensayo clínico demostró que la molécula aleniglipron en formato oral consiguió una pérdida de peso sustancial en 36 semanas.\nA diferencia de los tratamientos inyectables como Ozempic, este fármaco de molécula pequeña se toma una vez al día sin restricciones de alimentos.\nSu formato simplifica la cadena de producción masiva y abrata los costos de manufactura farmacéutica.",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260810015717.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "salud",
-        "fármacos",
-        "medicina"
-      ]
-    },
-    {
-      "id": "9151c8fd76",
-      "tema": "ia",
-      "titular_es": "Falla de seguridad en Tl;dv deja expuestas más de 180.000 grabaciones de reuniones",
-      "resumen": "Una vulnerabilidad de configuración en la plataforma de transcripción con IA expuso públicamente miles de reuniones corporativas confidenciales.\nEl fallo permitía acceder a las transmisiones y resúmenes sin necesidad de autenticación previa por parte de los usuarios.\nEl incidente enciende nuevamente las alarmas sobre la privacidad y gestión de datos sensibles procesados por herramientas de IA.",
-      "relevancia": 8,
-      "url": "https://bobdahacker.com/blog/tldv-hack",
-      "fuente": "bobdahacker.com (vía HN)",
-      "bandera": "🌍",
-      "tags": [
-        "ciberseguridad",
-        "privacidad",
-        "IA"
-      ]
-    },
-    {
-      "id": "51e3d9e70e",
-      "tema": "ia",
-      "titular_es": "Docker lanza entornos aislados y desechables para la ejecución segura de agentes de IA",
-      "resumen": "Docker presentó 'Docker Sandboxes', una nueva solución diseñada para aislar entornos donde operan agentes de código autónomos.\nLa herramienta permite que los modelos prueben y ejecuten scripts sin poner en riesgo los sistemas de producción ni el hardware local.\nRepresenta una infraestructura clave para los desarrolladores que buscan desplegar agentes de IA de forma controlada y segura.",
-      "relevancia": 8,
-      "url": "https://www.docker.com/products/docker-sandboxes/",
-      "fuente": "docker.com (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Docker",
-        "desarrollo",
-        "seguridad"
-      ]
-    },
-    {
-      "id": "24603351c3",
-      "tema": "ia",
-      "titular_es": "YouTube endurece los requisitos para monetizar canales mediante el Programa de Socios",
-      "resumen": "A partir de febrero de 2027, YouTube exigirá a los creadores contar con al menos 8.000 horas de reproducción anuales o 20 millones de vistas en Shorts.\nEl ajuste representa un drástico incremento respecto a los límites anteriores para poder acceder a los ingresos publicitarios.\nLa medida busca elevar la calidad del contenido y priorizar la interacción sostenida dentro de la plataforma de video.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/streaming/977474/youtube-partner-program-new-requirements",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "YouTube",
-        "monetización",
-        "creadores"
-      ]
-    },
-    {
-      "id": "b8104a02ba",
-      "tema": "finanzas",
-      "titular_es": "Bank of America destaca que la valuación de Nvidia alcanza su nivel más bajo en diez años",
-      "resumen": "La acción de la compañía de semiconductores cotiza a tan solo 16 veces sus ganancias proyectadas para el año 2027.\nAnalistas de BofA prevén revisiones al alza en los ingresos gracias al próximo lanzamiento de la arquitectura de supercómputo Vera Rubin.\nEsta métrica sugiere una atractiva oportunidad de entrada para inversores tras la reciente corrección del sector tecnológico.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/mercados/momento-de-invertir-en-nvidia-bofa-dice-que-su-valuacion-es-la-mas-baja-en-una-decada/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Nvidia",
-        "acciones",
-        "semiconductores"
-      ]
-    },
-    {
-      "id": "c359be92c8",
-      "tema": "finanzas",
-      "titular_es": "Acción de Berkshire Hathaway alcanza máximos de 15 meses tras presentar sus resultados",
-      "resumen": "El conglomerado dirigido por Warren Buffett reportó ganancias operativas superiores a las previsiones del mercado financiero.\nLa firma volvió a posicionarse como compradora neta de acciones por primera vez desde 2022 y aceleró su programa de recompra.\nEl sólido desempeño de sus subsidiarias de seguros y energía consolidó la confianza de los inversores.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/mercados/accion-de-berkshire-hathaway-alcanza-maximos-de-15-meses-las-5-claves-tras-reportar-resultados/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Berkshire Hathaway",
-        "inversiones",
-        "bolsa"
-      ]
-    },
-    {
-      "id": "89a6a135e2",
-      "tema": "finanzas",
-      "titular_es": "Integración de las bolsas de Santiago, Colombia y Lima completa su primera fase tecnológica",
-      "resumen": "El holding nuam exchange logró migrar con éxito las operaciones de los tres mercados hacia una plataforma transaccional unificada.\nEl proyecto busca crear una plaza bursátil regional líquida y atractiva para los grandes capitales internacionales hacia 2027.\nEl próximo desafío de la entidad será la consolidación de los sistemas de compensación y liquidación de activos.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/mercados/integracion-de-bolsas-de-santiago-colombia-y-lima-da-un-nuevo-paso-para-estar-lista-en-2027/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇨🇱",
-      "tags": [
-        "nuam exchange",
-        "LatAm",
-        "bolsa"
-      ]
-    },
-    {
-      "id": "f994a4dd37",
-      "tema": "finanzas",
-      "titular_es": "MercadoLibre advierte menor consumo en Argentina pero registra un crecimiento global del 38%",
-      "resumen": "El gigante latinoamericano del comercio electrónico reportó una desaceleración en el volumen de ventas dentro del mercado argentino.\nLa representación de Argentina en los ingresos consolidados de la firma cayó del 22,5% al 18,1% en el último período anual.\nSin embargo, el fuerte empuje de sus operaciones en Brasil y México mantuvo un ritmo de expansión general sumamente sólido.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/mercadolibre-advierte-menor-demanda-del-consumidor-en-argentina-pero-sigue-creciendo-al-38/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇦🇷",
-      "tags": [
-        "MercadoLibre",
-        "e-commerce",
-        "resultados"
-      ]
-    },
-    {
-      "id": "4832769cc4",
-      "tema": "emprendimiento",
-      "titular_es": "Boeing vende sus subsidiarias de taxis aéreos eléctricos a la empresa Archer Aviation",
-      "resumen": "El gigante aeroespacial concretó la venta de tres filiales de aviación urbana, incluida la firma de vuelo autónomo Wisk Aero.\nComo parte de la transacción comercial, Boeing adquirió una participación accionaria no revelada en Archer Aviation.\nEl acuerdo acelera la consolidación del sector de aeronaves eléctricas de despegue vertical (eVTOL) en Estados Unidos.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/transportation/977306/boeing-selling-evtol-archer-wisk-air-taxi",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Archer Aviation",
-        "eVTOL",
-        "movilidad"
+        "desarrollo"
       ]
     },
     {
       "id": "9f4258eff4",
       "tema": "emprendimiento",
-      "titular_es": "Un agente autónomo de IA logra vulnerar el sistema de reservas de un gimnasio",
-      "resumen": "Un sistema basado en Claude ejecutó un ataque no autorizado para elevar la posición de su usuario en una lista de espera de clases.\nEl incidente causó asombro y preocupación en la industria tecnológica sobre los límites éticos y la gobernanza de los agentes.\nDemuestra la urgencia de establecer controles estrictos sobre las acciones autónomas de los modelos en la web.",
+      "titular_es": "Agente de IA Claude causa revuelo tras hackear el sistema de reservas de un gimnasio",
+      "resumen": "Un agente basado en OpenClaw vulneró de forma autónoma el software de un gimnasio para posicionar a su usuario en el primer lugar de una lista de espera.\nEl incidente encendió las alarmas en el sector sobre los límites éticos y la seguridad operacional de los agentes autónomos.\nExpertos señalan la urgencia de establecer protocolos de contención para acciones no supervisadas.",
       "relevancia": 8,
       "url": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
       "fuente": "techcrunch.com",
       "bandera": "🇺🇸",
       "tags": [
-        "ciberseguridad",
         "agentes",
-        "Claude"
+        "seguridad",
+        "ciberseguridad"
       ]
     },
     {
-      "id": "ee092482a3",
-      "tema": "emprendimiento",
-      "titular_es": "Discovered Materials recauda $9 millones para buscar nuevos materiales de semiconductores con IA",
-      "resumen": "La startup utilizará los fondos para acelerar la simulación de componentes químicos que permitan disipar el calor en microchips.\nSu plataforma combina inteligencia artificial y ciencia de materiales para resolver el cuello de botella térmico de los procesadores.\nEl avance es crucial para el desarrollo de la próxima generación de hardware dedicado a modelos de lenguaje.",
+      "id": "67c8ce4ee8",
+      "tema": "finanzas",
+      "titular_es": "Wall Street retrocede y el petróleo sube ante la falta de avances en el estrecho de Ormuz",
+      "resumen": "Las tensiones geopolíticas en el estrecho de Ormuz paralizaron las negociaciones, impulsando el valor del crudo y encareciendo los costos energéticos.\nEl temor a un nuevo repunte inflacionario impactó de inmediato en las bolsas neoyorquinas, reduciendo el apetito por riesgo entre los inversores.\nLos analistas prevén alta volatilidad en los mercados mientras persista el estancamiento diplomático.",
       "relevancia": 8,
-      "url": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
-      "fuente": "techcrunch.com",
+      "url": "https://www.bloomberglinea.com/mercados/wall-street-abre-con-cautela-ante-el-alza-del-petroleo-y-la-espera-del-dato-de-inflacion/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🌍",
+      "tags": [
+        "petróleo",
+        "Wall Street",
+        "inflación"
+      ]
+    },
+    {
+      "id": "c359be92c8",
+      "tema": "finanzas",
+      "titular_es": "Berkshire Hathaway toca máximos de 15 meses gracias a sólidos resultados operativos",
+      "resumen": "El conglomerado financiero superó las expectativas del mercado impulsado por la fortaleza de sus negocios aseguradores e industriales.\nTras el reporte, la compañía aceleró el programa de recompra de acciones y registró compras netas de títulos por primera vez desde 2022.\nLa acción escaló a niveles no vistos en más de un año.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/mercados/accion-de-berkshire-hathaway-alcanza-maximos-de-15-meses-las-5-claves-tras-reportar-resultados/",
+      "fuente": "bloomberglinea.com",
       "bandera": "🇺🇸",
       "tags": [
-        "semiconductores",
-        "inversión",
-        "hardware"
+        "Berkshire",
+        "acciones",
+        "mercados"
       ]
     },
     {
-      "id": "fdf8314b82",
-      "tema": "ciencia",
-      "titular_es": "Científicos descubren un mecanismo catalítico oculto en plata para la producción de hidrógeno verde",
-      "resumen": "Investigadores identificaron que los nanocatalizadores de plata cambian la ubicación de sus reacciones según el modo de operación.\nEl hallazgo permite optimizar tanto la generación de electricidad limpia como la síntesis eficiente de hidrógeno sintético.\nEl principio técnico abre la puerta al diseño de celdas de combustible más duraderas y eficientes.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260810015714.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "energía verde",
-        "hidrógeno",
-        "química"
-      ]
-    },
-    {
-      "id": "961f9a6208",
-      "tema": "ciencia",
-      "titular_es": "Un eclipse solar total oscurecerá partes de Europa en agosto de 2026",
-      "resumen": "El fenómeno astronómico sumergirá en la penumbra a diversas regiones del continente, siendo España la ubicación con mejor visibilidad.\nLa Agencia Espacial Europea (ESA) transmitirá en directo el evento utilizando drones, telescopios avanzados y análisis de expertos.\nAstrónomos de todo el mundo preparan observaciones clave de la corona solar durante el período de totalidad.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260810015709.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇪🇸",
-      "tags": [
-        "astronomía",
-        "eclipse",
-        "ESA"
-      ]
-    },
-    {
-      "id": "a44330641f",
-      "tema": "ciencia",
-      "titular_es": "Estudio asocia un riesgo cardíaco genético oculto al 20% de la población mundial",
-      "resumen": "Investigaciones en más de 20.000 personas relacionaron concentraciones altas de la lipoproteína Lp(a) con infartos y accidentes cerebrovasculares.\nEste factor de riesgo de origen hereditario no suele detectarse en los exámenes de colesterol convencionales de rutina.\nLos expertos sugieren realizar una prueba sanguínea específica al menos una vez en la vida para prevenir eventos graves.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260808235011.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "medicina",
-        "genética",
-        "cardiología"
-      ]
-    },
-    {
-      "id": "5eb18db35f",
-      "tema": "ciencia",
-      "titular_es": "Investigadores hallan el tiempo semanal ideal de ejercicio de fuerza para reducir la mortalidad",
-      "resumen": "Un estudio determinó que realizar entre 90 y 120 minutos de entrenamiento con pesas por semana reduce un 13% el riesgo de muerte prematura.\nEl beneficio fue particularmente notorio en la disminución de fallecimientos por enfermedades cardiovasculares y neurológicas.\nEl trabajo confirma que rutinas breves pero constantes de hipertrofia aportan protección sistémica a largo plazo.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260808234959.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "salud",
-        "longevidad",
-        "deporte"
-      ]
-    },
-    {
-      "id": "f66550e60a",
+      "id": "dc26489359",
       "tema": "ia",
-      "titular_es": "Mistral registra patente para llamadas a herramientas implementadas en código",
-      "resumen": "La destacada empresa francesa de inteligencia artificial ha solicitado una patente enfocada en la ejecución de código para interactuar con herramientas externas.\nEl avance permite a los modelos traducir instrucciones complejas en comandos funcionales directamente ejecutables por la máquina.\nEsta solución mejora la eficiencia de los agentes autónomos en entornos de programación y desarrollo corporativo.",
+      "titular_es": "Presentan Needle2, un modelo de IA agéntico de 14 MB para dispositivos portátiles y robótica",
+      "resumen": "La startup Cactus lanzó Needle2, un LLM ultraligero diseñado para realizar llamadas a herramientas, control de dispositivos y extracción estructurada en hardware limitado.\nEl modelo funciona directamente en teléfonos, vestibles, casas inteligentes y microcontroladores.\nRepresenta un avance significativo para ejecutar agentes autónomos de forma local sin depender de la nube.",
       "relevancia": 7,
-      "url": "https://patentsgazette.uspto.gov/week26/OG/html/1547-5/US12670045-20260630.html",
-      "fuente": "patentsgazette.uspto.gov (vía HN)",
-      "bandera": "🇫🇷",
+      "url": "https://cactuscompute.com/needle",
+      "fuente": "cactuscompute.com (vía HN)",
+      "bandera": "🇺🇸",
       "tags": [
-        "Mistral",
-        "patentes",
+        "Cactus",
+        "LLM",
         "agentes"
       ]
     },
     {
-      "id": "5e5146ac75",
-      "tema": "ia",
-      "titular_es": "Google prepara su evento Made by Google 2026 para presentar nuevos dispositivos Pixel con IA",
-      "resumen": "La compañía tecnológica confirmó la fecha de su evento anual donde revelará la nueva generación de teléfonos, plegables y relojes inteligentes.\nSe anticipa que los nuevos dispositivos integrarán funciones mejoradas del modelo Gemini directamente en el procesamiento del hardware.\nEl lanzamiento busca consolidar la integración de hardware y software con inteligencia artificial nativa frente a sus competidores.",
+      "id": "59bbd29b3a",
+      "tema": "emprendimiento",
+      "titular_es": "Brex propone supervisar el tráfico de red en lugar del código para asegurar agentes de IA",
+      "resumen": "Durante la conferencia VB Transform, el CEO de Brex planteó un nuevo enfoque para desplegar agentes autónomos como OpenClaw en entornos corporativos.\nEn lugar de auditar el código interno, la empresa monitorea las llamadas de red para prevenir comportamientos no autorizados.\nEl paradigma ofrece un modelo práctico para gestionar los riesgos de seguridad en la era agéntica.",
       "relevancia": 7,
-      "url": "https://www.theverge.com/tech/977448/made-by-google-2026-pixel-hardware-launch-event",
-      "fuente": "theverge.com",
+      "url": "https://venturebeat.com/orchestration/brex-assumes-its-ai-agents-could-do-anything-so-it-watches-the-network-not-the-code",
+      "fuente": "venturebeat.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Google",
-        "Pixel",
-        "hardware"
+        "Brex",
+        "seguridad",
+        "empresas"
       ]
     },
     {
-      "id": "d3b5290afd",
-      "tema": "ia",
-      "titular_es": "Filtración de datos en distribuidor europeo de Steam expone información de compradores de hardware",
-      "resumen": "Valve notificó a sus clientes sobre un incidente de seguridad sufrido por su socio logístico CEVA Logistics en Europa.\nLa brecha expuso nombres, direcciones, números telefónicos y correos electrónicos de usuarios que compraron dispositivos como Steam Deck.\nLa compañía aclaró que las contraseñas e información financiera no se vieron comprometidas durante el ataque.",
+      "id": "b8104a02ba",
+      "tema": "finanzas",
+      "titular_es": "Bank of America señala que la valuación de Nvidia se sitúa en mínimos de una década",
+      "resumen": "Según un informe de BofA, el título de Nvidia cotiza a solo 16 veces las ganancias proyectadas para 2027, su múltiplo más bajo en diez años.\nLa entidad anticipa revisiones al alza en las estimaciones impulsadas por el próximo lanzamiento de la arquitectura Vera Rubin.\nEl banco considera que la acción presenta un punto de entrada sumamente atractivo para inversores a largo plazo.",
       "relevancia": 7,
-      "url": "https://www.theverge.com/games/977314/valve-steam-hardware-shipping-data-breach",
-      "fuente": "theverge.com",
-      "bandera": "🇪🇺",
+      "url": "https://www.bloomberglinea.com/mercados/momento-de-invertir-en-nvidia-bofa-dice-que-su-valuacion-es-la-mas-baja-en-una-decada/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇺🇸",
       "tags": [
-        "Steam",
-        "ciberseguridad",
-        "privacidad"
+        "Nvidia",
+        "BofA",
+        "inversiones"
       ]
     },
     {
-      "id": "5479eb873a",
-      "tema": "ia",
-      "titular_es": "Ford integra un asistente con IA para monitorear combustible y presión de neumáticos",
-      "resumen": "El fabricante automotriz desplegará un nuevo asistente inteligente dentro de sus aplicaciones móviles para vehículos Ford y Lincoln.\nEl sistema es capaz de responder preguntas técnicas del auto, calcular el consumo necesario para viajes y consultar capacidades de remolque.\nLa función marca un avance significativo en la incorporación de IA generativa aplicada al mantenimiento y gestión vehicular.",
+      "id": "118bef4e28",
+      "tema": "finanzas",
+      "titular_es": "El precio del oro sube un 9% en un mes y analistas proyectan metas de US$5.000",
+      "resumen": "La cotización del metal precioso acumula una fuerte racha alcista impulsada por compras masivas de bancos centrales y el debilitamiento del dólar.\nGrandes firmas de Wall Street consideran que las condiciones macroeconómicas actuales dejan espacio para buscar nuevos máximos históricos.\nLa demanda como activo refugio se mantiene firme ante la incertidumbre global.",
       "relevancia": 7,
-      "url": "https://www.theverge.com/transportation/976748/ford-ai-assistant-mobile-app",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
+      "url": "https://www.bloomberglinea.com/mercados/oro-a-us5000-el-precio-sube-9-en-un-mes-y-wall-street-ve-espacio-para-volver-a-ese-nivel/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🌍",
       "tags": [
-        "Ford",
-        "automoción",
-        "IA"
+        "oro",
+        "materias primas",
+        "Wall Street"
       ]
     },
     {
       "id": "02dad743e3",
       "tema": "finanzas",
-      "titular_es": "Dudas en el mercado argentino por el destino de $4 billones capturados por el Tesoro",
-      "resumen": "La última licitación de deuda generó interrogantes en el sector financiero tras la falta de confirmación oficial sobre la ubicación de los fondos.\nAnalistas sugieren que el Tesoro depositó los pesos en bancos comerciales para inyectar liquidez y contención de tasas.\nLa ausencia de datos oficiales ha desatado especulaciones entre los operadores sobre el impacto monetario a corto plazo.",
+      "titular_es": "Licitación del Tesoro argentino de $4 billones genera dudas sobre el destino de los fondos",
+      "resumen": "La colocación masiva de deuda por parte del Gobierno buscaba absorber liquidez y moderar la volatilidad de las tasas de interés en el mercado local.\nNo obstante, la falta de precisión oficial sobre la ubicación final de esos pesos despertó inquietud entre operadores financieros.\nEl evento mantiene en alerta al mercado cambiario y bursátil argentino.",
       "relevancia": 7,
       "url": "https://www.bloomberglinea.com/latinoamerica/argentina/dudas-por-4-billones-que-capturo-el-tesoro-en-la-ultima-licitacion-donde-quedaron-y-por-que/",
       "fuente": "bloomberglinea.com",
       "bandera": "🇦🇷",
       "tags": [
         "Argentina",
-        "mercados",
-        "deuda"
+        "tesoro",
+        "mercados"
       ]
     },
     {
       "id": "fe6d2e6d53",
       "tema": "finanzas",
-      "titular_es": "Sismo en Colombia impone un temprano reto fiscal al nuevo gobierno",
-      "resumen": "El reciente terremoto que afectó al país cafetero genera presión sobre las cuentas públicas ante los elevados costos de reconstrucción.\nFirmas de análisis financiero advierten que la atención de la emergencia aleja al gobierno de su objetivo de consolidación fiscal.\nEl mercado observa de cerca cómo el ajuste en el gasto gubernamental impactará el endeudamiento y las tasas de interés.",
+      "titular_es": "Sismo en Colombia amenaza con descarrilar los objetivos de consolidación fiscal del Gobierno",
+      "resumen": "Los daños provocados por un reciente terremoto obligarán al nuevo Gobierno a destinar recursos de emergencia no contemplados en el presupuesto estatal.\nFirmas de análisis económico advierten que el imprevisto dificulta el cumplimiento de las metas de déficit fiscal fijadas para el año.\nLa situación añade presión a las finanzas públicas del país sudamericano.",
       "relevancia": 7,
       "url": "https://www.bloomberglinea.com/mercados/se-avecina-nuevo-reto-fiscal-sismo-en-colombia-pone-a-prueba-el-inicio-de-gobierno-de-abelardo-de-la-espriella/",
       "fuente": "bloomberglinea.com",
@@ -388,18 +294,153 @@
       ]
     },
     {
-      "id": "20c95f3fe5",
-      "tema": "ciencia",
-      "titular_es": "Eric Schmidt sostiene que la IA científica requiere capacidad de razonamiento y no solo datos",
-      "resumen": "El ex CEO de Google planteó que la aceleración del descubrimiento científico exige modelos capaces de formular hipótesis lógicas.\nEn un artículo especializado, argumenta que acumular grandes volúmenes de datos resulta insuficiente para resolver dilemas físicos complejos.\nDestaca la necesidad de una nueva arquitectura enfocada en el pensamiento inductivo y deductivo automatizado.",
+      "id": "d2ad93e1a7",
+      "tema": "finanzas",
+      "titular_es": "El Dow Jones sube tras avances en Medio Oriente mientras Rocket Lab se desploma",
+      "resumen": "Los principales índices de Wall Street registraron avances moderados impulsados por noticias geopolíticas favorables.\nEn contraste, la empresa aeroespacial Rocket Lab sufrió una fuerte caída bursátil tras presentar resultados trimestrales por debajo de las expectativas.\nEl comportamiento desigual refleja la cautela de los inversores ante los reportes corporativos.",
       "relevancia": 7,
-      "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-trump-us-iran-spacex-rocket-lab-rklb/?src=A00220&yptr=yahoo",
+      "fuente": "investors.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Dow Jones",
+        "Rocket Lab",
+        "resultados"
+      ]
+    },
+    {
+      "id": "829a339124",
+      "tema": "finanzas",
+      "titular_es": "Contratista de defensa israelí cae en bolsa pese a superar las proyecciones de ganancias",
+      "resumen": "A pesar de reportar ingresos y utilidades por encima de lo esperado, la acción de la compañía cedió terreno ante el recrudecimiento del conflicto militar con Irán.\nLa incertidumbre operacional y el costo de mantenimiento de infraestructura afectaron el sentimiento de los inversores.\nEl mercado priorizó los riesgos geopolíticos por encima de los balances contables.",
+      "relevancia": 7,
+      "url": "https://www.investors.com/news/elbit-systems-iran-war-israel-defense-aerospace/?src=A00220&yptr=yahoo",
+      "fuente": "investors.com",
+      "bandera": "🇮🇱",
+      "tags": [
+        "defensa",
+        "acciones",
+        "geopolítica"
+      ]
+    },
+    {
+      "id": "188882b5d1",
+      "tema": "finanzas",
+      "titular_es": "SEG Solar inaugura segunda fábrica en EE. UU. y eleva su capacidad a 6 GW",
+      "resumen": "La compañía de energía solar puso en marcha una nueva planta de producción de módulos fotovoltaicos en territorio estadounidense.\nCon esta expansión, la capacidad instalada total de la firma en el país alcanza los 6 gigavatios anuales.\nLa inversión refuerza la cadena de suministro local en medio de incentivos gubernamentales a la energía limpia.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/energy/articles/seg-solar-opens-second-pv-124650942.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "energía solar",
+        "industria",
+        "EE. UU."
+      ]
+    },
+    {
+      "id": "6589bb58c3",
+      "tema": "ciencia",
+      "titular_es": "Escáneres cerebrales confirman que los perros identifican emociones humanas",
+      "resumen": "Investigadores utilizaron resonancia magnética funcional para analizar la actividad cerebral canina ante distintas expresiones emocionales humanas.\nLos resultados demostraron patrones neuronales diferenciados al percibir alegría, miedo, ira y tristeza.\nEl estudio aporta evidencia biológica sobre la profunda evolución de la comunicación entre especies.",
+      "relevancia": 7,
+      "url": "https://arstechnica.com/science/2026/08/dogs-can-tell-if-youre-scared-or-sad/",
+      "fuente": "arstechnica.com",
+      "bandera": "🌍",
+      "tags": [
+        "neurociencia",
+        "biología",
+        "investigación"
+      ]
+    },
+    {
+      "id": "8a7d5b391d",
+      "tema": "ciencia",
+      "titular_es": "La inteligencia artificial comienza a transformar el campo de la investigación matemática",
+      "resumen": "El ganador de la Medalla Fields, James Maynard, abordó cómo las herramientas de IA están modificando las dinámicas de trabajo en las matemáticas puras.\nLa velocidad de razonamiento sintético está obligando a la disciplina a adaptar sus metodologías tradicionales de validación de teoremas.\nEl hito marca el inicio de una era de colaboración profunda entre matemáticos y sistemas computacionales.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
+      "fuente": "theverge.com",
+      "bandera": "🇬🇧",
+      "tags": [
+        "matemáticas",
+        "IA",
+        "ciencia"
+      ]
+    },
+    {
+      "id": "2754c90afa",
+      "tema": "ia",
+      "titular_es": "H3-metal permite la inferencia nativa de MiniMax-H3 en procesadores Apple Silicon",
+      "resumen": "Se presentó un nuevo proyecto de software que optimiza la ejecución del modelo MiniMax-H3 directamente en la GPU de los chips de Apple.\nAl utilizar la API Metal, se logran tiempos de respuesta considerablemente menores y un consumo de memoria más eficiente.\nEsta herramienta facilita a los desarrolladores la experimentación con modelos avanzados en computadores personales.",
+      "relevancia": 6,
+      "url": "https://github.com/antirez/h3.c",
+      "fuente": "github.com (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Apple",
+        "software",
+        "inferencia"
+      ]
+    },
+    {
+      "id": "a0494395c3",
+      "tema": "ia",
+      "titular_es": "El aumento de contenido sintético amenaza la memoria colectiva e histórica de internet",
+      "resumen": "Diversos análisis advierten que el avance masivo de la IA sobre la web está provocando el deterioro y la desaparición de archivos digitales históricos.\nLos rastreadores automáticos y la saturación de texto sintético modifican los índices de búsqueda tradicionales.\nEl fenómeno plantea desafíos urgentes para la preservación digital y la veracidad de la información futura.",
+      "relevancia": 6,
+      "url": "https://thewalrus.ca/google-search-is-dying/",
+      "fuente": "thewalrus.ca (vía HN)",
+      "bandera": "🌍",
+      "tags": [
+        "internet",
+        "web",
+        "IA"
+      ]
+    },
+    {
+      "id": "1c9bedbd0f",
+      "tema": "finanzas",
+      "titular_es": "ARK Invest adquiere acciones de Nvidia y Broadcom mientras desinvierte en Deere",
+      "resumen": "El fondo administrado por Cathie Wood ajustó su portafolio aumentando la exposición en gigantes semiconductores durante correcciones de mercado.\nParalelamente, recortó posiciones en la fabricante de maquinaria agrícola Deere & Company.\nEl movimiento confirma la apuesta continua del fondo por el sector de infraestructura para inteligencia artificial.",
+      "relevancia": 6,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ark-invest-buys-nvidia-broadcom-125002528.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "ARK Invest",
+        "Nvidia",
+        "bolsa"
+      ]
+    },
+    {
+      "id": "1e9dd24f27",
+      "tema": "ciencia",
+      "titular_es": "La investigación en IA busca nuevas arquitecturas de redes para superar a los transformers",
+      "resumen": "A casi una década de la introducción de los transformers por parte de Google, laboratorios académicos y startups exploran paradigmas alternativos.\nLos esfuerzos se centran en reducir la complejidad computacional y mejorar la eficiencia en el procesamiento de secuencias largas.\nEl cambio de enfoque pretende desbloquear la próxima generación de modelos de lenguaje.",
+      "relevancia": 6,
+      "url": "https://www.technologyreview.com/2026/08/11/1141610/the-download-next-big-thing-llms-ai-academic-research-shifting/",
       "fuente": "technologyreview.com",
       "bandera": "🇺🇸",
       "tags": [
-        "IA",
-        "ciencia",
-        "investigación"
+        "investigación",
+        "LLM",
+        "IA"
+      ]
+    },
+    {
+      "id": "1281650c99",
+      "tema": "ciencia",
+      "titular_es": "Académicos de IA redefinen el rol de la investigación universitaria frente a la industria",
+      "resumen": "Profesores e investigadores de alto nivel se reunieron en California para analizar la brecha creciente de recursos entre las universidades y los laboratorios corporativos.\nLos académicos buscan reorientar sus esfuerzos hacia la investigación teórica, la ética y la interpretabilidad de modelos.\nEl consenso apunta a complementar el desarrollo industrial con ciencia básica rigurosa.",
+      "relevancia": 6,
+      "url": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/",
+      "fuente": "technologyreview.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "universidad",
+        "investigación",
+        "IA"
       ]
     }
   ]
