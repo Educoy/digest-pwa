@@ -1,153 +1,133 @@
 {
-  "fecha": "2026-08-11",
-  "generado_utc": "2026-08-11T20:36:56Z",
+  "fecha": "2026-08-12",
+  "generado_utc": "2026-08-12T13:10:23Z",
   "indicadores": {
-    "dolar": {
-      "valor": 916.3,
-      "variacion": 4.53,
-      "variacion_pct": 0.5
-    },
     "uf": {
-      "valor": 40847.42,
-      "variacion": 1.31,
+      "valor": 40848.74,
+      "variacion": 1.32,
       "variacion_pct": 0.0
     }
   },
   "noticia_del_dia": "7cea10866b",
-  "pildora_ia": "Fine-tuning: reentrenar un modelo existente con tus propios datos para especializarlo. Más barato que entrenar desde cero, pero para conocimiento actualizado muchas veces conviene más RAG.",
+  "pildora_ia": "Alucinaciones: cuando un LLM genera información falsa con total seguridad. No 'miente': predice el texto más probable, y a veces lo más probable no es lo verdadero. Por eso conviene verificar datos críticos.",
   "pildoras_ia": [
-    "Fine-tuning: reentrenar un modelo existente con tus propios datos para especializarlo. Más barato que entrenar desde cero, pero para conocimiento actualizado muchas veces conviene más RAG.",
     "Alucinaciones: cuando un LLM genera información falsa con total seguridad. No 'miente': predice el texto más probable, y a veces lo más probable no es lo verdadero. Por eso conviene verificar datos críticos.",
     "Backpropagation: el método que reparte la 'culpa' del error entre todos los parámetros de una red, capa por capa, para saber cómo ajustar cada uno. Sin él, entrenar redes profundas sería inviable.",
     "Bias-variance tradeoff: el equilibrio central del ML. Un modelo muy simple falla por rígido (bias alto); uno muy complejo falla por inestable (varianza alta). El arte está en el punto medio.",
-    "Dropout: durante el entrenamiento se 'apagan' neuronas al azar en cada paso. Suena raro, pero obliga a la red a no depender de unas pocas conexiones y reduce el sobreajuste."
+    "Dropout: durante el entrenamiento se 'apagan' neuronas al azar en cada paso. Suena raro, pero obliga a la red a no depender de unas pocas conexiones y reduce el sobreajuste.",
+    "RLHF: aprendizaje por refuerzo con retroalimentación humana. Alinea a los LLM con lo que la gente considera útil y seguro usando preferencias humanas. Clave en ChatGPT, Gemini y Claude."
   ],
   "noticias": [
     {
       "id": "7cea10866b",
       "tema": "ia",
-      "titular_es": "ChatGPT y Gemini alcanzan simultáneamente los 1.000 millones de usuarios",
-      "resumen": "Tanto ChatGPT de OpenAI como Gemini de Google han superado la marca histórica de mil millones de usuarios activos mensuales.\nSundar Pichai confirmó que Gemini es el producto de crecimiento más rápido en la historia de la compañía.\nLa acelerada adopción masiva consolida a la inteligencia artificial generativa como una tecnología de escala global sin precedentes.",
+      "titular_es": "ChatGPT y Gemini alcanzan de forma simultánea los 1.000 millones de usuarios activos",
+      "resumen": "Tanto la plataforma de OpenAI como la herramienta de Google han alcanzado la cifra histórica de mil millones de usuarios mensuales.\nGemini se convierte en el producto de mayor crecimiento en la historia de Google.\nEl hito marca un punto de inflexión en la adopción masiva de la inteligencia artificial generativa.",
       "relevancia": 10,
       "url": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
       "fuente": "theverge.com",
-      "bandera": "🌍",
-      "tags": [
-        "OpenAI",
-        "Google",
-        "Gemini"
-      ]
-    },
-    {
-      "id": "75f09a8efd",
-      "tema": "ia",
-      "titular_es": "OpenAI presenta GPT-5.6-Cyber para investigación de ciberseguridad avanzada",
-      "resumen": "OpenAI lanzó un modelo especializado diseñado para realizar investigación de vulnerabilidades y desarrollo de explots para defensores autorizados.\nLa versión cuenta con una tasa de completado del 95% en tareas complejas de seguridad informática y reduce rechazos automáticos innecesarios.\nLa herramienta busca equipar a profesionales frente a amenazas emergentes sin comprometer salvaguardas éticas.",
-      "relevancia": 9,
-      "url": "https://venturebeat.com/technology/openai-launches-gpt-5-6-cyber-with-reduced-refusals-95-completion-on-advanced-cybersecurity-tasks",
-      "fuente": "venturebeat.com",
       "bandera": "🇺🇸",
       "tags": [
         "OpenAI",
-        "ciberseguridad",
-        "modelos de lenguaje"
+        "Google",
+        "inteligencia artificial"
       ]
     },
     {
-      "id": "cc3159d6ae",
+      "id": "ec2a33ae5c",
       "tema": "ia",
-      "titular_es": "Anthropic integrará marcas de agua invisibles en textos e imágenes de Claude",
-      "resumen": "Anthropic anunció que incrustará marcas de agua digitales y metadatos firmados en los contenidos generados por Claude.\nLa medida busca cumplir con las estrictas normativas europeas sobre transparencia y trazabilidad de IA.\nLa actualización permitirá verificar de forma automatizada si un contenido sintético fue producido por su plataforma.",
+      "titular_es": "Brad Lightcap, ex-COO de OpenAI, renuncia a la compañía tras ocho años",
+      "resumen": "El líder de proyectos especiales y exdirector de operaciones de OpenAI anunció su dimisión para iniciar un nuevo proyecto.\nSu renuncia se suma a una serie de salidas ejecutivas clave en la firma liderada por Sam Altman.\nLa partida ocurre mientras la empresa atraviesa una etapa de reestructuración corporativa.",
       "relevancia": 9,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/978048/brad-lightcap-openai-executive-departure",
       "fuente": "theverge.com",
-      "bandera": "🇪🇺",
+      "bandera": "🇺🇸",
       "tags": [
-        "Anthropic",
-        "Claude",
-        "regulación"
+        "OpenAI",
+        "liderazgo",
+        "tecnología"
+      ]
+    },
+    {
+      "id": "39c0907ab4",
+      "tema": "ia",
+      "titular_es": "Nvidia presenta Nemotron 3.5 Lightning y la plataforma NeMo Switchyard",
+      "resumen": "El fabricante de chips lanzó nuevos modelos optimizados para inferencia rápida e infraestructura de IA.\nLas herramientas buscan optimizar el rendimiento y reducir la latencia en centros de datos empresariales.\nNvidia continúa reforzando su ecosistema de software para sostener su dominio en el sector.",
+      "relevancia": 9,
+      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+      "fuente": "blogs.nvidia.com (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Nvidia",
+        "modelos de lenguaje",
+        "hardware"
+      ]
+    },
+    {
+      "id": "9ebfb3cbe9",
+      "tema": "ia",
+      "titular_es": "SpaceXAI lanza Grok Bot como un agente de IA para tareas laborales autónomas",
+      "resumen": "La división de IA presentó un servicio de agentes diseñados para actuar como compañeros de trabajo digitales.\nLos bots comparten entornos en la nube y pueden operar aplicaciones corporativas de forma independiente.\nEl producto busca ejecutar flujos de trabajo complejos de múltiples pasos sin supervisión constante.",
+      "relevancia": 9,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "SpaceXAI",
+        "agentes de ia",
+        "automatización"
+      ]
+    },
+    {
+      "id": "843e93a16e",
+      "tema": "finanzas",
+      "titular_es": "La inflación en EE. UU. sube un 0,1% en julio y sitúa la tasa anual en el 3,4%",
+      "resumen": "El índice de precios al consumo registró un avance moderado dentro de las expectativas del mercado.\nLa cifra anualizada refleja una senda de contención tras los recientes choques energéticos.\nEl dato proporciona certidumbre a los analistas sobre la evolución macroeconómica de EE. UU.",
+      "relevancia": 9,
+      "url": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
+      "fuente": "cnbc.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "inflación",
+        "EE. UU.",
+        "macroeconomía"
       ]
     },
     {
       "id": "3571ff97a4",
       "tema": "emprendimiento",
-      "titular_es": "River AI recauda $1.100 millones en su segunda semana de fundación",
-      "resumen": "La nueva startup River AI, cofundada por el exintegrante de xAI Igor Babuschkin, cerró una ronda masiva de inversión liderada por General Catalyst.\nLa compañía, creada hace apenas dos meses, busca desarrollar agentes personales autónomos de próxima generación.\nLa valoración histórica resalta el enorme interés de los fondos de capital de riesgo en infraestructura de IA.",
+      "titular_es": "River AI obtiene 1.100 millones de dólares a solo dos meses de su fundación",
+      "resumen": "La startup creada por Igor Babuschkin, ex cofundador de xAI, cerró una ronda liderada por General Catalyst.\nLa firma desarrolla agentes de IA personales con una de las mayores valoraciones iniciales del sector.\nEl levantamiento masivo evidencia el enorme interés del capital de riesgo por la infraestructura de agentes.",
       "relevancia": 9,
       "url": "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/",
       "fuente": "techcrunch.com",
       "bandera": "🇺🇸",
       "tags": [
         "River AI",
-        "venture capital",
-        "agentes"
-      ]
-    },
-    {
-      "id": "cda8419705",
-      "tema": "emprendimiento",
-      "titular_es": "Mistral AI planea construir 1 gigavatio de capacidad de cómputo en Europa",
-      "resumen": "La startup francesa Mistral AI anunció una ambiciosa expansión de infraestructura para garantizar la soberanía tecnológica europea antes de 2030.\nEl plan incluye endpoints regionales de inferencia y acuerdos de nivel de servicio garantizados para empresas multinacionales.\nLa iniciativa busca reducir la dependencia europea de los centros de datos estadounidenses.",
-      "relevancia": 9,
-      "url": "https://venturebeat.com/infrastructure/mistral-ai-wants-to-build-1-gigawatt-of-european-compute-by-2030-and-lock-in-customers-now",
-      "fuente": "venturebeat.com",
-      "bandera": "🇫🇷",
-      "tags": [
-        "Mistral AI",
-        "Europa",
-        "infraestructura"
-      ]
-    },
-    {
-      "id": "8755559742",
-      "tema": "ia",
-      "titular_es": "La responsable de ética de OpenAI deja su cargo tras menos de un año",
-      "resumen": "La directora del departamento de ética de OpenAI presentó su renuncia sorpresiva a menos de doce meses de asumir la posición.\nLa salida se suma a una secuencia de dimisiones de ejecutivos clave en áreas de seguridad y gobernanza dentro del laboratorio de IA.\nEl acontecimiento reaviva el debate sobre el equilibrio entre comercialización acelerada y desarrollo responsable de modelos.",
-      "relevancia": 8,
-      "url": "https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0",
-      "fuente": "ft.com (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "OpenAI",
-        "ética",
-        "gobierno corporativo"
-      ]
-    },
-    {
-      "id": "ec2a33ae5c",
-      "tema": "ia",
-      "titular_es": "Brad Lightcap renuncia como líder de proyectos especiales en OpenAI",
-      "resumen": "El exdirector de operaciones y actual encargado de proyectos especiales de OpenAI anunció su dimisión tras ocho años en la firma.\nEn un comunicado interno, indicó que dejará la organización para emprender un nuevo proyecto personal.\nSu partida marca el fin de una etapa decisiva en la escalada operativa e institucional de la empresa tecnológica.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/978048/brad-lightcap-openai-executive-departure",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "OpenAI",
-        "ejecutivos",
-        "liderazgo"
+        "capital de riesgo",
+        "agentes de ia"
       ]
     },
     {
       "id": "0e36626fb2",
       "tema": "ia",
-      "titular_es": "Apple desarrolla función para verificar autenticidad de fotos e impedir deepfakes",
-      "resumen": "Apple está probando en la versión beta de iOS un sistema denominado Apple Reference Image que inserta metadatos criptográficos en capturas de la cámara.\nEl mecanismo permitirá probar que una fotografía no ha sido alterada o generada por inteligencias artificiales.\nLa tecnología busca combatir la desinformación visual directamente desde la arquitectura del hardware del iPhone.",
+      "titular_es": "Apple prueba una función en iOS para verificar la autenticidad de fotos frente a deepfakes",
+      "resumen": "La versión beta de iOS incluye referencias a un sistema que incrusta metadatos criptográficos en el disparo.\nLa tecnología permite certificar que una imagen fue capturada por la cámara del iPhone sin alteraciones por IA.\nEl avance busca ofrecer herramientas de procedencia de contenido ante el auge de la desinformación.",
       "relevancia": 8,
       "url": "https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
         "Apple",
-        "iPhone",
-        "deepfakes"
+        "iOS",
+        "ciberseguridad"
       ]
     },
     {
       "id": "fa830ce9c8",
       "tema": "ia",
-      "titular_es": "Descubren fallo de seguridad crítico en Zoom utilizando menos de 20 prompts de IA",
-      "resumen": "Investigadores de seguridad revelaron una vulnerabilidad grave en Zoom denominada Zoomsday que permitía tomar control de dispositivos remotos.\nLa brecha fue hallada empleando menos de una veintena de instrucciones en modelos de IA generativa de acceso público.\nZoom corrigió la falla de inmediato tras ser notificado de este novedoso vector de ataque asistido por IA.",
+      "titular_es": "Descubren y corrigen falla crítica en Zoom hallada con menos de 20 prompts de IA",
+      "resumen": "Investigadores solucionaron la vulnerabilidad 'Zoomsday' que permitía secuestrar dispositivos en llamadas.\nEl fallo fue identificado utilizando modelos de IA comerciales con un número mínimo de indicaciones.\nEl caso resalta el potencial de la IA para acelerar la auditoría de seguridad en software masivo.",
       "relevancia": 8,
       "url": "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack",
       "fuente": "theverge.com",
@@ -155,59 +135,164 @@
       "tags": [
         "Zoom",
         "ciberseguridad",
-        "prompts"
+        "inteligencia artificial"
       ]
     },
     {
-      "id": "29c27da327",
-      "tema": "ia",
-      "titular_es": "Spotify etiquetará a artistas sintéticos y los excluirá de recomendaciones",
-      "resumen": "A partir de septiembre, Spotify colocará una insignia de Persona IA en los perfiles de artistas que no correspondan a personas reales.\nAdicionalmente, la plataforma eliminará automáticamente la música generada por IA de los algoritmos de recomendación de los usuarios.\nLa medida busca proteger los derechos de autor de artistas reales y evitar el spam de audio sintético.",
+      "id": "95d711f561",
+      "tema": "finanzas",
+      "titular_es": "El dato de IPC respalda la postura de la Reserva Federal de congelar los tipos en septiembre",
+      "resumen": "La lectura moderada de los precios reforzó la previsión de que la Fed no subirá las tasas este mes.\nLos mercados financieros reaccionaron positivamente ante la menor presión inflacionaria.\nLos inversores prevén un periodo de estabilidad en la política monetaria estadounidense.",
       "relevancia": 8,
-      "url": "https://www.theverge.com/entertainment/977815/spotify-ai-persona-label-recommendations",
-      "fuente": "theverge.com",
+      "url": "https://finance.yahoo.com/economy/policy/article/cooler-cpi-inflation-reading-bolsters-case-for-fed-to-hold-rates-in-september-125312469.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Reserva Federal",
+        "tasas de interés",
+        "mercados"
+      ]
+    },
+    {
+      "id": "9b8d4d5452",
+      "tema": "finanzas",
+      "titular_es": "Resultados de Nubank motivan a Wall Street con una proyección de alza del 30%",
+      "resumen": "El neobanco latinoamericano reportó sólidas expectativas de crecimiento en ingresos y beneficios.\nAnalistas siguen de cerca la expansión de la cartera de crédito y el comportamiento de la morosidad.\nLas proyecciones impulsan el optimismo del mercado sobre la cotización de la firma fintech.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/mercados/resultados-de-nubank-wall-street-espera-fuerte-crecimiento-y-ve-un-30-de-potencial-en-la-accion/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇧🇷",
+      "tags": [
+        "Nubank",
+        "fintech",
+        "resultados"
+      ]
+    },
+    {
+      "id": "0eccf341ae",
+      "tema": "finanzas",
+      "titular_es": "Satellogic se dispara un 180% en bolsa por sus contratos de defensa y proyecto con OpenAI",
+      "resumen": "La empresa satelital argentina experimentó un fuerte rally tras virar hacia contratos de defensa.\nAvanza en el desarrollo de un centro de datos en Neuquén en alianza con OpenAI.\nSu fundador destacó la influencia del nuevo marco regulatorio argentino para la inteligencia artificial.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/por-que-vuela-satellogic-el-paper-de-ia-que-inspiro-a-milei-y-la-apuesta-de-kargieman-con-openai/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇦🇷",
+      "tags": [
+        "Satellogic",
+        "OpenAI",
+        "acciones"
+      ]
+    },
+    {
+      "id": "7c0b5fec50",
+      "tema": "finanzas",
+      "titular_es": "BTG Pactual calcula en US$ 6.350 millones el costo inicial por el terremoto en Colombia",
+      "resumen": "La estimación preliminar del banco de inversión anticipa una reestructuración fiscal para el gobierno.\nEl presupuesto nacional deberá reasignar recursos hacia la reconstrucción de infraestructura prioritaria.\nEl evento telúrico modificará la agenda económica y las metas fiscales de corto plazo.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/mercados/atencion-inicial-del-terremoto-en-colombia-se-estima-en-us6350-millones-segun-btg-pactual/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇨🇴",
+      "tags": [
+        "Colombia",
+        "presupuesto",
+        "infraestructura"
+      ]
+    },
+    {
+      "id": "4b96ff195c",
+      "tema": "finanzas",
+      "titular_es": "La CFTC declara emergencia de mercado y manda a Kalshi mantener operaciones en Nueva York",
+      "resumen": "El regulador estadounidense ordenó la continuidad operativa de la plataforma de contratos de predicción.\nLa medida busca prevenir perturbaciones en el mercado de derivados en un periodo crítico.\nLa resolución sienta un precedente relevante en la supervisión de plataformas fintechi.",
+      "relevancia": 8,
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/9281-26",
+      "fuente": "cftc.gov (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "regulación",
+        "CFTC",
+        "mercados"
+      ]
+    },
+    {
+      "id": "024fdf3631",
+      "tema": "finanzas",
+      "titular_es": "El petróleo sube tras ataques a buques navieros y trabas en las negociaciones EE.UU.-Irán",
+      "resumen": "Los precios del crudo avanzaron por el incremento del riesgo en rutas marítimas del Medio Oriente.\nEl estancamiento en las conversaciones diplomáticas añade presión sobre la oferta energética.\nEl mercado petrolero vuelve a mostrar alta sensibilidad a las tensiones geopolíticas.",
+      "relevancia": 8,
+      "url": "https://finance.yahoo.com/news/oil-rises-doubts-over-us-063114070.html",
+      "fuente": "finance.yahoo.com",
       "bandera": "🌍",
       "tags": [
-        "Spotify",
-        "música",
-        "derechos de autor"
+        "petróleo",
+        "commodities",
+        "geopolítica"
       ]
     },
     {
-      "id": "9d15d3fddc",
-      "tema": "ia",
-      "titular_es": "El Metro de Londres inicia el escaneo facial de pasajeros en sus instalaciones",
-      "resumen": "La red de transporte público de Londres puso en marcha un sistema de reconocimiento facial automatizado para escanear a los usuarios en las estaciones.\nLas autoridades argumentan que la medida aumentará la seguridad física y prevendrá delitos en la red subterránea.\nEl proyecto ha reavivado discusiones sobre la privacidad de datos biométricos y la vigilancia masiva en Europa.",
+      "id": "618c36a031",
+      "tema": "emprendimiento",
+      "titular_es": "La startup de pruebas de código Blacksmith multiplica por diez su valoración en menos de un año",
+      "resumen": "La empresa especializada en automatización de pruebas para software multiplicó por diez sus ingresos.\nEl rápido crecimiento operativo atrajo nueva inversión con un incremento sustancial de valoración.\nEl rendimiento confirma la alta demanda corporativa de herramientas de calidad de código.",
       "relevancia": 8,
-      "url": "https://www.btp.police.uk/news/btp/news/england/btp-expands-live-facial-recognition-lfr-trial-into-london-underground-stations/",
-      "fuente": "btp.police.uk (vía HN)",
-      "bandera": "🇬🇧",
+      "url": "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸",
       "tags": [
-        "Londres",
-        "reconocimiento facial",
-        "privacidad"
+        "Blacksmith",
+        "software",
+        "inversión"
+      ]
+    },
+    {
+      "id": "40443c208a",
+      "tema": "emprendimiento",
+      "titular_es": "La startup india Yulu recauda 93 millones de dólares impulsada por las entregas rápidas",
+      "resumen": "La plataforma de movilidad levantó capital para escalar su flota a 200.000 bicicletas eléctricas.\nEl crecimiento del comercio ultrarrápido en India disparó la demanda de logística ligera de última milla.\nLa empresa busca diversificar sus vehículos para cubrir nuevas operaciones de distribución.",
+      "relevancia": 8,
+      "url": "https://techcrunch.com/2026/08/11/indias-yulu-raises-93m-as-quick-commerce-boom-fuels-e-bike-demand/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇮🇳",
+      "tags": [
+        "Yulu",
+        "movilidad eléctrica",
+        "India"
       ]
     },
     {
       "id": "c23c8bbd70",
       "tema": "emprendimiento",
-      "titular_es": "Kyoto Fusioneering arranca la producción de componentes para plantas de fusión",
-      "resumen": "La startup japonesa de energía Kyoto Fusioneering recibió una subvención oficial para fabricar un sistema clave de bombeo de combustible para plantas de fusión nuclear.\nSu tecnología está siendo adoptada por múltiples desarrolladores internacionales para acelerar la comercialización de la fusión limpia.\nEl hito marca el paso de prototipos teóricos a manufactura industrial real.",
+      "titular_es": "Kyoto Fusioneering inicia el desarrollo de componentes clave para plantas de fusión nuclear",
+      "resumen": "La startup japonesa recibió financiación pública para construir dispositivos del sistema de combustible.\nDiversas empresas globales de fusión están recurriendo a sus componentes especializados.\nEl avance marca la transición del sector desde la investigación teórica hacia la ingeniería comercial.",
       "relevancia": 8,
       "url": "https://techcrunch.com/2026/08/11/kyoto-fusioneering-starts-work-on-key-fusion-power-plant-device/",
       "fuente": "techcrunch.com",
       "bandera": "🇯🇵",
       "tags": [
-        "Kyoto Fusioneering",
-        "energía",
-        "fusión nuclear"
+        "fusión nuclear",
+        "Japón",
+        "energía"
+      ]
+    },
+    {
+      "id": "2deee44b21",
+      "tema": "emprendimiento",
+      "titular_es": "Accel cierra un fondo de 550 millones de dólares para el mercado indio en pocas semanas",
+      "resumen": "La firma de capital de riesgo completó con sobresuscripción su nuevo vehículo enfocado en India.\nEl cierre acelerado se logró pese a mantener un alto porcentaje sin desplegar de su fondo anterior.\nEl movimiento confirma la confianza a largo plazo de los inversores institucionales en el ecosistema indio.",
+      "relevancia": 8,
+      "url": "https://techcrunch.com/2026/08/11/accel-closes-oversubscribed-550m-india-fund-within-weeks-19-months-after-its-last/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇮🇳",
+      "tags": [
+        "Accel",
+        "capital de riesgo",
+        "India"
       ]
     },
     {
       "id": "8476d0f174",
       "tema": "emprendimiento",
-      "titular_es": "El fondo Scaleup Europe realiza su primera inversión en la empresa satelital ICEYE",
-      "resumen": "El fondo público-privado europeo dotado con $5.700 millones hizo su debut invirtiendo en la firma finlandesa de micro satélites de radar ICEYE.\nEl objetivo de la megaestructura financiera es evitar que las startups tecnológicas de alto crecimiento emigren a Estados Unidos.\nLa inyección de capital impulsará la flota de observación terrestre de la compañía.",
+      "titular_es": "El fondo Scaleup Europe realiza su primera inversión respaldando a la firma satelital ICEYE",
+      "resumen": "El fondo de inversión público-privado de 5.700 millones de dólares completó su operación inicial.\nInvirtió en la empresa finlandesa de satélites de radar de observación terrestre ICEYE.\nLa iniciativa busca escalar empresas tecnológicas estratégicas dentro del continente europeo.",
       "relevancia": 8,
       "url": "https://techcrunch.com/2026/08/11/whats-scaleup-europe-the-5-7b-fund-that-just-backed-satellite-company-iceye/",
       "fuente": "techcrunch.com",
@@ -219,183 +304,168 @@
       ]
     },
     {
-      "id": "2ddc846f3b",
+      "id": "46391e3b8d",
       "tema": "emprendimiento",
-      "titular_es": "Lightricks presenta LTX-2.5, modelo abierto para generación de video ultrarrápido",
-      "resumen": "La startup LTX lanzó su nuevo modelo generativo de código y pesos abiertos capaz de crear 10 segundos de video desde una imagen en 6,8 segundos.\nLa herramienta viene integrada de forma nativa en ComfyUI para facilitar el flujo de trabajo de desarrolladores y creativos.\nLa innovación consolida la competencia de modelos abiertos frente a alternativas propietarias.",
+      "titular_es": "Skan AI asegura 63 millones de dólares para mapear procesos laborales en empresas",
+      "resumen": "La startup cerró su Serie C copresidida por Cathay Innovation y Dell Technologies Capital.\nDesarrolla software que observa la interacción de empleados con herramientas para construir grafos de trabajo.\nLa tecnología busca proporcionar el contexto necesario para desplegar IA empresarial efectiva.",
       "relevancia": 8,
-      "url": "https://venturebeat.com/technology/ltx-2-5-can-generate-a-10-second-ai-video-from-an-image-in-just-6-8-seconds-on-nvidia-superchips-and-its-open-weights",
-      "fuente": "venturebeat.com",
-      "bandera": "🇮🇱",
-      "tags": [
-        "LTX",
-        "ComfyUI",
-        "video IA"
-      ]
-    },
-    {
-      "id": "c0f55bd46c",
-      "tema": "emprendimiento",
-      "titular_es": "Nvidia lanza el enrutador Switchyard para reducir costos en agentes de IA",
-      "resumen": "Nvidia presentó Switchyard, un sistema capaz de redireccionar consultas entre diferentes modelos de IA en medio de una tarea según el nivel de complejidad.\nEn pruebas internas, la tecnología logró reducir el costo operativo de procesamiento a un tercio sin comprometer la precisión.\nEsta solución resuelve un dolor de cabeza clave en la arquitectura de costos para startups e industrias.",
-      "relevancia": 8,
-      "url": "https://venturebeat.com/orchestration/nvidias-switchyard-router-reshuffles-ai-models-mid-task-cutting-task-costs-to-a-third-in-its-own-tests",
+      "url": "https://venturebeat.com/data/skan-ai-raises-63-million-betting-that-watching-how-employees-actually-work-is-the-missing-layer-of-enterprise-ai",
       "fuente": "venturebeat.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Nvidia",
-        "Switchyard",
-        "optimización"
+        "Skan AI",
+        "IA empresarial",
+        "inversión"
       ]
     },
     {
-      "id": "f808965f67",
-      "tema": "finanzas",
-      "titular_es": "Wall Street retrocede ante tensiones geopolíticas y a la espera del dato de inflación",
-      "resumen": "Los principales índices bursátiles de Estados Unidos cerraron a la baja por el aumento en los precios del petróleo tras nuevos roces entre Washington e Irán.\nLos inversionistas operaron con extrema cautela antes de la publicación del índice de precios al consumidor.\nEl informe será determinante para prever la magnitud de los próximos recortes de tasas de la Reserva Federal.",
+      "id": "4361bd4cf5",
+      "tema": "emprendimiento",
+      "titular_es": "Nace la startup Gamgee tras el caso de la vacuna contra el cáncer canino creada con ChatGPT",
+      "resumen": "El emprendedor Paul Conyngham lanzó oficialmente su empresa dedicada a tratamientos biológicos para mascotas.\nEl caso cobró notoriedad global tras usar IA para diseñar una terapia personalizada para su propio perro.\nGamgee ofrecerá vacunas de mRNA personalizadas para el sector veterinario.",
       "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/mercados/wall-street-sube-y-el-petroleo-cae-ante-avances-en-el-dialogo-entre-estados-unidos-e-iran/",
-      "fuente": "bloomberglinea.com",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee",
+      "fuente": "theverge.com",
+      "bandera": "🇦🇺",
+      "tags": [
+        "Gamgee",
+        "biotecnología",
+        "ChatGPT"
+      ]
+    },
+    {
+      "id": "aa04d9fec5",
+      "tema": "ciencia",
+      "titular_es": "MIT Technology Review prepara la revelación de la lista Innovadores Menores de 35 de 2026",
+      "resumen": "La publicación dará a conocer su reconocido listado de jóvenes científicos e ingenieros el 8 de septiembre.\nEl premio destaca proyectos con alto impacto en salud, energía, computación y biotecnología.\nEl proceso de selección evalúa miles de candidaturas de investigadores globales.",
+      "relevancia": 8,
+      "url": "https://www.technologyreview.com/2026/08/12/1141714/the-download-innovators-under-35-censorship-industrial-complex/",
+      "fuente": "technologyreview.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Wall Street",
-        "Fed",
-        "inflación"
+        "MIT",
+        "innovación",
+        "ciencia"
       ]
     },
     {
-      "id": "a9a25c4f5d",
-      "tema": "finanzas",
-      "titular_es": "Oxford Economics proyecta presiones en precios en Colombia tras reciente sismo",
-      "resumen": "La firma consultora advirtió que los problemas en las cadenas de suministro e infraestructura en Colombia podrían elevar los costos al consumidor en el corto plazo.\nEl análisis señala que el choque de oferta dependerá de la velocidad con que se restablezcan las rutas de distribución.\nEl Banco de la República monitoreará si el evento altera la convergencia inflacionaria.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/mercados/oxford-economics-advierte-posibles-presiones-sobre-precios-en-colombia-tras-el-sismo/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇨🇴",
-      "tags": [
-        "Colombia",
-        "inflación",
-        "macroeconomía"
-      ]
-    },
-    {
-      "id": "7c0b5fec50",
-      "tema": "finanzas",
-      "titular_es": "BTG Pactual calcula en US$6.350 millones la atención inicial por terremoto en Colombia",
-      "resumen": "Un informe de BTG Pactual estimó los costos fiscales y de infraestructura requeridos para atender la emergencia sísmica en Colombia.\nEl imprevisto obligará al gobierno nacional a reajustar el presupuesto del año y buscar nuevas fuentes de financiamiento público.\nLa situación añade presión al déficit fiscal y a los bonos soberanos del país.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/mercados/atencion-inicial-del-terremoto-en-colombia-se-estima-en-us6350-millones-segun-btg-pactual/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇨🇴",
-      "tags": [
-        "Colombia",
-        "BTG Pactual",
-        "presupuesto"
-      ]
-    },
-    {
-      "id": "c8c7f6fe23",
+      "id": "77490ab559",
       "tema": "ciencia",
-      "titular_es": "Inglaterra proyecta convertirse en uno de los primeros países en erradicar la hepatitis C",
-      "resumen": "Gracias a un programa nacional intensivo de diagnóstico y distribución de antivirales de acción directa, el servicio de salud británico está cerca de eliminar la hepatitis C.\nEl hito antecede significativamente la meta fijada por la Organización Mundial de la Salud para el año 2030.\nEl modelo demuestra la efectividad de políticas sanitarias proactivas e inversión pública continua.",
+      "titular_es": "EE. UU. recluta a más de 2.000 jugadores de videojuegos como controladores aéreos",
+      "resumen": "La aviación civil estadounidense contrató a miles de 'gamers' para cubrir la escasez de personal en torres.\nLas evaluaciones mostraron que las habilidades de visión espacial y reflejos se adaptan al puesto.\nEl programa busca modernizar los métodos tradicionales de reclutamiento de personal operativo.",
       "relevancia": 8,
-      "url": "https://www.bbc.com/news/articles/c75gk620r22o",
-      "fuente": "bbc.com (vía HN)",
-      "bandera": "🇬🇧",
+      "url": "https://www.cbsnews.com/news/video-gamer-air-traffic-controllers-faa-recruitment-sean-duffy/",
+      "fuente": "cbsnews.com (vía HN)",
+      "bandera": "🇺🇸",
       "tags": [
-        "salud pública",
-        "hepatitis",
-        "medicina"
+        "aviación",
+        "gamers",
+        "empleo"
       ]
     },
     {
-      "id": "40ab43406c",
-      "tema": "ciencia",
-      "titular_es": "Monitoreo horario de calor extremo proyecta un impacto climático más severo",
-      "resumen": "Investigadores climáticos señalan que medir las temperaturas por horas en lugar de promedios diarios revela un aumento crítico en el estrés térmico.\nLos modelos prevén que la cantidad de horas sofocantes durante el verano podría triplicarse en las próximas décadas.\nEl enfoque ofrece mejores métricas para evaluar riesgos en la salud humana y redes eléctricas.",
-      "relevancia": 8,
-      "url": "https://arstechnica.com/science/2026/08/tracking-extreme-heat-by-the-hour-makes-climate-change-seem-even-worse/",
-      "fuente": "arstechnica.com",
+      "id": "9f0fe24899",
+      "tema": "ia",
+      "titular_es": "Presentan WorldClaw para la generación agentiva de mundos 3D a gran escala",
+      "resumen": "Se dio a conocer un sistema capaz de generar entornos tridimensionales utilizando agentes autónomos.\nLa herramienta automatiza el diseño de escenarios complejos para videojuegos y simuladores.\nEl proyecto demuestra avances en el uso de IA para la creación de gráficos e industrias creativas.",
+      "relevancia": 7,
+      "url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
+      "fuente": "tencent-hunyuan.github.io (vía HN)",
       "bandera": "🌍",
       "tags": [
-        "clima",
-        "calor extremo",
-        "investigación"
+        "gráficos 3d",
+        "agentes de ia",
+        "videojuegos"
       ]
     },
     {
-      "id": "4abc44b272",
-      "tema": "emprendimiento",
-      "titular_es": "Manus volverá a operar como una empresa totalmente independiente",
-      "resumen": "La compañía tecnológica Manus reestructuró su propiedad para retornar a un modelo operativo independiente en el mercado.\nLa transición le otorgará mayor libertad para negociar alianzas estratégicas y desarrollar nuevos productos de software.\nLa directiva busca acelerar su hoja de ruta sin las restricciones de grandes conglomerados.",
+      "id": "254ef1dd1f",
+      "tema": "finanzas",
+      "titular_es": "Filial de CFE solicita autorización para emitir capital en el fideicomiso Fibra E",
+      "resumen": "La subsidiaria eléctrica estatal mexicana busca financiamiento a través de los mercados locales.\nLos fondos netos se destinarán a ampliar y modernizar la red de transmisión eléctrica del país.\nLa emisión fortalece la inversión pública en infraestructura energética clave.",
       "relevancia": 7,
-      "url": "https://manus.im/blog/a-note-to-our-users",
-      "fuente": "manus.im (vía HN)",
-      "bandera": "🇺🇸",
+      "url": "https://www.bloomberglinea.com/latinoamerica/mexico/filial-de-cfe-solicita-permiso-para-nueva-emision-de-capital-de-fibra-e/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇲🇽",
       "tags": [
-        "Manus",
-        "reestructuración",
-        "startups"
+        "CFE",
+        "México",
+        "energía"
       ]
     },
     {
       "id": "fe42bb1e43",
       "tema": "finanzas",
-      "titular_es": "Grupo Supervielle vuelve a registrar ganancias en el segundo trimestre",
-      "resumen": "El holding financiero argentino anunció un resultado positivo apoyado en el incremento significativo de sus márgenes de intermediación financiera.\nAnalistas del sector consideraron que la acción de la entidad cotiza con un descuento excesivo frente a sus pares de la región.\nLos resultados muestran una mejora operativa en medio del complejo entorno macroeconómico argentino.",
+      "titular_es": "Grupo Financiero Supervielle vuelve a la rentabilidad en el segundo trimestre",
+      "resumen": "La entidad bancaria argentina revirtió sus pérdidas previas gracias a la mejora del margen financiero.\nInformes bursátiles consideran que el título cotiza con un descuento frente a sus pares del sector.\nEl resultado refleja una paulatina recuperación operativa del sistema financiero argentino.",
       "relevancia": 7,
       "url": "https://www.bloomberglinea.com/latinoamerica/argentina/supervielle-revirtio-perdidas-y-una-consultora-considero-que-cotiza-con-descuento-desmedido/",
       "fuente": "bloomberglinea.com",
       "bandera": "🇦🇷",
       "tags": [
         "Supervielle",
-        "Argentina",
-        "resultados"
+        "banca",
+        "Argentina"
       ]
     },
     {
-      "id": "0eade4fe4f",
+      "id": "c5d5cda8a9",
       "tema": "finanzas",
-      "titular_es": "Goldman Sachs advierte mayor volatilidad en el dólar ante cambios en la Fed",
-      "resumen": "Un análisis de Goldman Sachs proyecta fluctuaciones más pronunciadas en el valor global del dólar debido a la disminución de señales explícitas por parte de la Reserva Federal.\nAunque los factores fundamentales macroeconómicos seguirán guiando la tendencia, la menor previsibilidad institucional aumentará las oscilaciones cambiarias.\nSe recomienda cautela en posiciones en divisas emergentes.",
+      "titular_es": "La escasez de red eléctrica representa el mayor riesgo para los centros de datos en EE. UU.",
+      "resumen": "El despliegue de infraestructura para IA enfrenta cuellos de botella en la capacidad de transmisión.\nAnalistas advierten que la falta de energía disponible puede ralentizar inversiones multimillonarias.\nEl sector tecnológico presiona por reformas rápidas en la red eléctrica estadounidense.",
       "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/mercados/el-dolar-puede-volverse-mas-volatil-la-senal-que-ve-goldman-sachs-con-la-fed-de-warsh/",
-      "fuente": "bloomberglinea.com",
+      "url": "https://finance.yahoo.com/economy/article/heres-the-biggest-risk-to-americas-data-center-building-boom-121942236.html",
+      "fuente": "finance.yahoo.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Goldman Sachs",
-        "dólar",
-        "Fed"
+        "centros de datos",
+        "energía",
+        "IA"
       ]
     },
     {
-      "id": "d02131ac88",
-      "tema": "finanzas",
-      "titular_es": "El reporte de inflación de julio marcará la hoja de ruta de la Fed",
-      "resumen": "Las proyecciones del consenso anticipan un incremento modesto en el índice de precios al consumidor en Estados Unidos para el mes de julio.\nLa cifra de inflación resultará decisiva para validar los próximos pasos del banco central estadounidense en su reunión de política monetaria.\nMercados globales se mantienen a la expectativa del dato final.",
+      "id": "ab860a0461",
+      "tema": "ciencia",
+      "titular_es": "Un informe analiza las implicaciones de las políticas contra la desinformación en EE. UU.",
+      "resumen": "Un análisis examina el cierre de agencias estatales enfocadas en monitorear propaganda extranjera.\nEl artículo analiza las tensiones entre la ciberseguridad, el control del discurso y la libertad de prensa.\nPlantea interrogantes sobre el futuro de la regulación del contenido en el ciberespacio.",
       "relevancia": 7,
-      "url": "https://www.cnbc.com/2026/08/11/an-inflation-report-wednesday-should-be-a-big-deal-for-the-fed-heres-what-to-expect.html",
-      "fuente": "cnbc.com",
+      "url": "https://www.technologyreview.com/2026/08/11/1141635/how-the-censorship-industrial-complex-is-changing-the-internet-and-us-policy/",
+      "fuente": "technologyreview.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Fed",
-        "inflación",
-        "IPC"
+        "ciberespacio",
+        "política pública",
+        "desinformación"
       ]
     },
     {
-      "id": "1b726f0bdb",
-      "tema": "finanzas",
-      "titular_es": "Análisis revela el rendimiento histórico del oro frente a carteras tradicionales",
-      "resumen": "Un estudio financiero evaluó la rentabilidad de una inversión simulada de $1.000 dólares en oro en períodos de 3, 5, 10 y 20 años.\nLos datos muestran que el metal precioso superó a la mayoría de los índices de materias primas y redujo la volatilidad general.\nIncluir una asignación del 5% en oro mejoró el perfil retorno-riesgo de portafolios diversificados.",
-      "relevancia": 5,
-      "url": "https://www.bloomberglinea.com/mercados/invertir-en-oro-es-rentable-esto-habria-pasado-con-us1000-en-3-5-10-y-20-anos/",
-      "fuente": "bloomberglinea.com",
+      "id": "40ab43406c",
+      "tema": "ciencia",
+      "titular_es": "Medir las olas de calor por horas revela un impacto climático más severo de lo previsto",
+      "resumen": "Un estudio demuestra que evaluar la temperatura por horas expone mayor riesgo que los promedios diarios.\nLas proyecciones indican que las horas estivales con temperaturas peligrosas se triplicarán a futuro.\nLos investigadores piden ajustar los modelos epidemiológicos y urbanos ante el calentamiento global.",
+      "relevancia": 7,
+      "url": "https://arstechnica.com/science/2026/08/tracking-extreme-heat-by-the-hour-makes-climate-change-seem-even-worse/",
+      "fuente": "arstechnica.com",
       "bandera": "🌍",
       "tags": [
-        "oro",
-        "inversión",
-        "mercados"
+        "cambio climático",
+        "medio ambiente",
+        "investigación"
+      ]
+    },
+    {
+      "id": "07be45a737",
+      "tema": "ia",
+      "titular_es": "Woxi: Reimplementación de código abierto de Mathematica escrita en Rust",
+      "resumen": "Desarrolladores presentaron un intérprete para el lenguaje Wolfram creado íntegramente en Rust.\nIncluye una interfaz gráfica similar a Mathematica, entorno CLI y paquetes para Python y WASM.\nBusca ofrecer una alternativa abierta y de alto rendimiento al software científico tradicional.",
+      "relevancia": 6,
+      "url": "https://woxi.ad-si.com",
+      "fuente": "woxi.ad-si.com (vía HN)",
+      "bandera": "🌍",
+      "tags": [
+        "código abierto",
+        "Rust",
+        "programación"
       ]
     }
   ]
