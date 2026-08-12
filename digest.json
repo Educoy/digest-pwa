@@ -1,14 +1,19 @@
 {
   "fecha": "2026-08-12",
-  "generado_utc": "2026-08-12T13:10:23Z",
+  "generado_utc": "2026-08-12T20:34:49Z",
   "indicadores": {
+    "dolar": {
+      "valor": 914.41,
+      "variacion": -1.89,
+      "variacion_pct": -0.21
+    },
     "uf": {
       "valor": 40848.74,
       "variacion": 1.32,
       "variacion_pct": 0.0
     }
   },
-  "noticia_del_dia": "7cea10866b",
+  "noticia_del_dia": "e5b265718d",
   "pildora_ia": "Alucinaciones: cuando un LLM genera información falsa con total seguridad. No 'miente': predice el texto más probable, y a veces lo más probable no es lo verdadero. Por eso conviene verificar datos críticos.",
   "pildoras_ia": [
     "Alucinaciones: cuando un LLM genera información falsa con total seguridad. No 'miente': predice el texto más probable, y a veces lo más probable no es lo verdadero. Por eso conviene verificar datos críticos.",
@@ -19,454 +24,400 @@
   ],
   "noticias": [
     {
-      "id": "7cea10866b",
+      "id": "e5b265718d",
       "tema": "ia",
-      "titular_es": "ChatGPT y Gemini alcanzan de forma simultánea los 1.000 millones de usuarios activos",
-      "resumen": "Tanto la plataforma de OpenAI como la herramienta de Google han alcanzado la cifra histórica de mil millones de usuarios mensuales.\nGemini se convierte en el producto de mayor crecimiento en la historia de Google.\nEl hito marca un punto de inflexión en la adopción masiva de la inteligencia artificial generativa.",
+      "titular_es": "Zed: Delta",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 10,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "OpenAI",
-        "Google",
-        "inteligencia artificial"
-      ]
-    },
-    {
-      "id": "ec2a33ae5c",
-      "tema": "ia",
-      "titular_es": "Brad Lightcap, ex-COO de OpenAI, renuncia a la compañía tras ocho años",
-      "resumen": "El líder de proyectos especiales y exdirector de operaciones de OpenAI anunció su dimisión para iniciar un nuevo proyecto.\nSu renuncia se suma a una serie de salidas ejecutivas clave en la firma liderada por Sam Altman.\nLa partida ocurre mientras la empresa atraviesa una etapa de reestructuración corporativa.",
-      "relevancia": 9,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/978048/brad-lightcap-openai-executive-departure",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "OpenAI",
-        "liderazgo",
-        "tecnología"
-      ]
-    },
-    {
-      "id": "39c0907ab4",
-      "tema": "ia",
-      "titular_es": "Nvidia presenta Nemotron 3.5 Lightning y la plataforma NeMo Switchyard",
-      "resumen": "El fabricante de chips lanzó nuevos modelos optimizados para inferencia rápida e infraestructura de IA.\nLas herramientas buscan optimizar el rendimiento y reducir la latencia en centros de datos empresariales.\nNvidia continúa reforzando su ecosistema de software para sostener su dominio en el sector.",
-      "relevancia": 9,
-      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
-      "fuente": "blogs.nvidia.com (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Nvidia",
-        "modelos de lenguaje",
-        "hardware"
-      ]
-    },
-    {
-      "id": "9ebfb3cbe9",
-      "tema": "ia",
-      "titular_es": "SpaceXAI lanza Grok Bot como un agente de IA para tareas laborales autónomas",
-      "resumen": "La división de IA presentó un servicio de agentes diseñados para actuar como compañeros de trabajo digitales.\nLos bots comparten entornos en la nube y pueden operar aplicaciones corporativas de forma independiente.\nEl producto busca ejecutar flujos de trabajo complejos de múltiples pasos sin supervisión constante.",
-      "relevancia": 9,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "SpaceXAI",
-        "agentes de ia",
-        "automatización"
-      ]
-    },
-    {
-      "id": "843e93a16e",
-      "tema": "finanzas",
-      "titular_es": "La inflación en EE. UU. sube un 0,1% en julio y sitúa la tasa anual en el 3,4%",
-      "resumen": "El índice de precios al consumo registró un avance moderado dentro de las expectativas del mercado.\nLa cifra anualizada refleja una senda de contención tras los recientes choques energéticos.\nEl dato proporciona certidumbre a los analistas sobre la evolución macroeconómica de EE. UU.",
-      "relevancia": 9,
-      "url": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
-      "fuente": "cnbc.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "inflación",
-        "EE. UU.",
-        "macroeconomía"
-      ]
-    },
-    {
-      "id": "3571ff97a4",
-      "tema": "emprendimiento",
-      "titular_es": "River AI obtiene 1.100 millones de dólares a solo dos meses de su fundación",
-      "resumen": "La startup creada por Igor Babuschkin, ex cofundador de xAI, cerró una ronda liderada por General Catalyst.\nLa firma desarrolla agentes de IA personales con una de las mayores valoraciones iniciales del sector.\nEl levantamiento masivo evidencia el enorme interés del capital de riesgo por la infraestructura de agentes.",
-      "relevancia": 9,
-      "url": "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "River AI",
-        "capital de riesgo",
-        "agentes de ia"
-      ]
-    },
-    {
-      "id": "0e36626fb2",
-      "tema": "ia",
-      "titular_es": "Apple prueba una función en iOS para verificar la autenticidad de fotos frente a deepfakes",
-      "resumen": "La versión beta de iOS incluye referencias a un sistema que incrusta metadatos criptográficos en el disparo.\nLa tecnología permite certificar que una imagen fue capturada por la cámara del iPhone sin alteraciones por IA.\nEl avance busca ofrecer herramientas de procedencia de contenido ante el auge de la desinformación.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Apple",
-        "iOS",
-        "ciberseguridad"
-      ]
-    },
-    {
-      "id": "fa830ce9c8",
-      "tema": "ia",
-      "titular_es": "Descubren y corrigen falla crítica en Zoom hallada con menos de 20 prompts de IA",
-      "resumen": "Investigadores solucionaron la vulnerabilidad 'Zoomsday' que permitía secuestrar dispositivos en llamadas.\nEl fallo fue identificado utilizando modelos de IA comerciales con un número mínimo de indicaciones.\nEl caso resalta el potencial de la IA para acelerar la auditoría de seguridad en software masivo.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Zoom",
-        "ciberseguridad",
-        "inteligencia artificial"
-      ]
-    },
-    {
-      "id": "95d711f561",
-      "tema": "finanzas",
-      "titular_es": "El dato de IPC respalda la postura de la Reserva Federal de congelar los tipos en septiembre",
-      "resumen": "La lectura moderada de los precios reforzó la previsión de que la Fed no subirá las tasas este mes.\nLos mercados financieros reaccionaron positivamente ante la menor presión inflacionaria.\nLos inversores prevén un periodo de estabilidad en la política monetaria estadounidense.",
-      "relevancia": 8,
-      "url": "https://finance.yahoo.com/economy/policy/article/cooler-cpi-inflation-reading-bolsters-case-for-fed-to-hold-rates-in-september-125312469.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Reserva Federal",
-        "tasas de interés",
-        "mercados"
-      ]
-    },
-    {
-      "id": "9b8d4d5452",
-      "tema": "finanzas",
-      "titular_es": "Resultados de Nubank motivan a Wall Street con una proyección de alza del 30%",
-      "resumen": "El neobanco latinoamericano reportó sólidas expectativas de crecimiento en ingresos y beneficios.\nAnalistas siguen de cerca la expansión de la cartera de crédito y el comportamiento de la morosidad.\nLas proyecciones impulsan el optimismo del mercado sobre la cotización de la firma fintech.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/mercados/resultados-de-nubank-wall-street-espera-fuerte-crecimiento-y-ve-un-30-de-potencial-en-la-accion/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇧🇷",
-      "tags": [
-        "Nubank",
-        "fintech",
-        "resultados"
-      ]
-    },
-    {
-      "id": "0eccf341ae",
-      "tema": "finanzas",
-      "titular_es": "Satellogic se dispara un 180% en bolsa por sus contratos de defensa y proyecto con OpenAI",
-      "resumen": "La empresa satelital argentina experimentó un fuerte rally tras virar hacia contratos de defensa.\nAvanza en el desarrollo de un centro de datos en Neuquén en alianza con OpenAI.\nSu fundador destacó la influencia del nuevo marco regulatorio argentino para la inteligencia artificial.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/por-que-vuela-satellogic-el-paper-de-ia-que-inspiro-a-milei-y-la-apuesta-de-kargieman-con-openai/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇦🇷",
-      "tags": [
-        "Satellogic",
-        "OpenAI",
-        "acciones"
-      ]
-    },
-    {
-      "id": "7c0b5fec50",
-      "tema": "finanzas",
-      "titular_es": "BTG Pactual calcula en US$ 6.350 millones el costo inicial por el terremoto en Colombia",
-      "resumen": "La estimación preliminar del banco de inversión anticipa una reestructuración fiscal para el gobierno.\nEl presupuesto nacional deberá reasignar recursos hacia la reconstrucción de infraestructura prioritaria.\nEl evento telúrico modificará la agenda económica y las metas fiscales de corto plazo.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/mercados/atencion-inicial-del-terremoto-en-colombia-se-estima-en-us6350-millones-segun-btg-pactual/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇨🇴",
-      "tags": [
-        "Colombia",
-        "presupuesto",
-        "infraestructura"
-      ]
-    },
-    {
-      "id": "4b96ff195c",
-      "tema": "finanzas",
-      "titular_es": "La CFTC declara emergencia de mercado y manda a Kalshi mantener operaciones en Nueva York",
-      "resumen": "El regulador estadounidense ordenó la continuidad operativa de la plataforma de contratos de predicción.\nLa medida busca prevenir perturbaciones en el mercado de derivados en un periodo crítico.\nLa resolución sienta un precedente relevante en la supervisión de plataformas fintechi.",
-      "relevancia": 8,
-      "url": "https://www.cftc.gov/PressRoom/PressReleases/9281-26",
-      "fuente": "cftc.gov (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "regulación",
-        "CFTC",
-        "mercados"
-      ]
-    },
-    {
-      "id": "024fdf3631",
-      "tema": "finanzas",
-      "titular_es": "El petróleo sube tras ataques a buques navieros y trabas en las negociaciones EE.UU.-Irán",
-      "resumen": "Los precios del crudo avanzaron por el incremento del riesgo en rutas marítimas del Medio Oriente.\nEl estancamiento en las conversaciones diplomáticas añade presión sobre la oferta energética.\nEl mercado petrolero vuelve a mostrar alta sensibilidad a las tensiones geopolíticas.",
-      "relevancia": 8,
-      "url": "https://finance.yahoo.com/news/oil-rises-doubts-over-us-063114070.html",
-      "fuente": "finance.yahoo.com",
+      "url": "https://zed.dev/blog/introducing-delta",
+      "fuente": "zed.dev (vía HN)",
       "bandera": "🌍",
-      "tags": [
-        "petróleo",
-        "commodities",
-        "geopolítica"
-      ]
+      "tags": []
     },
     {
-      "id": "618c36a031",
+      "id": "1ea59f1813",
+      "tema": "finanzas",
+      "titular_es": "U.S. budget deficit surged in July to highest level since March 2021",
+      "resumen": "Beyond the big single-month jump, the collective red ink over the 10 months of the fiscal year rose to nearly $1.8 trillion, surpassing the same period in 2025.",
+      "relevancia": 10,
+      "url": "https://www.cnbc.com/2026/08/12/us-budget-deficit-surged-in-july-to-highest-level-since-march-2021.html",
+      "fuente": "cnbc.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "fedb51cc07",
       "tema": "emprendimiento",
-      "titular_es": "La startup de pruebas de código Blacksmith multiplica por diez su valoración en menos de un año",
-      "resumen": "La empresa especializada en automatización de pruebas para software multiplicó por diez sus ingresos.\nEl rápido crecimiento operativo atrajo nueva inversión con un incremento sustancial de valoración.\nEl rendimiento confirma la alta demanda corporativa de herramientas de calidad de código.",
-      "relevancia": 8,
-      "url": "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/",
+      "titular_es": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
+      "resumen": "Cognition may be looking to raise another mega round just a few months after raising $1 billion at a $26 billion valuation.",
+      "relevancia": 10,
+      "url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
       "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Blacksmith",
-        "software",
-        "inversión"
-      ]
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "40443c208a",
+      "id": "0b5cc6d916",
+      "tema": "ciencia",
+      "titular_es": "Scientists just created female clones of male mice",
+      "resumen": "Scientists have deliberately turned male mouse embryos into females for the first time. A team based in Japan used a CRISPR-based approach to remove the Y chromosome from male cells and create female clones of male mice. “No one has done this before,” says Monika Ward, a reproductive biologist at th",
+      "relevancia": 10,
+      "url": "https://www.technologyreview.com/2026/08/12/1141768/scientists-just-created-female-clones-of-male-mice/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "c9984b57d7",
+      "tema": "ia",
+      "titular_es": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 9,
+      "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
+      "fuente": "artificialanalysis.ai (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "e371f069a3",
+      "tema": "finanzas",
+      "titular_es": "'Nobody wants it': Lettuce prices see record-setting plunge as cyclospora spooks consumers",
+      "resumen": "Lettuce prices posted their sharpest month-over-month decline on record as diners reconsider the vegetable amid the cyclospora outbreak.",
+      "relevancia": 9,
+      "url": "https://www.cnbc.com/2026/08/12/lettuce-prices-cyclospora-cpi.html",
+      "fuente": "cnbc.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "d4e662e0ff",
       "tema": "emprendimiento",
-      "titular_es": "La startup india Yulu recauda 93 millones de dólares impulsada por las entregas rápidas",
-      "resumen": "La plataforma de movilidad levantó capital para escalar su flota a 200.000 bicicletas eléctricas.\nEl crecimiento del comercio ultrarrápido en India disparó la demanda de logística ligera de última milla.\nLa empresa busca diversificar sus vehículos para cubrir nuevas operaciones de distribución.",
-      "relevancia": 8,
-      "url": "https://techcrunch.com/2026/08/11/indias-yulu-raises-93m-as-quick-commerce-boom-fuels-e-bike-demand/",
+      "titular_es": "Why Stream ring-maker Sandbar says the future of AI wearables is voice",
+      "resumen": "AI notetaking hardware has taken off over the past couple of years, with credit-card-sized devices, pendants, pins, and even transcribing earbuds all promising to capture your meetings and turn them into summaries and action items. Now, a whole wave of wearables — rings especially — are betting peop",
+      "relevancia": 9,
+      "url": "https://techcrunch.com/video/why-stream-ring-maker-sandbar-says-the-future-of-ai-wearables-is-voice/",
       "fuente": "techcrunch.com",
-      "bandera": "🇮🇳",
-      "tags": [
-        "Yulu",
-        "movilidad eléctrica",
-        "India"
-      ]
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "c23c8bbd70",
-      "tema": "emprendimiento",
-      "titular_es": "Kyoto Fusioneering inicia el desarrollo de componentes clave para plantas de fusión nuclear",
-      "resumen": "La startup japonesa recibió financiación pública para construir dispositivos del sistema de combustible.\nDiversas empresas globales de fusión están recurriendo a sus componentes especializados.\nEl avance marca la transición del sector desde la investigación teórica hacia la ingeniería comercial.",
+      "id": "afc23a12a5",
+      "tema": "ciencia",
+      "titular_es": "Scaling AI agents with trustworthy data",
+      "resumen": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges o",
+      "relevancia": 9,
+      "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "407e683521",
+      "tema": "ia",
+      "titular_es": "DeepSeek V4 Pro 0813",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 8,
-      "url": "https://techcrunch.com/2026/08/11/kyoto-fusioneering-starts-work-on-key-fusion-power-plant-device/",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "fuente": "openrouter.ai (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "7926fadf22",
+      "tema": "finanzas",
+      "titular_es": "Here are five key takeaways from the July CPI inflation report",
+      "resumen": "Readings for July on the prices consumers pay for goods and services came in pretty much on target.",
+      "relevancia": 8,
+      "url": "https://www.cnbc.com/2026/08/12/here-are-five-key-takeaways-from-the-july-cpi-inflation-report.html",
+      "fuente": "cnbc.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "a8dd77df51",
+      "tema": "emprendimiento",
+      "titular_es": "Lovable confirms new $13.3B valuation, raises another $400M",
+      "resumen": "This new funding comes after Lovable hit $500 million in annualized run rate revenue in June, the startup told TechCrunch.",
+      "relevancia": 8,
+      "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/",
       "fuente": "techcrunch.com",
-      "bandera": "🇯🇵",
-      "tags": [
-        "fusión nuclear",
-        "Japón",
-        "energía"
-      ]
-    },
-    {
-      "id": "2deee44b21",
-      "tema": "emprendimiento",
-      "titular_es": "Accel cierra un fondo de 550 millones de dólares para el mercado indio en pocas semanas",
-      "resumen": "La firma de capital de riesgo completó con sobresuscripción su nuevo vehículo enfocado en India.\nEl cierre acelerado se logró pese a mantener un alto porcentaje sin desplegar de su fondo anterior.\nEl movimiento confirma la confianza a largo plazo de los inversores institucionales en el ecosistema indio.",
-      "relevancia": 8,
-      "url": "https://techcrunch.com/2026/08/11/accel-closes-oversubscribed-550m-india-fund-within-weeks-19-months-after-its-last/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇮🇳",
-      "tags": [
-        "Accel",
-        "capital de riesgo",
-        "India"
-      ]
-    },
-    {
-      "id": "8476d0f174",
-      "tema": "emprendimiento",
-      "titular_es": "El fondo Scaleup Europe realiza su primera inversión respaldando a la firma satelital ICEYE",
-      "resumen": "El fondo de inversión público-privado de 5.700 millones de dólares completó su operación inicial.\nInvirtió en la empresa finlandesa de satélites de radar de observación terrestre ICEYE.\nLa iniciativa busca escalar empresas tecnológicas estratégicas dentro del continente europeo.",
-      "relevancia": 8,
-      "url": "https://techcrunch.com/2026/08/11/whats-scaleup-europe-the-5-7b-fund-that-just-backed-satellite-company-iceye/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇪🇺",
-      "tags": [
-        "Scaleup Europe",
-        "ICEYE",
-        "satélites"
-      ]
-    },
-    {
-      "id": "46391e3b8d",
-      "tema": "emprendimiento",
-      "titular_es": "Skan AI asegura 63 millones de dólares para mapear procesos laborales en empresas",
-      "resumen": "La startup cerró su Serie C copresidida por Cathay Innovation y Dell Technologies Capital.\nDesarrolla software que observa la interacción de empleados con herramientas para construir grafos de trabajo.\nLa tecnología busca proporcionar el contexto necesario para desplegar IA empresarial efectiva.",
-      "relevancia": 8,
-      "url": "https://venturebeat.com/data/skan-ai-raises-63-million-betting-that-watching-how-employees-actually-work-is-the-missing-layer-of-enterprise-ai",
-      "fuente": "venturebeat.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Skan AI",
-        "IA empresarial",
-        "inversión"
-      ]
-    },
-    {
-      "id": "4361bd4cf5",
-      "tema": "emprendimiento",
-      "titular_es": "Nace la startup Gamgee tras el caso de la vacuna contra el cáncer canino creada con ChatGPT",
-      "resumen": "El emprendedor Paul Conyngham lanzó oficialmente su empresa dedicada a tratamientos biológicos para mascotas.\nEl caso cobró notoriedad global tras usar IA para diseñar una terapia personalizada para su propio perro.\nGamgee ofrecerá vacunas de mRNA personalizadas para el sector veterinario.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee",
-      "fuente": "theverge.com",
-      "bandera": "🇦🇺",
-      "tags": [
-        "Gamgee",
-        "biotecnología",
-        "ChatGPT"
-      ]
+      "bandera": "🌍",
+      "tags": []
     },
     {
       "id": "aa04d9fec5",
       "tema": "ciencia",
-      "titular_es": "MIT Technology Review prepara la revelación de la lista Innovadores Menores de 35 de 2026",
-      "resumen": "La publicación dará a conocer su reconocido listado de jóvenes científicos e ingenieros el 8 de septiembre.\nEl premio destaca proyectos con alto impacto en salud, energía, computación y biotecnología.\nEl proceso de selección evalúa miles de candidaturas de investigadores globales.",
+      "titular_es": "The Download: our 35 young innovators and the “censorship-industrial complex”",
+      "resumen": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How we picked 35 of the world’s top young scientists and engineers On September 8, MIT Technology Review will reveal its 2026 list of Innovators Under 35, recogni",
       "relevancia": 8,
       "url": "https://www.technologyreview.com/2026/08/12/1141714/the-download-innovators-under-35-censorship-industrial-complex/",
       "fuente": "technologyreview.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "MIT",
-        "innovación",
-        "ciencia"
-      ]
-    },
-    {
-      "id": "77490ab559",
-      "tema": "ciencia",
-      "titular_es": "EE. UU. recluta a más de 2.000 jugadores de videojuegos como controladores aéreos",
-      "resumen": "La aviación civil estadounidense contrató a miles de 'gamers' para cubrir la escasez de personal en torres.\nLas evaluaciones mostraron que las habilidades de visión espacial y reflejos se adaptan al puesto.\nEl programa busca modernizar los métodos tradicionales de reclutamiento de personal operativo.",
-      "relevancia": 8,
-      "url": "https://www.cbsnews.com/news/video-gamer-air-traffic-controllers-faa-recruitment-sean-duffy/",
-      "fuente": "cbsnews.com (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "aviación",
-        "gamers",
-        "empleo"
-      ]
-    },
-    {
-      "id": "9f0fe24899",
-      "tema": "ia",
-      "titular_es": "Presentan WorldClaw para la generación agentiva de mundos 3D a gran escala",
-      "resumen": "Se dio a conocer un sistema capaz de generar entornos tridimensionales utilizando agentes autónomos.\nLa herramienta automatiza el diseño de escenarios complejos para videojuegos y simuladores.\nEl proyecto demuestra avances en el uso de IA para la creación de gráficos e industrias creativas.",
-      "relevancia": 7,
-      "url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
-      "fuente": "tencent-hunyuan.github.io (vía HN)",
       "bandera": "🌍",
-      "tags": [
-        "gráficos 3d",
-        "agentes de ia",
-        "videojuegos"
-      ]
+      "tags": []
     },
     {
-      "id": "254ef1dd1f",
-      "tema": "finanzas",
-      "titular_es": "Filial de CFE solicita autorización para emitir capital en el fideicomiso Fibra E",
-      "resumen": "La subsidiaria eléctrica estatal mexicana busca financiamiento a través de los mercados locales.\nLos fondos netos se destinarán a ampliar y modernizar la red de transmisión eléctrica del país.\nLa emisión fortalece la inversión pública en infraestructura energética clave.",
+      "id": "692c033958",
+      "tema": "ia",
+      "titular_es": "Grok 4.6",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/latinoamerica/mexico/filial-de-cfe-solicita-permiso-para-nueva-emision-de-capital-de-fibra-e/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇲🇽",
-      "tags": [
-        "CFE",
-        "México",
-        "energía"
-      ]
+      "url": "https://x.ai/news/grok-4-6",
+      "fuente": "x.ai (vía HN)",
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "fe42bb1e43",
+      "id": "843e93a16e",
       "tema": "finanzas",
-      "titular_es": "Grupo Financiero Supervielle vuelve a la rentabilidad en el segundo trimestre",
-      "resumen": "La entidad bancaria argentina revirtió sus pérdidas previas gracias a la mejora del margen financiero.\nInformes bursátiles consideran que el título cotiza con un descuento frente a sus pares del sector.\nEl resultado refleja una paulatina recuperación operativa del sistema financiero argentino.",
+      "titular_es": "Consumer prices rose 0.1% in July, as expected, putting the annual rate at 3.4%",
+      "resumen": "The consumer price index was expected to increase 0.1% in July, with an annual rate of 3.4%.",
       "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/supervielle-revirtio-perdidas-y-una-consultora-considero-que-cotiza-con-descuento-desmedido/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇦🇷",
-      "tags": [
-        "Supervielle",
-        "banca",
-        "Argentina"
-      ]
+      "url": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
+      "fuente": "cnbc.com",
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "c5d5cda8a9",
-      "tema": "finanzas",
-      "titular_es": "La escasez de red eléctrica representa el mayor riesgo para los centros de datos en EE. UU.",
-      "resumen": "El despliegue de infraestructura para IA enfrenta cuellos de botella en la capacidad de transmisión.\nAnalistas advierten que la falta de energía disponible puede ralentizar inversiones multimillonarias.\nEl sector tecnológico presiona por reformas rápidas en la red eléctrica estadounidense.",
+      "id": "4aad839266",
+      "tema": "emprendimiento",
+      "titular_es": "How a $250 million acquisition collapsed into allegations of fraud and forged signatures",
+      "resumen": "Investors are still waiting for their share of the $250 million windfall, and VideoVerse co-founder Vinayak Shrivastav is now at the center of multiple legal cases.",
       "relevancia": 7,
-      "url": "https://finance.yahoo.com/economy/article/heres-the-biggest-risk-to-americas-data-center-building-boom-121942236.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "centros de datos",
-        "energía",
-        "IA"
-      ]
+      "url": "https://techcrunch.com/2026/08/12/how-a-250-million-acquisition-collapsed-into-allegations-of-fraud-and-forged-signatures/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "ab860a0461",
+      "id": "2c99e5ba2c",
       "tema": "ciencia",
-      "titular_es": "Un informe analiza las implicaciones de las políticas contra la desinformación en EE. UU.",
-      "resumen": "Un análisis examina el cierre de agencias estatales enfocadas en monitorear propaganda extranjera.\nEl artículo analiza las tensiones entre la ciberseguridad, el control del discurso y la libertad de prensa.\nPlantea interrogantes sobre el futuro de la regulación del contenido en el ciberespacio.",
+      "titular_es": "How we picked 35 of the world’s top young scientists and engineers",
+      "resumen": "Next month, on September 8, MIT Technology Review will reveal its 2026 list of Innovators Under 35, recognizing 35 young people from around the world who are doing groundbreaking scientific work and building clever technical fixes for sticky problems. By finding the top young innovators globally and",
       "relevancia": 7,
-      "url": "https://www.technologyreview.com/2026/08/11/1141635/how-the-censorship-industrial-complex-is-changing-the-internet-and-us-policy/",
+      "url": "https://www.technologyreview.com/2026/08/12/1141605/2026-innovators-under-35-top-young-scientists-engineers/",
       "fuente": "technologyreview.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "ciberespacio",
-        "política pública",
-        "desinformación"
-      ]
-    },
-    {
-      "id": "40ab43406c",
-      "tema": "ciencia",
-      "titular_es": "Medir las olas de calor por horas revela un impacto climático más severo de lo previsto",
-      "resumen": "Un estudio demuestra que evaluar la temperatura por horas expone mayor riesgo que los promedios diarios.\nLas proyecciones indican que las horas estivales con temperaturas peligrosas se triplicarán a futuro.\nLos investigadores piden ajustar los modelos epidemiológicos y urbanos ante el calentamiento global.",
-      "relevancia": 7,
-      "url": "https://arstechnica.com/science/2026/08/tracking-extreme-heat-by-the-hour-makes-climate-change-seem-even-worse/",
-      "fuente": "arstechnica.com",
       "bandera": "🌍",
-      "tags": [
-        "cambio climático",
-        "medio ambiente",
-        "investigación"
-      ]
+      "tags": []
     },
     {
-      "id": "07be45a737",
+      "id": "4b3c0e16bb",
       "tema": "ia",
-      "titular_es": "Woxi: Reimplementación de código abierto de Mathematica escrita en Rust",
-      "resumen": "Desarrolladores presentaron un intérprete para el lenguaje Wolfram creado íntegramente en Rust.\nIncluye una interfaz gráfica similar a Mathematica, entorno CLI y paquetes para Python y WASM.\nBusca ofrecer una alternativa abierta y de alto rendimiento al software científico tradicional.",
+      "titular_es": "Qwen3.8-2.4T",
+      "resumen": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B-FP8",
       "relevancia": 6,
-      "url": "https://woxi.ad-si.com",
-      "fuente": "woxi.ad-si.com (vía HN)",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+      "fuente": "huggingface.co (vía HN)",
       "bandera": "🌍",
-      "tags": [
-        "código abierto",
-        "Rust",
-        "programación"
-      ]
+      "tags": []
+    },
+    {
+      "id": "7f7ecce5e2",
+      "tema": "finanzas",
+      "titular_es": "AI’s costly build-out complicates the Fed’s inflation fight",
+      "resumen": "Tech leaders say AI will drive down costs. But slow corporate adoption and the data center build-out create inflation pressures that complicate the Fed’s job.",
+      "relevancia": 6,
+      "url": "https://www.cnbc.com/2026/08/12/ais-costly-buildout-complicates-the-feds-inflation-fight.html",
+      "fuente": "cnbc.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "09a2cde406",
+      "tema": "emprendimiento",
+      "titular_es": "Silkroad Innovation Hub’s Road to Battlefield competition continues",
+      "resumen": "The Road to Battlefield competition is now in its second year, and its purpose is to give founders across Central Eurasia a direct route to Startup Battlefield",
+      "relevancia": 6,
+      "url": "https://techcrunch.com/2026/08/12/silkroad-innovation-hubs-road-to-battlefield-competition-continues/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "ee833f3f59",
+      "tema": "ciencia",
+      "titular_es": "Scientists turn Starlink into a giant scanner for Earth’s upper atmosphere",
+      "resumen": "Researchers have found a clever new way to map a part of Earth’s upper atmosphere that is notoriously difficult to observe. Using orbital data from roughly 1,200 Starlink satellites, they reconstructed changes in atmospheric density about 500 kilometers above Earth. The approach could sharpen satell",
+      "relevancia": 6,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260812015212.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "08ca66d7c2",
+      "tema": "ia",
+      "titular_es": "License plate reader searches should require a warrant",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 5,
+      "url": "https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/",
+      "fuente": "andrewpwheeler.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "d02131ac88",
+      "tema": "finanzas",
+      "titular_es": "An inflation report Wednesday should be a big deal for the Fed. Here's what to expect",
+      "resumen": "The consumer price index is expected to show only a modest increase for July.",
+      "relevancia": 5,
+      "url": "https://www.cnbc.com/2026/08/11/an-inflation-report-wednesday-should-be-a-big-deal-for-the-fed-heres-what-to-expect.html",
+      "fuente": "cnbc.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "d1915a50c5",
+      "tema": "emprendimiento",
+      "titular_es": "Why Sandbar thinks it’s voice-enabled ring can avoid the AI hardware graveyard",
+      "resumen": "AI notetaking hardware has taken off over the past couple of years, with credit-card-sized devices, pendants, pins, and even transcribing earbuds all promising to capture your meetings and turn them into summaries and action items. Now, a whole wave of wearables — rings especially — are betting peop",
+      "relevancia": 5,
+      "url": "https://techcrunch.com/podcast/why-sandbar-thinks-its-voice-enabled-ring-can-avoid-the-ai-hardware-graveyard/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "d35a72dc58",
+      "tema": "ciencia",
+      "titular_es": "Scientists turn sheep’s wool into a material that helps regrow bone",
+      "resumen": "Keratin extracted from sheep’s wool helped damaged bone regenerate in animals, producing tissue that was more organized and structurally similar to healthy bone than tissue grown with conventional collagen scaffolds. The discovery could turn an abundant agricultural byproduct into a promising new ma",
+      "relevancia": 5,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260812015210.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "bc1f856e9a",
+      "tema": "ia",
+      "titular_es": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 4,
+      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "fuente": "tailscale.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "a953e12b99",
+      "tema": "finanzas",
+      "titular_es": "Bank of America sends blunt message to Nvidia stock investors",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 4,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-sends-blunt-message-174700491.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "25f060b648",
+      "tema": "ciencia",
+      "titular_es": "James Webb captures a cosmic lion sculpted by a dying star",
+      "resumen": "James Webb has captured a striking new infrared view of NGC 2392, the Lion Nebula, revealing the dramatic aftermath of a dying Sun-like star. At its center, a scorching white dwarf is blasting radiation into surrounding gas and dust, carving out the nebula’s lion-like face while illuminating a spraw",
+      "relevancia": 4,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260812015206.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "77e1f40861",
+      "tema": "ia",
+      "titular_es": "Tim King, AmigaDOS developer, has died",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 3,
+      "url": "https://amiga-news.de/en/news/AN-2026-08-00070-EN.html",
+      "fuente": "amiga-news.de (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "6cc605f85e",
+      "tema": "finanzas",
+      "titular_es": "Market Update: BTI, MCHP, APTV, TWLO, CAVA",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 3,
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47898_MarketUpdate_1786560461000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "28ddca207c",
+      "tema": "ciencia",
+      "titular_es": "The adult brain can repair itself better than scientists thought",
+      "resumen": "The adult brain may be far better at repairing itself than scientists once believed. In mice, researchers discovered a special group of support cells called astrocytes that respond to damaged brain tissue by rebuilding lost cellular networks. Rather than simply moving into the injured area, these ce",
+      "relevancia": 3,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260812015158.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "0f1dc2521d",
+      "tema": "ia",
+      "titular_es": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 2,
+      "url": "https://knownagents.com/insights",
+      "fuente": "knownagents.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "8d0f9014f9",
+      "tema": "finanzas",
+      "titular_es": "Daily Spotlight: Profit Margins Widening",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 2,
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47893_MarketOutlook_1786535027000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "2a97a9e79e",
+      "tema": "ciencia",
+      "titular_es": "A strange crystal made of electrons just revealed its hidden motion",
+      "resumen": "Physicists have found a new way to peer inside one of matter’s most elusive quantum states: the Wigner crystal, where electrons stop behaving like independent particles and organize into a crystal-like pattern. By shining light on an atomically thin material cooled close to absolute zero, researcher",
+      "relevancia": 2,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260812015156.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "d28e4278f4",
+      "tema": "ia",
+      "titular_es": "Why Tiny JPEGs Look Different in Chrome",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 1,
+      "url": "https://guillaumetech.github.io/posts/jpg-scaling-chrome/",
+      "fuente": "guillaumetech.github.io (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "c9888f8c58",
+      "tema": "finanzas",
+      "titular_es": "Technical Assessment: Bullish in the Intermediate-Term",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 1,
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47895_TechnicalAnalysis_1786534441000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "45f0e4c502",
+      "tema": "ciencia",
+      "titular_es": "Ordinary WiFi can now identify you with near-perfect accuracy",
+      "resumen": "Ordinary WiFi networks could quietly become powerful surveillance tools, allowing people to be identified without cameras, special sensors, or even carrying a connected device. Researchers showed that unencrypted signals routinely exchanged between WiFi devices and routers can be used to create radi",
+      "relevancia": 1,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260811052857.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
     }
   ]
 }
