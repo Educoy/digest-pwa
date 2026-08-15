@@ -1,6 +1,6 @@
 {
-  "fecha": "2026-08-14",
-  "generado_utc": "2026-08-14T20:22:58Z",
+  "fecha": "2026-08-15",
+  "generado_utc": "2026-08-15T12:37:48Z",
   "indicadores": {
     "dolar": {
       "valor": 913.2,
@@ -8,425 +8,328 @@
       "variacion_pct": 0.13
     },
     "uf": {
-      "valor": 40851.38,
-      "variacion": 1.32,
+      "valor": 40852.69,
+      "variacion": 1.31,
       "variacion_pct": 0.0
     }
   },
-  "noticia_del_dia": "ae32eded76",
-  "pildora_ia": "Bias-variance tradeoff: el equilibrio central del ML. Un modelo muy simple falla por rígido (bias alto); uno muy complejo falla por inestable (varianza alta). El arte está en el punto medio.",
+  "noticia_del_dia": "06d960ed67",
+  "pildora_ia": "Dropout: durante el entrenamiento se 'apagan' neuronas al azar en cada paso. Suena raro, pero obliga a la red a no depender de unas pocas conexiones y reduce el sobreajuste.",
   "pildoras_ia": [
-    "Bias-variance tradeoff: el equilibrio central del ML. Un modelo muy simple falla por rígido (bias alto); uno muy complejo falla por inestable (varianza alta). El arte está en el punto medio.",
     "Dropout: durante el entrenamiento se 'apagan' neuronas al azar en cada paso. Suena raro, pero obliga a la red a no depender de unas pocas conexiones y reduce el sobreajuste.",
     "RLHF: aprendizaje por refuerzo con retroalimentación humana. Alinea a los LLM con lo que la gente considera útil y seguro usando preferencias humanas. Clave en ChatGPT, Gemini y Claude.",
     "Función de pérdida (loss): el número que mide qué tan equivocado está el modelo. Todo el entrenamiento consiste en minimizarlo; elegir bien la loss define qué aprende realmente el modelo.",
-    "Épocas y batches: una 'época' es una pasada completa por todos los datos; un 'batch' es el grupo de ejemplos que se procesan juntos antes de actualizar el modelo. Ajustar ambos afecta velocidad y calidad."
+    "Épocas y batches: una 'época' es una pasada completa por todos los datos; un 'batch' es el grupo de ejemplos que se procesan juntos antes de actualizar el modelo. Ajustar ambos afecta velocidad y calidad.",
+    "Destilación: entrenar un modelo pequeño para imitar a uno grande. El resultado es más rápido y barato de correr conservando buena parte de la calidad. Así nacen muchos modelos 'flash' o 'mini'."
   ],
   "noticias": [
     {
-      "id": "ae32eded76",
+      "id": "06d960ed67",
       "tema": "ia",
-      "titular_es": "Apple entrenó su propio modelo de IA para China en colaboración con Alibaba",
-      "resumen": "Apple desarrolló un modelo de lenguaje personalizado exclusivo para el mercado chino en alianza con el gigante Alibaba. La iniciativa busca cumplir con las estrictas regulaciones locales sobre IA y sortear tensiones geopolíticas entre Pekín y Washington. Representa un movimiento clave para el despliegue de Apple Intelligence en el segundo mayor mercado de la compañía.",
-      "relevancia": 9,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
-      "fuente": "theverge.com",
-      "bandera": "🇨🇳",
-      "tags": [
-        "Apple",
-        "Alibaba",
-        "inteligencia artificial"
-      ]
-    },
-    {
-      "id": "164c15df7b",
-      "tema": "finanzas",
-      "titular_es": "Nu supera los US$1.000 millones en utilidad trimestral y sus acciones se disparan",
-      "resumen": "Nubank registró por primera vez ganancias netas trimestrales superiores a los 1.000 millones de dólares, marcando un incremento del 67% interanual. El retorno sobre capital (ROE) alcanzó un impresionante 33% mientras los ingresos crecieron cerca del 50% impulsados por México y Brasil. El resultado consolida a la fintech como uno de los bancos más eficientes de la región.",
-      "relevancia": 9,
-      "url": "https://www.bloomberglinea.com/mercados/nu-supera-los-us1000-millones-en-utilidad-trimestral-por-primera-vez-y-su-accion-se-dispara/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇧🇷",
-      "tags": [
-        "Nubank",
-        "fintech",
-        "resultados financieros"
-      ]
-    },
-    {
-      "id": "f455d67675",
-      "tema": "ciencia",
-      "titular_es": "Crean el primer motor térmico cuántico superconductor del mundo",
-      "resumen": "Físicos demostraron el funcionamiento del primer motor térmico cíclico basado en circuitos superconductores operando cerca del cero absoluto. El dispositivo convierte calor residual en trabajo útil dentro del propio procesador cuántico de manera autónoma. Este hito podría eliminar la necesidad de complejas y ruidosas líneas de microondas externas en computadores cuánticos gigantes.",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260814011041.htm",
-      "fuente": "sciencedaily.com",
+      "titular_es": "The other Sean Byrne doesn't exist",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 10,
+      "url": "https://conic.al/writing/the-other-sean-byrne-doesnt-exist/",
+      "fuente": "conic.al (vía HN)",
       "bandera": "🌍",
-      "tags": [
-        "computación cuántica",
-        "física",
-        "superconductividad"
-      ]
-    },
-    {
-      "id": "7704c4fc1b",
-      "tema": "ciencia",
-      "titular_es": "Hallan moléculas orgánicas originales en huesos de dinosaurio de 66 millones de años",
-      "resumen": "Un estudio paleobiológico identificó restos intactos de colágeno en fósiles de dinosaurios, desafiando el consenso previo sobre los límites de degradación proteica. El hallazgo demuestra que ciertas estructuras biomoleculares pueden sobrevivir decenas de millones de años bajo condiciones geológicas específicas. Abre una nueva ventana para estudiar la genética y evolución de especies extintas.",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260811053042.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "paleontología",
-        "biología molecular",
-        "fósiles"
-      ]
-    },
-    {
-      "id": "87274b2d7e",
-      "tema": "ia",
-      "titular_es": "Google hace viable la IA privada mediante cifrado homomórfico",
-      "resumen": "Google presentó avances para aplicar cifrado homomórfico en inferencias de inteligencia artificial a escala práctica. Esta técnica permite procesar datos en la nube sin necesidad de descifrarlos en ningún momento, preservando totalmente la privacidad del usuario. El avance podría desbloquear el uso de LLMs en sectores con alta sensibilidad regulatoria como finanzas y salud.",
-      "relevancia": 8,
-      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
-      "fuente": "blog.google (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Google",
-        "ciberseguridad",
-        "cifrado"
-      ]
-    },
-    {
-      "id": "9404236b61",
-      "tema": "ia",
-      "titular_es": "GLM-5.3: Modelo de vanguardia en programación con capacidades cibernéticas emergentes",
-      "resumen": "Se dio a conocer la versión GLM-5.3, un modelo diseñado para tareas complejas de ingeniería de software y razonamiento de código. Las pruebas muestran habilidades avanzadas de análisis y automatización en ciberseguridad, superando referencias previas en generación de parches y auditoría. Plantea nuevas oportunidades y desafíos de seguridad para el desarrollo asistido por IA.",
-      "relevancia": 8,
-      "url": "https://z.ai/blog/glm-5.3",
-      "fuente": "z.ai (vía HN)",
-      "bandera": "🇨🇳",
-      "tags": [
-        "modelos de lenguaje",
-        "programación",
-        "ciberseguridad"
-      ]
-    },
-    {
-      "id": "81e5cc10e8",
-      "tema": "ia",
-      "titular_es": "Meta lanza Glimmer de pesos abiertos mientras mantiene su modelo más potente bajo API",
-      "resumen": "Meta publicó Glimmer, un modelo de IA de pesos abiertos que los desarrolladores pueden ejecutar localmente en su propio hardware. La estrategia contrasta con Muse Spark, su modelo más avanzado que permanecerá cerrado y accesible únicamente vía API de pago. La decisión refleja la tensión interna sobre monetización y apertura en la carrera del sector.",
-      "relevancia": 8,
-      "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Meta",
-        "código abierto",
-        "LLMs"
-      ]
-    },
-    {
-      "id": "a8bd7d5056",
-      "tema": "finanzas",
-      "titular_es": "Reddit se dispara en bolsa tras confirmarse su incorporación al índice S&P 500",
-      "resumen": "Las acciones de Reddit experimentaron un fuerte repunte luego del anuncio de su entrada formal al índice S&P 500. JPMorgan estima que fondos indexados deberán adquirir cerca de 16,7 millones de títulos para replicar el índice, generando una presión compradora masiva. La noticia coincide con una aceleración en sus ingresos por publicidad y licenciamiento de datos.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/mercados/el-sp-500-cambia-y-reddit-se-dispara-sus-acciones-saltan-y-wall-street-ve-mas-recorrido/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Reddit",
-        "Wall Street",
-        "S&P 500"
-      ]
-    },
-    {
-      "id": "2a37efdb40",
-      "tema": "finanzas",
-      "titular_es": "Globant recorta previsiones para 2026 y sus acciones se desploman en Wall Street",
-      "resumen": "La compañía tecnológica de origen argentino redujo sus proyecciones de facturación y rentabilidad para los próximos años debido a menor gasto corporativo. Sus títulos cayeron fuertemente tras reportar un trimestre por debajo de las expectativas del mercado y confirmar un ajuste de personal del 8,9%. Ilustra el enfriamiento en la contratación de servicios de consultoría digital.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/globant-recorta-prevision-de-facturacion-en-2026-y-se-desploman-sus-acciones-en-wall-street/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇦🇷",
-      "tags": [
-        "Globant",
-        "acciones",
-        "servicios IT"
-      ]
+      "tags": []
     },
     {
       "id": "843e93a16e",
       "tema": "finanzas",
-      "titular_es": "La inflación en EE. UU. subió 0,1% en julio y situó la tasa anual en 3,4%",
-      "resumen": "El índice de precios al consumidor de Estados Unidos avanzó un 0,1% mensual, alineándose con las proyecciones de analistas y dejando la tasa anual en 3,4%. La moderación en las presiones inflacionarias refuerza la expectativa de que la Reserva Federal mantenga estables o reduzca las tasas de interés. El dato trajo alivio temporal a los mercados de renta variable y bonos.",
-      "relevancia": 8,
+      "titular_es": "Consumer prices rose 0.1% in July, as expected, putting the annual rate at 3.4%",
+      "resumen": "The consumer price index was expected to increase 0.1% in July, with an annual rate of 3.4%.",
+      "relevancia": 10,
       "url": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
       "fuente": "cnbc.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "inflación",
-        "Reserva Federal",
-        "macroeconomía"
-      ]
+      "bandera": "🌍",
+      "tags": []
     },
     {
       "id": "042796346f",
       "tema": "emprendimiento",
-      "titular_es": "La startup francesa Kog optimiza la inferencia de agentes de IA en GPUs",
-      "resumen": "La empresa emergente Kog desarrolló una arquitectura de software diseñada para acelerar la ejecución de flujos de trabajo basados en agentes sobre procesadores gráficos. Su enfoque desafía la idea de que las GPUs actuales son ineficientes para tareas interactivas complejas de toma de decisiones. La tecnología promete reducir sustancialmente la latencia y los costos de infraestructura.",
-      "relevancia": 8,
+      "titular_es": "Kog is going deeper to squeeze more inference out of GPUs",
+      "resumen": "The idea that GPUs are poorly suited for agentic workflows may be a misconception, according to French startup Kog.",
+      "relevancia": 10,
       "url": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
       "fuente": "techcrunch.com",
-      "bandera": "🇫🇷",
-      "tags": [
-        "startups",
-        "GPUs",
-        "agentes de IA"
-      ]
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "49ebe47e40",
+      "id": "f455d67675",
       "tema": "ciencia",
-      "titular_es": "Detectan por primera vez el resplandor residual de antineutrinos en un reactor nuclear apagado",
-      "resumen": "Científicos lograron medir por primera vez la débil emisión continua de antineutrinos que emite el combustible nuclear tras el apagado del reactor. Las lecturas coincidieron con los modelos teóricos de desintegración en piscinas de enfriamiento de material gastado. La técnica ofrece una herramienta no invasiva para la verificación internacional de salvaguardias nucleares.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260814011036.htm",
+      "titular_es": "World’s first superconducting quantum heat engine could help unlock massive quantum computers",
+      "resumen": "A tiny superconducting engine has successfully converted heat near absolute zero into useful work, demonstrating the first cyclic quantum heat engine of its kind. Future versions could operate autonomously inside quantum computers, potentially eliminating huge numbers of costly, noise-producing micr",
+      "relevancia": 10,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260814011041.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": [
-        "física nuclear",
-        "neutrinos",
-        "seguridad nuclear"
-      ]
+      "tags": []
     },
     {
-      "id": "1cc51220b4",
-      "tema": "ciencia",
-      "titular_es": "Desarrollan técnica CRISPR para crear clones hembra a partir de embriones de ratón macho",
-      "resumen": "Investigadores lograron eliminar con precisión el cromosoma Y en embriones masculinos de roedores mediante edición genética, derivando clones femeninos viables. La técnica permite obtener descendencia fértil entre individuos del mismo sexo genético original, un avance con gran potencial para salvar especies en peligro crítico de extinción. También genera debates bioéticos sobre clonación.",
-      "relevancia": 8,
-      "url": "https://www.technologyreview.com/2026/08/14/1141919/cloning-save-species-or-make-human-organ-sacks/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": [
-        "CRISPR",
-        "genética",
-        "biotecnología"
-      ]
-    },
-    {
-      "id": "5ba83a0688",
-      "tema": "ciencia",
-      "titular_es": "Descubren que una hormona de estrés ayuda al cerebro a reparar daños neuronales",
-      "resumen": "Un equipo de neurocientíficos descubrió que células precursoras de mielina liberan la hormona CRH ante lesiones para coordinar la regeneración del tejido cerebral. La señal estimula la maduración celular y acelera la reconstrucción de la capa aislante que protege las fibras nerviosas. Podría inspirar nuevos tratamientos para enfermedades neurodegenerativas como la esclerosis múltiple.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260814011044.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "neurociencia",
-        "medicina",
-        "regeneración"
-      ]
-    },
-    {
-      "id": "7c730cbdf9",
-      "tema": "ciencia",
-      "titular_es": "Científicos de Stanford descubren que células inmunes ingresan masivamente al cerebro envejecido",
-      "resumen": "Investigadores de Stanford hallaron que la barrera hematoencefálica se vuelve permeable desde la mediana edad, permitiendo el ingreso continuo de células inmunitarias de la sangre. Una vez dentro, estas células se integran y transforman en microglía modificando la respuesta inflamatoria cerebral. El hallazgo replantea la relación entre el sistema inmunitario sistémico y el deterioro cognitivo.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260814011033.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Stanford",
-        "inmunología",
-        "envejecimiento"
-      ]
-    },
-    {
-      "id": "c651dc161b",
-      "tema": "ciencia",
-      "titular_es": "La corriente del Atlántico tolera más calor del previsto, pero es muy vulnerable a la velocidad del cambio",
-      "resumen": "Un nuevo modelo oceanográfico indica que la Circulación de Vuelco Meridional del Atlántico (AMOC) puede soportar temperaturas más altas si el calentamiento es gradual. Sin embargo, ante el ritmo acelerado del cambio climático actual, el sistema podría alcanzar un punto de no retorno a umbrales térmicos mucho menores. Advierte sobre los riesgos de colapso en patrones climáticos globales.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260814011031.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "climatología",
-        "océanos",
-        "medio ambiente"
-      ]
-    },
-    {
-      "id": "09419dced8",
+      "id": "c9f001ff64",
       "tema": "ia",
-      "titular_es": "DeepSeek actualiza su esquema de precios para horarios pico y valle",
-      "resumen": "DeepSeek implementó una estructura de tarifas diferenciadas según la demanda horaria en su API de inferencia. La medida busca incentivar la distribución de cargas de trabajo hacia franjas de bajo consumo y optimizar costos de cómputo. El cambio impacta directamente en desarrolladores que integran sus modelos en producción continua.",
-      "relevancia": 7,
-      "url": "https://api-docs.deepseek.com/news/news260813/",
-      "fuente": "api-docs.deepseek.com (vía HN)",
-      "bandera": "🇨🇳",
-      "tags": [
-        "DeepSeek",
-        "API",
-        "computación en la nube"
-      ]
+      "titular_es": "Magnitude 7.7 Earthquake – 68 km NNW of Ende, Indonesia",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 9,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2/executive",
+      "fuente": "earthquake.usgs.gov (vía HN)",
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "b8d906c341",
+      "id": "291db858fa",
+      "tema": "finanzas",
+      "titular_es": "Tesla Stock Is Recovering. The 3 Problems Underneath It Are Not.",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 9,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-recovering-3-problems-122510148.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "81e5cc10e8",
+      "tema": "emprendimiento",
+      "titular_es": "Meta’s ‘open’ AI, and a $250M deal gone very wrong",
+      "resumen": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark Zuckerberg arguing AI should be “for everyon",
+      "relevancia": 9,
+      "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "7685a74189",
+      "tema": "ciencia",
+      "titular_es": "Scientists solve the mystery of a brain “switch” that can trigger weight loss in opposite ways",
+      "resumen": "Scientists have uncovered why two seemingly opposite ways of targeting the same brain receptor can both promote weight loss. In mice, activating the GIP receptor in the brainstem reduced appetite, while blocking it in the hypothalamus removed a kind of “brake” on fullness signals. The discovery help",
+      "relevancia": 9,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260814011039.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "61d7b59378",
       "tema": "ia",
-      "titular_es": "Google permite desactivar las marcas de agua visibles en Gemini",
-      "resumen": "Google añadió una opción para retirar la marca de agua visible en imágenes, videos y pistas generadas con sus herramientas de IA. El ajuste está disponible en la configuración de Gemini y en su generador de video Flow, manteniendo la identificación digital SynthID incrustada. Facilita la adopción del contenido en flujos de diseño profesional.",
-      "relevancia": 7,
-      "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Google Gemini",
-        "generación visual",
-        "herramientas"
-      ]
+      "titular_es": "Simplifying and Refactoring Introductory Calculus (2018)",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 8,
+      "url": "https://arxiv.org/abs/1811.03459",
+      "fuente": "arxiv.org (vía HN)",
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "b18d4adea9",
+      "id": "6f0e6c77aa",
       "tema": "finanzas",
-      "titular_es": "Sandisk rebota 35% en cinco días impulsada por contratos de memoria para IA",
-      "resumen": "Las acciones de Sandisk protagonizaron un fuerte rally tras caídas previas gracias a nuevos contratos de suministro a largo plazo. La creciente demanda de memoria de alto rendimiento y almacenamiento en centros de datos de IA impulsó la mejora en sus metas financieras. Analistas de Wall Street revisaron al alza sus valoraciones tras la conferencia con inversores.",
-      "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/mercados/la-accion-mas-rentable-del-sp-500-rebota-35-en-cinco-dias-las-razones-detras-del-nuevo-rally/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Sandisk",
-        "semiconductores",
-        "bolsa"
-      ]
-    },
-    {
-      "id": "ab36167d37",
-      "tema": "finanzas",
-      "titular_es": "Wall Street cede terreno por cautela en el consumo, pero el S&P 500 logra su tercera semana al alza",
-      "resumen": "Los principales índices estadounidenses cerraron con ligeras pérdidas diarias ante señales mixtas sobre el gasto minorista. Pese al retroceso puntual, el S&P 500 encadenó su tercera semana consecutiva de ganancias apoyado en menores temores a un endurecimiento monetario. Los operadores siguen de cerca los balances corporativos para medir la resiliencia económica.",
-      "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/mercados/wall-street-opera-con-pocos-cambios-y-el-sp-500-apunta-a-su-tercera-semana-consecutiva-al-alza/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "mercados",
-        "S&P 500",
-        "economía"
-      ]
-    },
-    {
-      "id": "f858cd8e25",
-      "tema": "finanzas",
-      "titular_es": "El auge de baterías residenciales en Australia reduce los precios mayoristas de la electricidad",
-      "resumen": "La masiva adopción de sistemas de almacenamiento doméstico en Australia logró presionar a la baja las tarifas eléctricas mayoristas durante las horas pico de demanda. Los hogares inyectan excedentes de energía solar acumulada a la red, disminuyendo la necesidad de activar plantas térmicas costosas. Es un caso de estudio sobre cómo la descentralización energética transforma el mercado.",
-      "relevancia": 7,
-      "url": "https://e360.yale.edu/digest/australia-home-batteries",
-      "fuente": "e360.yale.edu (vía HN)",
-      "bandera": "🇦🇺",
-      "tags": [
-        "energía",
-        "baterías",
-        "mercado eléctrico"
-      ]
+      "titular_es": "SCHD Has a Little-Known International Twin That Pays More, and Almost Nobody Owns It",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 8,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/schd-little-known-international-twin-122029628.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
     },
     {
       "id": "a60e9c26e4",
       "tema": "emprendimiento",
-      "titular_es": "Joshua Kushner de Thrive Capital advierte a los VCs sobre la euforia desmedida en IA",
-      "resumen": "En su primera carta anual a inversores, el fundador de Thrive Capital alertó que el entusiasmo ciego por la IA puede llevar a graves errores de disciplina de inversión. Si bien reconoció el potencial transformador de la tecnología, advirtió sobre valoraciones insostenibles en etapas tempranas. El mensaje resuena con fuerza en el ecosistema de Silicon Valley.",
-      "relevancia": 7,
+      "titular_es": "Thrive’s Joshua Kushner chides Silicon Valley VCs over AI euphoria",
+      "resumen": "The AI opportunity is huge, but \"it would also be a grave error in our minds to let excitement weaken our investment discipline,\" Kushner warns in his first-ever investment letter.",
+      "relevancia": 8,
       "url": "https://techcrunch.com/2026/08/14/thrives-joshua-kushner-chides-silicon-valley-vcs-over-ai-euphoria/",
       "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "venture capital",
-        "startups",
-        "inversión"
-      ]
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "d1c213446c",
-      "tema": "emprendimiento",
-      "titular_es": "Inversores demandan por presunto fraude a startup de salud mental vinculada a Selena Gomez",
-      "resumen": "Un grupo de inversionistas presentó una demanda judicial alegando el desvío de 1,2 millones de dólares destinados a una plataforma de bienestar y salud mental. La querella afirma que no se cumplieron los compromisos de desarrollo de producto ni las estrategias de difusión prometidas. El caso evidencia los riesgos de gobernanza en startups apalancadas en figuras públicas.",
-      "relevancia": 7,
-      "url": "https://techcrunch.com/2026/08/13/investors-sue-selena-gomez-alleging-fraud-tied-to-her-mental-health-startup/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "startups",
-        "litigios",
-        "salud digital"
-      ]
+      "id": "49ebe47e40",
+      "tema": "ciencia",
+      "titular_es": "Scientists detect a nuclear reactor’s ghostly afterglow for the first time",
+      "resumen": "Nuclear reactors may go dark, but their fuel continues producing a faint antineutrino “glow” long after shutdown. Researchers have now detected that residual signal for the first time, finding it closely matched predictions of radioactive decay inside the reactor and nearby spent-fuel pools. The bre",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260814011036.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "c18ac019db",
-      "tema": "emprendimiento",
-      "titular_es": "El máximo tribunal francés bloquea la prohibición de redes sociales para menores de 15 años",
-      "resumen": "El Consejo Constitucional de Francia frenó la normativa que buscaba restringir el acceso a plataformas sociales a menores de 15 años sin autorización parental. El fallo argumentó problemas de proporcionalidad y falta de garantías técnicas para verificar la edad sin violar la privacidad. La resolución sienta un precedente clave para regulaciones digitales en Europa.",
+      "id": "b9ec8f25e8",
+      "tema": "ia",
+      "titular_es": "eigendrum",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 7,
-      "url": "https://www.reuters.com/world/frances-top-court-rules-social-media-ban-curtails-freedom-expression-2026-08-14/",
-      "fuente": "reuters.com (vía HN)",
-      "bandera": "🇫🇷",
-      "tags": [
-        "regulación",
-        "redes sociales",
-        "privacidad"
-      ]
+      "url": "https://eigendrum.com/#p=circle",
+      "fuente": "eigendrum.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "2d3571b445",
+      "tema": "finanzas",
+      "titular_es": "SCHG vs QQQ vs VUG: We Compared the Three Biggest Growth ETFs and One Is the Clear Winner for the Next Decade",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/schg-vs-qqq-vs-vug-121711599.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "1ed22775f8",
+      "tema": "emprendimiento",
+      "titular_es": "GLM-5.3 is here with advanced cyber capabilities — and reportedly already found a 'serious vulnerability' in Cursor",
+      "resumen": "Chinese AI startup Z.ai, known internationally for its growing lineup of powerful, largely open source GLM series of language models, today released GLM-5.3 with substantial gains in long-horizon coding and a more consequential — and potentially sensitive — jump in cybersecurity capabilities. Alread",
+      "relevancia": 7,
+      "url": "https://venturebeat.com/technology/glm-5-3-is-here-with-advanced-cyber-capabilities-and-reportedly-already-found-a-serious-vulnerability-in-cursor",
+      "fuente": "venturebeat.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "7c730cbdf9",
+      "tema": "ciencia",
+      "titular_es": "Immune cells flood into the aging brain, Stanford scientists discover",
+      "resumen": "Scientists have discovered that the aging human brain may be far less isolated from the rest of the body than once believed. Stanford researchers found that large numbers of immune cells from the blood begin entering the brain as early as middle age, where they can transform into microglia, the brai",
+      "relevancia": 7,
+      "url": "https://www.sciencedaily.com/releases/2026/08/260814011033.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "b01a84e9c7",
+      "tema": "ia",
+      "titular_es": "Going Dark, and the era of law enforcement hacking",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 6,
+      "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
+      "fuente": "blog.cryptographyengineering.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "a6ce67539e",
+      "tema": "finanzas",
+      "titular_es": "Why US boomers seriously need to prepare for a stock market crash before it’s too late — 3 red flags and what to do now",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 6,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-us-boomers-seriously-prepare-121500467.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "c179fbae02",
+      "tema": "ia",
+      "titular_es": "Firefox is now the last major browser that still supports uBlock Origin",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 5,
+      "url": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
+      "fuente": "pcworld.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "d690fea009",
+      "tema": "finanzas",
+      "titular_es": "Impermanent loss in crypto: Understanding the real risk of providing liquidity",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 5,
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/impermanent-loss-162416298.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "92dad73018",
+      "tema": "ia",
+      "titular_es": "Racket v9.3",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 4,
+      "url": "https://blog.racket-lang.org/2026/08/racket-v9-3.html",
+      "fuente": "blog.racket-lang.org (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "8ef7aea1fc",
+      "tema": "finanzas",
+      "titular_es": "Con tasas superiores al 12%, la renta fija vuelve a ganar protagonismo en Colombia",
+      "resumen": "La inflación por encima del 6% y las tasas superiores al 12% en emisiones de deuda pública de corto plazo abren nuevas oportunidades para los inversionistas, en un contexto en el que se anticipa una reducción gradual de las tasas de interés.",
+      "relevancia": 4,
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/con-tasas-superiores-al-12-la-renta-fija-vuelve-a-ganar-protagonismo-en-colombia/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "3efdd3b405",
+      "tema": "ia",
+      "titular_es": "Maximizing the value of your Claude Code sessions",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 3,
+      "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "fuente": "claude.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "96aaf10f89",
+      "tema": "finanzas",
+      "titular_es": "El gasto relacionado con la inteligencia artificial superaría el billón de dólares en 2026",
+      "resumen": "El número surge de una estimación de Goldman Sachs Research. Del total, unos US$581.000 millones corresponderían a Estados Unidos.",
+      "relevancia": 3,
+      "url": "https://www.bloomberglinea.com/tecnologia/el-gasto-relacionado-con-la-inteligencia-artificial-superaria-el-billon-de-dolares-en-2026/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🌍",
+      "tags": []
     },
     {
       "id": "4bf31048ec",
       "tema": "ia",
-      "titular_es": "RustDesk añade soporte completo para acceso remoto desatendido en Wayland",
-      "resumen": "La plataforma de escritorio remoto de código abierto RustDesk logró implementar acceso no asistido en servidores gráficos Wayland de Linux. Históricamente, las restricciones de aislamiento de Wayland complicaban el control remoto continuo sin intervención de un usuario local. Es una mejora sustancial para administración de sistemas en entornos empresariales abiertos.",
-      "relevancia": 6,
+      "titular_es": "RustDesk now supports true unattended remote access on Wayland",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 2,
       "url": "https://rustdesk.com/blog/unattended-remote-access-wayland/",
       "fuente": "rustdesk.com (vía HN)",
       "bandera": "🌍",
-      "tags": [
-        "RustDesk",
-        "Linux",
-        "software libre"
-      ]
+      "tags": []
     },
     {
-      "id": "a3a43442c3",
-      "tema": "ia",
-      "titular_es": "Google introduce procesamiento a nivel sensor exclusivo para la serie Pixel 11",
-      "resumen": "Google reveló su nueva función de cámara Camera Looks, reservada para la línea Pixel 11. La tecnología procesa los datos brutos del sensor antes de la tubería estándar de imagen para generar estéticas fotográficas retro sin depender de filtros posprocesados. Muestra cómo los fabricantes integran procesamiento de hardware para diferenciarse.",
-      "relevancia": 6,
-      "url": "https://www.theverge.com/tech/980467/google-pixel-11-camera-looks-older-phones",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Google Pixel",
-        "fotografía",
-        "hardware"
-      ]
-    },
-    {
-      "id": "d102e2d42e",
+      "id": "ab36167d37",
       "tema": "finanzas",
-      "titular_es": "BlackRock detalla su perspectiva optimista para EE. UU. y su foco de inversión en América Latina",
-      "resumen": "Ejecutivos de BlackRock señalaron que mantienen una visión constructiva sobre el mercado accionario estadounidense respaldada por ganancias corporativas sólidas. Para Latinoamérica, la gestora destacó oportunidades puntuales en infraestructura, transición energética y deuda soberana de alto rendimiento. Sugieren mantener carteras diversificadas frente a la volatilidad cambiaria.",
-      "relevancia": 6,
-      "url": "https://www.bloomberglinea.com/mercados/por-que-blackrock-sigue-optimista-con-el-mercado-estadounidense-y-que-mira-en-latinoamerica/",
+      "titular_es": "Wall Street cae ante dudas sobre el consumo, pero el S&P 500 suma su tercera semana seguida al alza",
+      "resumen": "Las acciones estadounidenses retrocedieron ante las dudas sobre la fortaleza del consumidor, mientras el mercado redujo sus apuestas por un aumento de tasas de la Fed en septiembre.",
+      "relevancia": 2,
+      "url": "https://www.bloomberglinea.com/mercados/wall-street-opera-con-pocos-cambios-y-el-sp-500-apunta-a-su-tercera-semana-consecutiva-al-alza/",
       "fuente": "bloomberglinea.com",
       "bandera": "🌍",
-      "tags": [
-        "BlackRock",
-        "inversiones",
-        "América Latina"
-      ]
+      "tags": []
+    },
+    {
+      "id": "7e91629f65",
+      "tema": "ia",
+      "titular_es": "AI by Hand",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 1,
+      "url": "https://www.byhand.ai/",
+      "fuente": "byhand.ai (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "3d563fb47a",
+      "tema": "finanzas",
+      "titular_es": "Berkshire mueve sus inversiones: compra más Alphabet y sale de Constellation Brands",
+      "resumen": "El conglomerado volvió a ser comprador neto de acciones por primera vez desde 2022, mientras reforzó su posición en Alphabet, incorporó más títulos de The New York Times y redujo su efectivo.",
+      "relevancia": 1,
+      "url": "https://www.bloomberglinea.com/mercados/berkshire-mueve-sus-inversiones-compra-mas-alphabet-y-sale-de-constellation-brands/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🌍",
+      "tags": []
     }
   ]
 }
