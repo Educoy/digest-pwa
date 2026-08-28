@@ -1,6 +1,6 @@
 {
   "fecha": "2026-08-27",
-  "generado_utc": "2026-08-27T21:52:40Z",
+  "generado_utc": "2026-08-28T03:59:01Z",
   "indicadores": {
     "dolar": {
       "valor": 918.42,
@@ -13,7 +13,7 @@
       "variacion_pct": 0.0
     }
   },
-  "noticia_del_dia": "8ad2e79b34",
+  "noticia_del_dia": "0f84e108ec",
   "pildora_ia": "Temperatura: parámetro que controla cuán 'creativa' es la respuesta de un LLM. Baja (0) da respuestas predecibles y consistentes; alta (1+) las hace más variadas y arriesgadas.",
   "pildoras_ia": [
     "Temperatura: parámetro que controla cuán 'creativa' es la respuesta de un LLM. Baja (0) da respuestas predecibles y consistentes; alta (1+) las hace más variadas y arriesgadas.",
@@ -24,13 +24,13 @@
   ],
   "noticias": [
     {
-      "id": "8ad2e79b34",
+      "id": "0f84e108ec",
       "tema": "ia",
-      "titular_es": "We found a division by zero bug in FFmpeg with a vibecoded fuzzer",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "Show HN: We built open OpenRouter that turns usage into a better model",
+      "resumen": "Hi HN, we built an open source model gateway. It's a single place to manage our own self hosted, frontier, and open source models in one place. It’s is rust native, built for concurrency, and implements all the config quirks across models and providers (streaming formats, tool calls, model parameter",
       "relevancia": 10,
-      "url": "https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290",
-      "fuente": "code.ffmpeg.org (vía HN)",
+      "url": "https://github.com/experientiallabs/experiential",
+      "fuente": "github.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -68,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "58be3312c4",
+      "id": "23fd80ee52",
       "tema": "ia",
-      "titular_es": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
+      "titular_es": "Gemini-3.5-Transcribe",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 9,
-      "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
-      "fuente": "blog.cloudflare.com (vía HN)",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+      "fuente": "blog.google (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -112,13 +112,13 @@
       "tags": []
     },
     {
-      "id": "0a654e06b3",
+      "id": "8ad2e79b34",
       "tema": "ia",
-      "titular_es": "Gemini Omni 1.1 Flash",
+      "titular_es": "We found a division by zero bug in FFmpeg with a vibecoded fuzzer",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 8,
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
-      "fuente": "blog.google (vía HN)",
+      "url": "https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290",
+      "fuente": "code.ffmpeg.org (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -156,13 +156,13 @@
       "tags": []
     },
     {
-      "id": "d61a57e1a0",
+      "id": "58be3312c4",
       "tema": "ia",
-      "titular_es": "Small Models Have Arrived",
+      "titular_es": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 7,
-      "url": "https://calv.info/small-models-have-arrived",
-      "fuente": "calv.info (vía HN)",
+      "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+      "fuente": "blog.cloudflare.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -178,13 +178,13 @@
       "tags": []
     },
     {
-      "id": "dff9dc0737",
+      "id": "975b7811b0",
       "tema": "emprendimiento",
-      "titular_es": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
-      "resumen": "The startup is only a year old but it has already generated a massive amount of hype (and money) while also spurring privacy concerns.",
+      "titular_es": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
+      "resumen": "Presented by Gravitee Agent complexity is the insidious shadow lurking inside enterprises right now that needs a light shone on it. That’s because enterprises don't deploy a single agent and watch it run, they deploy fleets, each one calling APIs, calling other agents, reaching into applications tha",
       "relevancia": 7,
-      "url": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
-      "fuente": "techcrunch.com",
+      "url": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
+      "fuente": "venturebeat.com",
       "bandera": "🌍",
       "tags": []
     },
@@ -200,13 +200,13 @@
       "tags": []
     },
     {
-      "id": "762d42cead",
+      "id": "0a654e06b3",
       "tema": "ia",
-      "titular_es": "Suica, Japan's First IC Transit Card",
+      "titular_es": "Gemini Omni 1.1 Flash",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 6,
-      "url": "https://www.tokyodev.com/articles/the-story-of-suica",
-      "fuente": "tokyodev.com (vía HN)",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+      "fuente": "blog.google (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -222,12 +222,12 @@
       "tags": []
     },
     {
-      "id": "975b7811b0",
+      "id": "759fb0345f",
       "tema": "emprendimiento",
-      "titular_es": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
-      "resumen": "Presented by Gravitee Agent complexity is the insidious shadow lurking inside enterprises right now that needs a light shone on it. That’s because enterprises don't deploy a single agent and watch it run, they deploy fleets, each one calling APIs, calling other agents, reaching into applications tha",
+      "titular_es": "Visa ships a security AI that patches production code before any human reviews it",
+      "resumen": "Visa's open-source security harness now finds the vulnerability, writes the fix, and turns an adversarial panel on its own patch before any human reviews it. The whole loop ships on by default. A plain scan of the Visa Vulnerability Agentic Harness runs all 11 stages and edits source files in the ta",
       "relevancia": 6,
-      "url": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
+      "url": "https://venturebeat.com/security/visa-agentic-security-harness-autonomous-fix",
       "fuente": "venturebeat.com",
       "bandera": "🌍",
       "tags": []
@@ -244,34 +244,34 @@
       "tags": []
     },
     {
-      "id": "dda233a1a0",
+      "id": "d61a57e1a0",
       "tema": "ia",
-      "titular_es": "Decompiling a Nintendo 64 game in 84 days",
+      "titular_es": "Small Models Have Arrived",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 5,
-      "url": "https://blog.chrislewis.au/decompiling-a-nintendo-64-game-in-84-days/",
-      "fuente": "blog.chrislewis.au (vía HN)",
+      "url": "https://calv.info/small-models-have-arrived",
+      "fuente": "calv.info (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "9e338cb55d",
+      "id": "0bdba53ce5",
       "tema": "finanzas",
-      "titular_es": "Bitcoin and ethereum prices today, Thursday, August 27, 2026: Down from highs, but prices holding strong",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "Bernstein ve al bitcoin en US$300.000 para 2029: estas son las razones de su apuesta",
+      "resumen": "La firma proyecta nuevos máximos para el bitcoin y apunta a la deuda soberana, la depreciación monetaria y los flujos institucionales como motores de su escenario alcista.",
       "relevancia": 5,
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-august-27-2026-down-from-highs-but-prices-holding-strong-131109209.html",
-      "fuente": "finance.yahoo.com",
+      "url": "https://www.bloomberglinea.com/mercados/bernstein-ve-al-bitcoin-en-us300000-para-2029-estas-son-las-razones-de-su-apuesta/",
+      "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "759fb0345f",
+      "id": "b6edaf7b0d",
       "tema": "emprendimiento",
-      "titular_es": "Visa ships a security AI that patches production code before any human reviews it",
-      "resumen": "Visa's open-source security harness now finds the vulnerability, writes the fix, and turns an adversarial panel on its own patch before any human reviews it. The whole loop ships on by default. A plain scan of the Visa Vulnerability Agentic Harness runs all 11 stages and edits source files in the ta",
+      "titular_es": "When agents act on their own, governance has to live in the data layer",
+      "resumen": "Presented by EDB As enterprises give AI agents more autonomy — the ability to plan, decide, and act across systems without a human approving each step — a hard question moves to the center of every architecture review: When an agent tries to complete an action that it was never authorized to do, wha",
       "relevancia": 5,
-      "url": "https://venturebeat.com/security/visa-agentic-security-harness-autonomous-fix",
+      "url": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
       "fuente": "venturebeat.com",
       "bandera": "🌍",
       "tags": []
@@ -288,35 +288,24 @@
       "tags": []
     },
     {
-      "id": "e49de4befa",
+      "id": "762d42cead",
       "tema": "ia",
-      "titular_es": "507 Mechanical Movements",
-      "resumen": "Book (1868): https://archive.org/details/fivehundredseven00browiala",
-      "relevancia": 4,
-      "url": "https://507movements.com/",
-      "fuente": "507movements.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "d7f0e59a39",
-      "tema": "finanzas",
-      "titular_es": "Mortgage rates remain stuck near 6.7%: Mortgage and refinance interest rates today, Thursday, August 27, 2026",
+      "titular_es": "Suica, Japan's First IC Transit Card",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 4,
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-rates-remain-stuck-near-67-mortgage-and-refinance-interest-rates-today-thursday-august-27-2026-100000669.html",
-      "fuente": "finance.yahoo.com",
+      "url": "https://www.tokyodev.com/articles/the-story-of-suica",
+      "fuente": "tokyodev.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "b6edaf7b0d",
-      "tema": "emprendimiento",
-      "titular_es": "When agents act on their own, governance has to live in the data layer",
-      "resumen": "Presented by EDB As enterprises give AI agents more autonomy — the ability to plan, decide, and act across systems without a human approving each step — a hard question moves to the center of every architecture review: When an agent tries to complete an action that it was never authorized to do, wha",
+      "id": "b3df0d1451",
+      "tema": "finanzas",
+      "titular_es": "Vanguard ve una IA frágil, un dólar más débil y un nuevo “China Shock” para los mercados",
+      "resumen": "Qian Wang, responsable global de investigación de mercados de capitales de Vanguard, explica dónde ve oportunidades para los inversionistas y por qué el mercado tendrá que acostumbrarse a una economía mundial más fragmentada.",
       "relevancia": 4,
-      "url": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
-      "fuente": "venturebeat.com",
+      "url": "https://www.bloomberglinea.com/mercados/vanguard-ve-una-ia-fragil-un-dolar-mas-debil-y-un-nuevo-china-shock-para-los-mercados/",
+      "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": []
     },
@@ -332,24 +321,24 @@
       "tags": []
     },
     {
-      "id": "42d9a4ef5e",
+      "id": "dda233a1a0",
       "tema": "ia",
-      "titular_es": "Trade (and Tariffs)",
+      "titular_es": "Decompiling a Nintendo 64 game in 84 days",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 3,
-      "url": "https://xkcd.com/3290/",
-      "fuente": "xkcd.com (vía HN)",
+      "url": "https://blog.chrislewis.au/decompiling-a-nintendo-64-game-in-84-days/",
+      "fuente": "blog.chrislewis.au (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "6e2d211bb9",
-      "tema": "emprendimiento",
-      "titular_es": "GLM-5.3-Flash will likely handle 45% of your AI workloads",
-      "resumen": "A week ago, a mystery model called Ox Alpha showed up on OpenRouter — one more entrant among more than 400 models, with roughly 10 new ones launching every week. What made it stand out wasn't just the free price tag; it was quietly good. Hobbyists and indie developers noticed fast, pushing several t",
+      "id": "11bc1bc6d7",
+      "tema": "finanzas",
+      "titular_es": "El Tesoro argentino refinancia 95% de los vencimientos en desafiante licitación de deuda",
+      "resumen": "La Secretaría de Finanzas adjudicó ARS$12,16 billones frente a vencimientos por ARS$.12,6 billones. Por primera vez desde febrero, el Tesoro no buscó dólares en el mercado local.",
       "relevancia": 3,
-      "url": "https://venturebeat.com/orchestration/glm-5-3-flash-will-likely-handle-45-of-your-ai-workloads",
-      "fuente": "venturebeat.com",
+      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/el-tesoro-argentino-refinancia-95-de-los-vencimientos-en-desafiante-licitacion-de-deuda/",
+      "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": []
     },
@@ -365,23 +354,23 @@
       "tags": []
     },
     {
-      "id": "ad6a764863",
+      "id": "e49de4befa",
       "tema": "ia",
-      "titular_es": "Emacs 31: An unofficial guide to Markdown-ts-mode",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "507 Mechanical Movements",
+      "resumen": "Book (1868): https://archive.org/details/fivehundredseven00browiala",
       "relevancia": 2,
-      "url": "https://rahuljuliato.com/posts/markdown-ts-mode-emacs-31",
-      "fuente": "rahuljuliato.com (vía HN)",
+      "url": "https://507movements.com/",
+      "fuente": "507movements.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "11bc1bc6d7",
+      "id": "f9f5b5964e",
       "tema": "finanzas",
-      "titular_es": "El Tesoro argentino refinancia 95% de los vencimientos en desafiante licitación de deuda",
-      "resumen": "La Secretaría de Finanzas adjudicó ARS$12,16 billones frente a vencimientos por ARS$.12,6 billones. Por primera vez desde febrero, el Tesoro no buscó dólares en el mercado local.",
+      "titular_es": "Acción de Nvidia sube con fuerza: estas son las 5 razones por las que Wall Street sugiere invertir",
+      "resumen": "La previsión de crecimiento para 2028, la demanda que supera la capacidad de suministro y el avance de Vera Rubin reforzaron la tesis de Wall Street sobre Nvidia",
       "relevancia": 2,
-      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/el-tesoro-argentino-refinancia-95-de-los-vencimientos-en-desafiante-licitacion-de-deuda/",
+      "url": "https://www.bloomberglinea.com/mercados/accion-de-nvidia-sube-con-fuerza-estas-son-las-5-razones-por-las-que-wall-street-sugiere-invertir/",
       "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": []
@@ -398,23 +387,23 @@
       "tags": []
     },
     {
-      "id": "989750ed4a",
+      "id": "ad6a764863",
       "tema": "ia",
-      "titular_es": "Microduck",
+      "titular_es": "Emacs 31: An unofficial guide to Markdown-ts-mode",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 1,
-      "url": "https://pollen-robotics.com/microduck/",
-      "fuente": "pollen-robotics.com (vía HN)",
+      "url": "https://rahuljuliato.com/posts/markdown-ts-mode-emacs-31",
+      "fuente": "rahuljuliato.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "f9f5b5964e",
+      "id": "75c0f1d5ef",
       "tema": "finanzas",
-      "titular_es": "Acción de Nvidia sube con fuerza: estas son las 5 razones por las que Wall Street sugiere invertir",
-      "resumen": "La previsión de crecimiento para 2028, la demanda que supera la capacidad de suministro y el avance de Vera Rubin reforzaron la tesis de Wall Street sobre Nvidia",
+      "titular_es": "Nasdaq lidera alzas en Wall Street por impulso de Nvidia, mientras el foco gira a Jackson Hole",
+      "resumen": "Las perspectivas de Nvidia reavivaron el optimismo por la inteligencia artificial y sostuvieron al S&P 500 y al Nasdaq, mientras los inversionistas esperan el discurso de Kevin Warsh en Jackson Hole.",
       "relevancia": 1,
-      "url": "https://www.bloomberglinea.com/mercados/accion-de-nvidia-sube-con-fuerza-estas-son-las-5-razones-por-las-que-wall-street-sugiere-invertir/",
+      "url": "https://www.bloomberglinea.com/mercados/sp-500-sube-impulsado-por-nvidia-con-la-atencion-del-mercado-puesta-en-jackson-hole/",
       "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": []
