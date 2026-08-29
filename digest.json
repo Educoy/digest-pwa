@@ -1,6 +1,6 @@
 {
   "fecha": "2026-08-28",
-  "generado_utc": "2026-08-28T21:46:46Z",
+  "generado_utc": "2026-08-29T02:39:33Z",
   "indicadores": {
     "dolar": {
       "valor": 925.25,
@@ -13,7 +13,7 @@
       "variacion_pct": 0.0
     }
   },
-  "noticia_del_dia": "4b1ea1a01a",
+  "noticia_del_dia": "83fef9f61e",
   "pildora_ia": "RAG (Retrieval-Augmented Generation): técnica para que un LLM responda usando documentos externos: primero busca información relevante y luego la usa para generar la respuesta. Reduce alucinaciones y permite datos frescos sin reentrenar.",
   "pildoras_ia": [
     "RAG (Retrieval-Augmented Generation): técnica para que un LLM responda usando documentos externos: primero busca información relevante y luego la usa para generar la respuesta. Reduce alucinaciones y permite datos frescos sin reentrenar.",
@@ -24,13 +24,13 @@
   ],
   "noticias": [
     {
-      "id": "4b1ea1a01a",
+      "id": "83fef9f61e",
       "tema": "ia",
-      "titular_es": "25,000 Lbs. Of Chicken Products Recalled in 5 States: USDA",
+      "titular_es": "Just the rumour of a bug is enough to find an exploit these days",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 10,
-      "url": "https://www.thehealthy.com/news/chicken-recall-fsis-august-2026/",
-      "fuente": "thehealthy.com (vía HN)",
+      "url": "https://anil.recoil.org/notes/rumour-is-the-exploit",
+      "fuente": "anil.recoil.org (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -68,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "83fef9f61e",
+      "id": "7dd5961dd7",
       "tema": "ia",
-      "titular_es": "Just the rumour of a bug is enough to find an exploit these days",
+      "titular_es": "EasyEffects can improve laptop speaker sound quality",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 9,
-      "url": "https://anil.recoil.org/notes/rumour-is-the-exploit",
-      "fuente": "anil.recoil.org (vía HN)",
+      "url": "https://www.osnews.com/story/145883/easyeffects-should-be-part-of-every-linux-distribution-and-desktop-environment-to-massively-improve-laptop-speaker-sound-quality/",
+      "fuente": "osnews.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -123,23 +123,23 @@
       "tags": []
     },
     {
-      "id": "abb1e50ea1",
+      "id": "bcb73ecd37",
       "tema": "finanzas",
-      "titular_es": "Dunkin' comes back to major market after 12-year absence",
+      "titular_es": "Okta’s AI boom just created a new security problem",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 8,
-      "url": "https://finance.yahoo.com/small-business/articles/dunkin-comes-back-major-market-161700314.html",
+      "url": "https://finance.yahoo.com/technology/ai/articles/okta-ai-boom-just-created-161700485.html",
       "fuente": "finance.yahoo.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "7714952f68",
+      "id": "6b47cf48ab",
       "tema": "emprendimiento",
-      "titular_es": "AI, athletes, and Keith Rabois: StrictlyVC is back in New York on September 10",
-      "resumen": "A boutique StrictlyVC evening returns to New York's West Village on September 10 with Keith Rabois, Craig Shapiro, Jason Levien, Tristan Walker, Brynn Putnam, and Deven Parekh — covering AI, sports investing, community-building, venture economics, and politics, with cocktails, food, and networking t",
+      "titular_es": "a16z creates a $1.1B ‘Machine Age’ fund to ‘accelerate the physical buildout of AI’",
+      "resumen": "The firm, known for its focus on software, is going to start throwing more money at the hardware behind AI.",
       "relevancia": 8,
-      "url": "https://techcrunch.com/2026/08/27/ai-athletes-and-keith-rabois-strictlyvc-is-back-in-new-york-on-september-10/",
+      "url": "https://techcrunch.com/2026/08/28/a16z-creates-a-1-1b-machine-age-fund-to-accelerate-the-physical-buildout-of-ai/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -167,24 +167,24 @@
       "tags": []
     },
     {
-      "id": "bcb73ecd37",
+      "id": "abb1e50ea1",
       "tema": "finanzas",
-      "titular_es": "Okta’s AI boom just created a new security problem",
+      "titular_es": "Dunkin' comes back to major market after 12-year absence",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 7,
-      "url": "https://finance.yahoo.com/technology/ai/articles/okta-ai-boom-just-created-161700485.html",
+      "url": "https://finance.yahoo.com/small-business/articles/dunkin-comes-back-major-market-161700314.html",
       "fuente": "finance.yahoo.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "6b47cf48ab",
+      "id": "5991f3bbe9",
       "tema": "emprendimiento",
-      "titular_es": "a16z creates a $1.1B ‘Machine Age’ fund to ‘accelerate the physical buildout of AI’",
-      "resumen": "The firm, known for its focus on software, is going to start throwing more money at the hardware behind AI.",
+      "titular_es": "The three layers of agentic AI security: A defense-in-depth architecture for autonomous agents",
+      "resumen": "Presented by Nutanix Autonomous systems that can reason, make their own decisions, and execute actions across an environment introduce a category of risk that application-level controls were never built to contain. Treating that risk as a single problem produces incomplete architectures, says Oscar ",
       "relevancia": 7,
-      "url": "https://techcrunch.com/2026/08/28/a16z-creates-a-1-1b-machine-age-fund-to-accelerate-the-physical-buildout-of-ai/",
-      "fuente": "techcrunch.com",
+      "url": "https://venturebeat.com/security/the-three-layers-of-agentic-ai-security-a-defense-in-depth-architecture-for-autonomous-agents",
+      "fuente": "venturebeat.com",
       "bandera": "🌍",
       "tags": []
     },
@@ -200,34 +200,34 @@
       "tags": []
     },
     {
-      "id": "35dd90702c",
+      "id": "0356389761",
       "tema": "ia",
-      "titular_es": "State of the Map 2026",
+      "titular_es": "Verschlimmbesserung: The Word Your Software Updates Need",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 6,
-      "url": "https://2026.stateofthemap.org/",
-      "fuente": "2026.stateofthemap.org (vía HN)",
+      "url": "https://geekyschmidt.com/post/2026-08-25-verschlimmbesserung/",
+      "fuente": "geekyschmidt.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "b20fa3f24d",
+      "id": "717238605a",
       "tema": "finanzas",
-      "titular_es": "Wall Street reacciona a Warsh: el dólar repunta, mientras el oro y el S&P 500 caen tras Jackson Hole",
-      "resumen": "El mensaje de Kevin Warsh elevó las apuestas por un aumento de tasas de la Fed, impulsó al dólar y a los rendimientos de corto plazo, mientras presionó al S&P 500, el oro y el bitcoin.",
+      "titular_es": "Peso mexicano cierra semana con pérdidas tras advertencia de Warsh contra la inflación en EE.UU.",
+      "resumen": "La moneda mexicana concluyó la semana con una depreciación semanal de 0,7% tras un mensaje del presidente del banco central estadounidense.",
       "relevancia": 6,
-      "url": "https://www.bloomberglinea.com/mercados/wall-street-opera-con-cautela-a-la-espera-del-primer-discurso-de-warsh-en-jackson-hole/",
+      "url": "https://www.bloomberglinea.com/latinoamerica/mexico/peso-mexicano-cierra-semana-con-perdidas-tras-advertencia-de-warsh-contra-la-inflacion-en-eeuu/",
       "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "5991f3bbe9",
+      "id": "9e40a309f9",
       "tema": "emprendimiento",
-      "titular_es": "The three layers of agentic AI security: A defense-in-depth architecture for autonomous agents",
-      "resumen": "Presented by Nutanix Autonomous systems that can reason, make their own decisions, and execute actions across an environment introduce a category of risk that application-level controls were never built to contain. Treating that risk as a single problem produces incomplete architectures, says Oscar ",
+      "titular_es": "Meta researchers taught an 8B AI model to match Claude Opus 4.5 — without the frontier price tag",
+      "resumen": "Consider an AI agent tasked with a complex enterprise workflow like migrating massive batches of customer records from a legacy CRM to a cloud database. The agent cannot rely solely on its internal context window for a job spanning hours and depends on the runtime layer, aka the harness . This harne",
       "relevancia": 6,
-      "url": "https://venturebeat.com/security/the-three-layers-of-agentic-ai-security-a-defense-in-depth-architecture-for-autonomous-agents",
+      "url": "https://venturebeat.com/orchestration/meta-researchers-taught-an-8b-ai-model-to-match-claude-opus-4-5-without-the-frontier-price-tag",
       "fuente": "venturebeat.com",
       "bandera": "🌍",
       "tags": []
@@ -244,34 +244,34 @@
       "tags": []
     },
     {
-      "id": "ddc52246b7",
+      "id": "85d677ced8",
       "tema": "ia",
-      "titular_es": "Get your Windows license refund",
+      "titular_es": "Htmx 4.0",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 5,
-      "url": "https://en.refund4freedom.org/",
-      "fuente": "en.refund4freedom.org (vía HN)",
+      "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
+      "fuente": "four.htmx.org (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "78a8cb136e",
+      "id": "b20fa3f24d",
       "tema": "finanzas",
-      "titular_es": "Citi ve un “reset fiscal” en Colombia, pero ahora el foco de los mercados pasa a cómo financiarlo",
-      "resumen": "El banco sostiene que el nuevo presupuesto no representa otro shock fiscal, sino un reconocimiento de pasivos y gastos que ya existían.",
+      "titular_es": "Wall Street reacciona a Warsh: el dólar repunta, mientras el oro y el S&P 500 caen tras Jackson Hole",
+      "resumen": "El mensaje de Kevin Warsh elevó las apuestas por un aumento de tasas de la Fed, impulsó al dólar y a los rendimientos de corto plazo, mientras presionó al S&P 500, el oro y el bitcoin.",
       "relevancia": 5,
-      "url": "https://www.bloomberglinea.com/mercados/citi-ve-un-reset-fiscal-en-colombia-pero-ahora-el-foco-de-los-mercados-pasa-a-como-financiarlo/",
+      "url": "https://www.bloomberglinea.com/mercados/wall-street-opera-con-cautela-a-la-espera-del-primer-discurso-de-warsh-en-jackson-hole/",
       "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "9e40a309f9",
+      "id": "520465f69f",
       "tema": "emprendimiento",
-      "titular_es": "Meta researchers taught an 8B AI model to match Claude Opus 4.5 — without the frontier price tag",
-      "resumen": "Consider an AI agent tasked with a complex enterprise workflow like migrating massive batches of customer records from a legacy CRM to a cloud database. The agent cannot rely solely on its internal context window for a job spanning hours and depends on the runtime layer, aka the harness . This harne",
+      "titular_es": "Cohere Parse 5 loses the benchmark on points. It wins on cost per page.",
+      "resumen": "Enterprises trying to feed PDFs, slides and scanned documents into AI pipelines keep running into the same wall: the tools either miss the structure — tables, charts, layout — or cost too much to run at scale. Cohere released Parse 5 on Thursday , positioning it on price-to-performance, not raw accu",
       "relevancia": 5,
-      "url": "https://venturebeat.com/orchestration/meta-researchers-taught-an-8b-ai-model-to-match-claude-opus-4-5-without-the-frontier-price-tag",
+      "url": "https://venturebeat.com/data/cohere-parse-5-loses-the-benchmark-on-points-it-wins-on-cost-per-page",
       "fuente": "venturebeat.com",
       "bandera": "🌍",
       "tags": []
@@ -288,35 +288,24 @@
       "tags": []
     },
     {
-      "id": "85d677ced8",
+      "id": "09dbd2add1",
       "tema": "ia",
-      "titular_es": "Htmx 4.0",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "U.S. sanctions against the A/I Collective",
+      "resumen": "Earlier: US Government designates host of noblogs.org a \"global terrorist\" - https://news.ycombinator.com/item?id=49464391 - (131 comments) US sanctions Italian hosting provider Autistici Inventati - https://news.ycombinator.com/item?id=49451343 - (219 comments)",
       "relevancia": 4,
-      "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
-      "fuente": "four.htmx.org (vía HN)",
+      "url": "https://www.inventati.org/",
+      "fuente": "inventati.org (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "ab5abd673d",
+      "id": "78a8cb136e",
       "tema": "finanzas",
-      "titular_es": "Qué pasará con el precio del dólar de México a Colombia tras primer discurso de Warsh en Jackson Hole",
-      "resumen": "Los operadores reajustaron sus apuestas sobre la Fed y contemplan dos alzas de tasas en los próximos meses, ante la persistencia de las presiones inflacionarias.",
+      "titular_es": "Citi ve un “reset fiscal” en Colombia, pero ahora el foco de los mercados pasa a cómo financiarlo",
+      "resumen": "El banco sostiene que el nuevo presupuesto no representa otro shock fiscal, sino un reconocimiento de pasivos y gastos que ya existían.",
       "relevancia": 4,
-      "url": "https://www.bloomberglinea.com/mercados/dolar-repunta-tras-discurso-de-warsh-en-jackson-hole-asi-reaccionan-las-monedas-de-america-latina/",
+      "url": "https://www.bloomberglinea.com/mercados/citi-ve-un-reset-fiscal-en-colombia-pero-ahora-el-foco-de-los-mercados-pasa-a-como-financiarlo/",
       "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "520465f69f",
-      "tema": "emprendimiento",
-      "titular_es": "Cohere Parse 5 loses the benchmark on points. It wins on cost per page.",
-      "resumen": "Enterprises trying to feed PDFs, slides and scanned documents into AI pipelines keep running into the same wall: the tools either miss the structure — tables, charts, layout — or cost too much to run at scale. Cohere released Parse 5 on Thursday , positioning it on price-to-performance, not raw accu",
-      "relevancia": 4,
-      "url": "https://venturebeat.com/data/cohere-parse-5-loses-the-benchmark-on-points-it-wins-on-cost-per-page",
-      "fuente": "venturebeat.com",
       "bandera": "🌍",
       "tags": []
     },
@@ -332,23 +321,23 @@
       "tags": []
     },
     {
-      "id": "09dbd2add1",
+      "id": "2e582e567a",
       "tema": "ia",
-      "titular_es": "U.S. sanctions against the A/I Collective",
-      "resumen": "Earlier: US Government designates host of noblogs.org a \"global terrorist\" - https://news.ycombinator.com/item?id=49464391 - (131 comments) US sanctions Italian hosting provider Autistici Inventati - https://news.ycombinator.com/item?id=49451343 - (219 comments)",
+      "titular_es": "Inception-style curved map for turn-by-turn directions",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 3,
-      "url": "https://www.inventati.org/",
-      "fuente": "inventati.org (vía HN)",
+      "url": "https://www.orbify.eu/demo/",
+      "fuente": "orbify.eu (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "09bb2ed0ba",
+      "id": "ab5abd673d",
       "tema": "finanzas",
-      "titular_es": "Dólar en Argentina: qué se anticipa para los próximos meses y factores que podrían presionarlo",
-      "resumen": "En el mercado monitorean un conjunto de indicadores clave que podrían impactar en el corto plazo. Cuáles son las proyecciones de los analistas.",
+      "titular_es": "Qué pasará con el precio del dólar de México a Colombia tras primer discurso de Warsh en Jackson Hole",
+      "resumen": "Los operadores reajustaron sus apuestas sobre la Fed y contemplan dos alzas de tasas en los próximos meses, ante la persistencia de las presiones inflacionarias.",
       "relevancia": 3,
-      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/dolar-en-argentina-que-se-anticipa-para-los-proximos-meses-y-factores-que-podrian-presionarlo/",
+      "url": "https://www.bloomberglinea.com/mercados/dolar-repunta-tras-discurso-de-warsh-en-jackson-hole-asi-reaccionan-las-monedas-de-america-latina/",
       "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": []
@@ -365,13 +354,35 @@
       "tags": []
     },
     {
-      "id": "2e582e567a",
+      "id": "250916d4ea",
       "tema": "ia",
-      "titular_es": "Inception-style curved map for turn-by-turn directions",
+      "titular_es": "Migrating to HTTPX2",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 2,
-      "url": "https://www.orbify.eu/demo/",
-      "fuente": "orbify.eu (vía HN)",
+      "url": "https://github.com/openai/openai-python/blob/main/httpx2.md",
+      "fuente": "github.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "09bb2ed0ba",
+      "tema": "finanzas",
+      "titular_es": "Dólar en Argentina: qué se anticipa para los próximos meses y factores que podrían presionarlo",
+      "resumen": "En el mercado monitorean un conjunto de indicadores clave que podrían impactar en el corto plazo. Cuáles son las proyecciones de los analistas.",
+      "relevancia": 2,
+      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/dolar-en-argentina-que-se-anticipa-para-los-proximos-meses-y-factores-que-podrian-presionarlo/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "978592205c",
+      "tema": "ia",
+      "titular_es": "Luanti removed from Google Play due to baseless AI copyright notice",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 1,
+      "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
+      "fuente": "blog.luanti.org (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -380,30 +391,8 @@
       "tema": "finanzas",
       "titular_es": "Dólar, oro y bitcoin ante el discurso de Warsh en Jackson Hole: qué esperan los analistas",
       "resumen": "Los mercados esperan que Kevin Warsh aclare la estrategia de la Reserva Federal frente a la inflación. El tono de su discurso puede resultar decisivo para el dólar y trasladarse al oro y al bitcoin.",
-      "relevancia": 2,
+      "relevancia": 1,
       "url": "https://www.bloomberglinea.com/mercados/dolar-oro-y-bitcoin-ante-el-discurso-de-warsh-en-jackson-hole-que-esperan-los-analistas/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "76627f58fa",
-      "tema": "ia",
-      "titular_es": "Smaller reactors bring nuclear power closer to fulfilling its promise",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 1,
-      "url": "https://www.nature.com/articles/d41586-026-02506-4",
-      "fuente": "nature.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "05fdd97faf",
-      "tema": "finanzas",
-      "titular_es": "¿Momento de invertir en cobre? Citi revela proyección para 2050 y la oportunidad para Latinoamérica",
-      "resumen": "La región concentra cerca de la mitad de los recursos mundiales de cobre y podría enfrentar una demanda adicional de casi siete millones de toneladas hacia 2040.",
-      "relevancia": 1,
-      "url": "https://www.bloomberglinea.com/mercados/momento-de-invertir-en-cobre-citi-revela-proyeccion-para-2050-y-la-oportunidad-para-latinoamerica/",
       "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": []
