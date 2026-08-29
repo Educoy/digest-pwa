@@ -1,6 +1,6 @@
 {
   "fecha": "2026-08-29",
-  "generado_utc": "2026-08-29T16:18:28Z",
+  "generado_utc": "2026-08-29T22:09:17Z",
   "indicadores": {
     "dolar": {
       "valor": 925.25,
@@ -13,7 +13,7 @@
       "variacion_pct": 0.0
     }
   },
-  "noticia_del_dia": "9b3181b6e6",
+  "noticia_del_dia": "18d4877560",
   "pildora_ia": "Fine-tuning: reentrenar un modelo existente con tus propios datos para especializarlo. Más barato que entrenar desde cero, pero para conocimiento actualizado muchas veces conviene más RAG.",
   "pildoras_ia": [
     "Fine-tuning: reentrenar un modelo existente con tus propios datos para especializarlo. Más barato que entrenar desde cero, pero para conocimiento actualizado muchas veces conviene más RAG.",
@@ -24,13 +24,13 @@
   ],
   "noticias": [
     {
-      "id": "9b3181b6e6",
+      "id": "18d4877560",
       "tema": "ia",
-      "titular_es": "Debian votes to allow \"responsible use of generative AI\"",
+      "titular_es": "DHS is using obscure law to snoop on journalists, non-profits, unions",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 10,
-      "url": "https://lwn.net/Articles/1091231/",
-      "fuente": "lwn.net (vía HN)",
+      "url": "https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits",
+      "fuente": "theguardian.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -46,12 +46,12 @@
       "tags": []
     },
     {
-      "id": "a4e185da09",
+      "id": "698656d72c",
       "tema": "emprendimiento",
-      "titular_es": "How Sweden built one of Europe’s hottest startup ecosystems",
-      "resumen": "Sophia Bendz, general partner at Cherry Ventures, stopped by Equity to break down the latest in the Swedish tech ecosystem.",
+      "titular_es": "At TechBBQ, Europe’s AI conversations kept coming back to: Who’s actually in control?",
+      "resumen": "Investors, founders, and operators from across Europe arrived for the annual Nordic TechBBQ conference to talk about how humans can have agency over AI.",
       "relevancia": 10,
-      "url": "https://techcrunch.com/2026/08/28/how-sweden-built-one-of-europes-hottest-startup-ecosystems/",
+      "url": "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -68,35 +68,24 @@
       "tags": []
     },
     {
-      "id": "2fcfd14230",
+      "id": "e39047844c",
       "tema": "ia",
-      "titular_es": "Iceland votes on whether to restart talks on joining EU",
+      "titular_es": "Good Culture Is the Biggest Productivity Hack, Not AI",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 9,
-      "url": "https://www.bbc.com/news/articles/cn45vdxyvvlo",
-      "fuente": "bbc.com (vía HN)",
+      "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
+      "fuente": "newsletter.eng-leadership.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "70cb2fa7af",
+      "id": "53f12930c4",
       "tema": "finanzas",
-      "titular_es": "72% of homebuyers have paused their search waiting for lower mortgage rates — and 41% already regret it",
+      "titular_es": "Solar Has Crossed a Critical Economic Tipping Point",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 9,
-      "url": "https://finance.yahoo.com/real-estate/articles/72-homebuyers-paused-search-waiting-150000785.html",
+      "url": "https://finance.yahoo.com/energy/articles/solar-crossed-critical-economic-tipping-210000010.html",
       "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "5991f3bbe9",
-      "tema": "emprendimiento",
-      "titular_es": "The three layers of agentic AI security: A defense-in-depth architecture for autonomous agents",
-      "resumen": "Presented by Nutanix Autonomous systems that can reason, make their own decisions, and execute actions across an environment introduce a category of risk that application-level controls were never built to contain. Treating that risk as a single problem produces incomplete architectures, says Oscar ",
-      "relevancia": 9,
-      "url": "https://venturebeat.com/security/the-three-layers-of-agentic-ai-security-a-defense-in-depth-architecture-for-autonomous-agents",
-      "fuente": "venturebeat.com",
       "bandera": "🌍",
       "tags": []
     },
@@ -112,35 +101,24 @@
       "tags": []
     },
     {
-      "id": "9776ad678f",
+      "id": "467ac1f58c",
       "tema": "ia",
-      "titular_es": "Samsung's Processing-in-Memory (PIM)",
+      "titular_es": "Nancy Grace Roman Space Telescope",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 8,
-      "url": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
-      "fuente": "chipsandcheese.com (vía HN)",
+      "url": "https://science.nasa.gov/mission/roman-space-telescope/",
+      "fuente": "science.nasa.gov (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "f2a5e0a937",
+      "id": "a55ee2e5a9",
       "tema": "finanzas",
-      "titular_es": "Kevin O'Leary, worth $400 million, compares paper towel prices at Walmart as grocery costs climb 5.9%",
+      "titular_es": "Nvidia Is Getting Bigger Without Getting Expensive",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 8,
-      "url": "https://finance.yahoo.com/economy/articles/kevin-oleary-worth-400-million-143000770.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-getting-bigger-without-getting-153002917.html",
       "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "9e40a309f9",
-      "tema": "emprendimiento",
-      "titular_es": "Meta researchers taught an 8B AI model to match Claude Opus 4.5 — without the frontier price tag",
-      "resumen": "Consider an AI agent tasked with a complex enterprise workflow like migrating massive batches of customer records from a legacy CRM to a cloud database. The agent cannot rely solely on its internal context window for a job spanning hours and depends on the runtime layer, aka the harness . This harne",
-      "relevancia": 8,
-      "url": "https://venturebeat.com/orchestration/meta-researchers-taught-an-8b-ai-model-to-match-claude-opus-4-5-without-the-frontier-price-tag",
-      "fuente": "venturebeat.com",
       "bandera": "🌍",
       "tags": []
     },
@@ -156,23 +134,23 @@
       "tags": []
     },
     {
-      "id": "b2210563bd",
+      "id": "bfa5008dab",
       "tema": "ia",
-      "titular_es": "TurboKV: Insanely fast Rust key-value store",
+      "titular_es": "GrapheneOS project: pixel 11 no longer supports hardware memory tagging (MTE)",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 7,
-      "url": "https://github.com/kingroryg/turbokv",
-      "fuente": "github.com (vía HN)",
+      "url": "https://bsky.app/profile/grapheneos.org/post/3mua32q4ds22e",
+      "fuente": "bsky.app (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "3c4be9bd5d",
+      "id": "c1eb47dae0",
       "tema": "finanzas",
-      "titular_es": "Fed Chairman Warsh shows courage with Jackson Hole speech, defying political pressure, says Harvard's Rogoff",
+      "titular_es": "Best CD rates today, Saturday, August 29, 2026: Lock in up to 4.30% APY with a 16- or 18-month CD",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 7,
-      "url": "https://finance.yahoo.com/economy/article/fed-chairman-warsh-shows-courage-with-jackson-hole-speech-defying-political-pressure-says-harvards-rogoff-140951926.html",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-29-2026-lock-in-up-to-430-apy-with-a-16--or-18-month-cd-100000220.html",
       "fuente": "finance.yahoo.com",
       "bandera": "🌍",
       "tags": []
@@ -189,23 +167,23 @@
       "tags": []
     },
     {
-      "id": "4ca22bea27",
+      "id": "9776ad678f",
       "tema": "ia",
-      "titular_es": "Our decision on Cursor following its acquisition by SpaceX",
+      "titular_es": "Samsung's Processing-in-Memory (PIM)",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 6,
-      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
-      "fuente": "openai.com (vía HN)",
+      "url": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
+      "fuente": "chipsandcheese.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "f0491a1d72",
+      "id": "d2d2cb9485",
       "tema": "finanzas",
-      "titular_es": "Suze Orman says your annuity guarantee is 'only as good as' the insurer's balance sheet — here's why",
+      "titular_es": "Mortgage and refinance interest rates today, Saturday, August 29, 2026: Fixed rates move slightly higher into the weekend",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 6,
-      "url": "https://finance.yahoo.com/markets/options/articles/suze-orman-says-annuity-guarantee-133000171.html",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-29-2026-fixed-rates-move-slightly-higher-into-the-weekend-114438775.html",
       "fuente": "finance.yahoo.com",
       "bandera": "🌍",
       "tags": []
@@ -233,13 +211,13 @@
       "tags": []
     },
     {
-      "id": "3854a2bee1",
+      "id": "226509d469",
       "tema": "finanzas",
-      "titular_es": "Stock Market Week Ahead: Chips, Cybersecurity And Jobs",
+      "titular_es": "Better Consumer Staples ETF: the iShares IYK vs. First Trust's Food and Beverage-Focused FTXG",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 5,
-      "url": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-chips-cybersecurity-and-jobs/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/better-consumer-staples-etf-ishares-215046039.html",
+      "fuente": "finance.yahoo.com",
       "bandera": "🌍",
       "tags": []
     },
@@ -255,90 +233,57 @@
       "tags": []
     },
     {
-      "id": "9d6bd8d36d",
-      "tema": "ia",
-      "titular_es": "Does the Sumerian King List Align with Paleoclimate Events?",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 4,
-      "url": "https://www.vectorian.be/articles/2026-06-07/sumerian-king-list-paleoclimate-alignment-explorer/",
-      "fuente": "vectorian.be (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "841d84962c",
-      "tema": "finanzas",
-      "titular_es": "‘You could lose 25% to 35%.’ AARP warns Americans about making this 401(k) move. Here are 4 alternatives to consider",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 4,
-      "url": "https://finance.yahoo.com/markets/articles/could-lose-25-35-aarp-121500853.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "c4beb1b3e3",
-      "tema": "ia",
-      "titular_es": "I accidentally turned LLM memory into program analysis",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 3,
-      "url": "https://pwning.systems/posts/llm-memory-program-analysis/",
-      "fuente": "pwning.systems (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "c4ea8ca234",
-      "tema": "finanzas",
-      "titular_es": "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Amazon Holds Key Level",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 3,
-      "url": "https://www.investors.com/research/best-stocks-seven-magnificent-stocks-earnings-growth/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
       "id": "e1146483ae",
       "tema": "ia",
       "titular_es": "Boot a Virtual iPhone via Apple's Virtualization.framework",
       "resumen": "(Sin descripción disponible.)",
-      "relevancia": 2,
+      "relevancia": 4,
       "url": "https://github.com/Lakr233/vphone-cli",
       "fuente": "github.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "0e96fc3a0b",
+      "id": "743dbafafc",
       "tema": "finanzas",
-      "titular_es": "Dow Jones Futures: Microsoft, Titans Mask Market Weakness. Here's What To Do.",
+      "titular_es": "Tesla Stock in 2027: Why I Think TSLA Still Has Room to Run",
       "resumen": "(Sin descripción disponible.)",
-      "relevancia": 2,
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-microsoft-titans-mask-market-weakness/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
+      "relevancia": 4,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-2027-why-think-215000498.html",
+      "fuente": "finance.yahoo.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "9cddd46ec6",
+      "id": "6298096aef",
       "tema": "ia",
-      "titular_es": "Distraction-free writing gadget BYOK is adding custom extensions",
-      "resumen": "BYOK is a no-frills, single-purpose gadget that 90 percent of people will find absolutely frivolous. But for those who spend a significant chunk of their lives putting words to virtual paper, there is an obvious allure. Personally, I think it's at its best when you just stick to the bare minimum, fo",
-      "relevancia": 1,
-      "url": "https://www.theverge.com/gadgets/986427/distraction-free-writing-gadget-byok-scripts-extensions",
+      "titular_es": "Vicariously hike the Appalachian in the gorgeous A Trail Tale",
+      "resumen": "I used to be an avid hiker and would try to go backpacking a few times a year. I always dreamed of thru-hiking the Appalachian Trail, but life kind of got in the way. (Turns out jobs, wives, and children aren't thrilled with the idea of you disappearing for three months.) But I've been longing […]",
+      "relevancia": 3,
+      "url": "https://www.theverge.com/entertainment/986461/hike-appalachian-trail-pixel-art-a-trail-tale",
       "fuente": "theverge.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "ca74baedd5",
-      "tema": "finanzas",
-      "titular_es": "Microsoft, Palantir Among Stocks To Watch As Software Bounces Back",
-      "resumen": "(Sin descripción disponible.)",
+      "id": "72ff0d4997",
+      "tema": "ia",
+      "titular_es": "Alt-right troll Milo Yiannopoulos has been deported",
+      "resumen": "Alt-right troll Milo Yiannopoulos was arrested by ICE on Thursday, and today the Department of Homeland Security confirmed to Reuters and the Washington Post that he had been deported to the UK. Yiannopoulos came to the US legally in 2019, but overstayed his visa. After he failed to appear in court ",
+      "relevancia": 2,
+      "url": "https://www.theverge.com/policy/986456/milo-yiannopoulos-deported-ice",
+      "fuente": "theverge.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "3f6bab34d6",
+      "tema": "ia",
+      "titular_es": "Sony Music and Warner Chappell are suing Anthropic",
+      "resumen": "Sony Music and Warner Chappell have filed suit against Anthropic in the US District Court for the Northern District of California seeking damages for \"tens of thousands\" copyrighted works. The companies are asking for up to $150,000 per work, plus up to $25,000 for each instance when identifiable co",
       "relevancia": 1,
-      "url": "https://www.investors.com/news/microsoft-palantir-stocks-near-buy-points-software/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+      "fuente": "theverge.com",
       "bandera": "🌍",
       "tags": []
     }
