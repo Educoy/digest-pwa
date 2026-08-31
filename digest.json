@@ -1,6 +1,6 @@
 {
   "fecha": "2026-08-31",
-  "generado_utc": "2026-08-31T18:53:25Z",
+  "generado_utc": "2026-08-31T23:33:14Z",
   "indicadores": {
     "dolar": {
       "valor": 929.18,
@@ -13,7 +13,7 @@
       "variacion_pct": 0.0
     }
   },
-  "noticia_del_dia": "61ab651f0f",
+  "noticia_del_dia": "5993b8458d",
   "pildora_ia": "Backpropagation: el método que reparte la 'culpa' del error entre todos los parámetros de una red, capa por capa, para saber cómo ajustar cada uno. Sin él, entrenar redes profundas sería inviable.",
   "pildoras_ia": [
     "Backpropagation: el método que reparte la 'culpa' del error entre todos los parámetros de una red, capa por capa, para saber cómo ajustar cada uno. Sin él, entrenar redes profundas sería inviable.",
@@ -24,13 +24,13 @@
   ],
   "noticias": [
     {
-      "id": "61ab651f0f",
+      "id": "5993b8458d",
       "tema": "ia",
-      "titular_es": "I turned my security cameras into an automatic bird identification system",
+      "titular_es": "Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 10,
-      "url": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
-      "fuente": "jasontucker.blog (vía HN)",
+      "url": "https://webiterate.dev/google-removed-extensions-ublock-origin-108/",
+      "fuente": "webiterate.dev (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -46,12 +46,12 @@
       "tags": []
     },
     {
-      "id": "c24cafe651",
+      "id": "8cd75049f7",
       "tema": "emprendimiento",
-      "titular_es": "Harvard Law dropout raises $6M for Blue Voice to build a “Harvey for police officers”",
-      "resumen": "The seed round for the app that provides real-time legal and policy guidance to officers was led by SignalFire and Las Olas VC.",
+      "titular_es": "Apply now to host a Side Event at TechCrunch Disrupt 2026",
+      "resumen": "Apply before September 4 to be a part of the TechCrunch Disrupt community by hosting your own Side Event.",
       "relevancia": 10,
-      "url": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
+      "url": "https://techcrunch.com/2026/08/31/apply-now-to-host-a-side-event-at-techcrunch-disrupt-2026/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -68,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "49e3387c38",
+      "id": "ffc85844d1",
       "tema": "ia",
-      "titular_es": "Playa Phone",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "A walkable ASCII cyberpunk city in one HTML file [video]",
+      "resumen": "ASCII City: Traffic and Detail Update - https://www.youtube.com/watch?v=DSRooHo_HSI ASCII City Update: Interiors, Elevation and Skyscrapers - https://www.youtube.com/watch?v=UCKEDWowc0o",
       "relevancia": 9,
-      "url": "https://playaphone.com/",
-      "fuente": "playaphone.com (vía HN)",
+      "url": "https://www.youtube.com/watch?v=3YtygAx_C6A",
+      "fuente": "youtube.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -90,12 +90,12 @@
       "tags": []
     },
     {
-      "id": "3f74c2a363",
+      "id": "c24cafe651",
       "tema": "emprendimiento",
-      "titular_es": "Ryan Breslow is raising up to $27M in pay-to-play bridge funding to save Bolt",
-      "resumen": "The controversial founder of the checkout startup once valued at $11 billion is putting in $5 million of his own money.",
+      "titular_es": "Harvard Law dropout raises $6M for Blue Voice to build a ‘Harvey for police officers’",
+      "resumen": "Blue Voice is trained on department-specific laws, local ordinances, protocols, and guidelines that general-purpose AI tools can't access on the public internet.",
       "relevancia": 9,
-      "url": "https://techcrunch.com/2026/08/31/ryan-breslow-is-raising-up-to-27m-in-pay-to-play-bridge-funding-to-save-bolt/",
+      "url": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -112,13 +112,13 @@
       "tags": []
     },
     {
-      "id": "fe1485f74a",
+      "id": "61ab651f0f",
       "tema": "ia",
-      "titular_es": "ChatGPT Work Tool and Skill Reference",
+      "titular_es": "I turned my security cameras into an automatic bird identification system",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 8,
-      "url": "https://codex-tool-reference.simonw.chatgpt.site/",
-      "fuente": "codex-tool-reference.simonw.chatgpt.site (vía HN)",
+      "url": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
+      "fuente": "jasontucker.blog (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -134,12 +134,12 @@
       "tags": []
     },
     {
-      "id": "773b325bd3",
+      "id": "3f74c2a363",
       "tema": "emprendimiento",
-      "titular_es": "Clipto uses AI to search terabytes of video and is now valued at $250M",
-      "resumen": "The three-year-old startup says it reached $15 million in ARR and profitability before raising its latest $15 million round.",
+      "titular_es": "Ryan Breslow is raising up to $27M in pay-to-play bridge funding to save Bolt",
+      "resumen": "The controversial founder of the checkout startup once valued at $11 billion is putting in $5 million of his own money.",
       "relevancia": 8,
-      "url": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
+      "url": "https://techcrunch.com/2026/08/31/ryan-breslow-is-raising-up-to-27m-in-pay-to-play-bridge-funding-to-save-bolt/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -156,13 +156,13 @@
       "tags": []
     },
     {
-      "id": "c53175c7d6",
+      "id": "37f528df5f",
       "tema": "ia",
-      "titular_es": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
+      "titular_es": "ravynOS: Pre-alpha open-source OS based on Darwin, FreeBSD, Apple open-source",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 7,
-      "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
-      "fuente": "macrumors.com (vía HN)",
+      "url": "https://ravynos.com/",
+      "fuente": "ravynos.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -178,12 +178,12 @@
       "tags": []
     },
     {
-      "id": "2b7c320d3f",
+      "id": "773b325bd3",
       "tema": "emprendimiento",
-      "titular_es": "Meeting note-taker Circleback adds a free tier to attract more customers",
-      "resumen": "Circleback is also introducing new pricing plans starting from $14 per month.",
+      "titular_es": "Clipto uses AI to search terabytes of video and is now valued at $250M",
+      "resumen": "The three-year-old startup says it reached $15 million in ARR and profitability before raising its latest $15 million round.",
       "relevancia": 7,
-      "url": "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/",
+      "url": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -200,13 +200,13 @@
       "tags": []
     },
     {
-      "id": "ff95f1dbcd",
+      "id": "49e3387c38",
       "tema": "ia",
-      "titular_es": "I think the military commissary's freezers were hacked",
+      "titular_es": "Playa Phone",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 6,
-      "url": "https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary",
-      "fuente": "signalandsilence.substack.com (vía HN)",
+      "url": "https://playaphone.com/",
+      "fuente": "playaphone.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -222,13 +222,13 @@
       "tags": []
     },
     {
-      "id": "697e02b0d5",
+      "id": "2b7c320d3f",
       "tema": "emprendimiento",
-      "titular_es": "Identity and permissions aren’t enough to govern AI agent behavior",
-      "resumen": "Presented by Box Identity and permissions are no longer enough to secure enterprise AI agents. They govern what an agent can reach, not how it behaves once it starts working on its own, and an autonomous agent can turn legitimate access of enterprise data into unintended action in seconds. That gap ",
+      "titular_es": "Meeting note-taker Circleback adds a free tier to attract more customers",
+      "resumen": "Circleback is also introducing new pricing plans starting from $14 per month.",
       "relevancia": 6,
-      "url": "https://venturebeat.com/security/identity-and-permissions-arent-enough-to-govern-ai-agent-behavior",
-      "fuente": "venturebeat.com",
+      "url": "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/",
+      "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
     },
@@ -244,13 +244,13 @@
       "tags": []
     },
     {
-      "id": "eedde1eeae",
+      "id": "c53175c7d6",
       "tema": "ia",
-      "titular_es": "Agent memory as a file format",
+      "titular_es": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 5,
-      "url": "https://calpaterson.com/memoryfields.html",
-      "fuente": "calpaterson.com (vía HN)",
+      "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
+      "fuente": "macrumors.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -266,13 +266,13 @@
       "tags": []
     },
     {
-      "id": "761fcf6853",
+      "id": "87f292108d",
       "tema": "emprendimiento",
-      "titular_es": "AI agents need their own identity before they need a gateway",
-      "resumen": "Enterprise AI has entered a new era. Organizations are rapidly moving beyond assistants that answer questions to autonomous agents capable of reasoning, invoking tools, accessing enterprise applications, coordinating with other agents, and completing multi-step business workflows with minimal human ",
+      "titular_es": "a16z brings growth fund to $8.5B days after launching new $1.1B fund",
+      "resumen": "Andreessen Horowitz held out its hand and returned with billions more in new funds to invest in startups.",
       "relevancia": 5,
-      "url": "https://venturebeat.com/security/ai-agents-need-their-own-identity-before-they-need-a-gateway",
-      "fuente": "venturebeat.com",
+      "url": "https://techcrunch.com/2026/08/31/a16z-brings-growth-fund-to-8-5b-days-after-launching-new-1-1b-fund/",
+      "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
     },
@@ -288,13 +288,13 @@
       "tags": []
     },
     {
-      "id": "7ce4d0b5db",
+      "id": "ff95f1dbcd",
       "tema": "ia",
-      "titular_es": "OpenShot 4.0 – Open-source video editor",
+      "titular_es": "I think the military commissary's freezers were hacked",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 4,
-      "url": "https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before/",
-      "fuente": "openshot.org (vía HN)",
+      "url": "https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary",
+      "fuente": "signalandsilence.substack.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -310,17 +310,6 @@
       "tags": []
     },
     {
-      "id": "b462b9b1c8",
-      "tema": "emprendimiento",
-      "titular_es": "AI agents that pass authentication can still drift, expose data, or get memory-poisoned",
-      "resumen": "There is a clear repeating trend in agent deployments: The gateway is the first control teams reach for, but it is the one they are least ready to run. This is because gateways sit on top of identity and attribution layers that are mostly not there. The first layer of risk is not hypothetical. In Ju",
-      "relevancia": 4,
-      "url": "https://venturebeat.com/security/ai-agents-that-pass-authentication-can-still-drift-expose-data-or-get-memory-poisoned",
-      "fuente": "venturebeat.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
       "id": "8865ebb83b",
       "tema": "ciencia",
       "titular_es": "One injection could keep osteoarthritis drugs working for weeks",
@@ -332,35 +321,13 @@
       "tags": []
     },
     {
-      "id": "c4d6a3aafc",
+      "id": "7ce4d0b5db",
       "tema": "ia",
-      "titular_es": "Car owners want tech they can ignore",
-      "resumen": "Automakers keep shoving more tech into their cars, despite evidence that consumers are increasingly fed up with huge screens and glitchy software. In fact, the features that car owners appreciate the most happen to be the ones they barely notice, according to the latest tech survey from JD Power. Th",
-      "relevancia": 3,
-      "url": "https://www.theverge.com/news/986721/car-tech-survey-jd-power-smart-ignition",
-      "fuente": "theverge.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "c1f5d20a8e",
-      "tema": "finanzas",
-      "titular_es": "HELOC and home equity loan rates today, Monday, August 31, 2026: A 19-basis-point differential",
+      "titular_es": "OpenShot 4.0 – Open-source video editor",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 3,
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-august-31-2026-a-19-basis-point-differential-100000999.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "64654f7443",
-      "tema": "ia",
-      "titular_es": "Phil Schiller is leaving his biggest jobs at Apple",
-      "resumen": "Longtime Apple executive Phil Schiller is stepping down from his role as the head of the App Store and Apple events, according to a report from Bloomberg. Following the change, Schiller will keep his Apple Fellow title and continue \"working on unspecified initiatives,\" Bloomberg reports. Schiller in",
-      "relevancia": 2,
-      "url": "https://www.theverge.com/tech/986869/apple-phil-schiller-stepping-down",
-      "fuente": "theverge.com",
+      "url": "https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before/",
+      "fuente": "openshot.org (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -369,20 +336,64 @@
       "tema": "finanzas",
       "titular_es": "Best CD rates today, Monday, August 31, 2026: Lock in up to 4.30% APY",
       "resumen": "(Sin descripción disponible.)",
-      "relevancia": 2,
+      "relevancia": 3,
       "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-august-31-2026-lock-in-up-to-430-apy-100000028.html",
       "fuente": "finance.yahoo.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "f7ac805ab5",
+      "id": "8e7bdcb902",
+      "tema": "emprendimiento",
+      "titular_es": "Software engineers' new job isn't writing code — it's designing the boundaries AI agents can't break",
+      "resumen": "If you look at the commit histories of modern data platforms, something profound has shifted over the last two years. The friction of writing syntax has collapsed. With Cursor, Claude Code, and agentic workflows now living inside our Docker containers and IDEs, generating the first implementation of",
+      "relevancia": 3,
+      "url": "https://venturebeat.com/orchestration/software-engineers-new-job-isnt-writing-code-its-designing-the-boundaries-ai-agents-cant-break",
+      "fuente": "venturebeat.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "238f19c53d",
       "tema": "ia",
-      "titular_es": "Markiplier is now GoPro’s biggest shareholder",
-      "resumen": "YouTuber Mark \"Markiplier\" Fischbach has invested enough in GoPro to become its single largest shareholder, with an 8.5 percent stake in the company, Bloomberg reports. Speaking to Bloomberg, Fischbach said he thought GoPro \"seems undervalued\" and sees his investment as \"part of a larger mission to ",
+      "titular_es": "Breaking Claude Code Opus 5 Auto Mode",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 2,
+      "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
+      "fuente": "embracethered.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "c1f5d20a8e",
+      "tema": "finanzas",
+      "titular_es": "HELOC and home equity loan rates today, Monday, August 31, 2026: A 19-basis-point differential",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 2,
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-august-31-2026-a-19-basis-point-differential-100000999.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "697e02b0d5",
+      "tema": "emprendimiento",
+      "titular_es": "Identity and permissions aren’t enough to govern AI agent behavior",
+      "resumen": "Presented by Box Identity and permissions are no longer enough to secure enterprise AI agents. They govern what an agent can reach, not how it behaves once it starts working on its own, and an autonomous agent can turn legitimate access of enterprise data into unintended action in seconds. That gap ",
+      "relevancia": 2,
+      "url": "https://venturebeat.com/security/identity-and-permissions-arent-enough-to-govern-ai-agent-behavior",
+      "fuente": "venturebeat.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "d2343f95f4",
+      "tema": "ia",
+      "titular_es": "Internet centralization and the original sin of NAT",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 1,
-      "url": "https://www.theverge.com/tech/986847/markiplier-gopro-investor",
-      "fuente": "theverge.com",
+      "url": "https://dreamstation.systems/personal/ntppost.html",
+      "fuente": "dreamstation.systems (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
