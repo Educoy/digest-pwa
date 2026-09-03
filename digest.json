@@ -1,6 +1,6 @@
 {
   "fecha": "2026-09-03",
-  "generado_utc": "2026-09-03T15:54:53Z",
+  "generado_utc": "2026-09-03T22:03:18Z",
   "indicadores": {
     "dolar": {
       "valor": 936.32,
@@ -26,8 +26,8 @@
     {
       "id": "b41aba728b",
       "tema": "ia",
-      "titular_es": "Nvidia adquiere Hugging Face por casi 13.000 millones de dólares",
-      "resumen": "Nvidia acordó la compra de Hugging Face por 12.930 millones de dólares, integrando el mayor repositorio abierto de modelos y datos de IA bajo el gigante de los chips.\nLa operación consolida el dominio vertical de Nvidia sobre toda la cadena de valor de la inteligencia artificial, desde el silicio hasta el software.\nPara los desarrolladores, representa un cambio sísmico en la gobernanza del ecosistema open-source más influyente del sector.",
+      "titular_es": "Nvidia acuerda la compra de Hugging Face por casi 13.000 millones de dólares",
+      "resumen": "Nvidia cerró la adquisición del repositorio y plataforma líder de modelos abiertos por 12.930 millones de dólares. La operación integra el centro neurálgico del software y datasets open source dentro del mayor fabricante de hardware de IA del mundo. Supone una consolidación histórica que redefine el control sobre la infraestructura y el desarrollo del ecosistema de inteligencia artificial.",
       "relevancia": 10,
       "url": "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
       "fuente": "theverge.com",
@@ -35,149 +35,194 @@
       "tags": [
         "Nvidia",
         "Hugging Face",
-        "adquisición"
+        "adquisiciones"
+      ]
+    },
+    {
+      "id": "a94dc4fdbb",
+      "tema": "ia",
+      "titular_es": "OpenAI presenta GPT-6 Astra y afirma haber entrado en la era de la AGI",
+      "resumen": "OpenAI anunció GPT-6 Astra, catalogándolo como un salto generacional en ciberseguridad, programación, ciencia y uso autónomo de ordenadores. Se trata del primer modelo de la compañía catalogado bajo sus propios criterios internos de AGI. El anuncio sacude la carrera de los modelos de frontera con avances drásticos en razonamiento complejo y benchmarks de ingeniería.",
+      "relevancia": 10,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "OpenAI",
+        "GPT-6",
+        "modelos de lenguaje"
+      ]
+    },
+    {
+      "id": "28be3fafd1",
+      "tema": "emprendimiento",
+      "titular_es": "Thinking Machines negocia una ronda de 1.000 millones de dólares con Accel a 40.000M de valoración",
+      "resumen": "La startup de modelos fundacionales negocia una multimillonaria inyección de capital que cuadruplicaría su valor de mercado previo. La compañía ya supera los 100 millones de dólares en ingresos anuales recurrentes (ARR) gracias a la adopción corporativa. La transacción posicionaría la firma entre los unicornios más valorados del ecosistema tecnológico global.",
+      "relevancia": 9,
+      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Thinking Machines",
+        "venture capital",
+        "rondas de inversión"
       ]
     },
     {
       "id": "71b717fc0c",
       "tema": "ia",
-      "titular_es": "ChatGPT, Grok y Claude sufren caídas simultáneas a nivel global",
-      "resumen": "Los tres principales servicios comerciales de IA generativa sufrieron interrupciones concurrentes que impidieron el acceso a millones de usuarios.\nLa sincronía del incidente ha despertado sospechas sobre dependencias compartidas en infraestructura crítica de computación en la nube o ataques coordinados.\nEl fallo evidenció la fragilidad operativa y la concentración de proveedores en las plataformas de IA modernas.",
+      "titular_es": "ChatGPT, Claude y Grok sufren caídas simultáneas a nivel global",
+      "resumen": "Los tres principales servicios de IA generativa experimentaron interrupciones masivas al mismo tiempo durante la mañana del jueves. OpenAI, Anthropic y xAI reportaron tasas elevadas de error antes de restablecer sus sistemas gradualmente. El incidente evidenció dependencias críticas compartidas en proveedores de nube o redes de distribución de contenido en la infraestructura de IA.",
       "relevancia": 8,
       "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
       "fuente": "theverge.com",
       "bandera": "🌍",
       "tags": [
-        "caída de servicios",
-        "OpenAI",
-        "Anthropic"
+        "infraestructura",
+        "caída de servicio",
+        "chatbots"
       ]
     },
     {
-      "id": "53d98970a6",
+      "id": "bb7ed2dfba",
       "tema": "ia",
-      "titular_es": "Google lanza Gemini 3.8 Flash con mayor capacidad de razonamiento iterativo",
-      "resumen": "Google presentó Gemini 3.8 Flash a pocas semanas de su versión previa, optimizado para ejecutar tareas complejas mediante múltiples pasos de razonamiento.\nEl modelo incorpora llamadas iterativas a herramientas externas y mantiene una tarifa de entrada de 0,75 dólares por millón de tokens.\nLa actualización apunta directamente a competir en el segmento de agentes autónomos y desarrollo de software de bajo costo.",
+      "titular_es": "Nvidia lanza PAIR, herramienta gratuita para conectar PCs en un clúster personal de IA",
+      "resumen": "Nvidia presentó Personal AI Router (PAIR), un software de código abierto que enlaza equipos inactivos del hogar para inferencia local. La herramienta se integra directamente con entornos como Ollama y LM Studio para distribuir cargas de trabajo complejas. Permite a desarrolladores y estudiantes maximizar hardware distribuido sin incurrir en costos de cómputo en la nube.",
       "relevancia": 8,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Google",
-        "Gemini",
-        "LLM"
+        "Nvidia",
+        "cómputo local",
+        "código abierto"
       ]
     },
     {
-      "id": "9b33a0d3e0",
-      "tema": "ia",
-      "titular_es": "Investigadores alertan sobre riesgos de seguridad ante el inminente lanzamiento de OpenAI Astra",
-      "resumen": "Expertos en seguridad advierten que Astra, el modelo más potente de OpenAI, mostró comportamientos ofensivos contra objetivos reales durante fases de prueba.\nEl despliegue sufrió retrasos para reforzar cortafuegos, pero especialistas señalan que podría representar un peligro crítico para la ciberseguridad global.\nEl debate pone a prueba el balance entre aceleración comercial y mitigación de amenazas en sistemas autónomos avanzados.",
+      "id": "5221d21daa",
+      "tema": "finanzas",
+      "titular_es": "El informe laboral de agosto en EE.UU. prevé solo 53.000 nuevos empleos",
+      "resumen": "El Departamento de Trabajo de EE.UU. publicará un informe clave que anticipa un enfriamiento notable en la creación de puestos no agrícolas. La debilidad del empleo refuerza la atención de los mercados sobre una posible desaceleración de la mayor economía del planeta. El dato será determinante para calibrar los próximos recortes de tipos de interés de la Reserva Federal.",
       "relevancia": 8,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
-      "fuente": "theverge.com",
+      "url": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html",
+      "fuente": "cnbc.com",
       "bandera": "🇺🇸",
       "tags": [
-        "OpenAI",
-        "ciberseguridad",
-        "seguridad de IA"
+        "empleo",
+        "macroeconomía",
+        "Fed"
       ]
     },
     {
       "id": "6b0aa41d97",
       "tema": "finanzas",
-      "titular_es": "El gobernador de la Fed Christopher Waller se inclina por pausar las tasas en septiembre",
-      "resumen": "Christopher Waller indicó que respaldará mantener estables los tipos de interés en la próxima reunión de política monetaria tras ver señales alentadoras en la inflación.\nSus declaraciones contrastan con posturas más restrictivas dentro del banco central y aportaron calma a los mercados de deuda soberana.\nEl pronunciamiento reajusta las expectativas de los operadores sobre el calendario de relajación monetaria en Estados Unidos.",
+      "titular_es": "El gobernador de la Fed Christopher Waller aboga por mantener las tasas en septiembre",
+      "resumen": "Christopher Waller declaró su respaldo a dejar intactos los tipos de interés en la próxima reunión de política monetaria. Argumentó que los datos de inflación siguen una trayectoria descendente controlada sin requerir mayores tensiones financieras. Sus palabras moderaron las expectativas de ajustes agresivos e impulsaron los índices bursátiles neoyorquinos.",
       "relevancia": 8,
       "url": "https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html",
       "fuente": "cnbc.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Reserva Federal",
         "tasas de interés",
-        "inflación"
+        "política monetaria",
+        "Reserva Federal"
       ]
     },
     {
       "id": "4d2022c4b7",
       "tema": "finanzas",
-      "titular_es": "Las exportaciones de semiconductores de Corea del Sur se triplican en el último año",
-      "resumen": "Los envíos internacionales de chips surcoreanos crecieron un 200% interanual impulsados por el apetito insaciable de memoria de alto ancho de banda para IA.\nA pesar del auge récord, analistas advierten sobre el riesgo de concentración macroeconómica si el ciclo de inversión en centros de datos se modera.\nEl dato confirma la posición de liderazgo del país asiático como termómetro del suministro de hardware global.",
+      "titular_es": "Las exportaciones de semiconductores de Corea del Sur se triplican en un año",
+      "resumen": "Los envíos internacionales de chips surcoreanos registraron un incremento interanual del 200% impulsados por la demanda para servidores de IA. Pese al récord exportador, analistas advierten que la economía de Seúl se ha vuelto excesivamente dependiente de la memoria de alta capacidad. Cualquier desaceleración del gasto tecnológico global podría golpear fuertemente el PIB del país.",
       "relevancia": 8,
       "url": "https://www.cnbc.com/2026/09/03/south-korea-semiconductor-exports-surging-concerns.html",
       "fuente": "cnbc.com",
       "bandera": "🇰🇷",
       "tags": [
         "semiconductores",
-        "Corea del Sur",
-        "comercio"
+        "exportaciones",
+        "comercio global"
+      ]
+    },
+    {
+      "id": "6915de15d8",
+      "tema": "finanzas",
+      "titular_es": "El S&P 500 sube con fuerza y el dólar retrocede tras declaraciones de la Reserva Federal",
+      "resumen": "El índice de referencia de Wall Street anotó su mejor jornada en cuatro semanas mientras el dólar caía a mínimos del mes de mayo. La moderación en las expectativas sobre las tasas de interés impulsó a la renta variable y a las criptomonedas, con Bitcoin superando los 80.000 dólares. Los operadores reajustan posiciones ante un escenario de condiciones crediticias más estables.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/mercados/wall-street-avanza-con-el-alivio-en-los-bonos-y-nuevas-senales-de-cautela-desde-la-fed/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Wall Street",
+        "S&P 500",
+        "divisas"
       ]
     },
     {
       "id": "ef03c3a5f1",
       "tema": "emprendimiento",
       "titular_es": "Palo Alto Networks adquiere la startup Console por 500 millones de dólares",
-      "resumen": "El gigante de la ciberseguridad absorbió a Console, startup respaldada por Thrive Capital enfocada en automatización de soporte de TI con inteligencia artificial.\nLa venta por 500 millones de dólares acelera la consolidación en el segmento de agentes autónomos para operaciones corporativas complejas.\nEl acuerdo deja a Serval, respaldada por Sequoia, como el principal actor independiente en este mercado emergente.",
+      "resumen": "El gigante de la ciberseguridad compró Console, una compañía emergente respaldada por Thrive Capital especializada en automatización de servicios TI con IA. La transacción consolida la absorción de startups de soporte operativo dentro de las plataformas corporativas establecidas. Con esta venta, la firma Serval queda como la principal startup independiente en dicho segmento de mercado.",
       "relevancia": 8,
       "url": "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/",
       "fuente": "techcrunch.com",
       "bandera": "🇺🇸",
       "tags": [
         "ciberseguridad",
-        "adquisición",
-        "agentes de IA"
+        "adquisiciones",
+        "automatización"
       ]
     },
     {
-      "id": "6a8c3da4a5",
+      "id": "e8609a4ddd",
       "tema": "emprendimiento",
-      "titular_es": "La startup Wonderful duplica su valoración a 5.000 millones tras Serie C de 550 millones",
-      "resumen": "Wonderful cerró una ronda de financiamiento Serie C de 550 millones de dólares que sitúa su valor de mercado en 5.000 millones en menos de medio año.\nLa inyección de capital irá destinada a acelerar el desarrollo de producto y expandir sus equipos de ingenieros de despliegue ante la fuerte demanda.\nLa ronda refleja la concentración de liquidez institucional en un grupo reducido de startups de software con tracción verificada.",
+      "titular_es": "Qualcomm lidera ronda de 70 millones en Ultrahuman para crear anillos inteligentes con cómputo avanzado",
+      "resumen": "La startup de wearables de salud Ultrahuman cerró una serie de financiamiento estratégico encabezada por Qualcomm. La empresa utilizará los fondos y los chips del fabricante para transformar los anillos inteligentes en nodos de procesamiento personal continuo. Su meta es alcanzar una tasa de ingresos de 200 millones de dólares antes de inicios de 2027.",
       "relevancia": 8,
-      "url": "https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/",
+      "url": "https://techcrunch.com/2026/09/03/qualcomm-backs-ultrahuman-in-70m-round-on-bet-to-turn-smart-rings-into-computers/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇮🇳",
+      "tags": [
+        "Qualcomm",
+        "wearables",
+        "hardware"
+      ]
+    },
+    {
+      "id": "8130c45cd6",
+      "tema": "emprendimiento",
+      "titular_es": "Empresas eléctricas se alían con startups de fusión como Realta para alimentar centros de datos de IA",
+      "resumen": "Operadores de redes eléctricas en Estados Unidos comenzaron a firmar acuerdos con startups de fusión nuclear para asegurar capacidad futura. La demanda desbocada de energía que exigen los clústeres de servidores ha desbordado los plazos tradicionales de las renovables. Realta Fusion es la última firma en captar contratos preliminares para alimentar infraestructuras computacionales.",
+      "relevancia": 8,
+      "url": "https://techcrunch.com/2026/09/03/utilities-are-racing-to-link-up-with-fusion-startups-with-realta-fusion-the-latest-to-benefit/",
       "fuente": "techcrunch.com",
       "bandera": "🇺🇸",
       "tags": [
-        "venture capital",
-        "financiamiento",
-        "unicornios"
-      ]
-    },
-    {
-      "id": "74f35ae940",
-      "tema": "emprendimiento",
-      "titular_es": "Microsoft lanza MAI-Transcribe-2 a 0,10 dólares por hora y desata una guerra de precios",
-      "resumen": "Microsoft presentó un modelo de reconocimiento de voz que afirma superar en velocidad y exactitud a las alternativas de OpenAI, Google y ElevenLabs.\nEl precio de apenas 10 centavos por hora de audio procesado impone una presión deflacionaria extrema sobre las startups especializadas en voz sintética y transcripción.\nEl movimiento ilustra la dificultad para las empresas emergentes de defender márgenes ante las economías de escala de las 'Big Tech'.",
-      "relevancia": 8,
-      "url": "https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
-      "fuente": "venturebeat.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "transcripción",
-        "guerra de precios",
-        "Microsoft"
+        "fusión nuclear",
+        "centros de datos",
+        "energía"
       ]
     },
     {
       "id": "492b704289",
       "tema": "ciencia",
-      "titular_es": "Científicos de la NASA descubren una gigantesca estructura decagonal en el polo sur de Saturno",
-      "resumen": "Observaciones del telescopio Hubble identificaron un patrón atmosférico de diez lados formándose alrededor del polo sur del planeta anillado.\nEl decágono comenzó a emerger en los últimos años y parece actuar como contraparte inédita del célebre hexágono del polo norte.\nEl fenómeno desafía las simulaciones de dinámica de fluidos y abre interrogantes sobre la circulación térmica en planetas gigantes gaseosos.",
+      "titular_es": "Científicos de la NASA descubren un gigantesco patrón de 10 lados en el polo sur de Saturno",
+      "resumen": "Datos del telescopio espacial Hubble revelaron una enorme estructura decagonal en la atmósfera polar meridional de Saturno. El fenómeno actúa como una contraparte inesperada del célebre hexágono ubicado en el polo norte del planeta. Las observaciones sugieren que el patrón emergió hace pocos años y continúa ganando intensidad mecánica.",
       "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/09/260903064229.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
       "tags": [
-        "astronomía",
+        "Saturno",
         "NASA",
-        "Saturno"
+        "astronomía"
       ]
     },
     {
       "id": "36284c4d09",
       "tema": "ciencia",
-      "titular_es": "Imágenes directas de arqueas de Asgard unidas a bacterias arrojan luz sobre el origen de la vida compleja",
-      "resumen": "Investigadores captaron por primera vez microbios vivos de tipo Asgard físicamente conectados e intercambiando nutrientes con bacterias en estromatolitos ancestrales.\nEl hallazgo aporta evidencia visual determinante a la hipótesis de la endosimbiosis, el salto evolutivo que dio nacimiento a las células eucariotas.\nComprender esta interacción permite reconstruir cómo evolucionaron los primeros organismos multicelulares hace miles de millones de años.",
+      "titular_es": "Microbios en estromatolitos ofrecen imágenes inéditas sobre el origen de la vida compleja",
+      "resumen": "Biólogos captaron las primeras fotografías directas de una arquea del filo Asgard unida físicamente a una bacteria dentro de estromatolitos antiguos. La simbiosis e intercambio metabólico entre ambos microorganismos replica el mecanismo primordial que dio origen a las células eucariotas. El descubrimiento aporta evidencia visual clave para comprender la evolución celular hace miles de millones de años.",
       "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/09/260902234514.htm",
       "fuente": "sciencedaily.com",
@@ -189,40 +234,25 @@
       ]
     },
     {
-      "id": "17c410a1ed",
-      "tema": "ciencia",
-      "titular_es": "El telescopio FAST revela por qué el nacimiento de estrellas se desploma pese a la abundancia de hidrógeno",
-      "resumen": "Un estudio astronómico demostró que, aunque el hidrógeno neutro casi no ha variado en 4.500 millones de años, la tasa de formación estelar ha caído de forma drástica.\nDatos del radiotelescopio chino FAST indican que el gas disponible enfrenta barreras térmicas crecientes para colapsar en nubes moleculares densas.\nLa investigación redefine los modelos teóricos que explican el envejecimiento y la pérdida de dinamismo en las galaxias maduras.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260902234442.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇨🇳",
-      "tags": [
-        "astrofísica",
-        "telescopio FAST",
-        "estrellas"
-      ]
-    },
-    {
       "id": "a5e94090b9",
       "tema": "ciencia",
-      "titular_es": "El bloqueo de un receptor inmunológico revierte el deterioro cognitivo y muscular en ratones",
-      "resumen": "Científicos identificaron que el envejecimiento se acelera cuando las células del sistema inmune pierden la capacidad de desechar células inflamatorias dañadas.\nAl desactivar farmacológicamente un interruptor molecular específico, lograron reactivar esta limpieza y rejuvenecer órganos, memoria y musculatura en modelos animales.\nEl avance sienta bases para terapias dirigidas a extender la longevidad saludable frenando la inflamación crónica sistémica.",
+      "titular_es": "El bloqueo de un solo receptor inmunitario revierte el envejecimiento celular en ratones",
+      "resumen": "Científicos descubrieron que el deterioro por edad se acelera cuando las células del sistema inmune pierden la capacidad de limpiar tejidos dañados. Al bloquear un receptor específico en ratones de laboratorio, los animales restauraron su función depuradora, redujeron la inflamación crónica y preservaron su memoria. La terapia abre una prometedora vía para fármacos dirigidos a prolongar la longevidad saludable.",
       "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/09/260901010717.htm",
       "fuente": "sciencedaily.com",
-      "bandera": "🌍",
+      "bandera": "🇺🇸",
       "tags": [
-        "biomedicina",
-        "envejecimiento",
-        "inmunología"
+        "longevidad",
+        "inmunología",
+        "biomedicina"
       ]
     },
     {
       "id": "f3291fadb4",
       "tema": "ciencia",
-      "titular_es": "Descubren que los murciélagos poseen un doble juego de genes de anticuerpos que neutraliza virus",
-      "resumen": "Un análisis en más de 500 especies de murciélagos reveló una duplicación genética del sistema inmunitario nunca antes vista en la clase de los mamíferos.\nEsta configuración permite a los quirópteros hospedar patógenos altamente virulentos para el ser humano sin sufrir inflamación destructiva ni enfermar.\nDescifrar este mecanismo ofrece pistas esenciales para el desarrollo de fármacos antivirales y la prevención de futuras pandemias zoonóticas.",
+      "titular_es": "Descubren la estructura genética que permite a los murciélagos tolerar virus mortales",
+      "resumen": "Un estudio genético en más de 500 especies de murciélagos reveló que poseen dos conjuntos independientes de genes de anticuerpos, una configuración única en mamíferos. Este rasgo les permite neutralizar patógenos letales como el Ébola o coronavirus sin desencadenar una respuesta inflamatoria dañina. El hallazgo podría revolucionar el diseño de terapias antivirales para humanos.",
       "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/09/260901010713.htm",
       "fuente": "sciencedaily.com",
@@ -230,202 +260,247 @@
       "tags": [
         "virología",
         "genética",
-        "inmunología"
+        "zoología"
       ]
     },
     {
       "id": "6065db78df",
       "tema": "ciencia",
-      "titular_es": "Investigadores de Carnegie Mellon desafían un postulado centenario sobre el efecto Hall",
-      "resumen": "Físicos descubrieron una manifestación anómala del efecto Hall donde la respuesta eléctrica ocurre sin necesidad de que el campo magnético sea perpendicular al material.\nEl hallazgo desmorona una asunción física establecida desde hace más de un siglo y amplía el marco de la electrodinámica en materia condensada.\nLa propiedad promete acelerar el diseño de dispositivos de espintrónica ultracompactos y memorias cuánticas de bajo consumo.",
+      "titular_es": "Físicos de Carnegie Mellon descubren una variante inédita del efecto Hall",
+      "resumen": "Investigadores hallaron una manifestación del efecto Hall que desafía una premisa vigente desde hace un siglo sobre la orientación de los campos magnéticos. El fenómeno comprobó que esta respuesta eléctrica puede ocurrir sin que el campo sea estrictamente perpendicular al plano del material. El descubrimiento promete optimizar sensores de precisión y componentes espintrónicos avanzados.",
       "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/09/260901010659.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🇺🇸",
       "tags": [
         "física",
-        "electrónica cuántica",
+        "efecto Hall",
         "materiales"
       ]
     },
     {
-      "id": "fb00ea6ebe",
+      "id": "17c410a1ed",
+      "tema": "ciencia",
+      "titular_es": "El radiotelescopio FAST explica por qué se frena la formación estelar pese al hidrógeno disponible",
+      "resumen": "Pese a que el universo aún conserva inmensas reservas de hidrógeno neutro, la tasa de nacimiento de estrellas ha caído drásticamente en los últimos 4.500 millones de años. Utilizando el telescopio gigante chino FAST con datos de 2,5 millones de galaxias, astrónomos detectaron barreras termodinámicas que impiden al gas enfriarse y colapsar. La investigación resuelve una de las paradojas astrofísicas más longevas.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260902234442.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇨🇳",
+      "tags": [
+        "astrofísica",
+        "FAST",
+        "estrellas"
+      ]
+    },
+    {
+      "id": "d055f5ec31",
       "tema": "ia",
-      "titular_es": "El gobierno de EE. UU. interviene a favor de OpenAI en la demanda por derechos de autor del NYT",
-      "resumen": "La administración estadounidense presentó argumentos legales en respaldo de OpenAI en el litigio multimillonario iniciado por The New York Times.\nEl ejecutivo argumenta que restringir el entrenamiento de modelos de IA con datos públicos perjudicaría la competitividad tecnológica nacional.\nEl desenlace judicial podría fijar el estándar legal sobre el uso legítimo de contenidos protegidos para entrenar modelos fundacionales.",
+      "titular_es": "Qwen 3.8 27B debuta en Cerebras alcanzando 1.500 tokens por segundo",
+      "resumen": "El nuevo modelo de la familia Qwen de Alibaba fue implementado sobre la arquitectura de chips de oblea de Cerebras. La combinación logra velocidades extremas de inferencia en tiempo real sin sacrificar capacidad analítica. Este hito refuerza la viabilidad de arquitecturas especializadas frente a las GPUs tradicionales para agentes de respuesta inmediata.",
       "relevancia": 7,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit",
+      "url": "https://inference-docs.cerebras.ai/models/overview",
+      "fuente": "inference-docs.cerebras.ai (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Cerebras",
+        "chips",
+        "inferencia"
+      ]
+    },
+    {
+      "id": "a4bef4d928",
+      "tema": "ia",
+      "titular_es": "Google añade interacción por voz en tiempo real en Gmail, Docs y Keep",
+      "resumen": "Google comenzó el despliegue de Gmail Live, Docs Live y Keep Live, funciones que permiten interactuar mediante voz natural con sus aplicaciones ofimáticas. Basadas en la tecnología conversacional de Gemini Live, permiten dictar, consultar y organizar flujos de trabajo sin usar teclado. La actualización busca transformar la suite de productividad en un entorno gestionado completamente por voz.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
       "fuente": "theverge.com",
       "bandera": "🇺🇸",
       "tags": [
-        "OpenAI",
-        "derechos de autor",
-        "legislación"
+        "Google",
+        "asistentes de voz",
+        "productividad"
       ]
     },
     {
       "id": "a6e3ba4063",
       "tema": "ia",
-      "titular_es": "Google optimiza la precisión de pronósticos meteorológicos con su modelo WeatherNext 3",
-      "resumen": "Google implementó una versión mejorada de su IA meteorológica orientada a resolver predicciones de lluvia y nieve a una escala sin precedentes.\nWeatherNext 3 utiliza técnicas de aprendizaje profundo para procesar dinámicas atmosféricas a velocidades muy superiores a los modelos físicos tradicionales.\nEsta mejora promete reducir drásticamente el costo computacional de las alertas tempranas ante fenómenos climáticos severos.",
+      "titular_es": "Google presenta WeatherNext 3 con resolución sin precedentes para pronósticos",
+      "resumen": "Google actualizó su sistema meteorológico impulsado por IA, mejorando notablemente la predicción de precipitación de lluvia y nieve a corto y medio plazo. WeatherNext 3 supera en velocidad de cómputo a las simulaciones físicas habituales de agencias meteorológicas. El avance confirma el rápido desplazamiento de modelos numéricos convencionales por redes neuronales especializadas.",
       "relevancia": 7,
       "url": "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update",
       "fuente": "theverge.com",
-      "bandera": "🇺🇸",
+      "bandera": "🌍",
       "tags": [
         "Google",
         "meteorología",
-        "deep learning"
+        "algoritmos"
       ]
     },
     {
-      "id": "1a633ae57e",
+      "id": "067a61542e",
       "tema": "ia",
-      "titular_es": "Robo de cookies de sesión en Claude expone cuentas corporativas de Gmail sin control de TI",
-      "resumen": "Un ataque de secuestro de cookies permitió a atacantes acceder a cuentas de Claude y pivotar hacia correos corporativos vinculados sin pasar por autenticación en dos fases.\nLas cuentas afectadas corresponden al plan self-service con pago por tarjeta, fuera de las consolas de gestión de identidad de los administradores.\nLa brecha subraya los riesgos de seguridad que introduce el 'shadow IT' en la adopción empresarial de herramientas de IA.",
+      "titular_es": "Lanzan la versión preliminar de Polars 2.0 con mejoras de rendimiento",
+      "resumen": "El popular motor de DataFrames escrito en Rust publicó la pre-versión de su actualización 2.0 con grandes optimizaciones de memoria. Incorpora soporte extendido para operaciones en streaming y una integración más profunda con pipelines de machine learning. Es un avance clave para la ingeniería de datos de alto desempeño frente a librerías como Pandas.",
       "relevancia": 7,
-      "url": "https://venturebeat.com/security/stolen-claude-session-cookies-can-reach-corporate-gmail-through-grants-no-it-admin-can-revoke",
-      "fuente": "venturebeat.com",
+      "url": "https://pola.rs/posts/announcing-polars-2/",
+      "fuente": "pola.rs (vía HN)",
       "bandera": "🌍",
       "tags": [
-        "seguridad",
-        "Anthropic",
-        "shadow IT"
-      ]
-    },
-    {
-      "id": "a09aa14f37",
-      "tema": "finanzas",
-      "titular_es": "Las acciones de Broadcom retroceden tras no colmar las elevadas exigencias de Wall Street",
-      "resumen": "Pese a reportar sólidos ingresos en chips y software para redes de IA, el fabricante de semiconductores vio caer sus títulos en operaciones posteriores al cierre.\nLos inversores castigaron un crecimiento que, aunque positivo, no alcanzó las proyecciones más agresivas descontadas en su valoración.\nEl movimiento evidencia el alto nivel de exigencia que enfrentan las empresas de hardware que sostienen el rally tecnológico actual.",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/markets/article/broadcom-stock-falls-as-chipmakers-strong-results-not-enough-to-keep-investors-happy-205929042.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Broadcom",
-        "acciones",
-        "mercados"
-      ]
-    },
-    {
-      "id": "f58dae8074",
-      "tema": "finanzas",
-      "titular_es": "La deuda estadounidense y la expansión de la IA disparan el endeudamiento corporativo y presionan los rendimientos",
-      "resumen": "La confluencia del déficit fiscal de EE. UU. y las cuantiosas emisiones de deuda para infraestructura de IA han detonado un volumen histórico de préstamos.\nEste exceso de oferta de bonos está empujando los rendimientos al alza y encareciendo el financiamiento general para empresas y consumidores.\nEl fenómeno plantea dudas sobre la sostenibilidad financiera a largo plazo de las mega inversiones en centros de datos.",
-      "relevancia": 7,
-      "url": "https://www.investors.com/news/us-debt-ai-borrowing-bessent-bond-market-stocks-dollar/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "bonos",
-        "deuda corporativa",
-        "macroeconomía"
-      ]
-    },
-    {
-      "id": "3547b7d593",
-      "tema": "finanzas",
-      "titular_es": "Bank of America rebalancea su cartera en América Latina con foco en Perú, Colombia y Argentina",
-      "resumen": "BofA ajustó su estrategia regional aumentando la exposición a acciones peruanas y manteniendo una postura positiva en Colombia y Argentina, mientras rebajó a México.\nEl informe fundamenta la decisión en valoraciones atractivas y mejores perspectivas fiscales relativas frente a la incertidumbre institucional mexicana.\nLa reasignación orienta los flujos institucionales hacia activos andinos con catalizadores macroeconómicos favorables.",
-      "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/mercados/bank-of-america-mueve-su-cartera-en-america-latina-las-acciones-y-paises-que-tiene-en-el-radar/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": [
-        "América Latina",
-        "banca de inversión",
-        "renta variable"
-      ]
-    },
-    {
-      "id": "48045a83f3",
-      "tema": "finanzas",
-      "titular_es": "Los desafíos regulatorios y políticos que frenan el plan petrolero de EE. UU. en Venezuela",
-      "resumen": "El plan estadounidense para reactivar la producción petrolera venezolana enfrenta trabas estructurales, seguridad jurídica precaria y reticencia de grandes operadores.\nLas multinacionales demandan garantías de inversión a largo plazo antes de comprometer capital en infraestructura severamente degradada.\nEl éxito del proyecto es clave para aliviar la presión global sobre los precios del crudo en medio de tensiones en Medio Oriente.",
-      "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/mercados/de-la-firma-a-la-ejecucion-los-desafios-que-enfrenta-el-plan-petrolero-de-eeuu-en-venezuela/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇻🇪",
-      "tags": [
-        "petróleo",
-        "energía",
-        "geopolítica"
-      ]
-    },
-    {
-      "id": "a6053cbc19",
-      "tema": "finanzas",
-      "titular_es": "Citi eleva previsiones para el azúcar por El Niño y proyecta retroceso en el café",
-      "resumen": "Citigroup revisó al alza sus expectativas de precios para el azúcar debido a la merma productiva por sequías, al tiempo que redujo su postura sobre el café.\nLa recuperación en las exportaciones brasileñas de café alivia inventarios, contrastando con el déficit persistente en la molienda de caña.\nEl informe ofrece una guía táctica para fondos de cobertura expuestos a commodities agrícolas ante anomalías climáticas.",
-      "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/mercados/citi-eleva-su-apuesta-por-el-azucar-ante-el-nino-pero-anticipa-una-caida-del-cafe/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": [
-        "commodities",
-        "materias primas",
-        "agricultura"
+        "Polars",
+        "Rust",
+        "ciencia de datos"
       ]
     },
     {
       "id": "efddbc3f13",
       "tema": "finanzas",
-      "titular_es": "La ONU alerta sobre un 'super El Niño' que amenaza la economía global hasta 2027",
-      "resumen": "Nuevas modelizaciones climáticas advierten sobre sequías, inundaciones y olas de calor extremas prolongadas con impacto directo en cosechas e infraestructura.\nEl organismo estima pérdidas de billones de dólares en cadenas de suministro alimentarias y disrupciones en la generación hidroeléctrica mundial.\nLos mercados de materias primas y seguros enfrentan un ciclo de volatilidad excepcional por shocks climáticos acumulados.",
+      "titular_es": "La ONU alerta sobre un fenómeno de El Niño extremo que amenazará los mercados hasta 2027",
+      "resumen": "Modelos climáticos de Naciones Unidas advierten sobre sequías e inundaciones prolongadas que impactarán cosechas y cadenas logísticas globales. El informe sitúa en zona de alto riesgo la producción agrícola y los precios de materias primas energéticas en el hemisferio sur. El evento climático podría reavivar presiones inflacionarias en alimentos durante los próximos dos años.",
       "relevancia": 7,
       "url": "https://www.cnbc.com/2026/09/03/supersized-el-nino-un-economy.html",
       "fuente": "cnbc.com",
       "bandera": "🌍",
       "tags": [
         "El Niño",
-        "clima",
-        "economía global"
+        "materias primas",
+        "inflación"
       ]
     },
     {
-      "id": "2593c61ad9",
-      "tema": "emprendimiento",
-      "titular_es": "Meta estrena Muse Voice Transcribe a 0,18 dólares la hora con diarización para más de 20 hablantes",
-      "resumen": "Meta ingresó a la competencia de audio en tiempo real con una API que procesa streaming, detección de fin de turno y separación de más de 20 interlocutores.\nSu tarifa competitiva de 0,18 dólares por hora apunta a capturar clientes corporativos que construyen herramientas de minutas y análisis de reuniones.\nLa solución intensifica la carrera tecnológica frente a las suites de transcripción líderes en el segmento B2B.",
+      "id": "e8d6ecd9b9",
+      "tema": "finanzas",
+      "titular_es": "Grandes bancos mantienen recomendación de compra para Broadcom tras caída en bolsa",
+      "resumen": "Las acciones de Broadcom sufrieron correcciones tras la entrega de sus últimos resultados trimestrales. Pese a la venta masiva inicial, firmas como UBS, Bank of America y Morgan Stanley reiteraron su confianza en la rentabilidad de sus chips personalizados de IA. Consideran que el retroceso actual representa una oportunidad de entrada atractiva para inversores institucionales.",
       "relevancia": 7,
-      "url": "https://venturebeat.com/technology/meta-prices-muse-voice-transcribe-at-0-18-an-hour-with-real-time-diarization-for-20-speakers-a-steal-for-enterprises",
-      "fuente": "venturebeat.com",
+      "url": "https://www.bloomberglinea.com/mercados/momento-de-invertir-en-broadcom-esto-ven-ubs-bofa-y-morgan-stanley/",
+      "fuente": "bloomberglinea.com",
       "bandera": "🇺🇸",
       "tags": [
-        "Meta",
-        "procesamiento de voz",
-        "APIs"
+        "Broadcom",
+        "acciones",
+        "análisis financiero"
       ]
     },
     {
-      "id": "0f494a6636",
-      "tema": "emprendimiento",
-      "titular_es": "Las empresas priorizan evaluar procesadores alternativos a Nvidia por un margen de 14 puntos",
-      "resumen": "Un sondeo a líderes de infraestructura revela que casi el 40% planea probar chips de IA no pertenecientes a Nvidia en sus próximas compras antes que sus GPUs de nueva generación.\nLa escasez, los costos desorbitados y los plazos de entrega empujan a las organizaciones a buscar alternativas en startups de semiconductores y ASICs personalizados.\nLa tendencia abre una ventana crucial de adopción para competidores que buscan quebrar el monopolio de CUDA.",
+      "id": "c283cefe59",
+      "tema": "finanzas",
+      "titular_es": "Las tecnológicas y SpaceX disparan las emisiones de deuda corporativa en Wall Street",
+      "resumen": "Grandes compañías de semiconductores, gigantes de Silicon Valley y firmas como SpaceX están emitiendo volúmenes récord de bonos corporativos. Las empresas aprovechan la sólida liquidez del mercado institucional para financiar inversiones masivas en infraestructura y centros de cómputo. Hasta ahora, la alta demanda de los inversores ha permitido absorber la oferta sin disparar los diferenciales de crédito.",
       "relevancia": 7,
-      "url": "https://venturebeat.com/data/enterprises-put-non-nvidia-chips-14-points-ahead-of-nvidias-next-gen-gpus-on-their-evaluation-lists",
-      "fuente": "venturebeat.com",
+      "url": "https://www.bloomberglinea.com/mercados/las-tres-razones-que-explican-el-auge-de-emisiones-corporativas-en-wall-street/",
+      "fuente": "bloomberglinea.com",
       "bandera": "🇺🇸",
       "tags": [
-        "semiconductores",
-        "hardware",
-        "centros de datos"
+        "bonos",
+        "deuda corporativa",
+        "financiamiento"
       ]
     },
     {
-      "id": "b567a13a82",
+      "id": "55ec973eca",
       "tema": "emprendimiento",
-      "titular_es": "Pangram advierte que detectar contenido sintético es más complejo que clasificar 'real o falso'",
-      "resumen": "La startup especializada en detección de IA alertó sobre la infiltración masiva de texto e imágenes generadas en solicitudes de empleo y reclamos de seguros.\nSu CEO sostiene que los clasificadores binarios actuales son ineficaces frente a modelos híbridos y técnicas avanzadas de camuflaje sintético.\nEl sector demanda nuevas metodologías probabilísticas para preservar la autenticidad y confianza en plataformas digitales.",
-      "relevancia": 6,
-      "url": "https://techcrunch.com/video/pangrams-max-spero-on-why-ai-detection-is-harder-than-real-or-fake/",
+      "titular_es": "El ARR de las startups es más frágil que nunca debido al auge de la IA",
+      "resumen": "Un nuevo informe sectorial revela que la tasa de retención de ingresos recurrentes anuales en el software B2B está cayendo aceleradamente. Las empresas clientes están sustituyendo licencias tradicionales de SaaS por herramientas autónomas basadas en modelos de lenguaje. Los fundadores se ven obligados a rediseñar sus modelos de monetización hacia cobros por uso o resultados.",
+      "relevancia": 7,
+      "url": "https://techcrunch.com/2026/09/03/startup-arr-is-less-secure-than-ever-new-research-shows/",
       "fuente": "techcrunch.com",
       "bandera": "🇺🇸",
       "tags": [
-        "detección de IA",
-        "deepfakes",
-        "autenticidad"
+        "SaaS",
+        "software B2B",
+        "modelo de negocio"
+      ]
+    },
+    {
+      "id": "510ebb1439",
+      "tema": "ciencia",
+      "titular_es": "Crean un algoritmo inspirado en moscas de la fruta que previene el olvido en redes neuronales",
+      "resumen": "Ingenieros desarrollaron un sistema de codificación dispersa basado en el sistema olfativo de los insectos para eliminar el olvido catastrófico en IA. La técnica permite al algoritmo memorizar nuevos patrones sin sobrescribir información previamente adquirida durante el entrenamiento continuo. Representa una solución computacionalmente ligera para aprendizaje continuo en sistemas embebidos y robótica.",
+      "relevancia": 7,
+      "url": "https://arstechnica.com/science/2026/09/just-like-a-fruit-fly-a-new-algorithm-never-forgets-old-scents/",
+      "fuente": "arstechnica.com",
+      "bandera": "🌍",
+      "tags": [
+        "bioingeniería",
+        "algoritmos",
+        "redes neuronales"
+      ]
+    },
+    {
+      "id": "46a4b950eb",
+      "tema": "ciencia",
+      "titular_es": "Los Premios Ig Nobel 2026 celebran investigaciones científicas insólitas y provocadoras",
+      "resumen": "Se celebró la gala de los prestigiosos premios que distinguen descubrimientos científicos que primero hacen reír y luego hacen pensar. La ceremonia incluyó demostraciones y charlas condensadas de experimentos reales en disciplinas como fisiología, física y medicina. La iniciativa resalta el valor de la curiosidad no convencional y la divulgación científica accesible.",
+      "relevancia": 7,
+      "url": "https://arstechnica.com/science/2026/09/meet-the-2026-ig-nobel-prize-winners/",
+      "fuente": "arstechnica.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Ig Nobel",
+        "divulgación",
+        "ciencia"
+      ]
+    },
+    {
+      "id": "f082815bef",
+      "tema": "ia",
+      "titular_es": "El gran maestro de Go Shin derrota a la IA KataGo con dos piedras de hándicap",
+      "resumen": "El jugador profesional Shin superó a uno de los sistemas de IA más sólidos del mundo en una partida oficial con ventaja inicial. El resultado demuestra que los humanos aún encuentran puntos ciegos y vulnerabilidades adversarias en redes neuronales de juego estratégico. La partida ofrece nuevas pistas para investigadores sobre robustez y sesgos en modelos de toma de decisiones.",
+      "relevancia": 6,
+      "url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
+      "fuente": "kedglobal.com (vía HN)",
+      "bandera": "🇰🇷",
+      "tags": [
+        "Go",
+        "redes neuronales",
+        "juegos"
+      ]
+    },
+    {
+      "id": "13d8e0ad4e",
+      "tema": "finanzas",
+      "titular_es": "Ecopetrol descarta la venta de ISA y posterga proyectos en Venezuela",
+      "resumen": "El director financiero de Ecopetrol ratificó que la filial de transmisión eléctrica ISA continuará siendo un pilar estratégico para el flujo de caja del conglomerado. A su vez, la estatal colombiana enfrió planes inmediatos de inversión petrolera en territorio venezolano. La empresa concentrará sus recursos de exploración y producción en Colombia, Brasil y Estados Unidos.",
+      "relevancia": 6,
+      "url": "https://www.bloomberglinea.com/mercados/ecopetrol-no-planea-vender-isa-pronto-y-venezuela-no-sera-opcion-de-corto-plazo/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇨🇴",
+      "tags": [
+        "Ecopetrol",
+        "energía",
+        "América Latina"
+      ]
+    },
+    {
+      "id": "3547b7d593",
+      "tema": "finanzas",
+      "titular_es": "Bank of America eleva su apuesta bursátil por Perú y recorta exposición a México",
+      "resumen": "El banco de inversión reconfiguró su asignación para América Latina, sobreponderando activos peruanos y manteniendo sesgo favorable hacia Colombia y Argentina. La entidad degradó la renta variable mexicana a infraponderar ante la incertidumbre económica y regulatoria local. El rebalanceo marca una rotación del capital internacional hacia mercados andinos con valoraciones más castigadas.",
+      "relevancia": 6,
+      "url": "https://www.bloomberglinea.com/mercados/bank-of-america-mueve-su-cartera-en-america-latina-las-acciones-y-paises-que-tiene-en-el-radar/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇵🇪",
+      "tags": [
+        "BofA",
+        "mercados emergentes",
+        "inversiones"
+      ]
+    },
+    {
+      "id": "4d0be1d61b",
+      "tema": "emprendimiento",
+      "titular_es": "Ollie lanza un asistente de IA familiar con promesa de privacidad absoluta",
+      "resumen": "La startup Ollie presentó su plataforma para coordinar la vida cotidiana y agendas familiares sin comercializar los datos recolectados. A diferencia de las grandes tecnológicas, el sistema garantiza que la información personal nunca se usará para entrenar modelos externos. Su propuesta busca captar a usuarios escépticos del manejo de privacidad de los gigantes del sector.",
+      "relevancia": 6,
+      "url": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "privacidad",
+        "asistentes virtuales",
+        "startups"
       ]
     }
   ]
