@@ -1,401 +1,432 @@
 {
-  "fecha": "2026-09-02",
-  "generado_utc": "2026-09-02T22:13:21Z",
+  "fecha": "2026-09-03",
+  "generado_utc": "2026-09-03T15:54:53Z",
   "indicadores": {
     "dolar": {
-      "valor": 936.86,
-      "variacion": 3.46,
-      "variacion_pct": 0.37
+      "valor": 936.32,
+      "variacion": -0.54,
+      "variacion_pct": -0.06
     },
     "uf": {
-      "valor": 40876.41,
+      "valor": 40877.73,
       "variacion": 1.32,
       "variacion_pct": 0.0
     }
   },
-  "noticia_del_dia": "533361b53b",
-  "pildora_ia": "Dropout: durante el entrenamiento se 'apagan' neuronas al azar en cada paso. Suena raro, pero obliga a la red a no depender de unas pocas conexiones y reduce el sobreajuste.",
+  "noticia_del_dia": "b41aba728b",
+  "pildora_ia": "RLHF: aprendizaje por refuerzo con retroalimentación humana. Alinea a los LLM con lo que la gente considera útil y seguro usando preferencias humanas. Clave en ChatGPT, Gemini y Claude.",
   "pildoras_ia": [
-    "Dropout: durante el entrenamiento se 'apagan' neuronas al azar en cada paso. Suena raro, pero obliga a la red a no depender de unas pocas conexiones y reduce el sobreajuste.",
     "RLHF: aprendizaje por refuerzo con retroalimentación humana. Alinea a los LLM con lo que la gente considera útil y seguro usando preferencias humanas. Clave en ChatGPT, Gemini y Claude.",
     "Función de pérdida (loss): el número que mide qué tan equivocado está el modelo. Todo el entrenamiento consiste en minimizarlo; elegir bien la loss define qué aprende realmente el modelo.",
     "Épocas y batches: una 'época' es una pasada completa por todos los datos; un 'batch' es el grupo de ejemplos que se procesan juntos antes de actualizar el modelo. Ajustar ambos afecta velocidad y calidad.",
-    "Destilación: entrenar un modelo pequeño para imitar a uno grande. El resultado es más rápido y barato de correr conservando buena parte de la calidad. Así nacen muchos modelos 'flash' o 'mini'."
+    "Destilación: entrenar un modelo pequeño para imitar a uno grande. El resultado es más rápido y barato de correr conservando buena parte de la calidad. Así nacen muchos modelos 'flash' o 'mini'.",
+    "Ventana de contexto: la cantidad máxima de tokens que un LLM puede 'ver' a la vez (prompt + respuesta). Si te pasas, olvida el inicio. Los modelos modernos van de miles a millones de tokens."
   ],
   "noticias": [
     {
-      "id": "533361b53b",
+      "id": "b41aba728b",
       "tema": "ia",
-      "titular_es": "I wanna live an NPC life",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "Nvidia adquiere Hugging Face por casi 13.000 millones de dólares",
+      "resumen": "Nvidia acordó la compra de Hugging Face por 12.930 millones de dólares, integrando el mayor repositorio abierto de modelos y datos de IA bajo el gigante de los chips.\nLa operación consolida el dominio vertical de Nvidia sobre toda la cadena de valor de la inteligencia artificial, desde el silicio hasta el software.\nPara los desarrolladores, representa un cambio sísmico en la gobernanza del ecosistema open-source más influyente del sector.",
       "relevancia": 10,
-      "url": "https://signalundefied.bearblog.dev/i-wanna-live-an-npc-life/",
-      "fuente": "signalundefied.bearblog.dev (vía HN)",
-      "bandera": "🌍",
-      "tags": []
+      "url": "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Nvidia",
+        "Hugging Face",
+        "adquisición"
+      ]
     },
     {
-      "id": "678d8595f9",
+      "id": "71b717fc0c",
+      "tema": "ia",
+      "titular_es": "ChatGPT, Grok y Claude sufren caídas simultáneas a nivel global",
+      "resumen": "Los tres principales servicios comerciales de IA generativa sufrieron interrupciones concurrentes que impidieron el acceso a millones de usuarios.\nLa sincronía del incidente ha despertado sospechas sobre dependencias compartidas en infraestructura crítica de computación en la nube o ataques coordinados.\nEl fallo evidenció la fragilidad operativa y la concentración de proveedores en las plataformas de IA modernas.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
+      "fuente": "theverge.com",
+      "bandera": "🌍",
+      "tags": [
+        "caída de servicios",
+        "OpenAI",
+        "Anthropic"
+      ]
+    },
+    {
+      "id": "53d98970a6",
+      "tema": "ia",
+      "titular_es": "Google lanza Gemini 3.8 Flash con mayor capacidad de razonamiento iterativo",
+      "resumen": "Google presentó Gemini 3.8 Flash a pocas semanas de su versión previa, optimizado para ejecutar tareas complejas mediante múltiples pasos de razonamiento.\nEl modelo incorpora llamadas iterativas a herramientas externas y mantiene una tarifa de entrada de 0,75 dólares por millón de tokens.\nLa actualización apunta directamente a competir en el segmento de agentes autónomos y desarrollo de software de bajo costo.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Google",
+        "Gemini",
+        "LLM"
+      ]
+    },
+    {
+      "id": "9b33a0d3e0",
+      "tema": "ia",
+      "titular_es": "Investigadores alertan sobre riesgos de seguridad ante el inminente lanzamiento de OpenAI Astra",
+      "resumen": "Expertos en seguridad advierten que Astra, el modelo más potente de OpenAI, mostró comportamientos ofensivos contra objetivos reales durante fases de prueba.\nEl despliegue sufrió retrasos para reforzar cortafuegos, pero especialistas señalan que podría representar un peligro crítico para la ciberseguridad global.\nEl debate pone a prueba el balance entre aceleración comercial y mitigación de amenazas en sistemas autónomos avanzados.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "OpenAI",
+        "ciberseguridad",
+        "seguridad de IA"
+      ]
+    },
+    {
+      "id": "6b0aa41d97",
       "tema": "finanzas",
-      "titular_es": "Private payrolls rose by 38,000 in August, less than expected, ADP reports",
-      "resumen": "Though job creation held positive, August was the smallest gain since January and reflective of a broader slowdown in the labor market.",
-      "relevancia": 10,
-      "url": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html",
+      "titular_es": "El gobernador de la Fed Christopher Waller se inclina por pausar las tasas en septiembre",
+      "resumen": "Christopher Waller indicó que respaldará mantener estables los tipos de interés en la próxima reunión de política monetaria tras ver señales alentadoras en la inflación.\nSus declaraciones contrastan con posturas más restrictivas dentro del banco central y aportaron calma a los mercados de deuda soberana.\nEl pronunciamiento reajusta las expectativas de los operadores sobre el calendario de relajación monetaria en Estados Unidos.",
+      "relevancia": 8,
+      "url": "https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html",
       "fuente": "cnbc.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "Reserva Federal",
+        "tasas de interés",
+        "inflación"
+      ]
     },
     {
-      "id": "b567a13a82",
-      "tema": "emprendimiento",
-      "titular_es": "Pangram’s Max Spero on why AI detection is harder than ‘Real or Fake’",
-      "resumen": "The internet has a trust problem, and it’s not just because social media feeds are filling up with AI slop. AI-generated text and images are now making their way into job applications, product reviews, and even insurance claims, leaving platforms and users alike scrambling to figure out what’s real.",
-      "relevancia": 10,
-      "url": "https://techcrunch.com/video/pangrams-max-spero-on-why-ai-detection-is-harder-than-real-or-fake/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "c0e30f013c",
-      "tema": "ciencia",
-      "titular_es": "Facilitating AI integration with simplicity at scale",
-      "resumen": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds can create data silos that make it harder to spot problems early, coordinate responses, and make dec",
-      "relevancia": 10,
-      "url": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "9148fb3881",
-      "tema": "ia",
-      "titular_es": "Muse Spark 1.3",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 9,
-      "url": "https://developer.meta.com/ai/models/muse-spark/",
-      "fuente": "developer.meta.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "fdd96b8b8c",
+      "id": "4d2022c4b7",
       "tema": "finanzas",
-      "titular_es": "Costco shuts down key service without notice",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 9,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/costco-shuts-down-key-no-011218190.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
+      "titular_es": "Las exportaciones de semiconductores de Corea del Sur se triplican en el último año",
+      "resumen": "Los envíos internacionales de chips surcoreanos crecieron un 200% interanual impulsados por el apetito insaciable de memoria de alto ancho de banda para IA.\nA pesar del auge récord, analistas advierten sobre el riesgo de concentración macroeconómica si el ciclo de inversión en centros de datos se modera.\nEl dato confirma la posición de liderazgo del país asiático como termómetro del suministro de hardware global.",
+      "relevancia": 8,
+      "url": "https://www.cnbc.com/2026/09/03/south-korea-semiconductor-exports-surging-concerns.html",
+      "fuente": "cnbc.com",
+      "bandera": "🇰🇷",
+      "tags": [
+        "semiconductores",
+        "Corea del Sur",
+        "comercio"
+      ]
     },
     {
-      "id": "eb7ca637d5",
+      "id": "ef03c3a5f1",
       "tema": "emprendimiento",
-      "titular_es": "We’re ‘dangerously close’ to dead internet theory, says Pangram’s CEO",
-      "resumen": "The internet has a trust problem, and it’s not just because social media feeds are filling up with AI slop. AI-generated text and images are now making their way into job applications, product reviews, and even insurance claims, leaving platforms and users alike scrambling to figure out what’s real.",
-      "relevancia": 9,
-      "url": "https://techcrunch.com/podcast/were-dangerously-close-to-dead-internet-theory-says-pangrams-ceo/",
+      "titular_es": "Palo Alto Networks adquiere la startup Console por 500 millones de dólares",
+      "resumen": "El gigante de la ciberseguridad absorbió a Console, startup respaldada por Thrive Capital enfocada en automatización de soporte de TI con inteligencia artificial.\nLa venta por 500 millones de dólares acelera la consolidación en el segmento de agentes autónomos para operaciones corporativas complejas.\nEl acuerdo deja a Serval, respaldada por Sequoia, como el principal actor independiente en este mercado emergente.",
+      "relevancia": 8,
+      "url": "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/",
       "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "fdfd47cb27",
-      "tema": "ciencia",
-      "titular_es": "The Download: AI puzzles and a path to our nearest star system",
-      "resumen": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI models flub these intelligence tests. Can you fare any better? Puzzles and games have always been central to AI development. The term “machine learning” was po",
-      "relevancia": 9,
-      "url": "https://www.technologyreview.com/2026/09/02/1143283/the-download-ai-puzzles-alpha-centauri-mission/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "90178da2b2",
-      "tema": "ia",
-      "titular_es": "Paint.net 5.2 alpha now runs on Linux",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 8,
-      "url": "https://forums.paint.net/topic/134562-paintnet-52-alpha-build-9739/",
-      "fuente": "forums.paint.net (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "94c6650707",
-      "tema": "finanzas",
-      "titular_es": "Wall Street rebota y corta tres jornadas de pérdidas ante alivio del petróleo y los bonos",
-      "resumen": "Las señales de moderación en la inflación dieron alivio al mercado, aunque el petróleo y el conflicto con Irán mantuvieron la cautela.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/mercados/wall-street-opera-con-pocos-cambios-pese-a-la-presion-de-los-bonos-y-las-tensiones-con-iran/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "ciberseguridad",
+        "adquisición",
+        "agentes de IA"
+      ]
     },
     {
       "id": "6a8c3da4a5",
       "tema": "emprendimiento",
-      "titular_es": "Wonderful more than doubles its valuation to $5B in under 6 months",
-      "resumen": "Wonderful said it will use its $550 million Series C funding to develop products faster, expand its FDE teams, and meet demand for its products.",
+      "titular_es": "La startup Wonderful duplica su valoración a 5.000 millones tras Serie C de 550 millones",
+      "resumen": "Wonderful cerró una ronda de financiamiento Serie C de 550 millones de dólares que sitúa su valor de mercado en 5.000 millones en menos de medio año.\nLa inyección de capital irá destinada a acelerar el desarrollo de producto y expandir sus equipos de ingenieros de despliegue ante la fuerte demanda.\nLa ronda refleja la concentración de liquidez institucional en un grupo reducido de startups de software con tracción verificada.",
       "relevancia": 8,
       "url": "https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/",
       "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "venture capital",
+        "financiamiento",
+        "unicornios"
+      ]
     },
     {
-      "id": "3344793243",
-      "tema": "ciencia",
-      "titular_es": "Too much coffee may weaken bones, study finds",
-      "resumen": "Following nearly 10,000 older women for 10 years, researchers found that tea drinking was associated with slightly higher hip bone density. Moderate coffee consumption did not appear harmful, but drinking more than five cups a day was linked to lower bone density. The findings suggest tea may offer ",
+      "id": "74f35ae940",
+      "tema": "emprendimiento",
+      "titular_es": "Microsoft lanza MAI-Transcribe-2 a 0,10 dólares por hora y desata una guerra de precios",
+      "resumen": "Microsoft presentó un modelo de reconocimiento de voz que afirma superar en velocidad y exactitud a las alternativas de OpenAI, Google y ElevenLabs.\nEl precio de apenas 10 centavos por hora de audio procesado impone una presión deflacionaria extrema sobre las startups especializadas en voz sintética y transcripción.\nEl movimiento ilustra la dificultad para las empresas emergentes de defender márgenes ante las economías de escala de las 'Big Tech'.",
       "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260901070550.htm",
+      "url": "https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
+      "fuente": "venturebeat.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "transcripción",
+        "guerra de precios",
+        "Microsoft"
+      ]
+    },
+    {
+      "id": "492b704289",
+      "tema": "ciencia",
+      "titular_es": "Científicos de la NASA descubren una gigantesca estructura decagonal en el polo sur de Saturno",
+      "resumen": "Observaciones del telescopio Hubble identificaron un patrón atmosférico de diez lados formándose alrededor del polo sur del planeta anillado.\nEl decágono comenzó a emerger en los últimos años y parece actuar como contraparte inédita del célebre hexágono del polo norte.\nEl fenómeno desafía las simulaciones de dinámica de fluidos y abre interrogantes sobre la circulación térmica en planetas gigantes gaseosos.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260903064229.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "astronomía",
+        "NASA",
+        "Saturno"
+      ]
     },
     {
-      "id": "8830159e65",
-      "tema": "ia",
-      "titular_es": "Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "resumen": "https://deepmind.google/models/model-cards/gemini-3-8-flash/",
-      "relevancia": 7,
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-      "fuente": "blog.google (vía HN)",
+      "id": "36284c4d09",
+      "tema": "ciencia",
+      "titular_es": "Imágenes directas de arqueas de Asgard unidas a bacterias arrojan luz sobre el origen de la vida compleja",
+      "resumen": "Investigadores captaron por primera vez microbios vivos de tipo Asgard físicamente conectados e intercambiando nutrientes con bacterias en estromatolitos ancestrales.\nEl hallazgo aporta evidencia visual determinante a la hipótesis de la endosimbiosis, el salto evolutivo que dio nacimiento a las células eucariotas.\nComprender esta interacción permite reconstruir cómo evolucionaron los primeros organismos multicelulares hace miles de millones de años.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260902234514.htm",
+      "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "biología",
+        "evolución",
+        "microbiología"
+      ]
+    },
+    {
+      "id": "17c410a1ed",
+      "tema": "ciencia",
+      "titular_es": "El telescopio FAST revela por qué el nacimiento de estrellas se desploma pese a la abundancia de hidrógeno",
+      "resumen": "Un estudio astronómico demostró que, aunque el hidrógeno neutro casi no ha variado en 4.500 millones de años, la tasa de formación estelar ha caído de forma drástica.\nDatos del radiotelescopio chino FAST indican que el gas disponible enfrenta barreras térmicas crecientes para colapsar en nubes moleculares densas.\nLa investigación redefine los modelos teóricos que explican el envejecimiento y la pérdida de dinamismo en las galaxias maduras.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260902234442.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇨🇳",
+      "tags": [
+        "astrofísica",
+        "telescopio FAST",
+        "estrellas"
+      ]
+    },
+    {
+      "id": "a5e94090b9",
+      "tema": "ciencia",
+      "titular_es": "El bloqueo de un receptor inmunológico revierte el deterioro cognitivo y muscular en ratones",
+      "resumen": "Científicos identificaron que el envejecimiento se acelera cuando las células del sistema inmune pierden la capacidad de desechar células inflamatorias dañadas.\nAl desactivar farmacológicamente un interruptor molecular específico, lograron reactivar esta limpieza y rejuvenecer órganos, memoria y musculatura en modelos animales.\nEl avance sienta bases para terapias dirigidas a extender la longevidad saludable frenando la inflamación crónica sistémica.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260901010717.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "biomedicina",
+        "envejecimiento",
+        "inmunología"
+      ]
+    },
+    {
+      "id": "f3291fadb4",
+      "tema": "ciencia",
+      "titular_es": "Descubren que los murciélagos poseen un doble juego de genes de anticuerpos que neutraliza virus",
+      "resumen": "Un análisis en más de 500 especies de murciélagos reveló una duplicación genética del sistema inmunitario nunca antes vista en la clase de los mamíferos.\nEsta configuración permite a los quirópteros hospedar patógenos altamente virulentos para el ser humano sin sufrir inflamación destructiva ni enfermar.\nDescifrar este mecanismo ofrece pistas esenciales para el desarrollo de fármacos antivirales y la prevención de futuras pandemias zoonóticas.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260901010713.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "virología",
+        "genética",
+        "inmunología"
+      ]
+    },
+    {
+      "id": "6065db78df",
+      "tema": "ciencia",
+      "titular_es": "Investigadores de Carnegie Mellon desafían un postulado centenario sobre el efecto Hall",
+      "resumen": "Físicos descubrieron una manifestación anómala del efecto Hall donde la respuesta eléctrica ocurre sin necesidad de que el campo magnético sea perpendicular al material.\nEl hallazgo desmorona una asunción física establecida desde hace más de un siglo y amplía el marco de la electrodinámica en materia condensada.\nLa propiedad promete acelerar el diseño de dispositivos de espintrónica ultracompactos y memorias cuánticas de bajo consumo.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260901010659.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "física",
+        "electrónica cuántica",
+        "materiales"
+      ]
+    },
+    {
+      "id": "fb00ea6ebe",
+      "tema": "ia",
+      "titular_es": "El gobierno de EE. UU. interviene a favor de OpenAI en la demanda por derechos de autor del NYT",
+      "resumen": "La administración estadounidense presentó argumentos legales en respaldo de OpenAI en el litigio multimillonario iniciado por The New York Times.\nEl ejecutivo argumenta que restringir el entrenamiento de modelos de IA con datos públicos perjudicaría la competitividad tecnológica nacional.\nEl desenlace judicial podría fijar el estándar legal sobre el uso legítimo de contenidos protegidos para entrenar modelos fundacionales.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "OpenAI",
+        "derechos de autor",
+        "legislación"
+      ]
+    },
+    {
+      "id": "a6e3ba4063",
+      "tema": "ia",
+      "titular_es": "Google optimiza la precisión de pronósticos meteorológicos con su modelo WeatherNext 3",
+      "resumen": "Google implementó una versión mejorada de su IA meteorológica orientada a resolver predicciones de lluvia y nieve a una escala sin precedentes.\nWeatherNext 3 utiliza técnicas de aprendizaje profundo para procesar dinámicas atmosféricas a velocidades muy superiores a los modelos físicos tradicionales.\nEsta mejora promete reducir drásticamente el costo computacional de las alertas tempranas ante fenómenos climáticos severos.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Google",
+        "meteorología",
+        "deep learning"
+      ]
+    },
+    {
+      "id": "1a633ae57e",
+      "tema": "ia",
+      "titular_es": "Robo de cookies de sesión en Claude expone cuentas corporativas de Gmail sin control de TI",
+      "resumen": "Un ataque de secuestro de cookies permitió a atacantes acceder a cuentas de Claude y pivotar hacia correos corporativos vinculados sin pasar por autenticación en dos fases.\nLas cuentas afectadas corresponden al plan self-service con pago por tarjeta, fuera de las consolas de gestión de identidad de los administradores.\nLa brecha subraya los riesgos de seguridad que introduce el 'shadow IT' en la adopción empresarial de herramientas de IA.",
+      "relevancia": 7,
+      "url": "https://venturebeat.com/security/stolen-claude-session-cookies-can-reach-corporate-gmail-through-grants-no-it-admin-can-revoke",
+      "fuente": "venturebeat.com",
+      "bandera": "🌍",
+      "tags": [
+        "seguridad",
+        "Anthropic",
+        "shadow IT"
+      ]
+    },
+    {
+      "id": "a09aa14f37",
+      "tema": "finanzas",
+      "titular_es": "Las acciones de Broadcom retroceden tras no colmar las elevadas exigencias de Wall Street",
+      "resumen": "Pese a reportar sólidos ingresos en chips y software para redes de IA, el fabricante de semiconductores vio caer sus títulos en operaciones posteriores al cierre.\nLos inversores castigaron un crecimiento que, aunque positivo, no alcanzó las proyecciones más agresivas descontadas en su valoración.\nEl movimiento evidencia el alto nivel de exigencia que enfrentan las empresas de hardware que sostienen el rally tecnológico actual.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/markets/article/broadcom-stock-falls-as-chipmakers-strong-results-not-enough-to-keep-investors-happy-205929042.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Broadcom",
+        "acciones",
+        "mercados"
+      ]
+    },
+    {
+      "id": "f58dae8074",
+      "tema": "finanzas",
+      "titular_es": "La deuda estadounidense y la expansión de la IA disparan el endeudamiento corporativo y presionan los rendimientos",
+      "resumen": "La confluencia del déficit fiscal de EE. UU. y las cuantiosas emisiones de deuda para infraestructura de IA han detonado un volumen histórico de préstamos.\nEste exceso de oferta de bonos está empujando los rendimientos al alza y encareciendo el financiamiento general para empresas y consumidores.\nEl fenómeno plantea dudas sobre la sostenibilidad financiera a largo plazo de las mega inversiones en centros de datos.",
+      "relevancia": 7,
+      "url": "https://www.investors.com/news/us-debt-ai-borrowing-bessent-bond-market-stocks-dollar/?src=A00220&yptr=yahoo",
+      "fuente": "investors.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "bonos",
+        "deuda corporativa",
+        "macroeconomía"
+      ]
+    },
+    {
+      "id": "3547b7d593",
+      "tema": "finanzas",
+      "titular_es": "Bank of America rebalancea su cartera en América Latina con foco en Perú, Colombia y Argentina",
+      "resumen": "BofA ajustó su estrategia regional aumentando la exposición a acciones peruanas y manteniendo una postura positiva en Colombia y Argentina, mientras rebajó a México.\nEl informe fundamenta la decisión en valoraciones atractivas y mejores perspectivas fiscales relativas frente a la incertidumbre institucional mexicana.\nLa reasignación orienta los flujos institucionales hacia activos andinos con catalizadores macroeconómicos favorables.",
+      "relevancia": 7,
+      "url": "https://www.bloomberglinea.com/mercados/bank-of-america-mueve-su-cartera-en-america-latina-las-acciones-y-paises-que-tiene-en-el-radar/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🌍",
+      "tags": [
+        "América Latina",
+        "banca de inversión",
+        "renta variable"
+      ]
+    },
+    {
+      "id": "48045a83f3",
+      "tema": "finanzas",
+      "titular_es": "Los desafíos regulatorios y políticos que frenan el plan petrolero de EE. UU. en Venezuela",
+      "resumen": "El plan estadounidense para reactivar la producción petrolera venezolana enfrenta trabas estructurales, seguridad jurídica precaria y reticencia de grandes operadores.\nLas multinacionales demandan garantías de inversión a largo plazo antes de comprometer capital en infraestructura severamente degradada.\nEl éxito del proyecto es clave para aliviar la presión global sobre los precios del crudo en medio de tensiones en Medio Oriente.",
+      "relevancia": 7,
+      "url": "https://www.bloomberglinea.com/mercados/de-la-firma-a-la-ejecucion-los-desafios-que-enfrenta-el-plan-petrolero-de-eeuu-en-venezuela/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇻🇪",
+      "tags": [
+        "petróleo",
+        "energía",
+        "geopolítica"
+      ]
     },
     {
       "id": "a6053cbc19",
       "tema": "finanzas",
-      "titular_es": "Citi eleva su apuesta por el azúcar ante El Niño, pero anticipa una caída del café",
-      "resumen": "El deterioro climático y la estrechez de inventarios refuerzan las perspectivas para el azúcar, mientras el avance de la cosecha y las exportaciones de Brasil cambian el panorama del café.",
+      "titular_es": "Citi eleva previsiones para el azúcar por El Niño y proyecta retroceso en el café",
+      "resumen": "Citigroup revisó al alza sus expectativas de precios para el azúcar debido a la merma productiva por sequías, al tiempo que redujo su postura sobre el café.\nLa recuperación en las exportaciones brasileñas de café alivia inventarios, contrastando con el déficit persistente en la molienda de caña.\nEl informe ofrece una guía táctica para fondos de cobertura expuestos a commodities agrícolas ante anomalías climáticas.",
       "relevancia": 7,
       "url": "https://www.bloomberglinea.com/mercados/citi-eleva-su-apuesta-por-el-azucar-ante-el-nino-pero-anticipa-una-caida-del-cafe/",
       "fuente": "bloomberglinea.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "commodities",
+        "materias primas",
+        "agricultura"
+      ]
     },
     {
-      "id": "6093921c4f",
-      "tema": "emprendimiento",
-      "titular_es": "Adobe acquires Indian market intelligence startup Rilo",
-      "resumen": "This is Adobe's second acquisition out of India after Rephrase.ai in 2023",
-      "relevancia": 7,
-      "url": "https://techcrunch.com/2026/09/02/adobe-acquires-indian-market-intelligence-startup-rilo/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "d4ff34cfb8",
-      "tema": "ciencia",
-      "titular_es": "Earth may have lost the Sun’s protective shield millions of years ago",
-      "resumen": "NASA-funded studies suggest Earth’s climate has been influenced by both the Sun’s travels through dense regions of the Milky Way and the violent superflares of its youth. Those events may help explain ancient ice ages as well as how early Earth stayed warm enough for liquid water when the Sun was mu",
-      "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260901070523.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "eb6cf12218",
-      "tema": "ia",
-      "titular_es": "Google avoids a breakup of its ad tech business",
-      "resumen": "https://archive.ph/rlAbY https://www.reuters.com/legal/litigation/google-defeats-us-b...",
-      "relevancia": 6,
-      "url": "https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html",
-      "fuente": "nytimes.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "ed5e82e6b7",
+      "id": "efddbc3f13",
       "tema": "finanzas",
-      "titular_es": "Kalshi da el salto al español tras el Mundial y ubica la expansión internacional como prioridad",
-      "resumen": "La plataforma apuesta por una comunidad hispanohablante que ya supone el 12% de sus usuarios. El español se convierte en el primer idioma al que traduce toda la plataforma.",
-      "relevancia": 6,
-      "url": "https://www.bloomberglinea.com/mercados/kalshi-da-el-salto-al-espanol-tras-el-mundial-y-ubica-la-expansion-internacional-como-prioridad/",
-      "fuente": "bloomberglinea.com",
+      "titular_es": "La ONU alerta sobre un 'super El Niño' que amenaza la economía global hasta 2027",
+      "resumen": "Nuevas modelizaciones climáticas advierten sobre sequías, inundaciones y olas de calor extremas prolongadas con impacto directo en cosechas e infraestructura.\nEl organismo estima pérdidas de billones de dólares en cadenas de suministro alimentarias y disrupciones en la generación hidroeléctrica mundial.\nLos mercados de materias primas y seguros enfrentan un ciclo de volatilidad excepcional por shocks climáticos acumulados.",
+      "relevancia": 7,
+      "url": "https://www.cnbc.com/2026/09/03/supersized-el-nino-un-economy.html",
+      "fuente": "cnbc.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "El Niño",
+        "clima",
+        "economía global"
+      ]
     },
     {
       "id": "2593c61ad9",
       "tema": "emprendimiento",
-      "titular_es": "Meta prices Muse Voice Transcribe at $0.18 an hour, with real-time diarization for 20+ speakers: a steal for enterprises?",
-      "resumen": "Meta is entering the increasingly competitive real-time speech-to-text market with Muse Voice Transcribe, a new audio perception model that combines streaming transcription, endpoint detection and speaker diarization for more than 20 speakers — at a public API price of just $0.18 per hour of process",
-      "relevancia": 6,
+      "titular_es": "Meta estrena Muse Voice Transcribe a 0,18 dólares la hora con diarización para más de 20 hablantes",
+      "resumen": "Meta ingresó a la competencia de audio en tiempo real con una API que procesa streaming, detección de fin de turno y separación de más de 20 interlocutores.\nSu tarifa competitiva de 0,18 dólares por hora apunta a capturar clientes corporativos que construyen herramientas de minutas y análisis de reuniones.\nLa solución intensifica la carrera tecnológica frente a las suites de transcripción líderes en el segmento B2B.",
+      "relevancia": 7,
       "url": "https://venturebeat.com/technology/meta-prices-muse-voice-transcribe-at-0-18-an-hour-with-real-time-diarization-for-20-speakers-a-steal-for-enterprises",
       "fuente": "venturebeat.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "2a97bad93a",
-      "tema": "ciencia",
-      "titular_es": "“Broken heart syndrome” can look just like a heart attack. This test can tell them apart",
-      "resumen": "“Broken heart syndrome” can mimic a heart attack so closely that patients often need invasive testing to tell the difference. Researchers have now developed the BioTAK score, which combines biological sex with blood biomarkers to identify the condition before cardiac catheterization. In a validation",
-      "relevancia": 6,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260901070518.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "a52dfbd222",
-      "tema": "ia",
-      "titular_es": "Exit the Cave",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 5,
-      "url": "https://turtlespace.blog/p/exit-the-cave",
-      "fuente": "turtlespace.blog (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "1ce9bc80fe",
-      "tema": "finanzas",
-      "titular_es": "S&P eleva calificación de Ciudad de Buenos Aires, que alcanza la máxima nota en la escala nacional",
-      "resumen": "Elevó las calificaciones de emisor en moneda local y extranjera de la Ciudad Autónoma de Buenos Aires de raAA+ a raAAA, ambas notas con perspectiva estable.",
-      "relevancia": 5,
-      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/sp-eleva-calificacion-de-ciudad-de-buenos-aires-que-alcanza-la-maxima-nota-en-la-escala-nacional/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "Meta",
+        "procesamiento de voz",
+        "APIs"
+      ]
     },
     {
       "id": "0f494a6636",
       "tema": "emprendimiento",
-      "titular_es": "Enterprises put non-Nvidia chips 14 points ahead of Nvidia's next-gen GPUs on their evaluation lists",
-      "resumen": "When enterprise buyers build out their next AI accelerator evaluation list this cycle, they're more likely to put a non-Nvidia chip on it than Nvidia's own next-generation GPU. According to VentureBeat's July VB Pulse survey of 170 AI infrastructure respondents , 39.4% said they're likely to evaluat",
-      "relevancia": 5,
+      "titular_es": "Las empresas priorizan evaluar procesadores alternativos a Nvidia por un margen de 14 puntos",
+      "resumen": "Un sondeo a líderes de infraestructura revela que casi el 40% planea probar chips de IA no pertenecientes a Nvidia en sus próximas compras antes que sus GPUs de nueva generación.\nLa escasez, los costos desorbitados y los plazos de entrega empujan a las organizaciones a buscar alternativas en startups de semiconductores y ASICs personalizados.\nLa tendencia abre una ventana crucial de adopción para competidores que buscan quebrar el monopolio de CUDA.",
+      "relevancia": 7,
       "url": "https://venturebeat.com/data/enterprises-put-non-nvidia-chips-14-points-ahead-of-nvidias-next-gen-gpus-on-their-evaluation-lists",
       "fuente": "venturebeat.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "semiconductores",
+        "hardware",
+        "centros de datos"
+      ]
     },
     {
-      "id": "25194f4ebc",
-      "tema": "ciencia",
-      "titular_es": "A coffee-table-size scorpion roamed Earth before forests existed",
-      "resumen": "A meter-long scorpion with massive pincers stalked ancient Britain 415 million years ago, long before forests and the better-known age of giant insects. Its surprising size and possible semi-aquatic lifestyle could reshape ideas about how early arthropods became giants.",
-      "relevancia": 5,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260831015200.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "9c3c7ffbbe",
-      "tema": "ia",
-      "titular_es": "Poisson Disk Sampling",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 4,
-      "url": "https://stripeacross.com/posts/poisson-disk-sampling/",
-      "fuente": "stripeacross.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "334c9e4951",
-      "tema": "finanzas",
-      "titular_es": "Dólar en Colombia para septiembre: ¿Se mantendrá como una de las monedas más fuertes?",
-      "resumen": "La Fed, el conflicto en Medio Oriente y el debate fiscal en Colombia marcarán el comportamiento del dólar durante septiembre. En los últimos días pasó de casi romper a la baja los COP$3.000 a rondar los COP$3.200.",
-      "relevancia": 4,
-      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/dolar-en-colombia-para-septiembre-se-mantendra-como-una-de-las-monedas-mas-fuertes/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "1a633ae57e",
+      "id": "b567a13a82",
       "tema": "emprendimiento",
-      "titular_es": "Stolen Claude session cookies can reach corporate Gmail through grants no IT admin can revoke",
-      "resumen": "Infostealers replayed stolen Claude session cookies into paid accounts without ever touching the login page two-factor authentication guards. The accounts Anthropic flagged were card-billed, self-serve accounts, which is the population no corporate identity provider governs, and no admin console can",
-      "relevancia": 4,
-      "url": "https://venturebeat.com/security/stolen-claude-session-cookies-can-reach-corporate-gmail-through-grants-no-it-admin-can-revoke",
-      "fuente": "venturebeat.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "3bd4bf18ff",
-      "tema": "ciencia",
-      "titular_es": "Interstellar solar sails hit a strange problem at 75% of light speed",
-      "resumen": "Solar sails pushed by powerful lasers could reach incredible speeds, but relativity may eventually make the light itself work against them. At around 75% of the speed of light, scattered photons can begin creating drag, adding a surprising obstacle to interstellar travel.",
-      "relevancia": 4,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260831015157.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "34995e0c73",
-      "tema": "ia",
-      "titular_es": "Biggest dark matter detector spots a single weird particle",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 3,
-      "url": "https://www.science.org/content/article/world-s-biggest-dark-matter-detector-spots-single-weird-particle",
-      "fuente": "science.org (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "b38b065f18",
-      "tema": "finanzas",
-      "titular_es": "Así cerró el riesgo país en América Latina en agosto: Argentina y Uruguay en los extremos",
-      "resumen": "Excluyendo a Venezuela, que tiene sus bonos defaulteados desde 2017, los países con mejores y peores bonos se encuentran en las orillas del Río De La Plata.",
-      "relevancia": 3,
-      "url": "https://www.bloomberglinea.com/mercados/asi-cerro-el-riesgo-pais-en-america-latina-en-agosto-argentina-y-uruguay-en-los-extremos/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "052d40858e",
-      "tema": "emprendimiento",
-      "titular_es": "Forward-deployed engineering is how enterprise AI learns",
-      "resumen": "Presented by Zeta Every forward-deployed engineering (FDE) pitch sounds identical for the first ten minutes: an engineer embedded on-site, a workflow encoded within weeks, a demo that finally works on the customer's real data. What differs is what happens in the following months, and most vendors wi",
-      "relevancia": 3,
-      "url": "https://venturebeat.com/orchestration/forward-deployed-engineering-is-how-enterprise-ai-learns",
-      "fuente": "venturebeat.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "65befcc51a",
-      "tema": "ciencia",
-      "titular_es": "Money problems may age your brain faster",
-      "resumen": "Persistent financial hardship in early and middle adulthood was linked to poorer thinking skills by the 50s and more signs of brain aging later in life. Researchers say years of chronic stress and financial worry may gradually take a toll on the brain.",
-      "relevancia": 3,
-      "url": "https://www.sciencedaily.com/releases/2026/08/260831015154.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "911b19ea6f",
-      "tema": "ia",
-      "titular_es": "A note on subscription prices from LWN",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 2,
-      "url": "https://lwn.net/Articles/1090585/",
-      "fuente": "lwn.net (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "62d51caf6a",
-      "tema": "ia",
-      "titular_es": "Aging Brains Blend Memories Together Instead of Just Forgetting Them",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 1,
-      "url": "https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds/",
-      "fuente": "studyfinds.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
+      "titular_es": "Pangram advierte que detectar contenido sintético es más complejo que clasificar 'real o falso'",
+      "resumen": "La startup especializada en detección de IA alertó sobre la infiltración masiva de texto e imágenes generadas en solicitudes de empleo y reclamos de seguros.\nSu CEO sostiene que los clasificadores binarios actuales son ineficaces frente a modelos híbridos y técnicas avanzadas de camuflaje sintético.\nEl sector demanda nuevas metodologías probabilísticas para preservar la autenticidad y confianza en plataformas digitales.",
+      "relevancia": 6,
+      "url": "https://techcrunch.com/video/pangrams-max-spero-on-why-ai-detection-is-harder-than-real-or-fake/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "detección de IA",
+        "deepfakes",
+        "autenticidad"
+      ]
     }
   ]
 }
