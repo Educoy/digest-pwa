@@ -1,507 +1,390 @@
 {
-  "fecha": "2026-09-03",
-  "generado_utc": "2026-09-03T22:03:18Z",
+  "fecha": "2026-09-04",
+  "generado_utc": "2026-09-04T15:52:19Z",
   "indicadores": {
     "dolar": {
-      "valor": 936.32,
-      "variacion": -0.54,
-      "variacion_pct": -0.06
+      "valor": 933.47,
+      "variacion": -2.85,
+      "variacion_pct": -0.3
     },
     "uf": {
-      "valor": 40877.73,
-      "variacion": 1.32,
+      "valor": 40879.04,
+      "variacion": 1.31,
       "variacion_pct": 0.0
     }
   },
-  "noticia_del_dia": "b41aba728b",
-  "pildora_ia": "RLHF: aprendizaje por refuerzo con retroalimentación humana. Alinea a los LLM con lo que la gente considera útil y seguro usando preferencias humanas. Clave en ChatGPT, Gemini y Claude.",
+  "noticia_del_dia": "7ea2c6d14d",
+  "pildora_ia": "Función de pérdida (loss): el número que mide qué tan equivocado está el modelo. Todo el entrenamiento consiste en minimizarlo; elegir bien la loss define qué aprende realmente el modelo.",
   "pildoras_ia": [
-    "RLHF: aprendizaje por refuerzo con retroalimentación humana. Alinea a los LLM con lo que la gente considera útil y seguro usando preferencias humanas. Clave en ChatGPT, Gemini y Claude.",
     "Función de pérdida (loss): el número que mide qué tan equivocado está el modelo. Todo el entrenamiento consiste en minimizarlo; elegir bien la loss define qué aprende realmente el modelo.",
     "Épocas y batches: una 'época' es una pasada completa por todos los datos; un 'batch' es el grupo de ejemplos que se procesan juntos antes de actualizar el modelo. Ajustar ambos afecta velocidad y calidad.",
     "Destilación: entrenar un modelo pequeño para imitar a uno grande. El resultado es más rápido y barato de correr conservando buena parte de la calidad. Así nacen muchos modelos 'flash' o 'mini'.",
-    "Ventana de contexto: la cantidad máxima de tokens que un LLM puede 'ver' a la vez (prompt + respuesta). Si te pasas, olvida el inicio. Los modelos modernos van de miles a millones de tokens."
+    "Ventana de contexto: la cantidad máxima de tokens que un LLM puede 'ver' a la vez (prompt + respuesta). Si te pasas, olvida el inicio. Los modelos modernos van de miles a millones de tokens.",
+    "Cross-validation: técnica para evaluar un modelo dividiendo los datos en varias partes y rotando cuál se usa para probar. Da una estimación más honesta del rendimiento que una sola división."
   ],
   "noticias": [
     {
-      "id": "b41aba728b",
+      "id": "7ea2c6d14d",
       "tema": "ia",
-      "titular_es": "Nvidia acuerda la compra de Hugging Face por casi 13.000 millones de dólares",
-      "resumen": "Nvidia cerró la adquisición del repositorio y plataforma líder de modelos abiertos por 12.930 millones de dólares. La operación integra el centro neurálgico del software y datasets open source dentro del mayor fabricante de hardware de IA del mundo. Supone una consolidación histórica que redefine el control sobre la infraestructura y el desarrollo del ecosistema de inteligencia artificial.",
+      "titular_es": "IBM Bob",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 10,
-      "url": "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Nvidia",
-        "Hugging Face",
-        "adquisiciones"
-      ]
-    },
-    {
-      "id": "a94dc4fdbb",
-      "tema": "ia",
-      "titular_es": "OpenAI presenta GPT-6 Astra y afirma haber entrado en la era de la AGI",
-      "resumen": "OpenAI anunció GPT-6 Astra, catalogándolo como un salto generacional en ciberseguridad, programación, ciencia y uso autónomo de ordenadores. Se trata del primer modelo de la compañía catalogado bajo sus propios criterios internos de AGI. El anuncio sacude la carrera de los modelos de frontera con avances drásticos en razonamiento complejo y benchmarks de ingeniería.",
-      "relevancia": 10,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "OpenAI",
-        "GPT-6",
-        "modelos de lenguaje"
-      ]
-    },
-    {
-      "id": "28be3fafd1",
-      "tema": "emprendimiento",
-      "titular_es": "Thinking Machines negocia una ronda de 1.000 millones de dólares con Accel a 40.000M de valoración",
-      "resumen": "La startup de modelos fundacionales negocia una multimillonaria inyección de capital que cuadruplicaría su valor de mercado previo. La compañía ya supera los 100 millones de dólares en ingresos anuales recurrentes (ARR) gracias a la adopción corporativa. La transacción posicionaría la firma entre los unicornios más valorados del ecosistema tecnológico global.",
-      "relevancia": 9,
-      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Thinking Machines",
-        "venture capital",
-        "rondas de inversión"
-      ]
-    },
-    {
-      "id": "71b717fc0c",
-      "tema": "ia",
-      "titular_es": "ChatGPT, Claude y Grok sufren caídas simultáneas a nivel global",
-      "resumen": "Los tres principales servicios de IA generativa experimentaron interrupciones masivas al mismo tiempo durante la mañana del jueves. OpenAI, Anthropic y xAI reportaron tasas elevadas de error antes de restablecer sus sistemas gradualmente. El incidente evidenció dependencias críticas compartidas en proveedores de nube o redes de distribución de contenido en la infraestructura de IA.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
-      "fuente": "theverge.com",
+      "url": "https://bob.ibm.com/",
+      "fuente": "bob.ibm.com (vía HN)",
       "bandera": "🌍",
-      "tags": [
-        "infraestructura",
-        "caída de servicio",
-        "chatbots"
-      ]
+      "tags": []
     },
     {
-      "id": "bb7ed2dfba",
+      "id": "ad9aa85266",
+      "tema": "finanzas",
+      "titular_es": "U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1%",
+      "resumen": "Nonfarm payrolls were expected to increase by 53,000 in August while the unemployment rate held at 4.1%, according to the Dow Jones consensus.",
+      "relevancia": 10,
+      "url": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html",
+      "fuente": "cnbc.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "0d15f80578",
+      "tema": "emprendimiento",
+      "titular_es": "Krafton doubles down on India with another $250M bet beyond gaming",
+      "resumen": "Krafton's planned investment in India is set to surpass $500 million with its latest commitment.",
+      "relevancia": 10,
+      "url": "https://techcrunch.com/2026/09/04/krafton-doubles-down-on-india-with-another-250m-bet-beyond-gaming/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "53901d2f49",
+      "tema": "ciencia",
+      "titular_es": "The Download: selling battlefield drone data and AI reshaping language",
+      "resumen": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Data from drones in Ukraine is fueling a new Wild West marketplace —Cory Alpert, a researcher at the University of Melbourne studying AI’s impact on democracy, wh",
+      "relevancia": 10,
+      "url": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "e205203761",
       "tema": "ia",
-      "titular_es": "Nvidia lanza PAIR, herramienta gratuita para conectar PCs en un clúster personal de IA",
-      "resumen": "Nvidia presentó Personal AI Router (PAIR), un software de código abierto que enlaza equipos inactivos del hogar para inferencia local. La herramienta se integra directamente con entornos como Ollama y LM Studio para distribuir cargas de trabajo complejas. Permite a desarrolladores y estudiantes maximizar hardware distribuido sin incurrir en costos de cómputo en la nube.",
+      "titular_es": "Nearly impossible? How Fairphone built the ethical, repairable Fairphone Gen 6+",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 9,
+      "url": "https://arstechnica.com/gadgets/2026/09/nearly-impossible-how-fairphone-built-the-ethical-repairable-fairphone-gen-6/",
+      "fuente": "arstechnica.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "0fef6456bf",
+      "tema": "finanzas",
+      "titular_es": "The big business of personal protection: How private security became a $50 billion industry",
+      "resumen": "Private security spending and guard employment have climbed as companies and communities respond to high-profile attacks, even as violent crime falls.",
+      "relevancia": 9,
+      "url": "https://www.cnbc.com/2026/09/04/private-security-spending-crime-allied-universal.html",
+      "fuente": "cnbc.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "c21a7a0108",
+      "tema": "emprendimiento",
+      "titular_es": "Less than 24 hours to apply for your TechCrunch Disrupt 2026 Side Event",
+      "resumen": "Less than 24 hours left to apply to host a Side Event during TechCrunch Disrupt 2026 and make your mark in the Silicon Valley scene. Apply before the application closes tonight at midnight PT.",
+      "relevancia": 9,
+      "url": "https://techcrunch.com/2026/09/04/less-than-24-hours-to-apply-for-your-techcrunch-disrupt-2026-side-event/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "16db96c970",
+      "tema": "ciencia",
+      "titular_es": "Data from drones in Ukraine is fueling a new Wild West marketplace",
+      "resumen": "Battlefields in Ukraine are littered with the remnants of drones, which are now firmly established as a critical weapon of modern warfare. But behind all that wreckage, there’s a new gold mine for the defense sector. The data drones generate will far outlast the wars in which they are used to fight,",
+      "relevancia": 9,
+      "url": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "afa4fa3d4f",
+      "tema": "ia",
+      "titular_es": "Google AI Mode shows same products 21.6% more expensive than traditional search",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 8,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Nvidia",
-        "cómputo local",
-        "código abierto"
-      ]
+      "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products",
+      "fuente": "productrise.app (vía HN)",
+      "bandera": "🌍",
+      "tags": []
     },
     {
       "id": "5221d21daa",
       "tema": "finanzas",
-      "titular_es": "El informe laboral de agosto en EE.UU. prevé solo 53.000 nuevos empleos",
-      "resumen": "El Departamento de Trabajo de EE.UU. publicará un informe clave que anticipa un enfriamiento notable en la creación de puestos no agrícolas. La debilidad del empleo refuerza la atención de los mercados sobre una posible desaceleración de la mayor economía del planeta. El dato será determinante para calibrar los próximos recortes de tipos de interés de la Reserva Federal.",
+      "titular_es": "The big August jobs report is due out Friday. Here's what to expect for what has been a jobless summer",
+      "resumen": "August nonfarm payrolls are expected to rise by 53,000 as a subdued labor market keeps Fed attention focused on inflation.",
       "relevancia": 8,
       "url": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html",
       "fuente": "cnbc.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "empleo",
-        "macroeconomía",
-        "Fed"
-      ]
-    },
-    {
-      "id": "6b0aa41d97",
-      "tema": "finanzas",
-      "titular_es": "El gobernador de la Fed Christopher Waller aboga por mantener las tasas en septiembre",
-      "resumen": "Christopher Waller declaró su respaldo a dejar intactos los tipos de interés en la próxima reunión de política monetaria. Argumentó que los datos de inflación siguen una trayectoria descendente controlada sin requerir mayores tensiones financieras. Sus palabras moderaron las expectativas de ajustes agresivos e impulsaron los índices bursátiles neoyorquinos.",
-      "relevancia": 8,
-      "url": "https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html",
-      "fuente": "cnbc.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "tasas de interés",
-        "política monetaria",
-        "Reserva Federal"
-      ]
-    },
-    {
-      "id": "4d2022c4b7",
-      "tema": "finanzas",
-      "titular_es": "Las exportaciones de semiconductores de Corea del Sur se triplican en un año",
-      "resumen": "Los envíos internacionales de chips surcoreanos registraron un incremento interanual del 200% impulsados por la demanda para servidores de IA. Pese al récord exportador, analistas advierten que la economía de Seúl se ha vuelto excesivamente dependiente de la memoria de alta capacidad. Cualquier desaceleración del gasto tecnológico global podría golpear fuertemente el PIB del país.",
-      "relevancia": 8,
-      "url": "https://www.cnbc.com/2026/09/03/south-korea-semiconductor-exports-surging-concerns.html",
-      "fuente": "cnbc.com",
-      "bandera": "🇰🇷",
-      "tags": [
-        "semiconductores",
-        "exportaciones",
-        "comercio global"
-      ]
-    },
-    {
-      "id": "6915de15d8",
-      "tema": "finanzas",
-      "titular_es": "El S&P 500 sube con fuerza y el dólar retrocede tras declaraciones de la Reserva Federal",
-      "resumen": "El índice de referencia de Wall Street anotó su mejor jornada en cuatro semanas mientras el dólar caía a mínimos del mes de mayo. La moderación en las expectativas sobre las tasas de interés impulsó a la renta variable y a las criptomonedas, con Bitcoin superando los 80.000 dólares. Los operadores reajustan posiciones ante un escenario de condiciones crediticias más estables.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/mercados/wall-street-avanza-con-el-alivio-en-los-bonos-y-nuevas-senales-de-cautela-desde-la-fed/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Wall Street",
-        "S&P 500",
-        "divisas"
-      ]
-    },
-    {
-      "id": "ef03c3a5f1",
-      "tema": "emprendimiento",
-      "titular_es": "Palo Alto Networks adquiere la startup Console por 500 millones de dólares",
-      "resumen": "El gigante de la ciberseguridad compró Console, una compañía emergente respaldada por Thrive Capital especializada en automatización de servicios TI con IA. La transacción consolida la absorción de startups de soporte operativo dentro de las plataformas corporativas establecidas. Con esta venta, la firma Serval queda como la principal startup independiente en dicho segmento de mercado.",
-      "relevancia": 8,
-      "url": "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "ciberseguridad",
-        "adquisiciones",
-        "automatización"
-      ]
-    },
-    {
-      "id": "e8609a4ddd",
-      "tema": "emprendimiento",
-      "titular_es": "Qualcomm lidera ronda de 70 millones en Ultrahuman para crear anillos inteligentes con cómputo avanzado",
-      "resumen": "La startup de wearables de salud Ultrahuman cerró una serie de financiamiento estratégico encabezada por Qualcomm. La empresa utilizará los fondos y los chips del fabricante para transformar los anillos inteligentes en nodos de procesamiento personal continuo. Su meta es alcanzar una tasa de ingresos de 200 millones de dólares antes de inicios de 2027.",
-      "relevancia": 8,
-      "url": "https://techcrunch.com/2026/09/03/qualcomm-backs-ultrahuman-in-70m-round-on-bet-to-turn-smart-rings-into-computers/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇮🇳",
-      "tags": [
-        "Qualcomm",
-        "wearables",
-        "hardware"
-      ]
-    },
-    {
-      "id": "8130c45cd6",
-      "tema": "emprendimiento",
-      "titular_es": "Empresas eléctricas se alían con startups de fusión como Realta para alimentar centros de datos de IA",
-      "resumen": "Operadores de redes eléctricas en Estados Unidos comenzaron a firmar acuerdos con startups de fusión nuclear para asegurar capacidad futura. La demanda desbocada de energía que exigen los clústeres de servidores ha desbordado los plazos tradicionales de las renovables. Realta Fusion es la última firma en captar contratos preliminares para alimentar infraestructuras computacionales.",
-      "relevancia": 8,
-      "url": "https://techcrunch.com/2026/09/03/utilities-are-racing-to-link-up-with-fusion-startups-with-realta-fusion-the-latest-to-benefit/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "fusión nuclear",
-        "centros de datos",
-        "energía"
-      ]
-    },
-    {
-      "id": "492b704289",
-      "tema": "ciencia",
-      "titular_es": "Científicos de la NASA descubren un gigantesco patrón de 10 lados en el polo sur de Saturno",
-      "resumen": "Datos del telescopio espacial Hubble revelaron una enorme estructura decagonal en la atmósfera polar meridional de Saturno. El fenómeno actúa como una contraparte inesperada del célebre hexágono ubicado en el polo norte del planeta. Las observaciones sugieren que el patrón emergió hace pocos años y continúa ganando intensidad mecánica.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260903064229.htm",
-      "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": [
-        "Saturno",
-        "NASA",
-        "astronomía"
-      ]
-    },
-    {
-      "id": "36284c4d09",
-      "tema": "ciencia",
-      "titular_es": "Microbios en estromatolitos ofrecen imágenes inéditas sobre el origen de la vida compleja",
-      "resumen": "Biólogos captaron las primeras fotografías directas de una arquea del filo Asgard unida físicamente a una bacteria dentro de estromatolitos antiguos. La simbiosis e intercambio metabólico entre ambos microorganismos replica el mecanismo primordial que dio origen a las células eucariotas. El descubrimiento aporta evidencia visual clave para comprender la evolución celular hace miles de millones de años.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260902234514.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "biología",
-        "evolución",
-        "microbiología"
-      ]
-    },
-    {
-      "id": "a5e94090b9",
-      "tema": "ciencia",
-      "titular_es": "El bloqueo de un solo receptor inmunitario revierte el envejecimiento celular en ratones",
-      "resumen": "Científicos descubrieron que el deterioro por edad se acelera cuando las células del sistema inmune pierden la capacidad de limpiar tejidos dañados. Al bloquear un receptor específico en ratones de laboratorio, los animales restauraron su función depuradora, redujeron la inflamación crónica y preservaron su memoria. La terapia abre una prometedora vía para fármacos dirigidos a prolongar la longevidad saludable.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260901010717.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "longevidad",
-        "inmunología",
-        "biomedicina"
-      ]
-    },
-    {
-      "id": "f3291fadb4",
-      "tema": "ciencia",
-      "titular_es": "Descubren la estructura genética que permite a los murciélagos tolerar virus mortales",
-      "resumen": "Un estudio genético en más de 500 especies de murciélagos reveló que poseen dos conjuntos independientes de genes de anticuerpos, una configuración única en mamíferos. Este rasgo les permite neutralizar patógenos letales como el Ébola o coronavirus sin desencadenar una respuesta inflamatoria dañina. El hallazgo podría revolucionar el diseño de terapias antivirales para humanos.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260901010713.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "virología",
-        "genética",
-        "zoología"
-      ]
-    },
-    {
-      "id": "6065db78df",
-      "tema": "ciencia",
-      "titular_es": "Físicos de Carnegie Mellon descubren una variante inédita del efecto Hall",
-      "resumen": "Investigadores hallaron una manifestación del efecto Hall que desafía una premisa vigente desde hace un siglo sobre la orientación de los campos magnéticos. El fenómeno comprobó que esta respuesta eléctrica puede ocurrir sin que el campo sea estrictamente perpendicular al plano del material. El descubrimiento promete optimizar sensores de precisión y componentes espintrónicos avanzados.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260901010659.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "física",
-        "efecto Hall",
-        "materiales"
-      ]
-    },
-    {
-      "id": "17c410a1ed",
-      "tema": "ciencia",
-      "titular_es": "El radiotelescopio FAST explica por qué se frena la formación estelar pese al hidrógeno disponible",
-      "resumen": "Pese a que el universo aún conserva inmensas reservas de hidrógeno neutro, la tasa de nacimiento de estrellas ha caído drásticamente en los últimos 4.500 millones de años. Utilizando el telescopio gigante chino FAST con datos de 2,5 millones de galaxias, astrónomos detectaron barreras termodinámicas que impiden al gas enfriarse y colapsar. La investigación resuelve una de las paradojas astrofísicas más longevas.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260902234442.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇨🇳",
-      "tags": [
-        "astrofísica",
-        "FAST",
-        "estrellas"
-      ]
-    },
-    {
-      "id": "d055f5ec31",
-      "tema": "ia",
-      "titular_es": "Qwen 3.8 27B debuta en Cerebras alcanzando 1.500 tokens por segundo",
-      "resumen": "El nuevo modelo de la familia Qwen de Alibaba fue implementado sobre la arquitectura de chips de oblea de Cerebras. La combinación logra velocidades extremas de inferencia en tiempo real sin sacrificar capacidad analítica. Este hito refuerza la viabilidad de arquitecturas especializadas frente a las GPUs tradicionales para agentes de respuesta inmediata.",
-      "relevancia": 7,
-      "url": "https://inference-docs.cerebras.ai/models/overview",
-      "fuente": "inference-docs.cerebras.ai (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Cerebras",
-        "chips",
-        "inferencia"
-      ]
-    },
-    {
-      "id": "a4bef4d928",
-      "tema": "ia",
-      "titular_es": "Google añade interacción por voz en tiempo real en Gmail, Docs y Keep",
-      "resumen": "Google comenzó el despliegue de Gmail Live, Docs Live y Keep Live, funciones que permiten interactuar mediante voz natural con sus aplicaciones ofimáticas. Basadas en la tecnología conversacional de Gemini Live, permiten dictar, consultar y organizar flujos de trabajo sin usar teclado. La actualización busca transformar la suite de productividad en un entorno gestionado completamente por voz.",
-      "relevancia": 7,
-      "url": "https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Google",
-        "asistentes de voz",
-        "productividad"
-      ]
-    },
-    {
-      "id": "a6e3ba4063",
-      "tema": "ia",
-      "titular_es": "Google presenta WeatherNext 3 con resolución sin precedentes para pronósticos",
-      "resumen": "Google actualizó su sistema meteorológico impulsado por IA, mejorando notablemente la predicción de precipitación de lluvia y nieve a corto y medio plazo. WeatherNext 3 supera en velocidad de cómputo a las simulaciones físicas habituales de agencias meteorológicas. El avance confirma el rápido desplazamiento de modelos numéricos convencionales por redes neuronales especializadas.",
-      "relevancia": 7,
-      "url": "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update",
-      "fuente": "theverge.com",
-      "bandera": "🌍",
-      "tags": [
-        "Google",
-        "meteorología",
-        "algoritmos"
-      ]
-    },
-    {
-      "id": "067a61542e",
-      "tema": "ia",
-      "titular_es": "Lanzan la versión preliminar de Polars 2.0 con mejoras de rendimiento",
-      "resumen": "El popular motor de DataFrames escrito en Rust publicó la pre-versión de su actualización 2.0 con grandes optimizaciones de memoria. Incorpora soporte extendido para operaciones en streaming y una integración más profunda con pipelines de machine learning. Es un avance clave para la ingeniería de datos de alto desempeño frente a librerías como Pandas.",
-      "relevancia": 7,
-      "url": "https://pola.rs/posts/announcing-polars-2/",
-      "fuente": "pola.rs (vía HN)",
-      "bandera": "🌍",
-      "tags": [
-        "Polars",
-        "Rust",
-        "ciencia de datos"
-      ]
-    },
-    {
-      "id": "efddbc3f13",
-      "tema": "finanzas",
-      "titular_es": "La ONU alerta sobre un fenómeno de El Niño extremo que amenazará los mercados hasta 2027",
-      "resumen": "Modelos climáticos de Naciones Unidas advierten sobre sequías e inundaciones prolongadas que impactarán cosechas y cadenas logísticas globales. El informe sitúa en zona de alto riesgo la producción agrícola y los precios de materias primas energéticas en el hemisferio sur. El evento climático podría reavivar presiones inflacionarias en alimentos durante los próximos dos años.",
-      "relevancia": 7,
-      "url": "https://www.cnbc.com/2026/09/03/supersized-el-nino-un-economy.html",
-      "fuente": "cnbc.com",
-      "bandera": "🌍",
-      "tags": [
-        "El Niño",
-        "materias primas",
-        "inflación"
-      ]
-    },
-    {
-      "id": "e8d6ecd9b9",
-      "tema": "finanzas",
-      "titular_es": "Grandes bancos mantienen recomendación de compra para Broadcom tras caída en bolsa",
-      "resumen": "Las acciones de Broadcom sufrieron correcciones tras la entrega de sus últimos resultados trimestrales. Pese a la venta masiva inicial, firmas como UBS, Bank of America y Morgan Stanley reiteraron su confianza en la rentabilidad de sus chips personalizados de IA. Consideran que el retroceso actual representa una oportunidad de entrada atractiva para inversores institucionales.",
-      "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/mercados/momento-de-invertir-en-broadcom-esto-ven-ubs-bofa-y-morgan-stanley/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Broadcom",
-        "acciones",
-        "análisis financiero"
-      ]
-    },
-    {
-      "id": "c283cefe59",
-      "tema": "finanzas",
-      "titular_es": "Las tecnológicas y SpaceX disparan las emisiones de deuda corporativa en Wall Street",
-      "resumen": "Grandes compañías de semiconductores, gigantes de Silicon Valley y firmas como SpaceX están emitiendo volúmenes récord de bonos corporativos. Las empresas aprovechan la sólida liquidez del mercado institucional para financiar inversiones masivas en infraestructura y centros de cómputo. Hasta ahora, la alta demanda de los inversores ha permitido absorber la oferta sin disparar los diferenciales de crédito.",
-      "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/mercados/las-tres-razones-que-explican-el-auge-de-emisiones-corporativas-en-wall-street/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "bonos",
-        "deuda corporativa",
-        "financiamiento"
-      ]
+      "tags": []
     },
     {
       "id": "55ec973eca",
       "tema": "emprendimiento",
-      "titular_es": "El ARR de las startups es más frágil que nunca debido al auge de la IA",
-      "resumen": "Un nuevo informe sectorial revela que la tasa de retención de ingresos recurrentes anuales en el software B2B está cayendo aceleradamente. Las empresas clientes están sustituyendo licencias tradicionales de SaaS por herramientas autónomas basadas en modelos de lenguaje. Los fundadores se ven obligados a rediseñar sus modelos de monetización hacia cobros por uso o resultados.",
-      "relevancia": 7,
+      "titular_es": "Startup ARR is less secure than ever, new research shows",
+      "resumen": "The AI era has completely broken enterprise buying patterns, and startups haven't yet figured out how to navigate.",
+      "relevancia": 8,
       "url": "https://techcrunch.com/2026/09/03/startup-arr-is-less-secure-than-ever-new-research-shows/",
       "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "SaaS",
-        "software B2B",
-        "modelo de negocio"
-      ]
-    },
-    {
-      "id": "510ebb1439",
-      "tema": "ciencia",
-      "titular_es": "Crean un algoritmo inspirado en moscas de la fruta que previene el olvido en redes neuronales",
-      "resumen": "Ingenieros desarrollaron un sistema de codificación dispersa basado en el sistema olfativo de los insectos para eliminar el olvido catastrófico en IA. La técnica permite al algoritmo memorizar nuevos patrones sin sobrescribir información previamente adquirida durante el entrenamiento continuo. Representa una solución computacionalmente ligera para aprendizaje continuo en sistemas embebidos y robótica.",
-      "relevancia": 7,
-      "url": "https://arstechnica.com/science/2026/09/just-like-a-fruit-fly-a-new-algorithm-never-forgets-old-scents/",
-      "fuente": "arstechnica.com",
       "bandera": "🌍",
-      "tags": [
-        "bioingeniería",
-        "algoritmos",
-        "redes neuronales"
-      ]
+      "tags": []
     },
     {
-      "id": "46a4b950eb",
+      "id": "f369ca0439",
       "tema": "ciencia",
-      "titular_es": "Los Premios Ig Nobel 2026 celebran investigaciones científicas insólitas y provocadoras",
-      "resumen": "Se celebró la gala de los prestigiosos premios que distinguen descubrimientos científicos que primero hacen reír y luego hacen pensar. La ceremonia incluyó demostraciones y charlas condensadas de experimentos reales en disciplinas como fisiología, física y medicina. La iniciativa resalta el valor de la curiosidad no convencional y la divulgación científica accesible.",
-      "relevancia": 7,
-      "url": "https://arstechnica.com/science/2026/09/meet-the-2026-ig-nobel-prize-winners/",
-      "fuente": "arstechnica.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Ig Nobel",
-        "divulgación",
-        "ciencia"
-      ]
+      "titular_es": "A longer exhale may push your brain toward bolder decisions",
+      "resumen": "Slow breathing with a prolonged exhale made people more willing to take risks by changing heart activity and increasing the brain’s sensitivity to rewards. The findings suggest that something as simple as controlling your breath can directly influence how you evaluate choices.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260904000320.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "f082815bef",
+      "id": "c826810d06",
       "tema": "ia",
-      "titular_es": "El gran maestro de Go Shin derrota a la IA KataGo con dos piedras de hándicap",
-      "resumen": "El jugador profesional Shin superó a uno de los sistemas de IA más sólidos del mundo en una partida oficial con ventaja inicial. El resultado demuestra que los humanos aún encuentran puntos ciegos y vulnerabilidades adversarias en redes neuronales de juego estratégico. La partida ofrece nuevas pistas para investigadores sobre robustez y sesgos en modelos de toma de decisiones.",
-      "relevancia": 6,
-      "url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
-      "fuente": "kedglobal.com (vía HN)",
-      "bandera": "🇰🇷",
-      "tags": [
-        "Go",
-        "redes neuronales",
-        "juegos"
-      ]
+      "titular_es": "Discovery of a new OpenAI agent message board",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 7,
+      "url": "https://collusion.wiki/",
+      "fuente": "collusion.wiki (vía HN)",
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "13d8e0ad4e",
+      "id": "c521e53199",
       "tema": "finanzas",
-      "titular_es": "Ecopetrol descarta la venta de ISA y posterga proyectos en Venezuela",
-      "resumen": "El director financiero de Ecopetrol ratificó que la filial de transmisión eléctrica ISA continuará siendo un pilar estratégico para el flujo de caja del conglomerado. A su vez, la estatal colombiana enfrió planes inmediatos de inversión petrolera en territorio venezolano. La empresa concentrará sus recursos de exploración y producción en Colombia, Brasil y Estados Unidos.",
-      "relevancia": 6,
-      "url": "https://www.bloomberglinea.com/mercados/ecopetrol-no-planea-vender-isa-pronto-y-venezuela-no-sera-opcion-de-corto-plazo/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇨🇴",
-      "tags": [
-        "Ecopetrol",
-        "energía",
-        "América Latina"
-      ]
+      "titular_es": "Yen's changing fortunes might finally be spooking the bears",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/markets/currencies/articles/analysis-yens-changing-fortunes-might-073818401.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "3547b7d593",
-      "tema": "finanzas",
-      "titular_es": "Bank of America eleva su apuesta bursátil por Perú y recorta exposición a México",
-      "resumen": "El banco de inversión reconfiguró su asignación para América Latina, sobreponderando activos peruanos y manteniendo sesgo favorable hacia Colombia y Argentina. La entidad degradó la renta variable mexicana a infraponderar ante la incertidumbre económica y regulatoria local. El rebalanceo marca una rotación del capital internacional hacia mercados andinos con valoraciones más castigadas.",
-      "relevancia": 6,
-      "url": "https://www.bloomberglinea.com/mercados/bank-of-america-mueve-su-cartera-en-america-latina-las-acciones-y-paises-que-tiene-en-el-radar/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇵🇪",
-      "tags": [
-        "BofA",
-        "mercados emergentes",
-        "inversiones"
-      ]
-    },
-    {
-      "id": "4d0be1d61b",
+      "id": "28be3fafd1",
       "tema": "emprendimiento",
-      "titular_es": "Ollie lanza un asistente de IA familiar con promesa de privacidad absoluta",
-      "resumen": "La startup Ollie presentó su plataforma para coordinar la vida cotidiana y agendas familiares sin comercializar los datos recolectados. A diferencia de las grandes tecnológicas, el sistema garantiza que la información personal nunca se usará para entrenar modelos externos. Su propuesta busca captar a usuarios escépticos del manejo de privacidad de los gigantes del sector.",
-      "relevancia": 6,
-      "url": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/",
+      "titular_es": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
+      "resumen": "The high-profile startup's annual revenue run rate stands at over $100 million.",
+      "relevancia": 7,
+      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
       "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "privacidad",
-        "asistentes virtuales",
-        "startups"
-      ]
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "f5a301cf77",
+      "tema": "ciencia",
+      "titular_es": "Giant Greenland iceberg slams into Joe Island and survives",
+      "resumen": "A giant iceberg measuring more than 76 square kilometers broke from Greenland’s Petermann Glacier in August 2026, marking the Arctic’s largest glacier calving event since 2020. The berg later slammed into Joe Island but survived without breaking apart, and satellites are now tracking it as it drifts",
+      "relevancia": 7,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260904000316.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "964ce88d07",
+      "tema": "ia",
+      "titular_es": "Solving the Jane Street Reverse Engineering Challenge",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 6,
+      "url": "https://jestoph.com/2026/09/04/jane-street-challenge.html",
+      "fuente": "jestoph.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "177c8a0305",
+      "tema": "finanzas",
+      "titular_es": "SCHG Owns More Apple Than Tesla, Meta and Palantir Combined. Is That Why Growth Investors Are Falling Behind?",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 6,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/schg-owns-more-apple-tesla-153741157.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "8130c45cd6",
+      "tema": "emprendimiento",
+      "titular_es": "Utilities are racing to link up with fusion startups, with Realta Fusion the latest to benefit",
+      "resumen": "The grid has been straining under the weight of new AI data centers, and that has utilities courting fusion startups.",
+      "relevancia": 6,
+      "url": "https://techcrunch.com/2026/09/03/utilities-are-racing-to-link-up-with-fusion-startups-with-realta-fusion-the-latest-to-benefit/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "006ea70359",
+      "tema": "ciencia",
+      "titular_es": "Dark matter detector finds a strange signal scientists can’t yet explain",
+      "resumen": "The LUX-ZEPLIN experiment has detected a rare particle interaction that looks unusually difficult to explain as ordinary background noise and appeared where dark matter might be expected. Scientists are not claiming a discovery yet, but additional data could show whether this single mysterious event",
+      "relevancia": 6,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260904000313.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "3fc51db17b",
+      "tema": "ia",
+      "titular_es": "Hackers Had a Live Feed of Every ID Verification Company Scanned for over a Year",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 5,
+      "url": "http://www.techdirt.com/2026/09/03/hackers-had-a-live-feed-of-every-id-this-verification-company-scanned-for-over-a-year/",
+      "fuente": "techdirt.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "607ef9f2ec",
+      "tema": "finanzas",
+      "titular_es": "Algonquin (AQN) is Selling its Chilean Water Stake for $126.5M. Will Simplification Improve Returns?",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 5,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/algonquin-aqn-selling-chilean-water-153228987.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "e8609a4ddd",
+      "tema": "emprendimiento",
+      "titular_es": "Qualcomm backs Ultrahuman in $70M round on bet to turn smart rings into computers",
+      "resumen": "Ultrahuman is targeting a $200 million annual revenue run rate by January 2027 as it builds a new Qualcomm-powered smart ring.",
+      "relevancia": 5,
+      "url": "https://techcrunch.com/2026/09/03/qualcomm-backs-ultrahuman-in-70m-round-on-bet-to-turn-smart-rings-into-computers/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "33762afc1a",
+      "tema": "ciencia",
+      "titular_es": "Scientists reveal the hidden instructions that build the human brain",
+      "resumen": "UCLA researchers have discovered two powerful influences that help guide how the human brain forms before birth. Radial glia, stem cells responsible for producing much of the cerebral cortex, change their behavior depending on how they process glucose and on physical contact with signals arriving fr",
+      "relevancia": 5,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260904000308.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "e9dc7c0977",
+      "tema": "ia",
+      "titular_es": "Project Xanadu: Even More Hindsight (2025)",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 4,
+      "url": "https://gwern.net/xanadu",
+      "fuente": "gwern.net (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "cfcd5ba9ab",
+      "tema": "finanzas",
+      "titular_es": "Larry Fink now calls Bitcoin ‘digital gold’ after once calling it ‘an index of money laundering’",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 4,
+      "url": "https://finance.yahoo.com/markets/crypto/articles/larry-fink-now-calls-bitcoin-153000668.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "5b89baaef5",
+      "tema": "ciencia",
+      "titular_es": "Scientists discover a bizarre “devil flower” hidden in Thailand",
+      "resumen": "Scientists have discovered a strange black “devil flower” in Thailand that lives mostly underground, steals nutrients from fungi, and looks strikingly unlike a typical plant. The newly named Thismia daemona is known from fewer than 50 individuals and may already be critically endangered.",
+      "relevancia": 4,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260903064217.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "d88bb5bab6",
+      "tema": "ia",
+      "titular_es": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 3,
+      "url": "https://armature.tech/blog/which-tools-coding-agents-install",
+      "fuente": "armature.tech (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "c8f5696e92",
+      "tema": "finanzas",
+      "titular_es": "Ballard Power (BLDP) Bought GeoPura at an Enterprise Value of About $400M. Can Recurring Revenue Justify the 14% Pro Forma Stake?",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 3,
+      "url": "https://finance.yahoo.com/energy/articles/ballard-power-bldp-bought-geopura-152646347.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "a436ded141",
+      "tema": "ciencia",
+      "titular_es": "Stanford scientists discover a seafood that can reverse signs of aging",
+      "resumen": "A substance found in edible sea squirts appeared to reverse several signs of aging in older mice. Plasmalogen supplements improved memory and learning, strengthened connections between brain cells, reduced inflammation, and even helped the mice grow thicker, darker hair. Researchers believe the comp",
+      "relevancia": 3,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260902234518.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "1b6b443c0a",
+      "tema": "ia",
+      "titular_es": "GPT-6 Astra",
+      "resumen": "System Card: https://deploymentsafety.openai.com/gpt-6-astra Related ongoing threads: OpenAI's GPT-6 Astra on ARC-AGI-3 - https://news.ycombinator.com/item?id=49555691 GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index - https://news.ycombinator.com/item?id=49556147",
+      "relevancia": 2,
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "fuente": "openai.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "e60e3aa4e8",
+      "tema": "finanzas",
+      "titular_es": "Jensen Huang's Nvidia Guided for 70% Revenue Growth in Fiscal 2028, Far Above the 44% Wall Street Expected, as Amazon Agreed to Buy 2 Million Nvidia GPUs. Is the Growth Forecast Believable?",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 2,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jensen-huangs-nvidia-guided-70-153700228.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "d055f5ec31",
+      "tema": "ia",
+      "titular_es": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 1,
+      "url": "https://inference-docs.cerebras.ai/models/overview",
+      "fuente": "inference-docs.cerebras.ai (vía HN)",
+      "bandera": "🌍",
+      "tags": []
     }
   ]
 }
