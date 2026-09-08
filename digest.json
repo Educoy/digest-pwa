@@ -1,6 +1,6 @@
 {
   "fecha": "2026-09-08",
-  "generado_utc": "2026-09-08T16:07:47Z",
+  "generado_utc": "2026-09-08T22:13:03Z",
   "indicadores": {
     "dolar": {
       "valor": 933.82,
@@ -13,7 +13,7 @@
       "variacion_pct": 0.0
     }
   },
-  "noticia_del_dia": "dea72d6696",
+  "noticia_del_dia": "adeeaa4614",
   "pildora_ia": "Cross-validation: técnica para evaluar un modelo dividiendo los datos en varias partes y rotando cuál se usa para probar. Da una estimación más honesta del rendimiento que una sola división.",
   "pildoras_ia": [
     "Cross-validation: técnica para evaluar un modelo dividiendo los datos en varias partes y rotando cuál se usa para probar. Da una estimación más honesta del rendimiento que una sola división.",
@@ -24,356 +24,439 @@
   ],
   "noticias": [
     {
-      "id": "dea72d6696",
+      "id": "adeeaa4614",
       "tema": "ia",
-      "titular_es": "LibreOffice breaks download records after declaring it has no AI features",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "Polémica por el supuesto hito matemático de OpenAI sobre las ecuaciones de Navier-Stokes",
+      "resumen": "OpenAI anunció haber hallado una solución a las ecuaciones de Navier-Stokes, uno de los Problemas del Milenio sin resolver durante décadas.\nLa comunidad matemática y científica debate intensamente la validez del método y si realmente constituye una demostración rigurosa.\nDe confirmarse, marcaría un punto de inflexión histórico en el uso de modelos de frontera para la resolución de ciencia fundamental.",
       "relevancia": 10,
-      "url": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
-      "fuente": "manualdousuario.net (vía HN)",
-      "bandera": "🌍",
-      "tags": []
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "OpenAI",
+        "matemáticas",
+        "Navier-Stokes"
+      ]
     },
     {
-      "id": "0bac17f0e1",
+      "id": "ba0725adef",
+      "tema": "emprendimiento",
+      "titular_es": "Cognition alcanza una valoración de US$48.000 millones impulsada por el auge de agentes de programación",
+      "resumen": "La startup creadora de Devin cerró una ronda que dispara su valuación a US$48.000 millones, superando múltiplos históricos del sector.\nLa operación refleja la convicción del capital de riesgo de que el mercado de desarrollo asistido por IA será amplio y competitivo.\nEl acuerdo consolida la carrera por reemplazar tareas rutinarias de desarrollo de software con agentes autónomos end-to-end.",
+      "relevancia": 9,
+      "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Cognition",
+        "inversión",
+        "capital de riesgo"
+      ]
+    },
+    {
+      "id": "9748e2c05b",
       "tema": "finanzas",
-      "titular_es": "Canada's retaliatory tariffs worth $27.6 billion take effect as trade rift with U.S. deepens",
-      "resumen": "Duties on U.S. steel and aluminum products have doubled to 50% as a war of words between Washington and Ottawa continues.",
-      "relevancia": 10,
-      "url": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html",
-      "fuente": "cnbc.com",
+      "titular_es": "El cobre alcanza el récord histórico de US$14.500 por tonelada y analistas proyectan nuevos máximos",
+      "resumen": "El metal rojo tocó un máximo sin precedentes de US$14.500 por tonelada (US$6,58 por libra) en la Bolsa de Metales de Londres.\nLa combinación de baja oferta minera y el fuerte tirón de la electrificación e infraestructura de IA tensionan el balance global del mercado.\nAnalistas anticipan que presiones adicionales de suministro podrían empujar las cotizaciones hacia los US$15.000 a corto plazo.",
+      "relevancia": 9,
+      "url": "https://www.bloomberglinea.com/mercados/estos-son-los-cuatro-factores-que-podrian-llevar-al-cobre-a-us15000/",
+      "fuente": "bloomberglinea.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "cobre",
+        "materias primas",
+        "minería"
+      ]
+    },
+    {
+      "id": "96b2ae8646",
+      "tema": "ciencia",
+      "titular_es": "Google DeepMind lanza AlphaGenome Atlas para acelerar la comprensión del genoma humano",
+      "resumen": "Científicos de DeepMind presentaron una plataforma basada en IA capaz de mapear variantes genómicas y predecir su impacto biológico funcional.\nLa herramienta busca resolver enigmas sobre regiones no codificantes del ADN que están detrás de múltiples patologías complejas.\nInvestigadores esperan que el atlas acelere significativamente el descubrimiento y diseño de tratamientos médicos dirigidos.",
+      "relevancia": 9,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991180/google-launches-alpha-genome-atlas",
+      "fuente": "theverge.com",
+      "bandera": "🌍",
+      "tags": [
+        "genómica",
+        "DeepMind",
+        "biotecnología"
+      ]
+    },
+    {
+      "id": "2aee25d0aa",
+      "tema": "ciencia",
+      "titular_es": "Físicos observan por primera vez los efectos de la gravedad de Einstein en el mundo cuántico",
+      "resumen": "Un equipo de investigación logró dividir la función de onda cuántica de un átomo ultrafrío sometiendo una mitad a caída libre gravitacional.\nAl recombinar las trayectorias atómicas, detectaron la modulación de fase predicha por la teoría de la relatividad general.\nEl experimento representa un hito técnico mayor para explorar la elusiva interfaz entre la mecánica cuántica y la gravitación.",
+      "relevancia": 9,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260907201552.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "física cuántica",
+        "relatividad",
+        "física experimental"
+      ]
+    },
+    {
+      "id": "41a7f20636",
+      "tema": "ia",
+      "titular_es": "OpenAI presenta ChatGPT Images 2.5 con la nueva función Sketch",
+      "resumen": "OpenAI lanzó ChatGPT Images 2.5 integrando 'Sketch', una herramienta que permite transformar bocetos a mano alzada en imágenes de alta fidelidad.\nLa función simplifica la iteración visual directa desde la interfaz del chatbot sin depender exclusivamente de descripciones textuales complejas.\nRepresenta una mejora notable en control compositivo para diseñadores e ingenieros que prototipan interfaces o conceptos visuales.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "OpenAI",
+        "diseño",
+        "generación de imágenes"
+      ]
+    },
+    {
+      "id": "f903c70066",
+      "tema": "ia",
+      "titular_es": "Meta apuesta por su nuevo agente de IA Muse para recortar distancias en la carrera tecnológica",
+      "resumen": "Meta presentó a Muse, un asistente de inteligencia artificial personal diseñado para interactuar de forma ubicua con los usuarios.\nEl despliegue forma parte de una reestructuración multimillonaria para recuperar terreno frente a competidores directos como OpenAI y Google.\nLa compañía busca integrar este agente en todo su ecosistema social y de hardware para acelerar la adopción masiva.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Meta",
+        "asistentes",
+        "agentes IA"
+      ]
     },
     {
       "id": "cfa74d9f25",
       "tema": "emprendimiento",
-      "titular_es": "Nuclear startup Bluecore Energy raises $50M seed round, just two months after launch",
-      "resumen": "Bluecore Energy announced Tuesday an oversubscribed $50 million seed round — just months after raising a $10 million pre-seed and coming out of stealth.",
-      "relevancia": 10,
+      "titular_es": "La startup nuclear Bluecore Energy recauda US$50 millones en ronda semilla apenas dos meses tras su debut",
+      "resumen": "Bluecore Energy completó una ronda semilla sobresuscrita de US$50 millones tras haber captado previamente US$10 millones en fase pre-seed.\nLa empresa desarrolla microrreactores modulares diseñados específicamente para abastecer la voraz demanda eléctrica de nuevos centros de datos de IA.\nEl rápido respaldo inversor subraya la urgencia de fuentes energéticas limpias y continuas que no dependan de la red eléctrica convencional.",
+      "relevancia": 8,
       "url": "https://techcrunch.com/2026/09/08/nuclear-startup-bluecore-energy-raises-50m-seed-round-just-two-months-after-launch/",
       "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "be434c4eb2",
-      "tema": "ciencia",
-      "titular_es": "The Download: our 35 Innovators Under 35 this year",
-      "resumen": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing our 35 Innovators Under 35 list for 2026 What will the next generation of science and technology look like? Our latest Innovators Under 35 list offers",
-      "relevancia": 10,
-      "url": "https://www.technologyreview.com/2026/09/08/1143615/the-download-35-innovators-under-35-spiderwebs-measuring-nature/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "e031e020aa",
-      "tema": "ia",
-      "titular_es": "DaVinci Resolve 21.1",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 9,
-      "url": "https://www.blackmagicdesign.com/media/release/20260908-03",
-      "fuente": "blackmagicdesign.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "6b5ee037b5",
-      "tema": "finanzas",
-      "titular_es": "China's imports in August miss estimates as calls for rebalancing trade grow",
-      "resumen": "China's exports and imports gathered momentum in August, as the world's second-largest economy faces mounting pressure to rebalance trade.",
-      "relevancia": 9,
-      "url": "https://www.cnbc.com/2026/09/08/china-exports-imports-august-trade-rebalance-demand-surplus-.html",
-      "fuente": "cnbc.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "energía nuclear",
+        "startups",
+        "centros de datos"
+      ]
     },
     {
       "id": "f998dbfddc",
       "tema": "emprendimiento",
-      "titular_es": "Poseidon Aerospace lands $60M ahead of first pilotless test flight",
-      "resumen": "The startup is trying to rethink the economics of cargo aircraft by removing pilots from the equation entirely.",
-      "relevancia": 9,
+      "titular_es": "Poseidon Aerospace levanta US$60 millones antes de su primer vuelo de prueba sin piloto",
+      "resumen": "Poseidon Aerospace aseguró US$60 millones para avanzar en la certificación de aviones de carga completamente autónomos.\nLa compañía busca transformar la economía del transporte aéreo de mercancías al eliminar la cabina y la tripulación para maximizar espacio útil y autonomía.\nEl primer ensayo en condiciones reales pondrá a prueba la robustez de sus sistemas de navegación redundantes frente a regulaciones estrictas.",
+      "relevancia": 8,
       "url": "https://techcrunch.com/2026/09/08/poseidon-aerospace-lands-60m-ahead-of-first-pilotless-test-flight/",
       "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "aeronáutica",
+        "autonomía",
+        "logística"
+      ]
     },
     {
-      "id": "176099a4a9",
-      "tema": "ciencia",
-      "titular_es": "This founder is teaching chips how to recycle (their energy)",
-      "resumen": "Throughout the history of the computer chip, engineers have treated waste heat as an inevitable cost of a calculation. Hannah Earley, however, thinks it’s a design choice. Earley, 31, is cofounder and chief technology officer of Vaire Computing, a startup building chips that recycle energy usually t",
-      "relevancia": 9,
-      "url": "https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "f584f3a92a",
-      "tema": "ia",
-      "titular_es": "Show HN: Copperhead – Hardware as Fast as Software",
-      "resumen": "(Sin descripción disponible.)",
+      "id": "0bac17f0e1",
+      "tema": "finanzas",
+      "titular_es": "Entran en vigor aranceles de represalia de Canadá por 27.600 millones de dólares canadienses contra EE.UU.",
+      "resumen": "Ottawa duplicó al 50% los aranceles sobre importaciones estadounidenses de acero y aluminio en una escalada comercial con Washington.\nLa medida busca presionar a los exportadores estadounidenses tras el estancamiento de las negociaciones bilaterales de comercio transfronterizo.\nAnalistas advierten de impactos directos sobre los márgenes operativos de las cadenas de valor automotrices e industriales de la región.",
       "relevancia": 8,
-      "url": "https://copperhead.sh/",
-      "fuente": "copperhead.sh (vía HN)",
-      "bandera": "🌍",
-      "tags": []
+      "url": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html",
+      "fuente": "cnbc.com",
+      "bandera": "🇨🇦",
+      "tags": [
+        "aranceles",
+        "comercio",
+        "Canadá"
+      ]
     },
     {
       "id": "9fbea5b5c5",
       "tema": "finanzas",
-      "titular_es": "Japan's foreign reserves drop by a record $80 billion in August following yen intervention",
-      "resumen": "Finance ministry data showed that Japan's official foreign reserves stand at $1.207 trillion, down from July's figure of $1.287 trillion.",
+      "titular_es": "Las reservas internacionales de Japón caen en un récord de US$80.000 millones tras intervenir el yen",
+      "resumen": "El Ministerio de Finanzas japonés reportó que las reservas del país bajaron a US$1,207 billones debido a compras masivas de yenes.\nSe trata del mayor retroceso mensual en la historia reciente, evidenciando el elevado costo fiscal de frenar la devaluación cambiaria.\nEl movimiento condiciona los próximos pasos del Banco de Japón sobre su política de tasas de interés frente a la debilidad de su moneda.",
       "relevancia": 8,
       "url": "https://www.cnbc.com/2026/09/07/japan-foreign-reserves-yen-intervention.html",
       "fuente": "cnbc.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇯🇵",
+      "tags": [
+        "Japón",
+        "divisas",
+        "banca central"
+      ]
     },
     {
-      "id": "f4a18652fb",
-      "tema": "ciencia",
-      "titular_es": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
-      "resumen": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visit, there’s only one other person there, and little in the way of furniture. But what it lacks in decor, it makes up…",
+      "id": "8d404456ea",
+      "tema": "finanzas",
+      "titular_es": "El S&P 500 hila dos jornadas en rojo presionado por el crudo al borde de los US$100 y la cautela ante la Fed",
+      "resumen": "Wall Street retrocedió debido al repunte en los precios de la energía tras ataques contra instalaciones petroleras en Medio Oriente.\nEl encarecimiento del crudo aviva los temores inflacionarios antes de la inminente decisión sobre tasas de la Reserva Federal.\nLos sectores de transporte y consumo discrecional encabezaron las pérdidas, mientras las petroleras mantuvieron ganancias defensivas.",
       "relevancia": 8,
-      "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": []
+      "url": "https://www.bloomberglinea.com/mercados/sp-500-retrocede-con-el-petroleo-cerca-de-us100-mientras-crece-el-temor-por-la-inflacion/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "bolsa",
+        "S&P 500",
+        "petróleo"
+      ]
     },
     {
-      "id": "642f6b3a6c",
-      "tema": "ia",
-      "titular_es": "Why getting your hands dirty is good for you",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 7,
-      "url": "https://www.bbc.com/future/article/20260904-how-getting-your-hands-dirty-boosts-your-health-within-weeks",
-      "fuente": "bbc.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "f03c547357",
+      "id": "9a0ed4b52f",
       "tema": "finanzas",
-      "titular_es": "The Kroger Co. (KR) Shares Weighed by Inflation Pressure and Slowing Sales",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/kroger-co-kr-shares-weighed-153940365.html",
-      "fuente": "finance.yahoo.com",
+      "titular_es": "Wood Mackenzie alerta del impacto global si el petróleo se consolida sobre los US$100",
+      "resumen": "La consultora energética estimó que una prolongación del conflicto en Irán y el estrecho de Ormuz golpeará duramente el suministro a Asia.\nLa interrupción de flujos marítimos obligaría a recalcular márgenes en refinerías y avivaría la inflación importada en economías emergentes.\nNo obstante, la firma calcula que una normalización posterior del tránsito podría estabilizar el barril Brent en el rango de US$50 a US$60.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/mercados/el-petroleo-se-acerca-a-us100-wood-mackenzie-calcula-el-impacto-si-la-guerra-en-iran-se-prolonga/",
+      "fuente": "bloomberglinea.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "energía",
+        "petróleo",
+        "geopolítica"
+      ]
     },
     {
-      "id": "62c6010ba9",
-      "tema": "ciencia",
-      "titular_es": "This founder is making cheaper, cleaner steel",
-      "resumen": "The steel industry isn’t exactly known for innovation. Very little has changed about purifying iron ore since the process was invented and commercialized in the 1850s. The majority of steelmakers melt solid iron ore at dizzyingly high temperatures inside blast furnaces, where the material reacts wit",
-      "relevancia": 7,
-      "url": "https://www.technologyreview.com/2026/09/08/1142094/laureen-meroueh-makes-cheaper-cleaner-steel/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "9a1ff63edc",
-      "tema": "ia",
-      "titular_es": "Antiquated HTML Snippets and Artefacts",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 6,
-      "url": "https://vale.rocks/posts/html-relics",
-      "fuente": "vale.rocks (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "2c14fb0573",
+      "id": "ba14237cb6",
       "tema": "finanzas",
-      "titular_es": "Stock market today: Dow, S&P 500, Nasdaq fall as oil prices rise, US-Canada trade war escalates",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 6,
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-8-dow-sp-500-nasdaq-080440338.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
+      "titular_es": "El Gobierno argentino inyecta US$2.000 millones en letras al Banco Central para contener la presión cambiaria",
+      "resumen": "El Ministerio de Economía ejecutó un canje de instrumentos vinculados al dólar para dotar al BCRA de mayor liquidez de intervención.\nLa administración de Milei busca blindar el mercado cambiario e impedir brotes de volatilidad en la brecha con el dólar financiero.\nFuncionarios adelantaron que aún restan liquidaciones corporativas por US$4.400 millones que deberían aliviar la plaza en las próximas semanas.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/mercado-cambiario-e-inflacion-milei-anticipa-mas-ortodoxia-y-suma-poder-de-fuego-para-contener-al-dolar/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇦🇷",
+      "tags": [
+        "Argentina",
+        "dólar",
+        "inflación"
+      ]
     },
     {
-      "id": "59d0330421",
-      "tema": "ciencia",
-      "titular_es": "This geneticist’s age-reversal tech could help restore sight",
-      "resumen": "Yuancheng (Ryan) Lu is obsessed with aging. And with eyes. As he steps outside the Whitehead Institute in Cambridge, Massachusetts, his aviator glasses darken automatically in the sun. Age-related blindness runs in his family. A great-aunt in China, the story goes, was killed crossing a road because",
-      "relevancia": 6,
-      "url": "https://www.technologyreview.com/2026/09/08/1142074/yuancheng-ryan-lu-age-reversal-tech-restores-sight/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "89b72f7ba1",
-      "tema": "ia",
-      "titular_es": "Among European Companies That Use a CDN, Nearly 9 in 10 Use Cloudflare",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 5,
-      "url": "https://ciphercue.com/blog/european-cdn-concentration-cloudflare-nine-in-ten",
-      "fuente": "ciphercue.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "34f541d359",
+      "id": "8fd5fd4d39",
       "tema": "finanzas",
-      "titular_es": "Robinhood Lands Crypto.com Deal, Underwriting Job For Oura. Goldman Hikes Target.",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 5,
-      "url": "https://www.investors.com/news/robinhood-crypto-com-minority-stake-prediction-markets-oura-underwriter-reports-hood-stock-price-target/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
-      "bandera": "🌍",
-      "tags": []
+      "titular_es": "El fondo soberano de Noruega de US$2,3 billones propone recortar su tenencia de bonos del Tesoro de EE.UU.",
+      "resumen": "El mayor fondo soberano del planeta planteó un cambio estructural en su cartera para reducir exposición a deuda soberana estadounidense.\nLa propuesta contempla elevar la asignación hacia bonos gubernamentales japoneses y diversificar riesgos macroeconómicos de largo plazo.\nCualquier ajuste de este vehículo inversor marca pautas clave para la asignación de activos institucionales a nivel mundial.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/mercados/el-fondo-soberano-de-noruega-propone-uno-de-los-mayores-cambios-de-su-historia-de-que-se-trata/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇳🇴",
+      "tags": [
+        "bonos",
+        "inversión",
+        "Noruega"
+      ]
     },
     {
       "id": "e90e6080ef",
       "tema": "ciencia",
-      "titular_es": "Scientists discover a powerful new antivenom hidden in rattlesnake blood",
-      "resumen": "Researchers discovered that combinations of toxin-blocking proteins naturally found in rattlesnake blood can powerfully neutralize venom from several dangerous snake species. In lab tests, the mixtures were about 10 times more potent than a current commercial antivenom, pointing toward a new generat",
-      "relevancia": 5,
+      "titular_es": "Descubren en la sangre de serpientes de cascabel un antídoto diez veces más potente que los actuales",
+      "resumen": "Investigadores identificaron un cóctel de proteínas neutralizantes presente de forma natural en el torrente sanguíneo de crótalos.\nEn ensayos preclínicos, estas moléculas bloquearon con éxito las toxinas letales de varias especies venenosas emparentadas.\nEl hallazgo abre la puerta a una nueva generación de antivenenos sintéticos más estables, seguros y económicos.",
+      "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/09/260907201605.htm",
       "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "fca2a8ea89",
-      "tema": "ia",
-      "titular_es": "Mistral raises €3B",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 4,
-      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
-      "fuente": "mistral.ai (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "164a9b93f0",
-      "tema": "finanzas",
-      "titular_es": "GE Aerospace To Buy Key Industry Castings Supplier CPP For Nearly $12 Billion",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 4,
-      "url": "https://www.investors.com/news/ge-aerospace-acquisition-precision-products-castings-capacity-deal-ge-stock/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "948ce40af2",
-      "tema": "ciencia",
-      "titular_es": "Giant new dinosaur discovered beneath construction site in Brazil",
-      "resumen": "Scientists have identified a giant new dinosaur from Brazil that reached about 20 meters long and lived 120 million years ago. Its surprising evolutionary ties to a Spanish dinosaur suggest its ancestors crossed ancient land connections between Europe, Africa, and South America.",
-      "relevancia": 4,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260907201603.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "dbba5b39e8",
-      "tema": "ia",
-      "titular_es": "There's a new \"Google Jail\" for independent wikis",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 3,
-      "url": "https://weirdgloop.org/blog/google-jail",
-      "fuente": "weirdgloop.org (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "75c8e82d29",
-      "tema": "finanzas",
-      "titular_es": "EU regulators send early warning to Oracle ahead of earnings",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 3,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/eu-regulators-send-early-warning-000300590.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "farmacología",
+        "biomedicina",
+        "venenos"
+      ]
     },
     {
       "id": "5c16a0ecfa",
       "tema": "ciencia",
-      "titular_es": "Ozempic and Wegovy may have an unexpected mental health benefit",
-      "resumen": "Semaglutide, the drug behind Ozempic and Wegovy, may have benefits that extend well beyond weight loss and diabetes. In a large Swedish study of nearly 15,000 people with bipolar disorder, its use was linked to a 21% lower risk of psychiatric hospitalization. Researchers think effects on inflammatio",
-      "relevancia": 3,
+      "titular_es": "La semaglutida se asocia a una reducción del 21% en hospitalizaciones por trastorno bipolar",
+      "resumen": "Un estudio sueco a gran escala sobre casi 15.000 pacientes reveló beneficios inesperados del fármaco Ozempic en salud mental.\nLos individuos tratados con semaglutida mostraron una tasa significativamente menor de internaciones psiquiátricas graves.\nLos autores plantean que los efectos antiinflamatorios sistémicos y metabólicos del compuesto podrían estabilizar el tejido neurológico.",
+      "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/09/260907201601.htm",
       "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇸🇪",
+      "tags": [
+        "semaglutida",
+        "salud mental",
+        "farmacología"
+      ]
     },
     {
-      "id": "5f5f6da9c7",
-      "tema": "ia",
-      "titular_es": "I've factored the RSA keys of a Certificate Authority from the 90s",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 2,
-      "url": "https://mcpherrin.ca/2026/09/07/rsa.html",
-      "fuente": "mcpherrin.ca (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "2bc76fe191",
-      "tema": "finanzas",
-      "titular_es": "Bitmine Buys $69M in Ether, Closes In on 5% of Ethereum Supply",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 2,
-      "url": "https://finance.yahoo.com/markets/crypto/articles/bitmine-buys-69m-ether-closes-151900594.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "297b598234",
+      "id": "095d8365d5",
       "tema": "ciencia",
-      "titular_es": "The American “cheetah” wasn’t a cheetah at all",
-      "resumen": "The extinct “American cheetah” was not really a cheetah at all, but a puma relative with an unexpectedly flexible lifestyle. Fossils from the Yukon suggest northern populations survived partly by eating fish, possibly including salmon, while southern cats hunted on land.",
-      "relevancia": 2,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260907201558.htm",
+      "titular_es": "Identifican la señal inmunológica que permite regenerar la médula espinal dañada",
+      "resumen": "Científicos descubrieron que neutrófilos específicos liberan la interleucina Il-4 para modular la respuesta inflamatoria en peces cebra.\nEsta señal previene la formación de cicatrices fibrosas permanentes y estimula el recrecimiento de los axones motores lesionados.\nEl mecanismo ofrece una prometedora diana terapéutica para promover la reparación neuronal en lesiones medulares en mamíferos.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260906170136.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "neurociencia",
+        "regeneración",
+        "inmunología"
+      ]
     },
     {
-      "id": "2448c5c227",
+      "id": "b09da4c7d8",
       "tema": "ia",
-      "titular_es": "TALA Is Open-Source",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 1,
-      "url": "https://d2lang.com/blog/tala-is-open-source/",
-      "fuente": "d2lang.com (vía HN)",
+      "titular_es": "Ejecutan el modelo Kimi K3 de 2,8 billones de parámetros en una MacBook Pro mediante streaming desde SSDs",
+      "resumen": "Un experimento demostró la viabilidad de correr el colosal modelo Kimi K3 (2.8T) a 1 token por segundo en un portátil utilizando cuatro unidades SSD externas.\nEl enfoque elude los enormes requisitos de memoria unificada mediante técnicas agresivas de paginación y streaming de pesos.\nAbre posibilidades prácticas para que desarrolladores e investigadores inspeccionen arquitecturas de frontera sin clústeres empresariales.",
+      "relevancia": 7,
+      "url": "https://github.com/argonautlabsai/deltafin",
+      "fuente": "github.com (vía HN)",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "hardware",
+        "modelos abiertos",
+        "optimización"
+      ]
     },
     {
-      "id": "e821d932a8",
+      "id": "4c568d6cde",
+      "tema": "ia",
+      "titular_es": "Pruebas de cuantización en Qwen3.8 27B: la compresión a 4 bits resiste pero a 1 bit colapsa",
+      "resumen": "Nuevos benchmarks evaluaron el rendimiento de Qwen3.8 de 27 mil millones de parámetros bajo esquemas extremos de cuantización.\nLos resultados indican que la cuantización a 4 bits conserva casi toda la capacidad de razonamiento del modelo original, mientras que a 1 bit la pérdida de precisión es catastrófica.\nEste dato es clave para equipos de ingeniería que dimensionan inferencia local con memoria de GPU limitada.",
+      "relevancia": 7,
+      "url": "https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/",
+      "fuente": "quesma.com (vía HN)",
+      "bandera": "🌍",
+      "tags": [
+        "benchmarks",
+        "cuantización",
+        "inferencia"
+      ]
+    },
+    {
+      "id": "b60588e37b",
+      "tema": "ia",
+      "titular_es": "Usuarios avanzados demandan a Anthropic por supuesta publicidad engañosa en sus planes de suscripción",
+      "resumen": "Un grupo de clientes de alto volumen presentó una demanda colectiva contra Anthropic alegando incumplimiento en los límites prometidos en sus planes premium.\nLos demandantes acusan a la firma de aplicar recortes agresivos de tasa y restringir el acceso a herramientas clave que habían sido publicitadas.\nEl litigio evidencia las tensiones entre los elevados costos de cómputo de los modelos Claude y las expectativas de los desarrolladores profesionales.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990313/anthropic-class-action-lawsuit-pricing-subscription-plans",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Anthropic",
+        "regulación",
+        "Claude"
+      ]
+    },
+    {
+      "id": "926902b984",
+      "tema": "ia",
+      "titular_es": "Adobe rediseña Premiere Pro para integrar generación de video y audio con IA en la línea de tiempo",
+      "resumen": "Adobe incorporó la herramienta Generative Media directamente en la interfaz de edición de Premiere Pro sin obligar al usuario a salir del proyecto.\nPermite crear pistas de video, efectos de sonido y ambientaciones acústicas personalizadas vinculadas a los cortes de edición.\nLa integración busca acelerar los flujos de trabajo de posproducción profesional reduciendo tiempos muertos en la búsqueda de recursos externos.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/tech/991133/adobe-is-trying-to-make-its-ai-generators-idiot-proof-in-premiere",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Adobe",
+        "software",
+        "multimedia"
+      ]
+    },
+    {
+      "id": "399f3bafb4",
+      "tema": "ia",
+      "titular_es": "Google actualiza su modelo meteorológico de IA e incrementa la precisión predictiva",
+      "resumen": "Google implementó mejoras clave en su arquitectura de predicción climática basada en redes neuronales al expandir su catálogo de variables de entrada.\nLa actualización supera a varios sistemas tradicionales de predicción numérica en horizontes de mediano alcance con una fracción del costo computacional.\nEs un avance relevante para sectores críticos como la logística marítima, la generación renovable y la gestión de desastres.",
+      "relevancia": 7,
+      "url": "https://arstechnica.com/science/2026/09/googles-ai-weather-model-now-uses-more-raw-satellite-data/",
+      "fuente": "arstechnica.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Google",
+        "clima",
+        "predicción"
+      ]
+    },
+    {
+      "id": "176099a4a9",
+      "tema": "emprendimiento",
+      "titular_es": "Vaire Computing diseña procesadores que reciclan su propia disipación térmica",
+      "resumen": "La startup Vaire Computing, liderada por Hannah Earley, desarrolla microchips basados en computación reversible para recuperar el calor disipado.\nEn lugar de aceptar el calor como un residuo inevitable, su arquitectura reinyecta la energía en los ciclos de conmutación lógica posteriores.\nLa tecnología podría reducir radicalmente el consumo eléctrico de centros de datos de cómputo intensivo si logra escalar industrialmente.",
+      "relevancia": 7,
+      "url": "https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy/",
+      "fuente": "technologyreview.com",
+      "bandera": "🇬🇧",
+      "tags": [
+        "semiconductores",
+        "hardware",
+        "eficiencia"
+      ]
+    },
+    {
+      "id": "f4a18652fb",
+      "tema": "emprendimiento",
+      "titular_es": "El investigador Danijar Hafner funda una startup para dotar a agentes de IA con visión anticipatoria",
+      "resumen": "El experto en aprendizaje por refuerzo Danijar Hafner opera en modo sigiloso una nueva empresa enfocada en modelos de mundo.\nEl objetivo es que los agentes puedan simular múltiples escenarios futuros e imprevistos antes de ejecutar acciones en entornos reales.\nLa propuesta busca superar las limitaciones reactivas de los modelos de lenguaje actuales en robótica y automatización compleja.",
+      "relevancia": 7,
+      "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
+      "fuente": "technologyreview.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "modelos de mundo",
+        "agentes",
+        "robótica"
+      ]
+    },
+    {
+      "id": "62c6010ba9",
+      "tema": "emprendimiento",
+      "titular_es": "Una nueva empresa de descarbonización industrial desafía los altos hornos de acero tradicionales",
+      "resumen": "Una startup de tecnología limpia presentó un proceso electroquímico alternativo para purificar mineral de hierro sin carbón ni temperaturas extremas.\nEl método elimina el uso tradicional de coque en altos hornos, reduciendo drásticamente las emisiones de CO2 del sector metalúrgico.\nEl acero representa cerca del 8% de las emisiones globales, por lo que su adopción industrial despierta gran interés comercial.",
+      "relevancia": 7,
+      "url": "https://www.technologyreview.com/2026/09/08/1142094/laureen-meroueh-makes-cheaper-cleaner-steel/",
+      "fuente": "technologyreview.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "cleantech",
+        "acero",
+        "descarbonización"
+      ]
+    },
+    {
+      "id": "6b5ee037b5",
       "tema": "finanzas",
-      "titular_es": "Robinhood Partners with Crypto.com to Expand Prediction Markets",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 1,
-      "url": "https://finance.yahoo.com/markets/crypto/articles/robinhood-partners-crypto-com-expand-151600729.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
+      "titular_es": "Las importaciones de China decepcionan en agosto y avivan la presión por reactivar la demanda interna",
+      "resumen": "Las compras externas de China no alcanzaron las expectativas de los analistas en agosto pese al modesto dinamismo de sus exportaciones.\nLas cifras reflejan la debilidad persistente del consumo local y los desequilibrios comerciales con sus principales socios económicos.\nLos mercados exigen mayores estímulos fiscales por parte de Pekín para apuntalar la actividad en el segundo semestre.",
+      "relevancia": 7,
+      "url": "https://www.cnbc.com/2026/09/08/china-exports-imports-august-trade-rebalance-demand-surplus-.html",
+      "fuente": "cnbc.com",
+      "bandera": "🇨🇳",
+      "tags": [
+        "China",
+        "comercio",
+        "macroeconomía"
+      ]
     },
     {
-      "id": "e3e8b6b982",
+      "id": "948ce40af2",
       "tema": "ciencia",
-      "titular_es": "Your personality may be more genetic than scientists realized",
-      "resumen": "More than 1,200 genetic variants have been linked to the Big Five personality traits, and many of the same variants are also associated with health, longevity, careers, income, and everyday habits. The findings reveal a surprisingly wide genetic connection between personality and life outcomes while",
-      "relevancia": 1,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260907201554.htm",
+      "titular_es": "Descubren en Brasil un dinosaurio gigante de 20 metros bajo las obras de una construcción",
+      "resumen": "Paleontólogos identificaron restos fósiles de un nuevo titanosaurio de 120 millones de años hallado de forma fortuita en una excavación urbana.\nEl espécimen presenta vínculos filogenéticos directos con especies descritas previamente en la península ibérica.\nEl hallazgo respalda la hipótesis de corredores biológicos transitables que conectaban Europa, África y América del Sur durante el Cretácico.",
+      "relevancia": 7,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260907201603.htm",
       "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇧🇷",
+      "tags": [
+        "paleontología",
+        "dinosaurios",
+        "Brasil"
+      ]
+    },
+    {
+      "id": "77a09464a9",
+      "tema": "ciencia",
+      "titular_es": "Un solvente habitual de tintorerías se vincula a triplicar el riesgo de fibrosis hepática",
+      "resumen": "Un estudio epidemiológico detectó que la presencia de tetracloroetileno (PCE) en sangre multiplica por tres la probabilidad de cicatrización hepática.\nEl químico es ampliamente utilizado en procesos de limpieza en seco industrial y aún se encuentra en productos domésticos comerciales.\nLos resultados motivan llamamientos urgentes a endurecer la normativa ambiental y laboral sobre la exposición a compuestos clorados.",
+      "relevancia": 7,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260906170149.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "toxicología",
+        "salud pública",
+        "química"
+      ]
     }
   ]
 }
