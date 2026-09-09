@@ -1,6 +1,6 @@
 {
   "fecha": "2026-09-09",
-  "generado_utc": "2026-09-09T16:03:03Z",
+  "generado_utc": "2026-09-09T22:07:36Z",
   "indicadores": {
     "dolar": {
       "valor": 926.94,
@@ -13,7 +13,7 @@
       "variacion_pct": 0.0
     }
   },
-  "noticia_del_dia": "9957c79ffe",
+  "noticia_del_dia": "97a283893e",
   "pildora_ia": "Overfitting (sobreajuste): cuando un modelo memoriza el ruido de los datos de entrenamiento en vez del patrón general. Rinde perfecto en entrenamiento pero mal con datos nuevos. Se combate con más datos, regularización o dropout.",
   "pildoras_ia": [
     "Overfitting (sobreajuste): cuando un modelo memoriza el ruido de los datos de entrenamiento en vez del patrón general. Rinde perfecto en entrenamiento pero mal con datos nuevos. Se combate con más datos, regularización o dropout.",
@@ -24,13 +24,13 @@
   ],
   "noticias": [
     {
-      "id": "9957c79ffe",
+      "id": "97a283893e",
       "tema": "ia",
-      "titular_es": "Tailwind Labs is joining Shopify",
+      "titular_es": "iPhone Duo",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 10,
-      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
-      "fuente": "tailwindcss.com (vía HN)",
+      "url": "https://www.apple.com/iphone-duo/",
+      "fuente": "apple.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -46,12 +46,12 @@
       "tags": []
     },
     {
-      "id": "6dd7eea03b",
+      "id": "ef66728a92",
       "tema": "emprendimiento",
-      "titular_es": "Uber invests $10M in Indian fleet operator Carrum at $168M valuation",
-      "resumen": "Carrum Mobility operates about 5,100 vehicles in India and is Uber's largest fleet partner for its premium Uber Black service in the country.",
+      "titular_es": "Harvey hits $15.5B valuation, months after reaching $11B",
+      "resumen": "The legal AI startup and VC darling has nearly doubled its valuation in nine months.",
       "relevancia": 10,
-      "url": "https://techcrunch.com/2026/09/09/uber-invests-10m-in-indian-fleet-operator-carrum-at-168m-valuation/",
+      "url": "https://techcrunch.com/2026/09/09/harvey-hits-15-5b-valuation-months-after-reaching-11b/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -68,34 +68,34 @@
       "tags": []
     },
     {
-      "id": "9bbef3eb2d",
+      "id": "2899961cd8",
       "tema": "ia",
-      "titular_es": "I advertise malicious software on Google Ads",
+      "titular_es": "Apple Watch Series 12",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 9,
-      "url": "https://xlii.space/eng/malicious-software-on-google-ads/",
-      "fuente": "xlii.space (vía HN)",
+      "url": "https://www.apple.com/newsroom/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/",
+      "fuente": "apple.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "0bac17f0e1",
+      "id": "193ef0a4c0",
       "tema": "finanzas",
-      "titular_es": "Canada's retaliatory tariffs worth CA$27.6 billion take effect as trade rift with U.S. deepens",
-      "resumen": "Duties on Canadian imports of U.S. steel and aluminum products have doubled to 50% as a trade war between Washington and Ottawa intensifies.",
+      "titular_es": "Mortgage & refinance rates today, Wednesday, September 9, 2026: Fixed rates inch upward, 5/1 ARM breaks past 7% as oil prices rise",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 9,
-      "url": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html",
-      "fuente": "cnbc.com",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage--refinance-rates-today-wednesday-september-9-2026-fixed-rates-inch-upward-51-arm-breaks-past-7-as-oil-prices-rise-100000700.html",
+      "fuente": "finance.yahoo.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "12dcfd350b",
+      "id": "6dd7eea03b",
       "tema": "emprendimiento",
-      "titular_es": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
-      "resumen": "Cymphony was valued at more than $100 million in a $25 million Series A co-led by Sequoia and SMBC Fin Atlas Beyond Fund.",
+      "titular_es": "Uber invests $10M in Indian fleet operator Carrum at $168M valuation",
+      "resumen": "Carrum Mobility operates about 5,100 vehicles in India and is Uber's largest fleet partner for its premium Uber Black service in the country.",
       "relevancia": 9,
-      "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/",
+      "url": "https://techcrunch.com/2026/09/09/uber-invests-10m-in-indian-fleet-operator-carrum-at-168m-valuation/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -112,34 +112,34 @@
       "tags": []
     },
     {
-      "id": "9dd0ffe081",
+      "id": "7c8805d4b4",
       "tema": "ia",
-      "titular_es": "Desert Ant Labs: local, fast models that run on device",
+      "titular_es": "AirPods 5",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 8,
-      "url": "https://desertant.com/blog/introducing-desert-ant-labs/",
-      "fuente": "desertant.com (vía HN)",
+      "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
+      "fuente": "apple.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "63fa434a0e",
+      "id": "ae21be6dc0",
       "tema": "finanzas",
-      "titular_es": "A Long-Term Bullish Trade Might Be The Ticket For This Stock",
+      "titular_es": "Best CD rates today, Wednesday, September 9, 2026: Earn up to 4.35% APY with Marcus",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 8,
-      "url": "https://www.investors.com/research/options/vertiv-stock-vrt-bull-put-spread-options/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-wednesday-september-9-2026-earn-up-to-435-apy-with-marcus-100000741.html",
+      "fuente": "finance.yahoo.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "3fee4ac4d0",
+      "id": "12dcfd350b",
       "tema": "emprendimiento",
-      "titular_es": "CloudNC raises $20M to automate manufacturing’s most pressing bottlenecks",
-      "resumen": "UK-based manufacturing software startup CloudNC announced Wednesday a $20 million B extension round, bringing its lifetime total raised amount to $128 million.",
+      "titular_es": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
+      "resumen": "Cymphony gives security teams a single view of employees, AI agents, and other nonhuman identities, including the systems and sensitive data they can access.",
       "relevancia": 8,
-      "url": "https://techcrunch.com/2026/09/08/cloudnc-raises-20m-to-automate-manufacturings-most-pressing-bottlenecks/",
+      "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -156,34 +156,34 @@
       "tags": []
     },
     {
-      "id": "1f1cef5aba",
+      "id": "7922e22567",
       "tema": "ia",
-      "titular_es": "DeepSeek launching v4.1 flash cheaper and more capable than v4 pro",
-      "resumen": "DSeek plans to officially release the V4.1 Flash model around September 10, 2026 (Beijing Time). After extensive internal and external testing, V4.1 Flash has comprehensively surpassed V4 Pro across all key metrics, including performance, cost, speed, and task completion time. In keeping with our co",
+      "titular_es": "iPhone 18 Pro and iPhone 18 Pro Max",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 7,
-      "url": "https://news.ycombinator.com/item?id=49624603",
-      "fuente": "news.ycombinator.com",
+      "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
+      "fuente": "apple.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "719f22dd51",
+      "id": "7448ecb243",
       "tema": "finanzas",
-      "titular_es": "Stock market today: Dow, S&P 500, Nasdaq sink as oil prices surpass $100",
+      "titular_es": "Gold price today, Wednesday, September 9, 2026: Gold prices drop following U.S. strikes on five Iranian oil tankers",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 7,
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-9-dow-sp-500-nasdaq-futures-080411279.html",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-wednesday-september-9-2026-gold-prices-drop-following-us-strikes-on-five-iranian-oil-tankers-104123795.html",
       "fuente": "finance.yahoo.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "ba0725adef",
+      "id": "3fee4ac4d0",
       "tema": "emprendimiento",
-      "titular_es": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
-      "resumen": "Cognition's valuation multiple is higher than Cursor's was before selling to SpaceX.",
+      "titular_es": "CloudNC raises $20M to automate manufacturing’s most pressing bottlenecks",
+      "resumen": "U.K.-based manufacturing software startup CloudNC announced Wednesday a $20 million Series B extension round, bringing its lifetime total raised amount to $128 million.",
       "relevancia": 7,
-      "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
+      "url": "https://techcrunch.com/2026/09/08/cloudnc-raises-20m-to-automate-manufacturings-most-pressing-bottlenecks/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -200,23 +200,23 @@
       "tags": []
     },
     {
-      "id": "6c4636f77b",
+      "id": "da8be70ef8",
       "tema": "ia",
-      "titular_es": "How An AI math breakthrough ignited a controversy",
+      "titular_es": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 6,
-      "url": "https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy",
-      "fuente": "science.org (vía HN)",
+      "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
+      "fuente": "gist.github.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "23e9f839c0",
+      "id": "58361e8f5b",
       "tema": "finanzas",
-      "titular_es": "NuScale Power: 1 Catalyst That Will Make or Break This Nuclear Stock",
+      "titular_es": "Silver price today, Wednesday, September 9, 2026: Silver prices hold in the $66 range as U.S.-Iranian attacks continue",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 6,
-      "url": "https://finance.yahoo.com/energy/articles/nuscale-power-1-catalyst-break-154300709.html",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-wednesday-september-9-2026-silver-prices-hold-in-the-66-range-as-us-iranian-attacks-continue-105942902.html",
       "fuente": "finance.yahoo.com",
       "bandera": "🌍",
       "tags": []
@@ -233,23 +233,23 @@
       "tags": []
     },
     {
-      "id": "6b69081234",
+      "id": "8b2b7a6a88",
       "tema": "ia",
-      "titular_es": "Lotus Notes and the dangers of starting from scratch",
+      "titular_es": "Growing proof that autonomous cars save lives",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 5,
-      "url": "https://buttondown.com/blog/lotus-notes-email",
-      "fuente": "buttondown.com (vía HN)",
+      "url": "https://spectrum.ieee.org/are-self-driving-cars-safe",
+      "fuente": "spectrum.ieee.org (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "ef778ecc82",
+      "id": "991437f108",
       "tema": "finanzas",
-      "titular_es": "Guidance Upside Drives Advanced Micro Devices (AMD) Higher, Hurting Non Owners",
+      "titular_es": "Bitcoin and ethereum prices today, Wednesday, September 9, 2026: Ongoing escalations in the Middle East are keeping a lid on crypto",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 5,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/guidance-upside-drives-advanced-micro-153647914.html",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-9-2026-ongoing-escalations-in-the-middle-east-are-keeping-a-lid-on-crypto-112541573.html",
       "fuente": "finance.yahoo.com",
       "bandera": "🌍",
       "tags": []
@@ -266,24 +266,24 @@
       "tags": []
     },
     {
-      "id": "34e28ee70f",
+      "id": "19b97e2605",
       "tema": "ia",
-      "titular_es": "Claude, change the \"Add to Cart\" button to blue",
+      "titular_es": "Understanding the recent DDoS attack against Read the Docs",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 4,
-      "url": "https://opusfived.dev/",
-      "fuente": "opusfived.dev (vía HN)",
+      "url": "https://about.readthedocs.com/blog/2026/09/2026-ddos-attack/",
+      "fuente": "about.readthedocs.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "878e3bd765",
+      "id": "df1c6831a4",
       "tema": "finanzas",
-      "titular_es": "Stock Market Today: Dow Slumps 400 Points As Oil Surges; Shell Jumps Past Entry (Live Coverage)",
+      "titular_es": "What is the 'Lean FIRE' movement, and how can it help you reach financial independence?",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 4,
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-apple-stock-aapl-iphone-event/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/what-is-the-lean-fire-movement-143401919.html",
+      "fuente": "finance.yahoo.com",
       "bandera": "🌍",
       "tags": []
     },
@@ -299,24 +299,13 @@
       "tags": []
     },
     {
-      "id": "72bfc5581e",
+      "id": "e671abbf84",
       "tema": "ia",
-      "titular_es": "How GPT‑5.6 Sol helps run quantum computing experiments",
+      "titular_es": "GNU Radio in the browser",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 3,
-      "url": "https://openai.com/index/codex-quantum-computing-experiments/",
-      "fuente": "openai.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "7ac911b47f",
-      "tema": "finanzas",
-      "titular_es": "Brent crude oil rises above $100 a barrel as Middle East conflict intensifies",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 3,
-      "url": "https://finance.yahoo.com/news/brent-crude-rises-above-100-073722479.html",
-      "fuente": "finance.yahoo.com",
+      "url": "https://gnuradioworld.com/",
+      "fuente": "gnuradioworld.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -332,24 +321,13 @@
       "tags": []
     },
     {
-      "id": "7107a2df33",
+      "id": "8b9c58deed",
       "tema": "ia",
-      "titular_es": "How to build a printer",
+      "titular_es": "No Man's Sky Cosmos",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 2,
-      "url": "https://nishantjosh.dev/blogs/how-to-build-a-fking-printer/",
-      "fuente": "nishantjosh.dev (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "9a50187982",
-      "tema": "finanzas",
-      "titular_es": "How long should you wait between credit card applications?",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 2,
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/how-long-should-you-wait-between-credit-card-applications-152057924.html",
-      "fuente": "finance.yahoo.com",
+      "url": "https://www.nomanssky.com/cosmos-update/",
+      "fuente": "nomanssky.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -365,24 +343,24 @@
       "tags": []
     },
     {
-      "id": "0441eae7bf",
+      "id": "638608f1f6",
       "tema": "ia",
-      "titular_es": "Muse – Meta’s personal AI agent",
+      "titular_es": "Planet Labs' open satellite feed",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 1,
-      "url": "https://ai.meta.com/muse/",
-      "fuente": "ai.meta.com (vía HN)",
+      "url": "https://tech.marksblogg.com/planet-labs-open-satellite-feed.html",
+      "fuente": "tech.marksblogg.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "9199e86d79",
+      "id": "5ba7ab706c",
       "tema": "finanzas",
-      "titular_es": "$6 Billion Treasury Buyback Fails To Calm 'Fever' As Oil Prices Jump",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "Nuam apunta a que en 2027 arranque el mercado único de renta variable",
+      "resumen": "Andrés Restrepo, gerente de Mercados de Nuam, recalcó que ya hay homologaciones tecnológica y operativas para darle viabilidad al proyecto de integrar los tres mercados.",
       "relevancia": 1,
-      "url": "https://www.investors.com/news/treasury-yields-bessent-buyback-sp-500-gold-oil-prices/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/nuam-apunta-a-que-en-2027-arranque-el-mercado-unico-de-renta-variable/",
+      "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": []
     },
