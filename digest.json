@@ -1,19 +1,14 @@
 {
   "fecha": "2026-09-21",
-  "generado_utc": "2026-09-21T17:56:39Z",
+  "generado_utc": "2026-09-21T22:57:27Z",
   "indicadores": {
     "dolar": {
       "valor": 958.42,
       "variacion": 3.57,
       "variacion_pct": 0.37
-    },
-    "uf": {
-      "valor": 40983.58,
-      "variacion": 8.17,
-      "variacion_pct": 0.02
     }
   },
-  "noticia_del_dia": "117d886bf3",
+  "noticia_del_dia": "c81f947362",
   "pildora_ia": "RLHF: aprendizaje por refuerzo con retroalimentación humana. Alinea a los LLM con lo que la gente considera útil y seguro usando preferencias humanas. Clave en ChatGPT, Gemini y Claude.",
   "pildoras_ia": [
     "RLHF: aprendizaje por refuerzo con retroalimentación humana. Alinea a los LLM con lo que la gente considera útil y seguro usando preferencias humanas. Clave en ChatGPT, Gemini y Claude.",
@@ -24,13 +19,13 @@
   ],
   "noticias": [
     {
-      "id": "117d886bf3",
+      "id": "c81f947362",
       "tema": "ia",
-      "titular_es": "Fable 5 – Median thinking declined in August",
+      "titular_es": "Xiaomi MiMo v2.6",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 10,
-      "url": "https://twitter.com/Lon/status/2101793422487204027",
-      "fuente": "twitter.com (vía HN)",
+      "url": "https://mimo.xiaomi.com/mimo-v2-6",
+      "fuente": "mimo.xiaomi.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -46,12 +41,12 @@
       "tags": []
     },
     {
-      "id": "719dd1e473",
+      "id": "491414dc30",
       "tema": "emprendimiento",
-      "titular_es": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in at TechCrunch Disrupt 2026",
-      "resumen": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in on the main stage at TechCrunch Disrupt 2026. Save up to $200 before September 25 at 11:59 p.m. PT. Register now.",
+      "titular_es": "Discover what’s next: 5 days left to save up to $200 on your TechCrunch Disrupt 2026 ticket",
+      "resumen": "Five days left to save up to $200 on your TechCrunch Disrupt 2026 pass + 50% off a second one. Join 10,000+ founders, investors, and operators at San Francisco’s Moscone West, October 13-15. Grab your ticket savings before prices go up on September 25 at 11:59 p.m. PT.",
       "relevancia": 10,
-      "url": "https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026/",
+      "url": "https://techcrunch.com/2026/09/21/discover-whats-next-5-days-left-to-save-up-to-200-on-techcrunch-disrupt-2026/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -68,34 +63,34 @@
       "tags": []
     },
     {
-      "id": "445ea2dff5",
+      "id": "cf0aad59a9",
       "tema": "ia",
-      "titular_es": "Grok 4.7",
+      "titular_es": "Transformers Explained Visually",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 9,
-      "url": "https://x.ai/news/grok-4-7",
-      "fuente": "x.ai (vía HN)",
+      "url": "https://poloclub.github.io/transformer-explainer/",
+      "fuente": "poloclub.github.io (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "e9787176e6",
+      "id": "cec84dad80",
       "tema": "finanzas",
-      "titular_es": "Bank of America says buy tumbling shares of aviation giant",
+      "titular_es": "Burger chain cancels breakfast at hundreds of restaurants",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 9,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-says-buy-tumbling-143700198.html",
+      "url": "https://finance.yahoo.com/small-business/articles/fast-food-giant-cancels-breakfast-041519870.html",
       "fuente": "finance.yahoo.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "80c6fad293",
+      "id": "719dd1e473",
       "tema": "emprendimiento",
-      "titular_es": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026",
-      "resumen": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026. Lean in on this Builders Stage session. Save up to $200 before September 25.",
+      "titular_es": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in at TechCrunch Disrupt 2026",
+      "resumen": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in on the main stage at TechCrunch Disrupt 2026. Save up to $200 before September 25 at 11:59 p.m. PT. Register now.",
       "relevancia": 9,
-      "url": "https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026/",
+      "url": "https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -112,34 +107,34 @@
       "tags": []
     },
     {
-      "id": "5d61054796",
+      "id": "f026b316fd",
       "tema": "ia",
-      "titular_es": "Attention is all you have",
+      "titular_es": "NASA’s Mars Sample Return mission is dead",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 8,
-      "url": "https://alicegg.tech/2026/09/21/attention",
-      "fuente": "alicegg.tech (vía HN)",
+      "url": "https://www.science.org/content/article/nasa-s-mars-sample-return-mission-dead",
+      "fuente": "science.org (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "30ab514174",
+      "id": "e9787176e6",
       "tema": "finanzas",
-      "titular_es": "Behind the Ticker: Crossmark's Values-Based ETFs",
+      "titular_es": "Bank of America says buy tumbling shares of aviation giant",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 8,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/behind-ticker-crossmarks-values-based-174055390.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-says-buy-tumbling-143700198.html",
       "fuente": "finance.yahoo.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "dd0d90e109",
+      "id": "80c6fad293",
       "tema": "emprendimiento",
-      "titular_es": "Meet the next wave of VCs judging Startup Battlefield 200 at TechCrunch Disrupt 2026",
-      "resumen": "Meet the next wave of VCs judging the Startup Battlefield 200 contenders on the main stage at TechCrunch Disrupt 2026. Register by September 25 at 11:59 p.m. PT, to save up to $200 and to get a front-row seat to one of the most intense startup pitch competitions.",
+      "titular_es": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026",
+      "resumen": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026. Lean in on this Builders Stage session. Save up to $200 before September 25.",
       "relevancia": 8,
-      "url": "https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026/",
+      "url": "https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -156,34 +151,34 @@
       "tags": []
     },
     {
-      "id": "64cb2b530f",
+      "id": "de1d364500",
       "tema": "ia",
-      "titular_es": "macOS 27: Workaround to avoid downloading AI models and save storage",
+      "titular_es": "US halts flights at busy East Coast airports, says fiber line cut",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 7,
-      "url": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/",
-      "fuente": "reddit.com (vía HN)",
+      "url": "https://www.reuters.com/world/us/faa-halts-some-us-east-coast-flights-due-communication-issues-2026-09-21/",
+      "fuente": "reuters.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "1596b4114c",
+      "id": "d5f3f41d2e",
       "tema": "finanzas",
-      "titular_es": "Stock market today: Nasdaq leads Dow, S&P 500 higher as chip stocks and bitcoin rally, oil prices fall",
+      "titular_es": "Best CD rates today, Monday, September 21, 2026: Lock in up to 4.40% APY",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 7,
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-21-dow-sp-500-nasdaq-080214605.html",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-september-21-2026-lock-in-up-to-440-apy-100000956.html",
       "fuente": "finance.yahoo.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "10defbfb15",
+      "id": "dd0d90e109",
       "tema": "emprendimiento",
-      "titular_es": "Corridor raises $25M seed to build a health benefits brokerage for SMBs",
-      "resumen": "Corridor focuses on SMBs, which it says traditional brokerages often overlook because small accounts generate lower commissions than larger accounts.",
+      "titular_es": "Meet the next wave of VCs judging Startup Battlefield 200 at TechCrunch Disrupt 2026",
+      "resumen": "Meet the next wave of VCs judging the Startup Battlefield 200 contenders on the main stage at TechCrunch Disrupt 2026. Register by September 25 at 11:59 p.m. PT, to save up to $200 and to get a front-row seat to one of the most intense startup pitch competitions.",
       "relevancia": 7,
-      "url": "https://techcrunch.com/2026/09/21/corridor-raises-25m-seed-to-build-a-health-benefits-brokerage-for-smbs/",
+      "url": "https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -200,34 +195,34 @@
       "tags": []
     },
     {
-      "id": "50409e7062",
+      "id": "5bcc90070f",
       "tema": "ia",
-      "titular_es": "What Sun got wrong",
+      "titular_es": "Turn off and restrict access to Apple Intelligence features on Mac",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 6,
-      "url": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
-      "fuente": "bcantrill.dtrace.org (vía HN)",
+      "url": "https://support.apple.com/guide/mac-help/turn-restrict-access-apple-intelligence-mchlb2e44f94/mac",
+      "fuente": "support.apple.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "35dd183618",
+      "id": "2aa3a0ea7f",
       "tema": "finanzas",
-      "titular_es": "Signal Says This Software Stock Could Soon Break Out",
+      "titular_es": "HELOC and home equity loan rates today, Monday, September 21, 2026: A 33-basis-point differential",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 6,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/signal-says-software-stock-could-173505415.html",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-september-21-2026-a-33-basis-point-differential-100000210.html",
       "fuente": "finance.yahoo.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "a5761cc7a3",
+      "id": "10defbfb15",
       "tema": "emprendimiento",
-      "titular_es": "6 days left to save up to $200 to TechCrunch Disrupt 2026",
-      "resumen": "Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.",
+      "titular_es": "Corridor raises $25M seed to build a health benefits brokerage for SMBs",
+      "resumen": "Corridor focuses on SMBs, which it says traditional brokerages often overlook because small accounts generate lower commissions than larger accounts.",
       "relevancia": 6,
-      "url": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
+      "url": "https://techcrunch.com/2026/09/21/corridor-raises-25m-seed-to-build-a-health-benefits-brokerage-for-smbs/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -244,34 +239,34 @@
       "tags": []
     },
     {
-      "id": "ce51cb90b8",
+      "id": "117d886bf3",
       "tema": "ia",
-      "titular_es": "M5 Ultra Mac Studio Review",
+      "titular_es": "Fable 5 – Median thinking declined in August",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 5,
-      "url": "https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/",
-      "fuente": "macstories.net (vía HN)",
+      "url": "https://twitter.com/Lon/status/2101793422487204027",
+      "fuente": "twitter.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "1f43857887",
+      "id": "4acfab2281",
       "tema": "finanzas",
-      "titular_es": "Loren Finegold, Ed Comber Join Vinson & Elkins NY Practice, Finance & Infrastructure Growth",
+      "titular_es": "Best high-yield savings interest rates today, Monday, September 21, 2026: Earn up to 4.10% APY",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 5,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/loren-finegold-ed-comber-join-173054582.html",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-monday-september-21-2026-earn-up-to-410-apy-100000921.html",
       "fuente": "finance.yahoo.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "8e19f4707d",
+      "id": "f7a6f32a17",
       "tema": "emprendimiento",
-      "titular_es": "ScrollEd wants to turn textbooks into TikTok",
-      "resumen": "ScrollEd turns textbooks into a scrollable, Instagram-like feed with video, audio, and quizzes. The Palo Alto startup, founded by student co-founders (and spouses) Utsav Gupta and Rebecca Neff, pitches at TechCrunch Disrupt.",
+      "titular_es": "Oura’s $2.2B IPO is mostly a payday for existing shareholders",
+      "resumen": "Forerunner Ventures plans to sell its entire stake in Oura for as much as $1.26 billion, according to Oura's latest IPO filing.",
       "relevancia": 5,
-      "url": "https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/",
+      "url": "https://techcrunch.com/2026/09/21/ouras-2-2b-ipo-is-mostly-a-payday-for-existing-shareholders/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -288,24 +283,24 @@
       "tags": []
     },
     {
-      "id": "0b598043f2",
+      "id": "445ea2dff5",
       "tema": "ia",
-      "titular_es": "Raspberry Pi blocks changing RAM chips",
+      "titular_es": "Grok 4.7",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 4,
-      "url": "https://forums.raspberrypi.com/viewtopic.php?p=2380887#p2380888",
-      "fuente": "forums.raspberrypi.com (vía HN)",
+      "url": "https://x.ai/news/grok-4-7",
+      "fuente": "x.ai (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "997285d6b4",
+      "id": "8a56492d2d",
       "tema": "finanzas",
-      "titular_es": "Stock Market Today: Dow Up, Nasdaq Roars As Micron Tests Entry; Bessent Touts China Progress (Live Coverage)",
+      "titular_es": "Mortgage and refinance interest rates today, Monday, September 21, 2026: Refinance rates mostly lower",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 4,
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-treasury-yields-nvidia-stock-nvda-buy-point/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-monday-september-21-2026-refinance-rates-mostly-lower-100000495.html",
+      "fuente": "finance.yahoo.com",
       "bandera": "🌍",
       "tags": []
     },
@@ -321,24 +316,13 @@
       "tags": []
     },
     {
-      "id": "94c8460a83",
+      "id": "5d61054796",
       "tema": "ia",
-      "titular_es": "Ask HN: Is it impossible to disable Siri on macOS 27?",
-      "resumen": "I disabled Siri in the Settings app, and then further disabled Siri and its extensions in Settings > Screen Time. Next, I disabled all Siri-related and Apple Intelligence-related services as per https://github.com/OleksandrKrupko/mac-os-debloat But after restarting, I could still see a \"Siri\" proces",
-      "relevancia": 3,
-      "url": "https://news.ycombinator.com/item?id=49786609",
-      "fuente": "news.ycombinator.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "259c746ec5",
-      "tema": "finanzas",
-      "titular_es": "Halliburton Signs Deals to Expand Venezuela Energy Presence",
+      "titular_es": "Attention is all you have",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 3,
-      "url": "https://finance.yahoo.com/energy/articles/halliburton-signs-deals-expand-venezuela-172503667.html",
-      "fuente": "finance.yahoo.com",
+      "url": "https://alicegg.tech/2026/09/21/attention",
+      "fuente": "alicegg.tech (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -354,24 +338,13 @@
       "tags": []
     },
     {
-      "id": "1128531f41",
+      "id": "50409e7062",
       "tema": "ia",
-      "titular_es": "ZuckOff is a free app that sees Meta glasses before they see you",
-      "resumen": "https://zuckoff.app/",
-      "relevancia": 2,
-      "url": "https://www.wired.me/story/meta-smart-glasses-detector-app-zuckoff",
-      "fuente": "wired.me (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "b95052a1ff",
-      "tema": "finanzas",
-      "titular_es": "Chip Stocks Rise As Four New Names Join SOX Index. AMD Breaks Out.",
+      "titular_es": "What Sun got wrong",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 2,
-      "url": "https://www.investors.com/news/technology/chip-stocks-amd-stock-four-new-names-join-sox-index/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
+      "url": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
+      "fuente": "bcantrill.dtrace.org (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -387,13 +360,13 @@
       "tags": []
     },
     {
-      "id": "e96dab974e",
+      "id": "f08142cb1b",
       "tema": "ia",
-      "titular_es": "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5",
+      "titular_es": "Python Workers are now generally available",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 1,
-      "url": "https://github.com/jaredpalmer/kev/tree/main",
-      "fuente": "github.com (vía HN)",
+      "url": "https://blog.cloudflare.com/python-workers-ga/",
+      "fuente": "blog.cloudflare.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
