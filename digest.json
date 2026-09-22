@@ -1,6 +1,6 @@
 {
   "fecha": "2026-09-22",
-  "generado_utc": "2026-09-22T16:25:03Z",
+  "generado_utc": "2026-09-22T22:34:16Z",
   "indicadores": {
     "dolar": {
       "valor": 952,
@@ -13,7 +13,7 @@
       "variacion_pct": 0.02
     }
   },
-  "noticia_del_dia": "8a69f658d4",
+  "noticia_del_dia": "3b73af80ba",
   "pildora_ia": "Función de pérdida (loss): el número que mide qué tan equivocado está el modelo. Todo el entrenamiento consiste en minimizarlo; elegir bien la loss define qué aprende realmente el modelo.",
   "pildoras_ia": [
     "Función de pérdida (loss): el número que mide qué tan equivocado está el modelo. Todo el entrenamiento consiste en minimizarlo; elegir bien la loss define qué aprende realmente el modelo.",
@@ -24,389 +24,394 @@
   ],
   "noticias": [
     {
-      "id": "8a69f658d4",
+      "id": "3b73af80ba",
       "tema": "ia",
-      "titular_es": "I asked Meta’s Muse for its filesystem and it sent me 6.8GB",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 10,
-      "url": "https://mouse.dev/blog/muse-runtime-export/",
-      "fuente": "mouse.dev (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "a47ccd44b8",
-      "tema": "finanzas",
-      "titular_es": "Stock market today: Dow slips, Nasdaq and S&P 500 drift higher as oil pares losses after Trump's UN address",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 10,
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-22-nasdaq-dow-sp-500-080625961.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "8fdc384c01",
-      "tema": "emprendimiento",
-      "titular_es": "Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda",
-      "resumen": "At TechCrunch Disrupt 2026, five sessions across the AI Stage and Real World AI Stage cover AI safety, featuring leaders from Anthropic, NVIDIA, AWS, Waabi, and more. Register now to save up to $200 before Sept 25.",
-      "relevancia": 10,
-      "url": "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "fbbb2f4877",
-      "tema": "ciencia",
-      "titular_es": "Roundtables: The Deadly Failures of The Virtual Border Wall",
-      "resumen": "The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review has documented over a thousand people",
-      "relevancia": 10,
-      "url": "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "2bec6e6add",
-      "tema": "ia",
-      "titular_es": "Apple has added persistent 'ads' to iOS, and it's driving users crazy",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "Anthropic lanza Claude Opus 5.5 con mayores salvaguardas contra ciberataques",
+      "resumen": "Anthropic anunció formalmente Claude Opus 5.5, su modelo más avanzado que incluye defensas reforzadas para evitar escapes de entornos de prueba controlados ('sandbox').\nLa actualización llega tras recientes incidentes en el sector donde modelos frontera demostraron habilidades no supervisadas de explotación informática.\nEl modelo establece un nuevo estándar de seguridad y alineación para entornos de alta exigencia algorítmica.",
       "relevancia": 9,
-      "url": "https://www.techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy",
-      "fuente": "techradar.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
+      "url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "seguridad IA"
+      ]
     },
     {
-      "id": "246d26bae1",
-      "tema": "finanzas",
-      "titular_es": "Microsoft Scores Positive Reviews On AI Momentum",
-      "resumen": "(Sin descripción disponible.)",
+      "id": "ad91a4eece",
+      "tema": "ia",
+      "titular_es": "El Pentágono afirma que el exceso de confianza en la IA contribuyó al ataque con misiles contra una escuela en Irán",
+      "resumen": "Una investigación oficial reveló que la excesiva dependencia de sistemas automatizados de selección de objetivos derivó en un ataque con misiles erróneo sobre un centro educativo en Irán.\nEl incidente expone los peligros críticos del despliegue de modelos predictivos en operaciones bélicas sin una adecuada supervisión humana.\nEl informe abre un debate urgente sobre la rendición de cuentas y la fiabilidad de los algoritmos en defensa militar.",
       "relevancia": 9,
-      "url": "https://www.investors.com/news/technology/microsoft-stock-positive-reviews-ai-momentum/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
-      "bandera": "🌍",
-      "tags": []
+      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+      "fuente": "bloomberg.com (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "defensa",
+        "IA bélica",
+        "Pentágono"
+      ]
     },
     {
-      "id": "7c8fe9cba5",
+      "id": "84a303211c",
       "tema": "emprendimiento",
-      "titular_es": "TechCrunch Disrupt 2026: Aaron Edsinger brings Hello Robot’s Stretch 4 to life onstage",
-      "resumen": "Hello Robot CEO and co-founder Aaron Edsinger will bring Stretch 4 for a live demo on the Real World AI Stage at TechCrunch Disrupt 2026. Register before September 25 to save up to $200, plus get a second pass at 50% off.",
+      "titular_es": "Snorkel AI alcanza una valuación de US$3.500 millones tras levantar US$350 millones",
+      "resumen": "La startup Snorkel AI cerró una ronda Serie E para acelerar su plataforma de curación, etiquetado y gestión de datos sintéticos orientados a modelos frontera.\nEl valor de la compañía se triplicó en respuesta a la escasez crítica de datos corporativos de alta calidad para entrenar agentes autónomos.\nLa operación valida que la capa de preparación de datos se ha convertido en el negocio más codiciado del auge de la inteligencia artificial.",
       "relevancia": 9,
-      "url": "https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/",
+      "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
       "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "69b662349c",
-      "tema": "ciencia",
-      "titular_es": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality",
-      "resumen": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Don’t be fooled by this summer of AI hype —Timnit Gebru, executive director of the Distributed AI Research Institute (DAIR), and Emily M. Bender, professor of lin",
-      "relevancia": 9,
-      "url": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "661f87df20",
-      "tema": "ia",
-      "titular_es": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 8,
-      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
-      "fuente": "cryptocellar.org (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "cb6e3dfb3d",
-      "tema": "finanzas",
-      "titular_es": "As Amazon Stock Prospers, Traders Might Consider This Option Play",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 8,
-      "url": "https://www.investors.com/research/options/amazon-amzn-stock-bull-put-spread-options/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "d047be013a",
-      "tema": "emprendimiento",
-      "titular_es": "Exhibit tables added: One last chance to showcase your startup at TechCrunch Disrupt 2026",
-      "resumen": "We have reopened our exhibitor program for 1 more week. Book your exhibit table by September 30 at 11:59 p.m. PT and showcase your startup in front of 10,000+ founders, investors, and tech leaders at SF's Moscone West from October 13-15.",
-      "relevancia": 8,
-      "url": "https://techcrunch.com/2026/09/22/exhibitor-program-reopened-book-by-sept-30/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "d185f661c7",
-      "tema": "ciencia",
-      "titular_es": "Don’t be fooled by this summer of AI hype",
-      "resumen": "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face hacking incident, after which Anthropic (proudly) and Meta (reluctantly) disclose",
-      "relevancia": 8,
-      "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "486e045c80",
-      "tema": "ia",
-      "titular_es": "9 Ads per Minute: FIFA Cup 26 – \"the price of the beautiful game\"",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 7,
-      "url": "https://www.bristol.ac.uk/news/2026/september/world-cup-viewers.html",
-      "fuente": "bristol.ac.uk (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "b12dcc752c",
-      "tema": "finanzas",
-      "titular_es": "Obama says AI flipped from 90% human-taught to 50/50 in under a year — the six-figure jobs he says go first",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 7,
-      "url": "https://finance.yahoo.com/technology/ai/articles/obama-says-ai-flipped-90-153000409.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "6d9c628eaa",
-      "tema": "emprendimiento",
-      "titular_es": "4 days to save up to $200: Reason 2 of 5 to be at TechCrunch Disrupt 2026",
-      "resumen": "Save up to $200 on your TechCrunch Disrupt 2026 pass, plus 50% off a second pass before prices increase on September 25 at 11:59 p.m. PT. Register today.",
-      "relevancia": 7,
-      "url": "https://techcrunch.com/2026/09/22/4-days-to-save-up-to-200-reason-2-of-5-to-be-at-techcrunch-disrupt-2026/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "a74ac228f8",
-      "tema": "ciencia",
-      "titular_es": "This emerging treatment could help people avoid knee replacement surgery",
-      "resumen": "A minimally invasive procedure called genicular artery embolization could offer a new middle ground between conservative treatments and knee replacement for osteoarthritis. By blocking tiny blood vessels associated with inflammation, GAE can significantly reduce pain, with some patients reporting li",
-      "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260922052030.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "a1cf5bad9f",
-      "tema": "ia",
-      "titular_es": "AMD's random number generator can't generate a 0?",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 6,
-      "url": "https://board.flatassembler.net/topic.php?t=24261",
-      "fuente": "board.flatassembler.net (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "58eb89aaa7",
-      "tema": "finanzas",
-      "titular_es": "Global diesel shortage from Iran, Ukraine wars to last into 2027",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 6,
-      "url": "https://finance.yahoo.com/energy/articles/global-diesel-shortage-iran-ukraine-181721706.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "008028ffb0",
-      "tema": "emprendimiento",
-      "titular_es": "Singapore’s Nexstrom wants to bring 2D semiconductors to chip fabs",
-      "resumen": "Singapore-based Nexstrom has raised new funding to develop equipment that could help chipmakers manufacture 2D semiconductor materials at scale.",
-      "relevancia": 6,
-      "url": "https://techcrunch.com/2026/09/22/singapores-nexstrom-wants-to-bring-2d-semiconductors-to-chip-fabs/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "2075500425",
-      "tema": "ciencia",
-      "titular_es": "Coffee doesn’t have to keep you awake to disrupt your sleep",
-      "resumen": "Caffeine may make sleep less restorative even when you fall asleep normally and stay in bed for eight hours, with EEG recordings revealing fewer of the slow brain waves associated with deep sleep. Individual sensitivity varies dramatically, meaning even caffeine consumed earlier in the day could aff",
-      "relevancia": 6,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260922005719.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "ea265ee81a",
-      "tema": "ia",
-      "titular_es": "I said no and Apple said yes",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 5,
-      "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
-      "fuente": "dbushell.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "f702e835a4",
-      "tema": "finanzas",
-      "titular_es": "Circle Stock Spikes As Binance Takes $100 Million Slice",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 5,
-      "url": "https://www.investors.com/news/circle-stock-spikes-as-binance-takes-100-million-slice/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "7436dc147e",
-      "tema": "emprendimiento",
-      "titular_es": "Meta deal will help plastics recycling startup MacroCycle build its first factory",
-      "resumen": "Meta is giving plastic recycling a boost in a new deal with startup MacroCycle, which is building its first commercial plant.",
-      "relevancia": 5,
-      "url": "https://techcrunch.com/2026/09/22/meta-deal-will-help-plastics-recycling-startup-macrocycle-build-its-first-factory/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "4d4c4a947b",
-      "tema": "ciencia",
-      "titular_es": "The end of humanity? What would happen if the Yellowstone supervolcano erupted now",
-      "resumen": "A Yellowstone super-eruption would begin not with a sudden surprise, but with weeks of increasingly alarming warning signs such as migrating earthquake swarms, rapid ground uplift, changing geysers, and rising volcanic gases. In a worst-case scenario, those signals could culminate in a VEI 8 eruptio",
-      "relevancia": 5,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260922005655.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "412039d144",
-      "tema": "ia",
-      "titular_es": "Can gzip be a language model?",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 4,
-      "url": "https://nathan.rs/posts/gzip-lm/",
-      "fuente": "nathan.rs (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "4cd7415003",
-      "tema": "finanzas",
-      "titular_es": "Stock Market Today: Dow Slips But Apple Touches A Buy Point; Homebuilder, Retailer Funds Shine (Live Coverage)",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 4,
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-us-iran-peace-hopes-oil-prices-treasury-yields/?src=A00220&yptr=yahoo",
-      "fuente": "investors.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "01c401f4c1",
-      "tema": "ciencia",
-      "titular_es": "Stem cells reverse stroke damage and restore movement in mice",
-      "resumen": "Stem cell transplants helped regenerate stroke-damaged brain tissue in mice, producing new neurons and restoring lost motor function. The treatment also improved blood vessels, inflammation, and the blood-brain barrier, raising hopes that a similar approach could eventually help repair the human bra",
-      "relevancia": 4,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260921081116.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "799031348b",
-      "tema": "ia",
-      "titular_es": "MiMo-v2.6-Pro: Intelligence, Performance and Price Analysis",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 3,
-      "url": "https://artificialanalysis.ai/models/mimo-v2-6-pro",
-      "fuente": "artificialanalysis.ai (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "5c44270be9",
-      "tema": "finanzas",
-      "titular_es": "Maximus’ (MMS) Tech Capabilities and Beaten-Down Valuation Point to M&A Upside",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 3,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/maximus-mms-tech-capabilities-beaten-152142153.html",
-      "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "Snorkel AI",
+        "financiamiento",
+        "datos"
+      ]
     },
     {
       "id": "81a30e3672",
       "tema": "ciencia",
-      "titular_es": "MIT’s tiny flying robot gets 450% faster with AI",
-      "resumen": "A new AI control system lets MIT’s tiny flying robot move with insect-like agility, boosting its speed by about 450 percent and allowing it to pull off 10 somersaults in 11 seconds. The technology could eventually enable miniature robots to search earthquake rubble and navigate dangerous spaces that",
-      "relevancia": 3,
+      "titular_es": "El robot aéreo diminuto del MIT multiplica su velocidad un 450% gracias a un control por IA",
+      "resumen": "Ingenieros del MIT diseñaron un controlador neuronal de vuelo que permite a microrrobots aéreos ejecutar maniobras acrobáticas con agilidad biológica.\nEl algoritmo optimizado aumentó la velocidad del vehículo en un 450% y permitió ejecutar diez volteretas consecutivas en once segundos.\nLa plataforma sienta las bases para utilizar enjambres robóticos en tareas de rescate en estructuras colapsadas e inspecciones inaccesibles.",
+      "relevancia": 9,
       "url": "https://www.sciencedaily.com/releases/2026/09/260921081114.htm",
       "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "robótica",
+        "MIT",
+        "control autónomo"
+      ]
     },
     {
-      "id": "f6c24c09b6",
+      "id": "2cd558ba02",
+      "tema": "ciencia",
+      "titular_es": "Científicos de Stanford observan por primera vez saltos cuánticos en ondas de sonido",
+      "resumen": "Físicos lograron registrar en tiempo real la transición discreta de fonones individuales entre estados energéticos dentro de un resonador acústico cuántico.\nEl fenómeno confirma experimentalmente que las ondas sonoras cuantizadas obedecen los mismos saltos abruptos predichos para los fotones.\nEl logro abre caminos inéditos para la memoria acústica en computación cuántica y sensores mecánicos ultraprecisos.",
+      "relevancia": 9,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260921081054.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "física cuántica",
+        "Stanford",
+        "fonones"
+      ]
+    },
+    {
+      "id": "444cb4f5fa",
       "tema": "ia",
-      "titular_es": "Spymarks, Not Watermarks",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 2,
-      "url": "https://brand.io/article/spymarks/",
-      "fuente": "brand.io (vía HN)",
-      "bandera": "🌍",
-      "tags": []
+      "titular_es": "Ciberdelincuentes afirman haber vulnerado al FBI y obtenido datos de todos sus empleados",
+      "resumen": "Un grupo de atacantes asegura haber infiltrado sistemas federales estadounidenses y sustraído registros confidenciales pertenecientes a la totalidad de la plantilla del FBI.\nDe confirmarse la veracidad de la filtración, implicaría una falla de seguridad mayúscula para una de las agencias de inteligencia más protegidas del mundo.\nEl vector de ataque y la integridad de las bases de datos comprometidas continúan bajo estricta investigación.",
+      "relevancia": 8,
+      "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
+      "fuente": "404media.co (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "ciberseguridad",
+        "FBI",
+        "hackeo"
+      ]
     },
     {
-      "id": "ff96b83ba0",
+      "id": "626ad6bf93",
+      "tema": "ia",
+      "titular_es": "Qualcomm anuncia el Snapdragon 8 Elite Gen 6 junto con una variante Extreme",
+      "resumen": "Qualcomm desveló su nueva generación de procesadores insignia para móviles, encabezada por el Snapdragon 8 Elite Gen 6 y una versión 'Extreme' de mayor rendimiento.\nLos nuevos componentes destacan por un salto considerable en potencia de procesamiento neural (NPU) para modelos generativos en el dispositivo y captura de video.\nEsta arquitectura definirá la gama alta de dispositivos Android de cara al próximo ciclo de hardware móvil.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/gadgets/998842/qualcomm-snapdragon-8-elite-extreme-gen-6",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Qualcomm",
+        "chips",
+        "hardware"
+      ]
+    },
+    {
+      "id": "5113a9b5d6",
       "tema": "finanzas",
-      "titular_es": "What Makes CRA International (CRAI) an Investment Bet?",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 2,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/makes-cra-international-crai-investment-151656266.html",
-      "fuente": "finance.yahoo.com",
+      "titular_es": "Vista captó US$400 millones en Wall Street para acelerar inversiones en Vaca Muerta",
+      "resumen": "La operadora energética amplió su emisión de deuda con vencimiento en 2038, acumulando un total colocado de US$900 millones a una tasa de corte del 7,95%.\nLos fondos se volcarán directamente al desarrollo de pozos no convencionales y capacidad de evacuación de crudo en la cuenca neuquina.\nLa colocación refleja la demanda inversora internacional por activos corporativos energéticos vinculados al shale argentino.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/vista-capto-us400-millones-en-wall-street-para-acelerar-en-vaca-muerta/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇦🇷",
+      "tags": [
+        "Vaca Muerta",
+        "energía",
+        "bonos"
+      ]
+    },
+    {
+      "id": "79e582a6ff",
+      "tema": "finanzas",
+      "titular_es": "El índice Merval cambiará en octubre: MSCI relevará a S&P como administrador oficial",
+      "resumen": "A partir del 19 de octubre, MSCI asumirá la administración y el cálculo metodológico del índice bursátil de referencia de Argentina en reemplazo de S&P.\nLa transición modificará la composición y ponderación de los activos locales, impactando los flujos de fondos cotizados (ETFs) globales.\nEl movimiento busca alinear la plaza porteña con los estándares mundiales de liquidez y gobernanza institucional.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/el-merval-cambia-desde-octubre-msci-reemplaza-a-sp-y-esto-se-sabe-sobre-el-nuevo-indice/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇦🇷",
+      "tags": [
+        "Merval",
+        "MSCI",
+        "bolsa"
+      ]
+    },
+    {
+      "id": "7133a9134f",
+      "tema": "finanzas",
+      "titular_es": "El Nasdaq marca un nuevo récord histórico impulsado por el sector de inteligencia artificial",
+      "resumen": "Wall Street cerró con nuevas marcas máximas en el índice tecnológico gracias a las ganancias de los valores semiconductores y de software de IA.\nEn contraste, el crudo experimentó retrocesos significativos ante indicios de apertura diplomática en las negociaciones entre Estados Unidos e Irán.\nLos inversores mantienen su apetito por el riesgo a la espera de definiciones clave sobre la senda de tasas de la Reserva Federal.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/mercados/sp-500-opera-con-pocos-cambios-mientras-el-petroleo-cae-y-las-tecnologicas-moderan-avances/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Nasdaq",
+        "Wall Street",
+        "petróleo"
+      ]
+    },
+    {
+      "id": "1d44f250c7",
+      "tema": "finanzas",
+      "titular_es": "Caputo confirmó ante banqueros en JPMorgan que Argentina no emitirá deuda externa por ahora",
+      "resumen": "El ministro Luis Caputo se reunió en Nueva York con medio centenar de administradores de fondos y descartó colocar bonos soberanos bajo los costos actuales.\nEl funcionario aclaró que solo consideraría regresar a los mercados voluntarios si el riesgo país cede de forma sustancial antes del calendario electoral.\nLa señal busca calmar a los tenedores de títulos públicos garantizando disciplina fiscal y cumplimiento de pagos sin endeudamiento adicional.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/caputo-ratifica-ante-inversores-en-jpmorgan-que-no-saldra-a-colocar-deuda-internacional/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇦🇷",
+      "tags": [
+        "deuda",
+        "Argentina",
+        "JPMorgan"
+      ]
+    },
+    {
+      "id": "262004370c",
+      "tema": "emprendimiento",
+      "titular_es": "Andreessen Horowitz crea una academia de formación para fundadores junto a Google y Meta",
+      "resumen": "La firma de capital riesgo a16z anunció el lanzamiento de un programa educativo práctico sin tareas tradicionales para jóvenes con vocación tecnológica.\nLa iniciativa cuenta con el respaldo directo de empresas como OpenAI, Nvidia, Palantir y Anthropic para nutrir de talento técnico a nuevas empresas de Silicon Valley.\nEl modelo desafía la educación universitaria tradicional acelerando el salto de los graduados al ecosistema emprendedor.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "a16z",
+        "talento",
+        "venture capital"
+      ]
+    },
+    {
+      "id": "008028ffb0",
+      "tema": "emprendimiento",
+      "titular_es": "La singapurense Nexstrom levanta capital para fabricar semiconductores 2D a escala",
+      "resumen": "Nexstrom aseguró financiamiento para construir maquinaria industrial orientada a la producción de materiales semiconductores bidimensionales en fábricas existentes.\nLa tecnología busca superar las barreras físicas del silicio convencional permitiendo transistores atómicamente delgados de altísima eficiencia energética.\nEl avance posiciona al sudeste asiático como un nodo de innovación profunda en equipamiento para fundiciones de vanguardia.",
+      "relevancia": 8,
+      "url": "https://techcrunch.com/2026/09/22/singapores-nexstrom-wants-to-bring-2d-semiconductors-to-chip-fabs/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇸🇬",
+      "tags": [
+        "Nexstrom",
+        "semiconductores",
+        "deep tech"
+      ]
+    },
+    {
+      "id": "7436dc147e",
+      "tema": "emprendimiento",
+      "titular_es": "MacroCycle sella una alianza con Meta para levantar su primera planta de reciclaje de plástico",
+      "resumen": "La startup de química limpia MacroCycle cerró un acuerdo comercial con Meta que financiará la construcción de su primera instalación industrial a gran escala.\nLa tecnología de la firma despolimeriza plásticos complejos mediante procesos de bajo consumo energético sin degradar la pureza del material final.\nEl acuerdo aporta tracción operativa y viabilidad económica a la descarbonización de la cadena de suministro de productos electrónicos.",
+      "relevancia": 8,
+      "url": "https://techcrunch.com/2026/09/22/meta-deal-will-help-plastics-recycling-startup-macrocycle-build-its-first-factory/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "MacroCycle",
+        "reciclaje",
+        "sostenibilidad"
+      ]
+    },
+    {
+      "id": "ca65721513",
+      "tema": "emprendimiento",
+      "titular_es": "Morphotonics capta €40 millones para aplicar nanoestructuras ópticas en centros de datos",
+      "resumen": "La compañía de tecnología profunda Morphotonics completó una ronda de financiación liderada por 3M Ventures y fondos institucionales europeos.\nLa startup transferirá su técnica de nanoimpresión óptica a la interconexión fotónica de servidores para reducir drásticamente el consumo en centros de datos.\nLa inversión permitirá escalar la producción de componentes capaces de descongestionar el tráfico en infraestructuras de cómputo intensivo.",
+      "relevancia": 8,
+      "url": "https://techcrunch.com/2026/09/21/morphotonics-raises-e40m-as-it-tk-tk-tk-t/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇳🇱",
+      "tags": [
+        "Morphotonics",
+        "fotónica",
+        "data centers"
+      ]
+    },
+    {
+      "id": "a74ac228f8",
+      "tema": "ciencia",
+      "titular_es": "Un procedimiento mínimamente invasivo podría evitar las cirugías de reemplazo de rodilla",
+      "resumen": "La embolización de la arteria genicular (GAE) demostró reducciones notables del dolor en pacientes con osteoartritis severa mediante el bloqueo de microvasos inflamatorios.\nEl método ambulatorio ofrece una opción intermedia viable frente a las costosas y complejas artroplastias de rodilla.\nLos ensayos clínicos reportan mejoras sustanciales en la movilidad de pacientes que habían agotado las terapias analgésicas tradicionales.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260922052030.htm",
+      "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "medicina",
+        "biomedicina",
+        "salud"
+      ]
+    },
+    {
+      "id": "01c401f4c1",
+      "tema": "ciencia",
+      "titular_es": "Terapia con células madre logra revertir secuelas motoras tras un ictus en ratones",
+      "resumen": "Un equipo científico consiguió regenerar tejido cerebral dañado por accidentes cerebrovasculares en modelos murinos mediante trasplantes de células madre especializadas.\nEl procedimiento facilitó la neurogénesis, reconstituyó la barrera hematoencefálica y restauró por completo la movilidad perdida.\nEl descubrimiento abre una ruta prometedora para diseñar tratamientos regenerativos en humanos durante etapas crónicas post-infarto cerebral.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260921081116.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "células madre",
+        "ictus",
+        "neurociencia"
+      ]
     },
     {
       "id": "21c1de0d03",
       "tema": "ciencia",
-      "titular_es": "This new concrete is stronger and pulls CO2 from the air",
-      "resumen": "Researchers have created a concrete mixture that is both stronger and capable of absorbing carbon dioxide. The best formula, combining zeolite with bamboo biochar, boosted compressive strength by 7.48% and tensile strength by 15% compared with conventional concrete. It also captured about 1.2 grams ",
-      "relevancia": 2,
+      "titular_es": "Crean un nuevo hormigón más resistente que captura dióxido de carbono de la atmósfera",
+      "resumen": "Investigadores desarrollaron una mezcla de concreto enriquecida con zeolita y biocarbón de bambú que absorbe activamente CO2 durante su fraguado.\nEl material incrementó su resistencia a la compresión en un 7,5% y a la tracción en un 15% respecto al estándar industrial.\nEl avance ofrece una solución escalable para descarbonizar la industria de la construcción sin comprometer la integridad estructural.",
+      "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/09/260921081105.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "materiales",
+        "hormigón",
+        "captura de carbono"
+      ]
     },
     {
-      "id": "da19df0404",
-      "tema": "ia",
-      "titular_es": "I don't want to read what you didn't write",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 1,
-      "url": "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
-      "fuente": "blog.colinbreck.com (vía HN)",
+      "id": "f89b4590a0",
+      "tema": "ciencia",
+      "titular_es": "Escaneos cerebrales revelan el origen del cansancio extremo en el COVID prolongado",
+      "resumen": "Un estudio clínico identificó alteraciones orgánicas directas en las neuronas dopaminérgicas de pacientes con síntomas persistentes de COVID-19.\nEl déficit en la síntesis y recepción de dopamina explica cuadros crónicos de fatiga incapacitante, lentitud motora y niebla mental.\nEl hallazgo proporciona por primera vez un biomarcador claro para evaluar fármacos dirigidos al sistema dopaminérgico.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260920222412.htm",
+      "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "long COVID",
+        "medicina",
+        "dopamina"
+      ]
+    },
+    {
+      "id": "7894b9fd8e",
+      "tema": "ia",
+      "titular_es": "Descubren fallo en WordPress que permite salto de directorios y ejecución remota de código",
+      "resumen": "Investigadores de seguridad identificaron una vulnerabilidad crítica sin autenticación previa que permite 'path traversal' en instalaciones de WordPress.\nEl fallo abre la puerta a una ejecución remota condicional de código arbitrario (RCE) en los servidores vulnerables.\nSe recomienda a los administradores de sistemas auditar sus despliegues y aplicar las actualizaciones de mitigación de inmediato.",
+      "relevancia": 7,
+      "url": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp",
+      "fuente": "github.com (vía HN)",
+      "bandera": "🌍",
+      "tags": [
+        "WordPress",
+        "ciberseguridad",
+        "vulnerabilidad"
+      ]
+    },
+    {
+      "id": "d0716c4b57",
+      "tema": "ia",
+      "titular_es": "El nuevo agente de IA de Rabbit ya no requiere el dispositivo R1 para ejecutarse",
+      "resumen": "Rabbit presentó OS3, un sistema operativo agéntico que opera en la nube y ejecuta tareas de forma local en Windows, Mac y Linux sin depender de su hardware propio.\nEl lanzamiento supone un giro estratégico tras las severas críticas recibidas por el desempeño de su dispositivo portátil R1.\nLa solución busca democratizar la automatización multiplataforma mediante agentes capaces de interactuar con interfaces complejas.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Rabbit",
+        "agentes IA",
+        "software"
+      ]
+    },
+    {
+      "id": "b60a043467",
+      "tema": "ia",
+      "titular_es": "Motorola presenta el Signature 27, el primer smartphone con el chip Extreme de Qualcomm",
+      "resumen": "Motorola se adelantó a la industria al confirmar que su próximo buque insignia, el Signature 27, montará el silicio Snapdragon 8 Elite Extreme Gen 6.\nEl dispositivo representa la apuesta más ambiciosa de la marca en años dentro del segmento prémium de alto rendimiento.\nLa compañía busca capitalizar capacidades nativas de computación de IA sin sacrificar eficiencia térmica ni autonomía.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/tech/998844/motorola-signature-27-specs-snapdragon-8-elite-extreme-gen-6",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Motorola",
+        "smartphones",
+        "hardware"
+      ]
+    },
+    {
+      "id": "d25222ba0d",
+      "tema": "ia",
+      "titular_es": "Meta corrige un exploit de día cero en Muse que permitía tomar el control del agente de IA",
+      "resumen": "Meta distribuyó un parche de emergencia para la aplicación de escritorio de Muse en macOS tras detectarse una vulnerabilidad de día cero.\nEl fallo, descubierto por el investigador Patrick Wardle, permitía a código local no autorizado manipular ajustes no documentados para controlar el agente.\nLa rápida mitigación subraya los desafíos de seguridad que surgen al integrar agentes autónomos con privilegios en el sistema operativo.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Meta",
+        "seguridad",
+        "cero-day"
+      ]
     },
     {
       "id": "040b747e97",
       "tema": "finanzas",
-      "titular_es": "Kalshi asks CFTC to allow margin trading on prediction markets",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 1,
+      "titular_es": "Kalshi solicita a la CFTC autorización para operar con margen en mercados de predicción",
+      "resumen": "La plataforma Kalshi presentó una solicitud formal ante los reguladores estadounidenses para habilitar operaciones apalancadas con margen en sus contratos de eventos.\nEl cambio permitiría a los inversores tomar posiciones de mayor volumen con menor capital inicial, aumentando notablemente la liquidez de la plataforma.\nLa decisión de la CFTC sentará un precedente crucial para la maduración institucional de los mercados predictivos.",
+      "relevancia": 7,
       "url": "https://finance.yahoo.com/markets/options/articles/kalshi-asks-cftc-allow-margin-123918880.html",
       "fuente": "finance.yahoo.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "Kalshi",
+        "derivados",
+        "regulación"
+      ]
+    },
+    {
+      "id": "0dd4ac8022",
+      "tema": "finanzas",
+      "titular_es": "Berkshire Hathaway inicia su transición generacional bajo el mando de Greg Abel",
+      "resumen": "El conglomerado financiero fundado por Warren Buffett estructura su nuevo esquema de liderazgo ejecutivo de cara a la era posterior al legendario inversor.\nEl principal desafío de Greg Abel consistirá en desplegar los más de 300.000 millones de dólares en efectivo sin comprometer los estrictos márgenes de rentabilidad histórica.\nLos mercados evalúan cómo responderá el modelo de inversión 'value' en un contexto marcado por gigantes tecnológicos.",
+      "relevancia": 7,
+      "url": "https://www.bloomberglinea.com/mercados/berkshire-hathaway-entra-en-la-era-de-greg-abel-y-howard-buffett-que-esperar-del-gigante-inversor/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Berkshire",
+        "inversiones",
+        "gestión"
+      ]
+    },
+    {
+      "id": "98aa854dd2",
+      "tema": "finanzas",
+      "titular_es": "Empresas argentinas emiten deuda corporativa en dólares con tasas mínimas del 5%",
+      "resumen": "Un informe de PwC detalló que firmas de primer orden como YPF, Pampa Energía y Grupo Galicia consiguieron fondearse a una tasa promedio del 5,1% anual.\nEl costo financiero se sitúa en su nivel más bajo en doce meses, disociándose de las primas de riesgo soberano vigentes.\nLa ventana de financiamiento permite a los grandes emisores refinanciar pasivos y programar capex en condiciones sumamente competitivas.",
+      "relevancia": 7,
+      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/tasas-del-5-estas-son-las-empresas-argentinas-que-emitieron-deuda-en-dolares-al-menor-costo-en-un-ano/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇦🇷",
+      "tags": [
+        "obligaciones negociables",
+        "crédito",
+        "empresas"
+      ]
     }
   ]
 }
