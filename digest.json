@@ -1,6 +1,6 @@
 {
   "fecha": "2026-09-25",
-  "generado_utc": "2026-09-25T16:42:45Z",
+  "generado_utc": "2026-09-25T22:59:44Z",
   "indicadores": {
     "dolar": {
       "valor": 965.71,
@@ -13,7 +13,7 @@
       "variacion_pct": 0.02
     }
   },
-  "noticia_del_dia": "d7abee83d6",
+  "noticia_del_dia": "e155cd989b",
   "pildora_ia": "Ventana de contexto: la cantidad máxima de tokens que un LLM puede 'ver' a la vez (prompt + respuesta). Si te pasas, olvida el inicio. Los modelos modernos van de miles a millones de tokens.",
   "pildoras_ia": [
     "Ventana de contexto: la cantidad máxima de tokens que un LLM puede 'ver' a la vez (prompt + respuesta). Si te pasas, olvida el inicio. Los modelos modernos van de miles a millones de tokens.",
@@ -24,13 +24,13 @@
   ],
   "noticias": [
     {
-      "id": "d7abee83d6",
+      "id": "e155cd989b",
       "tema": "ia",
-      "titular_es": "Allow Carriers on Planes",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "Alan Kay: Shannon gave us a way of dealing with noisy channels [video]",
+      "resumen": "The following explanation is taken from https://news.ycombinator.com/item?id=49622607 : Alan Kay performs an improvisational avant garde layered audio feedback loop about Claude Shannon, live online during Kristen Nygaard's 100-year birthday celebration. Alan was scheduled to talk about how encounte",
       "relevancia": 10,
-      "url": "https://www.jefftk.com/p/allow-carriers-on-planes",
-      "fuente": "jefftk.com (vía HN)",
+      "url": "https://www.youtube.com/watch?v=Cjntrqhn8pk",
+      "fuente": "youtube.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -46,12 +46,12 @@
       "tags": []
     },
     {
-      "id": "c9621711fc",
+      "id": "49ebd97751",
       "tema": "emprendimiento",
-      "titular_es": "TechCrunch Disrupt 2026: Ricursive Intelligence’s Anna Goldie and Azalia Mirhoseini on when AI starts designing its own hardware",
-      "resumen": "At TechCrunch Disrupt 2026, Ricursive Intelligence co-founders Anna Goldie and Azalia Mirhoseini will take the Disrupt Stage to discuss closing the loop between AI and chip development Save up to $200 on your pass before today ends.",
+      "titular_es": "Mark Wahlberg is coming to TechCrunch Disrupt 2026, and he wants to talk about your work, not his",
+      "resumen": "Mark Wahlberg joins Bruce K. Lee at Disrupt to discuss investing, entrepreneurship, healthcare, wellness, and building businesses.",
       "relevancia": 10,
-      "url": "https://techcrunch.com/2026/09/25/techcrunch-disrupt-2026-ricursive-intelligences-anna-goldie-and-azalia-mirhoseini-on-when-ai-starts-designing-its-own-hardware/",
+      "url": "https://techcrunch.com/2026/09/25/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -68,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "700eb0cf89",
+      "id": "45a03e4068",
       "tema": "ia",
-      "titular_es": "Platform-Independent SIMD in Go",
+      "titular_es": "Ollaya – Ollama for open-source, Jev-style decision models",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 9,
-      "url": "https://go.dev/blog/simd-experiment",
-      "fuente": "go.dev (vía HN)",
+      "url": "https://ollaya.dev/",
+      "fuente": "ollaya.dev (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -90,12 +90,12 @@
       "tags": []
     },
     {
-      "id": "1c04fad4c9",
+      "id": "c9621711fc",
       "tema": "emprendimiento",
-      "titular_es": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
-      "resumen": "Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people.",
+      "titular_es": "TechCrunch Disrupt 2026: Ricursive Intelligence’s Anna Goldie and Azalia Mirhoseini on when AI starts designing its own hardware",
+      "resumen": "At TechCrunch Disrupt 2026, Ricursive Intelligence co-founders Anna Goldie and Azalia Mirhoseini will take the Disrupt Stage to discuss closing the loop between AI and chip development. Save up to $200 on your pass before today ends.",
       "relevancia": 9,
-      "url": "https://techcrunch.com/2026/09/25/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/",
+      "url": "https://techcrunch.com/2026/09/25/techcrunch-disrupt-2026-ricursive-intelligences-anna-goldie-and-azalia-mirhoseini-on-when-ai-starts-designing-its-own-hardware/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -112,13 +112,13 @@
       "tags": []
     },
     {
-      "id": "e2be899848",
+      "id": "7e6a64590e",
       "tema": "ia",
-      "titular_es": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
+      "titular_es": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 8,
-      "url": "https://github.com/git-bug/git-bug",
-      "fuente": "github.com (vía HN)",
+      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+      "fuente": "cnbc.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -134,12 +134,12 @@
       "tags": []
     },
     {
-      "id": "5d757eca44",
+      "id": "1c04fad4c9",
       "tema": "emprendimiento",
-      "titular_es": "Last 24 hours to save up to $200 on TechCrunch Disrupt 2026. Reason 5 of 5 to attend: Momentum",
-      "resumen": "Last 24 hours to save up to $200 on your TechCrunch Disrupt 2026 pass. Leave the event further in your startup's trajectory than where you started. Don't miss your chance to save and to push the needle.",
+      "titular_es": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
+      "resumen": "Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people.",
       "relevancia": 8,
-      "url": "https://techcrunch.com/2026/09/25/last-24-hours-to-save-up-to-200-on-techcrunch-disrupt-2026-reason-5-of-5-to-attend-momentum/",
+      "url": "https://techcrunch.com/2026/09/25/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -156,34 +156,34 @@
       "tags": []
     },
     {
-      "id": "f4df6bb011",
+      "id": "fb338f139d",
       "tema": "ia",
-      "titular_es": "Ink and Switch Interactive Homepage",
+      "titular_es": "Factorio that you can touch",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 7,
-      "url": "https://www.inkandswitch.com/",
-      "fuente": "inkandswitch.com (vía HN)",
+      "url": "https://factorio.com/blog/post/fff-447",
+      "fuente": "factorio.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "d04118ec36",
+      "id": "428c46dea7",
       "tema": "finanzas",
-      "titular_es": "S&P 500 abre al alza mientras el petróleo cede y los bonos del Tesoro se estabilizan",
-      "resumen": "Las conversaciones entre EE.UU e Irán enfrían el avance del petróleo y ofrecen alivio al mercado de bonos, mientras la IA sostiene a las tecnológicas en medio de expectativas de una política monetaria más restrictiva.",
+      "titular_es": "Los bonos de EE.UU. ya pagan 5%: qué está pasando y qué significa para los inversionistas",
+      "resumen": "El Tesoro a 10 años volvió al 5% mientras gobiernos y empresas demandan más capital. Para los prestatarios implica mayores costos, pero los rendimientos también vuelven a poner los bonos en el radar de los inversionistas.",
       "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/mercados/sp-500-abre-al-alza-mientras-el-petroleo-cede-y-los-bonos-del-tesoro-se-estabilizan/",
+      "url": "https://www.bloomberglinea.com/mercados/los-bonos-de-eeuu-ya-pagan-5-que-esta-pasando-y-que-significa-para-los-inversionistas/",
       "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "bb5c1e3c8a",
+      "id": "5d757eca44",
       "tema": "emprendimiento",
-      "titular_es": "Lightspeed targets $250M for new India fund, focusing on early-stage AI",
-      "resumen": "The venture firm is aligning its India fundraising cycle with its global funds for the first time, as it shifts to a shorter investment period.",
+      "titular_es": "Last 24 hours to save up to $200 on TechCrunch Disrupt 2026. Reason 5 of 5 to attend: Momentum",
+      "resumen": "Last 24 hours to save up to $200 on your TechCrunch Disrupt 2026 pass. Leave the event further in your startup's trajectory than where you started. Don't miss your chance to save and to push the needle.",
       "relevancia": 7,
-      "url": "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/",
+      "url": "https://techcrunch.com/2026/09/25/last-24-hours-to-save-up-to-200-on-techcrunch-disrupt-2026-reason-5-of-5-to-attend-momentum/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -200,34 +200,34 @@
       "tags": []
     },
     {
-      "id": "bb3b8a0865",
+      "id": "4fcb6aa086",
       "tema": "ia",
-      "titular_es": "Dutch governments builds alternative for Microsoft based on NixOS",
+      "titular_es": "First Principles Thinking",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 6,
-      "url": "https://www.dawo.community/en/",
-      "fuente": "dawo.community (vía HN)",
+      "url": "https://sunilsadasivan.com/writing/first-principles-thinking/",
+      "fuente": "sunilsadasivan.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "76c57ac302",
+      "id": "d04118ec36",
       "tema": "finanzas",
-      "titular_es": "La peor moneda de Latinoamérica es el peso colombiano y BTG Pactual revela proyección del dólar a corto plazo",
-      "resumen": "El banco espera un dólar más alto mientras las tasas internacionales permanecen elevadas y Colombia prepara una fuerte estrategia de endeudamiento externo.",
+      "titular_es": "Wall Street cierra al alza mientras el petróleo cae y los bonos mantienen la presión",
+      "resumen": "Las señales de un posible avance diplomático entre Estados Unidos e Irán presionaron al petróleo y dieron alivio a las acciones, aunque los rendimientos de los bonos del Tesoro permanecieron cerca de máximos.",
       "relevancia": 6,
-      "url": "https://www.bloomberglinea.com/mercados/la-peor-moneda-de-latinoamerica-es-el-peso-colombiano-y-btg-pactual-revela-proyeccion-del-dolar-a-corto-plazo/",
+      "url": "https://www.bloomberglinea.com/mercados/sp-500-abre-al-alza-mientras-el-petroleo-cede-y-los-bonos-del-tesoro-se-estabilizan/",
       "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "a39715447b",
+      "id": "bb5c1e3c8a",
       "tema": "emprendimiento",
-      "titular_es": "Nexterity wants to automate the hard, dangerous part of pipefitting",
-      "resumen": "The startup's robot can tighten or loosen four bolts at a time, and it fits in a Pelican case.",
+      "titular_es": "Lightspeed targets $250M for new India fund, focusing on early-stage AI",
+      "resumen": "The venture firm is aligning its India fundraising cycle with its global funds for the first time, as it shifts to a shorter investment period.",
       "relevancia": 6,
-      "url": "https://techcrunch.com/2026/09/24/nexterity-wants-to-automate-the-hard-dangerous-part-of-pipefitting/",
+      "url": "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -244,34 +244,34 @@
       "tags": []
     },
     {
-      "id": "c5cc890c58",
+      "id": "700eb0cf89",
       "tema": "ia",
-      "titular_es": "Pentium II at 600Mhz with Voodoo 3 Emulated on 86Box with M6 Mac Mini",
+      "titular_es": "Platform-independent SIMD in Go",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 5,
-      "url": "https://nyaa.sh/reviews/mac-mini-m6-emulation",
-      "fuente": "nyaa.sh (vía HN)",
+      "url": "https://go.dev/blog/simd-experiment",
+      "fuente": "go.dev (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "428c46dea7",
+      "id": "c7c0e5a3d7",
       "tema": "finanzas",
-      "titular_es": "Los bonos de EE.UU. ya pagan 5%: qué está pasando y qué significa para los inversionistas",
-      "resumen": "El Tesoro a 10 años volvió al 5% mientras gobiernos y empresas demandan más capital. Para los prestatarios implica mayores costos, pero los rendimientos también vuelven a poner los bonos en el radar de los inversionistas.",
+      "titular_es": "Quiénes son los dueños de Solaria, la acción que repuntó 9,52% y lideró el Ibex 35 hoy",
+      "resumen": "Las acciones de Solaria rebotaron tras una caída de más de 6%. La familia Díaz-Tejeiro sigue como principal bloque accionarial y Goldman Sachs mantiene su recomendación de compra.",
       "relevancia": 5,
-      "url": "https://www.bloomberglinea.com/mercados/los-bonos-de-eeuu-ya-pagan-5-que-esta-pasando-y-que-significa-para-los-inversionistas/",
+      "url": "https://www.bloomberglinea.com/mercados/quienes-son-los-duenos-de-solaria-la-accion-que-repunto-952-y-lidero-el-ibex-35-hoy/",
       "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "36fdde13c0",
+      "id": "38b884af57",
       "tema": "emprendimiento",
-      "titular_es": "Bring your co-founder, partner, or colleague and get 50% off a second TechCrunch Disrupt 2026 pass",
-      "resumen": "Buy one pass to TechCrunch Disrupt 2026 and get 50% off a second of the same ticket type. Register before event starts on October 13 at 8 a.m. PT.",
+      "titular_es": "Ahead of US IPO, British AI neocloud Nscale secures $3.36B in convertible financing",
+      "resumen": "The funding, which comes from Third Point, Nvidia, and others, will fuel the company's massive AI data center buildout.",
       "relevancia": 5,
-      "url": "https://techcrunch.com/2026/09/24/bring-your-co-founder-partner-or-colleague-and-get-50-off-a-second-techcrunch-disrupt-2026-pass/",
+      "url": "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -288,23 +288,23 @@
       "tags": []
     },
     {
-      "id": "39add0982c",
+      "id": "e2be899848",
       "tema": "ia",
-      "titular_es": "Opus 5.5 is good at explainer videos",
+      "titular_es": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 4,
-      "url": "https://launchvideo.io",
-      "fuente": "launchvideo.io (vía HN)",
+      "url": "https://github.com/git-bug/git-bug",
+      "fuente": "github.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "dc9126c729",
+      "id": "e76d6556e5",
       "tema": "finanzas",
-      "titular_es": "Inflación en Argentina: qué espera un banco para septiembre y en qué recomienda invertir",
-      "resumen": "En el sector financiero prevén un leve repunte del IPC para este mes. Cuál es la proyección, qué espera para el dólar y qué carteras de inversión sugiere.",
+      "titular_es": "Bonos argentinos no detienen su caída y el riesgo país se dispara al nivel más alto en seis meses",
+      "resumen": "El índice que mide JPMorgan volvía a escalar con fuerza al cierre de la semana y supera los 600 puntos básicos.",
       "relevancia": 4,
-      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/inflacion-en-argentina-que-espera-un-banco-para-septiembre-y-en-que-recomienda-invertir/",
+      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/bonos-argentinos-no-detienen-su-caida-y-el-riesgo-pais-se-dispara-al-nivel-mas-alto-en-seis-meses/",
       "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": []
@@ -321,23 +321,23 @@
       "tags": []
     },
     {
-      "id": "9066355df0",
+      "id": "f4df6bb011",
       "tema": "ia",
-      "titular_es": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
+      "titular_es": "Ink and Switch interactive homepage",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 3,
-      "url": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
-      "fuente": "resobscura.substack.com (vía HN)",
+      "url": "https://www.inkandswitch.com/",
+      "fuente": "inkandswitch.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "8a0ffc82cd",
+      "id": "76c57ac302",
       "tema": "finanzas",
-      "titular_es": "¿Por qué suben los rendimientos de los bonos de EE.UU.? Deutsche Bank resta peso a la inflación",
-      "resumen": "El Treasury a 10 años acumula una suba de 97 puntos básicos en 2026, impulsada principalmente por mayores tasas reales y señales de fortaleza económica.",
+      "titular_es": "La peor moneda de Latinoamérica es el peso colombiano y BTG Pactual revela proyección del dólar a corto plazo",
+      "resumen": "El banco espera un dólar más alto mientras las tasas internacionales permanecen elevadas y Colombia prepara una fuerte estrategia de endeudamiento externo.",
       "relevancia": 3,
-      "url": "https://www.bloomberglinea.com/mercados/por-que-suben-los-rendimientos-de-los-bonos-de-eeuu-deutsche-bank-resta-peso-a-la-inflacion/",
+      "url": "https://www.bloomberglinea.com/mercados/la-peor-moneda-de-latinoamerica-es-el-peso-colombiano-y-btg-pactual-revela-proyeccion-del-dolar-a-corto-plazo/",
       "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": []
@@ -354,23 +354,23 @@
       "tags": []
     },
     {
-      "id": "8634cc1b38",
+      "id": "689c340717",
       "tema": "ia",
-      "titular_es": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
-      "resumen": "Hello! We’re Sid, Alex, Ketan, and Milan. We’re building Whiteboard ( https://whiteboard.dev.fast/ ), an open-source desktop app where humans and agents can architect software together in a common workspace. Here’s our repo: https://github.com/devdotfast/whiteboard . We were missing the feeling of a",
+      "titular_es": "Boards of Casio",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 2,
-      "url": "https://github.com/devdotfast/whiteboard",
-      "fuente": "github.com (vía HN)",
+      "url": "https://www.ambionix.com/blog/boards-of-casio/",
+      "fuente": "ambionix.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "e08d8d02f1",
+      "id": "dc9126c729",
       "tema": "finanzas",
-      "titular_es": "Joaquín Gutiérrez fue elegido nuevo presidente de Ecopetrol",
-      "resumen": "Gutiérrez Caballero es administrador de empresas y exgerente de la campaña presidencial de Abelardo De la Espriella. Su trayectoria se ha concentrado en empresas privadas, salud, construcción y negocios inmobiliarios.",
+      "titular_es": "Inflación en Argentina: qué espera un banco para septiembre y en qué recomienda invertir",
+      "resumen": "En el sector financiero prevén un leve repunte del IPC para este mes. Cuál es la proyección, qué espera para el dólar y qué carteras de inversión sugiere.",
       "relevancia": 2,
-      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/joaquin-gutierrez-fue-elegido-nuevo-presidente-de-ecopetrol/",
+      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/inflacion-en-argentina-que-espera-un-banco-para-septiembre-y-en-que-recomienda-invertir/",
       "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": []
@@ -387,13 +387,13 @@
       "tags": []
     },
     {
-      "id": "92d4a2983f",
+      "id": "be29d3a551",
       "tema": "ia",
-      "titular_es": "Leaks reveal a new Apple HomePod mini, iPad mini, and Apple TV 4K",
-      "resumen": "Apple is expected to announce more hardware before the end of the year following the debut of the iPhone 18 Pro and folding iPhone Duo earlier this month. The updated products will include a new version of the HomePod mini, the iPad mini 8, and the Apple TV 4K, according to details and images discov",
+      "titular_es": "Amiga Screens: A Primer",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 1,
-      "url": "https://www.theverge.com/tech/1000772/apple-code-leak-homepod-mini-2-ipad-mini-8-apple-tv-4k",
-      "fuente": "theverge.com",
+      "url": "https://www.datagubbe.se/amscr/",
+      "fuente": "datagubbe.se (vía HN)",
       "bandera": "🌍",
       "tags": []
     }
