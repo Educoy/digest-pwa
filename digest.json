@@ -1,6 +1,6 @@
 {
   "fecha": "2026-09-27",
-  "generado_utc": "2026-09-27T16:31:28Z",
+  "generado_utc": "2026-09-27T22:43:55Z",
   "indicadores": {
     "dolar": {
       "valor": 965.71,
@@ -13,7 +13,7 @@
       "variacion_pct": 0.02
     }
   },
-  "noticia_del_dia": "7f0a5dba34",
+  "noticia_del_dia": "9d272cb4b3",
   "pildora_ia": "Overfitting (sobreajuste): cuando un modelo memoriza el ruido de los datos de entrenamiento en vez del patrón general. Rinde perfecto en entrenamiento pero mal con datos nuevos. Se combate con más datos, regularización o dropout.",
   "pildoras_ia": [
     "Overfitting (sobreajuste): cuando un modelo memoriza el ruido de los datos de entrenamiento en vez del patrón general. Rinde perfecto en entrenamiento pero mal con datos nuevos. Se combate con más datos, regularización o dropout.",
@@ -24,191 +24,154 @@
   ],
   "noticias": [
     {
-      "id": "7f0a5dba34",
-      "tema": "ia",
-      "titular_es": "\"They had no concept of a duty of care to their users.\"",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 10,
-      "url": "https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users/",
-      "fuente": "unsung.aresluna.org (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "db0ea7dfd8",
-      "tema": "finanzas",
-      "titular_es": "De Coca-Cola a Hershey: las acciones a las que puede golpear la llegada del Súper El Niño",
-      "resumen": "El café, el cacao, el azúcar y el aceite de palma concentran los riesgos para compañías de consumo, mientras JPMorgan extiende la exposición a acciones agrícolas, bancos, aseguradoras y eléctricas de América Latina.",
-      "relevancia": 10,
-      "url": "https://www.bloomberglinea.com/mercados/de-coca-cola-a-hershey-las-acciones-a-las-que-puede-golpear-la-llegada-del-super-el-nino/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "0f4cae59ad",
+      "id": "9d272cb4b3",
       "tema": "ciencia",
-      "titular_es": "Glucosamine, a popular joint supplement, linked to faster Alzheimer’s progression",
-      "resumen": "A large health-record analysis found that glucosamine use was associated with a 25% higher likelihood of mild cognitive impairment progressing to dementia. Lab experiments suggest the popular joint supplement may intensify an abnormal sugar-tagging process in the Alzheimer’s brain, although research",
-      "relevancia": 10,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260927033754.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "44943de4b7",
-      "tema": "ia",
-      "titular_es": "10 Tells of a Slop UI",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "Un solo tratamiento con CRISPR reduce el colesterol 'malo' a la mitad durante un año",
+      "resumen": "Un ensayo clínico demostró que una única dosis de una terapia génica experimental basada en CRISPR redujo los niveles de colesterol LDL y triglicéridos en torno al 50%. El efecto terapéutico se mantuvo constante tras doce meses completos de seguimiento en pacientes con trastornos lipídicos severos. El hito abre la puerta a tratamientos de dosis única para enfermedades cardiovasculares crónicas.",
       "relevancia": 9,
-      "url": "https://hereticpleb.vercel.app/blog/10-tells-of-slop",
-      "fuente": "hereticpleb.vercel.app (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "2806dcec4c",
-      "tema": "ciencia",
-      "titular_es": "Why rheumatoid arthritis pain may persist even when inflammation is under control",
-      "resumen": "Pain and fatigue in rheumatoid arthritis can persist even after inflammation improves, with depression, poor sleep, obesity, smoking, and chronic pain potentially helping sustain symptoms. Researchers say identifying these hidden drivers could prevent unnecessary medication changes and lead to more ",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260925093208.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260925005434.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "12a3f4b474",
-      "tema": "ia",
-      "titular_es": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 8,
-      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
-      "fuente": "authorsguild.org (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "2f4e0ae73b",
-      "tema": "ciencia",
-      "titular_es": "1.7-billion-year-old fossils reveal a crucial clue to the rise of complex life",
-      "resumen": "Scientists studying ancient Australian rocks uncovered more than 12,000 fossils from some of the oldest known eukaryotes on Earth. These early complex cells lived in settings ranging from coastal mudflats to the open sea, but only where oxygen was available. Oxygen-free environments contained simple",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260925005447.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "a78ef24ec7",
-      "tema": "ia",
-      "titular_es": "DeepSeek Elastic Compute (DSec)",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 7,
-      "url": "https://arxiv.org/abs/2609.22978",
-      "fuente": "arxiv.org (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "8a95267935",
-      "tema": "ciencia",
-      "titular_es": "These medieval graves looked like family burials. DNA told a different story",
-      "resumen": "Ancient DNA shows that adults and children buried together in medieval Sweden were often not members of the same immediate family, suggesting that burial choices reflected more than biological kinship. The research also revealed early gender-based burial customs and uncovered the remarkable story of",
-      "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260925005444.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "55e3771ad7",
-      "tema": "ia",
-      "titular_es": "Show HN: Reladraw – A diagram language where you decide where to place things",
-      "resumen": "I love making diagrams to help understand, plan, etc. However, the options are (A) auto-placement languages like Mermaid or Graphviz (which don't let me decide how the diagram looks), or (B) software like Draw.io which are powerful but are very time consuming (and inefficient for agents to manipulat",
-      "relevancia": 6,
-      "url": "https://github.com/reladraw/reladraw",
-      "fuente": "github.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "53e90a8055",
-      "tema": "ciencia",
-      "titular_es": "New soil test could reveal how soil microbes help feed plants",
-      "resumen": "Scientists have streamlined a method for measuring DNA-bound phosphorus in soil, making it cheaper and easier while preserving its accuracy. The technique could reveal how soil microbes help recycle phosphorus and ultimately support more sustainable fertilizer and nutrient management.",
-      "relevancia": 6,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260925005441.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "4bcf80c71d",
-      "tema": "ia",
-      "titular_es": "Why OLPC’s $100 laptop never stood a chance",
-      "resumen": "The idea was big, exciting, and inspiring: What if we could get every kid in the world access to a computer? For a bunch of thinkers and executives in Silicon Valley, it felt like the way to fix everything. But the One Laptop Per Child initiative, and the XO-1 laptop designed to be given away, […]",
-      "relevancia": 5,
-      "url": "https://www.theverge.com/podcast/1000517/why-olpcs-100-laptop-never-stood-a-chance",
-      "fuente": "theverge.com",
-      "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "CRISPR",
+        "salud",
+        "biotecnología"
+      ]
     },
     {
       "id": "24150c77e9",
       "tema": "ciencia",
-      "titular_es": "Atrial fibrillation patients saw 69% lower risk with common blood thinners",
-      "resumen": "Direct oral anticoagulants cut the risk of serious clinical events by 69% in atrial fibrillation patients with an intermediate risk of stroke, according to the randomized SINGLE-AF trial. The benefit was driven mainly by fewer ischemic strokes, with no increase in major bleeding.",
-      "relevancia": 5,
+      "titular_es": "Pacientes con fibrilación auricular reducen un 69% el riesgo de eventos graves con anticoagulantes comunes",
+      "resumen": "Los resultados del ensayo clínico aleatorizado SINGLE-AF mostraron que el uso de anticoagulantes orales directos redujo drásticamente el riesgo clínico en pacientes con riesgo intermedio de ictus. La disminución del 69% estuvo impulsada principalmente por un desplome de los accidentes cerebrovasculares isquémicos sin elevar el riesgo de hemorragias mayores. Este hallazgo podría redefinir los protocolos estándar de prescripción preventiva.",
+      "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/09/260925005439.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "medicina",
+        "cardiología",
+        "ensayos clínicos"
+      ]
     },
     {
-      "id": "3c876007f1",
+      "id": "113b2d3467",
       "tema": "ia",
-      "titular_es": "Googlebooks might be the real deal",
-      "resumen": "Hi, friends! Welcome to Installer No. 145, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, I'm happy to be done traveling for a bit, and also you can read all the old editions at the Installer homepage.) This week, I flew to San Francisco to try out […]",
-      "relevancia": 4,
-      "url": "https://www.theverge.com/tech/1000424/googlebooks-meta-ray-ban-audio-control-resonant-microsoft-surface-mouse",
+      "titular_es": "Agentes de OpenAI intentaron aplicar 'fuerza bruta' contra un sitio web de la ONU",
+      "resumen": "Un investigador de seguridad reveló que agentes automatizados de OpenAI rastrearon y enviaron más de 16.000 peticiones al portal estadístico de la UNCTAD entre abril y junio. Aunque no comprometió los sistemas como otros ciberataques recientes, evidencia los riesgos imprevistos que generan los agentes autónomos de IA al interactuar masivamente con infraestructura pública. OpenAI enfrenta ahora nuevos cuestionamientos sobre las salvaguardas operativas de sus modelos autónomos.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
       "fuente": "theverge.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "OpenAI",
+        "ciberseguridad",
+        "inteligencia artificial"
+      ]
     },
     {
-      "id": "ff5f8a56a9",
-      "tema": "ia",
-      "titular_es": "The smart home graveyard is getting crowded",
-      "resumen": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the fragile state of your connected devices, follow Jennifer Pattison Tuohy. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started",
-      "relevancia": 3,
-      "url": "https://www.theverge.com/column/1000778/smart-home-june-oven-graveyard",
-      "fuente": "theverge.com",
+      "id": "0f4cae59ad",
+      "tema": "ciencia",
+      "titular_es": "La glucosamina, popular suplemento articular, es vinculada a una progresión más rápida del alzhéimer",
+      "resumen": "Un análisis masivo de historiales médicos halló que el consumo de glucosamina se asocia con un aumento del 25% en la probabilidad de que el deterioro cognitivo leve evolucione a demencia. Pruebas de laboratorio complementarias apuntan a que el suplemento intensificaría una alteración anómala de azúcares en proteínas cerebrales vinculadas a la patología. El descubrimiento pone en alerta a millones de usuarios que consumen este producto sin receta médica.",
+      "relevancia": 7,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260927033754.htm",
+      "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "farmacología",
+        "alzhéimer",
+        "neurología"
+      ]
     },
     {
-      "id": "cb34b62926",
-      "tema": "ia",
-      "titular_es": "Apple hit with $5.7 billion in damages over haptic patents",
-      "resumen": "Haptics tech company Taction sued Apple in 2021, alleging it infringed two of its patents. Now a federal jury in San Diego has awarded Taction over $5.7 billion in damages. According to CNBC, \"The lawsuit centered around U.S. Patent Nos. 10,659,885 and 10,820,117, which both involve vibration-based,",
-      "relevancia": 2,
-      "url": "https://www.theverge.com/tech/1001118/apple-hit-with-5-7-billion-in-damages-over-haptic-patents",
-      "fuente": "theverge.com",
-      "bandera": "🌍",
-      "tags": []
+      "id": "2f4e0ae73b",
+      "tema": "ciencia",
+      "titular_es": "Fósiles de 1.700 millones de años revelan una pista crucial sobre el surgimiento de la vida compleja",
+      "resumen": "Un equipo científico descubrió más de 12.000 microfósiles de algunos de los eucariotas más antiguos conocidos en formaciones rocosas de Australia. El hallazgo demuestra que estas células complejas primitivas proliferaron en planicies y mares abiertos únicamente en presencia de oxígeno, mientras que los hábitats anóxicos quedaron restringidos a formas simples. La investigación aporta evidencia física directa sobre cómo la oxigenación moldeó la evolución biológica compleja.",
+      "relevancia": 7,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260925005447.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇦🇺",
+      "tags": [
+        "paleontología",
+        "evolución",
+        "biología"
+      ]
     },
     {
-      "id": "2e480811d0",
-      "tema": "ia",
-      "titular_es": "Decap is the man behind the drums behind your favorite song",
-      "resumen": "I don't think I'm going to hurt anyone's feelings by pointing out that Decap doesn't have the name recognition of Kendrick Lamar, Olivia Rodrigo, or Charli XCX. But his fingerprints are all over tracks from them, as well as many other artists, including Freddie Gibbs, Bad Bunny, Mac Miller, BTS, and",
-      "relevancia": 1,
-      "url": "https://www.theverge.com/report/1000994/decap-drums-that-knock-interview",
-      "fuente": "theverge.com",
+      "id": "21c34f8981",
+      "tema": "ciencia",
+      "titular_es": "Científicos descubren que los gatos domésticos podrían ayudar a mejorar los tratamientos contra el cáncer en humanos",
+      "resumen": "Un estudio a escala sin precedentes mapeó la genética del cáncer en gatos domésticos y detectó asombrosas similitudes moleculares con tumores humanos. Este hallazgo permitirá desarrollar terapias oncológicas de precisión para mascotas y, al mismo tiempo, servirá como modelo natural para predecir la respuesta humana a nuevos fármacos. El enfoque traslacional promete acelerar el descubrimiento de terapias oncológicas avanzadas.",
+      "relevancia": 7,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260924231826.htm",
+      "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "oncología",
+        "genética",
+        "medicina"
+      ]
+    },
+    {
+      "id": "db0ea7dfd8",
+      "tema": "finanzas",
+      "titular_es": "De Coca-Cola a Hershey: las acciones amenazadas por la llegada de un 'Súper El Niño'",
+      "resumen": "Analistas de JPMorgan advirtieron sobre el impacto económico del fenómeno climático Súper El Niño en materias primas clave como café, cacao, azúcar y aceite de palma. El alza de costes afectará los márgenes de gigantes del consumo masivo y podría golpear a bancos, aseguradoras y eléctricas en América Latina. La advertencia sitúa la volatilidad climática como un catalizador financiero de primer orden para los próximos trimestres.",
+      "relevancia": 7,
+      "url": "https://www.bloomberglinea.com/mercados/de-coca-cola-a-hershey-las-acciones-a-las-que-puede-golpear-la-llegada-del-super-el-nino/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🌍",
+      "tags": [
+        "mercados",
+        "materias primas",
+        "JPMorgan"
+      ]
+    },
+    {
+      "id": "53e90a8055",
+      "tema": "ciencia",
+      "titular_es": "Una nueva prueba de suelo revela cómo los microbios ayudan a alimentar a los cultivos",
+      "resumen": "Investigadores optimizaron y abarataron el método para medir el fósforo ligado al ADN presente en el suelo sin comprometer su precisión analítica. La técnica permite evaluar en detalle el papel del microbioma subterráneo en el reciclaje de nutrientes esenciales para los cultivos agrícolas. Su adopción promete optimizar el uso de fertilizantes químicos y fomentar prácticas agronómicas sostenibles y de menor impacto.",
+      "relevancia": 6,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260925005441.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "agricultura",
+        "biotecnología",
+        "sostenibilidad"
+      ]
+    },
+    {
+      "id": "14fc67fa9a",
+      "tema": "emprendimiento",
+      "titular_es": "Engram: el sampler que convierte las alucinaciones de la IA en música",
+      "resumen": "La startup musical Thoughtful Things lanzó en Kickstarter su primer dispositivo físico, Engram, un sampler y groovebox con capacidades generativas. En lugar de generar canciones completas automáticamente, el hardware manipula entradas de audio y aprovecha las 'alucinaciones' del modelo para crear timbres sonoros únicos. Propone un enfoque colaborativo entre el productor y la IA como herramienta creativa para músicos electrónicos.",
+      "relevancia": 6,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "startups",
+        "hardware",
+        "música"
+      ]
+    },
+    {
+      "id": "21e6554285",
+      "tema": "emprendimiento",
+      "titular_es": "Lofi Cities: noches urbanas en pixel-art con música lofi generada en el navegador",
+      "resumen": "Un desarrollador independiente lanzó Lofi Cities, una plataforma interactiva que combina estética pixel-art urbana con pistas musicales lofi sintetizadas proceduralmente en el cliente. El proyecto no requiere descargas complejas y está enfocado en estudiantes y programadores que buscan ambientes de trabajo inmersivos y ligeros. Demuestra el potencial de la síntesis de audio en Web Audio API para productos de productividad.",
+      "relevancia": 5,
+      "url": "https://loficities.com/",
+      "fuente": "loficities.com (vía HN)",
+      "bandera": "🌍",
+      "tags": [
+        "desarrollo web",
+        "indie",
+        "audio"
+      ]
     }
   ]
 }
