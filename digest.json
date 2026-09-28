@@ -1,177 +1,324 @@
 {
-  "fecha": "2026-09-27",
-  "generado_utc": "2026-09-27T22:43:55Z",
+  "fecha": "2026-09-28",
+  "generado_utc": "2026-09-28T19:20:11Z",
   "indicadores": {
     "dolar": {
-      "valor": 965.71,
-      "variacion": 6.32,
-      "variacion_pct": 0.66
+      "valor": 964.1,
+      "variacion": -1.61,
+      "variacion_pct": -0.17
     },
     "uf": {
-      "valor": 41032.64,
+      "valor": 41040.82,
       "variacion": 8.18,
       "variacion_pct": 0.02
     }
   },
-  "noticia_del_dia": "9d272cb4b3",
-  "pildora_ia": "Overfitting (sobreajuste): cuando un modelo memoriza el ruido de los datos de entrenamiento en vez del patrón general. Rinde perfecto en entrenamiento pero mal con datos nuevos. Se combate con más datos, regularización o dropout.",
+  "noticia_del_dia": "18d398716f",
+  "pildora_ia": "Embeddings: representan palabras, imágenes o cualquier dato como vectores de números donde la cercanía significa similitud de significado. Son la base de la búsqueda semántica y de cómo los LLM 'entienden' texto.",
   "pildoras_ia": [
-    "Overfitting (sobreajuste): cuando un modelo memoriza el ruido de los datos de entrenamiento en vez del patrón general. Rinde perfecto en entrenamiento pero mal con datos nuevos. Se combate con más datos, regularización o dropout.",
     "Embeddings: representan palabras, imágenes o cualquier dato como vectores de números donde la cercanía significa similitud de significado. Son la base de la búsqueda semántica y de cómo los LLM 'entienden' texto.",
     "Atención (Transformers): el mecanismo que deja a un modelo pesar qué partes de la entrada importan más para cada palabra que genera. Es el corazón de la arquitectura Transformer detrás de GPT, Gemini y Claude.",
     "Gradiente descendente: el algoritmo que entrena casi todas las redes neuronales. Ajusta los parámetros poco a poco en la dirección que más reduce el error, como bajar una montaña a ciegas siguiendo la pendiente.",
-    "Tokens: los LLM no leen palabras sino 'tokens', fragmentos de texto (a veces una palabra, a veces parte de una). El costo y los límites de las APIs se miden en tokens, no en caracteres."
+    "Tokens: los LLM no leen palabras sino 'tokens', fragmentos de texto (a veces una palabra, a veces parte de una). El costo y los límites de las APIs se miden en tokens, no en caracteres.",
+    "Temperatura: parámetro que controla cuán 'creativa' es la respuesta de un LLM. Baja (0) da respuestas predecibles y consistentes; alta (1+) las hace más variadas y arriesgadas."
   ],
   "noticias": [
     {
-      "id": "9d272cb4b3",
-      "tema": "ciencia",
-      "titular_es": "Un solo tratamiento con CRISPR reduce el colesterol 'malo' a la mitad durante un año",
-      "resumen": "Un ensayo clínico demostró que una única dosis de una terapia génica experimental basada en CRISPR redujo los niveles de colesterol LDL y triglicéridos en torno al 50%. El efecto terapéutico se mantuvo constante tras doce meses completos de seguimiento en pacientes con trastornos lipídicos severos. El hito abre la puerta a tratamientos de dosis única para enfermedades cardiovasculares crónicas.",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260925005434.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "CRISPR",
-        "salud",
-        "biotecnología"
-      ]
-    },
-    {
-      "id": "24150c77e9",
-      "tema": "ciencia",
-      "titular_es": "Pacientes con fibrilación auricular reducen un 69% el riesgo de eventos graves con anticoagulantes comunes",
-      "resumen": "Los resultados del ensayo clínico aleatorizado SINGLE-AF mostraron que el uso de anticoagulantes orales directos redujo drásticamente el riesgo clínico en pacientes con riesgo intermedio de ictus. La disminución del 69% estuvo impulsada principalmente por un desplome de los accidentes cerebrovasculares isquémicos sin elevar el riesgo de hemorragias mayores. Este hallazgo podría redefinir los protocolos estándar de prescripción preventiva.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260925005439.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "medicina",
-        "cardiología",
-        "ensayos clínicos"
-      ]
-    },
-    {
-      "id": "113b2d3467",
+      "id": "18d398716f",
       "tema": "ia",
-      "titular_es": "Agentes de OpenAI intentaron aplicar 'fuerza bruta' contra un sitio web de la ONU",
-      "resumen": "Un investigador de seguridad reveló que agentes automatizados de OpenAI rastrearon y enviaron más de 16.000 peticiones al portal estadístico de la UNCTAD entre abril y junio. Aunque no comprometió los sistemas como otros ciberataques recientes, evidencia los riesgos imprevistos que generan los agentes autónomos de IA al interactuar masivamente con infraestructura pública. OpenAI enfrenta ahora nuevos cuestionamientos sobre las salvaguardas operativas de sus modelos autónomos.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "OpenAI",
-        "ciberseguridad",
-        "inteligencia artificial"
-      ]
-    },
-    {
-      "id": "0f4cae59ad",
-      "tema": "ciencia",
-      "titular_es": "La glucosamina, popular suplemento articular, es vinculada a una progresión más rápida del alzhéimer",
-      "resumen": "Un análisis masivo de historiales médicos halló que el consumo de glucosamina se asocia con un aumento del 25% en la probabilidad de que el deterioro cognitivo leve evolucione a demencia. Pruebas de laboratorio complementarias apuntan a que el suplemento intensificaría una alteración anómala de azúcares en proteínas cerebrales vinculadas a la patología. El descubrimiento pone en alerta a millones de usuarios que consumen este producto sin receta médica.",
-      "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260927033754.htm",
-      "fuente": "sciencedaily.com",
+      "titular_es": "Sonnet 5.5",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 10,
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "fuente": "anthropic.com (vía HN)",
       "bandera": "🌍",
-      "tags": [
-        "farmacología",
-        "alzhéimer",
-        "neurología"
-      ]
+      "tags": []
     },
     {
-      "id": "2f4e0ae73b",
-      "tema": "ciencia",
-      "titular_es": "Fósiles de 1.700 millones de años revelan una pista crucial sobre el surgimiento de la vida compleja",
-      "resumen": "Un equipo científico descubrió más de 12.000 microfósiles de algunos de los eucariotas más antiguos conocidos en formaciones rocosas de Australia. El hallazgo demuestra que estas células complejas primitivas proliferaron en planicies y mares abiertos únicamente en presencia de oxígeno, mientras que los hábitats anóxicos quedaron restringidos a formas simples. La investigación aporta evidencia física directa sobre cómo la oxigenación moldeó la evolución biológica compleja.",
-      "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260925005447.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇦🇺",
-      "tags": [
-        "paleontología",
-        "evolución",
-        "biología"
-      ]
-    },
-    {
-      "id": "21c34f8981",
-      "tema": "ciencia",
-      "titular_es": "Científicos descubren que los gatos domésticos podrían ayudar a mejorar los tratamientos contra el cáncer en humanos",
-      "resumen": "Un estudio a escala sin precedentes mapeó la genética del cáncer en gatos domésticos y detectó asombrosas similitudes moleculares con tumores humanos. Este hallazgo permitirá desarrollar terapias oncológicas de precisión para mascotas y, al mismo tiempo, servirá como modelo natural para predecir la respuesta humana a nuevos fármacos. El enfoque traslacional promete acelerar el descubrimiento de terapias oncológicas avanzadas.",
-      "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260924231826.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "oncología",
-        "genética",
-        "medicina"
-      ]
-    },
-    {
-      "id": "db0ea7dfd8",
+      "id": "1dc722cab5",
       "tema": "finanzas",
-      "titular_es": "De Coca-Cola a Hershey: las acciones amenazadas por la llegada de un 'Súper El Niño'",
-      "resumen": "Analistas de JPMorgan advirtieron sobre el impacto económico del fenómeno climático Súper El Niño en materias primas clave como café, cacao, azúcar y aceite de palma. El alza de costes afectará los márgenes de gigantes del consumo masivo y podría golpear a bancos, aseguradoras y eléctricas en América Latina. La advertencia sitúa la volatilidad climática como un catalizador financiero de primer orden para los próximos trimestres.",
-      "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/mercados/de-coca-cola-a-hershey-las-acciones-a-las-que-puede-golpear-la-llegada-del-super-el-nino/",
+      "titular_es": "China posts weakest industrial profit growth this year, expanding 4.2% in August",
+      "resumen": "Economists expect Beijing to lean harder on stimulus to stabilize corporate profitability, as consolidation accelerates in sectors facing sluggish demand and fierce competition.",
+      "relevancia": 10,
+      "url": "https://www.cnbc.com/2026/09/28/china-posts-weakest-industrial-profit-growth-this-year-expanding-4point2percent-in-august-.html",
+      "fuente": "cnbc.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "3db27ae105",
+      "tema": "emprendimiento",
+      "titular_es": "Anthropic, Gamma, and Clay share what happens when enterprises actually deploy AI at TechCrunch Disrupt 2026",
+      "resumen": "Anthropic, Clay, and Gamma on what it takes for an AI product to go beyond the demo at the AI Stage at TechCrunchDisrupt 2026. Register to join and get 50% off a second pass.",
+      "relevancia": 10,
+      "url": "https://techcrunch.com/2026/09/28/anthropic-gamma-and-clay-share-what-happens-when-enterprises-actually-deploy-ai-at-techcrunch-disrupt-2026/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "f073d5eb41",
+      "tema": "ciencia",
+      "titular_es": "When can we say AI made a scientific discovery?",
+      "resumen": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Wednesday, Anthropic announced that earlier this year it had launched a molecular biology lab, where Claude agents read and conjecture about hard biology pro",
+      "relevancia": 10,
+      "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "4986d362fe",
+      "tema": "ia",
+      "titular_es": "Windows 11½",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 9,
+      "url": "https://definitelynotwindows.com/",
+      "fuente": "definitelynotwindows.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "9c6fd7af5f",
+      "tema": "finanzas",
+      "titular_es": "Peso mexicano inicia la semana con la mayor caída frente al dólar desde abril",
+      "resumen": "La moneda mexicana cotiza este lunes en MXN$17,87 en el mercado spot por cada billete verde.",
+      "relevancia": 9,
+      "url": "https://www.bloomberglinea.com/latinoamerica/mexico/peso-mexicano-inicia-la-semana-con-la-mayor-caida-frente-al-dolar-desde-abril/",
       "fuente": "bloomberglinea.com",
       "bandera": "🌍",
-      "tags": [
-        "mercados",
-        "materias primas",
-        "JPMorgan"
-      ]
+      "tags": []
     },
     {
-      "id": "53e90a8055",
+      "id": "c3eb429f28",
+      "tema": "emprendimiento",
+      "titular_es": "MAVI bets on the AI boom creating demand for a new kind of accountant",
+      "resumen": "Accounting staffing company MAVI emerges from stealth with $4 million in funding.",
+      "relevancia": 9,
+      "url": "https://techcrunch.com/2026/09/28/mavi-bets-on-the-ai-boom-creating-demand-for-a-new-kind-of-accountant/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "fb9f2e8190",
       "tema": "ciencia",
-      "titular_es": "Una nueva prueba de suelo revela cómo los microbios ayudan a alimentar a los cultivos",
-      "resumen": "Investigadores optimizaron y abarataron el método para medir el fósforo ligado al ADN presente en el suelo sin comprometer su precisión analítica. La técnica permite evaluar en detalle el papel del microbioma subterráneo en el reciclaje de nutrientes esenciales para los cultivos agrícolas. Su adopción promete optimizar el uso de fertilizantes químicos y fomentar prácticas agronómicas sostenibles y de menor impacto.",
-      "relevancia": 6,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260925005441.htm",
+      "titular_es": "The Download: rogue agent liability and the AI Hype Index",
+      "resumen": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Who’s liable when AI agents go rogue? Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI disclosed that a swa",
+      "relevancia": 9,
+      "url": "https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "131bb1843c",
+      "tema": "ia",
+      "titular_es": "The problem is not AI code, but not knowing about system architecture or intent",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 8,
+      "url": "https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/",
+      "fuente": "ssp.sh (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "d1ddcdbcf3",
+      "tema": "emprendimiento",
+      "titular_es": "Commonwealth Fusion Systems’ Brandon Sorbom and Helion’s David Kirtley on bringing fusion to the grid at TechCrunch Disrupt 2026",
+      "resumen": "CFS' Brandon Sorbom and Helion's David Kirtley join the Smart Systems Stage at TechCrunch Disrupt 2026 to discuss the breakthroughs moving fusion forward, the challenges that remain, and what it will take to deliver fusion power to the grid at scale. Get your pass at regular price and get a second o",
+      "relevancia": 8,
+      "url": "https://techcrunch.com/2026/09/28/commonwealth-fusion-systems-brandon-sorbom-and-helions-david-kirtley-on-bringing-fusion-to-the-grid-at-techcrunch-disrupt-2026/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "9df3eed3c7",
+      "tema": "ciencia",
+      "titular_es": "Who’s liable when AI agents go rogue?",
+      "resumen": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI disclosed that a ",
+      "relevancia": 8,
+      "url": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "feab8152bb",
+      "tema": "ia",
+      "titular_es": "Pirating the Pirates",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 7,
+      "url": "https://mubi.com/en/notebook/posts/pirating-the-pirates",
+      "fuente": "mubi.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "bb0c80466c",
+      "tema": "emprendimiento",
+      "titular_es": "Next 5 VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026",
+      "resumen": "Thousands of applications. Multiple rounds of review. Hundreds of hours spent evaluating startups from around the world. Now comes the part everyone has been waiting for. Register for TechCrunch Disrupt 2026 today.",
+      "relevancia": 7,
+      "url": "https://techcrunch.com/2026/09/28/next-five-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "931ea854f3",
+      "tema": "ciencia",
+      "titular_es": "Is the universe infinite? The answer gets weird fast",
+      "resumen": "Measurements of ancient light from the cosmic microwave background suggest that the universe is remarkably flat. But that does not prove it is infinite, because the observable cosmos could be only a small patch of a much larger curved universe. Space could even be flat while wrapping around on itsel",
+      "relevancia": 7,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260927225041.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": [
-        "agricultura",
-        "biotecnología",
-        "sostenibilidad"
-      ]
+      "tags": []
     },
     {
-      "id": "14fc67fa9a",
-      "tema": "emprendimiento",
-      "titular_es": "Engram: el sampler que convierte las alucinaciones de la IA en música",
-      "resumen": "La startup musical Thoughtful Things lanzó en Kickstarter su primer dispositivo físico, Engram, un sampler y groovebox con capacidades generativas. En lugar de generar canciones completas automáticamente, el hardware manipula entradas de audio y aprovecha las 'alucinaciones' del modelo para crear timbres sonoros únicos. Propone un enfoque colaborativo entre el productor y la IA como herramienta creativa para músicos electrónicos.",
+      "id": "e1297c1839",
+      "tema": "ia",
+      "titular_es": "Kids turned low-traffic NPR Spotify comments into a secret group chat",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 6,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "startups",
-        "hardware",
-        "música"
-      ]
+      "url": "https://www.thisamericanlife.org/897/transcript",
+      "fuente": "thisamericanlife.org (vía HN)",
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "21e6554285",
+      "id": "743718b6f7",
       "tema": "emprendimiento",
-      "titular_es": "Lofi Cities: noches urbanas en pixel-art con música lofi generada en el navegador",
-      "resumen": "Un desarrollador independiente lanzó Lofi Cities, una plataforma interactiva que combina estética pixel-art urbana con pistas musicales lofi sintetizadas proceduralmente en el cliente. El proyecto no requiere descargas complejas y está enfocado en estudiantes y programadores que buscan ambientes de trabajo inmersivos y ligeros. Demuestra el potencial de la síntesis de audio en Web Audio API para productos de productividad.",
-      "relevancia": 5,
-      "url": "https://loficities.com/",
-      "fuente": "loficities.com (vía HN)",
+      "titular_es": "Insurtech Outmarket raises $34.5M just months after prior round",
+      "resumen": "The startup uses AI to automate tedious paperwork for insurance agencies and brokers.",
+      "relevancia": 6,
+      "url": "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/",
+      "fuente": "techcrunch.com",
       "bandera": "🌍",
-      "tags": [
-        "desarrollo web",
-        "indie",
-        "audio"
-      ]
+      "tags": []
+    },
+    {
+      "id": "b250670fe4",
+      "tema": "ciencia",
+      "titular_es": "Blood tests reveal why astronauts get constipated in space",
+      "resumen": "Spaceflight may dramatically change the gut within weeks, causing bacteria to break down more protein as food moves more slowly through the intestines. The shift could help explain astronaut constipation and may have wider effects on health, making it an important concern for future missions to Mars",
+      "relevancia": 6,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260927225030.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "9be216d320",
+      "tema": "ia",
+      "titular_es": "MongoDB CEO resigns to join Meta",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 5,
+      "url": "https://www.reuters.com/technology/mongodb-ceo-desai-steps-down-lead-metas-enterprise-platform-2026-09-28/",
+      "fuente": "reuters.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "6607767131",
+      "tema": "emprendimiento",
+      "titular_es": "Your final chance to grab your exhibit table at TechCrunch Disrupt 2026 is October 2",
+      "resumen": "The last day to book your Disrupt 2026 exhibit table is this Friday, October 2 at 11:59 p.m. PT. Secure your exhibit table and get your startup in front of 10,000+ founders, investors, and tech leaders at San Francisco's Moscone West on October 13-15.",
+      "relevancia": 5,
+      "url": "https://techcrunch.com/2026/09/28/disrupt-2026-exhibitor-program-extended-until-oct-2/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "97e65796df",
+      "tema": "ciencia",
+      "titular_es": "Diabetes study finds keeping blood sugar too steady may come at a price",
+      "resumen": "People with diabetes reported better quality of life after days when their glucose stayed largely within a healthy range, even when levels fluctuated more than usual. The unexpected finding suggests that pursuing extremely tight glucose control may sometimes come with a hidden lifestyle burden.",
+      "relevancia": 5,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260927225019.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "e667ad8b61",
+      "tema": "ia",
+      "titular_es": "Coding Is Not Solved",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 4,
+      "url": "https://blog.alexewerlof.com/p/coding-is-not-solved",
+      "fuente": "blog.alexewerlof.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "25405b190c",
+      "tema": "ciencia",
+      "titular_es": "Scientists just discovered what coffee really does to your gut and brain",
+      "resumen": "A new study suggests coffee may influence mood and brain function by changing the activity of microbes in the gut. Both caffeinated and decaf coffee were linked to lower stress, depression, and impulsivity, while also producing measurable changes in gut bacteria and metabolites. Decaf was associated",
+      "relevancia": 4,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260927034331.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "f44798cde9",
+      "tema": "ia",
+      "titular_es": "Parley: Federated, decentralised chat that speaks plain IRC",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 3,
+      "url": "https://git.mills.io/prologic/parley",
+      "fuente": "git.mills.io (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "4e2778d8d5",
+      "tema": "ciencia",
+      "titular_es": "Scientists were wrong about this strange mammal for nearly 40 years",
+      "resumen": "A beautifully preserved fossil from Mongolia’s Gobi Desert has solved a mystery that puzzled paleontologists for nearly 40 years. Tamirkhan balcarceli shows that zhelestids were not early relatives of modern placental mammals, despite having teeth that seemed to suggest they were. Instead, the rabbi",
+      "relevancia": 3,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260925093204.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "4ead39dbbf",
+      "tema": "ia",
+      "titular_es": "37,500 border drawings: a map of the world as people remember it",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 2,
+      "url": "https://www.habibicode.org/thedrawnworld",
+      "fuente": "habibicode.org (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "8be2d014ab",
+      "tema": "ciencia",
+      "titular_es": "James Webb reveals why planet formation is a race against time",
+      "resumen": "JWST has revealed that young planetary systems lose their planet-building gas through a changing mix of powerful jets, molecular winds, and radiation-driven outflows. As the disks age and their gas disappears, giant planets face a shrinking window to build massive atmospheres.",
+      "relevancia": 2,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260925093158.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "583e8be1bf",
+      "tema": "ia",
+      "titular_es": "Nissan's third generation e-POWER powertrain",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 1,
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/E_POWER_GEN3/",
+      "fuente": "nissan-global.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
     }
   ]
 }
