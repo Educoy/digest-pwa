@@ -1,402 +1,357 @@
 {
-  "fecha": "2026-09-28",
-  "generado_utc": "2026-09-29T00:04:50Z",
+  "fecha": "2026-09-29",
+  "generado_utc": "2026-09-29T17:45:57Z",
   "indicadores": {
     "dolar": {
-      "valor": 964.1,
-      "variacion": -1.61,
-      "variacion_pct": -0.17
+      "valor": 969.7,
+      "variacion": 5.6,
+      "variacion_pct": 0.58
     },
     "uf": {
-      "valor": 41040.82,
-      "variacion": 8.18,
+      "valor": 41049.01,
+      "variacion": 8.19,
       "variacion_pct": 0.02
     }
   },
-  "noticia_del_dia": "efa98b45ca",
-  "pildora_ia": "Embeddings: representan palabras, imágenes o cualquier dato como vectores de números donde la cercanía significa similitud de significado. Son la base de la búsqueda semántica y de cómo los LLM 'entienden' texto.",
+  "noticia_del_dia": "881ae6cc36",
+  "pildora_ia": "Atención (Transformers): el mecanismo que deja a un modelo pesar qué partes de la entrada importan más para cada palabra que genera. Es el corazón de la arquitectura Transformer detrás de GPT, Gemini y Claude.",
   "pildoras_ia": [
-    "Embeddings: representan palabras, imágenes o cualquier dato como vectores de números donde la cercanía significa similitud de significado. Son la base de la búsqueda semántica y de cómo los LLM 'entienden' texto.",
     "Atención (Transformers): el mecanismo que deja a un modelo pesar qué partes de la entrada importan más para cada palabra que genera. Es el corazón de la arquitectura Transformer detrás de GPT, Gemini y Claude.",
     "Gradiente descendente: el algoritmo que entrena casi todas las redes neuronales. Ajusta los parámetros poco a poco en la dirección que más reduce el error, como bajar una montaña a ciegas siguiendo la pendiente.",
     "Tokens: los LLM no leen palabras sino 'tokens', fragmentos de texto (a veces una palabra, a veces parte de una). El costo y los límites de las APIs se miden en tokens, no en caracteres.",
-    "Temperatura: parámetro que controla cuán 'creativa' es la respuesta de un LLM. Baja (0) da respuestas predecibles y consistentes; alta (1+) las hace más variadas y arriesgadas."
+    "Temperatura: parámetro que controla cuán 'creativa' es la respuesta de un LLM. Baja (0) da respuestas predecibles y consistentes; alta (1+) las hace más variadas y arriesgadas.",
+    "RAG (Retrieval-Augmented Generation): técnica para que un LLM responda usando documentos externos: primero busca información relevante y luego la usa para generar la respuesta. Reduce alucinaciones y permite datos frescos sin reentrenar."
   ],
   "noticias": [
     {
-      "id": "efa98b45ca",
+      "id": "881ae6cc36",
       "tema": "ia",
-      "titular_es": "AMD adquiere la startup de IA World Labs por más de 8.200 millones de dólares",
-      "resumen": "AMD concretó la compra de World Labs, laboratorio cofundado por la investigadora Fei-Fei Li, en una operación enteramente en acciones valorada en 8.200 millones de dólares.\nEl acuerdo consolida la estrategia del fabricante de chips frente a Nvidia para liderar el desarrollo de modelos de inteligencia espacial en 3D.\nLa operación destaca por la rapidez del acuerdo, ya que la startup había sido fundada a inicios de 2024.",
+      "titular_es": "Dots",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 10,
-      "url": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "AMD",
-        "World Labs",
-        "adquisiciones"
-      ]
+      "url": "https://openai.com/index/introducing-dots/",
+      "fuente": "openai.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "9dde4897f1",
-      "tema": "ia",
-      "titular_es": "Nvidia lanza plataforma de seguridad capaz de contener agentes de IA rebeldes en milisegundos",
-      "resumen": "Nvidia presentó Open Agent Safety Platform, un sistema enfocado en supervisar y mitigar acciones indebidas de agentes autónomos de IA.\nLa herramienta responde a recientes incidentes de ciberseguridad y permite aislar comportamientos anómalos de forma prácticamente instantánea.\nRepresenta un paso crítico de la industria de hardware para estandarizar la gobernanza de agentes de software en producción.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Nvidia",
-        "ciberseguridad",
-        "agentes de IA"
-      ]
-    },
-    {
-      "id": "2f0aec144d",
-      "tema": "ia",
-      "titular_es": "Florida busca prohibir que ChatGPT actúe como una persona real",
-      "resumen": "El fiscal general de Florida solicitó formalmente a la justicia restringir que OpenAI atribuya características humanas a ChatGPT.\nEl argumento central sostiene que simular empatía genera una falsa sensación de confianza y vulnerabilidad en los usuarios.\nEl litigio marca un precedente regulatorio clave respecto al diseño de interfaces y la personificación de modelos generativos.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "OpenAI",
-        "regulación",
-        "ChatGPT"
-      ]
-    },
-    {
-      "id": "9be216d320",
-      "tema": "ia",
-      "titular_es": "El CEO de MongoDB renuncia para incorporarse a Meta",
-      "resumen": "El director ejecutivo de MongoDB anunció su dimisión sorpresiva para asumir un rol de liderazgo técnico dentro de Meta.\nEl fichaje evidencia la agresiva pugna de las grandes tecnológicas por talento probado para escalar infraestructura y datos destinados a IA.\nLas acciones de la proveedora de bases de datos noSQL sintieron de inmediato el impacto del anuncio en el mercado.",
-      "relevancia": 8,
-      "url": "https://www.reuters.com/technology/mongodb-ceo-desai-steps-down-lead-metas-enterprise-platform-2026-09-28/",
-      "fuente": "reuters.com (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "MongoDB",
-        "Meta",
-        "liderazgo"
-      ]
-    },
-    {
-      "id": "1dc722cab5",
+      "id": "9fac817dd8",
       "tema": "finanzas",
-      "titular_es": "Las ganancias industriales de China registran su menor crecimiento del año con un 4,2% en agosto",
-      "resumen": "El sector manufacturero chino mostró signos de agotamiento al reportar una marcada desaceleración en sus beneficios empresariales durante agosto.\nAnalistas proyectan que Pekín deberá intensificar los paquetes de estímulo fiscal para evitar la deflación y sostener la rentabilidad.\nLa persistente debilidad en el mercado inmobiliario y el exceso de capacidad productiva siguen lastrando la recuperación económica global.",
-      "relevancia": 8,
-      "url": "https://www.cnbc.com/2026/09/28/china-posts-weakest-industrial-profit-growth-this-year-expanding-4point2percent-in-august-.html",
-      "fuente": "cnbc.com",
-      "bandera": "🇨🇳",
-      "tags": [
-        "China",
-        "economía",
-        "industria"
-      ]
-    },
-    {
-      "id": "9c6fd7af5f",
-      "tema": "finanzas",
-      "titular_es": "El dólar supera los 18 pesos mexicanos en su mayor retroceso cambiario desde marzo",
-      "resumen": "El peso mexicano experimentó una fuerte depreciación en los mercados spot frente al fortalecimiento internacional de la divisa estadounidense.\nLa volatilidad responde a la cautela inversionista ante reformas institucionales locales y la política monetaria en Norteamérica.\nEl movimiento presiona las previsiones de inflación y complica la trayectoria de recortes de tasas por parte de Banxico.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/latinoamerica/mexico/peso-mexicano-inicia-la-semana-con-la-mayor-caida-frente-al-dolar-desde-abril/",
+      "titular_es": "Los datos que hay que conocer de Anthropic, fabricante de Claude, antes de su llegada a Wall Street",
+      "resumen": "Anthropic acelera sus ingresos, pero también acumula fuertes pérdidas y compromisos de infraestructura mientras se prepara para dar el salto al mercado bursátil.",
+      "relevancia": 10,
+      "url": "https://www.bloomberglinea.com/tecnologia/los-datos-que-hay-que-conocer-de-anthropic-fabricante-de-claude-antes-de-su-llegada-a-wall-street/",
       "fuente": "bloomberglinea.com",
-      "bandera": "🇲🇽",
-      "tags": [
-        "divisas",
-        "peso mexicano",
-        "banca central"
-      ]
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "b62b63880c",
+      "id": "b7d05a28e7",
       "tema": "emprendimiento",
-      "titular_es": "La startup de inteligencia marítima Quartermaster recauda 140 millones de dólares",
-      "resumen": "Quartermaster cerró una ronda de financiación multimillonaria para expandir su plataforma de monitoreo en tiempo real del tráfico oceánico.\nSu tecnología combina satélites y modelos predictivos para cubrir puntos ciegos globales en el transporte marítimo y la seguridad costera.\nEl capital se destinará a ampliar la infraestructura sensorial y robustecer la logística de cadenas de suministro críticas.",
-      "relevancia": 8,
-      "url": "https://techcrunch.com/2026/09/28/maritime-intelligence-startup-quartermaster-raises-another-140m/",
+      "titular_es": "After losing his voice to cancer, this founder is building ‘glasses for voice’",
+      "resumen": "Uhura Bionics, part of the Startup Battlefield 200 at TechCrunch Disrupt, wants to replace flat, robotics voice devices with one that carries emotions.",
+      "relevancia": 10,
+      "url": "https://techcrunch.com/2026/09/29/after-losing-his-voice-to-cancer-this-founder-is-building-glasses-for-voice/",
       "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Quartermaster",
-        "venture capital",
-        "marítimo"
-      ]
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "743718b6f7",
+      "id": "b77e9af7e4",
+      "tema": "ciencia",
+      "titular_es": "The Download: climate tech companies to watch and AI’s discovery problem",
+      "resumen": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Coming soon: our 2026 list of Climate Tech Companies to Watch With the planet nearing 1.5 °C of warming, climate policies being unraveled, and Big Tech backpedali",
+      "relevancia": 10,
+      "url": "https://www.technologyreview.com/2026/09/29/1145249/the-download-climate-tech-ai-scientific-discovery/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "3b1f5931d4",
+      "tema": "ia",
+      "titular_es": "GPT 6.1 Sol",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 9,
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "fuente": "openai.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "e000c2f56d",
+      "tema": "finanzas",
+      "titular_es": "Acción de Nu rebota tras su mayor caída desde 2025: 5 claves de la posible compra de Monzo",
+      "resumen": "La eventual adquisición abriría a Nubank la puerta de Europa, pero también supondría un giro frente a su expansión orgánica y elevaría los desafíos de financiación, integración y regulación.",
+      "relevancia": 9,
+      "url": "https://www.bloomberglinea.com/mercados/accion-de-nu-rebota-tras-su-mayor-caida-desde-2025-5-claves-de-la-posible-compra-de-monzo/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "2acce7e829",
       "tema": "emprendimiento",
-      "titular_es": "La insurtech Outmarket levanta 34,5 millones de dólares pocos meses después de su ronda previa",
-      "resumen": "Outmarket consiguió una nueva inyección de capital tras demostrar una acelerada adopción de su sistema de procesamiento documental para seguros.\nLa herramienta reduce horas de trabajo manual en corredurías mediante agentes automatizados que auditan pólizas y siniestros.\nEl respaldo inversor confirma el apetito de los fondos por startups B2B que generen ahorros operativos inmediatos.",
-      "relevancia": 8,
-      "url": "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/",
+      "titular_es": "With Dazzle, Marissa Mayer bets your camera roll has more info on your life than your inbox",
+      "resumen": "Mayer argues that if a photo is worth a thousand words, your camera roll is worth millions. By analyzing all the photos stored on your phone, Dazzle claims to understand your hobbies, interests, food, and style preferences, how you like to spend their time, and with whom.",
+      "relevancia": 9,
+      "url": "https://techcrunch.com/2026/09/29/with-dazzle-marissa-mayer-bets-your-camera-roll-has-more-info-on-your-life-than-your-inbox/",
       "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "insurtech",
-        "inversión",
-        "automatización"
-      ]
-    },
-    {
-      "id": "22fef6af0a",
-      "tema": "ciencia",
-      "titular_es": "Desarrollan un dispositivo que captura dióxido de carbono bombeándolo a través de una batería",
-      "resumen": "Investigadores crearon un mecanismo electroquímico capaz de capturar CO2 con un consumo energético sustancialmente inferior al de plantas actuales.\nEl diseño aprovecha ciclos de carga y descarga de celdas eléctricas para atrapar selectivamente el gas de corrientes industriales.\nLa eficiencia demostrada abre la puerta a sistemas de descarbonización económicamente viables para instalaciones de manufactura pesada.",
-      "relevancia": 8,
-      "url": "https://arstechnica.com/science/2026/09/new-device-captures-carbon-dioxide-by-pumping-it-across-a-battery/",
-      "fuente": "arstechnica.com",
       "bandera": "🌍",
-      "tags": [
-        "captura de carbono",
-        "energía",
-        "sostenibilidad"
-      ]
+      "tags": []
     },
     {
-      "id": "297b9ee2e1",
+      "id": "3a0cc922f1",
       "tema": "ciencia",
-      "titular_es": "Descubren que un desencadenante clave del Alzheimer se origina fuera del cerebro",
-      "resumen": "Un nuevo estudio reveló que células inmunes vinculadas al daño neuronal del Alzheimer se activan en ganglios linfáticos antes de migrar al encéfalo.\nAl bloquear farmacológicamente esta vía periférica en modelos animales, los científicos lograron frenar drásticamente el deterioro cognitivo.\nEl hallazgo redefine la patología y abre la posibilidad de diagnósticos tempranos y tratamientos menos invasivos.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260925093150.htm",
-      "fuente": "sciencedaily.com",
+      "titular_es": "Coming soon: Our 2026 list of Climate Tech Companies to Watch",
+      "resumen": "Earlier this month, the UN announced the planet will tip past 1.5 ˚C of warming, “likely within the next few years,” squashing any lingering hope that nations would cut emissions fast enough to achieve the loftiest goal of the Paris climate agreement. In the US, the world’s second-largest-emitting c",
+      "relevancia": 9,
+      "url": "https://www.technologyreview.com/2026/09/29/1145183/2026-climate-tech-companies-to-watch-preview/",
+      "fuente": "technologyreview.com",
       "bandera": "🌍",
-      "tags": [
-        "Alzheimer",
-        "neurociencia",
-        "medicina"
-      ]
+      "tags": []
     },
     {
-      "id": "c1c742f339",
-      "tema": "ciencia",
-      "titular_es": "Un compuesto derivado de la granada mejora hasta un 80% la función cardíaca en ensayos",
-      "resumen": "La urolitina A, metabolito producido tras la ingesta de granadas y nueces, demostró revertir la rigidez muscular en insuficiencia cardíaca.\nEn modelos preclínicos redujo significativamente la fibrosis y la hipertrofia patológica del tejido miocárdico.\nRepresenta una promesa terapéutica natural contra formas complejas de falla cardíaca que carecen hoy de fármacos eficaces.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260925093157.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "cardiología",
-        "farmacología",
-        "nutrición"
-      ]
-    },
-    {
-      "id": "c9d9e8e3fa",
-      "tema": "ciencia",
-      "titular_es": "Proteínas de hace 160 millones de años muestran gran efectividad contra superbacterias",
-      "resumen": "Científicos lograron sintetizar péptidos antimicrobianos ancestrales a partir del registro genético de mamíferos prehistóricos extintos.\nLas moléculas demostraron una potencia destructiva superior a los antibióticos actuales frente a patógenos resistentes a múltiples fármacos.\nEl enfoque evolutivo inverso ofrece una alternativa novedosa para diseñar la próxima generación de terapias antimicrobianas.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260925093155.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "antibióticos",
-        "evolución",
-        "biotecnología"
-      ]
-    },
-    {
-      "id": "8be2d014ab",
-      "tema": "ciencia",
-      "titular_es": "El telescopio James Webb revela por qué la formación de planetas es una carrera contrarreloj",
-      "resumen": "Observaciones del observatorio espacial mostraron que los discos protoplanetarios disipan su gas mucho más rápido de lo estimado mediante vientos moleculares y chorros.\nEsto acorta drásticamente el período que tienen los gigantes gaseosos para capturar sus densas atmósferas antes de la dispersión del disco.\nLos datos obligan a recalibrar los modelos teóricos sobre cómo se ensamblan y evolucionan los sistemas planetarios jóvenes.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260925093158.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "James Webb",
-        "astronomía",
-        "planetas"
-      ]
-    },
-    {
-      "id": "e57d70b69e",
+      "id": "ff702bf6ee",
       "tema": "ia",
-      "titular_es": "Flock exige retirar de internet el mapa público más detallado de sus cámaras de vigilancia",
-      "resumen": "La compañía de reconocimiento de patentes Flock busca dar de baja una investigación colaborativa que mapeó sus dispositivos en EE. UU.\nOrganizaciones civiles defienden la publicación argumentando transparencia ante el despliegue masivo de videovigilancia policial.\nEl conflicto reabre el debate sobre privacidad, visión por computadora y supervisión ciudadana del equipamiento biométrico.",
-      "relevancia": 7,
-      "url": "https://theintercept.com/2026/09/24/how-many-flock-devices-in-united-states-300000/",
-      "fuente": "theintercept.com (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "vigilancia",
-        "privacidad",
-        "visión artificial"
-      ]
+      "titular_es": "DraftKings Is Using AI to Behaviorally Target Chronic Gamblers",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 8,
+      "url": "https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising",
+      "fuente": "eff.org (vía HN)",
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "d6c6baf96b",
-      "tema": "ia",
-      "titular_es": "Bose comienza a integrar Auracast en sus auriculares premium",
-      "resumen": "Bose liberó una actualización de firmware que habilita soporte beta para Bluetooth LE Audio y Auracast en los QuietComfort Ultra Gen 2.\nEsta tecnología permite emitir múltiples transmisiones de audio a receptores ilimitados en espacios públicos y privados.\nSupone el primer paso del fabricante para masificar la compartición de audio de baja latencia en toda su gama.",
-      "relevancia": 7,
-      "url": "https://www.theverge.com/tech/1001522/bose-headphones-get-auracast-support",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Bose",
-        "hardware",
-        "audio"
-      ]
+      "id": "b421bfb1e8",
+      "tema": "finanzas",
+      "titular_es": "S&P 500 opera con cautela con la caída del petróleo y el mercado atento a nuevos datos en EE.UU.",
+      "resumen": "Las acciones estadounidenses avanzan mientras el petróleo cede y los bonos del Tesoro se recuperan, con la atención puesta en el empleo, la Fed y la inteligencia artificial.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/mercados/sp-500-opera-con-cautela-con-la-caida-del-petroleo-y-el-mercado-atento-a-nuevos-datos-en-eeuu/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "edc2c184de",
+      "id": "8c8e0b75fd",
+      "tema": "emprendimiento",
+      "titular_es": "Ex-Tesla team raises $12.5M to put supply chains on autopilot",
+      "resumen": "Atomic's agentic supply chain software is now being used by companies like DoorDash and HelloFresh.",
+      "relevancia": 8,
+      "url": "https://techcrunch.com/2026/09/29/ex-tesla-team-raises-12-5m-to-put-supply-chains-on-autopilot/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "2665823bec",
+      "tema": "ciencia",
+      "titular_es": "Making AI an asset, not an expense",
+      "resumen": "When customers talk about AI costs, the conversation usually starts with token prices and ends with access to the latest, most capable model in the cloud. Do they always need that level of capability? Not necessarily. But that is often where the conversation goes. As AI moves from experimentation to",
+      "relevancia": 8,
+      "url": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "f10e7e37ba",
       "tema": "ia",
-      "titular_es": "El auge de la IA potencia el ciberdelito frente a la desprotección de hospitales y bancos",
-      "resumen": "Ciberdelincuentes están empleando herramientas automáticas de IA para sofisticar campañas de phishing y vulnerar infraestructuras críticas.\nInformes alertan que organizaciones sin fines de lucro, centros médicos y entidades financieras regionales carecen de defensas proporcionales.\nLos incidentes revelan una brecha creciente entre las capacidades ofensivas automatizadas y la ciberseguridad básica de los servicios esenciales.",
+      "titular_es": "macOS Golden Gate Is a Buggy Mess",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 7,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001427/ai-is-supercharging-hacking-and-your-local-hospitals-and-banks-arent-ready",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "ciberseguridad",
-        "amenazas",
-        "infraestructura"
-      ]
+      "url": "https://www.squareorbits.com/blog/2026/09/macos-golden-gate-is-a-buggy-mess/",
+      "fuente": "squareorbits.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "b436e0f14a",
+      "tema": "finanzas",
+      "titular_es": "“La mora bajará más lento de lo previsto, 80% de los clientes ya está refinanciando”, según Fabián Kon, CEO de Banco Galicia",
+      "resumen": "El presidente del Coloquio de IDEA anticipó que la baja en la mora recién se verá en 2027 y que aun así quedará en un nivel más alto que antes del salto. Dijo que el 80% de los clientes con atrasos ya refinancia deudas y que la competencia con las fintech se hace cada vez más desafiante.",
+      "relevancia": 7,
+      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/la-mora-bajara-mas-lento-de-lo-previsto-80-de-los-clientes-ya-esta-refinanciando-segun-fabian-kon-ceo-de-banco-galicia/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "71c7b9385a",
+      "tema": "emprendimiento",
+      "titular_es": "Peak XV ups Surge seed investment ceiling to $5M, unveils 18-startup cohort",
+      "resumen": "Thirteen of the 18 startups in Peak XV’s latest Surge cohort are targeting global markets, while more than half are based in India.",
+      "relevancia": 7,
+      "url": "https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "8cdbfa70b9",
+      "tema": "ciencia",
+      "titular_es": "Roundtables: The Deadly Failures of The Virtual Border Wall",
+      "resumen": "Listen to the session or watch below The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review ",
+      "relevancia": 7,
+      "url": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "914e410ddc",
+      "tema": "ia",
+      "titular_es": "Google ending ChromeOS support two years early",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 6,
+      "url": "https://www.theregister.com/os-platforms/2026/09/29/google-ending-chromeos-support-two-years-early/5299674",
+      "fuente": "theregister.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
     },
     {
       "id": "d853bdfdb0",
       "tema": "finanzas",
-      "titular_es": "Retrocede un múltiplo clave de valuación del S&P 500 y vuelve a su media histórica",
-      "resumen": "El ratio precio/ganancias futuras del índice bursátil de referencia cayó de 22 a 19 veces a pesar del repunte acumulado del 14% en el año.\nEl ajuste normaliza las valoraciones hacia su promedio de 10 años, impulsado por una sólida entrega de balances corporativos.\nEsto disipa parcialmente los temores de sobrecalentamiento generalizado en Wall Street, brindando mayor soporte fundamental.",
-      "relevancia": 7,
+      "titular_es": "Un múltiplo clave para invertir en el S&P 500 retrocede",
+      "resumen": "El múltiplo precio/ganancias esperadas del S&P 500 cayó de 22 a 19 veces en lo que va del año, pese al avance de 14% del índice, y volvió a su promedio de 10 años.",
+      "relevancia": 6,
       "url": "https://www.bloomberglinea.com/mercados/un-multiplo-clave-para-invertir-en-el-sp-500-retrocede/",
       "fuente": "bloomberglinea.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "S&P 500",
-        "bolsa",
-        "valuaciones"
-      ]
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "781d932a6c",
-      "tema": "finanzas",
-      "titular_es": "El CEO de Walmart asegura que no aumentará precios según el historial de compra del cliente",
-      "resumen": "El director ejecutivo de Walmart envió una comunicación asegurando que sus etiquetas digitales no implementarán precios dinámicos personalizados.\nAclaró que la modernización tecnológica busca facilitar tareas a los empleados de tienda y no extraer rentas abusivas del consumidor.\nLa declaración responde al creciente escrutinio regulatorio y social sobre la fijación algorítmica de precios en el comercio minorista.",
-      "relevancia": 7,
-      "url": "https://www.theverge.com/tech/1001492/walmart-dynamic-pricing-digital-shelf-labels",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Walmart",
-        "retail",
-        "comercio"
-      ]
-    },
-    {
-      "id": "c3eb429f28",
+      "id": "1968ba055e",
       "tema": "emprendimiento",
-      "titular_es": "MAVI sale de fase confidencial con 4 millones de dólares para formar contadores potenciados por IA",
-      "resumen": "La plataforma de reclutamiento y servicios contables MAVI debutó formalmente en el mercado captando 4 millones de financiamiento inicial.\nSu modelo combina profesionales especializados con flujos asistidos por software para cubrir la escasez de talento contable corporativo.\nApuesta a que la transformación de servicios profesionales tradicionales será uno de los nichos de mayor tracción este año.",
-      "relevancia": 7,
-      "url": "https://techcrunch.com/2026/09/28/mavi-bets-on-the-ai-boom-creating-demand-for-a-new-kind-of-accountant/",
+      "titular_es": "Protego Ventures closes debut $125 million fund for Israeli defense tech",
+      "resumen": "Protego Ventures, the first and largest dedicated defense tech VC in Israel, just completed its final $125 million closing, TechCrunch learned exclusively.",
+      "relevancia": 6,
+      "url": "https://techcrunch.com/2026/09/29/protego-ventures-closes-debut-125-million-fund-for-israeli-defense-tech/",
       "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "MAVI",
-        "fintech",
-        "empleo"
-      ]
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "9130a6b7df",
+      "id": "63b67ed7e6",
       "tema": "ciencia",
-      "titular_es": "Ajustar el reloj biológico favorece la recuperación cerebral tras un accidente cerebrovascular",
-      "resumen": "Científicos comprobaron que sincronizar los ritmos circadianos en ratones post-ACV potencia la limpieza de residuos y disminuye la neuroinflamación.\nLa terapia produjo mejoras funcionales notorias aun cuando comenzó a administrarse 72 horas después de ocurrido el evento isquémico.\nSugiere intervenciones cronobiológicas sencillas para ampliar la ventana terapéutica en la rehabilitación de pacientes.",
-      "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260924020407.htm",
+      "titular_es": "The ice blasting from Saturn's moon Enceladus is stranger than scientists realized",
+      "resumen": "Enceladus may naturally separate and concentrate chemicals from its hidden ocean as droplets slowly freeze and shatter on their way into space. The process could explain Cassini’s puzzling ice-grain chemistry while giving future spacecraft a powerful advantage in searching for organic compounds and ",
+      "relevancia": 6,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260929053528.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": [
-        "ACV",
-        "reloj biológico",
-        "neurociencia"
-      ]
+      "tags": []
     },
     {
-      "id": "b250670fe4",
-      "tema": "ciencia",
-      "titular_es": "Análisis de sangre desvelan el origen del estreñimiento en los astronautas",
-      "resumen": "Estudios fisiológicos espaciales determinaron que la microgravedad altera la microbiota en pocas semanas, ralentizando drásticamente el tránsito intestinal.\nEl cambio induce a las bacterias a degradar más proteínas de lo habitual, lo que genera malestar e impacta en la salud metabólica general.\nComprender este mecanismo es indispensable para formular dietas y protocolos médicos en misiones de larga duración hacia Marte.",
-      "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260927225030.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "espacio",
-        "microbiota",
-        "salud"
-      ]
-    },
-    {
-      "id": "21cbf3644c",
+      "id": "5b1c616dca",
       "tema": "ia",
-      "titular_es": "Cf: una interfaz de línea de comandos orientada a agentes para la API de Cloudflare",
-      "resumen": "Se publicó 'cf', una CLI diseñada para interactuar mediante lenguaje natural y flujos agénticos con la infraestructura de Cloudflare.\nPermite orquestar configuraciones de red, DNS y Workers delegando la ejecución a modelos de lenguaje.\nFacilita automatizaciones complejas para ingenieros de sistemas mediante interfaces conversacionales programables.",
-      "relevancia": 6,
-      "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
-      "fuente": "blog.cloudflare.com (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Cloudflare",
-        "CLI",
-        "desarrollo"
-      ]
-    },
-    {
-      "id": "6f482fa0cb",
-      "tema": "ia",
-      "titular_es": "MicroLLM Lab permite probar siete modelos diminutos directamente en el navegador",
-      "resumen": "Un nuevo laboratorio web interactivo permite ejecutar y comparar siete LLMs ultracompactos sin intermediación de servidores.\nUtiliza tecnologías WebGPU y WebAssembly para demostrar la viabilidad de la inferencia local privada en dispositivos de gama media.\nEs un recurso valioso para desarrolladores enfocados en edge computing y aplicaciones web autónomas.",
-      "relevancia": 6,
-      "url": "https://stateofutopia.com/experiments/microllmlab/",
-      "fuente": "stateofutopia.com (vía HN)",
-      "bandera": "🌍",
-      "tags": [
-        "open source",
-        "WebGPU",
-        "edge computing"
-      ]
-    },
-    {
-      "id": "ce4860d204",
-      "tema": "emprendimiento",
-      "titular_es": "Scrimba lanza HN.watch: resúmenes en video interactivo de debates en Hacker News",
-      "resumen": "El fundador de Scrimba presentó un experimento que sintetiza hilos y publicaciones populares de la comunidad tecnológica en formato audiovisual dinámico.\nUtiliza modelos de lenguaje para guionar y renderizar código explicativo paso a paso sin requerir edición manual de video.\nEl proyecto sirve como demostración técnica de su motor de generación de contenido educativo escalable.",
-      "relevancia": 6,
-      "url": "https://hn.watch/",
-      "fuente": "hn.watch (vía HN)",
-      "bandera": "🌍",
-      "tags": [
-        "Scrimba",
-        "educación",
-        "desarrollo"
-      ]
-    },
-    {
-      "id": "13f1b2f89f",
-      "tema": "ia",
-      "titular_es": "Jeff: modelos de decisión de 0.8B entrenados en casa con latencia de 30 ms",
-      "resumen": "Desarrolladores presentaron Jeff, una serie de modelos compactos de decisión entrenados en hardware doméstico con tiempos de respuesta ínfimos.\nEl proyecto explora cómo optimizar redes ligeras para tareas de clasificación lógica rápida sin requerir clústeres empresariales.\nDemuestra que el cómputo casero aún puede lograr arquitecturas eficientes para aplicaciones embebidas.",
+      "titular_es": "How Delhi cut electricity loss from 50 to 5 percent",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 5,
-      "url": "https://github.com/firelex/jeff",
+      "url": "https://spectrum.ieee.org/delhi-electricity-loss",
+      "fuente": "spectrum.ieee.org (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "67e2ff646e",
+      "tema": "ciencia",
+      "titular_es": "Earth’s day isn’t exactly 24 hours. The reason may lie deep inside the planet",
+      "resumen": "Scientists may have solved why the length of Earth’s day changes by a few milliseconds over decades. Subtle shifts in the inner core appear to tug on the mantle, revealing a surprisingly dynamic world thousands of kilometers beneath our feet.",
+      "relevancia": 5,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260928100540.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "1e7ac3f71d",
+      "tema": "ia",
+      "titular_es": "1 in 8 cancer cases worldwide are caused by infections, study finds",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 4,
+      "url": "https://www.cbc.ca/lite/story/9.7361622",
+      "fuente": "cbc.ca (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "eec9b149ba",
+      "tema": "ciencia",
+      "titular_es": "NASA’s Crew-13 could go from Florida to the ISS in under 9 hours",
+      "resumen": "NASA and SpaceX could launch four astronauts to the International Space Station on October 1, with the Dragon spacecraft reaching orbiting outpost less than nine hours after liftoff. Crew-13 will join Expedition 75 after teams complete a final round of intensive launch-readiness checks.",
+      "relevancia": 4,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260928100534.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "0ee34329bc",
+      "tema": "ia",
+      "titular_es": "500k facial scans at UK stations yield no arrests, 1 false positive",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 3,
+      "url": "https://www.theguardian.com/technology/2026/sep/29/trial-live-facial-recognition-cameras-london-stations-false-positive",
+      "fuente": "theguardian.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "9a2a9b8c18",
+      "tema": "ciencia",
+      "titular_es": "This suitcase-sized spacecraft could hear the universe before stars existed",
+      "resumen": "CosmoCube will use the far side of the Moon as a shield from Earth’s radio noise to search for a faint signal from the universe before the first stars existed. The suitcase-sized satellite could reveal how the cosmic dark ages ended and how dark matter helped build the first galaxies.",
+      "relevancia": 3,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260927225034.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "61ddca15fd",
+      "tema": "ia",
+      "titular_es": "You are no longer invited to dinner",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 2,
+      "url": "https://www.derekthompson.org/p/the-death-of-the-american-host",
+      "fuente": "derekthompson.org (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "6d2c25ddbc",
+      "tema": "ciencia",
+      "titular_es": "Scientists expected these Galápagos sea turtles to wander. They stayed put",
+      "resumen": "Yellow-morph green sea turtles in the Galápagos surprised scientists by staying remarkably close to home instead of making the long journeys typically associated with sea turtles. Satellite tracking showed that none left the marine reserve during the study, revealing just how important the islands’ ",
+      "relevancia": 2,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260927225032.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "a3981a8006",
+      "tema": "ia",
+      "titular_es": "Jeeves. Reasoning improves Jev-like decision models",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 1,
+      "url": "https://github.com/PostHog/jeeves",
       "fuente": "github.com (vía HN)",
       "bandera": "🌍",
-      "tags": [
-        "open source",
-        "machine learning",
-        "hardware"
-      ]
+      "tags": []
+    },
+    {
+      "id": "65a55f044e",
+      "tema": "ciencia",
+      "titular_es": "Scientists find new virus behind mysterious tick illness",
+      "resumen": "Scientists have discovered a new tick-borne virus in China that causes flu-like illness and may account for previously unexplained cases of fever, fatigue, digestive problems, and low platelet counts. Most patients with ALTNV alone recovered, but coinfections with another dangerous tick-borne virus ",
+      "relevancia": 1,
+      "url": "https://www.sciencedaily.com/releases/2026/09/260927225027.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
     }
   ]
 }
