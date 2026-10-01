@@ -1,6 +1,6 @@
 {
   "fecha": "2026-10-01",
-  "generado_utc": "2026-10-01T18:07:31Z",
+  "generado_utc": "2026-10-01T23:36:04Z",
   "indicadores": {
     "dolar": {
       "valor": 972.6,
@@ -13,7 +13,7 @@
       "variacion_pct": 0.02
     }
   },
-  "noticia_del_dia": "89d073630f",
+  "noticia_del_dia": "d2cb26e975",
   "pildora_ia": "Tokens: los LLM no leen palabras sino 'tokens', fragmentos de texto (a veces una palabra, a veces parte de una). El costo y los límites de las APIs se miden en tokens, no en caracteres.",
   "pildoras_ia": [
     "Tokens: los LLM no leen palabras sino 'tokens', fragmentos de texto (a veces una palabra, a veces parte de una). El costo y los límites de las APIs se miden en tokens, no en caracteres.",
@@ -24,34 +24,34 @@
   ],
   "noticias": [
     {
-      "id": "89d073630f",
+      "id": "d2cb26e975",
       "tema": "ia",
-      "titular_es": "Clef: Open-source decision models, and new RL fine-tuning platform",
+      "titular_es": "The death of web development education",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 10,
-      "url": "https://blog.cloudflare.com/clef-decision-models/",
-      "fuente": "blog.cloudflare.com (vía HN)",
+      "url": "https://molily.de/web-dev-education/",
+      "fuente": "molily.de (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "1bae256c09",
+      "id": "0ba07818a3",
       "tema": "finanzas",
-      "titular_es": "Del rally de 76% a una caída de más de 11%: qué pasó con los semiconductores",
-      "resumen": "El sector de semiconductores pasó de un fuerte avance en el segundo trimestre a una caída de más de 11% en el tercero. BofA identifica cinco acciones con catalizadores para el cierre de 2026.",
+      "titular_es": "S&P 500 inicia octubre al alza con alivio en los bonos pese al repunte del petróleo",
+      "resumen": "Las acciones estadounidenses cerraron con leves ganancias después de que los Tesoros recuperaron terreno, mientras el Brent superó los US$102 y la atención se desplazó al informe de empleo del viernes.",
       "relevancia": 10,
-      "url": "https://www.bloomberglinea.com/mercados/del-rally-de-76-a-una-caida-de-mas-de-11-que-paso-con-los-semiconductores/",
+      "url": "https://www.bloomberglinea.com/mercados/sp-500-avanza-con-apoyo-de-las-tecnologicas-mientras-petroleo-y-bonos-presionan-al-mercado/",
       "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "3f4ea9f16a",
+      "id": "07c30cc156",
       "tema": "emprendimiento",
-      "titular_es": "Photon held a funeral for mobile apps. Now it has $4.5M to help replace them with agents.",
-      "resumen": "The startup helps developers build AI agents that work over iMessage, SMS/RCS, email, and other messaging platforms. It's a bet that consumers will increasingly use agents instead of downloading apps.",
+      "titular_es": "Kevin Mandia’s new ‘agent swarm’ security startup Armadin raises $255.5M at $2.5B valuation",
+      "resumen": "Kevin Mandia, best known as the founder of Mandiant, has a new startup that is using agent swarms to test and protect enterprises.",
       "relevancia": 10,
-      "url": "https://techcrunch.com/2026/10/01/photon-held-a-funeral-for-mobile-apps-now-it-has-4-5m-to-help-replace-them-with-agents/",
+      "url": "https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -68,34 +68,34 @@
       "tags": []
     },
     {
-      "id": "e2ec9c4109",
+      "id": "d5d369ecc4",
       "tema": "ia",
-      "titular_es": "RIP, vector database",
+      "titular_es": "Automatic Transmission – a data-privacy study of connected vehicles",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 9,
-      "url": "https://turbopuffer.com/blog/rip-vector-database",
-      "fuente": "turbopuffer.com (vía HN)",
+      "url": "https://automatictransmission.khoury.northeastern.edu/index.html",
+      "fuente": "automatictransmission.khoury.northeastern.edu (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "04a17e51d9",
+      "id": "c47fd08146",
       "tema": "finanzas",
-      "titular_es": "Petróleo y litio: PAE y Eramet buscan entrar al RIGI con proyectos por US$1.550 millones en Argentina",
-      "resumen": "Desde París, donde está el presidente Javier Milei, PAE anunció una inversión de US$1.200 millones vinculada a Cerro Dragón mientras Eramet proyecta otros US$350 millones para ampliar su producción de litio en Salta.",
+      "titular_es": "Las tres preguntas que recibió Caputo de un inversor y su respuesta en el Argentina Week",
+      "resumen": "El ministro reveló en la sede de la OCDE en París la consulta clave que recibió en Nueva York la semana pasada. Además, el discurso de Milei: qué dijo de la política industrial, ganar en primera vuelta, y la frase “rico como un argentino”.",
       "relevancia": 9,
-      "url": "https://www.bloomberglinea.com/economia/petroleo-y-litio-pae-y-eramet-buscan-entrar-al-rigi-con-proyectos-por-us1550-millones-en-argentina/",
+      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/las-tres-preguntas-que-recibio-caputo-de-un-inversor-y-su-respuesta-en-el-argentina-week/",
       "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "1531fa6060",
+      "id": "3f4ea9f16a",
       "tema": "emprendimiento",
-      "titular_es": "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation",
-      "resumen": "Flow Engineering, which is bringing AI agents to hardware design, also landed Roelof Botha as an angel investor and board member.",
+      "titular_es": "Photon held a funeral for mobile apps. Now it has $4.5M to help replace them with agents.",
+      "resumen": "The startup helps developers build AI agents that work over iMessage, SMS/RCS, email, and other messaging platforms. It's a bet that consumers will increasingly use agents instead of downloading apps.",
       "relevancia": 9,
-      "url": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
+      "url": "https://techcrunch.com/2026/10/01/photon-held-a-funeral-for-mobile-apps-now-it-has-4-5m-to-help-replace-them-with-agents/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -112,35 +112,24 @@
       "tags": []
     },
     {
-      "id": "ea5167b93a",
+      "id": "11ad6e1366",
       "tema": "ia",
-      "titular_es": "Figma restricts MCP access to whitelisted clients, excluding Pi",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "Pi 1.0",
+      "resumen": "Related: Pi Durable - https://news.ycombinator.com/item?id=49925969",
       "relevancia": 8,
-      "url": "https://twitter.com/GayaniFigma/status/2105295629941350454",
-      "fuente": "twitter.com (vía HN)",
+      "url": "https://earendil.com/posts/pi-1-0/",
+      "fuente": "earendil.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "af1834d16d",
+      "id": "1bae256c09",
       "tema": "finanzas",
-      "titular_es": "Goldman duda de otra subida de tasas en Colombia tras la sorpresa del Banco de la República",
-      "resumen": "La firma ve espacio para que el Banco de la República mantenga las tasas tras llevarlas a 12,25%. El Niño, la inflación y el próximo paquete fiscal serán claves para la siguiente decisión.",
+      "titular_es": "Del rally de 76% a una caída de más de 11%: qué pasó con los semiconductores",
+      "resumen": "El sector de semiconductores pasó de un fuerte avance en el segundo trimestre a una caída de más de 11% en el tercero. BofA identifica cinco acciones con catalizadores para el cierre de 2026.",
       "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/mercados/goldman-duda-de-otra-subida-de-tasas-en-colombia-tras-la-sorpresa-del-banco-de-la-republica/",
+      "url": "https://www.bloomberglinea.com/mercados/del-rally-de-76-a-una-caida-de-mas-de-11-que-paso-con-los-semiconductores/",
       "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "72ff1d3952",
-      "tema": "emprendimiento",
-      "titular_es": "Factory CEO just accused his VC board adviser of spying for Cognition",
-      "resumen": "VC Chris Degnan and former board adviser to Factory AI has taken a job as chief revenue officer for competitor Cognition -- and everyone is arguing on X about it.",
-      "relevancia": 8,
-      "url": "https://techcrunch.com/2026/09/30/factory-ceo-just-accused-his-vc-board-advisor-of-spying-for-cognition/",
-      "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
     },
@@ -156,35 +145,24 @@
       "tags": []
     },
     {
-      "id": "3994e7b7c3",
+      "id": "09afaa60ad",
       "tema": "ia",
-      "titular_es": "Cops Can Bypass iPhone's Automatic Reboot to Get into Locked Phones",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "Pi Durable",
+      "resumen": "Related: Pi 1.0 - https://news.ycombinator.com/item?id=49926069 - Oct 2026 (184 comments)",
       "relevancia": 7,
-      "url": "https://www.404media.co/cops-can-bypass-iphone-automatic-inactivity-reboot-graykey/",
-      "fuente": "404media.co (vía HN)",
+      "url": "https://earendil.com/posts/pi-durable/",
+      "fuente": "earendil.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "b305fcfdd2",
+      "id": "04a17e51d9",
       "tema": "finanzas",
-      "titular_es": "Citi ve al bitcoin en US$113.000 y eleva su pronóstico para el ether: ¿por qué?",
-      "resumen": "Los flujos hacia ETF son el principal motor de la nueva estimación de Citi, que también mejoró su perspectiva para ether ante el aumento de la actividad y el respaldo macroeconómico.",
+      "titular_es": "Petróleo y litio: PAE y Eramet buscan entrar al RIGI con proyectos por US$1.550 millones en Argentina",
+      "resumen": "Desde París, donde está el presidente Javier Milei, PAE anunció una inversión de US$1.200 millones vinculada a Cerro Dragón mientras Eramet proyecta otros US$350 millones para ampliar su producción de litio en Salta.",
       "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/mercados/citi-ve-al-bitcoin-en-us113000-y-eleva-su-pronostico-para-el-ether-por-que/",
+      "url": "https://www.bloomberglinea.com/economia/petroleo-y-litio-pae-y-eramet-buscan-entrar-al-rigi-con-proyectos-por-us1550-millones-en-argentina/",
       "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "b9907aea74",
-      "tema": "emprendimiento",
-      "titular_es": "Is Neko Health’s body scan worth it? Spotify billionaire’s startup has come to America",
-      "resumen": "Spotify founder Daniel Ek’s Neko Health raised $700 million to build a business around scanning your body, but it’s not the only company centering its roadmap around a new kind of preventative healthcare. Midjourney is building its own body scanner, while Function Health has also raised significant ",
-      "relevancia": 7,
-      "url": "https://techcrunch.com/video/is-neko-healths-body-scan-worth-it-spotify-billionaires-startup-has-come-to-america/",
-      "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
     },
@@ -200,35 +178,24 @@
       "tags": []
     },
     {
-      "id": "ca1a016b5f",
+      "id": "89d073630f",
       "tema": "ia",
-      "titular_es": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
+      "titular_es": "Clef: Open-source decision models, and new RL fine-tuning platform",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 6,
-      "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
-      "fuente": "cnbc.com (vía HN)",
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "fuente": "blog.cloudflare.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "8e98dc6f4d",
+      "id": "af1834d16d",
       "tema": "finanzas",
-      "titular_es": "De Paraguay y Colombia a Chile: las mejores y peores monedas de América Latina en el tercer trimestre",
-      "resumen": "Solo dos de las 12 principales monedas de América Latina avanzaron frente al dólar en el tercer trimestre. El guaraní paraguayo lideró las ganancias, mientras el peso chileno sufrió la mayor caída.",
+      "titular_es": "Goldman duda de otra subida de tasas en Colombia tras la sorpresa del Banco de la República",
+      "resumen": "La firma ve espacio para que el Banco de la República mantenga las tasas tras llevarlas a 12,25%. El Niño, la inflación y el próximo paquete fiscal serán claves para la siguiente decisión.",
       "relevancia": 6,
-      "url": "https://www.bloomberglinea.com/mercados/de-paraguay-y-colombia-a-chile-las-mejores-y-peores-monedas-de-america-latina-en-el-tercer-trimestre/",
+      "url": "https://www.bloomberglinea.com/mercados/goldman-duda-de-otra-subida-de-tasas-en-colombia-tras-la-sorpresa-del-banco-de-la-republica/",
       "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "9e9952c307",
-      "tema": "emprendimiento",
-      "titular_es": "A Neko Health investor on the $700M bet to scan your whole body",
-      "resumen": "Spotify founder Daniel Ek’s Neko Health raised $700 million to build a business around scanning your body, but it’s not the only company centering its roadmap around a new kind of preventative healthcare. Midjourney is building its own body scanner, while Function Health has also raised significant ",
-      "relevancia": 6,
-      "url": "https://techcrunch.com/podcast/the-investor-behind-neko-healths-700m-bet-on-scanning-your-whole-body/",
-      "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
     },
@@ -244,35 +211,24 @@
       "tags": []
     },
     {
-      "id": "18f82ca5d2",
+      "id": "e2ec9c4109",
       "tema": "ia",
-      "titular_es": "Micron CEO Says Memory Supply Will Be Much Tighter in 2027 and 2028 Than in 2026",
+      "titular_es": "RIP, vector database",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 5,
-      "url": "https://www.techpowerup.com/353296/micron-ceo-says-memory-supply-will-be-much-tighter-in-2027-and-2028-than-in-2026",
-      "fuente": "techpowerup.com (vía HN)",
+      "url": "https://turbopuffer.com/blog/rip-vector-database",
+      "fuente": "turbopuffer.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "c57d3c4812",
+      "id": "b305fcfdd2",
       "tema": "finanzas",
-      "titular_es": "Gobierno paga con bonos COP$683.990 millones que debía a Ecopetrol y Reficar por combustibles",
-      "resumen": "El pago corresponde a obligaciones del Fondo de Estabilización de Precios de los Combustibles (FEPC) del tercer y cuarto trimestre de 2025 y fue realizado mediante TES.",
+      "titular_es": "Citi ve al bitcoin en US$113.000 y eleva su pronóstico para el ether: ¿por qué?",
+      "resumen": "Los flujos hacia ETF son el principal motor de la nueva estimación de Citi, que también mejoró su perspectiva para ether ante el aumento de la actividad y el respaldo macroeconómico.",
       "relevancia": 5,
-      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/gobierno-paga-con-bonos-cop683990-millones-que-debia-a-ecopetrol-y-reficar-por-combustibles/",
+      "url": "https://www.bloomberglinea.com/mercados/citi-ve-al-bitcoin-en-us113000-y-eleva-su-pronostico-para-el-ether-por-que/",
       "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "7b98304de6",
-      "tema": "emprendimiento",
-      "titular_es": "AI voice startup ElevenLabs doubles valuation to $22B",
-      "resumen": "The $300 million employee tender was co-led by Wellington and T. Rowe Price.",
-      "relevancia": 5,
-      "url": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
-      "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
     },
@@ -288,13 +244,13 @@
       "tags": []
     },
     {
-      "id": "21daef866a",
+      "id": "da502e13bc",
       "tema": "ia",
-      "titular_es": "How to speed up the Rust compiler in September 2026",
+      "titular_es": "Various Projects Find Hidden SDR Capabilities in ESP32 Microcontrollers",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 4,
-      "url": "https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html",
-      "fuente": "nnethercote.github.io (vía HN)",
+      "url": "https://www.rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers/",
+      "fuente": "rtl-sdr.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -310,13 +266,13 @@
       "tags": []
     },
     {
-      "id": "595b8e25cf",
+      "id": "3c1466a9e4",
       "tema": "ia",
-      "titular_es": "Returning from vacation? The government can search your phone without a warrant",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "Ask HN: Who is hiring? (October 2026)",
+      "resumen": "Please state the location and include REMOTE for remote work, REMOTE (US) or similar if the country is restricted, and ONSITE when remote work is not an option. Please only post if you personally are part of the hiring company—no recruiting firms or job boards. One post per company. If it isn't a ho",
       "relevancia": 3,
-      "url": "https://arstechnica.com/tech-policy/2026/09/immigration-advocate-sues-border-agents-for-demanding-his-cell-phone/",
-      "fuente": "arstechnica.com (vía HN)",
+      "url": "https://news.ycombinator.com/item?id=49922569",
+      "fuente": "news.ycombinator.com",
       "bandera": "🌍",
       "tags": []
     },
@@ -332,13 +288,13 @@
       "tags": []
     },
     {
-      "id": "852f63c12e",
+      "id": "a63c7c1086",
       "tema": "ia",
-      "titular_es": "StreetComplete on iOS is now in public beta",
+      "titular_es": "RacketCon Is Saturday",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 2,
-      "url": "https://github.com/streetcomplete/StreetComplete/issues/5421",
-      "fuente": "github.com (vía HN)",
+      "url": "https://con.racket-lang.org/",
+      "fuente": "con.racket-lang.org (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -354,13 +310,13 @@
       "tags": []
     },
     {
-      "id": "2109c6dcb8",
+      "id": "d5075d06cf",
       "tema": "ia",
-      "titular_es": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
+      "titular_es": "Cloudflare K2: serverless event streams",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 1,
-      "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
-      "fuente": "news.synopsys.com (vía HN)",
+      "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
+      "fuente": "blog.cloudflare.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     }
