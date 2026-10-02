@@ -1,6 +1,6 @@
 {
   "fecha": "2026-10-02",
-  "generado_utc": "2026-10-02T17:34:35Z",
+  "generado_utc": "2026-10-02T23:27:33Z",
   "indicadores": {
     "dolar": {
       "valor": 983.84,
@@ -13,7 +13,7 @@
       "variacion_pct": 0.02
     }
   },
-  "noticia_del_dia": "ddd74eaeb1",
+  "noticia_del_dia": "b563909f87",
   "pildora_ia": "Temperatura: parámetro que controla cuán 'creativa' es la respuesta de un LLM. Baja (0) da respuestas predecibles y consistentes; alta (1+) las hace más variadas y arriesgadas.",
   "pildoras_ia": [
     "Temperatura: parámetro que controla cuán 'creativa' es la respuesta de un LLM. Baja (0) da respuestas predecibles y consistentes; alta (1+) las hace más variadas y arriesgadas.",
@@ -24,13 +24,13 @@
   ],
   "noticias": [
     {
-      "id": "ddd74eaeb1",
+      "id": "b563909f87",
       "tema": "ia",
-      "titular_es": "Supabase is acquiring Turso",
+      "titular_es": "Zig v0.17.0",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 10,
-      "url": "https://supabase.com/blog/supabase-is-acquiring-turso",
-      "fuente": "supabase.com (vía HN)",
+      "url": "https://ziglang.org/download/0.17.0/release-notes.html",
+      "fuente": "ziglang.org (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -46,12 +46,12 @@
       "tags": []
     },
     {
-      "id": "03c99bd3ec",
+      "id": "ca751af23b",
       "tema": "emprendimiento",
-      "titular_es": "TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants",
-      "resumen": "Blackstone's Jas Khaira will take the Builders Stage at TechCrunch Disrupt 2026 on building next-gen AI. Register for your pass and get 50% off a second.",
+      "titular_es": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
+      "resumen": "Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people.",
       "relevancia": 10,
-      "url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
+      "url": "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -68,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "22300f3b74",
+      "id": "35679dd830",
       "tema": "ia",
-      "titular_es": "The Legend of von Neumann (1973) [pdf]",
+      "titular_es": "Apple Pass Designer",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 9,
-      "url": "https://gwern.net/doc/math/1973-halmos.pdf",
-      "fuente": "gwern.net (vía HN)",
+      "url": "https://developer.apple.com/pass-designer/",
+      "fuente": "developer.apple.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -90,12 +90,12 @@
       "tags": []
     },
     {
-      "id": "0b1cf34140",
+      "id": "cf700e0758",
       "tema": "emprendimiento",
-      "titular_es": "Circuit Breaker Labs hopes to make AI safer for your kids (and you)",
-      "resumen": "With all the talk about how AI might one day kill us all, it's easy to forget that AI has already harmed some people psychologically. Circuit Breaker Labs has created \"crash-test dummies\" to solve that.",
+      "titular_es": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
+      "resumen": "This week, the White House got nearly every major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them — to sign an AI safety pledge that President Donald Trump called “morally binding.” Trump also signed an executive order officially rebranding AI as “super intell",
       "relevancia": 9,
-      "url": "https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/",
+      "url": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -112,34 +112,34 @@
       "tags": []
     },
     {
-      "id": "d082b9fbd3",
+      "id": "d5cb8735d1",
       "tema": "ia",
-      "titular_es": "Show HN: Audionaut – an open-source cross-platform multitrack audio editor",
+      "titular_es": "From the creator of Redis; run LLM locally with ds4",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 8,
-      "url": "https://github.com/kvoltmer/Audionaut",
-      "fuente": "github.com (vía HN)",
+      "url": "https://dwarfstar.sh/",
+      "fuente": "dwarfstar.sh (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "e200ddc057",
+      "id": "a2804bae13",
       "tema": "finanzas",
-      "titular_es": "The September jobs report will be released Friday. Here's what to expect",
-      "resumen": "Wall Street is looking for job growth of 84,000 to close out the summer.",
+      "titular_es": "S&P 500 sube y Nasdaq 100 marca récord tras débil dato de empleo que reduce apuestas sobre la Fed",
+      "resumen": "La creación de apenas 29.000 empleos moderó las expectativas sobre la Fed y dio impulso a las acciones, con las tecnológicas al frente de las ganancias.",
       "relevancia": 8,
-      "url": "https://www.cnbc.com/2026/10/01/the-september-jobs-report-will-be-released-friday-heres-what-to-expect.html",
-      "fuente": "cnbc.com",
+      "url": "https://www.bloomberglinea.com/mercados/sp-500-sube-tras-debil-dato-de-empleo-que-impulsa-los-bonos-y-alivia-las-apuestas-sobre-la-fed/",
+      "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "3acf4b0fef",
+      "id": "03c99bd3ec",
       "tema": "emprendimiento",
-      "titular_es": "TechCrunch Disrupt 2026: Clay’s Kareem Amin on the rise of the GTM engineer",
-      "resumen": "Clay Co-founder and CEO Kareem Amin joins the AI Stage to discuss the rise of GTM engineer at TechCrunch Disrupt 2026. Register for your ticket and get a second pass at 50% off.",
+      "titular_es": "TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants",
+      "resumen": "Blackstone's Jas Khaira will take the Builders Stage at TechCrunch Disrupt 2026 on building next-gen AI. Register for your pass and get 50% off a second.",
       "relevancia": 8,
-      "url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/",
+      "url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -156,34 +156,34 @@
       "tags": []
     },
     {
-      "id": "32324948d9",
+      "id": "6c08f4cc37",
       "tema": "ia",
-      "titular_es": "Shimano Bicycle Museum Review",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "With most information hidden, the game Stratego had stumped AI until now",
+      "resumen": "https://www.nature.com/articles/s41586-026-11036-y https://arxiv.org/abs/2511.07312",
       "relevancia": 7,
-      "url": "https://inrng.com/2026/10/shimano-bicycle-museum/",
-      "fuente": "inrng.com (vía HN)",
+      "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+      "fuente": "arstechnica.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "a2804bae13",
+      "id": "bafe989b57",
       "tema": "finanzas",
-      "titular_es": "S&P 500 sube tras débil dato de empleo que impulsa los bonos y alivia las apuestas sobre la Fed",
-      "resumen": "El débil informe de empleo enfría las apuestas a nuevas alzas de tasas de la Fed, mientras el petróleo retrocede y la tensión fiscal en Francia mantiene bajo presión a los mercados de bonos.",
+      "titular_es": "Los mercados afrontan un riesgo inédito: dos históricos colchones económicos pierden fuerza",
+      "resumen": "La inflación limita el margen de los bancos centrales para recortar tasas, mientras los altos rendimientos y el aumento de la deuda restringen la capacidad de los gobiernos para desplegar estímulos fiscales.",
       "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/mercados/sp-500-sube-tras-debil-dato-de-empleo-que-impulsa-los-bonos-y-alivia-las-apuestas-sobre-la-fed/",
+      "url": "https://www.bloomberglinea.com/mercados/los-mercados-afrontan-un-riesgo-inedito-dos-historicos-colchones-economicos-pierden-fuerza/",
       "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "45015fc510",
+      "id": "0b1cf34140",
       "tema": "emprendimiento",
-      "titular_es": "Less than 24 hours to apply for a Side Event at Founder Summit 2026",
-      "resumen": "The clock is almost out. You have less than 24 hours left to apply to host a Side Event during TechCrunch Founder Summit 2026. Applications close tonight at midnight PT. Connect with the Boston startup ecosystem through November 1–7 by hosting your own Side Event. Bring your community, start an impa",
+      "titular_es": "Circuit Breaker Labs hopes to make AI safer for your kids (and you)",
+      "resumen": "With all the talk about how AI might one day kill us all, it's easy to forget that AI has already harmed some people psychologically. Circuit Breaker Labs has created \"crash-test dummies\" to solve that.",
       "relevancia": 7,
-      "url": "https://techcrunch.com/2026/10/02/less-than-24-hours-to-apply-for-a-side-event-at-founder-summit-2026/",
+      "url": "https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -200,13 +200,13 @@
       "tags": []
     },
     {
-      "id": "5300b97f80",
+      "id": "22300f3b74",
       "tema": "ia",
-      "titular_es": "DeepSeek Harness Desktop for macOS and Windows",
+      "titular_es": "The Legend of von Neumann (1973) [pdf]",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 6,
-      "url": "https://www.deepseek.com/en/harness/",
-      "fuente": "deepseek.com (vía HN)",
+      "url": "https://gwern.net/doc/math/1973-halmos.pdf",
+      "fuente": "gwern.net (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -222,35 +222,35 @@
       "tags": []
     },
     {
-      "id": "8e45888a0a",
+      "id": "3acf4b0fef",
       "tema": "emprendimiento",
-      "titular_es": "Last 24 hours: Exhibit at TechCrunch Disrupt 2026 and reach 10,000+ tech leaders",
-      "resumen": "Today is the last day to book your exhibit table at TechCrunch Disrupt 2026. From October 13–15, 10,000+ founders, investors, operators, and tech leaders will arrive at San Francisco’s Moscone West looking for companies, products, ideas, and people worth knowing. The question is: Will they find your",
+      "titular_es": "TechCrunch Disrupt 2026: Clay’s Kareem Amin on the rise of the GTM engineer",
+      "resumen": "Clay Co-founder and CEO Kareem Amin joins the AI Stage to discuss the rise of GTM engineer at TechCrunch Disrupt 2026. Register for your ticket and get a second pass at 50% off.",
       "relevancia": 6,
-      "url": "https://techcrunch.com/2026/10/02/last-24-hours-exhibit-at-techcrunch-disrupt-2026-and-reach-10000-tech-leaders/",
+      "url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "a63c6bcbbe",
+      "id": "38c5912931",
       "tema": "ciencia",
-      "titular_es": "Rocket Report: SpaceX completes launch triple-header; Rocket Lab nets big contract",
-      "resumen": "Blue Origin seeks FAA approval for up to 50 New Glenn launches and 50 booster landings per year.",
+      "titular_es": "The 2008 economic crisis changed the US's relationship with energy",
+      "resumen": "It wasn't obvious at the time, but the US uncoupled carbon emissions and GDP growth.",
       "relevancia": 6,
-      "url": "https://arstechnica.com/space/2026/10/rocket-report-spacex-completes-launch-triple-header-rocket-lab-nets-big-contract/",
+      "url": "https://arstechnica.com/science/2026/10/the-2008-economic-crisis-changed-the-uss-relationship-to-energy/",
       "fuente": "arstechnica.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "0e80a3a03c",
+      "id": "edddeb3818",
       "tema": "ia",
-      "titular_es": "Several vulnerabilities have been discovered in the Linux kernel",
+      "titular_es": "On social reality in China",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 5,
-      "url": "https://lwn.net/Articles/1097401/",
-      "fuente": "lwn.net (vía HN)",
+      "url": "https://www.lesswrong.com/posts/b5cSYh4emQb2qrGmK/on-social-reality-in-china",
+      "fuente": "lesswrong.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -266,35 +266,35 @@
       "tags": []
     },
     {
-      "id": "d997750ee4",
+      "id": "45015fc510",
       "tema": "emprendimiento",
-      "titular_es": "The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know",
-      "resumen": "TechCrunch Disrupt 2026 is built around one question: How do you build an enduring company in the AI era? Our programming and speaker lineup reflect that.",
+      "titular_es": "Less than 24 hours to apply for a Side Event at Founder Summit 2026",
+      "resumen": "The clock is almost out. You have less than 24 hours left to apply to host a Side Event during TechCrunch Founder Summit 2026. Applications close tonight at midnight PT. Connect with the Boston startup ecosystem through November 1–7 by hosting your own Side Event. Bring your community, start an impa",
       "relevancia": 5,
-      "url": "https://techcrunch.com/2026/10/01/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/",
+      "url": "https://techcrunch.com/2026/10/02/less-than-24-hours-to-apply-for-a-side-event-at-founder-summit-2026/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "00a9af4e00",
+      "id": "861c867c71",
       "tema": "ciencia",
-      "titular_es": "Venus' mysterious haze is actually cosmic dust",
-      "resumen": "A physical model show that iron dust and sulfuric acid create the right properties.",
+      "titular_es": "Research roundup: 6 cool science stories we almost missed",
+      "resumen": "Also: Spooky action at the LHC, Ice Age psychoactive use, yeast for building homes on Mars, and more.",
       "relevancia": 5,
-      "url": "https://arstechnica.com/science/2026/10/venus-mysterious-haze-is-actually-cosmic-dust/",
+      "url": "https://arstechnica.com/science/2026/10/research-roundup-6-cool-science-stories-we-almost-missed-6/",
       "fuente": "arstechnica.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "ba3c7664c5",
+      "id": "fc9a8af9cf",
       "tema": "ia",
-      "titular_es": "Frog and Toad and the Increasingly Capable Machines",
+      "titular_es": "A 12-year sequence of telescope images of a star and four planets orbiting",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 4,
-      "url": "https://www.frogandtoad.ai/",
-      "fuente": "frogandtoad.ai (vía HN)",
+      "url": "https://bsky.app/profile/theplanetaryguy.com/post/3mwucf5ert22f",
+      "fuente": "bsky.app (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -310,24 +310,24 @@
       "tags": []
     },
     {
-      "id": "43e1d0b5df",
+      "id": "a63c6bcbbe",
       "tema": "ciencia",
-      "titular_es": "SpaceX describes surgical intervention before launch of latest crew mission",
-      "resumen": "With Crew-13, Jessica Watkins became the first Black woman to lead a mission into space.",
+      "titular_es": "Rocket Report: SpaceX completes launch triple-header; Rocket Lab nets big contract",
+      "resumen": "Blue Origin seeks FAA approval for up to 50 New Glenn launches and 50 booster landings per year.",
       "relevancia": 4,
-      "url": "https://arstechnica.com/space/2026/10/spacex-describes-surgical-intervention-before-launch-of-latest-crew-mission/",
+      "url": "https://arstechnica.com/space/2026/10/rocket-report-spacex-completes-launch-triple-header-rocket-lab-nets-big-contract/",
       "fuente": "arstechnica.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "aef3b65559",
+      "id": "e869fb2f77",
       "tema": "ia",
-      "titular_es": "SvelteKit 3",
+      "titular_es": "Greg Kroah-Hartman – Security in the LLM Age [video]",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 3,
-      "url": "https://svelte.dev/blog/sveltekit-3-is-here",
-      "fuente": "svelte.dev (vía HN)",
+      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+      "fuente": "youtube.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -343,35 +343,24 @@
       "tags": []
     },
     {
-      "id": "11ad6e1366",
+      "id": "b1f485cf9a",
       "tema": "ia",
-      "titular_es": "Pi 1.0",
-      "resumen": "Related: Pi Durable - https://news.ycombinator.com/item?id=49925969",
+      "titular_es": "Show HN: Giving Opus 5.5 a simulated paint canvas",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 2,
-      "url": "https://earendil.com/posts/pi-1-0/",
-      "fuente": "earendil.com (vía HN)",
+      "url": "https://stillwet.art/",
+      "fuente": "stillwet.art (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "0ba07818a3",
-      "tema": "finanzas",
-      "titular_es": "S&P 500 inicia octubre al alza con alivio en los bonos pese al repunte del petróleo",
-      "resumen": "Las acciones estadounidenses cerraron con leves ganancias después de que los Tesoros recuperaron terreno, mientras el Brent superó los US$102 y la atención se desplazó al informe de empleo del viernes.",
-      "relevancia": 2,
-      "url": "https://www.bloomberglinea.com/mercados/sp-500-avanza-con-apoyo-de-las-tecnologicas-mientras-petroleo-y-bonos-presionan-al-mercado/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "09afaa60ad",
+      "id": "572d71e257",
       "tema": "ia",
-      "titular_es": "Pi Durable",
-      "resumen": "Related: Pi 1.0 - https://news.ycombinator.com/item?id=49926069 - Oct 2026 (184 comments)",
+      "titular_es": "Meta open sources code to let you make Muse AI gadgets",
+      "resumen": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or […]",
       "relevancia": 1,
-      "url": "https://earendil.com/posts/pi-durable/",
-      "fuente": "earendil.com (vía HN)",
+      "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+      "fuente": "theverge.com",
       "bandera": "🌍",
       "tags": []
     }
