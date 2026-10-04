@@ -1,6 +1,6 @@
 {
-  "fecha": "2026-10-03",
-  "generado_utc": "2026-10-03T22:34:01Z",
+  "fecha": "2026-10-04",
+  "generado_utc": "2026-10-04T16:32:00Z",
   "indicadores": {
     "dolar": {
       "valor": 983.84,
@@ -8,244 +8,218 @@
       "variacion_pct": 1.16
     },
     "uf": {
-      "valor": 41081.76,
-      "variacion": 8.19,
+      "valor": 41089.96,
+      "variacion": 8.2,
       "variacion_pct": 0.02
     }
   },
-  "noticia_del_dia": "f8fc0aa18d",
-  "pildora_ia": "RAG (Retrieval-Augmented Generation): técnica para que un LLM responda usando documentos externos: primero busca información relevante y luego la usa para generar la respuesta. Reduce alucinaciones y permite datos frescos sin reentrenar.",
+  "noticia_del_dia": "cbba305039",
+  "pildora_ia": "Fine-tuning: reentrenar un modelo existente con tus propios datos para especializarlo. Más barato que entrenar desde cero, pero para conocimiento actualizado muchas veces conviene más RAG.",
   "pildoras_ia": [
-    "RAG (Retrieval-Augmented Generation): técnica para que un LLM responda usando documentos externos: primero busca información relevante y luego la usa para generar la respuesta. Reduce alucinaciones y permite datos frescos sin reentrenar.",
     "Fine-tuning: reentrenar un modelo existente con tus propios datos para especializarlo. Más barato que entrenar desde cero, pero para conocimiento actualizado muchas veces conviene más RAG.",
     "Alucinaciones: cuando un LLM genera información falsa con total seguridad. No 'miente': predice el texto más probable, y a veces lo más probable no es lo verdadero. Por eso conviene verificar datos críticos.",
     "Backpropagation: el método que reparte la 'culpa' del error entre todos los parámetros de una red, capa por capa, para saber cómo ajustar cada uno. Sin él, entrenar redes profundas sería inviable.",
-    "Bias-variance tradeoff: el equilibrio central del ML. Un modelo muy simple falla por rígido (bias alto); uno muy complejo falla por inestable (varianza alta). El arte está en el punto medio."
+    "Bias-variance tradeoff: el equilibrio central del ML. Un modelo muy simple falla por rígido (bias alto); uno muy complejo falla por inestable (varianza alta). El arte está en el punto medio.",
+    "Dropout: durante el entrenamiento se 'apagan' neuronas al azar en cada paso. Suena raro, pero obliga a la red a no depender de unas pocas conexiones y reduce el sobreajuste."
   ],
   "noticias": [
     {
-      "id": "f8fc0aa18d",
+      "id": "cbba305039",
       "tema": "ia",
-      "titular_es": "Un empleado de seguridad de OpenAI renuncia y da la voz de alarma",
-      "resumen": "David Robinson, responsable de redactar los informes de seguridad para cada lanzamiento de modelos de OpenAI, presentó su dimisión esta semana. En una columna publicada en The Atlantic, advirtió sobre la falta de salvaguardas y la aceleración desmedida de la compañía. El testimonio añade peso a la creciente preocupación interna sobre la gobernanza y los riesgos de la inteligencia artificial de frontera.",
+      "titular_es": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 10,
+      "url": "https://github.com/Niko1221/Strata",
+      "fuente": "github.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "5b6fe49c53",
+      "tema": "ciencia",
+      "titular_es": "Scientists find a surprising clue to why the universe’s expansion doesn’t add up",
+      "resumen": "Tiny magnetic fields created shortly after the Big Bang may help explain the long-running disagreement over how fast the universe is expanding. Detailed simulations show that these primordial fields could have changed the formation of hydrogen in the early universe, affecting the cosmic microwave ba",
+      "relevancia": 10,
+      "url": "https://www.sciencedaily.com/releases/2026/10/261002080026.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "804051ce63",
+      "tema": "ia",
+      "titular_es": "Why don't more developers “use the platform”?",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 9,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "OpenAI",
-        "seguridad IA"
-      ]
+      "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+      "fuente": "nolanlawson.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "cb2111e7db",
+      "id": "850d28ce24",
       "tema": "ciencia",
-      "titular_es": "La sonda Juice de la ESA utiliza la gravedad de la Tierra para impulsarse hacia Júpiter",
-      "resumen": "La nave espacial Juice completó una maniobra crítica de asistencia gravitatoria pasando muy cerca de la Tierra el 28 de septiembre. La trayectoria ajustó su dirección en 20 grados y aumentó su velocidad en 3,5 km/s sin consumir combustible adicional en su largo viaje hacia las lunas de Júpiter. Además del hito orbital, la agencia europea aprovechó el sobrevuelo para calibrar instrumentos de alta precisión en condiciones reales.",
+      "titular_es": "Diet drinks work as well as water for weight loss, major trial finds",
+      "resumen": "A two-year randomized clinical trial involving 493 adults with overweight or obesity found that diet soft drinks were essentially as effective as water for long-term weight loss and weight maintenance. Participants drinking beverages sweetened with aspartame, acesulfame-K, or sucralose lost a simila",
       "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/10/261001214102.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261002080017.htm",
       "fuente": "sciencedaily.com",
-      "bandera": "🇪🇺",
-      "tags": [
-        "ESA",
-        "exploración espacial"
-      ]
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "acd05619cf",
+      "id": "e94e936032",
       "tema": "ia",
-      "titular_es": "Kolibri: Un modelo de pesos abiertos con enfoque de soberanía europea",
-      "resumen": "La firma europea Aleph Alpha presentó Kolibri, un modelo fundacional de pesos abiertos diseñado bajo estrictos parámetros de soberanía tecnológica e interoperabilidad. Su lanzamiento acompaña un informe técnico que detalla arquitecturas de entrenamiento optimizadas para el cumplimiento de normativas de privacidad. Representa una alternativa estratégica para organizaciones que buscan independizarse de los proveedores cerrados de Estados Unidos.",
+      "titular_es": "We're working on a new RuneScape MMO",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 8,
-      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
-      "fuente": "aleph-alpha.com (vía HN)",
-      "bandera": "🇪🇺",
-      "tags": [
-        "Aleph Alpha",
-        "modelos abiertos"
-      ]
+      "url": "https://play.runescape.com/4",
+      "fuente": "play.runescape.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "debadb1b62",
-      "tema": "emprendimiento",
-      "titular_es": "Neko Health, la startup de escaneos corporales del creador de Spotify, llega a Estados Unidos",
-      "resumen": "La compañía de tecnología médica cofundada por Daniel Ek concretó su expansión al mercado estadounidense con clínicas de diagnóstico preventivo integral. El sistema utiliza escáneres 3D combinados con sensores ópticos e IA para detectar problemas cardiovasculares y dermatológicos en minutos. Su llegada marca una apuesta ambiciosa por transformar la medicina preventiva con modelos de suscripción para consumidores.",
-      "relevancia": 8,
-      "url": "https://techcrunch.com/2026/10/03/spotify-billionaires-body-scan-startup-has-come-to-america/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Neko Health",
-        "healthtech"
-      ]
-    },
-    {
-      "id": "af31b64681",
+      "id": "e36172de4a",
       "tema": "ciencia",
-      "titular_es": "El suelo lunar recolectado por la Chang'e-6 revela una cápsula magnética inédita",
-      "resumen": "Científicos que examinan muestras de la cara oculta de la Luna descubrieron granos de hierro metálico (fase γ-Fe) incrustados en microesferas de vidrio formadas por impactos. El material conserva registros estables de campos magnéticos antiguos, actuando como fósiles geológicos de gran resolución. El hallazgo aporta datos clave para reconstruir la historia del dinamo lunar y la evolución térmica de nuestro satélite.",
+      "titular_es": "A meteor hit Oklahoma 100 million years later than scientists thought",
+      "resumen": "A meteor crater buried beneath Oklahoma has turned out to be nearly 100 million years younger than scientists thought. Zircon crystals show the Ames impact occurred about 370 million years ago, meaning it was not part of the mysterious Ordovician bombardment once linked to a possible ring of debris ",
       "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/10/261001214015.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇨🇳",
-      "tags": [
-        "Chang'e-6",
-        "geología lunar"
-      ]
-    },
-    {
-      "id": "c46d1cd4af",
-      "tema": "ciencia",
-      "titular_es": "Logran potenciar un superconductor aprovechando las fluctuaciones del vacío cuántico",
-      "resumen": "Físicos demostraron experimentalmente que las fluctuaciones electromagnéticas presentes en el vacío cuántico pueden mejorar las propiedades de materiales ultradelgados. Al diseñar cavidades resonantes específicas, lograron elevar la temperatura crítica de transición superconductora hasta en un 5,4%. El descubrimiento abre una prometedora vía para modular estados de la materia sin recurrir a presiones extremas o dopaje químico.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260930225456.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261002080012.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": [
-        "superconductores",
-        "física cuántica"
-      ]
+      "tags": []
     },
     {
-      "id": "cc9d67938b",
+      "id": "a772b3b315",
       "tema": "ia",
-      "titular_es": "Capcom se prepara para un futuro en el que los videojuegos se creen junto a la IA",
-      "resumen": "Durante la conferencia técnica RE: 2026, ingenieros de Capcom detallaron el progreso de su proyecto REX y cómo integran herramientas generativas en sus motores de producción. La desarrolladora busca combinar talento humano con modelos automatizados para acelerar la animación y el diseño de entornos. El movimiento consolida la tendencia de los grandes estudios hacia flujos de desarrollo híbridos con IA.",
+      "titular_es": "Tell HN: Bob Cringely has died",
+      "resumen": "I heard from a friend of the family that Bob passed away in his sleep early Saturday. Very sad news. Bob, who's real name was Mark Stevens, was an early employee of Apple and was best known for his PBS documentaries, especially \"Triumph of the Nerds\". He will be missed.",
       "relevancia": 7,
-      "url": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
-      "fuente": "theverge.com",
-      "bandera": "🇯🇵",
-      "tags": [
-        "Capcom",
-        "videojuegos"
-      ]
-    },
-    {
-      "id": "e2817526e6",
-      "tema": "finanzas",
-      "titular_es": "Caputo sobre el riesgo electoral en 2027: «El mundo pide que Argentina no vuelva al pasado»",
-      "resumen": "El ministro de Economía de Argentina expuso en París ante inversores internacionales sobre las expectativas de estabilización macroeconómica y el horizonte de reformas. Abordó el impacto de las fluctuaciones globales en la actividad de agosto y septiembre, remarcando la necesidad de continuidad fiscal hacia 2027. La reunión buscó despejar dudas sobre la sostenibilidad del programa económico y captar capitales de largo plazo.",
-      "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/caputo-sobre-el-riesgo-electoral-2027-el-mundo-pide-que-argentina-no-vuelva-al-pasado/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇦🇷",
-      "tags": [
-        "Argentina",
-        "política fiscal"
-      ]
-    },
-    {
-      "id": "e6dd5c50f5",
-      "tema": "finanzas",
-      "titular_es": "Del azúcar a la madera: materias primas agrícolas que ganaron y perdieron en el tercer trimestre",
-      "resumen": "El cierre del tercer trimestre expuso una fuerte divergencia en los mercados agrícolas globales impulsada por fenómenos climáticos extremos y problemas en las cadenas de suministro. Granos clave y el azúcar experimentaron presiones al alza por escasez de oferta, mientras que otros insumos cayeron ante la debilidad del consumo industrial. Estos balances resultan fundamentales para anticipar presiones inflacionarias en el costo global de alimentos.",
-      "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/mercados/del-azucar-a-la-madera-materias-primas-agricolas-que-ganaron-y-perdieron-en-el-tercer-trimestre/",
-      "fuente": "bloomberglinea.com",
+      "url": "https://news.ycombinator.com/item?id=49949438",
+      "fuente": "news.ycombinator.com",
       "bandera": "🌍",
-      "tags": [
-        "materias primas",
-        "mercados agrícolas"
-      ]
+      "tags": []
     },
     {
-      "id": "f22be8b3bb",
-      "tema": "finanzas",
-      "titular_es": "¿Por qué las acciones del S&P 500 resisten ante la caída del mercado de bonos?",
-      "resumen": "A pesar de que los rendimientos de la deuda soberana estadounidense escalaron por encima del 5%, el índice S&P 500 ha mostrado una inusual resiliencia técnica. El desacople se explica por sólidos balances corporativos en el sector tecnológico y expectativas de un aterrizaje suave de la economía. Analistas advierten que esta tolerancia a tasas altas dependerá críticamente de los próximos reportes trimestrales de ganancias.",
-      "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/mercados/por-que-las-acciones-del-sp-500-son-resilientes-ante-la-caida-de-los-bonos/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "S&P 500",
-        "bonos del tesoro"
-      ]
-    },
-    {
-      "id": "b5f1996f40",
+      "id": "737053a19a",
       "tema": "ciencia",
-      "titular_es": "Descubren que una enzima protectora podría frenar la enfermedad del hígado graso",
-      "resumen": "Investigadores identificaron que la enzima UBE2N desempeña un papel clave para mitigar la esteatohepatitis al facilitar la eliminación de mitocondrias dañadas y procesar lípidos acumulados. El mecanismo previene la inflamación celular y la fibrosis hepática en modelos preclínicos. La identificación de esta diana biológica podría acelerar tratamientos específicos para una afección que afecta a más de 100 millones de personas.",
+      "titular_es": "A forgotten 30-year forest experiment just delivered a huge surprise",
+      "resumen": "A 30-year forestry experiment in Australia found that heavily thinned mountain ash forests grew unusually large trees while recovering enough carbon to match or exceed untouched areas. The results suggest carefully managed thinning could support timber production, wildlife habitat, and carbon storag",
       "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/10/261002080020.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "biomedicina",
-        "enzimas"
-      ]
-    },
-    {
-      "id": "0ba521436e",
-      "tema": "ciencia",
-      "titular_es": "Identifican una molécula del microbioma intestinal vinculada al riesgo de alzhéimer",
-      "resumen": "Un estudio asoció concentraciones elevadas del compuesto bacteriano ImP en el tracto digestivo con una mayor acumulación de proteínas neurotóxicas en el cerebro. Los pacientes con niveles altos de este metabolito mostraron un deterioro cognitivo significativamente más rápido. El hallazgo refuerza la conexión del eje intestino-cerebro y plantea estrategias preventivas basadas en modular la flora intestinal.",
-      "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/09/260930225459.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261001214120.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": [
-        "microbioma",
-        "Alzheimer"
-      ]
+      "tags": []
     },
     {
-      "id": "cc41ef7a30",
-      "tema": "ciencia",
-      "titular_es": "Simulaciones masivas revelan cómo las primeras estrellas transformaron el cosmos",
-      "resumen": "A través del proyecto computacional MEGATRON, astrofísicos lograron modelar a escala nanométrica el ciclo de vida de la Población III, las primeras estrellas del universo primordial. Las simulaciones muestran con detalle sin precedentes cómo sembraron el cosmos inicial con carbono, oxígeno y hierro. Los resultados servirán para contrastar y calibrar las observaciones directas que realiza el telescopio espacial James Webb.",
-      "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/10/261001214012.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "astrofísica",
-        "telescopio James Webb"
-      ]
-    },
-    {
-      "id": "7be21938cd",
+      "id": "81b68c5ee2",
       "tema": "ia",
-      "titular_es": "FTL: Un nuevo sistema operativo optimizado para la nube",
-      "resumen": "Se publicó FTL, un sistema operativo experimental de código abierto concebido desde cero para entornos cloud y computación distribuida. El proyecto rediseña las primitivas tradicionales de virtualización y memoria para reducir la sobrecarga en servidores de alto rendimiento. Para desarrolladores de infraestructura, representa una propuesta innovadora frente a arquitecturas monolíticas convencionales.",
+      "titular_es": "We're going to need default hard budget caps on pretty much everything",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 6,
-      "url": "https://ftl-os.org/",
-      "fuente": "ftl-os.org (vía HN)",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "fuente": "simonwillison.net (vía HN)",
       "bandera": "🌍",
-      "tags": [
-        "sistemas operativos",
-        "cloud"
-      ]
+      "tags": []
     },
     {
-      "id": "177ca5e89d",
-      "tema": "ia",
-      "titular_es": "La CEO de Splice advierte que los correos generados por IA están degradando la comunicación",
-      "resumen": "Kakul Srivastava, líder de la plataforma musical Splice, cuestionó el uso indiscriminado de herramientas generativas para redactar correspondencia diaria de negocios. Según la ejecutiva, la proliferación de respuestas sintéticas está eliminando el contexto y la autenticidad en los equipos creativos y corporativos. El debate resalta la fricción creciente entre eficiencia algorítmica y relaciones laborales humanas.",
-      "relevancia": 5,
-      "url": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "comunicación",
-        "productividad"
-      ]
-    },
-    {
-      "id": "5eda9cc582",
+      "id": "7dac6f3aa4",
       "tema": "ciencia",
-      "titular_es": "Los exoesqueletos demuestran beneficios palpables en entornos laborales reales",
-      "resumen": "Nuevas evaluaciones de campo en sectores de logística y manufactura confirman una reducción sustancial de la fatiga muscular y lesiones lumbares gracias al uso de exoesqueletos pasivos y activos. La tecnología está madurando lo suficiente para dejar atrás etapas experimentales y convertirse en estándar ergonómico industrial. Ingenieros destacan mejoras directas en la resistencia física de los operadores sin comprometer la movilidad articular.",
+      "titular_es": "Your gut bacteria may reveal how fast your brain is aging",
+      "resumen": "A UCLA study links faster brain aging to specific gut bacteria and chemical byproducts, with older-looking brains also associated with poorer memory, focus, and mood. The findings suggest that biological signs of brain aging may appear decades before obvious symptoms and could eventually make the gu",
+      "relevancia": 6,
+      "url": "https://www.sciencedaily.com/releases/2026/10/261001214106.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "949e665fe5",
+      "tema": "ia",
+      "titular_es": "Reasons I didn't become an EMT, ranked",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 5,
-      "url": "https://arstechnica.com/science/2026/10/the-dawn-of-the-age-of-the-exoskeleton/",
+      "url": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked/",
+      "fuente": "ben.stolovitz.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "ce402bacae",
+      "tema": "ciencia",
+      "titular_es": "Scientists just found a new way to make hydrogen from water",
+      "resumen": "A new light-activated material can efficiently produce hydrogen from water without requiring an additional expensive metal catalyst. Researchers say its unusual sulfur-based chemistry could point toward cheaper and more practical ways to turn sunlight into clean fuel.",
+      "relevancia": 5,
+      "url": "https://www.sciencedaily.com/releases/2026/10/261001214017.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "a059a98c76",
+      "tema": "ia",
+      "titular_es": "We want you to build the next Git platform on Cloudflare",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 4,
+      "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
+      "fuente": "blog.cloudflare.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "c5e6afee1c",
+      "tema": "ia",
+      "titular_es": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 3,
+      "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+      "fuente": "phoronix.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "703c0c829a",
+      "tema": "ia",
+      "titular_es": "Hole Punch: Sling your spaceship around gravitational fields",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 2,
+      "url": "https://notoriousbfg.com/hole-punch/",
+      "fuente": "notoriousbfg.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "ffbd5b5c3e",
+      "tema": "ciencia",
+      "titular_es": "Lions and cheetahs and chimps, oh my: a spotlight on Africa's diverse wildlife",
+      "resumen": "Wunmi Mosaku ( Sinners, Loki ) narrates NatGeo's new documentary Africa: Earth's Wild Home",
+      "relevancia": 2,
+      "url": "https://arstechnica.com/science/2026/10/lions-and-cheetahs-and-chimps-oh-my-a-spotlight-on-africas-diverse-wildlife/",
       "fuente": "arstechnica.com",
       "bandera": "🌍",
-      "tags": [
-        "exoesqueletos",
-        "ergonomía"
-      ]
+      "tags": []
+    },
+    {
+      "id": "8ec43cce63",
+      "tema": "ia",
+      "titular_es": "Treachery in the Rodin Museum 3D scan verdict",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 1,
+      "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
+      "fuente": "cosmowenman.substack.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "f5bb5140c9",
+      "tema": "ciencia",
+      "titular_es": "All hail electrification. But let’s talk about the hard part.",
+      "resumen": "The IEA and climate negotiators want to set a target for shifting the economy to run on electricity.",
+      "relevancia": 1,
+      "url": "https://arstechnica.com/science/2026/10/all-hail-electrification-but-lets-talk-about-the-hard-part/",
+      "fuente": "arstechnica.com",
+      "bandera": "🌍",
+      "tags": []
     }
   ]
 }
