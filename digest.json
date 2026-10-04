@@ -1,19 +1,14 @@
 {
   "fecha": "2026-10-04",
-  "generado_utc": "2026-10-04T16:32:00Z",
+  "generado_utc": "2026-10-04T22:38:50Z",
   "indicadores": {
-    "dolar": {
-      "valor": 983.84,
-      "variacion": 11.24,
-      "variacion_pct": 1.16
-    },
     "uf": {
       "valor": 41089.96,
       "variacion": 8.2,
       "variacion_pct": 0.02
     }
   },
-  "noticia_del_dia": "cbba305039",
+  "noticia_del_dia": "11e7fe6214",
   "pildora_ia": "Fine-tuning: reentrenar un modelo existente con tus propios datos para especializarlo. Más barato que entrenar desde cero, pero para conocimiento actualizado muchas veces conviene más RAG.",
   "pildoras_ia": [
     "Fine-tuning: reentrenar un modelo existente con tus propios datos para especializarlo. Más barato que entrenar desde cero, pero para conocimiento actualizado muchas veces conviene más RAG.",
@@ -24,13 +19,24 @@
   ],
   "noticias": [
     {
-      "id": "cbba305039",
+      "id": "11e7fe6214",
       "tema": "ia",
-      "titular_es": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "titular_es": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 10,
-      "url": "https://github.com/Niko1221/Strata",
+      "url": "https://github.com/omlahore/RemoveMacAI",
       "fuente": "github.com (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "f7c2822327",
+      "tema": "emprendimiento",
+      "titular_es": "TechCrunch Mobility: Reining in robotaxis",
+      "resumen": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+      "relevancia": 10,
+      "url": "https://techcrunch.com/2026/10/04/techcrunch-mobility-reining-in-robotaxis/",
+      "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
     },
@@ -46,13 +52,13 @@
       "tags": []
     },
     {
-      "id": "804051ce63",
+      "id": "f0d969783b",
       "tema": "ia",
-      "titular_es": "Why don't more developers “use the platform”?",
+      "titular_es": "Improper redaction reveals Google Data Center water and electricity usage",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 9,
-      "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
-      "fuente": "nolanlawson.com (vía HN)",
+      "url": "https://www.1011now.com/2026/09/30/more-questions-than-answers-about-lincolns-google-data-center-water-electricity-usage/",
+      "fuente": "1011now.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -68,13 +74,13 @@
       "tags": []
     },
     {
-      "id": "e94e936032",
+      "id": "cbba305039",
       "tema": "ia",
-      "titular_es": "We're working on a new RuneScape MMO",
+      "titular_es": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 8,
-      "url": "https://play.runescape.com/4",
-      "fuente": "play.runescape.com (vía HN)",
+      "url": "https://github.com/Niko1221/Strata",
+      "fuente": "github.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -90,13 +96,13 @@
       "tags": []
     },
     {
-      "id": "a772b3b315",
+      "id": "60a6536fb4",
       "tema": "ia",
-      "titular_es": "Tell HN: Bob Cringely has died",
-      "resumen": "I heard from a friend of the family that Bob passed away in his sleep early Saturday. Very sad news. Bob, who's real name was Mark Stevens, was an early employee of Apple and was best known for his PBS documentaries, especially \"Triumph of the Nerds\". He will be missed.",
+      "titular_es": "Show HN: AI search for every photo and every frame of video on macOS",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 7,
-      "url": "https://news.ycombinator.com/item?id=49949438",
-      "fuente": "news.ycombinator.com",
+      "url": "https://github.com/allenv0/SCM",
+      "fuente": "github.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -112,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "81b68c5ee2",
+      "id": "854d659142",
       "tema": "ia",
-      "titular_es": "We're going to need default hard budget caps on pretty much everything",
+      "titular_es": "Emitting metadata early makes building/checking Rust up to twice as fast",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 6,
-      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-      "fuente": "simonwillison.net (vía HN)",
+      "url": "https://github.com/PowderworksCode/headstart",
+      "fuente": "github.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -134,13 +140,13 @@
       "tags": []
     },
     {
-      "id": "949e665fe5",
+      "id": "804051ce63",
       "tema": "ia",
-      "titular_es": "Reasons I didn't become an EMT, ranked",
+      "titular_es": "Why don't more developers “use the platform”?",
       "resumen": "(Sin descripción disponible.)",
       "relevancia": 5,
-      "url": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked/",
-      "fuente": "ben.stolovitz.com (vía HN)",
+      "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+      "fuente": "nolanlawson.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -156,35 +162,35 @@
       "tags": []
     },
     {
-      "id": "a059a98c76",
+      "id": "a772b3b315",
       "tema": "ia",
-      "titular_es": "We want you to build the next Git platform on Cloudflare",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "Tell HN: Bob Cringely has died",
+      "resumen": "I heard from a friend of the family that Bob passed away in his sleep early Saturday. Very sad news. Bob, who's real name was Mark Stevens, was an early employee of Apple and was best known for his PBS documentaries, especially \"Triumph of the Nerds\". He will be missed.",
       "relevancia": 4,
-      "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
-      "fuente": "blog.cloudflare.com (vía HN)",
+      "url": "https://news.ycombinator.com/item?id=49949438",
+      "fuente": "news.ycombinator.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "c5e6afee1c",
+      "id": "c0ac07d40d",
       "tema": "ia",
-      "titular_es": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "The new Fitbit Edge leaks",
+      "resumen": "We don't know a ton about the Fitbit Edge, but it appears to be a successor to the midrange Charge line. It had leaked previously, but we can clearly see in these images posted by Android Headlines, you can see that Google's rumored fitness tracker sort of splits the difference between the Pixel Wat",
       "relevancia": 3,
-      "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
-      "fuente": "phoronix.com (vía HN)",
+      "url": "https://www.theverge.com/gadgets/1004616/the-new-fitbit-edge-leaks",
+      "fuente": "theverge.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "703c0c829a",
+      "id": "6f9949c527",
       "tema": "ia",
-      "titular_es": "Hole Punch: Sling your spaceship around gravitational fields",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "Prick’s theatrical industrial punk is perfect for spooky season",
+      "resumen": "While deep in the recording process for The Downward Spiral, Trent Reznor lent some of his production talents to old friend Kevin McMahon, from the new wave band Lucky Pierre (which Reznor was briefly a member of). While Reznor is only credited as the producer on four tracks off Prick's self-titled ",
       "relevancia": 2,
-      "url": "https://notoriousbfg.com/hole-punch/",
-      "fuente": "notoriousbfg.com (vía HN)",
+      "url": "https://www.theverge.com/entertainment/1004595/prick-industrial-glam-punk-album-review",
+      "fuente": "theverge.com",
       "bandera": "🌍",
       "tags": []
     },
@@ -200,13 +206,13 @@
       "tags": []
     },
     {
-      "id": "8ec43cce63",
+      "id": "7ac885447e",
       "tema": "ia",
-      "titular_es": "Treachery in the Rodin Museum 3D scan verdict",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "The best early October Prime Day deals happening now",
+      "resumen": "It’s not even October yet and Amazon is already offering some Prime Big Deal Day discounts on its own hardware, along with plenty of other popular products. It’s all to hype up October Prime Day, which starts October 6th at 3AM ET and lasts through 3AM ET on the 8th if you’re on the East […]",
       "relevancia": 1,
-      "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
-      "fuente": "cosmowenman.substack.com (vía HN)",
+      "url": "https://www.theverge.com/gadgets/999447/best-early-amazon-prime-day-big-deals-sale-october",
+      "fuente": "theverge.com",
       "bandera": "🌍",
       "tags": []
     },
