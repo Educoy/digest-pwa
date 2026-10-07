@@ -1,6 +1,6 @@
 {
   "fecha": "2026-10-07",
-  "generado_utc": "2026-10-07T18:32:45Z",
+  "generado_utc": "2026-10-07T23:57:46Z",
   "indicadores": {
     "dolar": {
       "valor": 967.79,
@@ -13,7 +13,7 @@
       "variacion_pct": 0.02
     }
   },
-  "noticia_del_dia": "2cf28a1a93",
+  "noticia_del_dia": "a09232aae0",
   "pildora_ia": "Bias-variance tradeoff: el equilibrio central del ML. Un modelo muy simple falla por rígido (bias alto); uno muy complejo falla por inestable (varianza alta). El arte está en el punto medio.",
   "pildoras_ia": [
     "Bias-variance tradeoff: el equilibrio central del ML. Un modelo muy simple falla por rígido (bias alto); uno muy complejo falla por inestable (varianza alta). El arte está en el punto medio.",
@@ -24,367 +24,454 @@
   ],
   "noticias": [
     {
-      "id": "2cf28a1a93",
+      "id": "a09232aae0",
       "tema": "ia",
-      "titular_es": "Claude Haiku 5.5",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 10,
-      "url": "https://www.anthropic.com/claude-haiku-5-5",
-      "fuente": "anthropic.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "edb2f913d2",
-      "tema": "finanzas",
-      "titular_es": "Inflation fears on the rise as one-year outlook in Fed survey hits highest level since May 2023",
-      "resumen": "The Survey of Consumer Expectations indicated that the median outlook for inflation over the next 12 months rose to 3.9%.",
-      "relevancia": 10,
-      "url": "https://www.cnbc.com/2026/10/07/inflation-fears-on-the-rise-as-one-year-outlook-in-fed-survey-hits-highest-since-may-2023.html",
-      "fuente": "cnbc.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "59265b4b35",
-      "tema": "emprendimiento",
-      "titular_es": "Greenairy is building smart plant towers to clean the air in your office",
-      "resumen": "As it turns out, the cure for stuffy, chemical-infused office air might be a tower of leafy greenery.",
-      "relevancia": 10,
-      "url": "https://techcrunch.com/2026/10/07/greenairy-is-building-smart-plant-towers-to-clean-the-air-in-your-office/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "7353b6a4a7",
-      "tema": "ciencia",
-      "titular_es": "The Download: weight-loss drugs slowing aging and carbon dioxide batteries",
-      "resumen": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Weight-loss drugs show signs of slowing biological aging, say drugmakers Popular weight-loss drugs may do more than help people shed pounds. They might also slow ",
-      "relevancia": 10,
-      "url": "https://www.technologyreview.com/2026/10/07/1145895/the-download-weight-loss-drugs-slow-aging-carbon-dioxide-batteries/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "274e0b08f8",
-      "tema": "ia",
-      "titular_es": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
-      "resumen": "(Sin descripción disponible.)",
+      "titular_es": "La actualización 'Intelligent UI' de ChatGPT incorpora imágenes interactivas, gráficos y botones",
+      "resumen": "OpenAI ha comenzado el despliegue global de una interfaz inteligente que transforma la interacción textual tradicional.\nLas respuestas del modelo ahora integran diagramas dinámicos, formularios y componentes visuales accionables en tiempo real.\nEsta función marca un cambio radical hacia interfaces generativas ricas para usuarios finales y desarrolladores.",
       "relevancia": 9,
-      "url": "https://bigwords.page/",
-      "fuente": "bigwords.page (vía HN)",
-      "bandera": "🌍",
-      "tags": []
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "interfaz de usuario"
+      ]
     },
     {
-      "id": "199c0055b7",
-      "tema": "finanzas",
-      "titular_es": "ICE came to town and left behind weakened economies",
-      "resumen": "Research links ICE enforcement surges to lasting declines in local spending, foot traffic and jobs. In Minneapolis, businesses are still recovering.",
-      "relevancia": 9,
-      "url": "https://www.cnbc.com/2026/10/07/ice-raids-local-economies.html",
-      "fuente": "cnbc.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "fc38477a8a",
-      "tema": "emprendimiento",
-      "titular_es": "Healthleap raises $38M for its AI that flags hospital patients who may need a closer look",
-      "resumen": "The financing includes an $8M seed round co-led by Sequoia Capital and First Round Capital, and a $30 million Series A led by Hummingbird Ventures.",
-      "relevancia": 9,
-      "url": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "8845f5efb6",
+      "id": "4b55373087",
       "tema": "ciencia",
-      "titular_es": "NASA’s Webb finds signs of Mars-sized worlds smashing together",
-      "resumen": "NASA’s James Webb Space Telescope is giving astronomers a glimpse of the kinds of violent collisions that may have shaped our own solar system, including the giant impact thought to have created the Moon. By studying 21 rare “extreme debris disks” around young stars, researchers found that their dus",
+      "titular_es": "Muere Margaret Hamilton, pionera que lideró el desarrollo de software para el programa Apolo",
+      "resumen": "La histórica científica de la computación falleció tras haber forjado los cimientos de la ingeniería de software moderna en el MIT.\nSu código de a bordo para el Apolo 11 evitó un aborto crítico durante el alunizaje de 1969 gracias a su sistema de priorización de tareas.\nSu legado incluye haber acuñado el término 'ingeniería de software' y abierto las puertas a generaciones de mujeres en la tecnología.",
       "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/10/261007042108.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "466febb5fa",
-      "tema": "ia",
-      "titular_es": "GitHub Incident with Git Operations, Pull Requests and Actions",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 8,
-      "url": "https://www.githubstatus.com/incidents/djlmxz2zd0j7",
-      "fuente": "githubstatus.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "8a17b51eac",
-      "tema": "finanzas",
-      "titular_es": "Why AI is both the hope and the hazard for world leaders, according to IMF chief Georgieva",
-      "resumen": "Kristalina Georgieva warns that the technology lifting growth hopes is also pushing up inflation and yields, just as public debt levels rose.",
-      "relevancia": 8,
-      "url": "https://www.cnbc.com/2026/10/07/economy-inflation-ai-trade-imf-iran-hormuz-trump-.html",
-      "fuente": "cnbc.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "fca05aa5ad",
-      "tema": "emprendimiento",
-      "titular_es": "Bloom raises $3.6M to become the ‘Alibaba’ of American manufacturing",
-      "resumen": "The Detroit startup has widened its scope beyond mobility to help drone and robotics companies find U.S.-based manufacturers, shippers, and more.",
-      "relevancia": 8,
-      "url": "https://techcrunch.com/2026/10/07/bloom-raises-3-6m-to-become-the-alibaba-of-american-manufacturing/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "051f497a9b",
-      "tema": "ciencia",
-      "titular_es": "Taking antibiotics? Sugar may be making the damage worse",
-      "resumen": "Eating more sugar while taking antibiotics was linked to greater disruption of the gut microbiome and increased growth of potentially harmful bacteria. Researchers say temporarily cutting back on sweets during and after antibiotic treatment could be a simple way to reduce this damage, though clinica",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/10/261007042059.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "ed47795133",
-      "tema": "ia",
-      "titular_es": "Visa, Mastercard, Major Banks Facing New Litigation over 'Anticompetitive' Fees",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 7,
-      "url": "https://www.classaction.org/news/visa-mastercard-major-banks-facing-new-litigation-over-anticompetitive-merchant-credit-card-transaction-fees",
-      "fuente": "classaction.org (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "4bdff99dad",
-      "tema": "finanzas",
-      "titular_es": "India’s central bank hikes rates for the first time since 2023 as inflation risks build",
-      "resumen": "HSBC and Goldman Sachs expect the RBI to raise interest rates in December as well.",
-      "relevancia": 7,
-      "url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html",
-      "fuente": "cnbc.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "a7f501e828",
-      "tema": "emprendimiento",
-      "titular_es": "SpaceX alumni nab $100M to rethink shipping with autonomous freight trains",
-      "resumen": "Parallel Systems raised $100 million to scale production of its autonomous electric rail vehicle, which can shuttle thousands of pounds of freight up to 500 miles.",
-      "relevancia": 7,
-      "url": "https://techcrunch.com/2026/10/07/spacex-alumni-nab-100m-to-rethink-shipping-with-autonomous-freight-trains/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "0b2d8ab72c",
-      "tema": "ciencia",
-      "titular_es": "Scientists changed how zoo lions eat. Their wild side came out",
-      "resumen": "Giving zoo lions whole carcasses on a feast-and-fast schedule appears to bring out more natural behavior. The lions spent nearly three times longer feeding, engaged in more tearing and manipulating of food, and rested more heavily after meals. Their activity then increased gradually during the fasti",
-      "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/10/261005071535.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "589e7a37ab",
-      "tema": "ia",
-      "titular_es": "Animated ASCII Art for Web Pages",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 6,
-      "url": "https://ascii.rest/",
-      "fuente": "ascii.rest (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "884758b145",
-      "tema": "finanzas",
-      "titular_es": "World Bank warns of AI concentration risks as it lifts East Asia and Pacific growth outlook to 4.5%",
-      "resumen": "The World Bank now expects the region to grow 4.5% this year, but flagged that trade growth outside AI-related goods has been \"weak or negative.\"",
-      "relevancia": 6,
-      "url": "https://www.cnbc.com/2026/10/06/world-bank-east-asia-growth-inflation-ai-exports-.html",
-      "fuente": "cnbc.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "3cadd0110a",
-      "tema": "emprendimiento",
-      "titular_es": "OpenAI’s Alexander Embiricos is coming to TechCrunch Disrupt 2026 — days after the launch of Dots",
-      "resumen": "OpenAI’s Alexander Embiricos is coming to the AI Stage at TechCrunch Disrupt 2026, just days after the launch of Dots. Join this conversation by registering for your pass. Get you pass now to save up to $100 and get a second at 50% off.",
-      "relevancia": 6,
-      "url": "https://techcrunch.com/2026/10/07/openais-alexander-embiricos-is-coming-to-techcrunch-disrupt-2026-days-after-the-launch-of-dots/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
+      "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+      "fuente": "news.mit.edu (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "ingeniería de software",
+        "historia espacial",
+        "MIT"
+      ]
     },
     {
       "id": "82eaa2dcf8",
       "tema": "ciencia",
-      "titular_es": "Scientists reprogram immune cells inside the body to fight cancer",
-      "resumen": "Scientists at UC San Francisco have developed a way to create cancer-fighting CAR-T cells directly inside the body, potentially avoiding the slow and extremely expensive process of removing, engineering, and reinfusing a patient’s immune cells. Using a two-particle delivery system, the researchers s",
-      "relevancia": 6,
+      "titular_es": "Científicos logran reprogramar células inmunitarias dentro del cuerpo para combatir el cáncer",
+      "resumen": "Investigadores de la UC San Francisco desarrollaron una técnica para generar células CAR-T directamente 'in vivo' mediante un sistema de dos partículas.\nEl avance evitaría el largo y costoso procedimiento tradicional de extraer, editar y reinfundir las células del paciente en laboratorios externos.\nDe confirmarse su eficacia clínica, democratizaría radicalmente el acceso a una de las inmunoterapias más avanzadas del mundo.",
+      "relevancia": 9,
       "url": "https://www.sciencedaily.com/releases/2026/10/261005071532.htm",
       "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "inmunoterapia",
+        "oncología",
+        "biotecnología"
+      ]
     },
     {
-      "id": "0dfe71beae",
+      "id": "2cf28a1a93",
       "tema": "ia",
-      "titular_es": "Anti-Patterns in Software Blogging",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 5,
-      "url": "https://refactoringenglish.com/blog/anti-patterns-software-blogging/",
-      "fuente": "refactoringenglish.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
+      "titular_es": "Anthropic lanza Claude Haiku 5.5 enfocado en velocidad y bajo coste",
+      "resumen": "Anthropic ha presentado la nueva versión de su modelo más ligero, diseñada para tareas de baja latencia y alta concurrencia.\nOfrece mejoras notables en seguimiento de instrucciones y generación de código respecto a su predecesor manteniendo tarifas accesibles.\nEs una actualización clave para ingenieros que construyen agentes autónomos que requieren inferencias rápidas y económicas.",
+      "relevancia": 8,
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "fuente": "anthropic.com (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Anthropic",
+        "modelos de lenguaje",
+        "desarrollo"
+      ]
     },
     {
-      "id": "0ba50c734c",
+      "id": "b768f5cf6d",
+      "tema": "ia",
+      "titular_es": "Microsoft otorga a Copilot control directo sobre Windows y archivos locales",
+      "resumen": "Bajo la iniciativa 'Inteligencia Híbrida', Copilot ahora podrá interactuar con el sistema de archivos del usuario y ejecutar tareas en el SO.\nEl asistente gana la capacidad de cruzar datos entre aplicaciones locales y servicios en la nube para automatizar flujos complejos.\nEsta integración plantea nuevos debates sobre la privacidad de datos locales y el control de permisos a nivel de sistema operativo.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Microsoft",
+        "Copilot",
+        "sistemas operativos"
+      ]
+    },
+    {
+      "id": "ed47795133",
       "tema": "finanzas",
-      "titular_es": "Acciones de Meta forman un ‘golden cross’: qué es y qué ocurrió las seis veces que lo hizo",
-      "resumen": "La recuperación de la acción llevó a su media de 50 sesiones por encima de la de 200, una configuración seguida por los operadores como señal de fortalecimiento alcista.",
-      "relevancia": 5,
-      "url": "https://www.bloomberglinea.com/mercados/acciones-de-meta-forman-un-golden-cross-que-es-y-que-ocurrio-las-seis-veces-que-lo-hizo/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": []
+      "titular_es": "Visa, Mastercard y grandes bancos afrontan un nuevo litigio por comisiones anticompetitivas",
+      "resumen": "Comerciantes han interpuesto una nueva demanda colectiva acusando a las redes de pago de coordinar comisiones de intercambio infladas.\nLa acción judicial sostiene que los acuerdos multilaterales fijan tarifas que perjudican a minoristas y consumidores.\nEl caso podría forzar una reestructuración legal en las tarifas de procesamiento electrónico en los mercados occidentales.",
+      "relevancia": 8,
+      "url": "https://www.classaction.org/news/visa-mastercard-major-banks-facing-new-litigation-over-anticompetitive-merchant-credit-card-transaction-fees",
+      "fuente": "classaction.org (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "pagos digitales",
+        "antimonopolio",
+        "banca"
+      ]
     },
     {
-      "id": "504b159a61",
+      "id": "4bdff99dad",
+      "tema": "finanzas",
+      "titular_es": "El banco central de India sube tipos de interés por primera vez desde 2023",
+      "resumen": "El Banco de la Reserva de la India incrementó su tasa de referencia ante crecientes riesgos inflacionarios internos.\nBancos de inversión como Goldman Sachs y HSBC anticipan que la entidad podría aplicar alzas adicionales antes de fin de año.\nLa decisión refleja un giro restrictivo en una de las economías emergentes de más rápido crecimiento del mundo.",
+      "relevancia": 8,
+      "url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html",
+      "fuente": "cnbc.com",
+      "bandera": "🇮🇳",
+      "tags": [
+        "India",
+        "política monetaria",
+        "tasas de interés"
+      ]
+    },
+    {
+      "id": "1d6dcd635b",
       "tema": "emprendimiento",
-      "titular_es": "Get hands-on: The full lineup of interactive roundtables at TechCrunch Disrupt 2026",
-      "resumen": "From Nvidia and Chime to Obvious Ventures and Anthropic, explore the entire roundtable agenda at TechCrunch Disrupt 2026. Register now to save up to $100 on your pass and get a second pass at 50% off.",
-      "relevancia": 5,
-      "url": "https://techcrunch.com/2026/10/07/get-hands-on-the-full-lineup-of-interactive-roundtables-at-techcrunch-disrupt-2026/",
+      "titular_es": "Nous Research alcanza una valoración de $1.500 millones y lanza agentes IA corporativos",
+      "resumen": "El equipo detrás del modelo de código abierto Hermes cerró una ronda Serie B de 90 millones de dólares.\nJunto con la financiación, presentaron agentes autónomos diseñados específicamente para resolver flujos operativos en empresas.\nEl hito posiciona a Nous como un competidor directo frente a los laboratorios de IA cerrada más capitalizados.",
+      "relevancia": 8,
+      "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "startups",
+        "capital de riesgo",
+        "modelos abiertos"
+      ]
+    },
+    {
+      "id": "a7f501e828",
+      "tema": "emprendimiento",
+      "titular_es": "Veteranos de SpaceX captan $100 millones para fabricar trenes de carga autónomos",
+      "resumen": "Parallel Systems completó una ronda de 100 millones de dólares para escalar sus vehículos ferroviarios eléctricos e individuales.\nLa tecnología permite transportar miles de kilos de carga hasta 800 kilómetros sin depender de convoyes tradicionales kilométricos.\nEl proyecto pretende descongestionar autopistas migrando el transporte logístico pesado a vías férreas desaprovechadas.",
+      "relevancia": 8,
+      "url": "https://techcrunch.com/2026/10/07/spacex-alumni-nab-100m-to-rethink-shipping-with-autonomous-freight-trains/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "transporte",
+        "vehículos autónomos",
+        "logística"
+      ]
+    },
+    {
+      "id": "756cf55d02",
+      "tema": "emprendimiento",
+      "titular_es": "Endeavor Catalyst levanta $320 millones para respaldar fundadores fuera de Silicon Valley",
+      "resumen": "El fondo completó su nuevo vehículo de inversión enfocado en emprendedores de mercados emergentes de Latinoamérica, Europa y Asia.\nLa mitad de los retornos financieros del fondo se reinvierten en la red sin fines de lucro que apoya a los fundadores locales.\nLa recaudación demuestra que los inversores institucionales siguen viendo un enorme potencial de retorno lejos de los epicentros tradicionales.",
+      "relevancia": 8,
+      "url": "https://techcrunch.com/2026/10/07/while-vcs-crowd-into-san-francisco-endeavor-catalyst-raises-320m-for-founders-elsewhere/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "venture capital",
+        "mercados emergentes",
+        "ecosistema startup"
+      ]
     },
     {
-      "id": "f57202fe09",
+      "id": "a238c94c5d",
       "tema": "ciencia",
-      "titular_es": "Humans may not be as hardwired for violence as we thought",
-      "resumen": "A study comparing 100 primate species, including humans, suggests that everyday aggression and lethal violence did not evolve as part of the same simple behavioral spectrum. Species that frequently fight or show mild aggression are not necessarily more likely to kill rivals, while extreme acts such ",
-      "relevancia": 5,
-      "url": "https://www.sciencedaily.com/releases/2026/10/261005071529.htm",
+      "titular_es": "Google y Meta invierten $300 millones para crear una 'célula virtual' biomédica",
+      "resumen": "Google DeepMind, Meta e Isomorphic Labs se aliaron con Biohub para modelar computacionalmente una célula biológica completa.\nLa plataforma busca simular con precisión las interacciones moleculares para acelerar el descubrimiento de terapias contra enfermedades complejas.\nLa iniciativa representa la mayor apuesta colaborativa entre gigantes tecnológicos para unificar biología celular y modelos predictivos.",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/tech/1006766/google-meta-biohub-investment-virtual-cell",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "biomedicina",
+        "DeepMind",
+        "modelado celular"
+      ]
+    },
+    {
+      "id": "8845f5efb6",
+      "tema": "ciencia",
+      "titular_es": "El telescopio James Webb halla rastros de colisiones gigantes entre mundos del tamaño de Marte",
+      "resumen": "El observatorio espacial analizó discos de escombros extremos alrededor de estrellas jóvenes y detectó polvo generado por impactos catastróficos.\nLos hallazgos ofrecen una ventana directa a los procesos violentos que dieron origen a planetas terrestres y a la Luna en nuestro sistema solar.\nLos datos permiten a los astrofísicos comprobar modelos teóricos de acreción planetaria en etapas tempranas de formación.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/10/261007042108.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "956a8d76ce",
-      "tema": "ia",
-      "titular_es": "Show HN: A walkable 3D art history museum built from Wikipedia",
-      "resumen": "From Li Cheng to Banksy",
-      "relevancia": 4,
-      "url": "https://artmuseum.artfrompixels.com/",
-      "fuente": "artmuseum.artfrompixels.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "8cb9ab7076",
-      "tema": "finanzas",
-      "titular_es": "S&P 500 cae ante el salto del petróleo y las tasas de los bonos en su mayor nivel en 24 años",
-      "resumen": "Las nuevas tensiones en el estrecho de Ormuz impulsan el crudo y reavivan las preocupaciones por la inflación, mientras los inversionistas esperan las minutas de la Reserva Federal.",
-      "relevancia": 4,
-      "url": "https://www.bloomberglinea.com/mercados/sp-500-cae-ante-el-salto-del-petroleo-y-las-tasas-de-los-bonos-en-su-mayor-nivel-en-24-anos/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "astronomía",
+        "James Webb",
+        "astrofísica"
+      ]
     },
     {
       "id": "d8a594758a",
       "tema": "ciencia",
-      "titular_es": "Webb finds a surprising atmosphere on a scorching lava world",
-      "resumen": "The James Webb Space Telescope has found strong evidence that the rocky lava world HD 3167 b has an atmosphere, despite circling its star every 24 hours under extreme heat. The surprising discovery could help scientists understand how rocky planets retain atmospheres and what the young, molten Earth",
-      "relevancia": 4,
+      "titular_es": "El James Webb detecta una sorprendente atmósfera en un planeta rocoso de lava",
+      "resumen": "Astrónomos hallaron evidencias firmes de una atmósfera en HD 3167 b, un exoplaneta incandescente que orbita a su estrella cada 24 horas.\nEl hallazgo contradice las predicciones que sugerían que la radiación extrema habría despojado totalmente los gases del cuerpo celeste.\nLa observación proporciona claves críticas para entender cómo los planetas rocosos jóvenes retienen o regeneran sus atmósferas primitivas.",
+      "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/10/261005071526.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "exoplanetas",
+        "James Webb",
+        "astronomía"
+      ]
     },
     {
-      "id": "fa10d31279",
-      "tema": "ia",
-      "titular_es": "Shipping JPEG XL in Chrome",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 3,
-      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
-      "fuente": "developer.chrome.com (vía HN)",
+      "id": "ed3a3bce5d",
+      "tema": "ciencia",
+      "titular_es": "Físicos detectan el 'fantasma' de la superconductividad en diteluro de uranio",
+      "resumen": "Investigadores hallaron pruebas de ondas de densidad de pares electrónicos que persisten incluso tras desaparecer la superconductividad estándar.\nEl fenómeno observado en este material exótico desafía la teoría convencional de apareamiento de electrones en física cuántica.\nEste descubrimiento abre nuevas vías teóricas para diseñar superconductores capaces de operar bajo condiciones de campo magnético extremo.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/10/261005071517.htm",
+      "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "física cuántica",
+        "superconductividad",
+        "materiales"
+      ]
+    },
+    {
+      "id": "4c58bd6447",
+      "tema": "ciencia",
+      "titular_es": "Bloquear el receptor P2X7 frena la inflamación cerebral ligada al Alzheimer y Parkinson",
+      "resumen": "Científicos comprobaron que la inhibición de esta diana reduce significativamente la neuroinflamación destructiva en tejido cerebral humano.\nEl mecanismo abre la puerta a reutilizar fármacos ya existentes para detener el progreso de patologías neurodegenerativas graves.\nEl descubrimiento aporta una nueva diana terapéutica contra lesiones cerebrales y trastornos psiquiátricos inflamatorios.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/10/261005071515.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "neurociencia",
+        "Alzheimer",
+        "farmacología"
+      ]
+    },
+    {
+      "id": "2198930807",
+      "tema": "ia",
+      "titular_es": "Meta y Microsoft toman medidas para restringir el uso interno de Claude AI",
+      "resumen": "Ambos gigantes tecnológicos han comenzado a limitar el acceso de sus empleados al modelo de Anthropic dentro de sus redes corporativas.\nLa decisión busca proteger la propiedad intelectual interna e incentivar la adopción de sus propias herramientas y acuerdos de IA.\nEl movimiento evidencia la creciente fricción competitiva entre los principales actores del sector por el control del software laboral.",
+      "relevancia": 7,
+      "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+      "fuente": "rswebsols.com (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Anthropic",
+        "Microsoft",
+        "seguridad corporativa"
+      ]
+    },
+    {
+      "id": "9431d44978",
+      "tema": "ia",
+      "titular_es": "Docker presenta Docker Agent para automatizar flujos de contenedores",
+      "resumen": "Docker anunció una nueva herramienta basada en agentes inteligentes para asistir en la configuración, depuración y despliegue de entornos.\nEl sistema es capaz de analizar Dockerfiles, detectar vulnerabilidades y sugerir optimizaciones de rendimiento de forma automática.\nRepresenta un paso significativo hacia la automatización del ciclo DevOps mediante inteligencia artificial.",
+      "relevancia": 7,
+      "url": "https://github.com/docker/docker-agent",
+      "fuente": "github.com (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Docker",
+        "DevOps",
+        "automatización"
+      ]
+    },
+    {
+      "id": "fac5386711",
+      "tema": "ia",
+      "titular_es": "Llegan los primeros portátiles con chips Nvidia RTX Spark con precios de hasta $7.000",
+      "resumen": "Fabricantes como Dell, Lenovo, HP y Asus han presentado sus equipos insignia impulsados por la nueva arquitectura basada en Arm de Nvidia.\nLos dispositivos apuntan al segmento profesional de alto rendimiento y buscan competir directamente contra la línea MacBook Pro de Apple.\nCon configuraciones base desde $2.599, la plataforma promete ejecutar modelos de IA localmente con eficiencia energética récord.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/gadgets/1007040/nvidias-powerful-rtx-spark-laptops-can-cost-up-to-7000",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Nvidia",
+        "hardware",
+        "chips"
+      ]
+    },
+    {
+      "id": "f7ce188fe1",
+      "tema": "ia",
+      "titular_es": "Microsoft presenta el Surface Laptop Ultra con silicio Nvidia RTX Spark",
+      "resumen": "En su keynote de San Francisco, Microsoft reveló detalles de lanzamiento de su ordenador portátil más potente orientado a cargas de IA.\nEl equipo equipa procesadores Arm diseñados junto a Nvidia y cuenta con un precio de partida de $2.599.\nEl lanzamiento consolida la transición de Windows hacia arquitecturas híbridas orientadas al cómputo neural local.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Microsoft",
+        "hardware",
+        "Windows"
+      ]
+    },
+    {
+      "id": "edb2f913d2",
+      "tema": "finanzas",
+      "titular_es": "Los temores inflacionarios repuntan y la perspectiva a un año de la Fed toca máximos desde 2023",
+      "resumen": "La Encuesta de Expectativas del Consumidor de la Fed reveló que la mediana inflacionaria esperada a 12 meses subió al 3,9%.\nEl dato complica las previsiones de recortes agresivos de tasas de interés por parte del banco central estadounidense.\nLos mercados de deuda reaccionaron con un endurecimiento en los rendimientos de los bonos del Tesoro a corto plazo.",
+      "relevancia": 7,
+      "url": "https://www.cnbc.com/2026/10/07/inflation-fears-on-the-rise-as-one-year-outlook-in-fed-survey-hits-highest-since-may-2023.html",
+      "fuente": "cnbc.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Reserva Federal",
+        "inflación",
+        "tasas de interés"
+      ]
+    },
+    {
+      "id": "8a17b51eac",
+      "tema": "finanzas",
+      "titular_es": "Kristalina Georgieva advierte que la IA es tanto una esperanza como un peligro para la economía",
+      "resumen": "La directora gerente del FMI alertó que el auge de inversión en IA está impulsando la productividad pero también presiones inflacionarias.\nEl aumento de rendimientos de deuda soberana coincide con máximos históricos de endeudamiento público en países desarrollados.\nGeorgieva pidió a los líderes mundiales cautela fiscal ante la reconfiguración laboral y macroeconómica acelerada por esta tecnología.",
+      "relevancia": 7,
+      "url": "https://www.cnbc.com/2026/10/07/economy-inflation-ai-trade-imf-iran-hormuz-trump-.html",
+      "fuente": "cnbc.com",
+      "bandera": "🌍",
+      "tags": [
+        "FMI",
+        "macroeconomía",
+        "deuda pública"
+      ]
+    },
+    {
+      "id": "884758b145",
+      "tema": "finanzas",
+      "titular_es": "El Banco Mundial eleva previsión para Asia Oriental al 4,5% pero alerta sobre dependencia de la IA",
+      "resumen": "El organismo multilateral revisó al alza el crecimiento regional impulsado por las exportaciones de semiconductores y hardware.\nNo obstante, advirtió que el comercio de bienes no vinculados al sector de IA ha mostrado un dinamismo plano o negativo.\nEsta brecha genera vulnerabilidades ante eventuales correcciones en el ciclo de gasto tecnológico global.",
+      "relevancia": 7,
+      "url": "https://www.cnbc.com/2026/10/06/world-bank-east-asia-growth-inflation-ai-exports-.html",
+      "fuente": "cnbc.com",
+      "bandera": "🌍",
+      "tags": [
+        "Banco Mundial",
+        "comercio global",
+        "Asia"
+      ]
     },
     {
       "id": "58dec7bdf6",
       "tema": "finanzas",
-      "titular_es": "De la Espriella tumbó norma de Petro que limitaba al 30% las inversiones de las AFP en el exterior",
-      "resumen": "El Gobierno asegura que se mantienen los límites específicos y las reglas de gestión de riesgos para proteger los recursos de los afiliados.",
-      "relevancia": 3,
+      "titular_es": "Fallo judicial tumba norma en Colombia que limitaba al 30% las inversiones de fondos de pensiones en el exterior",
+      "resumen": "Un tribunal revocó la directriz gubernamental que buscaba forzar a las AFP a mantener más capital dentro de los mercados locales.\nLas administradoras de fondos recuperan la flexibilidad para diversificar carteras globales y mitigar el riesgo país.\nEl dictamen tiene un impacto directo sobre la rentabilidad proyectada del ahorro pensional de millones de cotizantes.",
+      "relevancia": 7,
       "url": "https://www.bloomberglinea.com/latinoamerica/colombia/de-la-espriella-tumbo-norma-de-petro-que-limitaba-al-30-las-inversiones-de-las-afp-en-el-exterior/",
       "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇨🇴",
+      "tags": [
+        "pensiones",
+        "Colombia",
+        "inversiones"
+      ]
     },
     {
-      "id": "8b6f242d62",
-      "tema": "ia",
-      "titular_es": "Nobel Prize in Chemistry 2026 to Henri B. Kagan and Kenso Soai",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 2,
-      "url": "https://www.nobelprize.org/prizes/chemistry/2026/press-release/",
-      "fuente": "nobelprize.org (vía HN)",
+      "id": "8cb9ab7076",
+      "tema": "finanzas",
+      "titular_es": "El S&P 500 retrocede ante el repunte del petróleo y el dólar se acerca a máximos anuales",
+      "resumen": "Las minutas de la Fed respaldaron la posibilidad de mantener tasas restrictivas por más tiempo, presionando a la renta variable.\nEl alza en los precios del crudo reavivó temores sobre costes de energía persistentes para las empresas cotizadas.\nEl dólar estadounidense se fortaleció frente a las principales divisas globales en una sesión de aversión al riesgo.",
+      "relevancia": 7,
+      "url": "https://www.bloomberglinea.com/mercados/sp-500-cae-ante-el-salto-del-petroleo-y-las-tasas-de-los-bonos-en-su-mayor-nivel-en-24-anos/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Wall Street",
+        "petróleo",
+        "dólar"
+      ]
+    },
+    {
+      "id": "fc38477a8a",
+      "tema": "emprendimiento",
+      "titular_es": "Healthleap recauda $38M para su IA de alerta temprana de pacientes hospitalarios",
+      "resumen": "La compañía captó una Serie A de $30 millones liderada por Hummingbird Ventures tras una semilla previa con Sequoia y First Round.\nSu software analiza historias clínicas en tiempo real para alertar al personal médico sobre pacientes en riesgo de deterioro crítico.\nLa inyección de capital acelerará las integraciones clínicas en hospitales públicos y privados de Estados Unidos.",
+      "relevancia": 7,
+      "url": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "salud",
+        "capital de riesgo",
+        "inteligencia artificial"
+      ]
+    },
+    {
+      "id": "84d4f1fab5",
+      "tema": "emprendimiento",
+      "titular_es": "Tab sale de modo incógnito con una valoración de $300 millones para su asistente de IA",
+      "resumen": "La nueva startup anunció públicamente su plataforma de asistencia personal con un respaldo financiero masivo inicial.\nEl producto promete integrarse profundamente en la actividad diaria del usuario para anticipar recordatorios y organizar flujos de trabajo.\nEl caso refleja el persistente apetito inversor por nuevas alternativas de agentes personales en el mercado de consumo.",
+      "relevancia": 7,
+      "url": "https://techcrunch.com/2026/10/07/another-personal-ai-assistant-has-launched-meet-tab-which-emerged-from-stealth-with-a-300m-valuation/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "asistentes virtuales",
+        "startups",
+        "consumo"
+      ]
+    },
+    {
+      "id": "651a4bbf3d",
+      "tema": "emprendimiento",
+      "titular_es": "Mecka AI capta $60M liderados por Sequoia para recopilar datos de entrenamiento robótico",
+      "resumen": "La empresa remunera a personas por grabar tareas físicas cotidianas con cámaras para construir un dataset masivo de manipulación.\nEstos datos multimodales son esenciales para entrenar modelos fundacionales aplicados a robots humanoides y brazos mecánicos.\nLa cuantiosa ronda valida el cuello de botella actual que existe en datos del mundo real para la robótica avanzada.",
+      "relevancia": 7,
+      "url": "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "robótica",
+        "datos",
+        "Sequoia"
+      ]
+    },
+    {
+      "id": "051f497a9b",
+      "tema": "ciencia",
+      "titular_es": "El consumo de azúcar podría amplificar el daño de los antibióticos sobre el microbioma",
+      "resumen": "Un nuevo estudio demuestra que ingerir dietas altas en azúcar durante tratamientos antibióticos agrava la alteración de la flora intestinal.\nLa combinación fomenta la proliferación de patógenos oportunistas al reducir la diversidad de bacterias protectoras.\nLos expertos sugieren que moderar el azúcar durante la prescripción médica podría ser una pauta sencilla para preservar la salud digestiva.",
+      "relevancia": 7,
+      "url": "https://www.sciencedaily.com/releases/2026/10/261007042059.htm",
+      "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "microbioma",
+        "salud",
+        "nutrición"
+      ]
+    },
+    {
+      "id": "49208ebca0",
+      "tema": "ia",
+      "titular_es": "Common Sense Media califica a 'ChatGPT for Teens' como un 'riesgo inaceptable'",
+      "resumen": "La organización de seguridad digital infantil emitió una severa advertencia sobre la modalidad para adolescentes de ChatGPT.\nEl informe señala fallas en la efectividad de los filtros de moderación y riesgos en el manejo del apego emocional de menores.\nLa crítica añade presión regulatoria sobre OpenAI justo cuando busca posicionar herramientas de IA en entornos educativos.",
+      "relevancia": 6,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "seguridad digital",
+        "educación",
+        "regulación"
+      ]
     },
     {
       "id": "c668ae31dc",
       "tema": "finanzas",
-      "titular_es": "Grupo Sura recomprará hasta COP$500.000 millones en acciones: qué implica para sus inversionistas",
-      "resumen": "Ya inició la ejecución del programa de recompra. La operación podrá extenderse hasta marzo de 2028 y busca, entre otros objetivos, contribuir a cerrar la brecha entre el precio de mercado y el valor de la compañía.",
-      "relevancia": 2,
+      "titular_es": "Grupo Sura inicia plan de recompra de acciones por hasta COP$500.000 millones",
+      "resumen": "El conglomerado financiero colombiano comenzó la ejecución de su programa de recompra con vigencia extendida hasta 2028.\nLa estrategia tiene como fin cerrar la amplia brecha entre la cotización bursátil y el valor patrimonial de sus activos.\nLa operación envía una señal de respaldo corporativo al mercado accionario local en busca de liquidez.",
+      "relevancia": 6,
       "url": "https://www.bloomberglinea.com/latinoamerica/colombia/grupo-sura-recomprara-hasta-cop500000-millones-en-acciones-que-implica-para-sus-inversionistas/",
       "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "a4fa096085",
-      "tema": "ia",
-      "titular_es": "A font recreated from photographs of classic Commodore 64 keycaps",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 1,
-      "url": "https://github.com/szabadkai/c64-keyboard-font/",
-      "fuente": "github.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "0b06a8a60d",
-      "tema": "finanzas",
-      "titular_es": "¿El precio del dólar seguirá subiendo? BlackRock explica por qué ve poco margen para otro rally",
-      "resumen": "La gestora cree que el mercado descuenta un endurecimiento excesivo de la Reserva Federal y prevé que el dólar se mantenga cerca de sus niveles actuales o registre un debilitamiento moderado.",
-      "relevancia": 1,
-      "url": "https://www.bloomberglinea.com/mercados/el-precio-del-dolar-seguira-subiendo-blackrock-explica-por-que-ve-poco-margen-para-otro-rally/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇨🇴",
+      "tags": [
+        "mercados",
+        "recompra",
+        "Colombia"
+      ]
     }
   ]
 }
