@@ -1,477 +1,346 @@
 {
-  "fecha": "2026-10-07",
-  "generado_utc": "2026-10-07T23:57:46Z",
-  "indicadores": {
-    "dolar": {
-      "valor": 967.79,
-      "variacion": -9.46,
-      "variacion_pct": -0.97
-    },
-    "uf": {
-      "valor": 41114.54,
-      "variacion": 8.19,
-      "variacion_pct": 0.02
-    }
-  },
-  "noticia_del_dia": "a09232aae0",
-  "pildora_ia": "Bias-variance tradeoff: el equilibrio central del ML. Un modelo muy simple falla por rígido (bias alto); uno muy complejo falla por inestable (varianza alta). El arte está en el punto medio.",
+  "fecha": "2026-10-08",
+  "generado_utc": "2026-10-08T18:33:20Z",
+  "indicadores": {},
+  "noticia_del_dia": "3155c80505",
+  "pildora_ia": "Dropout: durante el entrenamiento se 'apagan' neuronas al azar en cada paso. Suena raro, pero obliga a la red a no depender de unas pocas conexiones y reduce el sobreajuste.",
   "pildoras_ia": [
-    "Bias-variance tradeoff: el equilibrio central del ML. Un modelo muy simple falla por rígido (bias alto); uno muy complejo falla por inestable (varianza alta). El arte está en el punto medio.",
     "Dropout: durante el entrenamiento se 'apagan' neuronas al azar en cada paso. Suena raro, pero obliga a la red a no depender de unas pocas conexiones y reduce el sobreajuste.",
     "RLHF: aprendizaje por refuerzo con retroalimentación humana. Alinea a los LLM con lo que la gente considera útil y seguro usando preferencias humanas. Clave en ChatGPT, Gemini y Claude.",
     "Función de pérdida (loss): el número que mide qué tan equivocado está el modelo. Todo el entrenamiento consiste en minimizarlo; elegir bien la loss define qué aprende realmente el modelo.",
-    "Épocas y batches: una 'época' es una pasada completa por todos los datos; un 'batch' es el grupo de ejemplos que se procesan juntos antes de actualizar el modelo. Ajustar ambos afecta velocidad y calidad."
+    "Épocas y batches: una 'época' es una pasada completa por todos los datos; un 'batch' es el grupo de ejemplos que se procesan juntos antes de actualizar el modelo. Ajustar ambos afecta velocidad y calidad.",
+    "Destilación: entrenar un modelo pequeño para imitar a uno grande. El resultado es más rápido y barato de correr conservando buena parte de la calidad. Así nacen muchos modelos 'flash' o 'mini'."
   ],
   "noticias": [
     {
-      "id": "a09232aae0",
+      "id": "3155c80505",
       "tema": "ia",
-      "titular_es": "La actualización 'Intelligent UI' de ChatGPT incorpora imágenes interactivas, gráficos y botones",
-      "resumen": "OpenAI ha comenzado el despliegue global de una interfaz inteligente que transforma la interacción textual tradicional.\nLas respuestas del modelo ahora integran diagramas dinámicos, formularios y componentes visuales accionables en tiempo real.\nEsta función marca un cambio radical hacia interfaces generativas ricas para usuarios finales y desarrolladores.",
-      "relevancia": 9,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+      "titular_es": "Forza Horizon 6 is being delayed on PS5 to January 2027",
+      "resumen": "Playground Games first revealed earlier this year that Forza Horizon 6 would be arriving on PS5 in 2026, but the launch is now being pushed back. I reported last month that there would be a delay to early next year, and Forza Horizon 6 is now officially debuting on January 26th, 2027. The delay mean",
+      "relevancia": 10,
+      "url": "https://www.theverge.com/news/989314/forza-horizon-6-ps5-release-date-january-2027-delay",
       "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "OpenAI",
-        "ChatGPT",
-        "interfaz de usuario"
-      ]
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "4b55373087",
-      "tema": "ciencia",
-      "titular_es": "Muere Margaret Hamilton, pionera que lideró el desarrollo de software para el programa Apolo",
-      "resumen": "La histórica científica de la computación falleció tras haber forjado los cimientos de la ingeniería de software moderna en el MIT.\nSu código de a bordo para el Apolo 11 evitó un aborto crítico durante el alunizaje de 1969 gracias a su sistema de priorización de tareas.\nSu legado incluye haber acuñado el término 'ingeniería de software' y abierto las puertas a generaciones de mujeres en la tecnología.",
-      "relevancia": 9,
-      "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
-      "fuente": "news.mit.edu (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "ingeniería de software",
-        "historia espacial",
-        "MIT"
-      ]
-    },
-    {
-      "id": "82eaa2dcf8",
-      "tema": "ciencia",
-      "titular_es": "Científicos logran reprogramar células inmunitarias dentro del cuerpo para combatir el cáncer",
-      "resumen": "Investigadores de la UC San Francisco desarrollaron una técnica para generar células CAR-T directamente 'in vivo' mediante un sistema de dos partículas.\nEl avance evitaría el largo y costoso procedimiento tradicional de extraer, editar y reinfundir las células del paciente en laboratorios externos.\nDe confirmarse su eficacia clínica, democratizaría radicalmente el acceso a una de las inmunoterapias más avanzadas del mundo.",
-      "relevancia": 9,
-      "url": "https://www.sciencedaily.com/releases/2026/10/261005071532.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "inmunoterapia",
-        "oncología",
-        "biotecnología"
-      ]
-    },
-    {
-      "id": "2cf28a1a93",
-      "tema": "ia",
-      "titular_es": "Anthropic lanza Claude Haiku 5.5 enfocado en velocidad y bajo coste",
-      "resumen": "Anthropic ha presentado la nueva versión de su modelo más ligero, diseñada para tareas de baja latencia y alta concurrencia.\nOfrece mejoras notables en seguimiento de instrucciones y generación de código respecto a su predecesor manteniendo tarifas accesibles.\nEs una actualización clave para ingenieros que construyen agentes autónomos que requieren inferencias rápidas y económicas.",
-      "relevancia": 8,
-      "url": "https://www.anthropic.com/claude-haiku-5-5",
-      "fuente": "anthropic.com (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Anthropic",
-        "modelos de lenguaje",
-        "desarrollo"
-      ]
-    },
-    {
-      "id": "b768f5cf6d",
-      "tema": "ia",
-      "titular_es": "Microsoft otorga a Copilot control directo sobre Windows y archivos locales",
-      "resumen": "Bajo la iniciativa 'Inteligencia Híbrida', Copilot ahora podrá interactuar con el sistema de archivos del usuario y ejecutar tareas en el SO.\nEl asistente gana la capacidad de cruzar datos entre aplicaciones locales y servicios en la nube para automatizar flujos complejos.\nEsta integración plantea nuevos debates sobre la privacidad de datos locales y el control de permisos a nivel de sistema operativo.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Microsoft",
-        "Copilot",
-        "sistemas operativos"
-      ]
-    },
-    {
-      "id": "ed47795133",
+      "id": "d6bb8fc8ba",
       "tema": "finanzas",
-      "titular_es": "Visa, Mastercard y grandes bancos afrontan un nuevo litigio por comisiones anticompetitivas",
-      "resumen": "Comerciantes han interpuesto una nueva demanda colectiva acusando a las redes de pago de coordinar comisiones de intercambio infladas.\nLa acción judicial sostiene que los acuerdos multilaterales fijan tarifas que perjudican a minoristas y consumidores.\nEl caso podría forzar una reestructuración legal en las tarifas de procesamiento electrónico en los mercados occidentales.",
-      "relevancia": 8,
-      "url": "https://www.classaction.org/news/visa-mastercard-major-banks-facing-new-litigation-over-anticompetitive-merchant-credit-card-transaction-fees",
-      "fuente": "classaction.org (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "pagos digitales",
-        "antimonopolio",
-        "banca"
-      ]
-    },
-    {
-      "id": "4bdff99dad",
-      "tema": "finanzas",
-      "titular_es": "El banco central de India sube tipos de interés por primera vez desde 2023",
-      "resumen": "El Banco de la Reserva de la India incrementó su tasa de referencia ante crecientes riesgos inflacionarios internos.\nBancos de inversión como Goldman Sachs y HSBC anticipan que la entidad podría aplicar alzas adicionales antes de fin de año.\nLa decisión refleja un giro restrictivo en una de las economías emergentes de más rápido crecimiento del mundo.",
-      "relevancia": 8,
-      "url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html",
+      "titular_es": "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
+      "resumen": "Tariffs added 2.9 percentage points to inflation in 67 categories of goods by February 2026, researchers at the New York Federal Reserve found.",
+      "relevancia": 10,
+      "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html",
       "fuente": "cnbc.com",
-      "bandera": "🇮🇳",
-      "tags": [
-        "India",
-        "política monetaria",
-        "tasas de interés"
-      ]
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "1d6dcd635b",
+      "id": "494307aa91",
       "tema": "emprendimiento",
-      "titular_es": "Nous Research alcanza una valoración de $1.500 millones y lanza agentes IA corporativos",
-      "resumen": "El equipo detrás del modelo de código abierto Hermes cerró una ronda Serie B de 90 millones de dólares.\nJunto con la financiación, presentaron agentes autónomos diseñados específicamente para resolver flujos operativos en empresas.\nEl hito posiciona a Nous como un competidor directo frente a los laboratorios de IA cerrada más capitalizados.",
-      "relevancia": 8,
-      "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "startups",
-        "capital de riesgo",
-        "modelos abiertos"
-      ]
-    },
-    {
-      "id": "a7f501e828",
-      "tema": "emprendimiento",
-      "titular_es": "Veteranos de SpaceX captan $100 millones para fabricar trenes de carga autónomos",
-      "resumen": "Parallel Systems completó una ronda de 100 millones de dólares para escalar sus vehículos ferroviarios eléctricos e individuales.\nLa tecnología permite transportar miles de kilos de carga hasta 800 kilómetros sin depender de convoyes tradicionales kilométricos.\nEl proyecto pretende descongestionar autopistas migrando el transporte logístico pesado a vías férreas desaprovechadas.",
-      "relevancia": 8,
-      "url": "https://techcrunch.com/2026/10/07/spacex-alumni-nab-100m-to-rethink-shipping-with-autonomous-freight-trains/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "transporte",
-        "vehículos autónomos",
-        "logística"
-      ]
-    },
-    {
-      "id": "756cf55d02",
-      "tema": "emprendimiento",
-      "titular_es": "Endeavor Catalyst levanta $320 millones para respaldar fundadores fuera de Silicon Valley",
-      "resumen": "El fondo completó su nuevo vehículo de inversión enfocado en emprendedores de mercados emergentes de Latinoamérica, Europa y Asia.\nLa mitad de los retornos financieros del fondo se reinvierten en la red sin fines de lucro que apoya a los fundadores locales.\nLa recaudación demuestra que los inversores institucionales siguen viendo un enorme potencial de retorno lejos de los epicentros tradicionales.",
-      "relevancia": 8,
-      "url": "https://techcrunch.com/2026/10/07/while-vcs-crowd-into-san-francisco-endeavor-catalyst-raises-320m-for-founders-elsewhere/",
+      "titular_es": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
+      "resumen": "The company behind the popular LMArena leaderboard has raised $200 million led by Lightspeed and Khosla, and is now measuring AI models on alignment issues such as lying.",
+      "relevancia": 10,
+      "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
-      "tags": [
-        "venture capital",
-        "mercados emergentes",
-        "ecosistema startup"
-      ]
+      "tags": []
     },
     {
-      "id": "a238c94c5d",
+      "id": "6d8881292d",
       "tema": "ciencia",
-      "titular_es": "Google y Meta invierten $300 millones para crear una 'célula virtual' biomédica",
-      "resumen": "Google DeepMind, Meta e Isomorphic Labs se aliaron con Biohub para modelar computacionalmente una célula biológica completa.\nLa plataforma busca simular con precisión las interacciones moleculares para acelerar el descubrimiento de terapias contra enfermedades complejas.\nLa iniciativa representa la mayor apuesta colaborativa entre gigantes tecnológicos para unificar biología celular y modelos predictivos.",
-      "relevancia": 8,
-      "url": "https://www.theverge.com/tech/1006766/google-meta-biohub-investment-virtual-cell",
+      "titular_es": "The Download: AI roadblocks for humanoids and portable rubber dams",
+      "resumen": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI breakthroughs in robotics won’t change your life any time soon The hype around humanoid robots is reaching fever pitch. Much of it comes from the idea that the",
+      "relevancia": 10,
+      "url": "https://www.technologyreview.com/2026/10/08/1146045/the-download-ai-roadblocks-humanoids-portable-rubber-dams/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "c24725d4c0",
+      "tema": "ia",
+      "titular_es": "USA Today becomes the latest publisher to sue OpenAI",
+      "resumen": "USA Today Co., along with the several local newspapers it owns, is suing OpenAI over claims that the company copied \"hundreds of thousands\" of articles to train its AI models, as reported earlier by Reuters. In a filing on Thursday, the publisher asks for damages of more than $250 million, alleging ",
+      "relevancia": 9,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit",
       "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "biomedicina",
-        "DeepMind",
-        "modelado celular"
-      ]
-    },
-    {
-      "id": "8845f5efb6",
-      "tema": "ciencia",
-      "titular_es": "El telescopio James Webb halla rastros de colisiones gigantes entre mundos del tamaño de Marte",
-      "resumen": "El observatorio espacial analizó discos de escombros extremos alrededor de estrellas jóvenes y detectó polvo generado por impactos catastróficos.\nLos hallazgos ofrecen una ventana directa a los procesos violentos que dieron origen a planetas terrestres y a la Luna en nuestro sistema solar.\nLos datos permiten a los astrofísicos comprobar modelos teóricos de acreción planetaria en etapas tempranas de formación.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/10/261007042108.htm",
-      "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": [
-        "astronomía",
-        "James Webb",
-        "astrofísica"
-      ]
-    },
-    {
-      "id": "d8a594758a",
-      "tema": "ciencia",
-      "titular_es": "El James Webb detecta una sorprendente atmósfera en un planeta rocoso de lava",
-      "resumen": "Astrónomos hallaron evidencias firmes de una atmósfera en HD 3167 b, un exoplaneta incandescente que orbita a su estrella cada 24 horas.\nEl hallazgo contradice las predicciones que sugerían que la radiación extrema habría despojado totalmente los gases del cuerpo celeste.\nLa observación proporciona claves críticas para entender cómo los planetas rocosos jóvenes retienen o regeneran sus atmósferas primitivas.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/10/261005071526.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "exoplanetas",
-        "James Webb",
-        "astronomía"
-      ]
-    },
-    {
-      "id": "ed3a3bce5d",
-      "tema": "ciencia",
-      "titular_es": "Físicos detectan el 'fantasma' de la superconductividad en diteluro de uranio",
-      "resumen": "Investigadores hallaron pruebas de ondas de densidad de pares electrónicos que persisten incluso tras desaparecer la superconductividad estándar.\nEl fenómeno observado en este material exótico desafía la teoría convencional de apareamiento de electrones en física cuántica.\nEste descubrimiento abre nuevas vías teóricas para diseñar superconductores capaces de operar bajo condiciones de campo magnético extremo.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/10/261005071517.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "física cuántica",
-        "superconductividad",
-        "materiales"
-      ]
-    },
-    {
-      "id": "4c58bd6447",
-      "tema": "ciencia",
-      "titular_es": "Bloquear el receptor P2X7 frena la inflamación cerebral ligada al Alzheimer y Parkinson",
-      "resumen": "Científicos comprobaron que la inhibición de esta diana reduce significativamente la neuroinflamación destructiva en tejido cerebral humano.\nEl mecanismo abre la puerta a reutilizar fármacos ya existentes para detener el progreso de patologías neurodegenerativas graves.\nEl descubrimiento aporta una nueva diana terapéutica contra lesiones cerebrales y trastornos psiquiátricos inflamatorios.",
-      "relevancia": 8,
-      "url": "https://www.sciencedaily.com/releases/2026/10/261005071515.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": [
-        "neurociencia",
-        "Alzheimer",
-        "farmacología"
-      ]
-    },
-    {
-      "id": "2198930807",
-      "tema": "ia",
-      "titular_es": "Meta y Microsoft toman medidas para restringir el uso interno de Claude AI",
-      "resumen": "Ambos gigantes tecnológicos han comenzado a limitar el acceso de sus empleados al modelo de Anthropic dentro de sus redes corporativas.\nLa decisión busca proteger la propiedad intelectual interna e incentivar la adopción de sus propias herramientas y acuerdos de IA.\nEl movimiento evidencia la creciente fricción competitiva entre los principales actores del sector por el control del software laboral.",
-      "relevancia": 7,
-      "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
-      "fuente": "rswebsols.com (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Anthropic",
-        "Microsoft",
-        "seguridad corporativa"
-      ]
-    },
-    {
-      "id": "9431d44978",
-      "tema": "ia",
-      "titular_es": "Docker presenta Docker Agent para automatizar flujos de contenedores",
-      "resumen": "Docker anunció una nueva herramienta basada en agentes inteligentes para asistir en la configuración, depuración y despliegue de entornos.\nEl sistema es capaz de analizar Dockerfiles, detectar vulnerabilidades y sugerir optimizaciones de rendimiento de forma automática.\nRepresenta un paso significativo hacia la automatización del ciclo DevOps mediante inteligencia artificial.",
-      "relevancia": 7,
-      "url": "https://github.com/docker/docker-agent",
-      "fuente": "github.com (vía HN)",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Docker",
-        "DevOps",
-        "automatización"
-      ]
-    },
-    {
-      "id": "fac5386711",
-      "tema": "ia",
-      "titular_es": "Llegan los primeros portátiles con chips Nvidia RTX Spark con precios de hasta $7.000",
-      "resumen": "Fabricantes como Dell, Lenovo, HP y Asus han presentado sus equipos insignia impulsados por la nueva arquitectura basada en Arm de Nvidia.\nLos dispositivos apuntan al segmento profesional de alto rendimiento y buscan competir directamente contra la línea MacBook Pro de Apple.\nCon configuraciones base desde $2.599, la plataforma promete ejecutar modelos de IA localmente con eficiencia energética récord.",
-      "relevancia": 7,
-      "url": "https://www.theverge.com/gadgets/1007040/nvidias-powerful-rtx-spark-laptops-can-cost-up-to-7000",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Nvidia",
-        "hardware",
-        "chips"
-      ]
-    },
-    {
-      "id": "f7ce188fe1",
-      "tema": "ia",
-      "titular_es": "Microsoft presenta el Surface Laptop Ultra con silicio Nvidia RTX Spark",
-      "resumen": "En su keynote de San Francisco, Microsoft reveló detalles de lanzamiento de su ordenador portátil más potente orientado a cargas de IA.\nEl equipo equipa procesadores Arm diseñados junto a Nvidia y cuenta con un precio de partida de $2.599.\nEl lanzamiento consolida la transición de Windows hacia arquitecturas híbridas orientadas al cómputo neural local.",
-      "relevancia": 7,
-      "url": "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Microsoft",
-        "hardware",
-        "Windows"
-      ]
+      "tags": []
     },
     {
       "id": "edb2f913d2",
       "tema": "finanzas",
-      "titular_es": "Los temores inflacionarios repuntan y la perspectiva a un año de la Fed toca máximos desde 2023",
-      "resumen": "La Encuesta de Expectativas del Consumidor de la Fed reveló que la mediana inflacionaria esperada a 12 meses subió al 3,9%.\nEl dato complica las previsiones de recortes agresivos de tasas de interés por parte del banco central estadounidense.\nLos mercados de deuda reaccionaron con un endurecimiento en los rendimientos de los bonos del Tesoro a corto plazo.",
-      "relevancia": 7,
+      "titular_es": "Inflation fears on the rise as one-year outlook in Fed survey hits highest level since May 2023",
+      "resumen": "The Survey of Consumer Expectations indicated that the median outlook for inflation over the next 12 months rose to 3.9%.",
+      "relevancia": 9,
       "url": "https://www.cnbc.com/2026/10/07/inflation-fears-on-the-rise-as-one-year-outlook-in-fed-survey-hits-highest-since-may-2023.html",
       "fuente": "cnbc.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Reserva Federal",
-        "inflación",
-        "tasas de interés"
-      ]
-    },
-    {
-      "id": "8a17b51eac",
-      "tema": "finanzas",
-      "titular_es": "Kristalina Georgieva advierte que la IA es tanto una esperanza como un peligro para la economía",
-      "resumen": "La directora gerente del FMI alertó que el auge de inversión en IA está impulsando la productividad pero también presiones inflacionarias.\nEl aumento de rendimientos de deuda soberana coincide con máximos históricos de endeudamiento público en países desarrollados.\nGeorgieva pidió a los líderes mundiales cautela fiscal ante la reconfiguración laboral y macroeconómica acelerada por esta tecnología.",
-      "relevancia": 7,
-      "url": "https://www.cnbc.com/2026/10/07/economy-inflation-ai-trade-imf-iran-hormuz-trump-.html",
-      "fuente": "cnbc.com",
       "bandera": "🌍",
-      "tags": [
-        "FMI",
-        "macroeconomía",
-        "deuda pública"
-      ]
+      "tags": []
     },
     {
-      "id": "884758b145",
-      "tema": "finanzas",
-      "titular_es": "El Banco Mundial eleva previsión para Asia Oriental al 4,5% pero alerta sobre dependencia de la IA",
-      "resumen": "El organismo multilateral revisó al alza el crecimiento regional impulsado por las exportaciones de semiconductores y hardware.\nNo obstante, advirtió que el comercio de bienes no vinculados al sector de IA ha mostrado un dinamismo plano o negativo.\nEsta brecha genera vulnerabilidades ante eventuales correcciones en el ciclo de gasto tecnológico global.",
-      "relevancia": 7,
-      "url": "https://www.cnbc.com/2026/10/06/world-bank-east-asia-growth-inflation-ai-exports-.html",
-      "fuente": "cnbc.com",
+      "id": "293e690197",
+      "tema": "emprendimiento",
+      "titular_es": "A startup founder who served time in prison is looking to court an untapped market: ex-cons",
+      "resumen": "Richard Bronson, a former Stratton Oakmont partner who served time in federal prison for securities violations, has launched Commissary Club, a startup that uses AI to help people leaving prison find jobs, housing, community, and even dates.",
+      "relevancia": 9,
+      "url": "https://techcrunch.com/2026/10/08/a-startup-founder-who-served-time-in-prison-is-looking-to-court-an-untapped-market-ex-cons/",
+      "fuente": "techcrunch.com",
       "bandera": "🌍",
-      "tags": [
-        "Banco Mundial",
-        "comercio global",
-        "Asia"
-      ]
+      "tags": []
     },
     {
-      "id": "58dec7bdf6",
+      "id": "c6174439f8",
+      "tema": "ciencia",
+      "titular_es": "Why we’re watching these climate tech companies",
+      "resumen": "This week, we released our 2026 version of our Climate Tech Companies to Watch list. It’s an annual project that the MIT Technology Review team puts together. Our goal is to highlight some of the promising, interesting advances and firms we think are worth paying attention to in the world of climate",
+      "relevancia": 9,
+      "url": "https://www.technologyreview.com/2026/10/08/1145920/climate-tech-companies-list/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "dd63e1acf9",
+      "tema": "ia",
+      "titular_es": "SpaceXAI backs Omarchy, the controversial Linux distro, with $1.5 million in compute",
+      "resumen": "If Elon Musk and SpaceXAI were going to back any Linux distro, it seems obvious they'd back Omarchy. Today it was announced that SpaceXAI would be joining the Omacom Foundation, which oversees Omarchy, as a Founding Corporate Patron and donating $1.5 million worth of Grok tokens to David Heinemeier ",
+      "relevancia": 8,
+      "url": "https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson",
+      "fuente": "theverge.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "3001dfeaa8",
       "tema": "finanzas",
-      "titular_es": "Fallo judicial tumba norma en Colombia que limitaba al 30% las inversiones de fondos de pensiones en el exterior",
-      "resumen": "Un tribunal revocó la directriz gubernamental que buscaba forzar a las AFP a mantener más capital dentro de los mercados locales.\nLas administradoras de fondos recuperan la flexibilidad para diversificar carteras globales y mitigar el riesgo país.\nEl dictamen tiene un impacto directo sobre la rentabilidad proyectada del ahorro pensional de millones de cotizantes.",
-      "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/de-la-espriella-tumbo-norma-de-petro-que-limitaba-al-30-las-inversiones-de-las-afp-en-el-exterior/",
+      "titular_es": "¿En qué invertir en Chile, Perú y Colombia? Estas son las apuestas de este banco de inversión",
+      "resumen": "Las oportunidades de inversión en Chile, Perú y Colombia presentan diferencias de valoración, rentabilidad y riesgo. Renta4 favorece compañías específicas frente a apuestas generalizadas por los índices bursátiles.",
+      "relevancia": 8,
+      "url": "https://www.bloomberglinea.com/mercados/en-que-invertir-en-chile-peru-y-colombia-estas-son-las-apuestas-de-este-banco-de-inversion/",
       "fuente": "bloomberglinea.com",
-      "bandera": "🇨🇴",
-      "tags": [
-        "pensiones",
-        "Colombia",
-        "inversiones"
-      ]
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "ebcd79fc83",
+      "tema": "emprendimiento",
+      "titular_es": "Hear from Ambrosia Energy and Bloom Energy execs on where the AI infrastructure boom is creating opportunity at TechCrunch Disrupt 2026",
+      "resumen": "Ambrosia Energy CEO Ben Longmier and Bloom Energy SVP Bill Thayer join the Smart Systems Stage at TechCrunch Disrupt. Register now to save up to $100. Grab a second of the same pass to save 50%.",
+      "relevancia": 8,
+      "url": "https://techcrunch.com/2026/10/08/hear-from-ambrosia-energy-and-bloom-energy-execs-on-where-the-ai-infrastructure-boom-is-creating-opportunity-at-disrupt-2026/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "488361a655",
+      "tema": "ciencia",
+      "titular_es": "AI breakthroughs in robotics won’t change your life any time soon",
+      "resumen": "The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we live. A robot shaped like a human—white with a black head and torso—has been popping up on video feeds.",
+      "relevancia": 8,
+      "url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "ab0f0aac86",
+      "tema": "ia",
+      "titular_es": "Older Pixel watches are losing free cellular access to several safety features",
+      "resumen": "Google announced through a short community post today that the LTE versions of the Pixel Watch 2 and 3 are losing free access to Safety Signal that allowed features like Emergency SOS, Fall Detection, and Safety Check to work through cellular networks without the need for a carrier plan. The connect",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/tech/1008145/google-pixel-watch-1-2-free-safety-signal-emergency-access-ending",
+      "fuente": "theverge.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "b1e2c77b40",
+      "tema": "finanzas",
+      "titular_es": "“Una oportunidad perdida”: Citi cuestiona al presidente de Ecopetrol, pero ve potencial en Venezuela",
+      "resumen": "El banco ve oportunidades para Ecopetrol en Venezuela y el fracking en Colombia, aunque advierte que la producción significativa de recursos no convencionales llegaría después de 2030.",
+      "relevancia": 7,
+      "url": "https://www.bloomberglinea.com/mercados/una-oportunidad-perdida-citi-cuestiona-al-presidente-de-ecopetrol-pero-ve-potencial-en-venezuela/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "de7afd3751",
+      "tema": "emprendimiento",
+      "titular_es": "5 days to TechCrunch Disrupt 2026: Don’t pay more at the door for your pass",
+      "resumen": "The global tech ecosystem gathers at TechCrunch Disrupt 2026 at San Francisco’s Moscone West on October 13-15. Get your pass now to save up to $100. Get a second of the same ticket type to save 50%.",
+      "relevancia": 7,
+      "url": "https://techcrunch.com/2026/10/08/5-days-to-techcrunch-disrupt-2026-dont-pay-more-at-the-door/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "a80a806ab6",
+      "tema": "ciencia",
+      "titular_es": "Building a safer path to autonomous industrial AI",
+      "resumen": "Industrial AI is entering a new phase. After decades of predictive analytics and other specialized applications, advances in foundation models, physical AI, and agentic AI are making it possible to automate more complex tasks across industrial environments. But unlike AI that operates purely in the ",
+      "relevancia": 7,
+      "url": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
+      "fuente": "technologyreview.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "780b917e16",
+      "tema": "ia",
+      "titular_es": "Anthropic bans ‘abusive or cruel behavior’ toward Claude",
+      "resumen": "Anthropic is making changes to its usage policy for the first time in over a year to reflect new and high-risk cases of misuse - including election interference, weapons development, surveillance, and health and financial uses. But one of the most significant changes prohibits \"sustained and needles",
+      "relevancia": 6,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+      "fuente": "theverge.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "56479ac854",
+      "tema": "finanzas",
+      "titular_es": "S&P 500 retrocede mientras el petróleo supera los US$104 y aumentan los temores inflacionarios",
+      "resumen": "El encarecimiento del petróleo reaviva los temores inflacionarios y refuerza las expectativas de nuevas alzas de tasas por parte de la Reserva Federal.",
+      "relevancia": 6,
+      "url": "https://www.bloomberglinea.com/mercados/sp-500-retrocede-mientras-el-petroleo-supera-los-us104-y-aumentan-los-temores-inflacionarios/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "87922315e0",
+      "tema": "emprendimiento",
+      "titular_es": "Cal AI’s 19-year-old founder just raised $10M for his new AI startup",
+      "resumen": "Zach Yadegari, the teen co-founder of popular Cal AI calorie tracking app, has launched a new personal AI agent startup that competes with Instinct, Muse, and Bee.",
+      "relevancia": 6,
+      "url": "https://techcrunch.com/2026/10/08/cal-ais-19-year-old-founder-just-raised-10m-for-his-new-ai-startup/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "b19fd8195e",
+      "tema": "ciencia",
+      "titular_es": "NASA is searching for hidden caves to build its first Moon base",
+      "resumen": "NASA is preparing for humanity’s first Moon base with three investigations that will hunt for underground shelters, uncover hidden ice, and track dangerous conditions on the lunar surface. The findings could reveal how astronauts can survive and thrive on the Moon while laying the groundwork for fut",
+      "relevancia": 6,
+      "url": "https://www.sciencedaily.com/releases/2026/10/261008005247.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "da40d21063",
+      "tema": "ia",
+      "titular_es": "Trump administration says Microsoft ‘abused’ worker visa program and is cutting off access",
+      "resumen": "The Trump administration is suspending some tech companies, including Microsoft, from an immigration program that lets an employer hire foreign workers that can reside permanently in the US, as reported by Reuters. In a press conference, Vice President JD Vance claimed the permanent labor certificat",
+      "relevancia": 5,
+      "url": "https://www.theverge.com/policy/1008115/trump-microsoft-worker-visa-program-vance",
+      "fuente": "theverge.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "2efa79024a",
+      "tema": "finanzas",
+      "titular_es": "¿Qué pasa con mi dinero si invierto US$100 en el S&P 500? Así se reparte cada dólar",
+      "resumen": "Un informe de Citadel Securities revela que Nvidia concentra por sí sola más inversión que las 256 empresas más pequeñas del S&P 500 juntas.",
+      "relevancia": 5,
+      "url": "https://www.bloomberglinea.com/mercados/que-pasa-con-mi-dinero-si-invierto-us100-en-el-sp-500-asi-se-reparte-cada-dolar/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "93853d606d",
+      "tema": "emprendimiento",
+      "titular_es": "The complete Side Events lineup at Founder Summit 2026",
+      "resumen": "Boston, are you ready?! TechCrunch Founder Summit 2026 is about to explode with energy — and the real magic kicks off with an epic lineup of Side Events lighting up the city from November 3–6!",
+      "relevancia": 5,
+      "url": "https://techcrunch.com/2026/10/08/the-complete-side-events-lineup-at-founder-summit-2026/",
+      "fuente": "techcrunch.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "1d78e9291f",
+      "tema": "ciencia",
+      "titular_es": "Scientists accidentally discover a genetic code that breaks the rules of life",
+      "resumen": "Scientists accidentally discovered a microscopic organism with a genetic code that breaks a rule researchers thought was nearly universal. While testing a new DNA sequencing technique, they examined a previously unknown protist collected from a freshwater pond at Oxford University. To their surprise",
+      "relevancia": 5,
+      "url": "https://www.sciencedaily.com/releases/2026/10/261007233136.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "d522ae8d49",
+      "tema": "finanzas",
+      "titular_es": "Financiera Adventus Capital realiza la primera emisión simplificada de deuda en la Bolsa Mexicana",
+      "resumen": "La sociedad financiera de objeto múltiple (sofom) especializada en financiamiento empresarial y estructurado colocó MXN$560 millones.",
+      "relevancia": 4,
+      "url": "https://www.bloomberglinea.com/latinoamerica/mexico/financiera-adventus-capital-realiza-la-primera-emision-simplificada-de-deuda-en-la-bolsa-mexicana/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "3bf6b0c881",
+      "tema": "ciencia",
+      "titular_es": "Scientists warn a popular vitamin D supplement may have a hidden downside",
+      "resumen": "Not all vitamin D supplements are created equal, and new research suggests that one popular form may have an unexpected downside. Scientists found that taking vitamin D2 can actually lower the body's levels of vitamin D3, the form naturally produced by sunlight and more effective at boosting overall",
+      "relevancia": 4,
+      "url": "https://www.sciencedaily.com/releases/2026/10/261007232940.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
     },
     {
       "id": "8cb9ab7076",
       "tema": "finanzas",
-      "titular_es": "El S&P 500 retrocede ante el repunte del petróleo y el dólar se acerca a máximos anuales",
-      "resumen": "Las minutas de la Fed respaldaron la posibilidad de mantener tasas restrictivas por más tiempo, presionando a la renta variable.\nEl alza en los precios del crudo reavivó temores sobre costes de energía persistentes para las empresas cotizadas.\nEl dólar estadounidense se fortaleció frente a las principales divisas globales en una sesión de aversión al riesgo.",
-      "relevancia": 7,
+      "titular_es": "S&P 500 cae con el salto del petróleo, mientras el dólar se acerca a máximos del año",
+      "resumen": "Las minutas de la Fed mostraron respaldo a nuevas alzas de tasas este año, mientras el petróleo elevado mantuvo la presión sobre las acciones y los bonos.",
+      "relevancia": 3,
       "url": "https://www.bloomberglinea.com/mercados/sp-500-cae-ante-el-salto-del-petroleo-y-las-tasas-de-los-bonos-en-su-mayor-nivel-en-24-anos/",
       "fuente": "bloomberglinea.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "Wall Street",
-        "petróleo",
-        "dólar"
-      ]
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "fc38477a8a",
-      "tema": "emprendimiento",
-      "titular_es": "Healthleap recauda $38M para su IA de alerta temprana de pacientes hospitalarios",
-      "resumen": "La compañía captó una Serie A de $30 millones liderada por Hummingbird Ventures tras una semilla previa con Sequoia y First Round.\nSu software analiza historias clínicas en tiempo real para alertar al personal médico sobre pacientes en riesgo de deterioro crítico.\nLa inyección de capital acelerará las integraciones clínicas en hospitales públicos y privados de Estados Unidos.",
-      "relevancia": 7,
-      "url": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "salud",
-        "capital de riesgo",
-        "inteligencia artificial"
-      ]
-    },
-    {
-      "id": "84d4f1fab5",
-      "tema": "emprendimiento",
-      "titular_es": "Tab sale de modo incógnito con una valoración de $300 millones para su asistente de IA",
-      "resumen": "La nueva startup anunció públicamente su plataforma de asistencia personal con un respaldo financiero masivo inicial.\nEl producto promete integrarse profundamente en la actividad diaria del usuario para anticipar recordatorios y organizar flujos de trabajo.\nEl caso refleja el persistente apetito inversor por nuevas alternativas de agentes personales en el mercado de consumo.",
-      "relevancia": 7,
-      "url": "https://techcrunch.com/2026/10/07/another-personal-ai-assistant-has-launched-meet-tab-which-emerged-from-stealth-with-a-300m-valuation/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "asistentes virtuales",
-        "startups",
-        "consumo"
-      ]
-    },
-    {
-      "id": "651a4bbf3d",
-      "tema": "emprendimiento",
-      "titular_es": "Mecka AI capta $60M liderados por Sequoia para recopilar datos de entrenamiento robótico",
-      "resumen": "La empresa remunera a personas por grabar tareas físicas cotidianas con cámaras para construir un dataset masivo de manipulación.\nEstos datos multimodales son esenciales para entrenar modelos fundacionales aplicados a robots humanoides y brazos mecánicos.\nLa cuantiosa ronda valida el cuello de botella actual que existe en datos del mundo real para la robótica avanzada.",
-      "relevancia": 7,
-      "url": "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/",
-      "fuente": "techcrunch.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "robótica",
-        "datos",
-        "Sequoia"
-      ]
-    },
-    {
-      "id": "051f497a9b",
+      "id": "a4d743d1c2",
       "tema": "ciencia",
-      "titular_es": "El consumo de azúcar podría amplificar el daño de los antibióticos sobre el microbioma",
-      "resumen": "Un nuevo estudio demuestra que ingerir dietas altas en azúcar durante tratamientos antibióticos agrava la alteración de la flora intestinal.\nLa combinación fomenta la proliferación de patógenos oportunistas al reducir la diversidad de bacterias protectoras.\nLos expertos sugieren que moderar el azúcar durante la prescripción médica podría ser una pauta sencilla para preservar la salud digestiva.",
-      "relevancia": 7,
-      "url": "https://www.sciencedaily.com/releases/2026/10/261007042059.htm",
+      "titular_es": "This “golden tree” coral was too strange for any known family",
+      "resumen": "A brilliant yellow coral discovered off Costa Rica proved so unusual that scientists had to create an entirely new family to classify it. The meter-tall colonies rise from seafloors covered in brittle stars, inspiring the Tolkien-inspired name Laurinque elenya, or “golden tree of the stars.” Advance",
+      "relevancia": 3,
+      "url": "https://www.sciencedaily.com/releases/2026/10/261007042116.htm",
       "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": [
-        "microbioma",
-        "salud",
-        "nutrición"
-      ]
+      "tags": []
     },
     {
-      "id": "49208ebca0",
-      "tema": "ia",
-      "titular_es": "Common Sense Media califica a 'ChatGPT for Teens' como un 'riesgo inaceptable'",
-      "resumen": "La organización de seguridad digital infantil emitió una severa advertencia sobre la modalidad para adolescentes de ChatGPT.\nEl informe señala fallas en la efectividad de los filtros de moderación y riesgos en el manejo del apego emocional de menores.\nLa crítica añade presión regulatoria sobre OpenAI justo cuando busca posicionar herramientas de IA en entornos educativos.",
-      "relevancia": 6,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
-      "fuente": "theverge.com",
-      "bandera": "🇺🇸",
-      "tags": [
-        "seguridad digital",
-        "educación",
-        "regulación"
-      ]
+      "id": "89c7e2e7db",
+      "tema": "ciencia",
+      "titular_es": "Scientists found Homo erectus 200,000 years earlier than expected",
+      "resumen": "New fossils from South Africa are reshaping the story of early human evolution. Researchers have described 18 hominin fossils from Drimolen Cave, including an adult Homo erectus skull fragment dated to about 2 million years ago, supporting evidence that the species appeared in southern Africa roughl",
+      "relevancia": 2,
+      "url": "https://www.sciencedaily.com/releases/2026/10/261007042113.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
     },
     {
-      "id": "c668ae31dc",
-      "tema": "finanzas",
-      "titular_es": "Grupo Sura inicia plan de recompra de acciones por hasta COP$500.000 millones",
-      "resumen": "El conglomerado financiero colombiano comenzó la ejecución de su programa de recompra con vigencia extendida hasta 2028.\nLa estrategia tiene como fin cerrar la amplia brecha entre la cotización bursátil y el valor patrimonial de sus activos.\nLa operación envía una señal de respaldo corporativo al mercado accionario local en busca de liquidez.",
-      "relevancia": 6,
-      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/grupo-sura-recomprara-hasta-cop500000-millones-en-acciones-que-implica-para-sus-inversionistas/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🇨🇴",
-      "tags": [
-        "mercados",
-        "recompra",
-        "Colombia"
-      ]
+      "id": "e1e46bfa51",
+      "tema": "ciencia",
+      "titular_es": "FDA-approved epilepsy drug may help reverse osteoarthritis damage",
+      "resumen": "Researchers at Yale have identified a promising new approach to osteoarthritis that could do more than simply ease pain. The epilepsy drug lacosamide appears to block a protein involved in both pain signaling and cartilage destruction, helping damaged joints shift back toward repair in preclinical s",
+      "relevancia": 1,
+      "url": "https://www.sciencedaily.com/releases/2026/10/261006234528.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
     }
   ]
 }
