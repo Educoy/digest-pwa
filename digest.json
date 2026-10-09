@@ -1,8 +1,19 @@
 {
   "fecha": "2026-10-08",
-  "generado_utc": "2026-10-08T18:33:20Z",
-  "indicadores": {},
-  "noticia_del_dia": "3155c80505",
+  "generado_utc": "2026-10-09T00:07:11Z",
+  "indicadores": {
+    "dolar": {
+      "valor": 979.85,
+      "variacion": 12.06,
+      "variacion_pct": 1.25
+    },
+    "uf": {
+      "valor": 41122.74,
+      "variacion": 8.2,
+      "variacion_pct": 0.02
+    }
+  },
+  "noticia_del_dia": "97517e08b3",
   "pildora_ia": "Dropout: durante el entrenamiento se 'apagan' neuronas al azar en cada paso. Suena raro, pero obliga a la red a no depender de unas pocas conexiones y reduce el sobreajuste.",
   "pildoras_ia": [
     "Dropout: durante el entrenamiento se 'apagan' neuronas al azar en cada paso. Suena raro, pero obliga a la red a no depender de unas pocas conexiones y reduce el sobreajuste.",
@@ -13,13 +24,13 @@
   ],
   "noticias": [
     {
-      "id": "3155c80505",
+      "id": "97517e08b3",
       "tema": "ia",
-      "titular_es": "Forza Horizon 6 is being delayed on PS5 to January 2027",
-      "resumen": "Playground Games first revealed earlier this year that Forza Horizon 6 would be arriving on PS5 in 2026, but the launch is now being pushed back. I reported last month that there would be a delay to early next year, and Forza Horizon 6 is now officially debuting on January 26th, 2027. The delay mean",
+      "titular_es": "ADHD as a circadian rhythm disorder: evidence and implications for chronotherapy (2025)",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 10,
-      "url": "https://www.theverge.com/news/989314/forza-horizon-6-ps5-release-date-january-2027-delay",
-      "fuente": "theverge.com",
+      "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1697900/full",
+      "fuente": "frontiersin.org (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -57,24 +68,24 @@
       "tags": []
     },
     {
-      "id": "c24725d4c0",
+      "id": "93af1446ea",
       "tema": "ia",
-      "titular_es": "USA Today becomes the latest publisher to sue OpenAI",
-      "resumen": "USA Today Co., along with the several local newspapers it owns, is suing OpenAI over claims that the company copied \"hundreds of thousands\" of articles to train its AI models, as reported earlier by Reuters. In a filing on Thursday, the publisher asks for damages of more than $250 million, alleging ",
+      "titular_es": "The value of not getting to the point (2015)",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 9,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit",
-      "fuente": "theverge.com",
+      "url": "https://ken.arneson.name/2015/11/the-value-of-not-getting-to-the-point/",
+      "fuente": "ken.arneson.name (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "edb2f913d2",
+      "id": "5c3457f518",
       "tema": "finanzas",
-      "titular_es": "Inflation fears on the rise as one-year outlook in Fed survey hits highest level since May 2023",
-      "resumen": "The Survey of Consumer Expectations indicated that the median outlook for inflation over the next 12 months rose to 3.9%.",
+      "titular_es": "Fondos FAL: el BCRA permitirá a bancos invertir en FCI autorizados",
+      "resumen": "La norma habilita a entidades a participar como titulares de cuotapartes de FCI autorizados por la CNV.",
       "relevancia": 9,
-      "url": "https://www.cnbc.com/2026/10/07/inflation-fears-on-the-rise-as-one-year-outlook-in-fed-survey-hits-highest-since-may-2023.html",
-      "fuente": "cnbc.com",
+      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/fondos-fal-el-bcra-permitira-a-bancos-invertir-en-fci-autorizados/",
+      "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": []
     },
@@ -101,23 +112,23 @@
       "tags": []
     },
     {
-      "id": "dd63e1acf9",
+      "id": "efcafabf93",
       "tema": "ia",
-      "titular_es": "SpaceXAI backs Omarchy, the controversial Linux distro, with $1.5 million in compute",
-      "resumen": "If Elon Musk and SpaceXAI were going to back any Linux distro, it seems obvious they'd back Omarchy. Today it was announced that SpaceXAI would be joining the Omacom Foundation, which oversees Omarchy, as a Founding Corporate Patron and donating $1.5 million worth of Grok tokens to David Heinemeier ",
+      "titular_es": "Theranos.world",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 8,
-      "url": "https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson",
-      "fuente": "theverge.com",
+      "url": "https://www.theranos.world/",
+      "fuente": "theranos.world (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "3001dfeaa8",
+      "id": "56479ac854",
       "tema": "finanzas",
-      "titular_es": "¿En qué invertir en Chile, Perú y Colombia? Estas son las apuestas de este banco de inversión",
-      "resumen": "Las oportunidades de inversión en Chile, Perú y Colombia presentan diferencias de valoración, rentabilidad y riesgo. Renta4 favorece compañías específicas frente a apuestas generalizadas por los índices bursátiles.",
+      "titular_es": "S&P 500 cae tras las dudas sobre los ingresos de OpenAI y el financiamiento de la IA",
+      "resumen": "Una nueva estimación situó los ingresos anualizados de OpenAI en US$50.000 millones, por debajo de cifras difundidas anteriormente. La noticia presionó a los fabricantes de semiconductores.",
       "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/mercados/en-que-invertir-en-chile-peru-y-colombia-estas-son-las-apuestas-de-este-banco-de-inversion/",
+      "url": "https://www.bloomberglinea.com/mercados/sp-500-retrocede-mientras-el-petroleo-supera-los-us104-y-aumentan-los-temores-inflacionarios/",
       "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": []
@@ -145,23 +156,23 @@
       "tags": []
     },
     {
-      "id": "ab0f0aac86",
+      "id": "a1f51c8dbd",
       "tema": "ia",
-      "titular_es": "Older Pixel watches are losing free cellular access to several safety features",
-      "resumen": "Google announced through a short community post today that the LTE versions of the Pixel Watch 2 and 3 are losing free access to Safety Signal that allowed features like Emergency SOS, Fall Detection, and Safety Check to work through cellular networks without the need for a carrier plan. The connect",
+      "titular_es": "Whistle: Speech to Text in 16.9 MB",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 7,
-      "url": "https://www.theverge.com/tech/1008145/google-pixel-watch-1-2-free-safety-signal-emergency-access-ending",
-      "fuente": "theverge.com",
+      "url": "https://cactuscompute.com/blog/whistle",
+      "fuente": "cactuscompute.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "b1e2c77b40",
+      "id": "3001dfeaa8",
       "tema": "finanzas",
-      "titular_es": "“Una oportunidad perdida”: Citi cuestiona al presidente de Ecopetrol, pero ve potencial en Venezuela",
-      "resumen": "El banco ve oportunidades para Ecopetrol en Venezuela y el fracking en Colombia, aunque advierte que la producción significativa de recursos no convencionales llegaría después de 2030.",
+      "titular_es": "¿En qué invertir en Chile, Perú y Colombia? Estas son las apuestas de este banco de inversión",
+      "resumen": "Las oportunidades de inversión en Chile, Perú y Colombia presentan diferencias de valoración, rentabilidad y riesgo. Renta4 favorece compañías específicas frente a apuestas generalizadas por los índices bursátiles.",
       "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/mercados/una-oportunidad-perdida-citi-cuestiona-al-presidente-de-ecopetrol-pero-ve-potencial-en-venezuela/",
+      "url": "https://www.bloomberglinea.com/mercados/en-que-invertir-en-chile-peru-y-colombia-estas-son-las-apuestas-de-este-banco-de-inversion/",
       "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": []
@@ -189,34 +200,34 @@
       "tags": []
     },
     {
-      "id": "780b917e16",
+      "id": "6e0047e18c",
       "tema": "ia",
-      "titular_es": "Anthropic bans ‘abusive or cruel behavior’ toward Claude",
-      "resumen": "Anthropic is making changes to its usage policy for the first time in over a year to reflect new and high-risk cases of misuse - including election interference, weapons development, surveillance, and health and financial uses. But one of the most significant changes prohibits \"sustained and needles",
+      "titular_es": "Trump administration is suspending Microsoft from a green card program",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 6,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
-      "fuente": "theverge.com",
+      "url": "https://apnews.com/article/h1b-visa-program-vance-microsoft-e7b3a407f822702b269ee277d21343ea",
+      "fuente": "apnews.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "56479ac854",
+      "id": "b1e2c77b40",
       "tema": "finanzas",
-      "titular_es": "S&P 500 retrocede mientras el petróleo supera los US$104 y aumentan los temores inflacionarios",
-      "resumen": "El encarecimiento del petróleo reaviva los temores inflacionarios y refuerza las expectativas de nuevas alzas de tasas por parte de la Reserva Federal.",
+      "titular_es": "“Una oportunidad perdida”: Citi cuestiona al presidente de Ecopetrol, pero ve potencial en Venezuela",
+      "resumen": "El banco ve oportunidades para Ecopetrol en Venezuela y el fracking en Colombia, aunque advierte que la producción significativa de recursos no convencionales llegaría después de 2030.",
       "relevancia": 6,
-      "url": "https://www.bloomberglinea.com/mercados/sp-500-retrocede-mientras-el-petroleo-supera-los-us104-y-aumentan-los-temores-inflacionarios/",
+      "url": "https://www.bloomberglinea.com/mercados/una-oportunidad-perdida-citi-cuestiona-al-presidente-de-ecopetrol-pero-ve-potencial-en-venezuela/",
       "fuente": "bloomberglinea.com",
       "bandera": "🌍",
       "tags": []
     },
     {
-      "id": "87922315e0",
+      "id": "93853d606d",
       "tema": "emprendimiento",
-      "titular_es": "Cal AI’s 19-year-old founder just raised $10M for his new AI startup",
-      "resumen": "Zach Yadegari, the teen co-founder of popular Cal AI calorie tracking app, has launched a new personal AI agent startup that competes with Instinct, Muse, and Bee.",
+      "titular_es": "The complete Side Events lineup at Founder Summit 2026",
+      "resumen": "Boston, are you ready?! TechCrunch Founder Summit 2026 is about to explode with energy — and the real magic kicks off with an epic lineup of Side Events lighting up the city from November 3–6!",
       "relevancia": 6,
-      "url": "https://techcrunch.com/2026/10/08/cal-ais-19-year-old-founder-just-raised-10m-for-his-new-ai-startup/",
+      "url": "https://techcrunch.com/2026/10/08/the-complete-side-events-lineup-at-founder-summit-2026/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -233,13 +244,13 @@
       "tags": []
     },
     {
-      "id": "da40d21063",
+      "id": "eaeff1db6f",
       "tema": "ia",
-      "titular_es": "Trump administration says Microsoft ‘abused’ worker visa program and is cutting off access",
-      "resumen": "The Trump administration is suspending some tech companies, including Microsoft, from an immigration program that lets an employer hire foreign workers that can reside permanently in the US, as reported by Reuters. In a press conference, Vice President JD Vance claimed the permanent labor certificat",
+      "titular_es": "Orkut.com",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 5,
-      "url": "https://www.theverge.com/policy/1008115/trump-microsoft-worker-visa-program-vance",
-      "fuente": "theverge.com",
+      "url": "https://orkut.com/",
+      "fuente": "orkut.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -255,12 +266,12 @@
       "tags": []
     },
     {
-      "id": "93853d606d",
+      "id": "87922315e0",
       "tema": "emprendimiento",
-      "titular_es": "The complete Side Events lineup at Founder Summit 2026",
-      "resumen": "Boston, are you ready?! TechCrunch Founder Summit 2026 is about to explode with energy — and the real magic kicks off with an epic lineup of Side Events lighting up the city from November 3–6!",
+      "titular_es": "Cal AI’s 19-year-old founder just raised $10M for his new AI startup",
+      "resumen": "Zach Yadegari, the teen co-founder of popular Cal AI calorie tracking app, has launched a new personal AI agent startup that competes with Instinct, Muse, and Bee.",
       "relevancia": 5,
-      "url": "https://techcrunch.com/2026/10/08/the-complete-side-events-lineup-at-founder-summit-2026/",
+      "url": "https://techcrunch.com/2026/10/08/cal-ais-19-year-old-founder-just-raised-10m-for-his-new-ai-startup/",
       "fuente": "techcrunch.com",
       "bandera": "🌍",
       "tags": []
@@ -277,13 +288,13 @@
       "tags": []
     },
     {
-      "id": "d522ae8d49",
-      "tema": "finanzas",
-      "titular_es": "Financiera Adventus Capital realiza la primera emisión simplificada de deuda en la Bolsa Mexicana",
-      "resumen": "La sociedad financiera de objeto múltiple (sofom) especializada en financiamiento empresarial y estructurado colocó MXN$560 millones.",
+      "id": "a359f87400",
+      "tema": "ia",
+      "titular_es": "Beauty in DVD Menus",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 4,
-      "url": "https://www.bloomberglinea.com/latinoamerica/mexico/financiera-adventus-capital-realiza-la-primera-emision-simplificada-de-deuda-en-la-bolsa-mexicana/",
-      "fuente": "bloomberglinea.com",
+      "url": "https://vale.rocks/posts/dvd-menus",
+      "fuente": "vale.rocks (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -299,13 +310,13 @@
       "tags": []
     },
     {
-      "id": "8cb9ab7076",
-      "tema": "finanzas",
-      "titular_es": "S&P 500 cae con el salto del petróleo, mientras el dólar se acerca a máximos del año",
-      "resumen": "Las minutas de la Fed mostraron respaldo a nuevas alzas de tasas este año, mientras el petróleo elevado mantuvo la presión sobre las acciones y los bonos.",
+      "id": "54cf8257a9",
+      "tema": "ia",
+      "titular_es": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+      "resumen": "(Sin descripción disponible.)",
       "relevancia": 3,
-      "url": "https://www.bloomberglinea.com/mercados/sp-500-cae-ante-el-salto-del-petroleo-y-las-tasas-de-los-bonos-en-su-mayor-nivel-en-24-anos/",
-      "fuente": "bloomberglinea.com",
+      "url": "https://quesma.com/blog/invisible-cities-one-shot/",
+      "fuente": "quesma.com (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
@@ -321,6 +332,17 @@
       "tags": []
     },
     {
+      "id": "62967c66e8",
+      "tema": "ia",
+      "titular_es": "Yes, and",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 2,
+      "url": "https://htmx.org/essays/yes-and/",
+      "fuente": "htmx.org (vía HN)",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
       "id": "89c7e2e7db",
       "tema": "ciencia",
       "titular_es": "Scientists found Homo erectus 200,000 years earlier than expected",
@@ -328,6 +350,17 @@
       "relevancia": 2,
       "url": "https://www.sciencedaily.com/releases/2026/10/261007042113.htm",
       "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": []
+    },
+    {
+      "id": "3628e06215",
+      "tema": "ia",
+      "titular_es": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "resumen": "(Sin descripción disponible.)",
+      "relevancia": 1,
+      "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+      "fuente": "dgt.is (vía HN)",
       "bandera": "🌍",
       "tags": []
     },
