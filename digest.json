@@ -1,14 +1,19 @@
 {
   "fecha": "2026-10-09",
-  "generado_utc": "2026-10-09T18:03:59Z",
+  "generado_utc": "2026-10-09T23:45:17Z",
   "indicadores": {
+    "dolar": {
+      "valor": 981.61,
+      "variacion": 1.76,
+      "variacion_pct": 0.18
+    },
     "uf": {
       "valor": 41130.94,
       "variacion": 8.2,
       "variacion_pct": 0.02
     }
   },
-  "noticia_del_dia": "ec1206c2a7",
+  "noticia_del_dia": "f09af30fbf",
   "pildora_ia": "RLHF: aprendizaje por refuerzo con retroalimentación humana. Alinea a los LLM con lo que la gente considera útil y seguro usando preferencias humanas. Clave en ChatGPT, Gemini y Claude.",
   "pildoras_ia": [
     "RLHF: aprendizaje por refuerzo con retroalimentación humana. Alinea a los LLM con lo que la gente considera útil y seguro usando preferencias humanas. Clave en ChatGPT, Gemini y Claude.",
@@ -19,367 +24,439 @@
   ],
   "noticias": [
     {
-      "id": "ec1206c2a7",
+      "id": "f09af30fbf",
       "tema": "ia",
-      "titular_es": "Germany transforms former coal mines into Europe's largest lake landscape",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 10,
-      "url": "https://www.euronews.com/2026/04/14/almost-like-lake-como-germany-transforms-former-coal-mines-into-europes-largest-lake-lands",
-      "fuente": "euronews.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
+      "titular_es": "Comunidad matemática abrumada ante avalancha de resultados presentados por OpenAI",
+      "resumen": "OpenAI publicó de manera sorpresiva una gran cantidad de demostraciones y resultados matemáticos avanzados generados por sus modelos.\nDecenas de investigadores calificaron la publicación como un hito sin precedentes que transformará la disciplina.\nLos expertos afirman que tardarán años en verificar y dimensionar el alcance real de los teoremas presentados.",
+      "relevancia": 9,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "OpenAI",
+        "matemáticas",
+        "modelos de razonamiento"
+      ]
+    },
+    {
+      "id": "a682e0b0de",
+      "tema": "ia",
+      "titular_es": "OpenAI despide a tres investigadores de seguridad por filtración de información confidencial",
+      "resumen": "La compañía cesó a tres miembros de su equipo de alineación y seguridad tras una investigación interna por mal manejo de datos.\nOpenAI ratificó formalmente su determinación señalando que se trató de un quiebre grave de confianza.\nEl suceso reaviva tensiones internas respecto a la transparencia y los protocolos de control en el desarrollo de frontera.",
+      "relevancia": 8,
+      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "fuente": "techcrunch.com (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "OpenAI",
+        "seguridad IA",
+        "empleo"
+      ]
     },
     {
       "id": "eb73559401",
       "tema": "finanzas",
-      "titular_es": "Americans' debt problems are flashing a warning not seen since the Great Recession",
-      "resumen": "Researchers found that while wealth disparities narrowed somewhat, the ability to meet debt payments deteriorated significantly.",
-      "relevancia": 10,
+      "titular_es": "Los problemas de deuda en EE. UU. emiten señales de alerta no vistas desde 2008",
+      "resumen": "Nuevas mediciones financieras evidencian un marcado deterioro en la capacidad de los hogares estadounidenses para servir sus pasivos.\nA pesar de una moderada reducción en la brecha patrimonial, los impagos en tarjetas y créditos al consumo se aceleran.\nAnalistas advierten sobre el riesgo de contracción del crédito minorista si las tasas de interés se mantienen restrictivas.",
+      "relevancia": 8,
       "url": "https://www.cnbc.com/2026/10/09/american-debt-delinquency.html",
       "fuente": "cnbc.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "deuda",
+        "banca",
+        "economía"
+      ]
     },
     {
-      "id": "4e83760599",
+      "id": "6609f1addb",
       "tema": "emprendimiento",
-      "titular_es": "LumenUs helps automate tedious paperwork in times of grief",
-      "resumen": "\"The day your loved one passes away, you also get this honorary badge of a project manager for a project you had no idea about,\" said founder Sara Tashakorinia.",
-      "relevancia": 10,
-      "url": "https://techcrunch.com/2026/10/09/lumenus-helps-automate-tedious-paperwork-in-times-of-grief/",
+      "titular_es": "TypeSafe alcanza valuación de 7.500 millones de dólares a semanas de lanzar su modelo Jev",
+      "resumen": "La startup desarrolladora del modelo no textual Jev cerró una ronda masiva tras demostrar alta eficiencia técnica frente a los LLM.\nSu tecnología procesa flujos lógicos con un consumo de tokens drásticamente menor y tiempos de respuesta superiores.\nEl rápido levantamiento de capital refleja el interés del capital de riesgo en arquitecturas alternativas a los modelos de lenguaje.",
+      "relevancia": 8,
+      "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
       "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "0334faf72e",
-      "tema": "ciencia",
-      "titular_es": "The Download: AI’s refusal problem and weight-loss drug side effects",
-      "resumen": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. We’re putting too much faith in AI’s ability to say no Today’s AI models are trained to refuse a vast number of prompts. If you ask your chatbot how to poison…",
-      "relevancia": 10,
-      "url": "https://www.technologyreview.com/2026/10/09/1146250/the-download-ai-refusal-problem-weight-loss-drug-side-effects/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "c97642e80c",
-      "tema": "ia",
-      "titular_es": "Python 3.15",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 9,
-      "url": "https://www.python.org/downloads/release/python-3150/",
-      "fuente": "python.org (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "366de4cdec",
-      "tema": "finanzas",
-      "titular_es": "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor",
-      "resumen": "Shelton's controversial economic ideas led the Senate to block her nomination to the Fed. Now she's going to be a counselor to the Treasury secretary.",
-      "relevancia": 9,
-      "url": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html",
-      "fuente": "cnbc.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "3b4ff5aa88",
-      "tema": "emprendimiento",
-      "titular_es": "Amazon drops data center NDAs, and AI agents want your credit card",
-      "resumen": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New ",
-      "relevancia": 9,
-      "url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "12d2afa3a1",
-      "tema": "ciencia",
-      "titular_es": "We’re putting too much faith in AI’s ability to say no",
-      "resumen": "Ever since people first seriously contemplated giving machines an intelligence modeled on our own, there has never been any question that they would, like us, be able to say no. The sci-fi canon is full of stories of robotic disobedience. Most of these capers are, of course, cautionary. But recently",
-      "relevancia": 9,
-      "url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "aac058172b",
-      "tema": "ia",
-      "titular_es": "Our $445M Series D",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 8,
-      "url": "https://oxide.computer/blog/our-445m-series-d",
-      "fuente": "oxide.computer (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "ac081c684a",
-      "tema": "finanzas",
-      "titular_es": "El oro rebota tras caer 5% en un mes: ¿por qué los inversionistas siguen comprando?",
-      "resumen": "El aumento de los rendimientos de los bonos presiona las cotizaciones del metal, pero también refuerza su atractivo entre inversionistas preocupados por el endeudamiento público y los riesgos fiscales.",
-      "relevancia": 8,
-      "url": "https://www.bloomberglinea.com/mercados/el-oro-rebota-tras-caer-5-en-un-mes-por-que-los-inversionistas-siguen-comprando/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "fa3e7e9dc8",
-      "tema": "emprendimiento",
-      "titular_es": "Beyond TechCrunch Disrupt 2026: The Side Events, Parties & Networking You Can’t Miss",
-      "resumen": "TechCrunch Disrupt 2026 is just the beginning. From exclusive networking events and startup showcases to happy hours, dinners, and after-hours meetups, discover what’s happening across San Francisco during Disrupt Week, October 10–16. Find your next connection, your next opportunity, or your next fa",
-      "relevancia": 8,
-      "url": "https://techcrunch.com/2026/10/09/beyond-techcrunch-disrupt-2026-the-side-events-parties-networking-you-cant-miss/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "844aa8f8f8",
-      "tema": "ciencia",
-      "titular_es": "Job titles of the future: Delivery drone air traffic controller",
-      "resumen": "The moment Trevor Wischnewsky heard that drones were delivering pizza and sushi around his Texas neighborhood, his mind was made up. “It was super fascinating,” he says. “I just immediately wanted to be a part of it.” Wischnewsky is now an RPIC, or “remote pilot in command,” at a company called FlyT",
-      "relevancia": 8,
-      "url": "https://www.technologyreview.com/2026/10/09/1145737/job-titles-delivery-drone-air-traffic-controller-trevor-wischnewsky/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "TypeSafe",
+        "venture capital",
+        "startups IA"
+      ]
     },
     {
       "id": "0f28605d36",
-      "tema": "ia",
-      "titular_es": "Cloudflare acquires Deno",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 7,
+      "tema": "emprendimiento",
+      "titular_es": "Cloudflare adquiere la plataforma de desarrollo Deno",
+      "resumen": "Cloudflare anunció la compra estratégica de Deno para integrar su runtime de JavaScript y TypeScript en Cloudflare Workers.\nLa transacción une dos de los principales ecosistemas modernos orientados a computación serverless en el edge.\nEl acuerdo consolida la infraestructura de desarrollo web y busca desafiar el dominio de Node.js y plataformas rivales.",
+      "relevancia": 8,
       "url": "https://deno.com/blog/cloudflare",
       "fuente": "deno.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "9d8e3d96fc",
-      "tema": "finanzas",
-      "titular_es": "¿Dónde invertir en bonos de América Latina? Las oportunidades que ve Goldman Sachs",
-      "resumen": "El banco de inversión analiza las oportunidades en los mercados de renta fija latinoamericanos y distingue entre el potencial de Brasil, las valoraciones de Chile y los riesgos fiscales y monetarios que afectan a Colombia y México.",
-      "relevancia": 7,
-      "url": "https://www.bloomberglinea.com/mercados/donde-invertir-en-bonos-de-america-latina-las-oportunidades-que-ve-goldman-sachs/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "6306f19b8f",
-      "tema": "emprendimiento",
-      "titular_es": "TechCrunch Disrupt 2026: Gamma’s Grant Lee, Engine’s Elia Wallen, and GV’s Crystal Huang on landing your first 1,000 customers",
-      "resumen": "Leaders from Gamma, Engine, and Google Ventures join TechCrunch Disrupt 2026 to talk how to get your first customers. Register now to save up to $100. Grab a second pass at 50% off.",
-      "relevancia": 7,
-      "url": "https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-gammas-grant-lee-engines-elia-wallen-and-gvs-crystal-huang-on-landing-your-first-1000-customers/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "18eaf7d014",
-      "tema": "ciencia",
-      "titular_es": "We’re still figuring out the side effects of GLP-1 weight-loss drugs",
-      "resumen": "This week my colleague Antonio Regalado had an interesting update on GLP-1 weight-loss drugs. According to research presented at an aging meeting in Boston, these drugs seem to affect at least some measures of biological age. Overweight and diabetic people who take GLP-1s have a biological age aroun",
-      "relevancia": 7,
-      "url": "https://www.technologyreview.com/2026/10/09/1146094/were-still-figuring-out-the-side-effects-of-glp-1-weight-loss-drugs/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "4d4dd273a2",
-      "tema": "ia",
-      "titular_es": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
-      "resumen": "https://archive.is/EFOhL",
-      "relevancia": 6,
-      "url": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/",
-      "fuente": "washingtonpost.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "d57e22fba5",
-      "tema": "finanzas",
-      "titular_es": "S&P 500 sube tras mayor claridad sobre ingresos de OpenAI y caída del petróleo",
-      "resumen": "Las acciones estadounidenses avanzan ante el renovado optimismo por la inteligencia artificial y el descenso del petróleo, después de que Trump descartara ataques contra Irán antes de noviembre.",
-      "relevancia": 6,
-      "url": "https://www.bloomberglinea.com/mercados/sp-500-sube-tras-mayor-claridad-sobre-ingresos-de-openai-y-caida-del-petroleo/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "3c72aa28b5",
-      "tema": "emprendimiento",
-      "titular_es": "TechCrunch Disrupt 2026 starts in 4 days — lock in your pass savings of up to $100 before prices rise",
-      "resumen": "Four days until TechCrunch Disrupt 2026 starts, when 10,000 founders, investors, and tech leaders gather in San Francisco's Moscone West on October 13-15. Save up to $100 on your price. Plus, save 50% on a second pass of the same type.",
-      "relevancia": 6,
-      "url": "https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-starts-in-4-days-lock-in-your-pass-savings-of-up-to-100-before-prices-rise/",
-      "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "080bc68c6b",
-      "tema": "ciencia",
-      "titular_es": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-      "resumen": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next",
-      "relevancia": 6,
-      "url": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-      "fuente": "technologyreview.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "493e79e028",
-      "tema": "ia",
-      "titular_es": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 5,
-      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-      "fuente": "github.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "87a12b7525",
-      "tema": "finanzas",
-      "titular_es": "Central Puerto colocó US$50 millones al 6% mientras planea crecer en Vaca Muerta, minería y generación",
-      "resumen": "La generadora recibió ofertas por casi US$62 millones y emitió deuda a tres años. La operación se produce mientras evalúa nuevas inversiones en petróleo, minería y generación eléctrica.",
-      "relevancia": 5,
-      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/central-puerto-coloco-us50-millones-al-6-mientras-planea-crecer-en-vaca-muerta-mineria-y-generacion/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "Cloudflare",
+        "Deno",
+        "adquisiciones"
+      ]
     },
     {
       "id": "b774507972",
       "tema": "emprendimiento",
-      "titular_es": "Xona’s commercial GPS alternative is about to go live",
-      "resumen": "Xona's precision timing and navigation service will enter beta testing after SpaceX launches six satellites designed by the company.",
-      "relevancia": 5,
+      "titular_es": "Xona iniciará la fase beta de su alternativa comercial al GPS con SpaceX",
+      "resumen": "La compañía tecnológica espacial pondrá en órbita seis satélites para validar su sistema privado de geolocalización de alta precisión.\nEl servicio ofrece blindaje contra interferencias y mayor exactitud milimétrica para navegación autónoma y defensa.\nRepresenta un hito en la privatización y modernización de servicios satelitales críticos de posicionamiento global.",
+      "relevancia": 8,
       "url": "https://techcrunch.com/2026/10/09/xonas-commercial-gps-alternative-is-about-to-go-live/",
       "fuente": "techcrunch.com",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "Xona",
+        "SpaceX",
+        "satélites"
+      ]
+    },
+    {
+      "id": "779fc04a0d",
+      "tema": "ciencia",
+      "titular_es": "Sismo de magnitud 7,6 sacude las costas de Panamá",
+      "resumen": "Un terremoto de gran intensidad fue registrado en aguas panameñas activando protocolos de vigilancia sísmica regional.\nEquipos sismológicos evalúan réplicas y posibles daños en infraestructura costera e instalaciones marítimas.\nEl evento brinda datos clave a los geofísicos sobre la actividad tectónica en la microplaca de Panamá.",
+      "relevancia": 8,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/executive",
+      "fuente": "earthquake.usgs.gov (vía HN)",
+      "bandera": "🇵🇦",
+      "tags": [
+        "sismología",
+        "geología",
+        "Panamá"
+      ]
     },
     {
       "id": "664a0b02a6",
       "tema": "ciencia",
-      "titular_es": "NASA astronauts splash down after 100 million miles in space",
-      "resumen": "NASA’s SpaceX Crew-12 astronauts have returned to Earth after 237 days in space, traveling more than 100 million miles and completing over 3,792 orbits while conducting research to prepare for future missions to the Moon and Mars. The mission also made history with record-setting spacewalk achieveme",
-      "relevancia": 5,
+      "titular_es": "Tripulación de la misión Crew-12 regresa a la Tierra tras recorrer 100 millones de millas",
+      "resumen": "Los astronautas de la NASA amerizaron con éxito tras permanecer 237 días en la Estación Espacial Internacional.\nDurante la misión completaron más de 3.700 órbitas terrestres y experimentos biomédicos cruciales para futuros viajes a Marte.\nEl regreso marca otro ciclo completado con éxito de la colaboración operativa entre agencias públicas y SpaceX.",
+      "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/10/261008232629.htm",
       "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "fcbf1d3777",
-      "tema": "ia",
-      "titular_es": "Nobel Peace Prize for 2026 to Navanethem Pillay",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 4,
-      "url": "https://www.nobelprize.org/prizes/peace/2026/press-release/",
-      "fuente": "nobelprize.org (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "0a395e7f42",
-      "tema": "finanzas",
-      "titular_es": "El Niño amenaza los precios de los alimentos, del café al cacao: ¿cuánto pueden subir?",
-      "resumen": "Las amenazas sobre las cosechas, los mayores costos de producción y la demanda de biocombustibles podrían impulsar los precios agrícolas y añadir presión a la inflación alimentaria.",
-      "relevancia": 4,
-      "url": "https://www.bloomberglinea.com/mercados/el-nino-amenaza-los-precios-de-los-alimentos-del-cafe-al-cacao-cuanto-pueden-subir/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "adc20441f6",
-      "tema": "ciencia",
-      "titular_es": "October’s night sky is full of cosmic tricks and treats",
-      "resumen": "October’s skies are packed with celestial surprises, from Jupiter disappearing behind the Moon to two meteor showers lighting up the darkness. NASA highlights four must-see events, including shooting stars from Halley’s Comet and a glowing Hunter’s Moon just before Halloween.",
-      "relevancia": 4,
-      "url": "https://www.sciencedaily.com/releases/2026/10/261008102704.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "eae2138cb2",
-      "tema": "finanzas",
-      "titular_es": "Advertencia de UBS por medidas de austeridad en Argentina: “El costo político aumenta con el tiempo”",
-      "resumen": "El holding suizo señala en un informe reciente que la administración de Milei podría comenzar a enfrentar desafíos en términos de respaldo político.",
-      "relevancia": 3,
-      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/advertencia-de-ubs-a-las-medidas-de-austeridad-en-argentina-el-costo-politico-aumenta-con-el-tiempo/",
-      "fuente": "bloomberglinea.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "f67d1386d3",
-      "tema": "ciencia",
-      "titular_es": "Only one workout helped older adults lose fat and keep muscle",
-      "resumen": "A six-month study suggests that high-intensity interval training (HIIT) may offer older adults a powerful advantage: losing body fat while keeping their muscle. Unlike moderate-intensity workouts, which led to a small loss of lean muscle, HIIT preserved it while also improving body composition aroun",
-      "relevancia": 3,
-      "url": "https://www.sciencedaily.com/releases/2026/10/261007233348.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "a71d94eb80",
-      "tema": "ia",
-      "titular_es": "Sorry, I'm in a meeting",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 2,
-      "url": "https://iminafleeting.com/",
-      "fuente": "iminafleeting.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "f55f2edf09",
-      "tema": "ciencia",
-      "titular_es": "Scientists find hidden materials that could improve batteries and solar fuels",
-      "resumen": "Scientists have uncovered a hidden world of “in-between” materials that briefly form as chemical ingredients are heated, revealing structures that conventional methods can miss. Among the discoveries is a previously unknown form of bismuth vanadate, a material widely studied for using sunlight to he",
-      "relevancia": 2,
-      "url": "https://www.sciencedaily.com/releases/2026/10/261007042118.htm",
-      "fuente": "sciencedaily.com",
-      "bandera": "🌍",
-      "tags": []
-    },
-    {
-      "id": "d1c73fa8d2",
-      "tema": "ia",
-      "titular_es": "MXC - a sandboxed code execution system",
-      "resumen": "(Sin descripción disponible.)",
-      "relevancia": 1,
-      "url": "https://github.com/microsoft/mxc",
-      "fuente": "github.com (vía HN)",
-      "bandera": "🌍",
-      "tags": []
+      "bandera": "🇺🇸",
+      "tags": [
+        "NASA",
+        "espacio",
+        "astronomía"
+      ]
     },
     {
       "id": "d5e50e5757",
       "tema": "ciencia",
-      "titular_es": "A 9-billion-year-old signal could help explain dark energy",
-      "resumen": "A Canadian radio telescope has detected the faint glow of hydrogen from billions of years ago using only its own observations, proving a long-awaited way to map the distant universe can actually work. CHIME can use this hydrogen signal to trace how matter is spread across space and measure how the u",
-      "relevancia": 1,
+      "titular_es": "Señal cósmica de 9.000 millones de años promete desvelar misterios de la energía oscura",
+      "resumen": "El radiotelescopio canadiense CHIME logró detectar el tenue brillo de hidrógeno primigenio mediante mediciones independientes.\nLa técnica valida la cartografía a gran escala del universo remoto para estudiar cómo se expandió el cosmos.\nEste método abre una vía experimental para poner a prueba el modelo cosmológico estándar y la energía oscura.",
+      "relevancia": 8,
       "url": "https://www.sciencedaily.com/releases/2026/10/261007042102.htm",
       "fuente": "sciencedaily.com",
+      "bandera": "🇨🇦",
+      "tags": [
+        "astrofísica",
+        "energía oscura",
+        "CHIME"
+      ]
+    },
+    {
+      "id": "a79457b5ab",
+      "tema": "ciencia",
+      "titular_es": "Físicos observan experimentalmente estados cuánticos predichos en 1931",
+      "resumen": "Investigadores lograron crear y registrar de forma directa las llamadas 'cuerdas de Bethe' utilizando un gas ultrafrío de cesio.\nLa hipótesis del físico Hans Bethe permaneció casi un siglo en el plano puramente teórico por falta de tecnología de control atómico.\nEl hallazgo representa un avance clave para la comprensión de sistemas unidimensionales y computación cuántica.",
+      "relevancia": 8,
+      "url": "https://www.sciencedaily.com/releases/2026/10/261006234517.htm",
+      "fuente": "sciencedaily.com",
       "bandera": "🌍",
-      "tags": []
+      "tags": [
+        "física cuántica",
+        "investigación",
+        "átomos"
+      ]
+    },
+    {
+      "id": "5b834ed336",
+      "tema": "ia",
+      "titular_es": "Modelo de Anthropic envió pista falsa sobre un homicidio a la policía de Filadelfia",
+      "resumen": "Un sistema automatizado de Anthropic remitió una pista falsa a la plataforma oficial para casos sin resolver de Filadelfia.\nLas autoridades policiales descubrieron que los datos carecían de base real tras movilizar recursos de investigación.\nEl incidente expone los peligros de la autonomía de agentes generativos y el riesgo de alucinaciones en ámbitos policiales.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Anthropic",
+        "seguridad pública",
+        "alucinaciones"
+      ]
+    },
+    {
+      "id": "9ddfaf283c",
+      "tema": "ia",
+      "titular_es": "Microsoft presenta Decision-1, su nuevo modelo para toma rápida de decisiones",
+      "resumen": "Microsoft anunció el lanzamiento de Decision-1, una arquitectura optimizada para procesar opciones complejas a baja latencia.\nLa herramienta busca reducir costes computacionales frente a modelos de lenguaje tradicionales de razonamiento lento.\nPromete integrarse en entornos críticos donde la velocidad de respuesta supera la necesidad de texto extenso.",
+      "relevancia": 7,
+      "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+      "fuente": "commandline.microsoft.com (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Microsoft",
+        "modelos IA",
+        "inferencia"
+      ]
+    },
+    {
+      "id": "b54eaa9c1d",
+      "tema": "ia",
+      "titular_es": "Nikon descalifica al ganador de concurso de microvideo por utilizar IA generativa",
+      "resumen": "El primer lugar del certamen Nikon Small World in Motion fue revocado tras descubrirse que el video fue sintetizado por software.\nLa obra aseguraba retratar el movimiento de cilios biológicos, pero infringió las normas de captura real.\nEl caso marca un precedente crítico sobre la verificación de autenticidad en la microscopía científica y concursos técnicos.",
+      "relevancia": 7,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai",
+      "fuente": "theverge.com",
+      "bandera": "🌍",
+      "tags": [
+        "Nikon",
+        "IA generativa",
+        "fotografía"
+      ]
+    },
+    {
+      "id": "366de4cdec",
+      "tema": "finanzas",
+      "titular_es": "El Tesoro de EE. UU. ficha a Judy Shelton como asesora económica estratégica",
+      "resumen": "Scott Bessent incorporó al Departamento del Tesoro a la controvertida economista Judy Shelton, cuyo pase a la Fed fue bloqueado en el Senado.\nShelton es conocida por su postura favorable a respaldos monetarios en metales y críticas severas a la discrecionalidad del banco central.\nEl nombramiento anticipa tensiones doctrinales sobre la futura política monetaria y regulatoria de Washington.",
+      "relevancia": 7,
+      "url": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html",
+      "fuente": "cnbc.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Reserva Federal",
+        "Tesoro",
+        "política monetaria"
+      ]
+    },
+    {
+      "id": "0a2b2eb810",
+      "tema": "finanzas",
+      "titular_es": "Caputo retoma estrategia para postergar vencimientos de deuda en pesos tras elecciones",
+      "resumen": "La Secretaría de Finanzas de Argentina licitó instrumentos de deuda que postergan pagos clave más allá del próximo ciclo electoral.\nSe reincorporaron bonos duales para tentar a inversores institucionales y reducir la presión de liquidez inmediata.\nLa medida busca calmar la volatilidad cambiaria de corto plazo y despejar el cronograma financiero del Tesoro.",
+      "relevancia": 7,
+      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/caputo-retoma-estrategia-de-despejar-vencimientos-de-deuda-en-pesos-de-la-antesala-electoral/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇦🇷",
+      "tags": [
+        "Argentina",
+        "bonos",
+        "deuda pública"
+      ]
+    },
+    {
+      "id": "d57e22fba5",
+      "tema": "finanzas",
+      "titular_es": "El S&P 500 sube impulsado por optimismo tecnológico y expectativas de balances",
+      "resumen": "Wall Street anotó ganancias gracias a la disipación de temores sobre sobrevaloración inmediata en proyectos de inteligencia artificial.\nEl mercado asimiló con calma la firmeza de las tasas de interés a la espera de resultados financieros corporativos clave.\nLos analistas observan de cerca la rentabilidad operativa para validar si las elevadas valoraciones actuales se sostienen.",
+      "relevancia": 7,
+      "url": "https://www.bloomberglinea.com/mercados/sp-500-sube-tras-mayor-claridad-sobre-ingresos-de-openai-y-caida-del-petroleo/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Wall Street",
+        "S&P 500",
+        "acciones"
+      ]
+    },
+    {
+      "id": "ac081c684a",
+      "tema": "finanzas",
+      "titular_es": "El oro rebota tras ceder 5% debido al creciente apetito por cobertura fiscal",
+      "resumen": "El lingote recuperó terreno pese al endurecimiento en los rendimientos de los bonos soberanos internacionales.\nInversores institucionales continúan sumando posiciones como refugio ante las deudas públicas descontroladas a nivel global.\nEl soporte del metal dorado confirma su papel defensivo prioritario frente a la incertidumbre monetaria global.",
+      "relevancia": 7,
+      "url": "https://www.bloomberglinea.com/mercados/el-oro-rebota-tras-caer-5-en-un-mes-por-que-los-inversionistas-siguen-comprando/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🌍",
+      "tags": [
+        "oro",
+        "commodities",
+        "cobertura"
+      ]
+    },
+    {
+      "id": "eae2138cb2",
+      "tema": "finanzas",
+      "titular_es": "UBS advierte sobre el creciente coste político del programa de ajuste en Argentina",
+      "resumen": "El banco suizo publicó un reporte destacando que el respaldo social a las reformas de austeridad podría desgastarse con el tiempo.\nAunque reconoce avances macroeconómicos, subraya que la resistencia parlamentaria y social impondrá límites operacionales.\nLa entidad recomienda cautela a los gestores de cartera ante posibles demoras en la estabilización económica plena.",
+      "relevancia": 7,
+      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/advertencia-de-ubs-a-las-medidas-de-austeridad-en-argentina-el-costo-politico-aumenta-con-el-tiempo/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇦🇷",
+      "tags": [
+        "Argentina",
+        "UBS",
+        "riesgo político"
+      ]
+    },
+    {
+      "id": "aac058172b",
+      "tema": "emprendimiento",
+      "titular_es": "Startup de infraestructura tecnológica levanta 445 millones de dólares en Serie D",
+      "resumen": "La firma de computación escalable formalizó una mega-ronda de financiamiento para expandir sus centros de datos globales.\nLos fondos se destinarán al desarrollo de herramientas empresariales orientadas a cargas masivas de datos.\nLa operación demuestra que el capital de crecimiento continúa activo para compañías con ingresos recurrentes sólidos.",
+      "relevancia": 7,
+      "url": "https://oxide.computer/blog/our-445m-series-d",
+      "fuente": "oxide.computer (vía HN)",
+      "bandera": "🇺🇸",
+      "tags": [
+        "venture capital",
+        "financiación",
+        "infraestructura"
+      ]
+    },
+    {
+      "id": "3b4ff5aa88",
+      "tema": "emprendimiento",
+      "titular_es": "Amazon suprime acuerdos de confidencialidad para nuevos centros de datos",
+      "resumen": "Amazon dejará de imponer cláusulas secretas al negociar instalaciones de infraestructura con gobiernos locales.\nLa medida busca mitigar las fuertes quejas de comunidades por el consumo de agua y energía de los complejos de IA.\nLa decisión sigue los pasos de Microsoft y transformará la relación entre grandes tecnológicas y municipios.",
+      "relevancia": 7,
+      "url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "Amazon",
+        "centros de datos",
+        "regulación"
+      ]
+    },
+    {
+      "id": "18eaf7d014",
+      "tema": "ciencia",
+      "titular_es": "Fármacos GLP-1 reducen marcadores de edad biológica según investigaciones preliminares",
+      "resumen": "Datos expuestos en un congreso médico revelan que agonistas GLP-1 impactan favorablemente en la edad biológica de pacientes.\nQuienes utilizaron estos tratamientos para la diabetes u obesidad mostraron indicadores celulares rejuvenecidos frente a grupos control.\nLos científicos continúan mapeando efectos a largo plazo antes de avalar prescripciones con fines exclusivos de longevidad.",
+      "relevancia": 7,
+      "url": "https://www.technologyreview.com/2026/10/09/1146094/were-still-figuring-out-the-side-effects-of-glp-1-weight-loss-drugs/",
+      "fuente": "technologyreview.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "medicina",
+        "longevidad",
+        "fármacos GLP-1"
+      ]
+    },
+    {
+      "id": "f55f2edf09",
+      "tema": "ciencia",
+      "titular_es": "Descubren materiales químicos transitorios clave para baterías y combustibles solares",
+      "resumen": "Científicos identificaron fases moleculares intermedias que se manifiestan únicamente durante el calentamiento de reactivos.\nEntre los hallazgos destaca una variante inédita de vanadato de bismuto útil para convertir luz solar en hidrógeno verde.\nEl método promete transformar la ingeniería de materiales avanzados para sistemas de almacenamiento de energía limpia.",
+      "relevancia": 7,
+      "url": "https://www.sciencedaily.com/releases/2026/10/261007042118.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "materiales",
+        "energía solar",
+        "baterías"
+      ]
+    },
+    {
+      "id": "d36055ccdd",
+      "tema": "ciencia",
+      "titular_es": "Bacterias utilizan las propias enzimas virales para activar su sistema de defensa",
+      "resumen": "Un estudio descubrió que ciertas bacterias detectan ataques biológicos cuando una enzima del virus corta un sensor intracelular propio.\nEste corte desencadena una respuesta inmunitaria suicida que aborta la replicación del fago patógeno.\nEl mecanismo facilitará el diseño de terapias de fagos de precisión contra bacterias resistentes a antibióticos comunes.",
+      "relevancia": 7,
+      "url": "https://www.sciencedaily.com/releases/2026/10/261007042100.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "microbiología",
+        "bacterias",
+        "biotecnología"
+      ]
+    },
+    {
+      "id": "e9d18aa530",
+      "tema": "ciencia",
+      "titular_es": "Revisión clínica con 30.000 pacientes evalúa métodos efectivos para dejar el tabaco",
+      "resumen": "Un metaestudio internacional de 80 ensayos clínicos concluyó que los cigarrillos electrónicos con nicotina superan a parches y chicles.\nAunque las autoridades recalcan que no son inocuos, presentan tasas superiores de deshabituación tabáquica en fumadores crónicos.\nLas conclusiones aportan evidencia médica rigurosa para el diseño de políticas públicas de reducción de daños.",
+      "relevancia": 7,
+      "url": "https://www.sciencedaily.com/releases/2026/10/261006234524.htm",
+      "fuente": "sciencedaily.com",
+      "bandera": "🌍",
+      "tags": [
+        "salud pública",
+        "estudios clínicos",
+        "medicina"
+      ]
+    },
+    {
+      "id": "bb7acc7cf8",
+      "tema": "ia",
+      "titular_es": "Fabricantes reviven soporte para memoria RAM DDR4 ante subida de precios en componentes",
+      "resumen": "Intel y AMD están preparando procesadores compatibles con DDR4 para ofrecer alternativas económicas frente a la DDR5.\nGigabyte y otros ensambladores respaldaron la iniciativa para incentivar renovaciones de hardware a menor coste.\nLa decisión refleja cómo las presiones de suministro en semiconductores fuerzan retrocesos técnicos temporales en computación.",
+      "relevancia": 6,
+      "url": "https://www.theverge.com/games/1009140/ram-shortage-intel-amd-ddr4-comeback",
+      "fuente": "theverge.com",
+      "bandera": "🌍",
+      "tags": [
+        "hardware",
+        "memorias RAM",
+        "semiconductores"
+      ]
+    },
+    {
+      "id": "d3a475a54b",
+      "tema": "ia",
+      "titular_es": "La startup de agentes Instinct enfrenta competencia directa tras el lanzamiento de Muse",
+      "resumen": "Instinct, agente autónomo enfocado en comandos de texto que creció bajo modelo de invitación, afronta la llegada de alternativas abiertas.\nEl mercado de interfaces agénticas experimenta una rápida comoditización con herramientas capaces de ejecutar acciones complejas.\nAnalistas evalúan si su modelo de baja publicidad bastará para retener usuarios frente a rivales con respaldo corporativo.",
+      "relevancia": 6,
+      "url": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots",
+      "fuente": "theverge.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "agentes IA",
+        "startups",
+        "software"
+      ]
+    },
+    {
+      "id": "87a12b7525",
+      "tema": "finanzas",
+      "titular_es": "Central Puerto emite 50 millones de dólares al 6% para expandirse en Vaca Muerta y minería",
+      "resumen": "La compañía energética argentina cerró con éxito una colocación a tres años con ofertas que superaron los 60 millones de dólares.\nLos fondos se destinarán a financiar proyectos de generación eléctrica, infraestructura minera e hidrocarburos.\nLa colocación ratifica el apetito de financiamiento privado hacia activos energéticos estratégicos en la región.",
+      "relevancia": 6,
+      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/central-puerto-coloco-us50-millones-al-6-mientras-planea-crecer-en-vaca-muerta-mineria-y-generacion/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🇦🇷",
+      "tags": [
+        "energía",
+        "deuda corporativa",
+        "inversiones"
+      ]
+    },
+    {
+      "id": "0a395e7f42",
+      "tema": "finanzas",
+      "titular_es": "El fenómeno de El Niño amenaza con disparar precios agrícolas como café y cacao",
+      "resumen": "Análisis de materias primas anticipan shocks de oferta debido a eventos climáticos adversos en regiones productoras clave.\nEl alza en costes de fertilizantes y biocombustibles agrava la presión inflacionaria en canastas básicas de alimentos.\nFondos de cobertura incrementan posiciones largas en contratos de futuros de productos blandos.",
+      "relevancia": 6,
+      "url": "https://www.bloomberglinea.com/mercados/el-nino-amenaza-los-precios-de-los-alimentos-del-cafe-al-cacao-cuanto-pueden-subir/",
+      "fuente": "bloomberglinea.com",
+      "bandera": "🌍",
+      "tags": [
+        "agricultura",
+        "inflación",
+        "commodities"
+      ]
+    },
+    {
+      "id": "4e83760599",
+      "tema": "emprendimiento",
+      "titular_es": "LumenUs lanza software para automatizar trámites burocráticos tras el luto",
+      "resumen": "La startup desarrolló una plataforma que asiste a familiares en la resolución de papeleo y gestión de sucesiones patrimoniales.\nSu propuesta reduce semanas de gestiones judiciales y notariales mediante flujos asistidos por automatización inteligente.\nEl proyecto ejemplifica el auge de empresas emergentes orientadas a digitalizar procesos legales descuidados.",
+      "relevancia": 6,
+      "url": "https://techcrunch.com/2026/10/09/lumenus-helps-automate-tedious-paperwork-in-times-of-grief/",
+      "fuente": "techcrunch.com",
+      "bandera": "🇺🇸",
+      "tags": [
+        "legaltech",
+        "startups",
+        "automatización"
+      ]
     }
   ]
 }
